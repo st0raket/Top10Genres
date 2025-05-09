@@ -29,7 +29,7 @@ except ModuleNotFoundError as e:
 AGGREGATED_GENRE_DATA_DIR = config.PROCESSED_DIR / "genre_aggregated_timeseries"
 # --- Define Output Directories ---
 FORECAST_CSV_DIR = project_root / "outputs" / "forecasts"
-FORECAST_PLOT_DIR = project_root / "outputs" / "plots"
+FORECAST_PLOT_DIR = project_root / "outputs" / "plots" /"model"
 FORECAST_CSV_DIR.mkdir(parents=True, exist_ok=True) 
 FORECAST_PLOT_DIR.mkdir(parents=True, exist_ok=True) 
 # --- End Output Directories ---

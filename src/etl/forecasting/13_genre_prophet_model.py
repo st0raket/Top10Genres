@@ -31,7 +31,7 @@ except ModuleNotFoundError as e: print(f"Failed to import common modules or conf
 
 AGGREGATED_GENRE_DATA_DIR = config.PROCESSED_DIR / "genre_aggregated_timeseries"
 FORECAST_CSV_DIR = project_root / "outputs" / "forecasts"; FORECAST_CSV_DIR.mkdir(parents=True, exist_ok=True) 
-FORECAST_PLOT_DIR = project_root / "outputs" / "plots"; FORECAST_PLOT_DIR.mkdir(parents=True, exist_ok=True) 
+FORECAST_PLOT_DIR = project_root / "outputs" / "plots" /"model"; FORECAST_PLOT_DIR.mkdir(parents=True, exist_ok=True) 
 
 # --- Configuration ---
 N_TEST_PERIODS = 8          

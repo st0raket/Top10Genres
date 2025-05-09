@@ -95,7 +95,7 @@ def parse_args():
 def main():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
     args = parse_args()
-    tracks = extract(config.DATA_DIR / 'working' / 'unique_tracks.csv')
+    tracks = extract(config.PROCESSED_DIR / 'unique_tracks.csv')
     enriched = transform(tracks, args.workers)
     load(enriched, config.PROCESSED_DIR / 'lastfm_enriched_tracks.csv')
 

@@ -32,7 +32,7 @@ except ModuleNotFoundError as e: print(f"Failed to import common modules: {e}");
 TARGET_COLUMN = 'spotify_streams'
 # --- Output Directories ---
 FORECAST_CSV_DIR = project_root / "outputs" / "forecasts"; FORECAST_CSV_DIR.mkdir(parents=True, exist_ok=True) 
-FORECAST_PLOT_DIR = project_root / "outputs" / "plots"; FORECAST_PLOT_DIR.mkdir(parents=True, exist_ok=True) 
+FORECAST_PLOT_DIR = project_root / "outputs" / "plots"/ "model"; FORECAST_PLOT_DIR.mkdir(parents=True, exist_ok=True) 
 # --- End Output Directories ---
 
 # --- Configuration for FULL RUN with ROBUST TUNING ---

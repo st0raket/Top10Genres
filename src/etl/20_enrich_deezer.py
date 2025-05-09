@@ -132,7 +132,7 @@ def parse_args():
 def main():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
     args = parse_args()
-    input_csv = config.DATA_DIR / 'working' / 'unique_tracks.csv'
+    input_csv = config.PROCESSED_DIR  / 'unique_tracks.csv'
     rows = extract(input_csv)
     enriched = transform(rows, args.max_workers, args.max_retries)
     load(enriched, config.PROCESSED_DIR / 'unique_tracks_deezer_enriched.csv')
