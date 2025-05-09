@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:28:08.115982+00:00",
+  "elapsed": 0.29716,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:08.115982+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3859",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Liam+Payne&format=json&method=track.getInfo&track=Strip+That+Down"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Liam+Payne&format=json&method=track.getInfo&track=Strip+That+Down",
+  "_decoded_content": {
+    "track": {
+      "name": "Strip That Down",
+      "url": "https:\/\/www.last.fm\/music\/Liam+Payne\/_\/Strip+That+Down",
+      "duration": "205000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "286282",
+      "playcount": "1906590",
+      "artist": {
+        "name": "Liam Payne",
+        "url": "https:\/\/www.last.fm\/music\/Liam+Payne"
+      },
+      "album": {
+        "artist": "Liam Payne",
+        "title": "Liam Payne",
+        "url": "https:\/\/www.last.fm\/music\/Liam+Payne\/Liam+Payne",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c628c4ffbd8e6442f284b8bdc67179e7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c628c4ffbd8e6442f284b8bdc67179e7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c628c4ffbd8e6442f284b8bdc67179e7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c628c4ffbd8e6442f284b8bdc67179e7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Feb 2022, 14:54",
+        "summary": "\"Strip That Down\" is the debut solo single by English singer and songwriter Liam Payne, featuring guest vocals from American rapper Quavo. It was released on 19 May 2017, via Capitol Records in the UK and Republic Records in the US.\n\nSinger-songwriter Liam Payne has been in the studio since the beginning of 2017 working on his solo music. He posted pictures of him on his social media while being in the studio.\n\nAt the beginning of May 2017, hip-hop rapper Quavo from the hip-hop group Migos first teased the collaboration. <a href=\"http:\/\/www.last.fm\/music\/Liam+Payne\/_\/Strip+That+Down\">Read more on Last.fm<\/a>.",
+        "content": "\"Strip That Down\" is the debut solo single by English singer and songwriter Liam Payne, featuring guest vocals from American rapper Quavo. It was released on 19 May 2017, via Capitol Records in the UK and Republic Records in the US.\n\nSinger-songwriter Liam Payne has been in the studio since the beginning of 2017 working on his solo music. He posted pictures of him on his social media while being in the studio.\n\nAt the beginning of May 2017, hip-hop rapper Quavo from the hip-hop group Migos first teased the collaboration. He announced the collaboration during in an interview with Tim Westwood saying, \u201cI just came from a video today. My boy Liam from One Direction. We just shot that. Crazy vid. Crazy visuals. Crazy team. Cool guy, nice guy. It\u2019s goin\u2019 up. I wasn\u2019t even supposed to say that. It\u2019s gonna be a surprise though. Surprise!\"\n\nOn Wednesday, May 10, 2017, Liam posted on his social media a snippet of \u201cStrip That Down\u201d with beats of the song playing. With the caption of the \u201cEyes\u201d emoji. A day later, on Thursday, May 11, 2017, Liam revealed the title of the song and rapper Quavo from the hip-hop group Migos will be featured on the track. The snippet of the song was Quavo singing his part of the lyrics, \u201cGet down girl, love when you hit the ground, girl\u201d.\n\n\"Strip That Down\" is co-written by British singer-songwriter, Ed Sheeran who has worked with One Direction in the past as well. It was confirmed by Liam in an interview.\n\nAccording to Billboard, \u201cStrip That Down\u201d reached #1 on Twitter Trending 140 real-time chart 7 hours after it released. This song also reached #1 on iTunes Chart in 10 different countries prior to its released. The song reached a peak of number ten on the Billboard Hot 100, making it Payne\u2019s highest peaking single to date on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Liam+Payne\/_\/Strip+That+Down\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

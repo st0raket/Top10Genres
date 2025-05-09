@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:47.180956+00:00",
+  "elapsed": 0.205195,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:47.180956+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Brown&format=json&method=track.getInfo&track=Tempo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Brown&format=json&method=track.getInfo&track=Tempo",
+  "_decoded_content": {
+    "track": {
+      "name": "Tempo",
+      "url": "https:\/\/www.last.fm\/music\/Chris+Brown\/_\/Tempo",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "31855",
+      "playcount": "247574",
+      "artist": {
+        "name": "Chris Brown",
+        "mbid": "c234fa42-e6a6-443e-937e-2f4b073538a3",
+        "url": "https:\/\/www.last.fm\/music\/Chris+Brown"
+      },
+      "album": {
+        "artist": "Chris Brown",
+        "title": "Heartbreak on a Full Moon",
+        "url": "https:\/\/www.last.fm\/music\/Chris+Brown\/Heartbreak+on+a+Full+Moon",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/077b603a656bebf11b29fe7ce6210469.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/077b603a656bebf11b29fe7ce6210469.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/077b603a656bebf11b29fe7ce6210469.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/077b603a656bebf11b29fe7ce6210469.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "r n b",
+            "url": "https:\/\/www.last.fm\/tag\/r+n+b"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "rnb banger",
+            "url": "https:\/\/www.last.fm\/tag\/rnb+banger"
+          }
+        ]
+      }
+    }
+  }
+}

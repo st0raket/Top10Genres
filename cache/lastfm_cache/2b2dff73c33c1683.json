@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:48.242359+00:00",
+  "elapsed": 0.1849,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:48.242359+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3236",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Rocky&format=json&method=track.getInfo&track=Sundress"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Rocky&format=json&method=track.getInfo&track=Sundress",
+  "_decoded_content": {
+    "track": {
+      "name": "Sundress",
+      "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/Sundress",
+      "duration": "158000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1137968",
+      "playcount": "19842886",
+      "artist": {
+        "name": "A$AP Rocky",
+        "mbid": "25b7b584-d952-4662-a8b9-dd8cdfbfeb64",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky"
+      },
+      "album": {
+        "artist": "A$AP Rocky",
+        "title": "Sundress - Single",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky\/Sundress+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b705ae06953ab57080b289a6414a1702.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b705ae06953ab57080b289a6414a1702.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b705ae06953ab57080b289a6414a1702.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b705ae06953ab57080b289a6414a1702.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Nov 2018, 21:48",
+        "summary": "\u201cSundress\u201d is the first single by A$AP Rocky after the release of his third studio album, TESTING. The song and its accompanying music video were released on November 20, 2018.\n\nThe song heavily samples Tame Impala\u2019s \u201cWhy Won\u2019t You Make Up Your Mind?\u201d, released on their 2010 debut album Innerspeaker. Additionally, the song features production from frequent collaborators Danger Mouse and Hector Delgado, whilst also offering Rocky\u2019s first collaboration with Syk Sense. <a href=\"http:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/Sundress\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSundress\u201d is the first single by A$AP Rocky after the release of his third studio album, TESTING. The song and its accompanying music video were released on November 20, 2018.\n\nThe song heavily samples Tame Impala\u2019s \u201cWhy Won\u2019t You Make Up Your Mind?\u201d, released on their 2010 debut album Innerspeaker. Additionally, the song features production from frequent collaborators Danger Mouse and Hector Delgado, whilst also offering Rocky\u2019s first collaboration with Syk Sense.\n\n\u201cSundress\u201d is a highly-anticipated collaboration between Tame Impala and Rocky. News of a collaboration between the two surfaced in 2014, as a track titled \u201cUnicorn\u201d which sampled Tame\u2019s \u201cFeels Like We Only Go Backwards\u201d leaked online, however it was never officially released by Rocky. Moreover, in September 2017, a snippet surfaced of the since the unreleased song \u201cPretty Guy,\u201d speculated to be produced by Kevin Parker.\n\nThe music video for \u201cSundress\u201d was unexpectedly leaked on November 1, 2018, which was popularized by a since-deleted Twitter post. Furthermore, Rocky performed \u201cSundress\u201d live for the first time at the Camp Flog Gnaw Carnival on November 10, 2018. <a href=\"http:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/Sundress\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

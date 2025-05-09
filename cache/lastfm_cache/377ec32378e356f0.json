@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:01.330737+00:00",
+  "elapsed": 0.180441,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:01.330737+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2659",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=HEATED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=HEATED",
+  "_decoded_content": {
+    "track": {
+      "name": "HEATED",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/HEATED",
+      "duration": "258000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "444817",
+      "playcount": "11272856",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "RENAISSANCE",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/RENAISSANCE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "afrobeat",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeat"
+          },
+          {
+            "name": "dancehall",
+            "url": "https:\/\/www.last.fm\/tag\/dancehall"
+          },
+          {
+            "name": "afrobeats",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeats"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2022, 19:05",
+        "summary": "\u201cHEATED\u201d is an afrobeat-inspired song, that sees Beyonc\u00e9 following on from the subject matter of the previous track \u201cMOVE\u201d featuring Tems & Grace Jones, whereby she is attempting to cool down from her enemies\/haters that were told to \u201cMove out the way\u201d.\n\nThe Drake demo was partially leaked on the 19th of June 2022, rumoured to feature Beyonc\u00e9. It was unknown at the time if the song would be released until the RENAISSANCE tracklist and writing credits were unveiled, showing a Drake writing credit. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/HEATED\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHEATED\u201d is an afrobeat-inspired song, that sees Beyonc\u00e9 following on from the subject matter of the previous track \u201cMOVE\u201d featuring Tems & Grace Jones, whereby she is attempting to cool down from her enemies\/haters that were told to \u201cMove out the way\u201d.\n\nThe Drake demo was partially leaked on the 19th of June 2022, rumoured to feature Beyonc\u00e9. It was unknown at the time if the song would be released until the RENAISSANCE tracklist and writing credits were unveiled, showing a Drake writing credit. \u201cHEATED\u201d would mark the second collaboration between the two stars, since 2013\u2019s \u201cMine\u201d. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/HEATED\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

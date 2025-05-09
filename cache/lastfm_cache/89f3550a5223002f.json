@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:44:38.894349+00:00",
+  "elapsed": 0.184285,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:38.894349+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1959",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Getting+Over+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Getting+Over+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Getting Over You",
+      "url": "https:\/\/www.last.fm\/music\/Lauv\/_\/Getting+Over+You",
+      "duration": "255000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "78719",
+      "playcount": "477235",
+      "artist": {
+        "name": "Lauv",
+        "url": "https:\/\/www.last.fm\/music\/Lauv"
+      },
+      "album": {
+        "artist": "Lauv",
+        "title": "Getting Over You - Single",
+        "url": "https:\/\/www.last.fm\/music\/Lauv\/Getting+Over+You+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d2266cc2e101534450c4a8171362c665.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d2266cc2e101534450c4a8171362c665.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d2266cc2e101534450c4a8171362c665.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d2266cc2e101534450c4a8171362c665.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "hairy chest",
+            "url": "https:\/\/www.last.fm\/tag\/hairy+chest"
+          },
+          {
+            "name": "hunks",
+            "url": "https:\/\/www.last.fm\/tag\/hunks"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2022, 05:25",
+        "summary": "This song is about Ari trying to get over his ex girlfriend by spending his time with various other girls to try and replace his ex but realizing that he could never get over his ex-girlfriend because he still cares so much for her and could spend forever trying to move on from his ex. <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Getting+Over+You\">Read more on Last.fm<\/a>.",
+        "content": "This song is about Ari trying to get over his ex girlfriend by spending his time with various other girls to try and replace his ex but realizing that he could never get over his ex-girlfriend because he still cares so much for her and could spend forever trying to move on from his ex. <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Getting+Over+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

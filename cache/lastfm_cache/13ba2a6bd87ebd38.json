@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:29:40.500352+00:00",
+  "elapsed": 0.23504,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:40.500352+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "427",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Super+Junior&format=json&method=track.getInfo&track=Lo+Siento+%28Play-N-Skillz+Remix+ver.%29+%28Feat.+Leslie+Grace%29"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Super+Junior&format=json&method=track.getInfo&track=Lo+Siento+%28Play-N-Skillz+Remix+ver.%29+%28Feat.+Leslie+Grace%29",
+  "_decoded_content": {
+    "track": {
+      "name": "Lo Siento (Play-N-Skillz Remix ver.) (Feat. Leslie Grace)",
+      "url": "https:\/\/www.last.fm\/music\/Super+Junior\/_\/Lo+Siento+(Play-N-Skillz+Remix+ver.)+(Feat.+Leslie+Grace)",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "171",
+      "playcount": "1349",
+      "artist": {
+        "name": "Super Junior",
+        "mbid": "a13898e2-e488-498e-a89c-d0e920f74d4d",
+        "url": "https:\/\/www.last.fm\/music\/Super+Junior"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

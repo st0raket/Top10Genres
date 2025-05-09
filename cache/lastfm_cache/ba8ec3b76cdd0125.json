@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:39.477469+00:00",
+  "elapsed": 0.706915,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:39.477469+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2076",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Photograph"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Photograph",
+  "_decoded_content": {
+    "track": {
+      "name": "Photograph",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/Photograph",
+      "duration": "217000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "166188",
+      "playcount": "1082499",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "J. Cole",
+        "title": "KOD",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole\/KOD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b2de29268f9757d801dde7b6b682d15c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b2de29268f9757d801dde7b6b682d15c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b2de29268f9757d801dde7b6b682d15c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b2de29268f9757d801dde7b6b682d15c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 05:27",
+        "summary": "\u201cPhotograph\u201d describes Cole finding a girl\u2019s picture on social media and trying to finesse and get her.\n\nThematically the track sees Cole examining the state of romance and relationships in the social media era. Social media these days can be seen as a drug, relating to the album\u2019s title. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Photograph\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPhotograph\u201d describes Cole finding a girl\u2019s picture on social media and trying to finesse and get her.\n\nThematically the track sees Cole examining the state of romance and relationships in the social media era. Social media these days can be seen as a drug, relating to the album\u2019s title. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Photograph\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

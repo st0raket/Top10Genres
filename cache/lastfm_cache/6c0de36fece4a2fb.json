@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:50.281953+00:00",
+  "elapsed": 0.219479,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:50.281953+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2985",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pusha+T&format=json&method=track.getInfo&track=Infrared"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pusha+T&format=json&method=track.getInfo&track=Infrared",
+  "_decoded_content": {
+    "track": {
+      "name": "Infrared",
+      "url": "https:\/\/www.last.fm\/music\/Pusha+T\/_\/Infrared",
+      "duration": "170000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "181379",
+      "playcount": "1366867",
+      "artist": {
+        "name": "Pusha T",
+        "mbid": "14ecd19f-7121-4192-8549-e5056241a42f",
+        "url": "https:\/\/www.last.fm\/music\/Pusha+T"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hip Hop Battle",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hip+Hop+Battle",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f258f67da62197cd5bd00b13ccbcb880.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f258f67da62197cd5bd00b13ccbcb880.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f258f67da62197cd5bd00b13ccbcb880.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f258f67da62197cd5bd00b13ccbcb880.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "hiphop",
+            "url": "https:\/\/www.last.fm\/tag\/hiphop"
+          },
+          {
+            "name": "hardcore hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hardcore+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2021, 14:37",
+        "summary": "Infrared light is light that is usually invisible to human eyes, but using special kinds of film or devices, you can see things you wouldn\u2019t usually see.\n\nIn this way, Pusha T can see that a lot of rappers aren\u2019t real, specifically Drake, who he calls out for having ghostwriters and references subliminally throughout the track. The two rappers have beefed years ago, trading shots at each other on tracks like \u201cExodus 23:1\u201d and \u201cTwo Birds, One Stone.\u201d With \u201cInfrared,\u201d Push seems to reignite the beef. <a href=\"http:\/\/www.last.fm\/music\/Pusha+T\/_\/Infrared\">Read more on Last.fm<\/a>.",
+        "content": "Infrared light is light that is usually invisible to human eyes, but using special kinds of film or devices, you can see things you wouldn\u2019t usually see.\n\nIn this way, Pusha T can see that a lot of rappers aren\u2019t real, specifically Drake, who he calls out for having ghostwriters and references subliminally throughout the track. The two rappers have beefed years ago, trading shots at each other on tracks like \u201cExodus 23:1\u201d and \u201cTwo Birds, One Stone.\u201d With \u201cInfrared,\u201d Push seems to reignite the beef.\n\nOn Friday, May 25, 2018, Drake responded to this diss track, \u201cInfrared,\u201d with a diss track of his own called \u201cDuppy Freestyle.\u201d Drizzy sent shots at both Pusha T and Kanye West.\n\n\"Must\u2019ve had your infrared wrong, now your head on the beam\"\n\nHowever, Push would release his own response to \u201cDuppy Freestyle\u201d four days later, titled \u201cThe Story of Adidon.\u201d <a href=\"http:\/\/www.last.fm\/music\/Pusha+T\/_\/Infrared\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:45.185004+00:00",
+  "elapsed": 0.186014,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:45.185004+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2573",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Mercy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Mercy",
+  "_decoded_content": {
+    "track": {
+      "name": "Mercy",
+      "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Mercy",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "603946",
+      "playcount": "4788131",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes"
+      },
+      "album": {
+        "artist": "Shawn Mendes",
+        "title": "Illuminate (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/Illuminate+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          },
+          {
+            "name": "fallon",
+            "url": "https:\/\/www.last.fm\/tag\/fallon"
+          },
+          {
+            "name": "snl",
+            "url": "https:\/\/www.last.fm\/tag\/snl"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Aug 2016, 19:03",
+        "summary": "\u201cMercy\u201d is the second single from Mendes' second studio album Illuminate, which will arrive in September 2016. The track was released on August 18, 2016, as an instant download for people who had pre-ordered the album.\nDuring the week leading up to the release, Shawn released a snippet of the song every day, similar to the strategy he used for Illuminate\u2019s lead single \u201cTreat You Better\u201d.\nOn Instagram, Shawn also published shots from the photoshoot for the album cover as a way to promote \u201cMercy.\u201d <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Mercy\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMercy\u201d is the second single from Mendes' second studio album Illuminate, which will arrive in September 2016. The track was released on August 18, 2016, as an instant download for people who had pre-ordered the album.\nDuring the week leading up to the release, Shawn released a snippet of the song every day, similar to the strategy he used for Illuminate\u2019s lead single \u201cTreat You Better\u201d.\nOn Instagram, Shawn also published shots from the photoshoot for the album cover as a way to promote \u201cMercy.\u201d <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Mercy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

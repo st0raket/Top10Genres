@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:56.963443+00:00",
+  "elapsed": 0.19911,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:56.963443+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3224",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marian+Hill&format=json&method=track.getInfo&track=Down"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marian+Hill&format=json&method=track.getInfo&track=Down",
+  "_decoded_content": {
+    "track": {
+      "name": "Down",
+      "url": "https:\/\/www.last.fm\/music\/Marian+Hill\/_\/Down",
+      "duration": "197000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "173541",
+      "playcount": "1182444",
+      "artist": {
+        "name": "Marian Hill",
+        "mbid": "bb43f686-013d-493b-867b-f00582d951e0",
+        "url": "https:\/\/www.last.fm\/music\/Marian+Hill"
+      },
+      "album": {
+        "artist": "Marian Hill",
+        "title": "Act One",
+        "url": "https:\/\/www.last.fm\/music\/Marian+Hill\/Act+One",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98f1ce70a2e03965a133ae41d57c2082.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98f1ce70a2e03965a133ae41d57c2082.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98f1ce70a2e03965a133ae41d57c2082.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98f1ce70a2e03965a133ae41d57c2082.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "vocal",
+            "url": "https:\/\/www.last.fm\/tag\/vocal"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Aug 2022, 19:12",
+        "summary": "\"Down\" is a song by American electronic duo Marian Hill as a single from their debut album \"Act One\". Originally released in 2016, the song became popular after its adoption by Apple in an AirPods commercial.\n\nThe song started to gain more traction over the following weeks, debuting on the Billboard Hot 100 and Alternative Songs chart. It became a sleeper hit, peaking at number 21 on the Billboard Hot 100.\n\n\"Down\" debuted at number one on the Billboard Top TV Commercials chart in January 2017. <a href=\"http:\/\/www.last.fm\/music\/Marian+Hill\/_\/Down\">Read more on Last.fm<\/a>.",
+        "content": "\"Down\" is a song by American electronic duo Marian Hill as a single from their debut album \"Act One\". Originally released in 2016, the song became popular after its adoption by Apple in an AirPods commercial.\n\nThe song started to gain more traction over the following weeks, debuting on the Billboard Hot 100 and Alternative Songs chart. It became a sleeper hit, peaking at number 21 on the Billboard Hot 100.\n\n\"Down\" debuted at number one on the Billboard Top TV Commercials chart in January 2017. Shortly after, the song entered the Billboard Hot 100 at number 99 before rising in the following weeks. The song later entered the top 40 of the chart and peaked at number 21, going on to spend 17 weeks on the chart.\n\nThe video starts with Samantha Gongol and Jeremy Lloyd inside an elevator with walls covered with pink flowers. Samantha sings her verse as the elevator keeps going down. Next elevator comes with Samantha inside and Jeremy on the roof of elevator playing keyboard. As the video goes on, both Samantha and Jeremy are shown changing elevators and walking via lobby. In the end both faces anti-gravity as the elevator goes down in a high speed as its rope is cut off. <a href=\"http:\/\/www.last.fm\/music\/Marian+Hill\/_\/Down\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

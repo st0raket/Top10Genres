@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:36:59.787860+00:00",
+  "elapsed": 0.182585,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:59.787860+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1822",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=south+to+west"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=south+to+west",
+  "_decoded_content": {
+    "track": {
+      "name": "south to west",
+      "url": "https:\/\/www.last.fm\/music\/Gunna\/_\/south+to+west",
+      "duration": "122000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "159655",
+      "playcount": "1690236",
+      "artist": {
+        "name": "Gunna",
+        "url": "https:\/\/www.last.fm\/music\/Gunna"
+      },
+      "album": {
+        "artist": "Gunna",
+        "title": "DS4EVER",
+        "url": "https:\/\/www.last.fm\/music\/Gunna\/DS4EVER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/838ce453d3ac787d7509edf5495b7ce1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/838ce453d3ac787d7509edf5495b7ce1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/838ce453d3ac787d7509edf5495b7ce1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/838ce453d3ac787d7509edf5495b7ce1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "31 Oct 2022, 00:18",
+        "summary": "\u201csouth to west\u201d is the tenth song off of Gunna\u2019s third studio album \u201cDS4EVER\u201c. This was a highly anticipated song due to many snippets leaking before it was released. It is produced by Byrd & frequent Gunna collaborator Turbo.\n\n\u201csouth to west\u201d debuted at #70 on the Billboard Hot 100 week ending January 22, 2022. <a href=\"http:\/\/www.last.fm\/music\/Gunna\/_\/south+to+west\">Read more on Last.fm<\/a>.",
+        "content": "\u201csouth to west\u201d is the tenth song off of Gunna\u2019s third studio album \u201cDS4EVER\u201c. This was a highly anticipated song due to many snippets leaking before it was released. It is produced by Byrd & frequent Gunna collaborator Turbo.\n\n\u201csouth to west\u201d debuted at #70 on the Billboard Hot 100 week ending January 22, 2022. <a href=\"http:\/\/www.last.fm\/music\/Gunna\/_\/south+to+west\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

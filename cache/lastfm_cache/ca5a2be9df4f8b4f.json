@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:19.513709+00:00",
+  "elapsed": 0.216483,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:19.513709+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2915",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Summer+Bummer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Summer+Bummer",
+  "_decoded_content": {
+    "track": {
+      "name": "Summer Bummer",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Summer+Bummer",
+      "duration": "261000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "27686",
+      "playcount": "274063",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Lust for Life",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Lust+for+Life",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "trip-hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip-hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Dec 2023, 11:52",
+        "summary": "\"Summer Bummer\" is a song about discovering a newfound love in the summertime and taking risks in order to make it last. The song starts off talking about how it's never too late to be who you want to be and to say what you want to say, suggesting that change is never too late regardless of the time of year. The chorus, \"Hip-hop in the summer\/ Don't be a bummer, babe\/ Be my undercover lover,\/ Babe\" is an invitation to join in the summer fun, but it also suggests that taking risks can lead to something beautiful. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Summer+Bummer\">Read more on Last.fm<\/a>.",
+        "content": "\"Summer Bummer\" is a song about discovering a newfound love in the summertime and taking risks in order to make it last. The song starts off talking about how it's never too late to be who you want to be and to say what you want to say, suggesting that change is never too late regardless of the time of year. The chorus, \"Hip-hop in the summer\/ Don't be a bummer, babe\/ Be my undercover lover,\/ Babe\" is an invitation to join in the summer fun, but it also suggests that taking risks can lead to something beautiful. The verses explore more of the risks that are part of summertime love, such as meeting new people and investing in them, getting out of old relationships, and living one's life without fear. In the end, the song hopes to inspire the listener to take chances and make the most of the summer months. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Summer+Bummer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:44.641560+00:00",
+  "elapsed": 0.233747,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:44.641560+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2971",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=The+World%27s+First+Ever+Monster+Truck+Front+Flip"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=The+World%27s+First+Ever+Monster+Truck+Front+Flip",
+  "_decoded_content": {
+    "track": {
+      "name": "The World's First Ever Monster Truck Front Flip",
+      "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/The+World%27s+First+Ever+Monster+Truck+Front+Flip",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "181751",
+      "playcount": "1451518",
+      "artist": {
+        "name": "Arctic Monkeys",
+        "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys"
+      },
+      "album": {
+        "artist": "Arctic Monkeys",
+        "title": "Tranquility Base Hotel & Casino",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/Tranquility+Base+Hotel+&+Casino",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c7f6da092ec3fd3bdb02e3ff71c56fea.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c7f6da092ec3fd3bdb02e3ff71c56fea.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c7f6da092ec3fd3bdb02e3ff71c56fea.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c7f6da092ec3fd3bdb02e3ff71c56fea.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "art rock",
+            "url": "https:\/\/www.last.fm\/tag\/art+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Mar 2022, 06:13",
+        "summary": "This song describes people\u2019s infatuation with their own devices, and how technology offers up ease of access while potentially making us dumber in the process.\n\nThe song is probably named after a headline about Lee O'Donnell successfully accomplishing the world\u2019s first monster truck front flip at the 2017 Monster Jam World Finals.\n\nAlex Turner in an interview with Entertainment Weekly:\n\n\"That was verbatim a news story I was unable to resist clicking on about a year ago, and I was unable to resist naming a song after it. <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/The+World%27s+First+Ever+Monster+Truck+Front+Flip\">Read more on Last.fm<\/a>.",
+        "content": "This song describes people\u2019s infatuation with their own devices, and how technology offers up ease of access while potentially making us dumber in the process.\n\nThe song is probably named after a headline about Lee O'Donnell successfully accomplishing the world\u2019s first monster truck front flip at the 2017 Monster Jam World Finals.\n\nAlex Turner in an interview with Entertainment Weekly:\n\n\"That was verbatim a news story I was unable to resist clicking on about a year ago, and I was unable to resist naming a song after it. It was laid out for me. We\u2019re just living in a world where they\u2019re flipping monster trucks forward.\" <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/The+World%27s+First+Ever+Monster+Truck+Front+Flip\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

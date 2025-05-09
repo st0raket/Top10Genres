@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:43.277258+00:00",
+  "elapsed": 0.197091,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:43.277258+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2106",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Little+Freak"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Little+Freak",
+  "_decoded_content": {
+    "track": {
+      "name": "Little Freak",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Little+Freak",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "610353",
+      "playcount": "10419305",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Harry\u2019s House",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Harry%E2%80%99s+House",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 May 2022, 15:39",
+        "summary": "On \u201cLittle Freak\u201d, Harry reflects on a previous relationship he had, where things ended but he still thinks about this person and the time they spent together. Throughout the song, he looks back with regret on how the relationship ended, even wondering if they\u2019d do it all over again. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Little+Freak\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cLittle Freak\u201d, Harry reflects on a previous relationship he had, where things ended but he still thinks about this person and the time they spent together. Throughout the song, he looks back with regret on how the relationship ended, even wondering if they\u2019d do it all over again. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Little+Freak\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

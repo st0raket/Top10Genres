@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:17.229868+00:00",
+  "elapsed": 0.203545,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:17.229868+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "870",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sigala&format=json&method=track.getInfo&track=Feels+This+Good"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sigala&format=json&method=track.getInfo&track=Feels+This+Good",
+  "_decoded_content": {
+    "track": {
+      "name": "Feels This Good",
+      "url": "https:\/\/www.last.fm\/music\/Sigala\/_\/Feels+This+Good",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "27509",
+      "playcount": "128504",
+      "artist": {
+        "name": "Sigala",
+        "url": "https:\/\/www.last.fm\/music\/Sigala"
+      },
+      "album": {
+        "artist": "Sigala",
+        "title": "Every Cloud - Silver Linings",
+        "url": "https:\/\/www.last.fm\/music\/Sigala\/Every+Cloud+-+Silver+Linings",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7e6d3aad8265d98cbd594f0ae1c2a56e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7e6d3aad8265d98cbd594f0ae1c2a56e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7e6d3aad8265d98cbd594f0ae1c2a56e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7e6d3aad8265d98cbd594f0ae1c2a56e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

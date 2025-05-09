@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:41:38.825005+00:00",
+  "elapsed": 0.388646,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:38.825005+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3157",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=WE+PRAY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=WE+PRAY",
+  "_decoded_content": {
+    "track": {
+      "name": "WE PRAY",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/WE+PRAY",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "125090",
+      "playcount": "544309",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "snl",
+            "url": "https:\/\/www.last.fm\/tag\/snl"
+          },
+          {
+            "name": "dia de los muertos",
+            "url": "https:\/\/www.last.fm\/tag\/dia+de+los+muertos"
+          },
+          {
+            "name": "not that bad",
+            "url": "https:\/\/www.last.fm\/tag\/not+that+bad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2025, 04:05",
+        "summary": "\"We Pray\" (stylised in all caps) is a song by British rock band Coldplay featuring English rapper Little Simz, Nigerian singer Burna Boy, Palestinian-Chilean musician Elyanna and Argentine singer Tini. It was released on 23 August 2024, through Parlophone in the United Kingdom and Atlantic Records in the United States, as the second single from the band's tenth studio album Moon Music. Spanish and Arabic versions, featuring Tini and Elyanna as guests respectively, were released in September 2024. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/WE+PRAY\">Read more on Last.fm<\/a>.",
+        "content": "\"We Pray\" (stylised in all caps) is a song by British rock band Coldplay featuring English rapper Little Simz, Nigerian singer Burna Boy, Palestinian-Chilean musician Elyanna and Argentine singer Tini. It was released on 23 August 2024, through Parlophone in the United Kingdom and Atlantic Records in the United States, as the second single from the band's tenth studio album Moon Music. Spanish and Arabic versions, featuring Tini and Elyanna as guests respectively, were released in September 2024.\n\nThe song was met with positive reviews from music critics. Commercially, it reached the top 10 in Croatia, Ireland, Lebanon, New Zealand, and Poland, the top 20 in Belgium and the United Kingdom, and the top 40 in Argentina, Austria, Finland, Germany, the Netherlands and Switzerland. \"We Pray\" debuted at number 87 on the Billboard Hot 100 as well, becoming Little Simz, Elyanna and Tini's first entry on the chart. Coldplay performed the song on their Music of the Spheres World Tour and on Saturday Night Live. Aaron Williams from Uproxx praised the song as an \"operatic, epic-sounding anthem that finds [Coldplay and guest artists] reflecting on their hopes for the future and fears of the present, manifesting greatness amid adversity\". HotNewHipHop's Elias Andrews appreciated the collaborative nature of the track, set on \"a warbling bass line underneath and a massive string section\". Ranking \"We Pray\" as one of the best releases of the week, New Zealand Listener called it \"a life affirming chunk of memorable, lyrically catch-all pop which touches a lot of musical bases\". Phoenix FM, and Premier Christianity listed the song among the best of 2024. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/WE+PRAY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:44:03.502955+00:00",
+  "elapsed": 0.262758,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:03.502955+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3040",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TOKYO%E2%80%99S+REVENGE&format=json&method=track.getInfo&track=GOODMORNINGTOKYO%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TOKYO%E2%80%99S+REVENGE&format=json&method=track.getInfo&track=GOODMORNINGTOKYO%21",
+  "_decoded_content": {
+    "track": {
+      "name": "GOODMORNINGTOKYO!",
+      "url": "https:\/\/www.last.fm\/music\/TOKYO%E2%80%99S+REVENGE\/_\/GOODMORNINGTOKYO%21",
+      "duration": "150000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "263271",
+      "playcount": "2366493",
+      "artist": {
+        "name": "TOKYO\u2019S REVENGE",
+        "url": "https:\/\/www.last.fm\/music\/TOKYO%E2%80%99S+REVENGE"
+      },
+      "album": {
+        "artist": "TOKYO\u2019S REVENGE",
+        "title": "GOODMORNINGTOKYO!",
+        "url": "https:\/\/www.last.fm\/music\/TOKYO%E2%80%99S+REVENGE\/GOODMORNINGTOKYO%21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7012035ce174d5b64cba45f0676e4950.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7012035ce174d5b64cba45f0676e4950.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7012035ce174d5b64cba45f0676e4950.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7012035ce174d5b64cba45f0676e4950.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "gekyume",
+            "url": "https:\/\/www.last.fm\/tag\/gekyume"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Dec 2019, 03:15",
+        "summary": "\u201cGOODMORNINGTOKYO!\u201d is the breakout single by the east-coast based rapper, TOKYO\u2019S REVENGE. On this song, Tokyo addresses fake rappers, gang violence, and sexual encounters over a hard-hitting trap beat produced by Cliiifford. The title refers to the song\u2019s effect as a sort of introduction to new fans who had just become aware.\n\n\u201cGOODMORNINGTOKYO!\u201d passed over a million streams on his SoundCloud, making it his first song ever to reach a million streams on any platform. <a href=\"http:\/\/www.last.fm\/music\/TOKYO%E2%80%99S+REVENGE\/_\/GOODMORNINGTOKYO%21\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGOODMORNINGTOKYO!\u201d is the breakout single by the east-coast based rapper, TOKYO\u2019S REVENGE. On this song, Tokyo addresses fake rappers, gang violence, and sexual encounters over a hard-hitting trap beat produced by Cliiifford. The title refers to the song\u2019s effect as a sort of introduction to new fans who had just become aware.\n\n\u201cGOODMORNINGTOKYO!\u201d passed over a million streams on his SoundCloud, making it his first song ever to reach a million streams on any platform.\n\nThe song would originally see success as it was used within meme videos as well as just being a good song overall, but it wouldn\u2019t be until December of 2019 when the song would take off due to the success it found on TikTok, similarly to Lil Nas X\u2019s smash hit \u201cOld Town Road.\u201d\n\nTokyo signed to Interscope Records due to the success of the song.\n\n\u201cGOODMORNINGTOKYO!\u201d was certified gold by the RIAA in June of 2020.\n\nAlthough it doesn\u2019t appear on the RIAA\u2019s official website as of June 30, 2020, TOKYO would partially show off his gold plaque on June 30, 2020, through his Instagram story. <a href=\"http:\/\/www.last.fm\/music\/TOKYO%E2%80%99S+REVENGE\/_\/GOODMORNINGTOKYO%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

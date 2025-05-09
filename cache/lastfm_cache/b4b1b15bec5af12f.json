@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:32:19.634186+00:00",
+  "elapsed": 0.319009,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:19.634186+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1203",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Summer+Walker&format=json&method=track.getInfo&track=Anna+Mae"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Summer+Walker&format=json&method=track.getInfo&track=Anna+Mae",
+  "_decoded_content": {
+    "track": {
+      "name": "Anna Mae",
+      "url": "https:\/\/www.last.fm\/music\/Summer+Walker\/_\/Anna+Mae",
+      "duration": "137000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "79912",
+      "playcount": "822927",
+      "artist": {
+        "name": "Summer Walker",
+        "url": "https:\/\/www.last.fm\/music\/Summer+Walker"
+      },
+      "album": {
+        "artist": "Summer Walker",
+        "title": "Over It (Complete Set Video Version)",
+        "url": "https:\/\/www.last.fm\/music\/Summer+Walker\/Over+It+(Complete+Set+Video+Version)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d7c99563cebab9191cd39f72b937ea41.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d7c99563cebab9191cd39f72b937ea41.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d7c99563cebab9191cd39f72b937ea41.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d7c99563cebab9191cd39f72b937ea41.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "alexcore",
+            "url": "https:\/\/www.last.fm\/tag\/alexcore"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:36.069622+00:00",
+  "elapsed": 0.231025,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:36.069622+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2051",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=THE+ROOP&format=json&method=track.getInfo&track=Discoteque"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=THE+ROOP&format=json&method=track.getInfo&track=Discoteque",
+  "_decoded_content": {
+    "track": {
+      "name": "Discoteque",
+      "url": "https:\/\/www.last.fm\/music\/THE+ROOP\/_\/Discoteque",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "59055",
+      "playcount": "677488",
+      "artist": {
+        "name": "THE ROOP",
+        "url": "https:\/\/www.last.fm\/music\/THE+ROOP"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Eurovision Song Contest Rotterdam 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Eurovision+Song+Contest+Rotterdam+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "eurovision 2021",
+            "url": "https:\/\/www.last.fm\/tag\/eurovision+2021"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "lithuania",
+            "url": "https:\/\/www.last.fm\/tag\/lithuania"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 May 2021, 11:38",
+        "summary": "\"Discoteque\" is a song by Lithuanian pop-rock band THE ROOP. The song represented Lithuania in the Eurovision Song Contest 2021 in Rotterdam, the Netherlands, after winning the pre-selection competition Pabandom i\u0161 Naujo! 2021. <a href=\"http:\/\/www.last.fm\/music\/THE+ROOP\/_\/Discoteque\">Read more on Last.fm<\/a>.",
+        "content": "\"Discoteque\" is a song by Lithuanian pop-rock band THE ROOP. The song represented Lithuania in the Eurovision Song Contest 2021 in Rotterdam, the Netherlands, after winning the pre-selection competition Pabandom i\u0161 Naujo! 2021. <a href=\"http:\/\/www.last.fm\/music\/THE+ROOP\/_\/Discoteque\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

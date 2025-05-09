@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:38:50.819051+00:00",
+  "elapsed": 0.201525,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:50.819051+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1225",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=OFFICIAL+HIGE+DANDISM&format=json&method=track.getInfo&track=White+Noise"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=OFFICIAL+HIGE+DANDISM&format=json&method=track.getInfo&track=White+Noise",
+  "_decoded_content": {
+    "track": {
+      "name": "white noise",
+      "url": "https:\/\/www.last.fm\/music\/Official+HIGE+DANdism\/_\/white+noise",
+      "duration": "254000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "34835",
+      "playcount": "428280",
+      "artist": {
+        "name": "Official HIGE DANdism",
+        "url": "https:\/\/www.last.fm\/music\/Official+HIGE+DANdism"
+      },
+      "album": {
+        "artist": "Official\u9aed\u7537dism",
+        "title": "White Noise",
+        "url": "https:\/\/www.last.fm\/music\/Official%E9%AB%AD%E7%94%B7dism\/White+Noise",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fdb348b81494069e2e5645a4785922ef.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fdb348b81494069e2e5645a4785922ef.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fdb348b81494069e2e5645a4785922ef.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fdb348b81494069e2e5645a4785922ef.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Tokyo Revengers",
+            "url": "https:\/\/www.last.fm\/tag\/Tokyo+Revengers"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          },
+          {
+            "name": "J-rock",
+            "url": "https:\/\/www.last.fm\/tag\/J-rock"
+          }
+        ]
+      }
+    }
+  }
+}

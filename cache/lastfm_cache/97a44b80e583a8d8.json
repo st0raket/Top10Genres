@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:51.711400+00:00",
+  "elapsed": 0.19591,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:51.711400+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3295",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Heavy+Is+the+Crown"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Heavy+Is+the+Crown",
+  "_decoded_content": {
+    "track": {
+      "name": "Heavy Is the Crown",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Heavy+Is+the+Crown",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "405988",
+      "playcount": "6257250",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "Heavy Is The Crown",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/Heavy+Is+The+Crown",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b9fa32b41bbe8344c64e90b5af5564de.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b9fa32b41bbe8344c64e90b5af5564de.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b9fa32b41bbe8344c64e90b5af5564de.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b9fa32b41bbe8344c64e90b5af5564de.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Nu Metal",
+            "url": "https:\/\/www.last.fm\/tag\/Nu+Metal"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "rapcore",
+            "url": "https:\/\/www.last.fm\/tag\/rapcore"
+          },
+          {
+            "name": "metal",
+            "url": "https:\/\/www.last.fm\/tag\/metal"
+          },
+          {
+            "name": "hardcore",
+            "url": "https:\/\/www.last.fm\/tag\/hardcore"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Sep 2024, 15:15",
+        "summary": "\u201cHeavy Is The Crown\u201d is the anticipated second single from Linkin Park\u2019s eighth studio album, From Zero. The song is also the official League of Legends Worlds 2024 anthem, with its release date being the day before Worlds 2024 begins.\n\nRumors of the song being linked to League of Legends started in early September 2024 after the official LoL account replied to a Linkin Park tweet with a crown emoji. Fans quickly interpreted it as a reference to the song title <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Heavy+Is+the+Crown\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHeavy Is The Crown\u201d is the anticipated second single from Linkin Park\u2019s eighth studio album, From Zero. The song is also the official League of Legends Worlds 2024 anthem, with its release date being the day before Worlds 2024 begins.\n\nRumors of the song being linked to League of Legends started in early September 2024 after the official LoL account replied to a Linkin Park tweet with a crown emoji. Fans quickly interpreted it as a reference to the song title, and Mike Shinoda also hinted at the connection by replying with a fire emoji to a tweet from Arcane.\n\nOn September 21, 2024, Linkin Park further implied the collaboration when the words \u201cMake them believe\u201d \u2014 the slogan for Worlds 2024 \u2014 were added at the bottom of their website upon loading. \u201cHeavy Is The Crown\u201d would finally make a surprise debut the next day when the band played it live in Hamburg, Germany as a part of the show\u2019s encore on the From Zero World Tour. Official confirmation of the League of Legends collab would follow soon after.\n\nA different rendition of the song also appears in season two of Arcane, the Netflix series based on League of Legends, performed by members Mike Shinoda and Emily Armstrong. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Heavy+Is+the+Crown\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

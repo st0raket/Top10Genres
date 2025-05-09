@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:34:17.160964+00:00",
+  "elapsed": 0.208971,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:17.160964+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2024",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=RIP+Luv"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=RIP+Luv",
+  "_decoded_content": {
+    "track": {
+      "name": "RIP Luv",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/RIP+Luv",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "282233",
+      "playcount": "3005989",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Metro Boomin",
+            "url": "https:\/\/www.last.fm\/tag\/Metro+Boomin"
+          },
+          {
+            "name": "21 savage",
+            "url": "https:\/\/www.last.fm\/tag\/21+savage"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jan 2022, 01:10",
+        "summary": "On \u201cRIP Luv,\u201d Savage gives a heartfelt performance about his disillusion with romantic love. However, it also deals with the pain in his heart from the friends and fellow gang members that he has lost. He raps about how he has to puts on a show when he is in public despite being miserable mentally.\n\nThe song\u2019s somber production and introspective lyrics are reminiscent of Savage\u2019s December 2018 standout track, \u201cball w\/o you.\u201d\n\nAlso, 21 Savage and Metro Boomin notably reunite with Zaytoven <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/RIP+Luv\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cRIP Luv,\u201d Savage gives a heartfelt performance about his disillusion with romantic love. However, it also deals with the pain in his heart from the friends and fellow gang members that he has lost. He raps about how he has to puts on a show when he is in public despite being miserable mentally.\n\nThe song\u2019s somber production and introspective lyrics are reminiscent of Savage\u2019s December 2018 standout track, \u201cball w\/o you.\u201d\n\nAlso, 21 Savage and Metro Boomin notably reunite with Zaytoven, whom they have both worked with regularly throughout their respective careers. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/RIP+Luv\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

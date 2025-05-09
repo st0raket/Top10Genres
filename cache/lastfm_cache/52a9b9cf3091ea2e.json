@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:44:20.419004+00:00",
+  "elapsed": 0.339243,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:20.419004+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2166",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Make+Believe"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Make+Believe",
+  "_decoded_content": {
+    "track": {
+      "name": "Make Believe",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Make+Believe",
+      "duration": "142000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "240501",
+      "playcount": "4187654",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Rap 2020",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Rap+2020",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6f61223d7e6dfa4be3314a46a65fb85f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6f61223d7e6dfa4be3314a46a65fb85f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6f61223d7e6dfa4be3314a46a65fb85f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6f61223d7e6dfa4be3314a46a65fb85f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          },
+          {
+            "name": "she was gonna break my heart regardless",
+            "url": "https:\/\/www.last.fm\/tag\/she+was+gonna+break+my+heart+regardless"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 15:49",
+        "summary": "On the concluding track to Juice WRLD\u2019s sophomore effort, Juice raps\/sings about a girl he is interested in, but can\u2019t have, leading him to want to do crazy things such as throwing himself and the girl off a bridge, like in Eminem\u2019s iconic hit, \u201cStan.\u201d\n\nThis song samples \u201cRunnin\u201d by The Pharcyde. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Make+Believe\">Read more on Last.fm<\/a>.",
+        "content": "On the concluding track to Juice WRLD\u2019s sophomore effort, Juice raps\/sings about a girl he is interested in, but can\u2019t have, leading him to want to do crazy things such as throwing himself and the girl off a bridge, like in Eminem\u2019s iconic hit, \u201cStan.\u201d\n\nThis song samples \u201cRunnin\u201d by The Pharcyde. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Make+Believe\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

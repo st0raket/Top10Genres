@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:11.035839+00:00",
+  "elapsed": 0.178141,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:11.035839+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3533",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jonas+Brothers&format=json&method=track.getInfo&track=Sucker"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jonas+Brothers&format=json&method=track.getInfo&track=Sucker",
+  "_decoded_content": {
+    "track": {
+      "name": "Sucker",
+      "url": "https:\/\/www.last.fm\/music\/Jonas+Brothers\/_\/Sucker",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "679081",
+      "playcount": "5836832",
+      "artist": {
+        "name": "Jonas Brothers",
+        "mbid": "6e019bc6-5c23-4935-94f0-4a896631d846",
+        "url": "https:\/\/www.last.fm\/music\/Jonas+Brothers"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Spring Songs",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Spring+Songs",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/97a16dea6db20099c44af41f4bdc4e77.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/97a16dea6db20099c44af41f4bdc4e77.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/97a16dea6db20099c44af41f4bdc4e77.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/97a16dea6db20099c44af41f4bdc4e77.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "comeback",
+            "url": "https:\/\/www.last.fm\/tag\/comeback"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Mar 2022, 01:16",
+        "summary": "\u201cSucker\u201d is an upbeat pop song, and the band\u2019s first single in almost six years. The brothers collectively portray someone who is infatuated with someone and for whom they would go to great lengths. The light rock instrumentation throughout the track is minimal, leaving the central focus on the brothers' vocals on their comeback single.\n\nThe song was teased in a YouTube video released by The Late Late Show with James Corden and was officially confirmed through a Twitter post. <a href=\"http:\/\/www.last.fm\/music\/Jonas+Brothers\/_\/Sucker\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSucker\u201d is an upbeat pop song, and the band\u2019s first single in almost six years. The brothers collectively portray someone who is infatuated with someone and for whom they would go to great lengths. The light rock instrumentation throughout the track is minimal, leaving the central focus on the brothers' vocals on their comeback single.\n\nThe song was teased in a YouTube video released by The Late Late Show with James Corden and was officially confirmed through a Twitter post.\n\nIn addition to posting a picture on their social media, the band also teased their reunion on The Late Late Show with James Corden in a clip similar to his hit, Carpool Karaoke, one day before the song\u2019s release.\n\nIn the caption of an Instagram post from Nick Jonas, he stated that the music video was filmed at an unnamed location in England:\n\n\"#SuckerVideo is officially out! We really had the best time shooting this video in England with our family. Hope you guys love it. Feels good to be back \ud83d\ude0e @jonasbrothers\"\n\nAccording to an article from the \u2018Evening Standard\u2019 however, the music video was filmed at Hatfield House in Hertfordshire, England.\n\n\u201cSucker\u201d debuted at #1 on the Hot 100 during the week ending March 16, 2019. This became the group\u2019s first song to top the chart and third top 10 song overall. They are also the first group to debut at #1 on the Hot 100 this century.\n\nThe song was nominated for \u201cBest Pop Duo\/Group Performance\u201d at the 2019 62nd Annual Grammy Awards. <a href=\"http:\/\/www.last.fm\/music\/Jonas+Brothers\/_\/Sucker\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

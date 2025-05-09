@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:35:51.713096+00:00",
+  "elapsed": 0.183999,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:51.713096+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1162",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jonasu&format=json&method=track.getInfo&track=Black+Magic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jonasu&format=json&method=track.getInfo&track=Black+Magic",
+  "_decoded_content": {
+    "track": {
+      "name": "Black Magic",
+      "url": "https:\/\/www.last.fm\/music\/Jonasu\/_\/Black+Magic",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "58108",
+      "playcount": "369944",
+      "artist": {
+        "name": "Jonasu",
+        "url": "https:\/\/www.last.fm\/music\/Jonasu"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Zene Edz\u00e9shez 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Zene+Edz%C3%A9shez+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cf7136cf33bfe86ab76a3907ce055b8a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cf7136cf33bfe86ab76a3907ce055b8a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cf7136cf33bfe86ab76a3907ce055b8a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cf7136cf33bfe86ab76a3907ce055b8a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "deep house",
+            "url": "https:\/\/www.last.fm\/tag\/deep+house"
+          },
+          {
+            "name": "slap house",
+            "url": "https:\/\/www.last.fm\/tag\/slap+house"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:43.266131+00:00",
+  "elapsed": 0.181026,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:43.266131+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5307",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Numb"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Numb",
+  "_decoded_content": {
+    "track": {
+      "name": "Numb",
+      "mbid": "f3217a42-bb14-4191-8c2e-c5e5413467be",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Numb",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2474539",
+      "playcount": "26388089",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "Meteora",
+        "mbid": "f3bfd870-0708-46d0-9953-9f5f573fb600",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/Meteora",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fee069a98672ac3719f6c766ff6f0f9c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fee069a98672ac3719f6c766ff6f0f9c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fee069a98672ac3719f6c766ff6f0f9c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fee069a98672ac3719f6c766ff6f0f9c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "13"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "Nu Metal",
+            "url": "https:\/\/www.last.fm\/tag\/Nu+Metal"
+          },
+          {
+            "name": "Linkin Park",
+            "url": "https:\/\/www.last.fm\/tag\/Linkin+Park"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Dec 2009, 12:59",
+        "summary": "\"Numb\" is the thirteenth and final song on the 2003 album Meteora by the American nu-metal band Linkin Park. It was released as the album's third single. One of Linkin Park's most well-known and popular tracks, \"Numb\" topped the Billboard Hot Modern Rock Tracks chart for 12 weeks. The song spent six weeks at the top of the chart in 2003 and six weeks in 2004, making it the only song in history to be the most successful song of the year on the Hot Modern Rock Tracks chart for two years. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Numb\">Read more on Last.fm<\/a>.",
+        "content": "\"Numb\" is the thirteenth and final song on the 2003 album Meteora by the American nu-metal band Linkin Park. It was released as the album's third single. One of Linkin Park's most well-known and popular tracks, \"Numb\" topped the Billboard Hot Modern Rock Tracks chart for 12 weeks. The song spent six weeks at the top of the chart in 2003 and six weeks in 2004, making it the only song in history to be the most successful song of the year on the Hot Modern Rock Tracks chart for two years. The song also spent three weeks atop the Billboard Hot Mainstream Rock Tracks chart and peaked at #11 on the Billboard Hot 100. It has been criticized for sounding similar to a song called \"Pushing Me Away\", which was in their Hybrid Theory album.\n\nThe song was later combined with Jay-Z's song \"Encore\" to create \"Numb\/Encore\", a massive hit for both artists which was featured on the album Collision Course. A techno remix of \"Numb\" has received over 3 million views on YouTube. \"Numb\" was ranked #92 on Rhapsody's list of the Top 100 Tracks of the Decade.\n\nMusic Video\nDirected by Joe Hahn, the indoor scenes of the music video are set in a church in Los Angeles, while the outdoor scenes are set in Prague, in the Czech Republic. The school interiors, the classroom, the corridor, and the outside playground are set in the Johannes Kepler's High School in Prague.\n\nThe video follows the domestic and social problems faced during a day in the life of an unpopular young female student (portrayed by Briana Evigan). The girl apparently spends much of her time drawing pictures, revealing that she probably has dreams of becoming an artist. She is largely ignored and ridiculed at school, considering that when she is told off by the teacher for drawing in class everybody laughs at her, when she trips on the stairs nobody stops to help her up, and when she tries to join a group of girls at a lunch table they immediately get up and leave. Also, there is a scene where her mother is ridiculing her for not being the daughter she wanted. There are also self-inflicted cut marks on her arms, which actually say \"NUMB\" - the title of the song. She is shown near the end of the video rubbing the marks after a stressful day and then deciding to work off her stress by throwing paint instead. At the end of the video, the girl runs into the church that the band was playing in, almost as if she heard them.\n\nThroughout almost the whole video Chester Bennington has his eyes closed, they can just be seen open when he blinks as he sings the word: \"Tightly\" from the second verse starting: \"Can't you see that you're smothering me?\"\n\nMuchMusic's 100 Best Videos ranked it at #40.\n\nThe track became one of Linkin Park's most critically-acclaimed songs, as well as one of their most commercially successful, peaking at #11 on the U.S. Billboard Hot 100 on February 24, 2004, and spending 3 weeks on top of the Mainstream Rock Tracks and 12 weeks on top of the Modern Rock Tracks. \"Numb\" was the 33rd-best-performing single on the Hot 100 in 2004. It was also successful in Oceania, peaking at #10 in Australia and #13 in New Zealand. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Numb\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

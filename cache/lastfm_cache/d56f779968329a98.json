@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:29:55.714316+00:00",
+  "elapsed": 0.218355,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:55.714316+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "818",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Damso&format=json&method=track.getInfo&track=Perplexe"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Damso&format=json&method=track.getInfo&track=Perplexe",
+  "_decoded_content": {
+    "track": {
+      "name": "Perplexe",
+      "url": "https:\/\/www.last.fm\/music\/Damso\/_\/Perplexe",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "12206",
+      "playcount": "110474",
+      "artist": {
+        "name": "Damso",
+        "url": "https:\/\/www.last.fm\/music\/Damso"
+      },
+      "album": {
+        "artist": "Damso",
+        "title": "Lithop\u00e9dion",
+        "url": "https:\/\/www.last.fm\/music\/Damso\/Lithop%C3%A9dion",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c5c694d3e96dbe60ef085bd42f9efa2b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c5c694d3e96dbe60ef085bd42f9efa2b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c5c694d3e96dbe60ef085bd42f9efa2b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c5c694d3e96dbe60ef085bd42f9efa2b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

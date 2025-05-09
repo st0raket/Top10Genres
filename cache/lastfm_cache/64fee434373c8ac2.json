@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:36:52.233975+00:00",
+  "elapsed": 0.188197,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:52.233975+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2044",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Feel+Alone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Feel+Alone",
+  "_decoded_content": {
+    "track": {
+      "name": "Feel Alone",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Feel+Alone",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "95798",
+      "playcount": "1650029",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "Fighting Demons",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/Fighting+Demons",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Dec 2021, 15:59",
+        "summary": "On \u201cFeel Alone,\u201d Juice WRLD details his loneliness with heartbreak, noting how he outweighs these feelings with drugs.\n\nThe track was first previewed on June 16, 2019 through Juice\u2019s Instagram live. The track later made an official release through Fighting Demons on December 10, 2021. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Feel+Alone\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cFeel Alone,\u201d Juice WRLD details his loneliness with heartbreak, noting how he outweighs these feelings with drugs.\n\nThe track was first previewed on June 16, 2019 through Juice\u2019s Instagram live. The track later made an official release through Fighting Demons on December 10, 2021. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Feel+Alone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

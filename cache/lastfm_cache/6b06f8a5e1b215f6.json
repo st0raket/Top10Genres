@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:38:07.256224+00:00",
+  "elapsed": 0.215695,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:07.256224+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1212",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bailey+Zimmerman&format=json&method=track.getInfo&track=Where+It+Ends"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bailey+Zimmerman&format=json&method=track.getInfo&track=Where+It+Ends",
+  "_decoded_content": {
+    "track": {
+      "name": "Where It Ends",
+      "url": "https:\/\/www.last.fm\/music\/Bailey+Zimmerman\/_\/Where+It+Ends",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "69016",
+      "playcount": "721212",
+      "artist": {
+        "name": "Bailey Zimmerman",
+        "url": "https:\/\/www.last.fm\/music\/Bailey+Zimmerman"
+      },
+      "album": {
+        "artist": "Bailey Zimmerman",
+        "title": "Where It Ends",
+        "url": "https:\/\/www.last.fm\/music\/Bailey+Zimmerman\/Where+It+Ends",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/eb989e913ab84bf7d1db4153a04578ec.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/eb989e913ab84bf7d1db4153a04578ec.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/eb989e913ab84bf7d1db4153a04578ec.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/eb989e913ab84bf7d1db4153a04578ec.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "im not angry",
+            "url": "https:\/\/www.last.fm\/tag\/im+not+angry"
+          }
+        ]
+      }
+    }
+  }
+}

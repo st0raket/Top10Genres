@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:19.527633+00:00",
+  "elapsed": 0.187284,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:19.527633+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2546",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DMX&format=json&method=track.getInfo&track=X+Gon%27+Give+It+to+Ya"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DMX&format=json&method=track.getInfo&track=X+Gon%27+Give+It+to+Ya",
+  "_decoded_content": {
+    "track": {
+      "name": "X Gon' Give It To Ya",
+      "mbid": "e6dfd07a-923a-4728-94b5-767ec22a541e",
+      "url": "https:\/\/www.last.fm\/music\/DMX\/_\/X+Gon%27+Give+It+To+Ya",
+      "duration": "217000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "629011",
+      "playcount": "3679321",
+      "artist": {
+        "name": "DMX",
+        "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+        "url": "https:\/\/www.last.fm\/music\/DMX"
+      },
+      "album": {
+        "artist": "DMX",
+        "title": "The Definition Of X: Pick Of The Litter",
+        "mbid": "797ec0b3-e43d-4e75-9ebc-bd9fbc11a26a",
+        "url": "https:\/\/www.last.fm\/music\/DMX\/The+Definition+Of+X:+Pick+Of+The+Litter",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4e72cad5b61544cec44376142ea87824.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4e72cad5b61544cec44376142ea87824.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4e72cad5b61544cec44376142ea87824.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4e72cad5b61544cec44376142ea87824.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "dmx",
+            "url": "https:\/\/www.last.fm\/tag\/dmx"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "gangsta",
+            "url": "https:\/\/www.last.fm\/tag\/gangsta"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Apr 2022, 13:47",
+        "summary": "\"X Gon' Give It to Ya\" is a 2003 song by American rapper DMX, released as the lead single from the soundtrack Cradle 2 the Grave. The song is also a hidden track on DMX's greatest hits album, The Definition of X: The Pick of the Litter and is a bonus track on European releases of his then-current album Grand Champ (from whose sessions the song is taken). It was written by DMX and produced by co-soundtrack organizer Shatek. <a href=\"http:\/\/www.last.fm\/music\/DMX\/_\/X+Gon%27+Give+It+To+Ya\">Read more on Last.fm<\/a>.",
+        "content": "\"X Gon' Give It to Ya\" is a 2003 song by American rapper DMX, released as the lead single from the soundtrack Cradle 2 the Grave. The song is also a hidden track on DMX's greatest hits album, The Definition of X: The Pick of the Litter and is a bonus track on European releases of his then-current album Grand Champ (from whose sessions the song is taken). It was written by DMX and produced by co-soundtrack organizer Shatek. <a href=\"http:\/\/www.last.fm\/music\/DMX\/_\/X+Gon%27+Give+It+To+Ya\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

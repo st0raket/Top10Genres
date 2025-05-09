@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:51.288158+00:00",
+  "elapsed": 0.248331,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:51.288158+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2952",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ZAYN&format=json&method=track.getInfo&track=Entertainer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ZAYN&format=json&method=track.getInfo&track=Entertainer",
+  "_decoded_content": {
+    "track": {
+      "name": "Entertainer",
+      "url": "https:\/\/www.last.fm\/music\/Zayn\/_\/Entertainer",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "187865",
+      "playcount": "2836954",
+      "artist": {
+        "name": "Zayn",
+        "url": "https:\/\/www.last.fm\/music\/Zayn"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Your Winter Playlist 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Your+Winter+Playlist+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/47a6df4de2a3b9f22621afd1422cfa0a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/47a6df4de2a3b9f22621afd1422cfa0a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/47a6df4de2a3b9f22621afd1422cfa0a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/47a6df4de2a3b9f22621afd1422cfa0a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "2018 single",
+            "url": "https:\/\/www.last.fm\/tag\/2018+single"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 May 2022, 03:46",
+        "summary": "The track is about Zayn\u2019s experiences with a lover who also happens to be an entertainer. Sofia Jamora features in both the \u201cEntertainer\u201d and \u201cLet Me\u201d music videos, acting as the girl that Zayn refers to in the songs. However, Jamora and Malik don\u2019t have any history. Some speculate that Jamora was casted for the videos due to her strong resemblance to Gigi Hadid, who at the time was Malik\u2019s ex-girlfriend. As of February 2020, Hadid and Malik are back together. <a href=\"http:\/\/www.last.fm\/music\/Zayn\/_\/Entertainer\">Read more on Last.fm<\/a>.",
+        "content": "The track is about Zayn\u2019s experiences with a lover who also happens to be an entertainer. Sofia Jamora features in both the \u201cEntertainer\u201d and \u201cLet Me\u201d music videos, acting as the girl that Zayn refers to in the songs. However, Jamora and Malik don\u2019t have any history. Some speculate that Jamora was casted for the videos due to her strong resemblance to Gigi Hadid, who at the time was Malik\u2019s ex-girlfriend. As of February 2020, Hadid and Malik are back together. As \u201cLet Me\u201d was about Gigi Hadid, it is a safe assumption that this is the same case with \u201cEntertainer,\u201d as the track is the sequel to \u201cLet Me\u201d. \n\n\"Entertainer\u201d is Zayn Malik\u2019s second 2018 single following the soothy track released back in April this year, \u201cLet Me\u201d. \n\nMalik released this new single on May 23, 2018 by a worldwide premiere on Beats 1 along with a next video on his official VEVO channel with a follow-up. Some of the clips have appeared on the trailer of previous single. <a href=\"http:\/\/www.last.fm\/music\/Zayn\/_\/Entertainer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

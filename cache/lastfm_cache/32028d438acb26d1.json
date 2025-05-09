@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:55.737610+00:00",
+  "elapsed": 0.184236,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:55.737610+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2092",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Boss+Bitch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Boss+Bitch",
+  "_decoded_content": {
+    "track": {
+      "name": "Boss Bitch",
+      "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/_\/Boss+Bitch",
+      "duration": "134000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "864685",
+      "playcount": "10518955",
+      "artist": {
+        "name": "Doja Cat",
+        "mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat"
+      },
+      "album": {
+        "artist": "Doja Cat",
+        "title": "Boss Bitch",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/Boss+Bitch",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4108ebf77eabb6264d19c03f5fd98d31.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4108ebf77eabb6264d19c03f5fd98d31.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4108ebf77eabb6264d19c03f5fd98d31.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4108ebf77eabb6264d19c03f5fd98d31.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "hip house",
+            "url": "https:\/\/www.last.fm\/tag\/hip+house"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2021, 21:38",
+        "summary": "\"Boss Bitch\" is a song by American singer and rapper Doja Cat, featured on the Birds of Prey soundtrack Birds of Prey: The Album . It was released as the soundtrack's third single on January 23, 2020.\n\nIt was penned by Doja Cat, rapper and artist Ashnikko, Imad Royal and Sky Adam\u2019s. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Boss+Bitch\">Read more on Last.fm<\/a>.",
+        "content": "\"Boss Bitch\" is a song by American singer and rapper Doja Cat, featured on the Birds of Prey soundtrack Birds of Prey: The Album . It was released as the soundtrack's third single on January 23, 2020.\n\nIt was penned by Doja Cat, rapper and artist Ashnikko, Imad Royal and Sky Adam\u2019s. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Boss+Bitch\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

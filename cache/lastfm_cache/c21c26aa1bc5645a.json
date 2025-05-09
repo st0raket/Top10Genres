@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:41.911910+00:00",
+  "elapsed": 0.368699,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:41.911910+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2268",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Rich+%26+Sad"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Rich+%26+Sad",
+  "_decoded_content": {
+    "track": {
+      "name": "Rich & Sad",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Rich+&+Sad",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "280920",
+      "playcount": "2580148",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Post Malone",
+        "title": "beerbongs & bentleys",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone\/beerbongs+&+bentleys",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "p",
+            "url": "https:\/\/www.last.fm\/tag\/p"
+          },
+          {
+            "name": "post malone",
+            "url": "https:\/\/www.last.fm\/tag\/post+malone"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Oct 2020, 21:45",
+        "summary": "\u201cRich & Sad\u201d talks about Post\u2019s life when he was going through a hard time with his girlfriend, Ashlen Nicole Diaz. While Post showcases his wealth on this track, he still felt lonely during that time when they weren\u2019t together, which goes back to the famous phrase \u201cmoney doesn\u2019t buy happiness.\u201d Despite his rise to stardom, Post still wished that she never left him.\n\n <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Rich+&+Sad\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRich & Sad\u201d talks about Post\u2019s life when he was going through a hard time with his girlfriend, Ashlen Nicole Diaz. While Post showcases his wealth on this track, he still felt lonely during that time when they weren\u2019t together, which goes back to the famous phrase \u201cmoney doesn\u2019t buy happiness.\u201d Despite his rise to stardom, Post still wished that she never left him.\n\n <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Rich+&+Sad\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

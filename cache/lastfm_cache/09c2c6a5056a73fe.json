@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:41.300066+00:00",
+  "elapsed": 0.18562,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:41.300066+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3234",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=The+Heart+Part+5"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=The+Heart+Part+5",
+  "_decoded_content": {
+    "track": {
+      "name": "The Heart Part 5",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/The+Heart+Part+5",
+      "duration": "332000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "514533",
+      "playcount": "5720083",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "The Heart Part 5",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/The+Heart+Part+5",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e3d184a6e26b327e14be3180d2e724d6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e3d184a6e26b327e14be3180d2e724d6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e3d184a6e26b327e14be3180d2e724d6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e3d184a6e26b327e14be3180d2e724d6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 May 2022, 01:04",
+        "summary": "\u201cThe Heart Part 5\u201d is the fifth installment of Kendrick Lamar\u2019s \u201cThe Heart\u201d series of tracks. It serves as a promotional single for Mr. Morale & the Big Steppers, Lamar\u2019s fifth studio album.\n\n\n\nThe track\u2019s existence was first teased on April 19, 2022, when Lamar\u2019s website, oklama.com, was updated with a page entitled \u201ctheheart.\u201d This page linked to a large amount of draggable tan folders with one black folder, which was labeled \u201cimportant,\u201d being hidden within the mass of folders. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/The+Heart+Part+5\">Read more on Last.fm<\/a>.",
+        "content": "\u201cThe Heart Part 5\u201d is the fifth installment of Kendrick Lamar\u2019s \u201cThe Heart\u201d series of tracks. It serves as a promotional single for Mr. Morale & the Big Steppers, Lamar\u2019s fifth studio album.\n\n\n\nThe track\u2019s existence was first teased on April 19, 2022, when Lamar\u2019s website, oklama.com, was updated with a page entitled \u201ctheheart.\u201d This page linked to a large amount of draggable tan folders with one black folder, which was labeled \u201cimportant,\u201d being hidden within the mass of folders.\n\nOn May 7, 2022, the song was accidentally teased by Spotify through an updated description for the \u201cThis is Kendrick Lamar\u201d playlist, but the description was quickly taken down minutes later.\n\n\nOn May 8, 2022, at 5 P.M. (Los Angeles time) the song was officially released alongside the music video. The visuals see Kendrick performing in front of a red wall before making several transformations into other famous Black figures using deepfake technology. In order of appearance, they are  Kanye West, Nipsey Hussle, Will Smith, Jussie Smollett, O.J. Simpson and Kobe Bryant. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/The+Heart+Part+5\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

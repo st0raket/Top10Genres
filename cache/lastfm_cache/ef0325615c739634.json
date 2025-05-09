@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:30:31.387536+00:00",
+  "elapsed": 0.208586,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:31.387536+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2044",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=GO+ALL+THE+WAY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=GO+ALL+THE+WAY",
+  "_decoded_content": {
+    "track": {
+      "name": "GO ALL THE WAY",
+      "url": "https:\/\/www.last.fm\/music\/Quavo\/_\/GO+ALL+THE+WAY",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "19731",
+      "playcount": "104823",
+      "artist": {
+        "name": "Quavo",
+        "url": "https:\/\/www.last.fm\/music\/Quavo"
+      },
+      "album": {
+        "artist": "Quavo",
+        "title": "Quavo Huncho",
+        "url": "https:\/\/www.last.fm\/music\/Quavo\/Quavo+Huncho",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b38a36f87e79e8a59f827577f17bf561.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b38a36f87e79e8a59f827577f17bf561.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b38a36f87e79e8a59f827577f17bf561.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b38a36f87e79e8a59f827577f17bf561.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          },
+          {
+            "name": "no cap",
+            "url": "https:\/\/www.last.fm\/tag\/no+cap"
+          },
+          {
+            "name": "quavo bot",
+            "url": "https:\/\/www.last.fm\/tag\/quavo+bot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 21:56",
+        "summary": "\u201cGO ALL THE WAY\u201d is a braggadocious anthem from Quavo.\n\nThe song is produced by Pharrell, who has most notably worked with Quavo on Migos\u2018 \u201cStir Fry\u201d and THE CARTERS\u2019 \u201cAPESHIT.\u201d These two songs were reportedly recorded within an hour of each other, and \u201cGO ALL THE WAY\u201d may have also been recorded during this studio session. <a href=\"http:\/\/www.last.fm\/music\/Quavo\/_\/GO+ALL+THE+WAY\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGO ALL THE WAY\u201d is a braggadocious anthem from Quavo.\n\nThe song is produced by Pharrell, who has most notably worked with Quavo on Migos\u2018 \u201cStir Fry\u201d and THE CARTERS\u2019 \u201cAPESHIT.\u201d These two songs were reportedly recorded within an hour of each other, and \u201cGO ALL THE WAY\u201d may have also been recorded during this studio session. <a href=\"http:\/\/www.last.fm\/music\/Quavo\/_\/GO+ALL+THE+WAY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

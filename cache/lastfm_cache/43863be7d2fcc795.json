@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:07.423888+00:00",
+  "elapsed": 0.52594,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:07.423888+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2602",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=California"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=California",
+  "_decoded_content": {
+    "track": {
+      "name": "California",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/California",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "305445",
+      "playcount": "3465576",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Solar Power",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Solar+Power",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f7d94d931a5583f0faec87a333533800.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f7d94d931a5583f0faec87a333533800.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f7d94d931a5583f0faec87a333533800.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f7d94d931a5583f0faec87a333533800.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Aug 2021, 23:27",
+        "summary": "\"California\" speaks of leaving behind the glamour and false illusion of the Hollywood lifestyle. She reflects on experiences in California that she considers to be empty and shallow, such as spending money for \"bottles, all the models\" and the lines of people waiting for new Supreme releases. Instead, she yearns for a simpler life with stability and real relationships, which she describes as a \"dream\". Ultimately, the song captures the desire to outgrow a vapid and superficial lifestyle in search of a life with meaning and purpose. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/California\">Read more on Last.fm<\/a>.",
+        "content": "\"California\" speaks of leaving behind the glamour and false illusion of the Hollywood lifestyle. She reflects on experiences in California that she considers to be empty and shallow, such as spending money for \"bottles, all the models\" and the lines of people waiting for new Supreme releases. Instead, she yearns for a simpler life with stability and real relationships, which she describes as a \"dream\". Ultimately, the song captures the desire to outgrow a vapid and superficial lifestyle in search of a life with meaning and purpose. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/California\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

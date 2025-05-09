@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:32:09.968777+00:00",
+  "elapsed": 0.324572,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:09.968777+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "890",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gringo&format=json&method=track.getInfo&track=Barcelona"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gringo&format=json&method=track.getInfo&track=Barcelona",
+  "_decoded_content": {
+    "track": {
+      "name": "Barcelona",
+      "url": "https:\/\/www.last.fm\/music\/Gringo\/_\/Barcelona",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3524",
+      "playcount": "29268",
+      "artist": {
+        "name": "Gringo",
+        "mbid": "a096de03-186f-44d5-8fdc-4a477b71b2c6",
+        "url": "https:\/\/www.last.fm\/music\/Gringo"
+      },
+      "album": {
+        "artist": "RAF Camora",
+        "title": "Barcelona - Single",
+        "url": "https:\/\/www.last.fm\/music\/RAF+Camora\/Barcelona+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a0cefe7322e3a8c82dbcbee089657bdd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a0cefe7322e3a8c82dbcbee089657bdd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a0cefe7322e3a8c82dbcbee089657bdd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a0cefe7322e3a8c82dbcbee089657bdd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

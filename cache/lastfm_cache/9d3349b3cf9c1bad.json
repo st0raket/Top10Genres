@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:42:46.979211+00:00",
+  "elapsed": 0.197317,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:46.979211+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2145",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Stressed+Out"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Stressed+Out",
+  "_decoded_content": {
+    "track": {
+      "name": "Stressed Out",
+      "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Stressed+Out",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1551667",
+      "playcount": "16201197",
+      "artist": {
+        "name": "Twenty One Pilots",
+        "mbid": "a6c6897a-7415-4f8d-b5a5-3a5e05f3be67",
+        "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+hip+hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Aug 2016, 05:24",
+        "summary": "\"Stressed Out\" is a song written and recorded by American alternative hip-hop band Twenty One Pilots for their fourth studio album, Blurryface. Written by Tyler Joseph and produced by Mike Elizondo, the lyrics discuss the harsh end of adolescence and the transition to adulthood. The song was released as a single on April 28, 2015 on the Google Play Store and Amazon, and was issued to top 40 radio stations on November 10. \"Stressed Out\" reached number two on the US Billboard Hot 100, and number one on Hot Rock Songs and Mainstream Top 40. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Stressed+Out\">Read more on Last.fm<\/a>.",
+        "content": "\"Stressed Out\" is a song written and recorded by American alternative hip-hop band Twenty One Pilots for their fourth studio album, Blurryface. Written by Tyler Joseph and produced by Mike Elizondo, the lyrics discuss the harsh end of adolescence and the transition to adulthood. The song was released as a single on April 28, 2015 on the Google Play Store and Amazon, and was issued to top 40 radio stations on November 10. \"Stressed Out\" reached number two on the US Billboard Hot 100, and number one on Hot Rock Songs and Mainstream Top 40. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Stressed+Out\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

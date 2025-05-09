@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:48.613756+00:00",
+  "elapsed": 0.205824,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:48.613756+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2008",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=One+Last+Song"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=One+Last+Song",
+  "_decoded_content": {
+    "track": {
+      "name": "oNE lAST SoNg",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/_\/oNE+lAST+SoNg",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "103005",
+      "playcount": "633127",
+      "artist": {
+        "name": "Sam Smith",
+        "mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Nov 2022, 15:14",
+        "summary": "In their interview with Zane Lowe for Beats 1 Radio, Sam Smith said that, after their broken relationship:\n\n\u201c\u2026 the guy I wrote the first record about started to leak back into my mind. \u2026 and I didn\u2019t like it.\u201c\n\nThey added that:\n\n\u201cI was in Nashville when I wrote this and I woke up and was really angry that morning. There\u2019s an angst in that song\u201c.\n\nIn the same interview Sam stated definitively that this was the last time they would write about the man who was the subject of \u2018In the Lonely Hour\u2019. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/oNE+lAST+SoNg\">Read more on Last.fm<\/a>.",
+        "content": "In their interview with Zane Lowe for Beats 1 Radio, Sam Smith said that, after their broken relationship:\n\n\u201c\u2026 the guy I wrote the first record about started to leak back into my mind. \u2026 and I didn\u2019t like it.\u201c\n\nThey added that:\n\n\u201cI was in Nashville when I wrote this and I woke up and was really angry that morning. There\u2019s an angst in that song\u201c.\n\nIn the same interview Sam stated definitively that this was the last time they would write about the man who was the subject of \u2018In the Lonely Hour\u2019. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/oNE+lAST+SoNg\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

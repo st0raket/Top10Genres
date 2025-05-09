@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:45.107444+00:00",
+  "elapsed": 0.225283,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:45.107444+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2570",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Marsh"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Marsh",
+  "_decoded_content": {
+    "track": {
+      "name": "Marsh",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Marsh",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "101287",
+      "playcount": "684679",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Music to Be Murdered By",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Music+to+Be+Murdered+By",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jan 2022, 00:01",
+        "summary": "On \u201cMarsh,\u201d Eminem compares himself to aliens and uses the hyperbole of being a martian to express that he\u2019s figuratively out of this world. Em further backs up his claim by rapping three witty verses to prove his point.\n\nAlthough mentioning that he has no interest in beefing with any more artists, Em does take the opportunity to imitate modern-day rappers, especially Travis Scott, by using auto-tuned ad-libs in the chorus, including Scott\u2019s signature \u201cIt\u2019s Lit!\u201d ad-lib. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Marsh\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cMarsh,\u201d Eminem compares himself to aliens and uses the hyperbole of being a martian to express that he\u2019s figuratively out of this world. Em further backs up his claim by rapping three witty verses to prove his point.\n\nAlthough mentioning that he has no interest in beefing with any more artists, Em does take the opportunity to imitate modern-day rappers, especially Travis Scott, by using auto-tuned ad-libs in the chorus, including Scott\u2019s signature \u201cIt\u2019s Lit!\u201d ad-lib.\n\nDuring the week ending February 1, 2020, \u201cMarsh\u201d debuted and peaked at #83 on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Marsh\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

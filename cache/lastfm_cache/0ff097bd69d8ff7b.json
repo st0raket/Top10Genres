@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:44:29.714224+00:00",
+  "elapsed": 0.181684,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:29.714224+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1221",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mumford+%26+Sons&format=json&method=track.getInfo&track=Guiding+Light"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mumford+%26+Sons&format=json&method=track.getInfo&track=Guiding+Light",
+  "_decoded_content": {
+    "track": {
+      "name": "Guiding Light",
+      "url": "https:\/\/www.last.fm\/music\/Mumford+&+Sons\/_\/Guiding+Light",
+      "duration": "217000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "135372",
+      "playcount": "881277",
+      "artist": {
+        "name": "Mumford & Sons",
+        "mbid": "c44e9c22-ef82-4a77-9bcd-af6c958446d6",
+        "url": "https:\/\/www.last.fm\/music\/Mumford+&+Sons"
+      },
+      "album": {
+        "artist": "Mumford & Sons",
+        "title": "Guiding Light",
+        "url": "https:\/\/www.last.fm\/music\/Mumford+&+Sons\/Guiding+Light",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/252ec508d39354de9df91153da28439c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/252ec508d39354de9df91153da28439c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/252ec508d39354de9df91153da28439c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/252ec508d39354de9df91153da28439c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "folk rock",
+            "url": "https:\/\/www.last.fm\/tag\/folk+rock"
+          },
+          {
+            "name": "greys anatomy",
+            "url": "https:\/\/www.last.fm\/tag\/greys+anatomy"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          }
+        ]
+      }
+    }
+  }
+}

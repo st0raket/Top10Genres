@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:29:45.390485+00:00",
+  "elapsed": 0.23043,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:45.390485+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1080",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Love+Hurts"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Love+Hurts",
+  "_decoded_content": {
+    "track": {
+      "name": "Love Hurts",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Love+Hurts",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9665",
+      "playcount": "146690",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "What You Know Bout Love",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/What+You+Know+Bout+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7c0ca960b95a6b6cb8e31c075cbffad3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7c0ca960b95a6b6cb8e31c075cbffad3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7c0ca960b95a6b6cb8e31c075cbffad3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7c0ca960b95a6b6cb8e31c075cbffad3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "Playboi Carti",
+            "url": "https:\/\/www.last.fm\/tag\/Playboi+Carti"
+          }
+        ]
+      }
+    }
+  }
+}

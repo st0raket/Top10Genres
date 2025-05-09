@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:29:56.782027+00:00",
+  "elapsed": 0.211056,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:56.782027+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "859",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morat&format=json&method=track.getInfo&track=Cuando+Nadie+Ve"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morat&format=json&method=track.getInfo&track=Cuando+Nadie+Ve",
+  "_decoded_content": {
+    "track": {
+      "name": "Cuando Nadie Ve",
+      "url": "https:\/\/www.last.fm\/music\/Morat\/_\/Cuando+Nadie+Ve",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "89305",
+      "playcount": "907192",
+      "artist": {
+        "name": "Morat",
+        "url": "https:\/\/www.last.fm\/music\/Morat"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Que Viva el Pop",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Que+Viva+el+Pop",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cc8ad72f35d9e4eb3090815d0629b205.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cc8ad72f35d9e4eb3090815d0629b205.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cc8ad72f35d9e4eb3090815d0629b205.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cc8ad72f35d9e4eb3090815d0629b205.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:02.412054+00:00",
+  "elapsed": 0.185973,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:02.412054+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3990",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=7+Summers"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=7+Summers",
+  "_decoded_content": {
+    "track": {
+      "name": "7 Summers",
+      "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/7+Summers",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "182809",
+      "playcount": "2896149",
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best of 2020 Country",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+of+2020+Country",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f4f6542d5ecc2d2823237a31e1980cee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f4f6542d5ecc2d2823237a31e1980cee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f4f6542d5ecc2d2823237a31e1980cee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f4f6542d5ecc2d2823237a31e1980cee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "country rock",
+            "url": "https:\/\/www.last.fm\/tag\/country+rock"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Nov 2021, 22:41",
+        "summary": "\"7 Summers\" is a song by Morgan Wallen. Upon its release, the song broke the single-day Apple Music streaming record for a country song and debuted at #6 on the Billboard Hot 100, making Wallen the second solo male country artist to earn a top 10 debut, 21 years after the first one.\n\nWallen first performed a portion of the track on his Instagram, it was then released on August 14, 2020, following its popularity on TikTok. \"7 Summers\" is a \"dreamy\" <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/7+Summers\">Read more on Last.fm<\/a>.",
+        "content": "\"7 Summers\" is a song by Morgan Wallen. Upon its release, the song broke the single-day Apple Music streaming record for a country song and debuted at #6 on the Billboard Hot 100, making Wallen the second solo male country artist to earn a top 10 debut, 21 years after the first one.\n\nWallen first performed a portion of the track on his Instagram, it was then released on August 14, 2020, following its popularity on TikTok. \"7 Summers\" is a \"dreamy\", nostalgic track, with Wallen singing of a long lost love of his and reminiscing about their romance that took place, as the title suggests, seven summers ago. He was hesitant to include it on his second studio album Dangerous: The Double Album, but had a change of mind after it became a fan-favorite. Wallen wrote the song, along with Shane McAnally and Josh Osborne.\n\nDuring the COVID-19 quarantine, Wallen was nominated by fellow country musician Jake Owen to do a demo on Instagram; he accepted the challenge and performed the first verse and chorus in April 2020. He was initially uncertain whether the song would be included on his second album, however he changed his mind after the demo received good feedback from fans and went viral on video-sharing app TikTok, where it earned over 24 million views prior to its official release. On August 4, in response to a fan who posted on TikTok that they were waiting for Wallen to release the song, he announced the song would be released the following week.\n\nIn a statement on the song's release, Wallen said: \"Social media played a huge part in me releasing this song, especially this early. It's a cool thing \u2013 me being on the fence about it, then being able to put it out and get people's feedback. Seeing the response played the biggest part in this release. I think that speaks to just how much fans mean to me and fans mean to music. I'm glad I'm getting to put it out and glad people are loving it, I can't wait for y'all to hear the full version\". <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/7+Summers\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

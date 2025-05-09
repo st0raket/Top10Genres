@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:40:35.476654+00:00",
+  "elapsed": 0.281713,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:35.476654+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2293",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Muni+Long&format=json&method=track.getInfo&track=Made+For+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Muni+Long&format=json&method=track.getInfo&track=Made+For+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Made For Me",
+      "url": "https:\/\/www.last.fm\/music\/Muni+Long\/_\/Made+For+Me",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "209152",
+      "playcount": "1663626",
+      "artist": {
+        "name": "Muni Long",
+        "url": "https:\/\/www.last.fm\/music\/Muni+Long"
+      },
+      "album": {
+        "artist": "Muni Long",
+        "title": "Made For Me",
+        "url": "https:\/\/www.last.fm\/music\/Muni+Long\/Made+For+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a8fcc3f78dabf7949bd0961c736adb5e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a8fcc3f78dabf7949bd0961c736adb5e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a8fcc3f78dabf7949bd0961c736adb5e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a8fcc3f78dabf7949bd0961c736adb5e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "fav",
+            "url": "https:\/\/www.last.fm\/tag\/fav"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Feb 2025, 22:53",
+        "summary": "Muni Long\u2019s \"Made For Me\" is a heartfelt love song dedicated to her son. After setting up a home studio two months post-birth, she found inspiration while listening to a beat from producer Jordan XL. Surrounded by baby toys and her son nearby, she wrote the song as an expression of her love. Despite revising the track over several months, it wasn't until Tunji Balogun, CEO of Def Jam, expressed his support that Muni decided to finalize it. <a href=\"http:\/\/www.last.fm\/music\/Muni+Long\/_\/Made+For+Me\">Read more on Last.fm<\/a>.",
+        "content": "Muni Long\u2019s \"Made For Me\" is a heartfelt love song dedicated to her son. After setting up a home studio two months post-birth, she found inspiration while listening to a beat from producer Jordan XL. Surrounded by baby toys and her son nearby, she wrote the song as an expression of her love. Despite revising the track over several months, it wasn't until Tunji Balogun, CEO of Def Jam, expressed his support that Muni decided to finalize it. <a href=\"http:\/\/www.last.fm\/music\/Muni+Long\/_\/Made+For+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

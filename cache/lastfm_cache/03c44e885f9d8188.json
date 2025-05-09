@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:32:42.483023+00:00",
+  "elapsed": 0.182628,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:42.483023+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1946",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Whitney+Houston&format=json&method=track.getInfo&track=I+Wanna+Dance+With+Somebody"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Whitney+Houston&format=json&method=track.getInfo&track=I+Wanna+Dance+With+Somebody",
+  "_decoded_content": {
+    "track": {
+      "name": "I Wanna Dance with Somebody",
+      "mbid": "7a65acc1-a537-458a-ab3c-641266574b7b",
+      "url": "https:\/\/www.last.fm\/music\/Whitney+Houston\/_\/I+Wanna+Dance+with+Somebody",
+      "duration": "290000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "241998",
+      "playcount": "892793",
+      "artist": {
+        "name": "Whitney Houston",
+        "mbid": "0307edfc-437c-4b48-8700-80680e66a228",
+        "url": "https:\/\/www.last.fm\/music\/Whitney+Houston"
+      },
+      "album": {
+        "artist": "Whitney Houston",
+        "title": "New York 1992",
+        "mbid": "5a70b812-6a62-4951-b81d-b1d95e1d274f",
+        "url": "https:\/\/www.last.fm\/music\/Whitney+Houston\/New+York+1992",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/90068e4ebaaaad7e62aea4efd08f1dd6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/90068e4ebaaaad7e62aea4efd08f1dd6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/90068e4ebaaaad7e62aea4efd08f1dd6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/90068e4ebaaaad7e62aea4efd08f1dd6.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "whitney houston",
+            "url": "https:\/\/www.last.fm\/tag\/whitney+houston"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Mar 2018, 16:29",
+        "summary": "Incorrect tag for I Wanna Dance with Somebody (Who Loves Me). Please correct your tags. <a href=\"http:\/\/www.last.fm\/music\/Whitney+Houston\/_\/I+Wanna+Dance+with+Somebody\">Read more on Last.fm<\/a>.",
+        "content": "Incorrect tag for I Wanna Dance with Somebody (Who Loves Me). Please correct your tags. <a href=\"http:\/\/www.last.fm\/music\/Whitney+Houston\/_\/I+Wanna+Dance+with+Somebody\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:33:53.115905+00:00",
+  "elapsed": 0.873702,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:53.115905+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1041",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dabro&format=json&method=track.getInfo&track=%D0%AE%D0%BD%D0%BE%D1%81%D1%82%D1%8C"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dabro&format=json&method=track.getInfo&track=%D0%AE%D0%BD%D0%BE%D1%81%D1%82%D1%8C",
+  "_decoded_content": {
+    "track": {
+      "name": "\u042e\u043d\u043e\u0441\u0442\u044c",
+      "url": "https:\/\/www.last.fm\/music\/dabro\/_\/%D0%AE%D0%BD%D0%BE%D1%81%D1%82%D1%8C",
+      "duration": "283000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "26516",
+      "playcount": "236235",
+      "artist": {
+        "name": "dabro",
+        "url": "https:\/\/www.last.fm\/music\/dabro"
+      },
+      "album": {
+        "artist": "dabro",
+        "title": "\u042e\u043d\u043e\u0441\u0442\u044c",
+        "url": "https:\/\/www.last.fm\/music\/dabro\/%D0%AE%D0%BD%D0%BE%D1%81%D1%82%D1%8C",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e8d9163f21446413551d5ceebeb14df4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e8d9163f21446413551d5ceebeb14df4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e8d9163f21446413551d5ceebeb14df4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e8d9163f21446413551d5ceebeb14df4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          }
+        ]
+      }
+    }
+  }
+}

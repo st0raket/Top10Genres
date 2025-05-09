@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:07.758468+00:00",
+  "elapsed": 0.211167,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:07.758468+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3413",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=All+Of+The+Girls+You+Loved+Before"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=All+Of+The+Girls+You+Loved+Before",
+  "_decoded_content": {
+    "track": {
+      "name": "All of the Girls You Loved Before",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/All+of+the+Girls+You+Loved+Before",
+      "duration": "221000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "585147",
+      "playcount": "10775355",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "All of the Girls You Loved Before",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/All+of+the+Girls+You+Loved+Before",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a86d974cd862cc931d8e2eafd3e9fe0e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a86d974cd862cc931d8e2eafd3e9fe0e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a86d974cd862cc931d8e2eafd3e9fe0e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a86d974cd862cc931d8e2eafd3e9fe0e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "lover",
+            "url": "https:\/\/www.last.fm\/tag\/lover"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Mar 2023, 04:29",
+        "summary": "\u201cAll of the Girls You Loved Before\u201d is an outtake from Taylor Swift's 2019 album Lover. It was then released as a single on the EP The More Lover Chapter. It seems to be a song about past relationships and how they have led the singer to the person she is with now. The lyrics reflect on the difficulties and insecurities of past relationships, expressed through lines like \"Wake up in the morning with someone, but feeling alone\" and \"Crying in the bathroom for some dude, whose name I cannot remember now\". <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/All+of+the+Girls+You+Loved+Before\">Read more on Last.fm<\/a>.",
+        "content": "\u201cAll of the Girls You Loved Before\u201d is an outtake from Taylor Swift's 2019 album Lover. It was then released as a single on the EP The More Lover Chapter. It seems to be a song about past relationships and how they have led the singer to the person she is with now. The lyrics reflect on the difficulties and insecurities of past relationships, expressed through lines like \"Wake up in the morning with someone, but feeling alone\" and \"Crying in the bathroom for some dude, whose name I cannot remember now\".\n\nHowever, the chorus suggests that all of these past relationships, which might have seemed like dead-ends at the time, have ultimately led the singer to her current partner, who she loves more than any of the girls he loved before. The singer also acknowledges that her partner has been shaped by these past relationships, represented by the line \"every woman that you knew brought you here\". The bridge suggests that the singer wants to help her partner see the possibility of forever, and to appreciate the loyalty and kindness instilled by his mother.\n\nOverall, the song seems to be about finding comfort and security in a relationship despite past struggles and failures. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/All+of+the+Girls+You+Loved+Before\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

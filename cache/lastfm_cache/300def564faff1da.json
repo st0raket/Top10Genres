@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:27.007332+00:00",
+  "elapsed": 0.187822,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:27.007332+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6038",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Set+Fire+to+the+Rain"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Set+Fire+to+the+Rain",
+  "_decoded_content": {
+    "track": {
+      "name": "Set Fire to the Rain",
+      "mbid": "d1e0a99e-1894-457b-ba6a-985eeef4d0c4",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/Set+Fire+to+the+Rain",
+      "duration": "277000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1754184",
+      "playcount": "17984219",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "21",
+        "mbid": "c45e0e0e-48c9-4441-aac3-2f2b34202d3c",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7694508c2aa520df08bb8e6248bfedf0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7694508c2aa520df08bb8e6248bfedf0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7694508c2aa520df08bb8e6248bfedf0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7694508c2aa520df08bb8e6248bfedf0.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Adele",
+            "url": "https:\/\/www.last.fm\/tag\/Adele"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Aug 2011, 15:46",
+        "summary": "\u201cSet Fire to the Rain\u201d is a song by British singer-songwriter Adele, released in November 2011 as the third single from her second studio album, 21 (2011). Written by Adele and Fraser T. Smith, who also produced the track, the song became one of Adele\u2019s most commercially successful singles and solidified her reputation as a powerhouse vocalist and songwriter.\n\nBackground\nAdele co-wrote \u201cSet Fire to the Rain\u201d during the sessions for 21, an album inspired by her personal experiences with heartbreak and self-discovery. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Set+Fire+to+the+Rain\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSet Fire to the Rain\u201d is a song by British singer-songwriter Adele, released in November 2011 as the third single from her second studio album, 21 (2011). Written by Adele and Fraser T. Smith, who also produced the track, the song became one of Adele\u2019s most commercially successful singles and solidified her reputation as a powerhouse vocalist and songwriter.\n\nBackground\nAdele co-wrote \u201cSet Fire to the Rain\u201d during the sessions for 21, an album inspired by her personal experiences with heartbreak and self-discovery. Unlike the album\u2019s more stripped-down tracks, this song features lush production and a dramatic, sweeping arrangement.\n\nAdele has described the song as being about the contradictions of a broken relationship\u2014moments of vulnerability alongside empowerment\u2014capturing emotional turmoil and resilience.\n\nMusical style\n\u201cSet Fire to the Rain\u201d is a mid-tempo pop-soul ballad with strong influences from blues and contemporary pop. The song features prominent piano, swelling strings, and powerful drum fills, creating a cinematic soundscape that supports Adele\u2019s commanding vocal performance.\n\nIts grandiose style stands out on 21, offering a richer, more orchestral feel compared to the album\u2019s typically minimalist production.\n\nLyrical analysis\nThe lyrics explore themes of heartbreak, betrayal, and emotional catharsis. The chorus\u2014\u201cBut I set fire to the rain \/ Watched it pour as I touched your face\u201d\u2014uses vivid imagery to depict the complex feelings of loving someone who ultimately causes pain.\n\nThe song reflects Adele\u2019s signature ability to balance vulnerability with strength, making it relatable to listeners navigating love and loss.\n\nChart performance\nIn the United States, \u201cSet Fire to the Rain\u201d reached No. 1 on the Billboard Hot 100, becoming Adele\u2019s third consecutive chart-topper from 21.\n\nIn the United Kingdom, the song was not released as a single but still gained significant radio play and charted within the top 15 based on digital sales.\n\nIt also topped charts in several other countries, including Belgium, Poland, and the Netherlands, and achieved multi-platinum status globally.\n\nMusic video\nInstead of a traditional music video, a live performance of \u201cSet Fire to the Rain\u201d from Adele\u2019s Live at the Royal Albert Hall concert film was released to promote the single. The performance highlighted Adele\u2019s live vocal prowess and was widely praised for its raw emotional delivery.\n\nAwards and accolades\nThe song contributed to Adele\u2019s Grammy wins in 2012, where 21 swept major categories.\n\nIt has appeared in numerous \u201cBest of the Decade\u201d lists and is often cited as one of Adele\u2019s definitive ballads.\n\nLive performances\n\u201cSet Fire to the Rain\u201d has been a staple of Adele\u2019s concert setlists. Its dramatic build-up and soaring vocals make it a centerpiece of her live shows, often met with rapturous applause and standing ovations.\n\nPersonnel\nAdele \u2013 vocals, co-writer\n\nFraser T. Smith \u2013 co-writer, producer, instruments\n\nChris Dave \u2013 drums\n\nReception\nCritics praised \u201cSet Fire to the Rain\u201d for its powerful vocal performance and evocative production. Many noted the song\u2019s emotional intensity and its ability to balance polished pop production with deep personal storytelling.\n\nThe song remains one of Adele\u2019s most streamed and downloaded singles, continuing to resonate with listeners around the world.\n\nTrivia\n\u201cSet Fire to the Rain\u201d was Adele\u2019s third No. 1 hit in the U.S., following \u201cRolling in the Deep\u201d and \u201cSomeone Like You.\u201d\n\nAlthough a concept music video was planned, it was ultimately scrapped, making the live performance the song\u2019s official visual.\n\nThe track has been covered and remixed by numerous artists across genres, further demonstrating its wide-reaching impact. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Set+Fire+to+the+Rain\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

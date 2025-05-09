@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:30:13.358951+00:00",
+  "elapsed": 0.241582,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:13.358951+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1170",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RIN&format=json&method=track.getInfo&track=Dior+2001"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RIN&format=json&method=track.getInfo&track=Dior+2001",
+  "_decoded_content": {
+    "track": {
+      "name": "Dior 2001",
+      "url": "https:\/\/www.last.fm\/music\/Rin\/_\/Dior+2001",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "45510",
+      "playcount": "592034",
+      "artist": {
+        "name": "Rin",
+        "mbid": "862b8567-9dee-43e8-8c83-e968c1d0e477",
+        "url": "https:\/\/www.last.fm\/music\/Rin"
+      },
+      "album": {
+        "artist": "Rin",
+        "title": "Planet Megatron [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Rin\/Planet+Megatron+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/decb24e90af72af4ed82ebc95a500431.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/decb24e90af72af4ed82ebc95a500431.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/decb24e90af72af4ed82ebc95a500431.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/decb24e90af72af4ed82ebc95a500431.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          },
+          {
+            "name": "autotune",
+            "url": "https:\/\/www.last.fm\/tag\/autotune"
+          },
+          {
+            "name": "2018 single",
+            "url": "https:\/\/www.last.fm\/tag\/2018+single"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:40:41.339810+00:00",
+  "elapsed": 0.182353,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:41.339810+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1600",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=King"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=King",
+  "_decoded_content": {
+    "track": {
+      "name": "King",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/King",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "185945",
+      "playcount": "1138173",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "outro",
+            "url": "https:\/\/www.last.fm\/tag\/outro"
+          },
+          {
+            "name": "King",
+            "url": "https:\/\/www.last.fm\/tag\/King"
+          },
+          {
+            "name": "Skibidi Toilet",
+            "url": "https:\/\/www.last.fm\/tag\/Skibidi+Toilet"
+          },
+          {
+            "name": "anti semetic",
+            "url": "https:\/\/www.last.fm\/tag\/anti+semetic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Feb 2024, 21:07",
+        "summary": "\u2018King\u2019 marks the final track on Kanye West and Ty Dolla $ign\u2019s Vultures project. The song sees Ye address the continuously negative press coverage about him, with the hook being \u201cCrazy, bipolar, antisemite\u201d. However, he is not phased, flexing how all this bad coverage can\u2019t stop his popularity and influence. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/King\">Read more on Last.fm<\/a>.",
+        "content": "\u2018King\u2019 marks the final track on Kanye West and Ty Dolla $ign\u2019s Vultures project. The song sees Ye address the continuously negative press coverage about him, with the hook being \u201cCrazy, bipolar, antisemite\u201d. However, he is not phased, flexing how all this bad coverage can\u2019t stop his popularity and influence. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/King\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

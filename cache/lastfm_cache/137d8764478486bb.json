@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:37:58.194060+00:00",
+  "elapsed": 0.210246,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:58.194060+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "984",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Saucy+Dog&format=json&method=track.getInfo&track=%E9%AD%94%E6%B3%95%E3%81%AB%E3%81%8B%E3%81%91%E3%82%89%E3%82%8C%E3%81%A6"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Saucy+Dog&format=json&method=track.getInfo&track=%E9%AD%94%E6%B3%95%E3%81%AB%E3%81%8B%E3%81%91%E3%82%89%E3%82%8C%E3%81%A6",
+  "_decoded_content": {
+    "track": {
+      "name": "\u9b54\u6cd5\u306b\u304b\u3051\u3089\u308c\u3066",
+      "url": "https:\/\/www.last.fm\/music\/Saucy+dog\/_\/%E9%AD%94%E6%B3%95%E3%81%AB%E3%81%8B%E3%81%91%E3%82%89%E3%82%8C%E3%81%A6",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1836",
+      "playcount": "26848",
+      "artist": {
+        "name": "Saucy dog",
+        "url": "https:\/\/www.last.fm\/music\/Saucy+dog"
+      },
+      "album": {
+        "artist": "Saucy dog",
+        "title": "\u9b54\u6cd5\u306b\u304b\u3051\u3089\u308c\u3066",
+        "url": "https:\/\/www.last.fm\/music\/Saucy+dog\/%E9%AD%94%E6%B3%95%E3%81%AB%E3%81%8B%E3%81%91%E3%82%89%E3%82%8C%E3%81%A6",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/292899a5f30fba0fc548ee7922db2794.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/292899a5f30fba0fc548ee7922db2794.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/292899a5f30fba0fc548ee7922db2794.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/292899a5f30fba0fc548ee7922db2794.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

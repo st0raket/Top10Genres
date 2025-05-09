@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:41:28.071890+00:00",
+  "elapsed": 0.246899,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:28.071890+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3336",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Lies+Lies+Lies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Lies+Lies+Lies",
+  "_decoded_content": {
+    "track": {
+      "name": "Lies Lies Lies",
+      "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Lies+Lies+Lies",
+      "duration": "116000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "109829",
+      "playcount": "774240",
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen"
+      },
+      "album": {
+        "artist": "Morgan Wallen",
+        "title": "Lies Lies Lies",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/Lies+Lies+Lies",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1b789480b8dd2bea910cfa5650d8c53d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1b789480b8dd2bea910cfa5650d8c53d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1b789480b8dd2bea910cfa5650d8c53d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1b789480b8dd2bea910cfa5650d8c53d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "22 Jul 2024, 04:08",
+        "summary": "\"Lies Lies Lies\" is a song by country music singer Morgan Wallen. It was released on July 5, 2024, as the lead single from his upcoming fourth studio album. The song was written by Jessie Jo Dillon, Josh Miller, Daniel Ross and Chris Tompkins, and produced by Joey Moi.\n\nTo celebrate the one-year anniversary of his third studio album One Thing at a Time, Wallen released a digital collection titled Abbey Road Sessions featuring seven live recordings recorded at Studio Two of London's Abbey Road Studios on March 3, 2024. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Lies+Lies+Lies\">Read more on Last.fm<\/a>.",
+        "content": "\"Lies Lies Lies\" is a song by country music singer Morgan Wallen. It was released on July 5, 2024, as the lead single from his upcoming fourth studio album. The song was written by Jessie Jo Dillon, Josh Miller, Daniel Ross and Chris Tompkins, and produced by Joey Moi.\n\nTo celebrate the one-year anniversary of his third studio album One Thing at a Time, Wallen released a digital collection titled Abbey Road Sessions featuring seven live recordings recorded at Studio Two of London's Abbey Road Studios on March 3, 2024. The set included a first full rendition of \"Lies Lies Lies\". He previously debuted the then untitled song during an acoustic set for iHeartRadio at the SoHo House in Nashville, Tennessee on February 21, accompanied by fellow singers Hardy and Ernest. On May 2, he performed the song for the first time live as part of his One Night at a Time tour stop in Nashville, which was then described as a \"yearning ballad\" by Billboard. Wallen went on to perform the song on 12 other occasions over the following weeks. During a show at Virginia Beach on June 7, he announced the song to be released as a single slated for July 4, which coincides with his BST Hyde Park festival show in London the same day.\n\n\"Lies Lies Lies\" observes themes of \"heartbreak and deception\" through \"poignant\" lyrics as the singer battles through a chaotic romantic relationship. Wallen pleads for reconciliation with his partner and dreads the temptation of using alcohol in the process. The song was thought to emphasize the rawness of Wallen's performances. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Lies+Lies+Lies\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

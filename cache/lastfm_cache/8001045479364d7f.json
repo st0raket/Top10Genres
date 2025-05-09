@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:31:27.751271+00:00",
+  "elapsed": 0.194804,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:27.751271+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "900",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=P%21nk&format=json&method=track.getInfo&track=Hurts+2B+Human"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=P%21nk&format=json&method=track.getInfo&track=Hurts+2B+Human",
+  "_decoded_content": {
+    "track": {
+      "name": "Hurts 2B Human",
+      "url": "https:\/\/www.last.fm\/music\/P%21nk\/_\/Hurts+2B+Human",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4011",
+      "playcount": "15089",
+      "artist": {
+        "name": "P!nk",
+        "mbid": "f4d5cc07-3bc9-4836-9b15-88a08359bc63",
+        "url": "https:\/\/www.last.fm\/music\/P%21nk"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "538 Hitzone 91",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/538+Hitzone+91",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/da2f0afb398d36769bc67c5c9203791d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/da2f0afb398d36769bc67c5c9203791d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/da2f0afb398d36769bc67c5c9203791d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/da2f0afb398d36769bc67c5c9203791d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

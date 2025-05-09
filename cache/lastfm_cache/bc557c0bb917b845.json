@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:35:04.896586+00:00",
+  "elapsed": 0.222591,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:04.896586+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1176",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ella+Henderson&format=json&method=track.getInfo&track=Let%E2%80%99s+Go+Home+Together"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ella+Henderson&format=json&method=track.getInfo&track=Let%E2%80%99s+Go+Home+Together",
+  "_decoded_content": {
+    "track": {
+      "name": "Let\u2019s Go Home Together",
+      "url": "https:\/\/www.last.fm\/music\/Ella+Henderson\/_\/Let%E2%80%99s+Go+Home+Together",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "41250",
+      "playcount": "234963",
+      "artist": {
+        "name": "Ella Henderson",
+        "mbid": "3a60a284-256b-4481-9c33-84d12ea481cd",
+        "url": "https:\/\/www.last.fm\/music\/Ella+Henderson"
+      },
+      "album": {
+        "artist": "Ella Henderson",
+        "title": "Everything I Didn\u2019t Say And More",
+        "url": "https:\/\/www.last.fm\/music\/Ella+Henderson\/Everything+I+Didn%E2%80%99t+Say+And+More",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a292a56892f2a12f7833eba1bf4e6f2b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a292a56892f2a12f7833eba1bf4e6f2b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a292a56892f2a12f7833eba1bf4e6f2b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a292a56892f2a12f7833eba1bf4e6f2b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          },
+          {
+            "name": "captivation",
+            "url": "https:\/\/www.last.fm\/tag\/captivation"
+          }
+        ]
+      }
+    }
+  }
+}

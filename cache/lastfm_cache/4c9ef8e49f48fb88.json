@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:12.444243+00:00",
+  "elapsed": 0.216168,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:12.444243+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2676",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Faith"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Faith",
+  "_decoded_content": {
+    "track": {
+      "name": "Faith",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Faith",
+      "duration": "283000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "478146",
+      "playcount": "6540235",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "After Hours",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/After+Hours",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 05:22",
+        "summary": "\u201cFaith\u201d is a somber banger that features The Weeknd exploring his usual themes of hedonism and partying over a beat by frequent collaborator Metro Boomin. He also opens up about his drug addiction and compares the act of getting high to losing one\u2019s religion. The instrumental takes a shift in the outro with the drums fading into the mix in favor of ambient synths and sirens.\n\nThe track was first previewed in the album title reveal video, featuring mostly instrumental with additional non-lyrical vocals of Abel. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Faith\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFaith\u201d is a somber banger that features The Weeknd exploring his usual themes of hedonism and partying over a beat by frequent collaborator Metro Boomin. He also opens up about his drug addiction and compares the act of getting high to losing one\u2019s religion. The instrumental takes a shift in the outro with the drums fading into the mix in favor of ambient synths and sirens.\n\nThe track was first previewed in the album title reveal video, featuring mostly instrumental with additional non-lyrical vocals of Abel. An actual snippet was shown in the short film for The Weeknd\u2019s fourth studio album After Hours on March 4th, 2020. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Faith\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

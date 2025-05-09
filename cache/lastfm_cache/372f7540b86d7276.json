@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:27.552355+00:00",
+  "elapsed": 0.186547,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:27.552355+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3870",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Musical+Youth&format=json&method=track.getInfo&track=Pass+The+Dutchie"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Musical+Youth&format=json&method=track.getInfo&track=Pass+The+Dutchie",
+  "_decoded_content": {
+    "track": {
+      "name": "Pass the Dutchie",
+      "mbid": "7e244832-ac39-46c8-bb7d-7ae9c72bf041",
+      "url": "https:\/\/www.last.fm\/music\/Musical+Youth\/_\/Pass+the+Dutchie",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "441261",
+      "playcount": "2567893",
+      "artist": {
+        "name": "Musical Youth",
+        "mbid": "1a3e7a10-72ed-4591-a363-c1e3bc92fc09",
+        "url": "https:\/\/www.last.fm\/music\/Musical+Youth"
+      },
+      "album": {
+        "artist": "Musical Youth",
+        "title": "The Youth of Today",
+        "mbid": "12968590-6ba5-4cea-83f0-46bbf5908c9a",
+        "url": "https:\/\/www.last.fm\/music\/Musical+Youth\/The+Youth+of+Today",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/74b14e55db12406c9c6773551a7e212d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/74b14e55db12406c9c6773551a7e212d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/74b14e55db12406c9c6773551a7e212d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/74b14e55db12406c9c6773551a7e212d.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "reggae",
+            "url": "https:\/\/www.last.fm\/tag\/reggae"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "1982",
+            "url": "https:\/\/www.last.fm\/tag\/1982"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Apr 2011, 19:55",
+        "summary": "\"Pass the Dutchie\" was a song recorded by the British group Musical Youth from their 1982 album The Youth of Today. It was a major hit, holding the number one position on the UK singles charts for three weeks in September and October 1982.\n\n The song was a cover version of the song \"Pass the Koutchie\" by The Mighty Diamonds, which deals with the recreational use of cannabis, \"koutchie\" being slang for a cannabis pipe. For the cover version, the song's title was bowdlerized to \"Pass the Dutchie\" <a href=\"http:\/\/www.last.fm\/music\/Musical+Youth\/_\/Pass+the+Dutchie\">Read more on Last.fm<\/a>.",
+        "content": "\"Pass the Dutchie\" was a song recorded by the British group Musical Youth from their 1982 album The Youth of Today. It was a major hit, holding the number one position on the UK singles charts for three weeks in September and October 1982.\n\n The song was a cover version of the song \"Pass the Koutchie\" by The Mighty Diamonds, which deals with the recreational use of cannabis, \"koutchie\" being slang for a cannabis pipe. For the cover version, the song's title was bowdlerized to \"Pass the Dutchie\", and all obvious drug references were removed from the lyrics; e. g., when the original croons \"How does it feel when you got no herb?\", the cover version refers to \"food\" instead. (The term \"dutchie\" has itself become a drug reference; it refers to a blunt rolled in a wrap from a Dutch Masters cigar.) \"Dutchie\" was slang at the time for \"cooking pot\" as in cookware. However, it doesn't take much imagination to figure out what they were trying to say.\n\nThe song was first championed by radio DJ Zach Diezel and became an instant hit when it was picked up by MCA Records in September 1982. \n\nIt debuted at #26 on the chart and rose to #1 the following week. In February of the following year, it reached #10 on the Billboard Hot 100 singles chart in the USA. \n\nThe song also scored a top 5 success in the Norwegian chart, eventually selling over 4 million copies worldwide.\n\n The video, shot partly on the banks of the River Thames in London, across from the Palace of Westminster, was one of the first by black artists to get airplay on MTV.\n\nThe song achieved recent success in 2022 after appearing in the Fourth Season of Stranger Things. <a href=\"http:\/\/www.last.fm\/music\/Musical+Youth\/_\/Pass+the+Dutchie\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:45:02.611545+00:00",
+  "elapsed": 0.316264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:02.611545+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1178",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Big+Sean&format=json&method=track.getInfo&track=No+Favors"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Big+Sean&format=json&method=track.getInfo&track=No+Favors",
+  "_decoded_content": {
+    "track": {
+      "name": "No Favors",
+      "url": "https:\/\/www.last.fm\/music\/Big+Sean\/_\/No+Favors",
+      "duration": "325000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "84811",
+      "playcount": "492293",
+      "artist": {
+        "name": "Big Sean",
+        "mbid": "942a9807-9c1a-4a0e-a285-1fde2c5be9d1",
+        "url": "https:\/\/www.last.fm\/music\/Big+Sean"
+      },
+      "album": {
+        "artist": "Big Sean",
+        "title": "I Decided.",
+        "url": "https:\/\/www.last.fm\/music\/Big+Sean\/I+Decided.",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/72fd7aaf57cc6db3968427118a00089d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/72fd7aaf57cc6db3968427118a00089d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/72fd7aaf57cc6db3968427118a00089d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/72fd7aaf57cc6db3968427118a00089d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "Detroit Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Detroit+Hip-Hop"
+          },
+          {
+            "name": "big sean",
+            "url": "https:\/\/www.last.fm\/tag\/big+sean"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:38.659895+00:00",
+  "elapsed": 0.233501,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:38.659895+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2082",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=KOD"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=KOD",
+  "_decoded_content": {
+    "track": {
+      "name": "KOD",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/KOD",
+      "duration": "192000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "314624",
+      "playcount": "2560584",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hottest Hip Hop 2018",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hottest+Hip+Hop+2018",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/53f9dc079c2db87b26c4b0cb2e2b51f5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/53f9dc079c2db87b26c4b0cb2e2b51f5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/53f9dc079c2db87b26c4b0cb2e2b51f5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/53f9dc079c2db87b26c4b0cb2e2b51f5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Apr 2018, 06:24",
+        "summary": "On \"KOD\", Cole flexes towards the audience and his competition in the first verse, whilst simultaneously addressing comments about features on his album. The second verse and the chorus of the song elaborate more about Cole\u2019s youth and the drugs that his surroundings got him involved in. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/KOD\">Read more on Last.fm<\/a>.",
+        "content": "On \"KOD\", Cole flexes towards the audience and his competition in the first verse, whilst simultaneously addressing comments about features on his album. The second verse and the chorus of the song elaborate more about Cole\u2019s youth and the drugs that his surroundings got him involved in. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/KOD\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

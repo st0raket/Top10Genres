@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:10.945021+00:00",
+  "elapsed": 0.184138,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:10.945021+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2973",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fujii+Kaze&format=json&method=track.getInfo&track=Shinunoga+E-Wa"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fujii+Kaze&format=json&method=track.getInfo&track=Shinunoga+E-Wa",
+  "_decoded_content": {
+    "track": {
+      "name": "Shinunoga E-Wa",
+      "url": "https:\/\/www.last.fm\/music\/Fujii+Kaze\/_\/Shinunoga+E-Wa",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "484856",
+      "playcount": "7023199",
+      "artist": {
+        "name": "Fujii Kaze",
+        "url": "https:\/\/www.last.fm\/music\/Fujii+Kaze"
+      },
+      "album": {
+        "artist": "Fujii Kaze",
+        "title": "HELP EVER HURT NEVER",
+        "url": "https:\/\/www.last.fm\/music\/Fujii+Kaze\/HELP+EVER+HURT+NEVER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e002848250653c619a9dc2169ab49d9a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e002848250653c619a9dc2169ab49d9a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e002848250653c619a9dc2169ab49d9a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e002848250653c619a9dc2169ab49d9a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "sddslittleyuta",
+            "url": "https:\/\/www.last.fm\/tag\/sddslittleyuta"
+          },
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "JPop",
+            "url": "https:\/\/www.last.fm\/tag\/JPop"
+          },
+          {
+            "name": "non-english",
+            "url": "https:\/\/www.last.fm\/tag\/non-english"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jul 2023, 21:30",
+        "summary": "\u201c\u6b7b\u306c\u306e\u304c\u3044\u3044\u308f (Shinunoga E-wa)\u201c is an exquisitely interesting and unique song via a combination of Showa (old Japanese era) style lyrics \/melody and the modern trap-style beat. The song has been arguably the singer-songwriter\u2019s most successful track on his personal record so far in 2022.\n\nIn mid 2022, \u201cShinunoga E-wa\u201d off Fujii Kaze\u2019s album Help Ever Hurt Never caught the world by surprise. This two-year-old song first started <a href=\"http:\/\/www.last.fm\/music\/Fujii+Kaze\/_\/Shinunoga+E-Wa\">Read more on Last.fm<\/a>.",
+        "content": "\u201c\u6b7b\u306c\u306e\u304c\u3044\u3044\u308f (Shinunoga E-wa)\u201c is an exquisitely interesting and unique song via a combination of Showa (old Japanese era) style lyrics \/melody and the modern trap-style beat. The song has been arguably the singer-songwriter\u2019s most successful track on his personal record so far in 2022.\n\nIn mid 2022, \u201cShinunoga E-wa\u201d off Fujii Kaze\u2019s album Help Ever Hurt Never caught the world by surprise. This two-year-old song first started to explode in Thailand in late July 2022 after many TikTok users featured it in their videos on the app. Its success continues to escalate globally over the months, enabling Fujii Kaze to attend the 73rd installment of the famous Japanese New Year\u2019s Eve TV event, Kohaku Uta Gassen.\n\nAs this song has gone viral, Kaze released \u201cShinunoga E-wa\u201d Live at Nippon Budokan version on his YouTube. On Billboard Japan Hot Albums chart, his debut album returned at No.95 on August 17, 2022, previously reaching No.1 on June 1, 2020. <a href=\"http:\/\/www.last.fm\/music\/Fujii+Kaze\/_\/Shinunoga+E-Wa\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

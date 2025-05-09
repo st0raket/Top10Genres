@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:37.972170+00:00",
+  "elapsed": 0.225389,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:37.972170+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2259",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=I+SEEEEEE+YOU+BABY+BOI"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=I+SEEEEEE+YOU+BABY+BOI",
+  "_decoded_content": {
+    "track": {
+      "name": "i sEeEeEe YOU baby boi",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/i+sEeEeEe+YOU+baby+boi",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "317671",
+      "playcount": "2375186",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trance",
+            "url": "https:\/\/www.last.fm\/tag\/trance"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "bubblegum bass",
+            "url": "https:\/\/www.last.fm\/tag\/bubblegum+bass"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Mar 2025, 09:57",
+        "summary": "\u201cI SEEEEEEE YOU BABY BOI\u201d was first previewed by Playboi Carti on September 15, 2024, via a snippet posted on his alternate Instagram page, opium_00pium, with the caption \u201cYOUNG VAMP LOVE.\u201d He would then play a longer snippet of the song on November 22, 2024, shortly before deleting it from his story.\n\n\u201cBaby Boi\u201d is a moniker Carti took in late 2023 during the first stages of the MUSIC rollout\u2014a nickname he initially used for the late R5 Homixide. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/i+sEeEeEe+YOU+baby+boi\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI SEEEEEEE YOU BABY BOI\u201d was first previewed by Playboi Carti on September 15, 2024, via a snippet posted on his alternate Instagram page, opium_00pium, with the caption \u201cYOUNG VAMP LOVE.\u201d He would then play a longer snippet of the song on November 22, 2024, shortly before deleting it from his story.\n\n\u201cBaby Boi\u201d is a moniker Carti took in late 2023 during the first stages of the MUSIC rollout\u2014a nickname he initially used for the late R5 Homixide. Since taking it on, he got the phrase tattooed on him, and members of his entourage, such as opiumbaby, have referred to him under the name as well. Furthermore, in an Instagram post made the day of MUSIC\u2019s release, he put \u201cBABY BOI OTW\u201d in the caption, possibly hinting at the phrase being a name for his next album. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/i+sEeEeEe+YOU+baby+boi\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

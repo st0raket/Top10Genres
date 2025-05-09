@@ -1,0 +1,72 @@
+{
+  "created_at": "2025-05-03T14:41:52.327282+00:00",
+  "elapsed": 0.179321,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:52.327282+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "601",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rod+Wave&format=json&method=track.getInfo&track=25"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rod+Wave&format=json&method=track.getInfo&track=25",
+  "_decoded_content": {
+    "track": {
+      "name": "25",
+      "url": "https:\/\/www.last.fm\/music\/Rod+Wave\/_\/25",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38727",
+      "playcount": "344609",
+      "artist": {
+        "name": "Rod Wave",
+        "url": "https:\/\/www.last.fm\/music\/Rod+Wave"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "The Mars Volta",
+            "url": "https:\/\/www.last.fm\/tag\/The+Mars+Volta"
+          },
+          {
+            "name": "Burzum",
+            "url": "https:\/\/www.last.fm\/tag\/Burzum"
+          },
+          {
+            "name": "pirate metal",
+            "url": "https:\/\/www.last.fm\/tag\/pirate+metal"
+          },
+          {
+            "name": "brutal prog",
+            "url": "https:\/\/www.last.fm\/tag\/brutal+prog"
+          },
+          {
+            "name": "Dead Can Dance",
+            "url": "https:\/\/www.last.fm\/tag\/Dead+Can+Dance"
+          }
+        ]
+      }
+    }
+  }
+}

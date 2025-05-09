@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:09.829750+00:00",
+  "elapsed": 0.220817,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:09.829750+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2504",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Bussin"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Bussin",
+  "_decoded_content": {
+    "track": {
+      "name": "Bussin",
+      "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Bussin",
+      "duration": "137000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "122322",
+      "playcount": "1740940",
+      "artist": {
+        "name": "Nicki Minaj",
+        "mbid": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj"
+      },
+      "album": {
+        "artist": "Nicki Minaj",
+        "title": "Bussin",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/Bussin",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/847983a3521dd73348b73358e915828b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/847983a3521dd73348b73358e915828b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/847983a3521dd73348b73358e915828b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/847983a3521dd73348b73358e915828b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Feb 2022, 16:50",
+        "summary": "\"Bussin\" is a song released by Trinidadian-American rapper and singer Nicki Minaj, featuring rapper Lil Baby. It was released on February 11th, 2022 by Nicki Minaj.\n\nThe song was first teased at the end of the \"Do We Have A Problem?\" music video, also a song made by Nicki Minaj, featuring rapper Lil Baby, which was released a week before \"Bussin\".\n\nIn the United States, \"Bussin\" debuted and peaked at #20 on the Billboard Hot 100. It also charted on the Digital Song Sales chart at #5. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Bussin\">Read more on Last.fm<\/a>.",
+        "content": "\"Bussin\" is a song released by Trinidadian-American rapper and singer Nicki Minaj, featuring rapper Lil Baby. It was released on February 11th, 2022 by Nicki Minaj.\n\nThe song was first teased at the end of the \"Do We Have A Problem?\" music video, also a song made by Nicki Minaj, featuring rapper Lil Baby, which was released a week before \"Bussin\".\n\nIn the United States, \"Bussin\" debuted and peaked at #20 on the Billboard Hot 100. It also charted on the Digital Song Sales chart at #5. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Bussin\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

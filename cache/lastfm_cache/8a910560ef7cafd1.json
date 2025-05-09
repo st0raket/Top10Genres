@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:13.865876+00:00",
+  "elapsed": 0.216682,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:13.865876+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2642",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Say+Yes%21&format=json&method=track.getInfo&track=Say+My+Name"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Say+Yes%21&format=json&method=track.getInfo&track=Say+My+Name",
+  "_decoded_content": {
+    "track": {
+      "name": "Say My Name",
+      "url": "https:\/\/www.last.fm\/music\/Say+Yes%21\/_\/Say+My+Name",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "37548",
+      "playcount": "884344",
+      "artist": {
+        "name": "Say Yes!",
+        "url": "https:\/\/www.last.fm\/music\/Say+Yes%21"
+      },
+      "album": {
+        "artist": "BOYS PLANET",
+        "title": "BOYS PLANET - ARTIST BATTLE",
+        "url": "https:\/\/www.last.fm\/music\/BOYS+PLANET\/BOYS+PLANET+-+ARTIST+BATTLE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e7a99baead7dade10a1fe0b670dd1ad2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e7a99baead7dade10a1fe0b670dd1ad2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e7a99baead7dade10a1fe0b670dd1ad2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e7a99baead7dade10a1fe0b670dd1ad2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Aug 2023, 12:35",
+        "summary": "\"Say My Name\" is a song recorded by the trainees of BOYS PLANET. It is the fourth track on the extended play ARTIST BATTLE, released on April 6, 2023. Performed during the show's Artist Battle mission under the group name Say Yes!, the members included Kim Jiwoong (individual trainee), Sung Hanbin (STUDIO GL1DE), Seok Matthew (MNH Entertainment), Yoo Seungeon (Yuehua Entertainment) and Han Yujin (Yuehua Entertainment), where they placed 2nd among the five teams with a total of 612 points. <a href=\"http:\/\/www.last.fm\/music\/Say+Yes%21\/_\/Say+My+Name\">Read more on Last.fm<\/a>.",
+        "content": "\"Say My Name\" is a song recorded by the trainees of BOYS PLANET. It is the fourth track on the extended play ARTIST BATTLE, released on April 6, 2023. Performed during the show's Artist Battle mission under the group name Say Yes!, the members included Kim Jiwoong (individual trainee), Sung Hanbin (STUDIO GL1DE), Seok Matthew (MNH Entertainment), Yoo Seungeon (Yuehua Entertainment) and Han Yujin (Yuehua Entertainment), where they placed 2nd among the five teams with a total of 612 points.\n\nThe track was written and composed by FLUM3N, Boran and IRIS, with Son Da-seul and Han Yujin credited as co-writers, and arrangement by FLUM3N. <a href=\"http:\/\/www.last.fm\/music\/Say+Yes%21\/_\/Say+My+Name\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

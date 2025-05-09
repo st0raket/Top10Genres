@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:44:48.824511+00:00",
+  "elapsed": 0.185844,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:48.824511+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3805",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Leave+Out+All+The+Rest"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Leave+Out+All+The+Rest",
+  "_decoded_content": {
+    "track": {
+      "name": "Leave Out All the Rest",
+      "mbid": "36ae7941-b60f-4eb1-8391-d1e3e1eda72d",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Leave+Out+All+the+Rest",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1058663",
+      "playcount": "9813383",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "Minutes to Midnight",
+        "mbid": "d08a98b7-0c33-40d6-b574-ff0ce1600af7",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/Minutes+to+Midnight",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "Linkin Park",
+            "url": "https:\/\/www.last.fm\/tag\/Linkin+Park"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "Nu Metal",
+            "url": "https:\/\/www.last.fm\/tag\/Nu+Metal"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Nov 2016, 13:43",
+        "summary": "This song is about a man looking for redemption from his past mistakes. He knows he has hurt people and made some poor choices, and now he wants to be forgiven.\n\nThe original title was \"Fear.\" The band spent a lot of time working on the lyrics, and the song went through many variations before it was recorded. \n\nVocalist Chester Bennington in Kerrang! Magazine: \"We knew this was going to be a single from the very beginning, so we worked really hard on making sure it had great lyrics. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Leave+Out+All+the+Rest\">Read more on Last.fm<\/a>.",
+        "content": "This song is about a man looking for redemption from his past mistakes. He knows he has hurt people and made some poor choices, and now he wants to be forgiven.\n\nThe original title was \"Fear.\" The band spent a lot of time working on the lyrics, and the song went through many variations before it was recorded. \n\nVocalist Chester Bennington in Kerrang! Magazine: \"We knew this was going to be a single from the very beginning, so we worked really hard on making sure it had great lyrics. I'm singing 'Pretending someone else can save me from myself' during it because it's supposed to feel like an apology letter, as though I'm moving on but I want people to remember the good things and not the bad things. A lot of the song is about humility.\"\n\nThis song featured prominently in episode 187 of the forensic drama CSI, which shared the same episode title as the song. Executive producer Carol Mendelsohn explained why they decided to use Linkin Park's music: \"They have an anthemic sound that's full of strength and simultaneous vulnerability. They were perfect for the show and the conflict within it.\" The conflict she refers to is Gil Grissom's (William Petersen) unresolved love with Sara Sidle (Jorja Fox), who recently left the crime lab.\n\nCSI's music supervisor Jason Alexander added: \"We found the melody and lyrics of the song to work so well with our story, that we underscored Grissom's emotional journey with it. We've been long admirers of Linkin Park and it was wonderful for us to collaborate on something special like this.\" <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Leave+Out+All+the+Rest\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

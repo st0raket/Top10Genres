@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:11.166960+00:00",
+  "elapsed": 0.445869,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:11.166960+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2760",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Beach+Boys&format=json&method=track.getInfo&track=Little+Saint+Nick"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Beach+Boys&format=json&method=track.getInfo&track=Little+Saint+Nick",
+  "_decoded_content": {
+    "track": {
+      "name": "Little Saint Nick",
+      "mbid": "875d55fd-b8f6-4f64-a984-8e8f058b8b16",
+      "url": "https:\/\/www.last.fm\/music\/The+Beach+Boys\/_\/Little+Saint+Nick",
+      "duration": "117000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "393130",
+      "playcount": "1095961",
+      "artist": {
+        "name": "The Beach Boys",
+        "mbid": "ebfc1398-8d96-47e3-82c3-f782abcdb13d",
+        "url": "https:\/\/www.last.fm\/music\/The+Beach+Boys"
+      },
+      "album": {
+        "artist": "The Beach Boys",
+        "title": "Stack-O-Tracks",
+        "mbid": "70538a32-f163-4896-a22f-90a1f529ca56",
+        "url": "https:\/\/www.last.fm\/music\/The+Beach+Boys\/Stack-O-Tracks",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ca21c5c750184bacb6831f36864bc38a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ca21c5c750184bacb6831f36864bc38a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ca21c5c750184bacb6831f36864bc38a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ca21c5c750184bacb6831f36864bc38a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "60s",
+            "url": "https:\/\/www.last.fm\/tag\/60s"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Dec 2024, 15:54",
+        "summary": "\"Little Saint Nick\" is a song by American rock band the Beach Boys first released as a single on December 9, 1963. Written by Brian Wilson and Mike Love, the Christmas song applies hot-rod themes to Santa Claus and his sleigh.\n\nThe single peaked at number 3 on Billboard magazine's special seasonal weekly Christmas Singles chart. Its B-side was an a cappella version of \"The Lord's Prayer\". In November 1964, an alternate mix of \"Little Saint Nick\" appeared as the opening track on The Beach Boys' Christmas Album. <a href=\"http:\/\/www.last.fm\/music\/The+Beach+Boys\/_\/Little+Saint+Nick\">Read more on Last.fm<\/a>.",
+        "content": "\"Little Saint Nick\" is a song by American rock band the Beach Boys first released as a single on December 9, 1963. Written by Brian Wilson and Mike Love, the Christmas song applies hot-rod themes to Santa Claus and his sleigh.\n\nThe single peaked at number 3 on Billboard magazine's special seasonal weekly Christmas Singles chart. Its B-side was an a cappella version of \"The Lord's Prayer\". In November 1964, an alternate mix of \"Little Saint Nick\" appeared as the opening track on The Beach Boys' Christmas Album. <a href=\"http:\/\/www.last.fm\/music\/The+Beach+Boys\/_\/Little+Saint+Nick\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

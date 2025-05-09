@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:30.601554+00:00",
+  "elapsed": 0.180729,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:30.601554+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2876",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=Revolving+door"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=Revolving+door",
+  "_decoded_content": {
+    "track": {
+      "name": "revolving door",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/revolving+door",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "360405",
+      "playcount": "4970033",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          },
+          {
+            "name": "putin",
+            "url": "https:\/\/www.last.fm\/tag\/putin"
+          },
+          {
+            "name": "jersey club",
+            "url": "https:\/\/www.last.fm\/tag\/jersey+club"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "diva do pop",
+            "url": "https:\/\/www.last.fm\/tag\/diva+do+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Feb 2025, 20:05",
+        "summary": "\u201cRevolving door\u201c is the third track from Tate McRae's third studio album, So Close to What. The song talks about continuously returning to a past lover even after trying to cut things off. Whether the relationship was toxic or healthy, that doesn\u2019t stop Tate from coming back \u201clike a revolving door\u201d.\n\n\u201c\u2018Revolving door\u2019 was initially started as a love song and feeling like you\u2019re stuck in this revolving door of a relationship and regardless of what you do in your life and how you change, I keep coming back to this person. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/revolving+door\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRevolving door\u201c is the third track from Tate McRae's third studio album, So Close to What. The song talks about continuously returning to a past lover even after trying to cut things off. Whether the relationship was toxic or healthy, that doesn\u2019t stop Tate from coming back \u201clike a revolving door\u201d.\n\n\u201c\u2018Revolving door\u2019 was initially started as a love song and feeling like you\u2019re stuck in this revolving door of a relationship and regardless of what you do in your life and how you change, I keep coming back to this person. And then I realized, \u2018cause I wrote the bridge a different day, I went on my own and just wrote the bridge, and I realized that it wasn\u2019t just a relationship song, it was literally about my inability to make decisions and my inability to change and kinda feeling like I was in this cycle not only in relationships but in my life, of staying the same person and never feeling stable on one thing. So, the bridge is one of my favorite parts of that song 'cause I had literally just done a performance it talks about like, 'Supposed to be on stage but fuck it, I need a minute\/Supposed to be an adult but fuck it, I need a minute,\u2019 like, everything needs to stop for one second so I can screw my head on straight and realize who I am, \u2018cause everything felt like it was moving a million miles an hour.\u201c\n\n\u2014 via Track By Track <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/revolving+door\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

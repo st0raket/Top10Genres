@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:28:25.127741+00:00",
+  "elapsed": 0.228702,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:25.127741+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "350",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GFriend&format=json&method=track.getInfo&track=%EA%B7%80%EB%A5%BC+%EA%B8%B0%EC%9A%B8%EC%9D%B4%EB%A9%B4+Love+Whisper"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GFriend&format=json&method=track.getInfo&track=%EA%B7%80%EB%A5%BC+%EA%B8%B0%EC%9A%B8%EC%9D%B4%EB%A9%B4+Love+Whisper",
+  "_decoded_content": {
+    "track": {
+      "name": "\uadc0\ub97c \uae30\uc6b8\uc774\uba74 Love Whisper",
+      "url": "https:\/\/www.last.fm\/music\/GFRIEND\/_\/%EA%B7%80%EB%A5%BC+%EA%B8%B0%EC%9A%B8%EC%9D%B4%EB%A9%B4+Love+Whisper",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "41",
+      "playcount": "749",
+      "artist": {
+        "name": "GFRIEND",
+        "url": "https:\/\/www.last.fm\/music\/GFRIEND"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:42.222193+00:00",
+  "elapsed": 0.309785,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:42.222193+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2622",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Major+Lazer&format=json&method=track.getInfo&track=Lean+On"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Major+Lazer&format=json&method=track.getInfo&track=Lean+On",
+  "_decoded_content": {
+    "track": {
+      "name": "Lean On",
+      "url": "https:\/\/www.last.fm\/music\/Major+Lazer\/_\/Lean+On",
+      "duration": "147000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "468378",
+      "playcount": "2919415",
+      "artist": {
+        "name": "Major Lazer",
+        "mbid": "75be165a-ad83-4d12-bd28-f589a15c479f",
+        "url": "https:\/\/www.last.fm\/music\/Major+Lazer"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "THIS IS Dance 2016",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/THIS+IS+Dance+2016",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fd9428cb2191fdd3cb775ae000813b3b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fd9428cb2191fdd3cb775ae000813b3b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fd9428cb2191fdd3cb775ae000813b3b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fd9428cb2191fdd3cb775ae000813b3b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "moombahton",
+            "url": "https:\/\/www.last.fm\/tag\/moombahton"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2016, 03:18",
+        "summary": "\"Lean On\" is a song recorded by electronic music group Major Lazer and French producer DJ Snake, taken from the former's third studio album, Peace Is the Mission (2015), featuring vocals from Danish singer M\u00d8. It was produced by Major Lazer and DJ Snake, and written by M\u00d8, Major Lazer member Diplo, DJ Snake, Jr. Blender and Martin Bresso. \"Lean On\" was released through Mad Decent independently (Because Music for Europe, WMG for Australia) as the lead single from the album on March 2, 2015. <a href=\"http:\/\/www.last.fm\/music\/Major+Lazer\/_\/Lean+On\">Read more on Last.fm<\/a>.",
+        "content": "\"Lean On\" is a song recorded by electronic music group Major Lazer and French producer DJ Snake, taken from the former's third studio album, Peace Is the Mission (2015), featuring vocals from Danish singer M\u00d8. It was produced by Major Lazer and DJ Snake, and written by M\u00d8, Major Lazer member Diplo, DJ Snake, Jr. Blender and Martin Bresso. \"Lean On\" was released through Mad Decent independently (Because Music for Europe, WMG for Australia) as the lead single from the album on March 2, 2015. It is a dance and electronic song being also described as a house ballad. <a href=\"http:\/\/www.last.fm\/music\/Major+Lazer\/_\/Lean+On\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

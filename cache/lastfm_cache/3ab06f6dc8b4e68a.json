@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:19.232862+00:00",
+  "elapsed": 0.198147,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:19.232862+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3639",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Die+For+You+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Die+For+You+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Die For You - Remix",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You+-+Remix",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "696400",
+      "playcount": "6355401",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Ariana Grande",
+            "url": "https:\/\/www.last.fm\/tag\/Ariana+Grande"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Feb 2023, 07:00",
+        "summary": "\"Die For You (Remix)\" is a remix by Canadian singer The Weeknd with American singer Ariana Grande. It was released on February 24, 2023.\n\nOn February 21, 2023, Ariana Grande gave fans a sneak peek into her creative process by sharing a video on her TikTok and Instagram accounts of herself working on a new song in the studio.  She captioned the video by stating, \"Wrote and recorded a verse for my friend after a 14-hour day on set. This certain exception had to be made\u2026.\" The snippet was reposted by The Weeknd. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You+-+Remix\">Read more on Last.fm<\/a>.",
+        "content": "\"Die For You (Remix)\" is a remix by Canadian singer The Weeknd with American singer Ariana Grande. It was released on February 24, 2023.\n\nOn February 21, 2023, Ariana Grande gave fans a sneak peek into her creative process by sharing a video on her TikTok and Instagram accounts of herself working on a new song in the studio.  She captioned the video by stating, \"Wrote and recorded a verse for my friend after a 14-hour day on set. This certain exception had to be made\u2026.\" The snippet was reposted by The Weeknd.\n\nRepublic Records, the label behind both artists, confirmed the collaboration by liking and replying to The Weeknd's comment on the video with a series of side-eye emojis, effectively hinting at the forthcoming release of the highly anticipated track.\n\nOn February 22nd, 2022, Grande took to Instagram and shared the cover art, officially confirming the release of the remix on February 24th, 2023.\n\nThis marks the fourth collaborative project between the duo, following their successful collaborations on \"Love Me Harder,\" \"Off The Table,\" and the \"Save Your Tears (Remix)\". The upcoming remix, slated for release nearly seven years after the original single, was propelled back into the spotlight by TikTok users who recently discovered and began streaming the track, ultimately landing it back in the Billboard Hot 100's top 10. In fact, the song gained even more momentum during the week of February 25th, 2023, securing the 7th position on the chart.\n\nBased on the lyrics, the song is about Tesfaye's deep love and devotion to someone, despite the challenges they are facing in their relationship. The lyrics acknowledges that communication can be difficult, but assures their partner that they love them and would do anything for them, even if it means sacrificing their own life.\n\nThe lyrics also touch on feelings of loneliness and fear of missing the person they love, and the bridge suggests that the singer is willing to be truthful and honest with their partner and would even go to extreme lengths to protect and care for them. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You+-+Remix\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:35.543387+00:00",
+  "elapsed": 0.321721,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:35.543387+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2439",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=favorite+crime"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=favorite+crime",
+  "_decoded_content": {
+    "track": {
+      "name": "favorite crime",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/favorite+crime",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1066542",
+      "playcount": "20858098",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Bored",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Bored",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fbfd04d7f499ef647f2d2a5b5ffe5ba1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fbfd04d7f499ef647f2d2a5b5ffe5ba1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fbfd04d7f499ef647f2d2a5b5ffe5ba1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fbfd04d7f499ef647f2d2a5b5ffe5ba1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 May 2021, 16:39",
+        "summary": "\"favorite crime\" is the tenth track from Olivia Rodrigo's debut album, SOUR. It was released on May 21, 2021 through Geffen Records.\n\nIn the song, Rodrigo implies that she is partly responsible for her heartbreak because she let herself be treated badly in the relationship, she starts the process of moving on.\n\n\"favorite crime\" debuted at #18 on the Billboard Hot 100 during the chart week of June 5, 2021. The following week, it peaked at #16 on the chart. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/favorite+crime\">Read more on Last.fm<\/a>.",
+        "content": "\"favorite crime\" is the tenth track from Olivia Rodrigo's debut album, SOUR. It was released on May 21, 2021 through Geffen Records.\n\nIn the song, Rodrigo implies that she is partly responsible for her heartbreak because she let herself be treated badly in the relationship, she starts the process of moving on.\n\n\"favorite crime\" debuted at #18 on the Billboard Hot 100 during the chart week of June 5, 2021. The following week, it peaked at #16 on the chart. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/favorite+crime\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

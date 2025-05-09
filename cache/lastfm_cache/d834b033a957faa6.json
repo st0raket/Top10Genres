@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:39.219998+00:00",
+  "elapsed": 0.208289,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:39.219998+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3074",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=1000+Doves"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=1000+Doves",
+  "_decoded_content": {
+    "track": {
+      "name": "1000 Doves",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/1000+Doves",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "199951",
+      "playcount": "2745061",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "Chromatica",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/Chromatica",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "eurodance",
+            "url": "https:\/\/www.last.fm\/tag\/eurodance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jun 2020, 20:33",
+        "summary": "\"1000 Doves\" is a song about the desire to be understood and accepted by others. Gaga begins the song by pleading with someone to listen to her despite her imperfections and insecurities. She promises to catch their tears as they fall and be there for them just as she wishes someone would be there for her.\n\nThe chorus is a request for help and support from others to lift her up and give her a start. Gaga compares herself to a bird with broken wings <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/1000+Doves\">Read more on Last.fm<\/a>.",
+        "content": "\"1000 Doves\" is a song about the desire to be understood and accepted by others. Gaga begins the song by pleading with someone to listen to her despite her imperfections and insecurities. She promises to catch their tears as they fall and be there for them just as she wishes someone would be there for her.\n\nThe chorus is a request for help and support from others to lift her up and give her a start. Gaga compares herself to a bird with broken wings, but believes that with just a little help and encouragement, she can fly again like a thousand doves. The post-chorus repeats the image of the doves and serves to reinforce the idea of freedom and soaring above one's problems.\n\nThe bridge reveals some of the pain and frustration that the singer has been experiencing, trapped in a cage and struggling with internal turmoil. She begs for someone to set her free if they truly love her, but also acknowledges that it may be time to let go if they do not.\n\nOverall, the song is a plea for connection and understanding, with Gaga using the imagery of doves as a symbol of hope and freedom. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/1000+Doves\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

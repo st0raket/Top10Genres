@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:38.540495+00:00",
+  "elapsed": 0.180277,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:38.540495+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3109",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Chasing+Pavements"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Chasing+Pavements",
+  "_decoded_content": {
+    "track": {
+      "name": "Chasing Pavements",
+      "mbid": "15ffe35b-72f5-475c-b27a-28350518f4a3",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/Chasing+Pavements",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1425075",
+      "playcount": "11420825",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "19",
+        "mbid": "6d4e6692-5ecd-457b-bcd5-85baf51c5e10",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/19",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/58a9a10b96ac70e224f67c8c41e406e7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/58a9a10b96ac70e224f67c8c41e406e7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/58a9a10b96ac70e224f67c8c41e406e7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/58a9a10b96ac70e224f67c8c41e406e7.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Nov 2008, 20:28",
+        "summary": "\"Chasing Pavements\" is a song recorded by English singer-songwriter Adele, for her debut studio album, 19. Its lyrics describe a woman's quest of giving up on her lover and moving on in life with a definitive goal. Adele was inspired to write the song after discovering her boyfriend's infidelity, and the subsequent altercation with him in a pub.\n\nThe song was released as the second single from the album digitally in Ireland on 13 January 2008. The <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Chasing+Pavements\">Read more on Last.fm<\/a>.",
+        "content": "\"Chasing Pavements\" is a song recorded by English singer-songwriter Adele, for her debut studio album, 19. Its lyrics describe a woman's quest of giving up on her lover and moving on in life with a definitive goal. Adele was inspired to write the song after discovering her boyfriend's infidelity, and the subsequent altercation with him in a pub.\n\nThe song was released as the second single from the album digitally in Ireland on 13 January 2008. The song debuted at its peak of #2 on the UK Singles Chart and was certified Platinum by the British Phonographic Industry (BPI). It received a 2\u00d7 Platinum certification in Canada and Platinum in the United States, and reached the top 10 on the charts of various European countries.\n\nThe accompanying music video was directed by Mathew Cullen of the production company Motion Theory. \"Chasing Pavements\" received three nominations at the 51st Annual Grammy Awards; Record of the Year, Song of the Year and won Best Female Pop Vocal Performance. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Chasing+Pavements\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

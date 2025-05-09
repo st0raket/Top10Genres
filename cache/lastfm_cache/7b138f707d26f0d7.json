@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:28:59.382469+00:00",
+  "elapsed": 0.183733,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:59.382469+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2503",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Never+Be+the+Same"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Never+Be+the+Same",
+  "_decoded_content": {
+    "track": {
+      "name": "Never Be The Same",
+      "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Never+Be+The+Same",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "539862",
+      "playcount": "7864962",
+      "artist": {
+        "name": "Camila Cabello",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "camila",
+            "url": "https:\/\/www.last.fm\/tag\/camila"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "hino",
+            "url": "https:\/\/www.last.fm\/tag\/hino"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Feb 2018, 03:59",
+        "summary": "\"Never Be the Same\" is a song recorded by Cuban-American singer Camila Cabello from her debut studio album, Camila (2018). It was released digitally on December 7, 2017 from the album's pre-order and was sent to US contemporary hit radio on January 9, 2018, as the album's second single. The song was written by Cabello, Adam Feeney, Leo Rami Dawod, Jacob Ludwig Olofsson, Noonie Bao and Sasha Yatchenko. The song has so far peaked in the top 10 in the UK and Ireland. <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Never+Be+The+Same\">Read more on Last.fm<\/a>.",
+        "content": "\"Never Be the Same\" is a song recorded by Cuban-American singer Camila Cabello from her debut studio album, Camila (2018). It was released digitally on December 7, 2017 from the album's pre-order and was sent to US contemporary hit radio on January 9, 2018, as the album's second single. The song was written by Cabello, Adam Feeney, Leo Rami Dawod, Jacob Ludwig Olofsson, Noonie Bao and Sasha Yatchenko. The song has so far peaked in the top 10 in the UK and Ireland. Cabello performed the track live for the first time on television on The Tonight Show Starring Jimmy Fallon on January 10, 2018. \n\"Never Be the Same\" is a mid-tempo ballad that comprises R&B rhythms. Lyrically, it incorporates themes of pain-is-pleasure type of love. Cabello sings of an addictive love in \"Never Be the Same\", singing in the chorus \"It's you, babe\/ And I'm a sucker for the way that you move, babe\/ And I could try to run, but it would be useless\/ You're to blame\/ Just one hit, you will know I'll never ever, ever be the same.\" Additionally, it features booming drums and echoed effects. <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Never+Be+The+Same\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

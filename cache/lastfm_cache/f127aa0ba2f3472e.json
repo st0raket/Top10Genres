@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:41.872984+00:00",
+  "elapsed": 0.239718,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:41.872984+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3250",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BROCKHAMPTON&format=json&method=track.getInfo&track=SUGAR"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BROCKHAMPTON&format=json&method=track.getInfo&track=SUGAR",
+  "_decoded_content": {
+    "track": {
+      "name": "SUGAR",
+      "url": "https:\/\/www.last.fm\/music\/BROCKHAMPTON\/_\/SUGAR",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "684837",
+      "playcount": "9549599",
+      "artist": {
+        "name": "BROCKHAMPTON",
+        "url": "https:\/\/www.last.fm\/music\/BROCKHAMPTON"
+      },
+      "album": {
+        "artist": "BROCKHAMPTON",
+        "title": "GINGER",
+        "url": "https:\/\/www.last.fm\/music\/BROCKHAMPTON\/GINGER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5c65c336166f7455a23bc487518e70d4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5c65c336166f7455a23bc487518e70d4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5c65c336166f7455a23bc487518e70d4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5c65c336166f7455a23bc487518e70d4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          },
+          {
+            "name": "alternative hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Dec 2019, 15:00",
+        "summary": "\u201cSUGAR\u201d features vocal performances from four of the six vocal members of the group. The song also features a vocal contribution from American alternative singer Ryan Beatty.\n\nOn the track, the members discuss topics such as hollow youthful relationships filled with drug use, as well as being there for their partner and wanting them by their side.\n\nThe track was leaked prior to GINGER\u2019s release, turning up on file sharing sites starting on June 21st, 2019, leading many fans to believe that this would be a single for the record. <a href=\"http:\/\/www.last.fm\/music\/BROCKHAMPTON\/_\/SUGAR\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSUGAR\u201d features vocal performances from four of the six vocal members of the group. The song also features a vocal contribution from American alternative singer Ryan Beatty.\n\nOn the track, the members discuss topics such as hollow youthful relationships filled with drug use, as well as being there for their partner and wanting them by their side.\n\nThe track was leaked prior to GINGER\u2019s release, turning up on file sharing sites starting on June 21st, 2019, leading many fans to believe that this would be a single for the record. However, the leak most likely resulted in the song\u2019s release being pushed back to along with the album.\n\nOn March 3rd, 2020 BROCKHAMPTON released a remix featuring Dua Lipa and Jon B after the song\u2019s success on the Billboard charts.\n\nThe group later performed the track live on The Ellen Degeneres Show on September 6th, 2019, and on The Tonight Show with Jimmy Fallon the following month.\n\nDuring the week ending January 18, 2020, \u201cSUGAR\u201d entered the Hot 100 at #70, marking the group\u2019s first song to place on the chart. During the next week, the song peaked at #66.\n\n\u201cSUGAR\u201d was certified platinum on April 29, 2020. <a href=\"http:\/\/www.last.fm\/music\/BROCKHAMPTON\/_\/SUGAR\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:42:30.853020+00:00",
+  "elapsed": 0.201907,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:30.853020+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "383",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=bloodonmyhands"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=bloodonmyhands",
+  "_decoded_content": {
+    "track": {
+      "name": "bloodonmyhands",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/bloodonmyhands",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "875",
+      "playcount": "5980",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "justin's music discovery",
+            "url": "https:\/\/www.last.fm\/tag\/justin%27s+music+discovery"
+          }
+        ]
+      }
+    }
+  }
+}

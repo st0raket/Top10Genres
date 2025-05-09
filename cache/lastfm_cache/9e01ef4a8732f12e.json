@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:01.595440+00:00",
+  "elapsed": 0.190947,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:01.595440+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2704",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=PLASTIC+OFF+THE+SOFA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=PLASTIC+OFF+THE+SOFA",
+  "_decoded_content": {
+    "track": {
+      "name": "PLASTIC OFF THE SOFA",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PLASTIC+OFF+THE+SOFA",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "384697",
+      "playcount": "5444595",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "RENAISSANCE",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/RENAISSANCE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2022, 18:59",
+        "summary": "\u201cPLASTIC OFF THE SOFA\u201d sees the only drastic change in pace on the entire album detailing the longevity of Beyonc\u00e9 and JAY-Z\u2019s relationship.\n\nWith vocals reminiscent of Beyonc\u00e9\u2019s early work on \u201cDangerously In Love\u201d and Destiny\u2019s Child, the subject matter provides an updated and mature perspective on the reasons why she \u2018likes\u2019 her husband throughout their relationship, as opposed to track ten off her debut album \u201cThat\u2019s How You Like It\u201d. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PLASTIC+OFF+THE+SOFA\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPLASTIC OFF THE SOFA\u201d sees the only drastic change in pace on the entire album detailing the longevity of Beyonc\u00e9 and JAY-Z\u2019s relationship.\n\nWith vocals reminiscent of Beyonc\u00e9\u2019s early work on \u201cDangerously In Love\u201d and Destiny\u2019s Child, the subject matter provides an updated and mature perspective on the reasons why she \u2018likes\u2019 her husband throughout their relationship, as opposed to track ten off her debut album \u201cThat\u2019s How You Like It\u201d.\n\nIt debuted at #41 on the Billboard Hot 100 during the chart week ending of August 13, 2022 and was awarded with \u201cBest Traditional R&B Performance\u201d for the 65th Annual Grammy Awards on February 5, 2023. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PLASTIC+OFF+THE+SOFA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

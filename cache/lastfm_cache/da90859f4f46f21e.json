@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:50.774087+00:00",
+  "elapsed": 0.217365,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:50.774087+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2912",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Hard+Feelings%2FLoveless"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Hard+Feelings%2FLoveless",
+  "_decoded_content": {
+    "track": {
+      "name": "Hard Feelings\/Loveless",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/Hard+Feelings%2FLoveless",
+      "duration": "367000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "542600",
+      "playcount": "7483183",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Melodrama",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Melodrama",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Dec 2020, 02:13",
+        "summary": "\"Hard Feelings\/Loveless\" is a song about a breakup and the conflicting emotions that come along with it. The first part of the song (Hard Feelings) focuses on the sadness and longing that accompanies the end of a relationship. The lyrics express the singer's wish that they could turn back the clock and return to a time when they still held the other person close. The chorus captures the sentiment of feeling both hurt and regretful at the same time. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Hard+Feelings%2FLoveless\">Read more on Last.fm<\/a>.",
+        "content": "\"Hard Feelings\/Loveless\" is a song about a breakup and the conflicting emotions that come along with it. The first part of the song (Hard Feelings) focuses on the sadness and longing that accompanies the end of a relationship. The lyrics express the singer's wish that they could turn back the clock and return to a time when they still held the other person close. The chorus captures the sentiment of feeling both hurt and regretful at the same time.\n\nThe second part of the song (Loveless) expresses the anger and resentment that also often comes with a breakup. The lyrics emphasize the idea of a \"Loveless generation\" \u2013 a generation of people who are so preoccupied with being independent and pursuing their own dreams that they become disconnected from the idea of true, committed love. The chorus reiterates the main message of the song, warning the listener to \"look out, lovers\". <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Hard+Feelings%2FLoveless\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:30:55.769371+00:00",
+  "elapsed": 0.207042,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:55.769371+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1714",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bing+Crosby&format=json&method=track.getInfo&track=Jingle+Bells"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bing+Crosby&format=json&method=track.getInfo&track=Jingle+Bells",
+  "_decoded_content": {
+    "track": {
+      "name": "Jingle Bells",
+      "mbid": "a50b5ac0-1bad-4278-9a25-1b892f89c72d",
+      "url": "https:\/\/www.last.fm\/music\/Bing+Crosby\/_\/Jingle+Bells",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "100403",
+      "playcount": "263804",
+      "artist": {
+        "name": "Bing Crosby",
+        "mbid": "2437980f-513a-44fc-80f1-b90d9d7fcf8f",
+        "url": "https:\/\/www.last.fm\/music\/Bing+Crosby"
+      },
+      "album": {
+        "artist": "Bing Crosby",
+        "title": "Merry Christmas",
+        "mbid": "7bf4f9a8-8f52-30a3-883b-c0d454b53830",
+        "url": "https:\/\/www.last.fm\/music\/Bing+Crosby\/Merry+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/357fd5cc9711a6008bcfd6c8dfd6dec3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/357fd5cc9711a6008bcfd6c8dfd6dec3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/357fd5cc9711a6008bcfd6c8dfd6dec3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/357fd5cc9711a6008bcfd6c8dfd6dec3.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "swing",
+            "url": "https:\/\/www.last.fm\/tag\/swing"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Dec 2008, 17:03",
+        "summary": "christmas carols <a href=\"http:\/\/www.last.fm\/music\/Bing+Crosby\/_\/Jingle+Bells\">Read more on Last.fm<\/a>.",
+        "content": "christmas carols <a href=\"http:\/\/www.last.fm\/music\/Bing+Crosby\/_\/Jingle+Bells\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:02.870562+00:00",
+  "elapsed": 0.232165,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:02.870562+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3009",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=What+Would+Pluto+Do"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=What+Would+Pluto+Do",
+  "_decoded_content": {
+    "track": {
+      "name": "What Would Pluto Do",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/What+Would+Pluto+Do",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "225524",
+      "playcount": "1888942",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "For All the Dogs",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/For+All+the+Dogs",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/affa1d5df8b9141db4078541fdb3663f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/affa1d5df8b9141db4078541fdb3663f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/affa1d5df8b9141db4078541fdb3663f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/affa1d5df8b9141db4078541fdb3663f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "piano rap",
+            "url": "https:\/\/www.last.fm\/tag\/piano+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Oct 2023, 21:08",
+        "summary": "In \u201cWhat Would Pluto Do,\u201d Drake wonders how he can approach a taken woman, all while boasting about his lifestyle. In a reference to his infamous nickname, Pluto, Drake questions what would his friend Future do in a similar situation. Future has been famous for his toxic behavior around woman and relationships, especially regarding cheating and lying.\n\nWith Lil Yachty on production, Drake employs repetition multiple times throughout the song. This repetition serves to create a catchy harmony along with the beat. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/What+Would+Pluto+Do\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cWhat Would Pluto Do,\u201d Drake wonders how he can approach a taken woman, all while boasting about his lifestyle. In a reference to his infamous nickname, Pluto, Drake questions what would his friend Future do in a similar situation. Future has been famous for his toxic behavior around woman and relationships, especially regarding cheating and lying.\n\nWith Lil Yachty on production, Drake employs repetition multiple times throughout the song. This repetition serves to create a catchy harmony along with the beat. Similar to his \u201cWhat\u2019s Next,\u201d Drake repeats \u201cokay\u201d multiple times, but in a different tone than the questioning one seen on that song. He also repeats similar sentences on the same rhyme scheme when confessing his sexual admiration to his new girl.\n\nAlthough many fans speculated the presence of Future (aka Pluto) as a feature, Drake only featured Lil Yachty\u2019s ad-libs throughout the song. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/What+Would+Pluto+Do\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

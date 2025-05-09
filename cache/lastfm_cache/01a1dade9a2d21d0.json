@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:44.851154+00:00",
+  "elapsed": 0.175602,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:44.845341+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6172",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nirvana&format=json&method=track.getInfo&track=Smells+Like+Teen+Spirit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nirvana&format=json&method=track.getInfo&track=Smells+Like+Teen+Spirit",
+  "_decoded_content": {
+    "track": {
+      "name": "Smells Like Teen Spirit",
+      "mbid": "0ebe2d92-a11d-4b2b-9922-806383074ed7",
+      "url": "https:\/\/www.last.fm\/music\/Nirvana\/_\/Smells+Like+Teen+Spirit",
+      "duration": "301000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3528828",
+      "playcount": "33490828",
+      "artist": {
+        "name": "Nirvana",
+        "mbid": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+        "url": "https:\/\/www.last.fm\/music\/Nirvana"
+      },
+      "album": {
+        "artist": "Nirvana",
+        "title": "Nevermind",
+        "mbid": "f7930de3-081a-452a-bafe-f7285a2abb6d",
+        "url": "https:\/\/www.last.fm\/music\/Nirvana\/Nevermind",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/49cc807f69d59746b6b04be3434e6637.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/49cc807f69d59746b6b04be3434e6637.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/49cc807f69d59746b6b04be3434e6637.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/49cc807f69d59746b6b04be3434e6637.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Grunge",
+            "url": "https:\/\/www.last.fm\/tag\/Grunge"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "Nirvana",
+            "url": "https:\/\/www.last.fm\/tag\/Nirvana"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jul 2008, 16:41",
+        "summary": "\"Smells Like Teen Spirit\" is a song by rock band Nirvana. It is the opening track and lead single from the band's second album \"Nevermind\", released on DGC Records. The unexpected success of the song propelled \"Nevermind\" to the top of several albums charts at the start of 1992, an event often marked as the point when grunge entered the mainstream.\n\n\"Smells Like Teen Spirit\" was Nirvana's biggest hit in most countries, charting high on music industry charts around the world in 1991 and 1992 <a href=\"http:\/\/www.last.fm\/music\/Nirvana\/_\/Smells+Like+Teen+Spirit\">Read more on Last.fm<\/a>.",
+        "content": "\"Smells Like Teen Spirit\" is a song by rock band Nirvana. It is the opening track and lead single from the band's second album \"Nevermind\", released on DGC Records. The unexpected success of the song propelled \"Nevermind\" to the top of several albums charts at the start of 1992, an event often marked as the point when grunge entered the mainstream.\n\n\"Smells Like Teen Spirit\" was Nirvana's biggest hit in most countries, charting high on music industry charts around the world in 1991 and 1992, including topping the charts of Belgium, France, New Zealand and Spain. The song garnered widespread critical acclaim, including topping the Village Voice Pazz & Jop critics' poll. The song was dubbed an \"anthem for apathetic kids\" of Generation X, but Nirvana grew uncomfortable with the attention it brought them. In the years since Kurt Cobain's death, listeners and critics have continued to praise \"Smells Like Teen Spirit\" as one of the greatest songs of all time.\n\nThe music video for the song is based on the concept of a high school pep rally which ends in chaos and riot, inspired by Jonathan Kaplan's 1979 film Over the Edge and the Ramones' film Rock 'n' Roll High School. It won two MTV Video Music Awards, and was in heavy rotation on music television. In subsequent years Amy Finnerty, formerly of MTV's programming department, claimed the video \"changed the entire look of MTV\" by giving the channel \"a whole new generation to sell to\". In 2000, the Guinness World Records named \"Smells Like Teen Spirit\" the \"Most Played Video\" on MTV Europe.\n\n\"Smells Like Teen Spirit\" was included in the Rock and Roll Hall of Fame's list of The Songs That Shaped Rock and Roll. In 2001, the Recording Industry Association of America (RIAA) ranked the song at #80 on their Songs of the Century list. In 2002, NME ranked the song the #2 on its list of \"100 Greatest Singles of All Time\", while Kerrang! ranked it at #1  on its list of the \"100 Greatest Singles of All Time\". In 2021, Rolling Stone ranked \"Smells Like Teen Spirit\" #5 on its list of The 500 Greatest Songs of All Time. In 2017, it was inducted into the Grammy Hall of Fame.\n\n\"Smells Like Teen Spirit\" was one of several songs written following Nirvana's first recording sessions with producer Butch Vig in 1990. Singer and guitarist Kurt Cobain began writing it a few weeks before recording their second album \"Nevermind\" in 1991. He said it was an attempt to write a song in the style of the Pixies, a band he admired:\n\n\"I was trying to write the ultimate pop song. I was basically trying to rip off the Pixies. I have to admit it. When I heard the Pixies for the first time, I connected with that band so heavily that I should have been in that band\u2014or at least a Pixies cover band. We used their sense of dynamics, being soft and quiet and then loud and hard.\"\n\nWhen Cobain presented the song to his bandmates, it comprised just the main guitar riff and the chorus vocal melody. Cobain said the riff was \"clich\u00e9d\", similar to a riff by Boston or the Richard Berry song \"Louie Louie\". Bassist Krist Novoselic dismissed it as \"ridiculous\"; in response, Cobain made the band play it for an hour and a half. Eventually, Novoselic began playing it more slowly, inspiring drummer Dave Grohl to create the drum beat, which drew from disco artists like The Gap Band. As a result, it is the only song on \"Nevermind\" to credit all three band members as writers.\n\nThe title derives from a phrase written on Cobain's wall by his friend Kathleen Hanna, singer of the riot grrrl band Bikini Kill: \"Kurt smells like Teen Spirit.\" Hanna meant that Cobain smelled like the deodorant Teen Spirit, which she and Tobi Vail, his then-girlfriend, had discovered during a trip to the grocery store. Cobain said he was unaware of the deodorant until months after the single was released, and had interpreted it as a revolutionary slogan, as they had been discussing anarchism and punk rock. <a href=\"http:\/\/www.last.fm\/music\/Nirvana\/_\/Smells+Like+Teen+Spirit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

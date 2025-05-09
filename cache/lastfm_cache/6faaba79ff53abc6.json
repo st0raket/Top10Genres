@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:29:53.561684+00:00",
+  "elapsed": 0.220588,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:53.561684+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1128",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MNEK&format=json&method=track.getInfo&track=Colour"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MNEK&format=json&method=track.getInfo&track=Colour",
+  "_decoded_content": {
+    "track": {
+      "name": "Colour",
+      "url": "https:\/\/www.last.fm\/music\/MNEK\/_\/Colour",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "44690",
+      "playcount": "271842",
+      "artist": {
+        "name": "MNEK",
+        "mbid": "27e7c2e8-badc-4a97-8b93-24b6c530b038",
+        "url": "https:\/\/www.last.fm\/music\/MNEK"
+      },
+      "album": {
+        "artist": "MNEK",
+        "title": "Colour",
+        "url": "https:\/\/www.last.fm\/music\/MNEK\/Colour",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/efaff979af8c2232d16acebfecb76880.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/efaff979af8c2232d16acebfecb76880.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/efaff979af8c2232d16acebfecb76880.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/efaff979af8c2232d16acebfecb76880.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      }
+    }
+  }
+}

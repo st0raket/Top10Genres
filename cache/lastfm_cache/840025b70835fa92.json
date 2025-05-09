@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:30.512850+00:00",
+  "elapsed": 0.290795,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:30.512850+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4000",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=Memories"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=Memories",
+  "_decoded_content": {
+    "track": {
+      "name": "Memories",
+      "url": "https:\/\/www.last.fm\/music\/Conan+Gray\/_\/Memories",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "597562",
+      "playcount": "9788168",
+      "artist": {
+        "name": "Conan Gray",
+        "url": "https:\/\/www.last.fm\/music\/Conan+Gray"
+      },
+      "album": {
+        "artist": "Conan Gray",
+        "title": "Memories",
+        "url": "https:\/\/www.last.fm\/music\/Conan+Gray\/Memories",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9d6ae164d064f8f0102f4ad18b8544aa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9d6ae164d064f8f0102f4ad18b8544aa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9d6ae164d064f8f0102f4ad18b8544aa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9d6ae164d064f8f0102f4ad18b8544aa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "seen live",
+            "url": "https:\/\/www.last.fm\/tag\/seen+live"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Jun 2022, 04:59",
+        "summary": "\u201cMemories\u201d is the fourth single off of Conan Gray\u2019s sophomore studio album \"Superache\". Initially teased six days earlier, the song was released on April 15, 2022. The song shows Gray longing for a former romantic partner, wishing to remember their love for each other.\n\nConan wants the person he\u2019s singing about to stay in his memories since he wants them to feel comforting and happy as they are. With the person returning back into his life <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/Memories\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMemories\u201d is the fourth single off of Conan Gray\u2019s sophomore studio album \"Superache\". Initially teased six days earlier, the song was released on April 15, 2022. The song shows Gray longing for a former romantic partner, wishing to remember their love for each other.\n\nConan wants the person he\u2019s singing about to stay in his memories since he wants them to feel comforting and happy as they are. With the person returning back into his life, the memories become painful and no longer feel the same as it serves as a record of how everything once was between them. The song is about trying to move on from a relationship but can\u2019t since the memories you had with them keep coming back to you in a more painful way.\n\nSeveral days prior, following the announcement of Superache, Rolling Stone published an article about the album, accidentally leaking the title and release date of \u201cMemories,\u201d before removing any mentions of the song shortly after.\n\nGray formally announced the song on April 13, two days before its scheduled release, and two days after the Rolling Stone leak. Included in the announcement was an additional snippet of both the song and its music video, and a presave link for the song.\n\n\"I wanted to flip it over and be like, \u201cI actually wish that you would stay in my memory. Like, stop showing up in real life. I don\u2019t want any new memories. I\u2019m trying to get over you.\u201d\n\nI was like, \u201cWell, you broke up with him, so maybe you shouldn\u2019t text him. Maybe you should actually just leave him alone and let him rest and let him get over you.\u201d It just had me thinking about all the times that people texted me that I wished they wouldn\u2019t have.\"\n\n\u2014 Conan, via People\n\n\u201c\"Memories\u201d is out everywhere now. This is the very last song I wrote for Superache, and it felt like the perfect introduction into the world of this album. Written by me, produced by the brilliant [Dan Nigro]. I hope this song helps you get over that one person. You know who. Welcome to Superache \ud83c\udf39\"\n\n\u2014 Conan, via Instagram <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/Memories\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:17.783955+00:00",
+  "elapsed": 0.620523,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:17.783955+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3127",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oliver+Tree&format=json&method=track.getInfo&track=Life+Goes+On"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oliver+Tree&format=json&method=track.getInfo&track=Life+Goes+On",
+  "_decoded_content": {
+    "track": {
+      "name": "Life Goes On",
+      "url": "https:\/\/www.last.fm\/music\/Oliver+Tree\/_\/Life+Goes+On",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "401226",
+      "playcount": "3118913",
+      "artist": {
+        "name": "Oliver Tree",
+        "url": "https:\/\/www.last.fm\/music\/Oliver+Tree"
+      },
+      "album": {
+        "artist": "Oliver Tree feat. Ty Dolla $ign",
+        "title": "Life Goes On",
+        "url": "https:\/\/www.last.fm\/music\/Oliver+Tree+feat.+Ty+Dolla+$ign\/Life+Goes+On",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/359855e64a9fca4ba2bcd89ad55dfd95.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/359855e64a9fca4ba2bcd89ad55dfd95.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/359855e64a9fca4ba2bcd89ad55dfd95.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/359855e64a9fca4ba2bcd89ad55dfd95.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "ass",
+            "url": "https:\/\/www.last.fm\/tag\/ass"
+          },
+          {
+            "name": "a subtle use of vocal harmony",
+            "url": "https:\/\/www.last.fm\/tag\/a+subtle+use+of+vocal+harmony"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jan 2022, 17:37",
+        "summary": "\"Life Goes On\" (originally thought to be titled On \u2018n\u2019 On) is a song that was supposed to be on Oliver Tree\u2019s debut album, \"Ugly Is Beautiful\". It was confirmed that the name was \"Life Goes On\" on Oliver Tree\u2019s issue of the magazine Alt Press.\n\n\"Life Goes On\" is a song written by Oliver Tree highlighting his relationship between his music and personal life, but despite everything he goes through, life goes on.\n\nOn July 14th, when the track-list for \"Ugly Is Beautiful\" was revealed, \"Life Goes On\" was not on there. <a href=\"http:\/\/www.last.fm\/music\/Oliver+Tree\/_\/Life+Goes+On\">Read more on Last.fm<\/a>.",
+        "content": "\"Life Goes On\" (originally thought to be titled On \u2018n\u2019 On) is a song that was supposed to be on Oliver Tree\u2019s debut album, \"Ugly Is Beautiful\". It was confirmed that the name was \"Life Goes On\" on Oliver Tree\u2019s issue of the magazine Alt Press.\n\n\"Life Goes On\" is a song written by Oliver Tree highlighting his relationship between his music and personal life, but despite everything he goes through, life goes on.\n\nOn July 14th, when the track-list for \"Ugly Is Beautiful\" was revealed, \"Life Goes On\" was not on there.\n\nOn October 30th, 2020. Oliver performed this song live on The Late Show with Stephen Colbert, where it also stated this song will be on the deluxe version of \"Ugly Is Beautiful\".\n\nThe official studio version was later leaked via Instagram and its Story music feature. The song was taken down soon afterward.\n\nThe official song released along with the other deluxe tracks on May 27th, 2020, with the music video releasing the following day. <a href=\"http:\/\/www.last.fm\/music\/Oliver+Tree\/_\/Life+Goes+On\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

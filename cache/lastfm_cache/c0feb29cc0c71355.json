@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:38.828839+00:00",
+  "elapsed": 0.203012,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:38.828839+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2422",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Tempo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Tempo",
+  "_decoded_content": {
+    "track": {
+      "name": "Tempo",
+      "url": "https:\/\/www.last.fm\/music\/Exo\/_\/Tempo",
+      "duration": "224000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "273173",
+      "playcount": "4760636",
+      "artist": {
+        "name": "Exo",
+        "mbid": "f2f9845c-6803-4451-a10e-9c6673608667",
+        "url": "https:\/\/www.last.fm\/music\/Exo"
+      },
+      "album": {
+        "artist": "EXO",
+        "title": "LOVE SHOT\u2013 The 5th Album Repackage",
+        "url": "https:\/\/www.last.fm\/music\/EXO\/LOVE+SHOT%E2%80%93+The+5th+Album+Repackage",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/00141c5e0e878ae572e85f2344e42632.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/00141c5e0e878ae572e85f2344e42632.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/00141c5e0e878ae572e85f2344e42632.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/00141c5e0e878ae572e85f2344e42632.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Nov 2018, 18:54",
+        "summary": "\"Tempo\" is a song by South Korean-Chinese boy band Exo, released on November 2, 2018, as the lead single from the band's fifth studio album Don't Mess Up My Tempo.\n\n\"Tempo\" was called \"a rhythmical hip-hop-leaning dance track that showcases a cappella harmonies as they send warnings not to 'mess up his tempo' with their lover\". Billboard stated the preview \"starts off with a dramatic synth melody, pulsating beat and the phrase 'I can't believe'.\" <a href=\"http:\/\/www.last.fm\/music\/Exo\/_\/Tempo\">Read more on Last.fm<\/a>.",
+        "content": "\"Tempo\" is a song by South Korean-Chinese boy band Exo, released on November 2, 2018, as the lead single from the band's fifth studio album Don't Mess Up My Tempo.\n\n\"Tempo\" was called \"a rhythmical hip-hop-leaning dance track that showcases a cappella harmonies as they send warnings not to 'mess up his tempo' with their lover\". Billboard stated the preview \"starts off with a dramatic synth melody, pulsating beat and the phrase 'I can't believe'.\" <a href=\"http:\/\/www.last.fm\/music\/Exo\/_\/Tempo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

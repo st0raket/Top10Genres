@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:37:22.310509+00:00",
+  "elapsed": 0.215566,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:22.310509+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1882",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=born+with+horns"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=born+with+horns",
+  "_decoded_content": {
+    "track": {
+      "name": "Born With Horns",
+      "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/Born+With+Horns",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "49266",
+      "playcount": "513157",
+      "artist": {
+        "name": "Machine Gun Kelly",
+        "mbid": "f6af669a-56ea-448a-a044-de76181ada33",
+        "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "punk rock",
+            "url": "https:\/\/www.last.fm\/tag\/punk+rock"
+          },
+          {
+            "name": "pop punk",
+            "url": "https:\/\/www.last.fm\/tag\/pop+punk"
+          },
+          {
+            "name": "Clone hero",
+            "url": "https:\/\/www.last.fm\/tag\/Clone+hero"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Mar 2023, 11:16",
+        "summary": "\u201cborn with horns\u201d was the original title track for MGK\u2019s 2022 album mainstream sellout, which he renamed from Born With Horns on January 31st, 2022. After he announced the new name, he took to Twitter to announce \u201cborn with horns\u201d as the album\u2019s first track.\n\nFans found the song\u2019s lyrics before its release on Kells' merch site, where he sold a zine with a behind-the-scenes look at the album creation as well as the lyrics to each song. <a href=\"http:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/Born+With+Horns\">Read more on Last.fm<\/a>.",
+        "content": "\u201cborn with horns\u201d was the original title track for MGK\u2019s 2022 album mainstream sellout, which he renamed from Born With Horns on January 31st, 2022. After he announced the new name, he took to Twitter to announce \u201cborn with horns\u201d as the album\u2019s first track.\n\nFans found the song\u2019s lyrics before its release on Kells' merch site, where he sold a zine with a behind-the-scenes look at the album creation as well as the lyrics to each song. <a href=\"http:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/Born+With+Horns\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

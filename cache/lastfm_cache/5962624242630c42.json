@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:37:05.216034+00:00",
+  "elapsed": 0.227339,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:05.216034+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1012",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gabry+Ponte&format=json&method=track.getInfo&track=Thunder"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gabry+Ponte&format=json&method=track.getInfo&track=Thunder",
+  "_decoded_content": {
+    "track": {
+      "name": "Thunder",
+      "url": "https:\/\/www.last.fm\/music\/Gabry+Ponte\/_\/Thunder",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "171214",
+      "playcount": "1438449",
+      "artist": {
+        "name": "Gabry Ponte",
+        "mbid": "5a578188-781d-46a3-ac29-1974060702ad",
+        "url": "https:\/\/www.last.fm\/music\/Gabry+Ponte"
+      },
+      "album": {
+        "artist": "LUM!X",
+        "title": "Thunder - Single",
+        "url": "https:\/\/www.last.fm\/music\/LUM%21X\/Thunder+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e56541d4d0bd35df37c19baa40f2c21a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e56541d4d0bd35df37c19baa40f2c21a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e56541d4d0bd35df37c19baa40f2c21a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e56541d4d0bd35df37c19baa40f2c21a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trance",
+            "url": "https:\/\/www.last.fm\/tag\/trance"
+          },
+          {
+            "name": "psytrance",
+            "url": "https:\/\/www.last.fm\/tag\/psytrance"
+          }
+        ]
+      }
+    }
+  }
+}

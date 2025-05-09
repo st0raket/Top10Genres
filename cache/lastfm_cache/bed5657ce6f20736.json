@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:23.140093+00:00",
+  "elapsed": 0.221079,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:23.140093+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2039",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=Love+Hangover"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=Love+Hangover",
+  "_decoded_content": {
+    "track": {
+      "name": "Love Hangover",
+      "url": "https:\/\/www.last.fm\/music\/Jennie\/_\/Love+Hangover",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9774",
+      "playcount": "39088",
+      "artist": {
+        "name": "Jennie",
+        "mbid": "d32de3a1-01f0-430e-859a-72307724041c",
+        "url": "https:\/\/www.last.fm\/music\/Jennie"
+      },
+      "album": {
+        "artist": "Jennie",
+        "title": "Ruby (Target Exclusive)",
+        "url": "https:\/\/www.last.fm\/music\/Jennie\/Ruby+(Target+Exclusive)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5b344e792abff0b84e203e5581021d4d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5b344e792abff0b84e203e5581021d4d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5b344e792abff0b84e203e5581021d4d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5b344e792abff0b84e203e5581021d4d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          },
+          {
+            "name": "Neo Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo+Soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2025, 18:45",
+        "summary": "On January 27, 2025, Jennie announced the release of a pre-release digital single titled \u201cLove Hangover\u201d on January 31st in all streaming platforms . The music video for the song will accompany the release and will be featured in her upcoming album, Ruby. <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/Love+Hangover\">Read more on Last.fm<\/a>.",
+        "content": "On January 27, 2025, Jennie announced the release of a pre-release digital single titled \u201cLove Hangover\u201d on January 31st in all streaming platforms . The music video for the song will accompany the release and will be featured in her upcoming album, Ruby. <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/Love+Hangover\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

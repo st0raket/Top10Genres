@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:29:25.713205+00:00",
+  "elapsed": 0.230858,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:25.713205+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "895",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=4+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=4+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "4 Me",
+      "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/_\/4+Me",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "14990",
+      "playcount": "81768",
+      "artist": {
+        "name": "Tory Lanez",
+        "mbid": "5b8ec72b-9e39-4a06-a2bf-964166b92a71",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez"
+      },
+      "album": {
+        "artist": "Tory Lanez",
+        "title": "Memories Don't Die",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/Memories+Don%27t+Die",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ddc3fd45b9a42f8c5749c34f28bca9c4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ddc3fd45b9a42f8c5749c34f28bca9c4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ddc3fd45b9a42f8c5749c34f28bca9c4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ddc3fd45b9a42f8c5749c34f28bca9c4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

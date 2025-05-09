@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:38:58.082360+00:00",
+  "elapsed": 0.197636,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:58.082360+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1067",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Querbeat&format=json&method=track.getInfo&track=Nie+mehr+Fastelovend"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Querbeat&format=json&method=track.getInfo&track=Nie+mehr+Fastelovend",
+  "_decoded_content": {
+    "track": {
+      "name": "Nie mehr Fastelovend",
+      "mbid": "48dcb8b9-6c10-431b-86ff-702efd457ea4",
+      "url": "https:\/\/www.last.fm\/music\/Querbeat\/_\/Nie+mehr+Fastelovend",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "13814",
+      "playcount": "99034",
+      "artist": {
+        "name": "Querbeat",
+        "mbid": "235f82cd-422a-4f7a-bc94-ef22662b43dc",
+        "url": "https:\/\/www.last.fm\/music\/Querbeat"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Karneval der Stars, Folge 44",
+        "mbid": "936d6962-b0fc-4c75-a863-b869d4f2a0ce",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Karneval+der+Stars,+Folge+44",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3daf46331be192496594add56bf08777.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3daf46331be192496594add56bf08777.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3daf46331be192496594add56bf08777.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3daf46331be192496594add56bf08777.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

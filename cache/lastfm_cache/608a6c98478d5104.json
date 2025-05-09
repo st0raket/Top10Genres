@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:31:55.175778+00:00",
+  "elapsed": 0.228643,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:55.175778+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2173",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bryson+Tiller&format=json&method=track.getInfo&track=Blame"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bryson+Tiller&format=json&method=track.getInfo&track=Blame",
+  "_decoded_content": {
+    "track": {
+      "name": "Blame",
+      "url": "https:\/\/www.last.fm\/music\/Bryson+Tiller\/_\/Blame",
+      "duration": "127000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "194361",
+      "playcount": "1718534",
+      "artist": {
+        "name": "Bryson Tiller",
+        "url": "https:\/\/www.last.fm\/music\/Bryson+Tiller"
+      },
+      "album": {
+        "artist": "Bryson Tiller",
+        "title": "Blame",
+        "url": "https:\/\/www.last.fm\/music\/Bryson+Tiller\/Blame",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b87b98898082fe02ce6aa73cb58b8aa1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b87b98898082fe02ce6aa73cb58b8aa1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b87b98898082fe02ce6aa73cb58b8aa1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b87b98898082fe02ce6aa73cb58b8aa1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Bryson Tiller",
+            "url": "https:\/\/www.last.fm\/tag\/Bryson+Tiller"
+          },
+          {
+            "name": "Sexy Twisted RNB",
+            "url": "https:\/\/www.last.fm\/tag\/Sexy+Twisted+RNB"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Oct 2019, 18:34",
+        "summary": "\u201cBlame\u201d was first released in the morning of July 23rd, 2019 on Bryson Tiller\u2019s official site. The track was later officially released on streaming services on July 26th, 2019.\n\nThe track features Tiller blaming himself over a failed relationship with a girl that he now sees with another man. He recounts his mistakes and wonders if he could\u2019ve done anything to keep her with him instead of this other guy.\n\n <a href=\"http:\/\/www.last.fm\/music\/Bryson+Tiller\/_\/Blame\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBlame\u201d was first released in the morning of July 23rd, 2019 on Bryson Tiller\u2019s official site. The track was later officially released on streaming services on July 26th, 2019.\n\nThe track features Tiller blaming himself over a failed relationship with a girl that he now sees with another man. He recounts his mistakes and wonders if he could\u2019ve done anything to keep her with him instead of this other guy.\n\n <a href=\"http:\/\/www.last.fm\/music\/Bryson+Tiller\/_\/Blame\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:39:23.262885+00:00",
+  "elapsed": 0.182421,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:23.262885+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1751",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=I%27m+Unhappy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=I%27m+Unhappy",
+  "_decoded_content": {
+    "track": {
+      "name": "i'm unhappy",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/i%27m+unhappy",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "138534",
+      "playcount": "2086548",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 May 2023, 04:56",
+        "summary": "\"I'm Unhappy\" is a song recorded by South Korean girl group aespa, released on May 8, 2023 along with its mini album, 'MY WORLD', being the fifth track for it.\n\nIt's a charming, bedroom-pop genre song, a minimal track paired with dreamy and chic vocals. It was performed for the first time at aespa's first concert on February 25, 2023.\n\nDuring the 'MY WORLD' promotions, a track video for the song was released on May 3rd. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/i%27m+unhappy\">Read more on Last.fm<\/a>.",
+        "content": "\"I'm Unhappy\" is a song recorded by South Korean girl group aespa, released on May 8, 2023 along with its mini album, 'MY WORLD', being the fifth track for it.\n\nIt's a charming, bedroom-pop genre song, a minimal track paired with dreamy and chic vocals. It was performed for the first time at aespa's first concert on February 25, 2023.\n\nDuring the 'MY WORLD' promotions, a track video for the song was released on May 3rd. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/i%27m+unhappy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

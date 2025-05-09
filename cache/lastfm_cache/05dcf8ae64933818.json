@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:40:14.994233+00:00",
+  "elapsed": 0.288586,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:14.994233+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "924",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NiziU&format=json&method=track.getInfo&track=HEARTRIS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NiziU&format=json&method=track.getInfo&track=HEARTRIS",
+  "_decoded_content": {
+    "track": {
+      "name": "HEARTRIS",
+      "url": "https:\/\/www.last.fm\/music\/NiziU\/_\/HEARTRIS",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "26653",
+      "playcount": "399999",
+      "artist": {
+        "name": "NiziU",
+        "url": "https:\/\/www.last.fm\/music\/NiziU"
+      },
+      "album": {
+        "artist": "NiziU",
+        "title": "Press Play",
+        "url": "https:\/\/www.last.fm\/music\/NiziU\/Press+Play",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/102d71a8a5d1a0f64b8ad42ed960abf7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/102d71a8a5d1a0f64b8ad42ed960abf7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/102d71a8a5d1a0f64b8ad42ed960abf7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/102d71a8a5d1a0f64b8ad42ed960abf7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          }
+        ]
+      }
+    }
+  }
+}

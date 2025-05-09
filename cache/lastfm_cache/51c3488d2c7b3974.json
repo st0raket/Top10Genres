@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:43.175165+00:00",
+  "elapsed": 0.192637,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:43.175165+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3095",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=Good+News"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=Good+News",
+  "_decoded_content": {
+    "track": {
+      "name": "Good News",
+      "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/_\/Good+News",
+      "duration": "342000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "653365",
+      "playcount": "9655216",
+      "artist": {
+        "name": "Mac Miller",
+        "mbid": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller"
+      },
+      "album": {
+        "artist": "Mac Miller",
+        "title": "Circles",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/Circles",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1fd5bc5de116097cb008d0b09576d216.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1fd5bc5de116097cb008d0b09576d216.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1fd5bc5de116097cb008d0b09576d216.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1fd5bc5de116097cb008d0b09576d216.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "mac miller",
+            "url": "https:\/\/www.last.fm\/tag\/mac+miller"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jan 2022, 22:42",
+        "summary": "\u201cGood News\u201d is Mac Miller\u2019s first officially released music since his death in September of 2018. It is also the first single from Miller\u2019s sixth studio album and first posthumous project \"Circles\". On the track, Miller discusses many of the same themes seen on his last record, Swimming. He speaks on feeling no reprieve from negative feelings in life, while the people around him only want him to say that he\u2019s good, wanting him to suppress the negative feelings he has all the time. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/Good+News\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGood News\u201d is Mac Miller\u2019s first officially released music since his death in September of 2018. It is also the first single from Miller\u2019s sixth studio album and first posthumous project \"Circles\". On the track, Miller discusses many of the same themes seen on his last record, Swimming. He speaks on feeling no reprieve from negative feelings in life, while the people around him only want him to say that he\u2019s good, wanting him to suppress the negative feelings he has all the time.\n\nThe track\u2019s music video features clips of Miller recording music, as well as many animated nature-scapes depicting the positive parts of the world that Miller wants to find on the track.\n\nThe track first appeared online on September 1, 2019. At the time, it was rumored to be part of an unreleased project that Miller was working on around the time of the release of his fifth studio album \"Swimming\" in August 2018. It was later released, along with an accompanying music video, and finally confirmed to be on his posthumous album \"Circles\", on January 9, 2020. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/Good+News\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

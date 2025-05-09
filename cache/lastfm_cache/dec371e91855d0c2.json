@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:43:09.314313+00:00",
+  "elapsed": 0.199415,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:09.314313+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2171",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Natanael+Cano&format=json&method=track.getInfo&track=Mi+Bello+Angel"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Natanael+Cano&format=json&method=track.getInfo&track=Mi+Bello+Angel",
+  "_decoded_content": {
+    "track": {
+      "name": "Mi Bello Angel",
+      "url": "https:\/\/www.last.fm\/music\/Natanael+Cano\/_\/Mi+Bello+Angel",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "74781",
+      "playcount": "1159826",
+      "artist": {
+        "name": "Natanael Cano",
+        "url": "https:\/\/www.last.fm\/music\/Natanael+Cano"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "18 Sep 2023, 01:38",
+        "summary": "\"Mi Bello \u00c1ngel\" es un cover de Natanael Cano originalmente interpretada por el grupo duranguense Los Primos MX. Es una canci\u00f3n de amor sobre la admiraci\u00f3n de una persona por su pareja. Es la historia de una persona que hab\u00eda estado buscando a su pareja en todas partes hasta que la encontr\u00f3. Nos expresa cu\u00e1nto \u00e9l ama y se inspira en su pareja, perdiendo su sentido de direcci\u00f3n en la vida sin ella. De igual manera cuenta c\u00f3mo ella ha cambiado la vida de \u00e9l para mejor y lo ha ayudado a convertirse en una persona diferente. <a href=\"http:\/\/www.last.fm\/music\/Natanael+Cano\/_\/Mi+Bello+Angel\">Read more on Last.fm<\/a>.",
+        "content": "\"Mi Bello \u00c1ngel\" es un cover de Natanael Cano originalmente interpretada por el grupo duranguense Los Primos MX. Es una canci\u00f3n de amor sobre la admiraci\u00f3n de una persona por su pareja. Es la historia de una persona que hab\u00eda estado buscando a su pareja en todas partes hasta que la encontr\u00f3. Nos expresa cu\u00e1nto \u00e9l ama y se inspira en su pareja, perdiendo su sentido de direcci\u00f3n en la vida sin ella. De igual manera cuenta c\u00f3mo ella ha cambiado la vida de \u00e9l para mejor y lo ha ayudado a convertirse en una persona diferente.\nLa canci\u00f3n parece ser un mensaje de que el amor entre dos personas es una fuerza transformadora que ayuda a superar las dificultades y convertirse en una mejor versi\u00f3n de uno mismo. En general, el significado detr\u00e1s de \"Mi Bello \u00c1ngel\" es el de un amor y admiraci\u00f3n incondicionales. La canci\u00f3n muestra cu\u00e1nto el protagonista depende de su pareja y cu\u00e1n integral es ella para la felicidad y el sentido de s\u00ed mismo. <a href=\"http:\/\/www.last.fm\/music\/Natanael+Cano\/_\/Mi+Bello+Angel\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:27.284152+00:00",
+  "elapsed": 0.18743,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:27.284152+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2906",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YOASOBI&format=json&method=track.getInfo&track=%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YOASOBI&format=json&method=track.getInfo&track=%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B",
+  "_decoded_content": {
+    "track": {
+      "name": "\u591c\u306b\u99c6\u3051\u308b",
+      "url": "https:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "416523",
+      "playcount": "6791739",
+      "artist": {
+        "name": "yoasobi",
+        "url": "https:\/\/www.last.fm\/music\/yoasobi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "yakousei",
+            "url": "https:\/\/www.last.fm\/tag\/yakousei"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 May 2021, 07:40",
+        "summary": "Known simply as \u201cYoru Ni Kakeru\u201d in Japan, \u201cRacing into the Night\u201d is the break-out, debut single by J-Pop duo YOASOBI.\n\nThe song topped the Billboard Hot 100 charts in Japan starting the week of June 1 and maintained its spot for two additional weeks. The song also had some backing from Japanese TikTok personalities.\n\nThe song, which is a recount of a short story entitled \"The Seduction of Thanatos\", is notorious for the dissonance between its lyrical themes and melodies. <a href=\"http:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B\">Read more on Last.fm<\/a>.",
+        "content": "Known simply as \u201cYoru Ni Kakeru\u201d in Japan, \u201cRacing into the Night\u201d is the break-out, debut single by J-Pop duo YOASOBI.\n\nThe song topped the Billboard Hot 100 charts in Japan starting the week of June 1 and maintained its spot for two additional weeks. The song also had some backing from Japanese TikTok personalities.\n\nThe song, which is a recount of a short story entitled \"The Seduction of Thanatos\", is notorious for the dissonance between its lyrical themes and melodies. Contrary to its upbeat, energetic sugary nature, the lyrics depicts a boy who falls in love with a suicidal girl who persistently goes to the top of a building, expressing her desire to jump out. The boy initially tries to protect her from her suicidal thoughts, but none of his attempts to dissuade her mind from it reach her. As the song progresses, the girl's suicidal nature begins to take over him, and he too begins to wish for death. This is because this \"girl\" does not exist - Rather, it is an emissary created by Thanatos (The Grim Reaper in Greek mythology), who invites him to join him - Hence the name of the original short story. In the end, enticed by the beauty of her smile and tears after expressing his own desire for death, the \"girl\" is succesful, and the boy jumps off the building alongside her in a manner similar to two spirits fading into the night - Hence, \"Racing into the Night\". <a href=\"http:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

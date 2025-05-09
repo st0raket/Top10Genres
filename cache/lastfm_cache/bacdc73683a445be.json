@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:36:53.140099+00:00",
+  "elapsed": 0.213423,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:53.140099+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "816",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=Ichizu"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=Ichizu",
+  "_decoded_content": {
+    "track": {
+      "name": "Ichizu",
+      "url": "https:\/\/www.last.fm\/music\/King+Gnu\/_\/Ichizu",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "5848",
+      "playcount": "33905",
+      "artist": {
+        "name": "King Gnu",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu"
+      },
+      "album": {
+        "artist": "King Gnu",
+        "title": "Ichizu",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu\/Ichizu",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a44f62e1c25374f3fa72c1ff86ee8d88.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a44f62e1c25374f3fa72c1ff86ee8d88.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a44f62e1c25374f3fa72c1ff86ee8d88.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a44f62e1c25374f3fa72c1ff86ee8d88.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

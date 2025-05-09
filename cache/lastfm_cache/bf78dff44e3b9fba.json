@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:11.502034+00:00",
+  "elapsed": 0.182541,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:11.502034+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2694",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=MLK+Interlude"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=MLK+Interlude",
+  "_decoded_content": {
+    "track": {
+      "name": "MLK Interlude",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/MLK+Interlude",
+      "duration": "104000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "67350",
+      "playcount": "294399",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Justin Bieber",
+        "title": "Justice (The Complete Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/Justice+(The+Complete+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4e8d12ff15734425e137ebe57c2c9a0e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4e8d12ff15734425e137ebe57c2c9a0e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4e8d12ff15734425e137ebe57c2c9a0e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4e8d12ff15734425e137ebe57c2c9a0e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          },
+          {
+            "name": "chsjcnsbdifi",
+            "url": "https:\/\/www.last.fm\/tag\/chsjcnsbdifi"
+          },
+          {
+            "name": "difhajfjsfisifjdjck",
+            "url": "https:\/\/www.last.fm\/tag\/difhajfjsfisifjdjck"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Jan 2022, 21:37",
+        "summary": "This interlude is an excerpt from what is considered a rare Martin Luther King, Jr sermon. The sermon is titled \u201cBut If Not\u201d and originally took place at the Ebenezer Baptist Church in Atlanta, Georgia in April 1967.\n\nThe speech reveals Martin Luther King, Jr\u2019s deep reverence for the Bible, calling on spiritual ideas to support the fight for truth, justice and righteousness.\n\nJustin Bieber\u2019s own faith in Christianity is public knowledge, and he also explored ideas of spirituality on his 2015 album \"Purpose\". <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/MLK+Interlude\">Read more on Last.fm<\/a>.",
+        "content": "This interlude is an excerpt from what is considered a rare Martin Luther King, Jr sermon. The sermon is titled \u201cBut If Not\u201d and originally took place at the Ebenezer Baptist Church in Atlanta, Georgia in April 1967.\n\nThe speech reveals Martin Luther King, Jr\u2019s deep reverence for the Bible, calling on spiritual ideas to support the fight for truth, justice and righteousness.\n\nJustin Bieber\u2019s own faith in Christianity is public knowledge, and he also explored ideas of spirituality on his 2015 album \"Purpose\". <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/MLK+Interlude\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

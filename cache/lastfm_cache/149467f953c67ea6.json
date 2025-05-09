@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:01.012798+00:00",
+  "elapsed": 0.225869,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:01.012798+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4274",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=ALIEN+SUPERSTAR"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=ALIEN+SUPERSTAR",
+  "_decoded_content": {
+    "track": {
+      "name": "ALIEN SUPERSTAR",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/ALIEN+SUPERSTAR",
+      "duration": "150000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "569005",
+      "playcount": "13403584",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "RENAISSANCE",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/RENAISSANCE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "unique",
+            "url": "https:\/\/www.last.fm\/tag\/unique"
+          },
+          {
+            "name": "ballroom",
+            "url": "https:\/\/www.last.fm\/tag\/ballroom"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Aug 2022, 04:58",
+        "summary": "\u201cALIEN SUPERSTAR\u201d is Beyonc\u00e9\u2019s own appraisal, defining herself as one and only.\n\nBeyonc\u00e9\u2019s *Alien Superstar*  is an unapologetic celebration of uniqueness, self-confidence, and being on a level above the rest. The song blends house, ballroom, and futuristic sounds, reinforcing its theme of exclusivity and high status. Beyonc\u00e9 positions herself\u2014and by extension, her listeners\u2014as untouchable, rare, and extraordinary, using cosmic and luxury metaphors (\u201cI\u2019m one of one, I\u2019m number one, I\u2019m the only one\u201d). <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/ALIEN+SUPERSTAR\">Read more on Last.fm<\/a>.",
+        "content": "\u201cALIEN SUPERSTAR\u201d is Beyonc\u00e9\u2019s own appraisal, defining herself as one and only.\n\nBeyonc\u00e9\u2019s *Alien Superstar*  is an unapologetic celebration of uniqueness, self-confidence, and being on a level above the rest. The song blends house, ballroom, and futuristic sounds, reinforcing its theme of exclusivity and high status. Beyonc\u00e9 positions herself\u2014and by extension, her listeners\u2014as untouchable, rare, and extraordinary, using cosmic and luxury metaphors (\u201cI\u2019m one of one, I\u2019m number one, I\u2019m the only one\u201d).\n\nLyrically, *Alien Superstar* draws from ballroom culture, particularly with the repeated chant-like affirmations (\u201cCategory: bad bitch, I\u2019m the bar\u201d), reflecting the influence of Black queer and ballroom communities on *Renaissance*. The song embodies a high-fashion, high-art energy, making it an anthem for confidence, self-love, and embracing individuality. It\u2019s about standing out, refusing to conform, and knowing your worth.\n\nBey is one of the best-selling artists of all time with over 350 million records sold worldwide (combined with 60 million records while she was part of the Destiny\u2019s Child). She is one of the most-awarded female artists of all time. In 2021, she broke the record at the 64th Annual Grammy Awards ceremony for both the most awarded and the most nominated singer in Grammy\u2019s history, with 28 Grammys won and total of 79 nominations. In 2012, she was third on VH1\u2019s list of 100 Greatest Women In Music. Her visual album Lemonade won the prestigious award of Peabody in 2016 and was named the best female album of all time by several sources. In 2024 Apple Music put it on No.1 of the best music albums of all time. She was also recognized by many other societies for her contribution in music, humanitarian effort and philanthropy. After everything she achieved in her career, Beyonc\u00e9 rightfully earned a nickname Queen B.\n\nWith the success she accumulated over the years, Beyonc\u00e9 can easily say for herself that she\u2019s one of the greatest of all time. She knows that what she accomplished is far greater from the average human, so she is defining her superstardom as being extraterrestrial, out of this world. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/ALIEN+SUPERSTAR\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

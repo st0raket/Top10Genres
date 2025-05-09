@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:01.396331+00:00",
+  "elapsed": 0.221151,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:01.396331+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2873",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Sacrifice"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Sacrifice",
+  "_decoded_content": {
+    "track": {
+      "name": "Sacrifice",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Sacrifice",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "714553",
+      "playcount": "9170475",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "Dawn FM",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/Dawn+FM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7da8e979d89d285b5ddf44e64b92f16c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7da8e979d89d285b5ddf44e64b92f16c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7da8e979d89d285b5ddf44e64b92f16c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7da8e979d89d285b5ddf44e64b92f16c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jan 2022, 17:02",
+        "summary": "\u201cSacrifice\u201d serves as the second single from The Weeknd\u2019s fifth studio album \"Dawn FM\". Co-produced by Swedish House Mafia among others, the song marks the second collaboration between Abel and the trio, following \u201cMoth to a Flame\u201d back in October 2021.\n\nAlong with an electro-funk guitar loop accompanied by \u201880s sounds, the track includes samples of \u201cI Want To Thank You\u201d by Alicia Myers, and \u201cI\u2019ll Do Anything For You\u201d by Denroy Morgan. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Sacrifice\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSacrifice\u201d serves as the second single from The Weeknd\u2019s fifth studio album \"Dawn FM\". Co-produced by Swedish House Mafia among others, the song marks the second collaboration between Abel and the trio, following \u201cMoth to a Flame\u201d back in October 2021.\n\nAlong with an electro-funk guitar loop accompanied by \u201880s sounds, the track includes samples of \u201cI Want To Thank You\u201d by Alicia Myers, and \u201cI\u2019ll Do Anything For You\u201d by Denroy Morgan.\n\nThe Weeknd first previewed the track in a short snippet at the end of the \u201cTake My Breath\u201d music video, on August 6, 2021. Additionally, the accompanying music video\u2014directed by CLIQUA\u2014finds the singer-songwriter in the midst of a surreal dance floor ritual.\n\n\u201cSacrifice\u201d debuted at #11 on the Billboard Hot 100 week ending January 22, 2022.\n\nThe song was also the official theme for WWE's WrestleMania 38 event. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Sacrifice\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

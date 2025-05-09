@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:27.802208+00:00",
+  "elapsed": 0.184154,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:27.802208+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1354",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tina+Turner&format=json&method=track.getInfo&track=We+Don%27t+Need+Another+Hero"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tina+Turner&format=json&method=track.getInfo&track=We+Don%27t+Need+Another+Hero",
+  "_decoded_content": {
+    "track": {
+      "name": "We Don't Need Another Hero",
+      "mbid": "5bac492e-95af-49de-b1cf-eb1050a0c72d",
+      "url": "https:\/\/www.last.fm\/music\/Tina+Turner\/_\/We+Don%27t+Need+Another+Hero",
+      "duration": "255000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "67706",
+      "playcount": "274123",
+      "artist": {
+        "name": "Tina Turner",
+        "mbid": "9072df14-b61e-42e2-b4f4-6bbb7fdb5586",
+        "url": "https:\/\/www.last.fm\/music\/Tina+Turner"
+      },
+      "album": {
+        "artist": "Tina Turner",
+        "title": "Collection 2000",
+        "mbid": "73bdf6a7-682e-477f-8f56-e393bd8761dd",
+        "url": "https:\/\/www.last.fm\/music\/Tina+Turner\/Collection+2000",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6e371ffbf5c845f9b0ee5c6cc464b4dc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6e371ffbf5c845f9b0ee5c6cc464b4dc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6e371ffbf5c845f9b0ee5c6cc464b4dc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6e371ffbf5c845f9b0ee5c6cc464b4dc.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Tina Turner",
+            "url": "https:\/\/www.last.fm\/tag\/Tina+Turner"
+          }
+        ]
+      }
+    }
+  }
+}

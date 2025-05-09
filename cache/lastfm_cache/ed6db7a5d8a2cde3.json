@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:27.600814+00:00",
+  "elapsed": 0.226873,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:27.600814+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2906",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Paris"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Paris",
+  "_decoded_content": {
+    "track": {
+      "name": "Paris",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Paris",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "474519",
+      "playcount": "10678507",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Midnights (3am Edition) [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Midnights+(3am+Edition)+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "shit",
+            "url": "https:\/\/www.last.fm\/tag\/shit"
+          },
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "garbage",
+            "url": "https:\/\/www.last.fm\/tag\/garbage"
+          },
+          {
+            "name": "overrated",
+            "url": "https:\/\/www.last.fm\/tag\/overrated"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Oct 2022, 03:47",
+        "summary": "\"Paris\" is a love song about being so in love that it feels like you're in another world, in this case Paris. Through the lyrics, Taylor expresses her feelings of being completely head-over-heels in love with her partner and feeling a vague sense of detachment from the world around them. The song speaks of the intimate moments and quiet moments shared between them, such as \"drawing a map of your bedroom ceiling\" and the blissful moments of pretending to be in the glamorous surroundings of Paris. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Paris\">Read more on Last.fm<\/a>.",
+        "content": "\"Paris\" is a love song about being so in love that it feels like you're in another world, in this case Paris. Through the lyrics, Taylor expresses her feelings of being completely head-over-heels in love with her partner and feeling a vague sense of detachment from the world around them. The song speaks of the intimate moments and quiet moments shared between them, such as \"drawing a map of your bedroom ceiling\" and the blissful moments of pretending to be in the glamorous surroundings of Paris. The idea of \"brainwashing\" her partner into loving her forever is a metaphor for the strong emotional bond that can come with love and devotion. The song conveys the message that when two people are so in love, they can become totally consumed in each other's presence and can escape the everyday drama of life. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Paris\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

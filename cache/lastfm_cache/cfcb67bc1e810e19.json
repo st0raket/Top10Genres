@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:04.497107+00:00",
+  "elapsed": 0.347432,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:04.497107+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3555",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Afterglow"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Afterglow",
+  "_decoded_content": {
+    "track": {
+      "name": "Afterglow",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Afterglow",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "652349",
+      "playcount": "13956700",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Lover (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Lover+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Aug 2019, 00:19",
+        "summary": "\"Afterglow\" is the 15th track from Taylor Swift's seventh studio album titled \"Lover\"\n\nAssociating colors with feelings has been important for much of Swift\u2019s discography\u2014her album Red delved into all of the feelings the color encompasses, discussing it in the liner notes.\nSwift refers to her dispirited feelings as \u201cblue\u201d on \u201cCruel Summer,\u201d:\n\"It\u2019s blue, the feeling I\u2019ve got\"\nAdditionally, \u201cMiss Americana and the Heartbreak Prince,\u201d describes her relationship as such: <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Afterglow\">Read more on Last.fm<\/a>.",
+        "content": "\"Afterglow\" is the 15th track from Taylor Swift's seventh studio album titled \"Lover\"\n\nAssociating colors with feelings has been important for much of Swift\u2019s discography\u2014her album Red delved into all of the feelings the color encompasses, discussing it in the liner notes.\nSwift refers to her dispirited feelings as \u201cblue\u201d on \u201cCruel Summer,\u201d:\n\"It\u2019s blue, the feeling I\u2019ve got\"\nAdditionally, \u201cMiss Americana and the Heartbreak Prince,\u201d describes her relationship as such:\n\"We\u2019re so sad, we paint the town blue\"\n\nBy \u201cAfterglow,\u201d blue has truly become to represent a dark point in a relationship.\n\nImprisonment has often been a theme in Swift\u2019s songs. In the music video for \u2018Look What You Made Me Do\u2019, she appeared to be held hostage in a golden cage, a lyric which also featured in her track \u2018So It Goes\u2019.\n\nHer personal poem \u2018If You\u2019re Anything Like Me\u2019 also explored the idea of a jail cell as punishment for mistakes;\n\n\"Each new enemy turns to steel\nThey become the bars that confine you,\nIn your own little golden prison cell\u2026\nBut darling, there is where you meet yourself.\"\n\nSwift notes that arguments with someone you don\u2019t ever want to hurt is especially painful, and you have no protection from the knowledge that you don\u2019t care for the person.\n\nShe has discussed arguments in warlike terms before, such as on the leaked unreleased track \"Let\u2019s Go (Battle)\".\n\n... <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Afterglow\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

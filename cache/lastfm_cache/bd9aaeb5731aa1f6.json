@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:04.777495+00:00",
+  "elapsed": 0.204078,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:04.777495+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "862",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Anuel+AA&format=json&method=track.getInfo&track=Mas+Rica+Que+Ayer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Anuel+AA&format=json&method=track.getInfo&track=Mas+Rica+Que+Ayer",
+  "_decoded_content": {
+    "track": {
+      "name": "Mas Rica Que Ayer",
+      "url": "https:\/\/www.last.fm\/music\/Anuel+AA\/_\/Mas+Rica+Que+Ayer",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "48528",
+      "playcount": "344127",
+      "artist": {
+        "name": "Anuel AA",
+        "url": "https:\/\/www.last.fm\/music\/Anuel+AA"
+      },
+      "album": {
+        "artist": "Anuel AA",
+        "title": "Mas Rica Que Ayer",
+        "url": "https:\/\/www.last.fm\/music\/Anuel+AA\/Mas+Rica+Que+Ayer",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f3feb155ca961feee43ea3ea31271097.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f3feb155ca961feee43ea3ea31271097.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f3feb155ca961feee43ea3ea31271097.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f3feb155ca961feee43ea3ea31271097.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

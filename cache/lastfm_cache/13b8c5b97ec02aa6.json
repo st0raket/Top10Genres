@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:43:39.261022+00:00",
+  "elapsed": 0.296205,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:39.261022+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "649",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=Goosebumps+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=Goosebumps+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Goosebumps - Remix",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/Goosebumps+-+Remix",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "346942",
+      "playcount": "2267061",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "deep house",
+            "url": "https:\/\/www.last.fm\/tag\/deep+house"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      }
+    }
+  }
+}

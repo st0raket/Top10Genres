@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:53.133426+00:00",
+  "elapsed": 0.184302,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:53.133426+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2702",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Mosey&format=json&method=track.getInfo&track=Blueberry+Faygo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Mosey&format=json&method=track.getInfo&track=Blueberry+Faygo",
+  "_decoded_content": {
+    "track": {
+      "name": "Blueberry Faygo",
+      "url": "https:\/\/www.last.fm\/music\/lil+Mosey\/_\/Blueberry+Faygo",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "594355",
+      "playcount": "5948241",
+      "artist": {
+        "name": "lil Mosey",
+        "url": "https:\/\/www.last.fm\/music\/lil+Mosey"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "lil mosey",
+            "url": "https:\/\/www.last.fm\/tag\/lil+mosey"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 May 2021, 12:43",
+        "summary": "\u201cBlueberry Faygo\u201d was expected to be the first single from Seattle rapper Lil Mosey in advance of his upcoming project, The Land of Make Believe. It was later added onto Mosey\u2019s debut album, Certified Hitmaker, near the end of February 2020.\n\nThe song\u2019s title is a reference to a flavor of Faygo, a soft drink company commonly referenced in hip-hop culture in relation to drug use, specifically, the abuse of lean and codeine.\n\nWhile the song was never officially previewed by Mosey, it suffered a partial leak on June 5, 2019. <a href=\"http:\/\/www.last.fm\/music\/lil+Mosey\/_\/Blueberry+Faygo\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBlueberry Faygo\u201d was expected to be the first single from Seattle rapper Lil Mosey in advance of his upcoming project, The Land of Make Believe. It was later added onto Mosey\u2019s debut album, Certified Hitmaker, near the end of February 2020.\n\nThe song\u2019s title is a reference to a flavor of Faygo, a soft drink company commonly referenced in hip-hop culture in relation to drug use, specifically, the abuse of lean and codeine.\n\nWhile the song was never officially previewed by Mosey, it suffered a partial leak on June 5, 2019. In the months before the song officially released, the leak gained traction thanks to TikTok, and uploads of the leak saw millions of views across multiple platforms. However, the officially-released version of the track featured a new second verse which had only been briefly previewed by the verse\u2019s recording studio.\n\n\u201cBlueberry Faygo\u201d debuted at #62 on the Billboard Hot 100 during the chart week ending February 22, 2020. During the chart week ending July 4, 2020, \u201cBlueberry Faygo\u201d peaked at #9, marking Mosey\u2019s first Top 10 hit on the chart. During the week ending July 18, 2020, the song peaked at #8. On May 27, 2020, \u201cBlueberry Faygo\u201d was certified platinum by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/lil+Mosey\/_\/Blueberry+Faygo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

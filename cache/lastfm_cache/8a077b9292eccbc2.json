@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:22.941114+00:00",
+  "elapsed": 0.175092,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:22.941114+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5490",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Please+Please+Please"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Please+Please+Please",
+  "_decoded_content": {
+    "track": {
+      "name": "Please Please Please",
+      "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Please+Please+Please",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1370225",
+      "playcount": "27115097",
+      "artist": {
+        "name": "Sabrina Carpenter",
+        "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter"
+      },
+      "album": {
+        "artist": "Sabrina Carpenter",
+        "title": "Please Please Please",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/Please+Please+Please",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/24112fe244555ae39c243102384bebaa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/24112fe244555ae39c243102384bebaa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/24112fe244555ae39c243102384bebaa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/24112fe244555ae39c243102384bebaa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "female vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalist"
+          },
+          {
+            "name": "yacht rock",
+            "url": "https:\/\/www.last.fm\/tag\/yacht+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jun 2024, 00:13",
+        "summary": "\"Please Please Please\" is a song by American singer-songwriter Sabrina Carpenter. It was released on June 6, 2024, through Island Records, as the second single from her sixth studio album, Short n' Sweet. Produced by Jack Antonoff, the pop ballad contains musical influences of disco, country, and yacht rock; lyrically, the singer instructs her boyfriend not to blunder and blemish her reputation.\n\nAn instant commercial success, the song debuted at number one in Ireland <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Please+Please+Please\">Read more on Last.fm<\/a>.",
+        "content": "\"Please Please Please\" is a song by American singer-songwriter Sabrina Carpenter. It was released on June 6, 2024, through Island Records, as the second single from her sixth studio album, Short n' Sweet. Produced by Jack Antonoff, the pop ballad contains musical influences of disco, country, and yacht rock; lyrically, the singer instructs her boyfriend not to blunder and blemish her reputation.\n\nAn instant commercial success, the song debuted at number one in Ireland, becoming Carpenter's second consecutive chart-topping single in that country, and has also reached the top ten in Australia, Norway, New Zealand, and the United Kingdom.\n\nFollowing the commercial success of \"Espresso\", the singer announced her upcoming sixth studio album Short n' Sweet on June 3, 2024. She simultaneously promised an upcoming surprise for her fans, which would turn out to be the single. Only two days later, Carpenter took to social media to announce the song's release and share a teaser of the accompanying music video featuring cinematic visuals set to showcase her acting skills. The clip shows her wearing a lacy red outfit in a robbery-like setting, as well as engaging in a romance with a criminal played by her real-life boyfriend Barry Keoghan.\n\nThe music video for \"Please Please Please\" serves as a sequel to the \"Espresso\" music video released earlier in 2024. In the music video for \"Espresso\", Carpenter gets arrested at the end. \u201cI ended the last video getting arrested, so naturally I thought it would be satisfying to start the \u2018Please Please Please\u2019 video in jail,\u201d said the singer. \u201cI liked the idea of falling in love with a convict and being shocked and embarrassed every time he commits crimes. I was sooo lucky to get Barry Keoghan in the video \u2019cause he is just magic on screen.\u201d said the singer after the music video was released. The Irish actor is rumored to be Carpenter's off-screen boyfriend after they started being seen together in December 2023 and throughout 2024.\n\nBardia Zeinali, the music video director, commented about the inspiration for the music video to GQ. \"The concept was pretty collaborative. I had a brief from Sabrina's team \u2013 they wanted it to pick up from where \u201cEspresso\u201d left off and they wanted it to be about this person that Sabrina's character keeps falling for, that has this chaotic behaviour. So I just elaborated on that and started to think a bit more about specifically what happens. I liked this idea of there being a role reversal and an exchange of power towards the end. And things that were recurring, like her picking him up in the same place, same location, different day, different time.\", said the director to GQ. \"Pam and Tommy. Madonna and Dennis Rodman. Tarantino was a big reference point. Natural Born Killers. Bonnie and Clyde, obviously. Even Thelma & Louise. We were really looking at film references more than anything else and pop culture references in terms of what we wanted the spirit of this moment to be. Even J Lo and Ben Affleck \u2013 not to reference, but to capture that spirit. It's similar in the sense that they're this really exciting young couple, both having big moments in their respective careers, coming together and making a piece of art. But this is very much not real life \u2013 it's a story,\" said the director. <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Please+Please+Please\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:46.101892+00:00",
+  "elapsed": 0.179685,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:46.101892+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3085",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Brown&format=json&method=track.getInfo&track=Back+to+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Brown&format=json&method=track.getInfo&track=Back+to+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Back to Love",
+      "url": "https:\/\/www.last.fm\/music\/Chris+Brown\/_\/Back+to+Love",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "25472",
+      "playcount": "233179",
+      "artist": {
+        "name": "Chris Brown",
+        "mbid": "c234fa42-e6a6-443e-937e-2f4b073538a3",
+        "url": "https:\/\/www.last.fm\/music\/Chris+Brown"
+      },
+      "album": {
+        "artist": "Chris Brown",
+        "title": "Indigo (Extended)",
+        "url": "https:\/\/www.last.fm\/music\/Chris+Brown\/Indigo+(Extended)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/73c1dc5e0bac88ad83899db30db8cd88.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/73c1dc5e0bac88ad83899db30db8cd88.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/73c1dc5e0bac88ad83899db30db8cd88.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/73c1dc5e0bac88ad83899db30db8cd88.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Chris Brown",
+            "url": "https:\/\/www.last.fm\/tag\/Chris+Brown"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "r and b",
+            "url": "https:\/\/www.last.fm\/tag\/r+and+b"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Jun 2022, 13:05",
+        "summary": "\u201cBack to Love\u201d is the second single released from Chris' upcoming album, Indigo, and is the follow up to January 2019\u2019s \u201cUndecided.\u201d The track describes a pure love, with its ups and downs, that ultimately made Chris want to be the best version of himself.\n\nThe artwork, music video, and song are all heavily influenced by Chris' biggest musical inspiration, Michael Jackson. Some of MJ\u2019s signature ad-libs can be heard in the background throughout the song <a href=\"http:\/\/www.last.fm\/music\/Chris+Brown\/_\/Back+to+Love\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBack to Love\u201d is the second single released from Chris' upcoming album, Indigo, and is the follow up to January 2019\u2019s \u201cUndecided.\u201d The track describes a pure love, with its ups and downs, that ultimately made Chris want to be the best version of himself.\n\nThe artwork, music video, and song are all heavily influenced by Chris' biggest musical inspiration, Michael Jackson. Some of MJ\u2019s signature ad-libs can be heard in the background throughout the song, and Chris' dance moves and outfit (depicted in the artwork) in the video mimic the icon.\n\nThe track was first teased on January 23rd when Chris posted a video on Instagram of him dancing to it, working on the choreography for the music video. The music video was filmed in Paris, France after Chris was detained in Paris over an alleged rape.\n\nOn April 2nd, Chris shared a picture from the music video via Instagram and confirmed the video will drop on April 12, 2019. The single dropped one day early on streaming sites, along with its accompanying music video. <a href=\"http:\/\/www.last.fm\/music\/Chris+Brown\/_\/Back+to+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

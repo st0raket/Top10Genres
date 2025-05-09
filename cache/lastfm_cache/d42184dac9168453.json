@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:33:42.973399+00:00",
+  "elapsed": 0.213599,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:42.973399+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "616",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rasster&format=json&method=track.getInfo&track=SAD"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rasster&format=json&method=track.getInfo&track=SAD",
+  "_decoded_content": {
+    "track": {
+      "name": "Sad",
+      "url": "https:\/\/www.last.fm\/music\/Rasster\/_\/Sad",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7133",
+      "playcount": "38194",
+      "artist": {
+        "name": "Rasster",
+        "url": "https:\/\/www.last.fm\/music\/Rasster"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "X\u1eadp X\u00ecnh \u0110\u00f3n T\u1ebft",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/X%E1%BA%ADp+X%C3%ACnh+%C4%90%C3%B3n+T%E1%BA%BFt",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          }
+        ]
+      }
+    }
+  }
+}

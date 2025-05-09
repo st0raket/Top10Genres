@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:29:30.487416+00:00",
+  "elapsed": 0.209304,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:30.487416+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2277",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Floor+555"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Floor+555",
+  "_decoded_content": {
+    "track": {
+      "name": "flOoR 555",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/flOoR+555",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "320656",
+      "playcount": "3294538",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2021, 12:58",
+        "summary": "XXXTENTACION previewed this song on his Instagram account in January 2018. The snippet was uploaded everywhere with the title \u201cBeverly Hills.\u201d\n\nThis song is reminiscent of the style X used in his early career, many would call it his \u201cscreaming\u201d flow. On a distorted beat, X showcases his raw, abrasive, screamo style sound.\n\nHe uses a similar delivery on songs like \u201cGNARLY BASTARD\u201d and \u201cFAILURE IS NOT AN OPTION.\u201d\n\n3 repeating numbers is a common theme for X. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/flOoR+555\">Read more on Last.fm<\/a>.",
+        "content": "XXXTENTACION previewed this song on his Instagram account in January 2018. The snippet was uploaded everywhere with the title \u201cBeverly Hills.\u201d\n\nThis song is reminiscent of the style X used in his early career, many would call it his \u201cscreaming\u201d flow. On a distorted beat, X showcases his raw, abrasive, screamo style sound.\n\nHe uses a similar delivery on songs like \u201cGNARLY BASTARD\u201d and \u201cFAILURE IS NOT AN OPTION.\u201d\n\n3 repeating numbers is a common theme for X. He did a song called \u201c777\u201d off of his collaboration mixtape Members Only, Vol. 3 and the song with Joey Bada$$ on this album is titled \u201cInfinity (888)\u201d. There may even be some significance to the song titled \u201c$$$\u201d.\n\n555 means you\u2019re going through a major life change. It can also signal that this big change is coming up ahead, so prepare for it now. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/flOoR+555\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

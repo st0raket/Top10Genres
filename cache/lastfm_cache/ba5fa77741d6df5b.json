@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:12.132273+00:00",
+  "elapsed": 0.305751,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:12.132273+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2672",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Lost+In+Japan"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Lost+In+Japan",
+  "_decoded_content": {
+    "track": {
+      "name": "Lost In Japan",
+      "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Lost+In+Japan",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "421693",
+      "playcount": "4115756",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Nov 2021, 20:50",
+        "summary": "\"Lost in Japan\" is a song recorded by Canadian singer Shawn Mendes. It was written by Mendes, Scott Harris, Nate Mercereau and Teddy Geiger, with production handled by Mendes, Mercereau, Geiger and Louis Bell. The song was released by Island Records on March 23, 2018, as a second single for Mendes' self-titled third studio album. An official remix by German music producer Zedd was released on September 27, 2018.\n\n\"Lost in Japan\" is a funk, pop and R&B song <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Lost+In+Japan\">Read more on Last.fm<\/a>.",
+        "content": "\"Lost in Japan\" is a song recorded by Canadian singer Shawn Mendes. It was written by Mendes, Scott Harris, Nate Mercereau and Teddy Geiger, with production handled by Mendes, Mercereau, Geiger and Louis Bell. The song was released by Island Records on March 23, 2018, as a second single for Mendes' self-titled third studio album. An official remix by German music producer Zedd was released on September 27, 2018.\n\n\"Lost in Japan\" is a funk, pop and R&B song, with \"funky strings and driving bass\" that bears resemblances to the work of Justin Timberlake. During interviews, Mendes stated that he was inspired by all of the Timberlake songs he was listening to at the time, especially Justified\u2013and a dream. \"I had this dream that I was lost in this country and I woke up the next day and we had this cool piano part and the song was birthed.\"\n\nLars Brandle of Billboard wrote that the song \"opens with a subtle spell of piano then changes gears with a fat bass sound and groove\". It transformed from \"a slow, piano-driven number\" into \"a passionate, hook-laden love song\", according to CBS Radio's Robyn Collins. Lyrically, Mendes offers to travel the globe in order to be closer to his love interest. <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Lost+In+Japan\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:40.757562+00:00",
+  "elapsed": 0.181529,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:40.757562+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2725",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=CRAZY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=CRAZY",
+  "_decoded_content": {
+    "track": {
+      "name": "CRAZY",
+      "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/CRAZY",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "570305",
+      "playcount": "12394599",
+      "artist": {
+        "name": "LE SSERAFIM",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM"
+      },
+      "album": {
+        "artist": "LE SSERAFIM",
+        "title": "CRAZY",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/CRAZY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32a51da6fd63d367f90d237a496837f5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32a51da6fd63d367f90d237a496837f5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32a51da6fd63d367f90d237a496837f5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32a51da6fd63d367f90d237a496837f5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Aug 2024, 11:33",
+        "summary": "The house-pop anthem \u201cCRAZY\u201d serves as the title track to LE SSERAFIM\u2019s fourth mini album of the same name.\nLyrically, \u201cCRAZY\u201d is about having fun and going crazy\u2014as the members also sing about embracing their \u2018crazy\u2019 and quirky personalities. Sonically, the song is upbeat, hard-hitting, phonk-pop song, making it a fun song to dance or feel yourself to.\n\nIn the music video, LE SSERAFIM can be seen in stylish and obscure clothing in bewildering scenery. <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/CRAZY\">Read more on Last.fm<\/a>.",
+        "content": "The house-pop anthem \u201cCRAZY\u201d serves as the title track to LE SSERAFIM\u2019s fourth mini album of the same name.\nLyrically, \u201cCRAZY\u201d is about having fun and going crazy\u2014as the members also sing about embracing their \u2018crazy\u2019 and quirky personalities. Sonically, the song is upbeat, hard-hitting, phonk-pop song, making it a fun song to dance or feel yourself to.\n\nIn the music video, LE SSERAFIM can be seen in stylish and obscure clothing in bewildering scenery. In the discography, the members hit popular dance moves, such as \u2018voguing.\u2019 The move is a modern dance that was stylized in Harlem in late 1980\u2019s. Additionally, the music video is also highly edited, making it seem more random, unexpected to the viewer\u2014tying in closely with the overall \u2018quirky\u2019 concept of the title track. <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/CRAZY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:00.831379+00:00",
+  "elapsed": 0.190336,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:00.831379+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3597",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Just+the+Way+You+Are"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Just+the+Way+You+Are",
+  "_decoded_content": {
+    "track": {
+      "name": "Just the Way You Are",
+      "mbid": "c2da4b38-f61d-4488-8100-078d83a7df7d",
+      "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Just+the+Way+You+Are",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1799926",
+      "playcount": "14782048",
+      "artist": {
+        "name": "Bruno Mars",
+        "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars"
+      },
+      "album": {
+        "artist": "Bruno Mars",
+        "title": "Doo-Wops & Hooligans",
+        "mbid": "a854d4ac-66d2-4d6c-a225-7f22beb71472",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/Doo-Wops+&+Hooligans",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "13"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Bruno Mars",
+            "url": "https:\/\/www.last.fm\/tag\/Bruno+Mars"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "2010",
+            "url": "https:\/\/www.last.fm\/tag\/2010"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Sep 2010, 17:12",
+        "summary": "\"Just the Way You Are\" is the debut solo single by American singer-songwriter Bruno Mars. It is the lead single from his debut studio album, \"Doo-Wops & Hooligans\" (2010). The song was written by Mars, Philip Lawrence, Ari Levine, Khalil Walton and Needlz and produced by the former three, under their alias, the Smeezingtons along with Needlz.\n\nIt was released in the United States to contemporary hit radio on August 10, 2010. The track was released in the United Kingdom on September 19, 2010, as \"Just the Way You Are (Amazing)\". <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Just+the+Way+You+Are\">Read more on Last.fm<\/a>.",
+        "content": "\"Just the Way You Are\" is the debut solo single by American singer-songwriter Bruno Mars. It is the lead single from his debut studio album, \"Doo-Wops & Hooligans\" (2010). The song was written by Mars, Philip Lawrence, Ari Levine, Khalil Walton and Needlz and produced by the former three, under their alias, the Smeezingtons along with Needlz.\n\nIt was released in the United States to contemporary hit radio on August 10, 2010. The track was released in the United Kingdom on September 19, 2010, as \"Just the Way You Are (Amazing)\". The song's lyrics compliment a woman's beauty.\n\nThe debut single received mixed reviews from music critics, who praised the Smeezingtons' production but dubbed its lyrics as sappy and corny. \n\nIt won Best Male Pop Vocal Performance at the 53rd Annual Grammy Awards. The song peaked at number one on the US Billboard Hot 100, Australia, Canada, New Zealand and in the United Kingdom charts and peaked in the top five in other countries. It was certified thirteen times platinum by the Recording Industry Association of America (RIAA), seven times platinum by the Australian Recording Industry Association (ARIA) and diamond by Music Canada (MC).\n\n\"Just the Way You Are\" was the best-selling digital single of 2011, selling more than 12.5 million copies, thus joining an elite group of best-selling singles worldwide. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Just+the+Way+You+Are\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:27.967053+00:00",
+  "elapsed": 0.22014,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:27.967053+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2705",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Vigilante+Shit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Vigilante+Shit",
+  "_decoded_content": {
+    "track": {
+      "name": "Vigilante Shit",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Vigilante+Shit",
+      "duration": "172000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "728125",
+      "playcount": "15467229",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Midnights",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Midnights",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "shit",
+            "url": "https:\/\/www.last.fm\/tag\/shit"
+          },
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "overrated",
+            "url": "https:\/\/www.last.fm\/tag\/overrated"
+          },
+          {
+            "name": "garbage",
+            "url": "https:\/\/www.last.fm\/tag\/garbage"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Oct 2022, 22:24",
+        "summary": "\u201cVigilante Shit\u201d follows a woman who seeks revenge on her lover, presumably someone who has committed a crime. Taylor and the subject of the song ostensibly obtain their revenge following a breakup \u2013 instead of getting sad, they get even.\n\nThe themes of this song heavily parallel \u201cno body, no crime (feat. HAIM)\u201d, which also sees Taylor Swift involved in vigilantism.\n\nMusically, this song continues with heavy synths reverberating, never quite building to its climax. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Vigilante+Shit\">Read more on Last.fm<\/a>.",
+        "content": "\u201cVigilante Shit\u201d follows a woman who seeks revenge on her lover, presumably someone who has committed a crime. Taylor and the subject of the song ostensibly obtain their revenge following a breakup \u2013 instead of getting sad, they get even.\n\nThe themes of this song heavily parallel \u201cno body, no crime (feat. HAIM)\u201d, which also sees Taylor Swift involved in vigilantism.\n\nMusically, this song continues with heavy synths reverberating, never quite building to its climax.\n\nThe sultry, building tune creates a dreamy atmosphere similar to that of \u201cDress\u201d or \u201cCall It What You Want\u201d, but the subject matter is considerably darker. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Vigilante+Shit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

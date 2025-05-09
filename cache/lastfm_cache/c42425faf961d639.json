@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:25.323881+00:00",
+  "elapsed": 0.176753,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:25.323881+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2715",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NewJeans&format=json&method=track.getInfo&track=Supernatural"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NewJeans&format=json&method=track.getInfo&track=Supernatural",
+  "_decoded_content": {
+    "track": {
+      "name": "Supernatural",
+      "url": "https:\/\/www.last.fm\/music\/NewJeans\/_\/Supernatural",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "356453",
+      "playcount": "8362689",
+      "artist": {
+        "name": "NewJeans",
+        "url": "https:\/\/www.last.fm\/music\/NewJeans"
+      },
+      "album": {
+        "artist": "NewJeans",
+        "title": "Supernatural",
+        "url": "https:\/\/www.last.fm\/music\/NewJeans\/Supernatural",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4723eb27458ad58366f21eef448b4eb1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4723eb27458ad58366f21eef448b4eb1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4723eb27458ad58366f21eef448b4eb1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4723eb27458ad58366f21eef448b4eb1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "new jack swing",
+            "url": "https:\/\/www.last.fm\/tag\/new+jack+swing"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "newjeans",
+            "url": "https:\/\/www.last.fm\/tag\/newjeans"
+          },
+          {
+            "name": "acheimagra",
+            "url": "https:\/\/www.last.fm\/tag\/acheimagra"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jun 2024, 09:51",
+        "summary": "The groovy pop song \u201cSupernatural\u201d serves as the main title track to NewJeans' first Japanese double-single \u201cSupernatural\u201d.\n\nLyrically, \u201cSupernatural\u201d sees the members singe about romance and falling in love, specifically under a cool night\u2019s sky. Sonically, the song is chill and funky, featuring mellow synths and groovy claps, reminiscent of NewJeans' July 2022 release \u201cAttention\u201d, also produced by South Korean producer and DJ 250. <a href=\"http:\/\/www.last.fm\/music\/NewJeans\/_\/Supernatural\">Read more on Last.fm<\/a>.",
+        "content": "The groovy pop song \u201cSupernatural\u201d serves as the main title track to NewJeans' first Japanese double-single \u201cSupernatural\u201d.\n\nLyrically, \u201cSupernatural\u201d sees the members singe about romance and falling in love, specifically under a cool night\u2019s sky. Sonically, the song is chill and funky, featuring mellow synths and groovy claps, reminiscent of NewJeans' July 2022 release \u201cAttention\u201d, also produced by South Korean producer and DJ 250. Yet, there is a prominent retro dance influence in \u201cSupernatural\u201d, reflective of Pharrell Williams' signature style. The American producer and singer-songwriter had a hand in the production of the song too, sampling Japanese singer Manami\u2019s debut single \u201cBack Of My Mind\u201d which he also produced. <a href=\"http:\/\/www.last.fm\/music\/NewJeans\/_\/Supernatural\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

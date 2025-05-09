@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:49.900000+00:00",
+  "elapsed": 0.264485,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:49.900000+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1330",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nat+King+Cole&format=json&method=track.getInfo&track=Deck+The+Hall"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nat+King+Cole&format=json&method=track.getInfo&track=Deck+The+Hall",
+  "_decoded_content": {
+    "track": {
+      "name": "Deck the Hall",
+      "mbid": "b0c5b063-7069-4ac1-838b-090bfca15c07",
+      "url": "https:\/\/www.last.fm\/music\/Nat+King+Cole\/_\/Deck+the+Hall",
+      "duration": "68000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "331549",
+      "playcount": "780655",
+      "artist": {
+        "name": "Nat King Cole",
+        "mbid": "fbe054ec-a143-4101-9e9e-64abc5ff5ac9",
+        "url": "https:\/\/www.last.fm\/music\/Nat+King+Cole"
+      },
+      "album": {
+        "artist": "Nat King Cole",
+        "title": "The Magic Of Christmas",
+        "mbid": "4c7aef93-6d3d-46d8-a7b6-b33791557f68",
+        "url": "https:\/\/www.last.fm\/music\/Nat+King+Cole\/The+Magic+Of+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0e20d6330a8207b9dfbc7974d6eeb03c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0e20d6330a8207b9dfbc7974d6eeb03c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0e20d6330a8207b9dfbc7974d6eeb03c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0e20d6330a8207b9dfbc7974d6eeb03c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "60s",
+            "url": "https:\/\/www.last.fm\/tag\/60s"
+          }
+        ]
+      }
+    }
+  }
+}

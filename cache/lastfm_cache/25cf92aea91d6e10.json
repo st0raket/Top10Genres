@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:38.514244+00:00",
+  "elapsed": 0.232899,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:38.514244+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3365",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Poo+Bear&format=json&method=track.getInfo&track=Hard+2+Face+Reality"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Poo+Bear&format=json&method=track.getInfo&track=Hard+2+Face+Reality",
+  "_decoded_content": {
+    "track": {
+      "name": "Hard 2 Face Reality",
+      "url": "https:\/\/www.last.fm\/music\/Poo+Bear\/_\/Hard+2+Face+Reality",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "155110",
+      "playcount": "1215230",
+      "artist": {
+        "name": "Poo Bear",
+        "mbid": "521b701a-40c9-493a-9866-22b91089eee5",
+        "url": "https:\/\/www.last.fm\/music\/Poo+Bear"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "24 Hours Of R&B",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/24+Hours+Of+R&B",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f28f39dbb4053fe18972fa6e9631170f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f28f39dbb4053fe18972fa6e9631170f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f28f39dbb4053fe18972fa6e9631170f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f28f39dbb4053fe18972fa6e9631170f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "justin bieber",
+            "url": "https:\/\/www.last.fm\/tag\/justin+bieber"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jul 2022, 03:00",
+        "summary": "The song was released on Justin\u2019s SoundCloud and stayed there until it was removed in 2017. Later it was said there would be a music video with Poo Bear. Beginning 2018 Beats 1 confirmed \u201cHard 2 Face Reality\u201d would release as a single by Poo Bear featuring Justin Bieber, and additionally Jay Electronica. It serves as the lead single for album \u201cPoo Bear Presents Bearthday Music\u201d.\n\n\"I can\u2019t really say the answer to that, just because the initial idea came from Justin Bieber this time around. <a href=\"http:\/\/www.last.fm\/music\/Poo+Bear\/_\/Hard+2+Face+Reality\">Read more on Last.fm<\/a>.",
+        "content": "The song was released on Justin\u2019s SoundCloud and stayed there until it was removed in 2017. Later it was said there would be a music video with Poo Bear. Beginning 2018 Beats 1 confirmed \u201cHard 2 Face Reality\u201d would release as a single by Poo Bear featuring Justin Bieber, and additionally Jay Electronica. It serves as the lead single for album \u201cPoo Bear Presents Bearthday Music\u201d.\n\n\"I can\u2019t really say the answer to that, just because the initial idea came from Justin Bieber this time around. This was an idea that was sparked in his mind in Toronto. He invited me onto the record, and that\u2019s where I added my part, which was my verse, and I added the bridge. The idea came from Justin Bieber, and it was during a time where it was a lot of media coming down on him, a lot of people were out trying to persecute him. It seemed like they were trying to just see him down, see him fall. It feels like that time, that era, he just drew from everything, and I can hear the lyric from him saying, \u201cSometimes it\u2019s hard to face reality,\u201d because that didn\u2019t come from me, it came from Justin.\n\nBut it felt like it was just him dealing with all these issues straight on, and it was just coming out melodically and lyrically, it was just coming across that way.\" <a href=\"http:\/\/www.last.fm\/music\/Poo+Bear\/_\/Hard+2+Face+Reality\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

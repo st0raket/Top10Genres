@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:40:42.337871+00:00",
+  "elapsed": 0.357249,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:42.337871+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3080",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Noah+Kahan&format=json&method=track.getInfo&track=Forever"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Noah+Kahan&format=json&method=track.getInfo&track=Forever",
+  "_decoded_content": {
+    "track": {
+      "name": "Forever",
+      "url": "https:\/\/www.last.fm\/music\/Noah+Kahan\/_\/Forever",
+      "duration": "268000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "177479",
+      "playcount": "2358892",
+      "artist": {
+        "name": "Noah Kahan",
+        "url": "https:\/\/www.last.fm\/music\/Noah+Kahan"
+      },
+      "album": {
+        "artist": "Noah Kahan",
+        "title": "Stick Season (Forever)",
+        "url": "https:\/\/www.last.fm\/music\/Noah+Kahan\/Stick+Season+(Forever)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f31f8ca74147fb1051d9cadf5cf8dec9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f31f8ca74147fb1051d9cadf5cf8dec9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f31f8ca74147fb1051d9cadf5cf8dec9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f31f8ca74147fb1051d9cadf5cf8dec9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "19 Feb 2024, 21:57",
+        "summary": "\u201cForever\u201d is distinguished as the sole original track on Noah Kahan\u2019s Stick Season (Forever), the final installment of his globally successful third album.\n\nNoah Kahan first teased the song on September 19, 2023, by posting a video on TikTok of him singing the chorus and a deleted verse. The capitalization of the video\u2019s caption \u201cIn The Heat Of July\u201d suggests that that was the original title of the song; however, this has not been confirmed. <a href=\"http:\/\/www.last.fm\/music\/Noah+Kahan\/_\/Forever\">Read more on Last.fm<\/a>.",
+        "content": "\u201cForever\u201d is distinguished as the sole original track on Noah Kahan\u2019s Stick Season (Forever), the final installment of his globally successful third album.\n\nNoah Kahan first teased the song on September 19, 2023, by posting a video on TikTok of him singing the chorus and a deleted verse. The capitalization of the video\u2019s caption \u201cIn The Heat Of July\u201d suggests that that was the original title of the song; however, this has not been confirmed. The video gained an overwhelmingly positive response, quickly surpassing four million views and half a million likes. Shortly after this, on October 8, 2023, Noah Kahan shared a snippet of the second verse, which gained just as much attention as the initial post.\n\nThe song debuted during the final American show of Noah Kahan\u2019s 2023 Stick Season Tour in Dallas on October 15, 2023. It was also performed five times during the EU & UK leg of the tour in November 2023 (in Amsterdam, Leeds, Newcastle, Glasgow, and the first of the London shows).\n\nOn December 11, 2023, Noah Kahan tweeted that the track had officially been recorded. He has also since implied that \u201cForever\u201d shares a storyline with previous releases \u201cStick Season\u201d and \u201cNorthern Attitude.\u201d\n\nOn January 25, 2024, it was revealed on various social media platforms that \u201cForever\u201d would make a proper appearance on Stick Season (Forever).\nit is also the best song ever. <a href=\"http:\/\/www.last.fm\/music\/Noah+Kahan\/_\/Forever\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

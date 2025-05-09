@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:13.327330+00:00",
+  "elapsed": 0.18281,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:13.327330+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2825",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Search+%26+Rescue"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Search+%26+Rescue",
+  "_decoded_content": {
+    "track": {
+      "name": "Search & Rescue",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Search+&+Rescue",
+      "duration": "272000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "399794",
+      "playcount": "4549546",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "Search & Rescue",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/Search+&+Rescue",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6e1b35b79176acbe5ea20f1721772463.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6e1b35b79176acbe5ea20f1721772463.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6e1b35b79176acbe5ea20f1721772463.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6e1b35b79176acbe5ea20f1721772463.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Apr 2023, 04:08",
+        "summary": "\"Search & Rescue\" is a single by Drake. The song was released on April 7, 2023, and was produced by \u201cJumbotron Shit Poppin\u201d producer Sad Pony and Yeat\u2019s go-to producer BNYX.\n\nDrake first shared a snippet of the song via Instagram stories on Sunday, March 26, 2023, and later premiered the full song on Sound 42 on Friday, March 31, 2023. On the following Thursday, April 6, 2023, Drake announced the song\u2019s official release date (midnight ET on Friday <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Search+&+Rescue\">Read more on Last.fm<\/a>.",
+        "content": "\"Search & Rescue\" is a single by Drake. The song was released on April 7, 2023, and was produced by \u201cJumbotron Shit Poppin\u201d producer Sad Pony and Yeat\u2019s go-to producer BNYX.\n\nDrake first shared a snippet of the song via Instagram stories on Sunday, March 26, 2023, and later premiered the full song on Sound 42 on Friday, March 31, 2023. On the following Thursday, April 6, 2023, Drake announced the song\u2019s official release date (midnight ET on Friday, April 7, 2023) along with the cover art: A superimposed image of Drake cozying up with his mentor-turned-rival  Kanye West's ex-wife, Kim Kardashian, whilst sporting black helmets. Notably, the song samples an interview by Kardashian discussing her divorce from West.\n\nThe track was produced by BNYX\u00ae, SADPONY, Wesley Curtis, 40, BEAUTIFULMVN & Lil Yachty. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Search+&+Rescue\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

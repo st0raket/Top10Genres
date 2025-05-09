@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:12.942385+00:00",
+  "elapsed": 0.229146,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:12.942385+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2418",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Heaven+and+Hell"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Heaven+and+Hell",
+  "_decoded_content": {
+    "track": {
+      "name": "Heaven And Hell",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Heaven+And+Hell",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "456492",
+      "playcount": "5445814",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "Christian hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/Christian+hip+hop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Feb 2022, 20:35",
+        "summary": "\u201cHeaven and Hell\u201d was first shown on the \"Donda\" tracklist posted to Instagram on July 22, 2021.\n\nThis track incorporates material from an unreleased song \u201cFuture Sounds,\u201d which was on the album\u2019s original tracklist. It was played at one of the \"Donda\" listening party rehearsals.\n\nThe song features a sample from 20th Century Steel Band\u2019s 1975 track, \u201cHeaven and Hell Is on Earth.\u201d\n\nAn official video for \u201cHeaven and Hell\u201d was premiered on January 10 <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Heaven+And+Hell\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHeaven and Hell\u201d was first shown on the \"Donda\" tracklist posted to Instagram on July 22, 2021.\n\nThis track incorporates material from an unreleased song \u201cFuture Sounds,\u201d which was on the album\u2019s original tracklist. It was played at one of the \"Donda\" listening party rehearsals.\n\nThe song features a sample from 20th Century Steel Band\u2019s 1975 track, \u201cHeaven and Hell Is on Earth.\u201d\n\nAn official video for \u201cHeaven and Hell\u201d was premiered on January 10, 2022, during the annual College Football Playoff National Championship, and released later in the day. The clip mainly served as a commercial for the new hoodies from the collaboration between Kanye\u2019s own brand Yeezy and GAP. However, fans pointed out that some of the scenes from the surreal clip heavily resembled the Biblical-themed works of several artists, such as Gustave Dor\u00e9 and John Martin. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Heaven+And+Hell\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

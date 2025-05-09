@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:43:57.828557+00:00",
+  "elapsed": 0.219368,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:57.828557+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "901",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Aim+For+The+Moon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Aim+For+The+Moon",
+  "_decoded_content": {
+    "track": {
+      "name": "Aim For The Moon",
+      "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/_\/Aim+For+The+Moon",
+      "duration": "175000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2593",
+      "playcount": "25698",
+      "artist": {
+        "name": "Pop Smoke",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke"
+      },
+      "album": {
+        "artist": "Pop Smoke",
+        "title": "Shoot for the Stars Aim for the Moon",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/Shoot+for+the+Stars+Aim+for+the+Moon",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c14d238a953a96deaad9f5c75f1c7818.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c14d238a953a96deaad9f5c75f1c7818.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c14d238a953a96deaad9f5c75f1c7818.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c14d238a953a96deaad9f5c75f1c7818.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

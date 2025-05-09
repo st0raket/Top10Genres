@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:17.130958+00:00",
+  "elapsed": 0.187988,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:17.130958+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2937",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rammstein&format=json&method=track.getInfo&track=Deutschland"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rammstein&format=json&method=track.getInfo&track=Deutschland",
+  "_decoded_content": {
+    "track": {
+      "name": "Deutschland",
+      "url": "https:\/\/www.last.fm\/music\/Rammstein\/_\/Deutschland",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "425540",
+      "playcount": "6035182",
+      "artist": {
+        "name": "Rammstein",
+        "mbid": "b2d122f9-eadb-4930-a196-8f221eeb0c66",
+        "url": "https:\/\/www.last.fm\/music\/Rammstein"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "industrial metal",
+            "url": "https:\/\/www.last.fm\/tag\/industrial+metal"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "Rammstein",
+            "url": "https:\/\/www.last.fm\/tag\/Rammstein"
+          },
+          {
+            "name": "Neue Deutsche Harte",
+            "url": "https:\/\/www.last.fm\/tag\/Neue+Deutsche+Harte"
+          },
+          {
+            "name": "metal",
+            "url": "https:\/\/www.last.fm\/tag\/metal"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jun 2020, 12:17",
+        "summary": "The first single off Rammstein's seventh album is a reflection on Germany's history of conflict. The song finds Till Lindemann speaking of his love\/hate relationship with Germany as he considers his country's divisive history.\n\nThe Specter Berlin-directed video, which is nearly 10-minutes long, shows various scenes of violence across its history, from Germanic tribes to the Nazism era and modern day rioting. German actress Ruby Commey (credited as Germania) appears throughout the clip. <a href=\"http:\/\/www.last.fm\/music\/Rammstein\/_\/Deutschland\">Read more on Last.fm<\/a>.",
+        "content": "The first single off Rammstein's seventh album is a reflection on Germany's history of conflict. The song finds Till Lindemann speaking of his love\/hate relationship with Germany as he considers his country's divisive history.\n\nThe Specter Berlin-directed video, which is nearly 10-minutes long, shows various scenes of violence across its history, from Germanic tribes to the Nazism era and modern day rioting. German actress Ruby Commey (credited as Germania) appears throughout the clip.\n\nAt one point, we see some of the band members dressed in concentration camp uniforms from the Holocaust with nooses around their necks. As the video progresses, the prisoners surround a group of Nazi guards (one of them played by guitarist Richard Kruspe) and shoot them in the face from point blank range. The scene sparked criticism - the German government's commissioner for anti-semitism, Felix Klein, called the visual \"a tasteless exploitation of artistic freedom.\"\n\nThe Rammstein album topped the charts in 14 different countries including the band's native Germany, Austria, Belgium, Denmark, Estonia, Finland, France, Netherlands, Norway, Poland, Portugal, Russia, Switzerland and Canada.\n\nThe record also made history in the UK with a #3 debut, the highest ranking a German-speaking artist has ever reached in the albums charts there.\n\nThe video was voted the 2019 Video of the Year by the readers of Kerrang magazine. <a href=\"http:\/\/www.last.fm\/music\/Rammstein\/_\/Deutschland\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

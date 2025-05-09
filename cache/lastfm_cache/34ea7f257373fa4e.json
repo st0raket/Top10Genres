@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:29:43.859083+00:00",
+  "elapsed": 0.264495,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:43.859083+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "860",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ufo361&format=json&method=track.getInfo&track=Acker+jeden+Tag"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ufo361&format=json&method=track.getInfo&track=Acker+jeden+Tag",
+  "_decoded_content": {
+    "track": {
+      "name": "Acker jeden Tag",
+      "url": "https:\/\/www.last.fm\/music\/Ufo361\/_\/Acker+jeden+Tag",
+      "duration": "257000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6199",
+      "playcount": "49514",
+      "artist": {
+        "name": "Ufo361",
+        "url": "https:\/\/www.last.fm\/music\/Ufo361"
+      },
+      "album": {
+        "artist": "Ufo361",
+        "title": "Acker jeden Tag - Single",
+        "url": "https:\/\/www.last.fm\/music\/Ufo361\/Acker+jeden+Tag+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/80360bd7159cfca635a532bd57e29c58.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/80360bd7159cfca635a532bd57e29c58.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/80360bd7159cfca635a532bd57e29c58.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/80360bd7159cfca635a532bd57e29c58.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

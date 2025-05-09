@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:32:03.531270+00:00",
+  "elapsed": 0.291231,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:03.531270+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1819",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charlie+Puth&format=json&method=track.getInfo&track=I+Warned+Myself"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charlie+Puth&format=json&method=track.getInfo&track=I+Warned+Myself",
+  "_decoded_content": {
+    "track": {
+      "name": "I Warned Myself",
+      "url": "https:\/\/www.last.fm\/music\/Charlie+Puth\/_\/I+Warned+Myself",
+      "duration": "159000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "87671",
+      "playcount": "586773",
+      "artist": {
+        "name": "Charlie Puth",
+        "mbid": "525f1f1c-03f0-4bc8-8dfd-e7521f87631b",
+        "url": "https:\/\/www.last.fm\/music\/Charlie+Puth"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Aug 2024, 03:39",
+        "summary": "\u201cI Warned Myself\u201d is Charlie Puth\u2019s first song released in 2019, after releasing his hit album Voicenotes in 2018.\n\nOn August 19, Charlie Puth announced the song on his social networks, with the cover photo.\n\nCharlie Puth wrote about the song on his social networks.\n\n\u201cI Warned Myself\u201d is about a vicious cycle of going back to someone continuously, knowing deep down that they aren\u2019t any good for you. <a href=\"http:\/\/www.last.fm\/music\/Charlie+Puth\/_\/I+Warned+Myself\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI Warned Myself\u201d is Charlie Puth\u2019s first song released in 2019, after releasing his hit album Voicenotes in 2018.\n\nOn August 19, Charlie Puth announced the song on his social networks, with the cover photo.\n\nCharlie Puth wrote about the song on his social networks.\n\n\u201cI Warned Myself\u201d is about a vicious cycle of going back to someone continuously, knowing deep down that they aren\u2019t any good for you. <a href=\"http:\/\/www.last.fm\/music\/Charlie+Puth\/_\/I+Warned+Myself\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:38:55.311944+00:00",
+  "elapsed": 0.22224,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:55.311944+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2878",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PinkPantheress&format=json&method=track.getInfo&track=Boy%27s+a+liar+Pt.+2"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PinkPantheress&format=json&method=track.getInfo&track=Boy%27s+a+liar+Pt.+2",
+  "_decoded_content": {
+    "track": {
+      "name": "Boy's a liar Pt. 2",
+      "url": "https:\/\/www.last.fm\/music\/pinkpantheress\/_\/Boy%27s+a+liar+Pt.+2",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1277725",
+      "playcount": "18389828",
+      "artist": {
+        "name": "pinkpantheress",
+        "url": "https:\/\/www.last.fm\/music\/pinkpantheress"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "bitpop",
+            "url": "https:\/\/www.last.fm\/tag\/bitpop"
+          },
+          {
+            "name": "baltimore club",
+            "url": "https:\/\/www.last.fm\/tag\/baltimore+club"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Feb 2023, 04:20",
+        "summary": "\"Boy\u2019s a liar Pt. 2\" is a song by PinkPantheress and Ice Spice. It was produced by Mura Masa and was released on 3 February 2023. The song is a remix to PinkPantheress' \"Boy's a Liar.\" \n\nThe song is about PinkPantheress being manipulated and lied to by her partner. Many lyrics such as \"Because you only want to hold me when I'm looking good enough\" and \"Every time I pull my hair, well, it's only out of fear, that you'll find me ugly and one day we'll disappear\" are evidence that she was insecure during the relationship. <a href=\"http:\/\/www.last.fm\/music\/pinkpantheress\/_\/Boy%27s+a+liar+Pt.+2\">Read more on Last.fm<\/a>.",
+        "content": "\"Boy\u2019s a liar Pt. 2\" is a song by PinkPantheress and Ice Spice. It was produced by Mura Masa and was released on 3 February 2023. The song is a remix to PinkPantheress' \"Boy's a Liar.\" \n\nThe song is about PinkPantheress being manipulated and lied to by her partner. Many lyrics such as \"Because you only want to hold me when I'm looking good enough\" and \"Every time I pull my hair, well, it's only out of fear, that you'll find me ugly and one day we'll disappear\" are evidence that she was insecure during the relationship. Ice Spice\u2019s lyrics change emotions throughout the song. At the start, she appears confident in what she's saying, claiming that he's a cheater who will never find anyone better than her, but towards the end, her voice and tone change. You could say this was her realization that they wouldn't be together anymore. E.g \"But I don't sleep enough without you, and I can't eat enough without you, if you don't speak does that mean we're through? Don't like sneaky shit that you do.\"\n\nThe collaboration went viral after PinkPantheress and Ice Spice were spotted by fans filming the music video in New York City. On January 18, 2023, a fan recorded the duo was seen filming for the music video outside an apartment and on the subway. The song debuted at #14 and later peaked at #3 on the US Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/pinkpantheress\/_\/Boy%27s+a+liar+Pt.+2\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

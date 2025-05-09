@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:07.262886+00:00",
+  "elapsed": 0.205452,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:07.262886+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2874",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=That+Way"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=That+Way",
+  "_decoded_content": {
+    "track": {
+      "name": "That Way",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/That+Way",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "179200",
+      "playcount": "1719061",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "controversy",
+            "url": "https:\/\/www.last.fm\/tag\/controversy"
+          },
+          {
+            "name": "backstreet boys",
+            "url": "https:\/\/www.last.fm\/tag\/backstreet+boys"
+          },
+          {
+            "name": "gamer",
+            "url": "https:\/\/www.last.fm\/tag\/gamer"
+          },
+          {
+            "name": "BSB",
+            "url": "https:\/\/www.last.fm\/tag\/BSB"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Jan 2024, 09:11",
+        "summary": "\"That Way\" is a song by American rapper Lil Uzi Vert. It was released on March 1, 2020, by Generation Now and Atlantic Records as the second single from their second studio album Eternal Atake. The song prominently interpolates the hook of the Backstreet Boys' \"I Want It That Way\" (1999).\n\nThe cover art has been subject to allegations of plagiarism. On March 14, 2020, an online artist under the alias of 'hugeriver8' on Instagram claimed that the cover art plagiarizes a nearly identical piece they posted on their blog in 2014. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/That+Way\">Read more on Last.fm<\/a>.",
+        "content": "\"That Way\" is a song by American rapper Lil Uzi Vert. It was released on March 1, 2020, by Generation Now and Atlantic Records as the second single from their second studio album Eternal Atake. The song prominently interpolates the hook of the Backstreet Boys' \"I Want It That Way\" (1999).\n\nThe cover art has been subject to allegations of plagiarism. On March 14, 2020, an online artist under the alias of 'hugeriver8' on Instagram claimed that the cover art plagiarizes a nearly identical piece they posted on their blog in 2014. The human figure on the cover art has also been claimed to be copied from a different artist under the alias of 'la_la_la_fries', for a piece of fanart of the guitarist Pete Townshend of The Who, which was first posted on Instagram in late November 2015.\n\nWhen prompted, the artist of the That Way album cover responded that he simply designed what Lil Uzi Vert had asked him to design, and that the picture he is alleged to have plagiarized was sent as reference work. Following this, Lil Uzi Vert left a comment saying, \"Hey I'm not a mean person or a thief I get inspired a lot. If you want Money I will have my team contact and give you Money. Signed\u2026 Baby Pluto. P.S. You are a great artist.\"\n\nBackstreet Boys member Nick Carter praised the song on his Twitter and told Uzi that he wants them to be \"featured on our next album\". <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/That+Way\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

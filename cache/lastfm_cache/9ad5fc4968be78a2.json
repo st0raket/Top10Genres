@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:34:57.148008+00:00",
+  "elapsed": 0.265875,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:57.148008+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "876",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fredo&format=json&method=track.getInfo&track=Back+to+Basics"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fredo&format=json&method=track.getInfo&track=Back+to+Basics",
+  "_decoded_content": {
+    "track": {
+      "name": "Back to Basics",
+      "url": "https:\/\/www.last.fm\/music\/Fredo\/_\/Back+to+Basics",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "17715",
+      "playcount": "152554",
+      "artist": {
+        "name": "Fredo",
+        "mbid": "df8a1df4-ef85-48fa-8611-c953dde665b4",
+        "url": "https:\/\/www.last.fm\/music\/Fredo"
+      },
+      "album": {
+        "artist": "Fredo",
+        "title": "Back to Basics",
+        "url": "https:\/\/www.last.fm\/music\/Fredo\/Back+to+Basics",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9f80f639eda2bf5424e4b3793645363b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9f80f639eda2bf5424e4b3793645363b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9f80f639eda2bf5424e4b3793645363b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9f80f639eda2bf5424e4b3793645363b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

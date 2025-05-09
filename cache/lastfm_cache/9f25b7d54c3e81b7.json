@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:19.896589+00:00",
+  "elapsed": 0.209012,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:19.896589+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3065",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Lift+Me+Up+-+From+Black+Panther%3A+Wakanda+Forever+-+Music+From+and+Inspired+By"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Lift+Me+Up+-+From+Black+Panther%3A+Wakanda+Forever+-+Music+From+and+Inspired+By",
+  "_decoded_content": {
+    "track": {
+      "name": "Lift Me Up - From Black Panther: Wakanda Forever - Music From and Inspired By",
+      "url": "https:\/\/www.last.fm\/music\/Rihanna\/_\/Lift+Me+Up+-+From+Black+Panther:+Wakanda+Forever+-+Music+From+and+Inspired+By",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "371360",
+      "playcount": "2542148",
+      "artist": {
+        "name": "Rihanna",
+        "mbid": "db36a76f-4cdf-43ac-8cd0-5e48092d2bae",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna"
+      },
+      "album": {
+        "artist": "Rihanna",
+        "title": "Lift Me Up (From Black Panther: Wakanda Forever - Music From and Inspired By)",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna\/Lift+Me+Up+(From+Black+Panther:+Wakanda+Forever+-+Music+From+and+Inspired+By)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6ebe87d735de04bbdf952438934888a0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6ebe87d735de04bbdf952438934888a0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6ebe87d735de04bbdf952438934888a0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6ebe87d735de04bbdf952438934888a0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "ost",
+            "url": "https:\/\/www.last.fm\/tag\/ost"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "Rihanna",
+            "url": "https:\/\/www.last.fm\/tag\/Rihanna"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Oct 2022, 14:41",
+        "summary": "Rihanna returns from a music hiatus with \u201cLift Me Up,\u201d the lead single from the upcoming Black Panther: Wakanda Forever movie soundtrack, titled \"Wakanda Forever: The Album\", released in 2022. This marks Rihanna\u2019s first solo release since her eighth album \"ANTI\" in January 2016. Rihanna announced the song via Twitter two days before its release, after Marvel teased it the day before.\n\nThe record was written alongside Ludwig G\u00f6ransson and Ryan Coogler <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Lift+Me+Up+-+From+Black+Panther:+Wakanda+Forever+-+Music+From+and+Inspired+By\">Read more on Last.fm<\/a>.",
+        "content": "Rihanna returns from a music hiatus with \u201cLift Me Up,\u201d the lead single from the upcoming Black Panther: Wakanda Forever movie soundtrack, titled \"Wakanda Forever: The Album\", released in 2022. This marks Rihanna\u2019s first solo release since her eighth album \"ANTI\" in January 2016. Rihanna announced the song via Twitter two days before its release, after Marvel teased it the day before.\n\nThe record was written alongside Ludwig G\u00f6ransson and Ryan Coogler, who composed the movie\u2019s score and directed the film, respectively, as well as Nigerian rising artist Tems, as a tribute to the late Chadwick Boseman, who played King T\u2019Challa, the protagonist on the original Black Panther. <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Lift+Me+Up+-+From+Black+Panther:+Wakanda+Forever+-+Music+From+and+Inspired+By\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

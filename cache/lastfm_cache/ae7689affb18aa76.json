@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:02.473920+00:00",
+  "elapsed": 0.22602,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:02.473920+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5286",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BABYMONSTER&format=json&method=track.getInfo&track=LIKE+THAT"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BABYMONSTER&format=json&method=track.getInfo&track=LIKE+THAT",
+  "_decoded_content": {
+    "track": {
+      "name": "LIKE THAT",
+      "url": "https:\/\/www.last.fm\/music\/BABYMONSTER\/_\/LIKE+THAT",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "140714",
+      "playcount": "2172995",
+      "artist": {
+        "name": "BABYMONSTER",
+        "url": "https:\/\/www.last.fm\/music\/BABYMONSTER"
+      },
+      "album": {
+        "artist": "BABYMONSTER",
+        "title": "BABYMONS7ER",
+        "url": "https:\/\/www.last.fm\/music\/BABYMONSTER\/BABYMONS7ER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "english",
+            "url": "https:\/\/www.last.fm\/tag\/english"
+          },
+          {
+            "name": "MARCO",
+            "url": "https:\/\/www.last.fm\/tag\/MARCO"
+          },
+          {
+            "name": "FUCK CHARLI POOP",
+            "url": "https:\/\/www.last.fm\/tag\/FUCK+CHARLI+POOP"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2024, 03:31",
+        "summary": "\"LIKE THAT\" is a song by the South Korean girl group BABYMONSTER, released on April 1, 2024, by YG Entertainment alongside their debut mini-album, BABYMONS7ER. This track is a b-side under the album and is notably a gift from American singer-songwriter Charlie Puth. Puth was inspired after seeing a pre-debut video of AHYEON covering his song \"Dangerously\" and was impressed by her talent, leading him to compose and gift \"LIKE THAT\" to the group. The song showcases Puth's signature style <a href=\"http:\/\/www.last.fm\/music\/BABYMONSTER\/_\/LIKE+THAT\">Read more on Last.fm<\/a>.",
+        "content": "\"LIKE THAT\" is a song by the South Korean girl group BABYMONSTER, released on April 1, 2024, by YG Entertainment alongside their debut mini-album, BABYMONS7ER. This track is a b-side under the album and is notably a gift from American singer-songwriter Charlie Puth. Puth was inspired after seeing a pre-debut video of AHYEON covering his song \"Dangerously\" and was impressed by her talent, leading him to compose and gift \"LIKE THAT\" to the group. The song showcases Puth's signature style, blending elements of R&B and Trap with a distinctive, modern sound.\n\nThe genre of \"LIKE THAT\" seamlessly incorporates R&B and Trap, delivering a smooth, sultry vibe that complements the group's vocal prowess. The track's lyrics revolve around themes of desire and attraction, exploring the dynamics of a romantic relationship with a blend of confidence and allure. Puth's composition is characterized by its catchy hooks and rhythmic beats, making it a standout addition to the BABYMONS7ER album. The song's production, handled by Charlie Puth himself alongside with some of YG producers, features lush synthesizers and a compelling bassline, enhancing the track's seductive atmosphere.\n\nUpon its release, \"LIKE THAT\" quickly garnered attention for its fresh sound and the special collaboration with Charlie Puth. It highlighted BABYMONSTER's versatility and their ability to merge international influences with their unique style. The song's smooth blend of R&B and Trap not only showcased the group's vocal skills but also underscored their potential to cross cultural and musical boundaries. Fans and critics alike praised the track for its catchy melody and the seamless integration of Puth's production elements with BABYMONSTER's performance.\n\nAn exclusive performance video for \"LIKE THAT\" was released alongside the song, featuring BABYMONSTER performing in sleek suits with dynamic choreography. The performance video, which showcases the group's synchronized dance moves and charismatic presence, has been well-received by fans and has quickly gained popularity across various social media platforms. The stylish visuals and the high-energy performance have enhanced the song\u2019s appeal, making it a viral hit and further solidifying BABYMONSTER's position in the K-pop scene.\n\n\"LIKE THAT\" has not only marked a significant milestone in BABYMONSTER's career but also showcased the group's ability to collaborate with international artists, bridging the gap between Western and Eastern pop music. The song's success on streaming platforms and its viral popularity on social media underscore BABYMONSTER's growing global appeal. With its distinctive sound and strong reception, \"LIKE THAT\" has positioned BABYMONSTER as a formidable contender in the international music scene, promising even more groundbreaking releases in the future.\n\nOverall, \"LIKE THAT\" exemplifies BABYMONSTER's dynamic artistry and their potential to influence the global music landscape. The collaboration with Charlie Puth has brought a fresh perspective to their music, enhancing their appeal and showcasing their versatility. As BABYMONSTER continues to evolve, \"LIKE THAT\" remains a testament to their innovative spirit and their ability to connect with audiences worldwide. <a href=\"http:\/\/www.last.fm\/music\/BABYMONSTER\/_\/LIKE+THAT\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

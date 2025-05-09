@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:36.565235+00:00",
+  "elapsed": 0.217154,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:36.565235+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3425",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Cover+Me+Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Cover+Me+Up",
+  "_decoded_content": {
+    "track": {
+      "name": "Cover Me Up",
+      "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Cover+Me+Up",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "97254",
+      "playcount": "1318247",
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Fall Country Feels",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Fall+Country+Feels",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c3e82a4ea3b4b42f525a80f889f316f4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c3e82a4ea3b4b42f525a80f889f316f4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c3e82a4ea3b4b42f525a80f889f316f4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c3e82a4ea3b4b42f525a80f889f316f4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "americana",
+            "url": "https:\/\/www.last.fm\/tag\/americana"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "contemporary country",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+country"
+          },
+          {
+            "name": "pedocore",
+            "url": "https:\/\/www.last.fm\/tag\/pedocore"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Dec 2021, 16:24",
+        "summary": "\"Cover Me Up\" is a song covered by country music singer Morgan Wallen, included on his 2021 album Dangerous: The Double Album. It was written and originally recorded by country music singer Jason Isbell. It is the first track on his 2013 studio album Southeastern.\n\nIn November 2020, Wallen's cover of \"Cover Me Up\" was announced as one of the tracks on his then-upcoming album Dangerous: The Double Album. Wallen's version is co-produced by Joey Moi and Dave Cohen. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Cover+Me+Up\">Read more on Last.fm<\/a>.",
+        "content": "\"Cover Me Up\" is a song covered by country music singer Morgan Wallen, included on his 2021 album Dangerous: The Double Album. It was written and originally recorded by country music singer Jason Isbell. It is the first track on his 2013 studio album Southeastern.\n\nIn November 2020, Wallen's cover of \"Cover Me Up\" was announced as one of the tracks on his then-upcoming album Dangerous: The Double Album. Wallen's version is co-produced by Joey Moi and Dave Cohen.\n\nWallen had covered the song in concert for more than a year prior to the release of his studio version, including performances on a tour with Luke Combs and during a video shoot created by the country music website Taste of Country. The latter publication noted that while Wallen's live covers had received mixed reception from fans, Isbell himself stated approval toward Wallen's rendition. Although not released as a single, Wallen's rendition charted on the Billboard Hot 100, Hot Country Songs and Canadian Hot 100 charts between 2019 and 2020. It has also received a platinum certification from the Recording Industry Association of America (RIAA) and Music Canada.\n\nWallen uploaded an 8-minute short film on November 22, 2019, directed by Justin Clough and filmed near Leiper's Fork, Tennessee. The video portrays the song's storyline through a soldier who is suffering post-traumatic stress disorder. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Cover+Me+Up\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

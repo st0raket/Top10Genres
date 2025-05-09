@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:11.600696+00:00",
+  "elapsed": 0.250729,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:11.600696+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5105",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ABBA&format=json&method=track.getInfo&track=Happy+New+Year"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ABBA&format=json&method=track.getInfo&track=Happy+New+Year",
+  "_decoded_content": {
+    "track": {
+      "name": "Happy New Year",
+      "mbid": "f8baf6a0-988a-49cf-8600-3facf030c32c",
+      "url": "https:\/\/www.last.fm\/music\/ABBA\/_\/Happy+New+Year",
+      "duration": "263000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "278356",
+      "playcount": "1093285",
+      "artist": {
+        "name": "ABBA",
+        "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+        "url": "https:\/\/www.last.fm\/music\/ABBA"
+      },
+      "album": {
+        "artist": "ABBA",
+        "title": "Super Trouper",
+        "mbid": "c91f3331-2413-3ad7-b8a0-7bf2eb4d4998",
+        "url": "https:\/\/www.last.fm\/music\/ABBA\/Super+Trouper",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d4bdb055af9f2ab12f8a785983602278.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d4bdb055af9f2ab12f8a785983602278.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d4bdb055af9f2ab12f8a785983602278.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d4bdb055af9f2ab12f8a785983602278.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "new year",
+            "url": "https:\/\/www.last.fm\/tag\/new+year"
+          },
+          {
+            "name": "abba",
+            "url": "https:\/\/www.last.fm\/tag\/abba"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jun 2015, 22:28",
+        "summary": "\"Happy New Year\" is a song by Swedish group ABBA from their 1980 album Super Trouper. The lead vocals are by Agnetha F\u00e4ltskog. The song's working title was all the more festive and humorous; \"Daddy Don't Get Drunk on Christmas Day\".[2] Although recorded in 1980, the English-language song wasn't released as a single until 1999[3] and charted at no. 34 in Sweden,[4] no. 15 in the Netherlands,[5] no. 75 in Germany,[6] to promote the CD re-release of many of ABBA's singles. <a href=\"http:\/\/www.last.fm\/music\/ABBA\/_\/Happy+New+Year\">Read more on Last.fm<\/a>.",
+        "content": "\"Happy New Year\" is a song by Swedish group ABBA from their 1980 album Super Trouper. The lead vocals are by Agnetha F\u00e4ltskog. The song's working title was all the more festive and humorous; \"Daddy Don't Get Drunk on Christmas Day\".[2] Although recorded in 1980, the English-language song wasn't released as a single until 1999[3] and charted at no. 34 in Sweden,[4] no. 15 in the Netherlands,[5] no. 75 in Germany,[6] to promote the CD re-release of many of ABBA's singles.\n\n\"Felicidad\"[7] was the Spanish-language version of the song. The single charted in the top 5 in Argentina. The song was also included on the South American versions of the Super Trouper album. Released in 1980 in Argentina, the single's B-side was the album's title track, \"Super Trouper\".\n\n\"Felicidad\" was first released on CD as part of the 1994 Polydor US compilation M\u00e1s ABBA Oro, and in 1999 on the expanded re-release of ABBA Oro: Grandes \u00c9xitos.\n\nIn 2008, it was released again in several countries, and charted no. 25 in Denmark,[8] no. 11 in Norway,[9] and no. 4 in Sweden.[4] It re-entered the Sweden and Norway charts in 2009 at no. 5 in both charts and reached the Dutch Top 10 in 2011.[4][9]\n\nIn December 2011 a silver glitter vinyl single limited to 500 pieces was released including the songs Happy New Year and The Way Old Friends Do. The edition was available from the official ABBA site and the ABBF fan site only. It was sold out within the day of announcing the release.[10]\n\nUpon the release of ABBA: The 40th Anniversary Singles Box Set on 5 May 2014, it was discovered that an alternate mix of \"Andante, Andante\" was used on the b-side of the single in the boxset instead of the original album version.\n\nA-Teens version\n\n\"Happy New Year\" was covered by the A-Teens, released as a single in 2000 to coincide with Y2K. The single was released to celebrate the arrival of the new millennium, which explains the last line in the song's third verse being altered to \"in the end of ninety-nine\"; as opposed to the original's \"in the end of eighty-nine\". It reached no. 4 on the Swedish charts becoming the band's fourth consecutive top ten in the country earning a Gold certification weeks after its release.[1] The single wasn't released worldwide, only in selected countries. \"Happy New Year\", was released in Chile after their visit in February 2000. A music video was made to support the single's release.\nTrack listing\n\nScandinavian 2-Track CD Single\n\n    \"Happy New Year\" [Radio version] \u2013 4:24\n    \"Happy New Year\" [Extended version] \u2013 6:52\n\nScandinavian CD Maxi\n\n    \"Happy New Year\" [Radio version] \u2013 4:24\n    \"Happy New Year\" [Extended version] \u2013 6:52\n    \"Mamma Mia\" [The Bold & the Beautiful Glamourmix Edit] \u2013 3:46\n    \"Super Trouper\" [W.I.P.] \u2013 6:10\n\nAmerican pop singer Debbie Sims covered this song in an American soul ballad style, produced by the late Arif Mardin, taken from her 1998 album, \"Songs of Andersson & Ulvaeus\". <a href=\"http:\/\/www.last.fm\/music\/ABBA\/_\/Happy+New+Year\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

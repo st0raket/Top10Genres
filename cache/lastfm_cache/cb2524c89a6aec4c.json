@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:59.656790+00:00",
+  "elapsed": 0.303586,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:59.656790+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "925",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ANNA+ASTI&format=json&method=track.getInfo&track=%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ANNA+ASTI&format=json&method=track.getInfo&track=%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0438",
+      "url": "https:\/\/www.last.fm\/music\/ANNA+ASTI\/_\/%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3147",
+      "playcount": "34680",
+      "artist": {
+        "name": "ANNA ASTI",
+        "url": "https:\/\/www.last.fm\/music\/ANNA+ASTI"
+      },
+      "album": {
+        "artist": "ANNA ASTI",
+        "title": "\u0426\u0430\u0440\u0438\u0446\u0430",
+        "url": "https:\/\/www.last.fm\/music\/ANNA+ASTI\/%D0%A6%D0%B0%D1%80%D0%B8%D1%86%D0%B0",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f1ffb3a569923fe1b5a8d744cf231619.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f1ffb3a569923fe1b5a8d744cf231619.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f1ffb3a569923fe1b5a8d744cf231619.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f1ffb3a569923fe1b5a8d744cf231619.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

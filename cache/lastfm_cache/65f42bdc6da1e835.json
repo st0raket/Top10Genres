@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:41:02.763202+00:00",
+  "elapsed": 0.177725,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:02.763202+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1196",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=Cry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=Cry",
+  "_decoded_content": {
+    "track": {
+      "name": "Cry",
+      "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/_\/Cry",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "178345",
+      "playcount": "1263486",
+      "artist": {
+        "name": "Benson Boone",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone"
+      },
+      "album": {
+        "artist": "Benson Boone",
+        "title": "Fireworks & Rollerblades",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/Fireworks+&+Rollerblades",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/543513879cff3506d3f22f8abbfcd3a1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/543513879cff3506d3f22f8abbfcd3a1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/543513879cff3506d3f22f8abbfcd3a1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/543513879cff3506d3f22f8abbfcd3a1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "goregrind",
+            "url": "https:\/\/www.last.fm\/tag\/goregrind"
+          },
+          {
+            "name": "LCD Soundsystem",
+            "url": "https:\/\/www.last.fm\/tag\/LCD+Soundsystem"
+          },
+          {
+            "name": "true neo-satanic pop",
+            "url": "https:\/\/www.last.fm\/tag\/true+neo-satanic+pop"
+          }
+        ]
+      }
+    }
+  }
+}

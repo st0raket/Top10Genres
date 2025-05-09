@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:54.108688+00:00",
+  "elapsed": 0.468656,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:54.108688+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3246",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=supernatural"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=supernatural",
+  "_decoded_content": {
+    "track": {
+      "name": "supernatural",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/supernatural",
+      "duration": "163000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "556607",
+      "playcount": "11659418",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "album": {
+        "artist": "Ariana Grande",
+        "title": "eternal sunshine [Clean] [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/eternal+sunshine+%5BClean%5D+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1b3c1507a905b6c40475d0d565f6bebc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1b3c1507a905b6c40475d0d565f6bebc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1b3c1507a905b6c40475d0d565f6bebc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1b3c1507a905b6c40475d0d565f6bebc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "AOTY",
+            "url": "https:\/\/www.last.fm\/tag\/AOTY"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Mar 2024, 07:39",
+        "summary": "\u201csupernatural\u201c yields a low-tempo R&B beat, offering several occasions of reverb to build upon the celestial imagery in this track.\n\n\u201csupernatural\u201c in its simplest terminology, from Merriam-Webster means \u201cof or relating to an order of existence beyond the visible observable universe\u201d In relation to both the nature of the film this album is based on \u2019Eternal Sunshine of the Spotless Mind\u2019 as well as Ariana\u2019s own personal affairs \u2013 this term directly correlates <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/supernatural\">Read more on Last.fm<\/a>.",
+        "content": "\u201csupernatural\u201c yields a low-tempo R&B beat, offering several occasions of reverb to build upon the celestial imagery in this track.\n\n\u201csupernatural\u201c in its simplest terminology, from Merriam-Webster means \u201cof or relating to an order of existence beyond the visible observable universe\u201d In relation to both the nature of the film this album is based on \u2019Eternal Sunshine of the Spotless Mind\u2019 as well as Ariana\u2019s own personal affairs \u2013 this term directly correlates, in emotion, to how Ariana feels \u2018inseperable\u2019; feeling it take over her entire state of mind, and not minding at all.\n\nShe constructs this sense through extended metaphors and semantics of togetherness, like when she states the situation is akin \u2018like the moon needs the stars\u2019 \u2013 the celestial nature suggested here may also be an allusion towards sexual intercourse, likening an orgasm to a supernatural experience.\n\nAriana is also heavily superstitious, believing in the \u2018supernatural\u2019, therefore, it is fitting how Ariana suggests that it is some exterior power pulling them together, not fighting it as it\u2019s part of the being's will. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/supernatural\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

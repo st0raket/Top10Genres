@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:34:48.285272+00:00",
+  "elapsed": 0.307841,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:48.285272+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2435",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Durk&format=json&method=track.getInfo&track=Backdoor"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Durk&format=json&method=track.getInfo&track=Backdoor",
+  "_decoded_content": {
+    "track": {
+      "name": "Backdoor",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Durk\/_\/Backdoor",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38013",
+      "playcount": "369392",
+      "artist": {
+        "name": "Lil Durk",
+        "mbid": "c9cd225b-4883-428e-82c2-73e0b6282fb6",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Durk"
+      },
+      "album": {
+        "artist": "Lil Durk",
+        "title": "The Voice",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Durk\/The+Voice",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a5306b18d185e542179ea58e391a27ee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a5306b18d185e542179ea58e391a27ee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a5306b18d185e542179ea58e391a27ee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a5306b18d185e542179ea58e391a27ee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Aug 2023, 12:41",
+        "summary": "Lil Durk returns to the music scene with \u201cBackdoor,\u201d a surprise and his first release after a hiatus for about one-and-a-half months, due to the death of his longtime friend and fellow labelmate, King Von, on November 6, 2020. It is mainly a tribute to him. It also serves as the third single to The Voice.\n\nOn this song, the Chicago rapper talks about the struggles that he faced during his upbringing. Continuing his usual talk about troubles in the streets <a href=\"http:\/\/www.last.fm\/music\/Lil+Durk\/_\/Backdoor\">Read more on Last.fm<\/a>.",
+        "content": "Lil Durk returns to the music scene with \u201cBackdoor,\u201d a surprise and his first release after a hiatus for about one-and-a-half months, due to the death of his longtime friend and fellow labelmate, King Von, on November 6, 2020. It is mainly a tribute to him. It also serves as the third single to The Voice.\n\nOn this song, the Chicago rapper talks about the struggles that he faced during his upbringing. Continuing his usual talk about troubles in the streets, he expresses his paranoia in life and his concern for legal troubles that happen around him.\n\nThis song was released concurrently with the official music video on December 21, 2020. <a href=\"http:\/\/www.last.fm\/music\/Lil+Durk\/_\/Backdoor\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

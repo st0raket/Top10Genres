@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:28:15.723683+00:00",
+  "elapsed": 0.336652,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:15.723683+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "985",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%93%E3%83%BC%E3%83%90%E3%83%BC&format=json&method=track.getInfo&track=Sorry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%93%E3%83%BC%E3%83%90%E3%83%BC&format=json&method=track.getInfo&track=Sorry",
+  "_decoded_content": {
+    "track": {
+      "name": "Sorry",
+      "url": "https:\/\/www.last.fm\/music\/%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%93%E3%83%BC%E3%83%90%E3%83%BC\/_\/Sorry",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2904",
+      "playcount": "17344",
+      "artist": {
+        "name": "\u30b8\u30e3\u30b9\u30c6\u30a3\u30f3\u30fb\u30d3\u30fc\u30d0\u30fc",
+        "url": "https:\/\/www.last.fm\/music\/%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%93%E3%83%BC%E3%83%90%E3%83%BC"
+      },
+      "album": {
+        "artist": "\u30f4\u30a1\u30ea\u30a2\u30b9\u30fb\u30a2\u30fc\u30c6\u30a3\u30b9\u30c8",
+        "title": "\u6383\u9664\u304c100\u500d\u306f\u304b\u3069\u308b\u6d0b\u697dBEST HITS [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/%E3%83%B4%E3%82%A1%E3%83%AA%E3%82%A2%E3%82%B9%E3%83%BB%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88\/%E6%8E%83%E9%99%A4%E3%81%8C100%E5%80%8D%E3%81%AF%E3%81%8B%E3%81%A9%E3%82%8B%E6%B4%8B%E6%A5%BDBEST+HITS+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

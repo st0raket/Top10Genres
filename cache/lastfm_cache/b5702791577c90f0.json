@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:32:41.182817+00:00",
+  "elapsed": 0.199598,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:41.182817+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1079",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luis+Miguel&format=json&method=track.getInfo&track=Santa+Claus+Lleg%C3%B3+a+la+Ciudad"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luis+Miguel&format=json&method=track.getInfo&track=Santa+Claus+Lleg%C3%B3+a+la+Ciudad",
+  "_decoded_content": {
+    "track": {
+      "name": "Santa Claus Lleg\u00f3 A La Ciudad",
+      "url": "https:\/\/www.last.fm\/music\/Luis+Miguel\/_\/Santa+Claus+Lleg%C3%B3+A+La+Ciudad",
+      "duration": "118000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "43522",
+      "playcount": "132757",
+      "artist": {
+        "name": "Luis Miguel",
+        "mbid": "90270118-8ed0-4446-bf97-8a09b3f9e8f3",
+        "url": "https:\/\/www.last.fm\/music\/Luis+Miguel"
+      },
+      "album": {
+        "artist": "Luis Miguel",
+        "title": "Navidades Luis Miguel",
+        "url": "https:\/\/www.last.fm\/music\/Luis+Miguel\/Navidades+Luis+Miguel",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6d5f315647da415dc1a0cbe2ecc403a8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6d5f315647da415dc1a0cbe2ecc403a8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6d5f315647da415dc1a0cbe2ecc403a8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6d5f315647da415dc1a0cbe2ecc403a8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Christmas and the new year and easter",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+and+the+new+year+and+easter"
+          }
+        ]
+      }
+    }
+  }
+}

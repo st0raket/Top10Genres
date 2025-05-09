@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:07.475550+00:00",
+  "elapsed": 0.223018,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:07.475550+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3736",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=Hurt+Feelings"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=Hurt+Feelings",
+  "_decoded_content": {
+    "track": {
+      "name": "Hurt Feelings",
+      "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/_\/Hurt+Feelings",
+      "duration": "245000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "514389",
+      "playcount": "6051874",
+      "artist": {
+        "name": "Mac Miller",
+        "mbid": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller"
+      },
+      "album": {
+        "artist": "Mac Miller",
+        "title": "Swimming In Circles",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/Swimming+In+Circles",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2dad797985ef30962436cc297600f457.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2dad797985ef30962436cc297600f457.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2dad797985ef30962436cc297600f457.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2dad797985ef30962436cc297600f457.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 02:14",
+        "summary": "In this track, Mac talks about not changing himself to better his career. It is also his way of telling anyone who has ever doubted him in his career that he made it.\n\n\"I'm always sayin' I won't change but\nI ain't the same\nEverything is different, I can't complain\nDon't know what you missin'\nShame on you.\"\n\nRather than remaining stagnant and continuing to battle his demons, the Pittsburgh rapper has chosen to move on and accept his successes. He hopes <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/Hurt+Feelings\">Read more on Last.fm<\/a>.",
+        "content": "In this track, Mac talks about not changing himself to better his career. It is also his way of telling anyone who has ever doubted him in his career that he made it.\n\n\"I'm always sayin' I won't change but\nI ain't the same\nEverything is different, I can't complain\nDon't know what you missin'\nShame on you.\"\n\nRather than remaining stagnant and continuing to battle his demons, the Pittsburgh rapper has chosen to move on and accept his successes. He hopes this hasn't hurt anyone's feelings who think he should remain the same Malcolm James McCormick before he found fame as Mac Miller. The rhymer also addresses those who refuse to personally develop telling them \"shame on you.\"\nThe song was produced by J. Cole with some additional contributions from Los Angeles-based songwriter, producer and multi-instrumentalist Jon Brion and British singer-songwriter Dev Hynes, who records under the name of Blood Orange. The track marks Mac's first time collaborating with J. Cole.\n\nSpeaking with Beats 1's Zane Lowe about the song Miller explained that Cole sent initially over two beats. They then had a conversation, and arising from that he sent over some tracks one of which became \"Hurt Feelings.\"\n\nMiller added regarding Dev Hynes' contribution that he \"was playing this big-ass grand piano, trying to like lay a piano part.\" The rapper was hating everything he was doing and when Hynes walked in he asked him to give it a try. The first thing the songwriter did was repeat exactly what Miller was doing, which made him think that maybe what he was right in the first place. \"And then out of nowhere\" he suddenly came up with the piano that you hear on this song. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/Hurt+Feelings\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

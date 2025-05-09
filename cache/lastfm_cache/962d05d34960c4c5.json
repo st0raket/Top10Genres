@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:59.364953+00:00",
+  "elapsed": 0.295192,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:59.364953+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2644",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ed+Sheeran&format=json&method=track.getInfo&track=Save+Myself"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ed+Sheeran&format=json&method=track.getInfo&track=Save+Myself",
+  "_decoded_content": {
+    "track": {
+      "name": "Save Myself",
+      "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/Save+Myself",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "162668",
+      "playcount": "860358",
+      "artist": {
+        "name": "Ed Sheeran",
+        "mbid": "b8a7c51f-362c-4dcb-a259-bc6e0095f0a6",
+        "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran"
+      },
+      "album": {
+        "artist": "Ed Sheeran",
+        "title": "\u00f7 (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran\/%C3%B7+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "Ed Sheeran",
+            "url": "https:\/\/www.last.fm\/tag\/Ed+Sheeran"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "\u00f7",
+            "url": "https:\/\/www.last.fm\/tag\/%C3%B7"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Aug 2022, 01:18",
+        "summary": "\u201cSave Myself\u201d is the final song on the deluxe version of \"Divide\" and has an important message of self-care for anyone of any gender.\n\n\"While the specific subject of \u201cSave Myself\u201d isn\u2019t entirely obvious, it\u2019s a song that anyone who has ever felt down on themselves can relate to. Even if some of the lyrics feel like a bit of a gut punch, Sheeran makes the point that you need to pick yourself up before you can help anyone else \u2013 something that many people probably need to hear, even if they don\u2019t realize it.\"\n\n\u2014 from Billboard <a href=\"http:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/Save+Myself\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSave Myself\u201d is the final song on the deluxe version of \"Divide\" and has an important message of self-care for anyone of any gender.\n\n\"While the specific subject of \u201cSave Myself\u201d isn\u2019t entirely obvious, it\u2019s a song that anyone who has ever felt down on themselves can relate to. Even if some of the lyrics feel like a bit of a gut punch, Sheeran makes the point that you need to pick yourself up before you can help anyone else \u2013 something that many people probably need to hear, even if they don\u2019t realize it.\"\n\n\u2014 from Billboard <a href=\"http:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/Save+Myself\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

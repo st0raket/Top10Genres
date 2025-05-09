@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:36.763654+00:00",
+  "elapsed": 0.241273,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:36.763654+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1180",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=You%27re+the+Best+Thing+About+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=You%27re+the+Best+Thing+About+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "You're the Best Thing About Me",
+      "url": "https:\/\/www.last.fm\/music\/U2\/_\/You%27re+the+Best+Thing+About+Me",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9028",
+      "playcount": "59779",
+      "artist": {
+        "name": "U2",
+        "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+        "url": "https:\/\/www.last.fm\/music\/U2"
+      },
+      "album": {
+        "artist": "Kygo",
+        "title": "Stargazing - EP",
+        "url": "https:\/\/www.last.fm\/music\/Kygo\/Stargazing+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2edbf741d49fc0e0c18ae4508f9dbf9e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2edbf741d49fc0e0c18ae4508f9dbf9e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2edbf741d49fc0e0c18ae4508f9dbf9e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2edbf741d49fc0e0c18ae4508f9dbf9e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "catchy",
+            "url": "https:\/\/www.last.fm\/tag\/catchy"
+          },
+          {
+            "name": "favourite",
+            "url": "https:\/\/www.last.fm\/tag\/favourite"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          },
+          {
+            "name": "U2",
+            "url": "https:\/\/www.last.fm\/tag\/U2"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:56.083444+00:00",
+  "elapsed": 0.207688,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:56.083444+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1379",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Frank+Sinatra&format=json&method=track.getInfo&track=Mistletoe+and+Holly"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Frank+Sinatra&format=json&method=track.getInfo&track=Mistletoe+and+Holly",
+  "_decoded_content": {
+    "track": {
+      "name": "Mistletoe and Holly",
+      "mbid": "8117518a-2180-4a6e-a201-4c4e61954666",
+      "url": "https:\/\/www.last.fm\/music\/Frank+Sinatra\/_\/Mistletoe+and+Holly",
+      "duration": "115000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "245195",
+      "playcount": "671541",
+      "artist": {
+        "name": "Frank Sinatra",
+        "mbid": "197450cd-0124-4164-b723-3c22dd16494d",
+        "url": "https:\/\/www.last.fm\/music\/Frank+Sinatra"
+      },
+      "album": {
+        "artist": "Frank Sinatra",
+        "title": "A Jolly Christmas From Frank Sinatra",
+        "mbid": "b20ae32a-7008-49c7-9e30-a0825bc49e0b",
+        "url": "https:\/\/www.last.fm\/music\/Frank+Sinatra\/A+Jolly+Christmas+From+Frank+Sinatra",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/afb6db92bfa273161783222adc2c764e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/afb6db92bfa273161783222adc2c764e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/afb6db92bfa273161783222adc2c764e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/afb6db92bfa273161783222adc2c764e.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "swing",
+            "url": "https:\/\/www.last.fm\/tag\/swing"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          }
+        ]
+      }
+    }
+  }
+}

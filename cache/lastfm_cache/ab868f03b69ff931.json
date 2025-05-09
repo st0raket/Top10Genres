@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:40:53.960048+00:00",
+  "elapsed": 0.192262,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:53.960048+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2747",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=true+story"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=true+story",
+  "_decoded_content": {
+    "track": {
+      "name": "True Story",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/True+Story",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "477923",
+      "playcount": "9225519",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "AOTY",
+            "url": "https:\/\/www.last.fm\/tag\/AOTY"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "eternal sunshine",
+            "url": "https:\/\/www.last.fm\/tag\/eternal+sunshine"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Feb 2024, 15:43",
+        "summary": "\u201ctrue story\u201d details lies from outside perspectives about Grande\u2019s life.\nOver a R&B infused pop instrumental, Grande talks about playing the part of the villain, and saying she\u2019ll \u201cbe good in it too\u201d. Throughout 2023, there were numerous rumors and gossip about Grande\u2019s relationships and her personal life. From divorce gossip, to new relationship gossip, and body gossip. A few demos of the track leaked on June 30, 2023. Grande expressed her emotions on the leaks, saying; oh this is so disheartening. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/True+Story\">Read more on Last.fm<\/a>.",
+        "content": "\u201ctrue story\u201d details lies from outside perspectives about Grande\u2019s life.\nOver a R&B infused pop instrumental, Grande talks about playing the part of the villain, and saying she\u2019ll \u201cbe good in it too\u201d. Throughout 2023, there were numerous rumors and gossip about Grande\u2019s relationships and her personal life. From divorce gossip, to new relationship gossip, and body gossip. A few demos of the track leaked on June 30, 2023. Grande expressed her emotions on the leaks, saying; oh this is so disheartening. i was going to come back to this hook to use eventually. i don't know how people are still doing this but please stop.\n\n\nWhile talking to Zach Sang, in the first part of their interview, she explains that she \u201ctook notes\u201d on the songs that were leaked which she was planning to revisit, and said \u201cthey\u2019re completely different now\u201d. The track also ties into the following track on the tracklist, \u201cthe boy is mine\u201d, and Grande said to Zane Lowe and Apple Music, \u201cIt\u2019s an untrue story, based on all untrue events. It sets up \u201cthe boy is mine\u201d obviously. It\u2019s kind of like, \u201cOkay, I\u2019ll play the bad girl. Now here\u2019s your bad girl anthem.\u201d That\u2019s why they\u2019re in that order on the tracklist.\u201d <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/True+Story\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

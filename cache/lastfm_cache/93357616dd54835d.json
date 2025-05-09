@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:29:15.807389+00:00",
+  "elapsed": 0.193655,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:15.807389+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2563",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bazzi&format=json&method=track.getInfo&track=Mine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bazzi&format=json&method=track.getInfo&track=Mine",
+  "_decoded_content": {
+    "track": {
+      "name": "Mine",
+      "url": "https:\/\/www.last.fm\/music\/bazzi\/_\/Mine",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "532086",
+      "playcount": "4420638",
+      "artist": {
+        "name": "bazzi",
+        "url": "https:\/\/www.last.fm\/music\/bazzi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "meme",
+            "url": "https:\/\/www.last.fm\/tag\/meme"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "memes",
+            "url": "https:\/\/www.last.fm\/tag\/memes"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2018, 13:51",
+        "summary": "\"Mine\" is a song by American singer-songwriter Bazzi. The song was self-released digitally on October 12, 2017. The song made its chart debut on February 3, 2018, after becoming an internet meme. The song charted in various countries including the United States, where it peaked at number 11 on the Billboard Hot 100. The single was certified platinum in the United States, Australia, Canada, Sweden, and New Zealand. The song was later featured as the fourteenth track on his debut album COSMIC, which was released on April 12, 2018. <a href=\"http:\/\/www.last.fm\/music\/bazzi\/_\/Mine\">Read more on Last.fm<\/a>.",
+        "content": "\"Mine\" is a song by American singer-songwriter Bazzi. The song was self-released digitally on October 12, 2017. The song made its chart debut on February 3, 2018, after becoming an internet meme. The song charted in various countries including the United States, where it peaked at number 11 on the Billboard Hot 100. The single was certified platinum in the United States, Australia, Canada, Sweden, and New Zealand. The song was later featured as the fourteenth track on his debut album COSMIC, which was released on April 12, 2018.\n\nBazzi recorded the initial ideas for the song in a few voice memos that were dated July 5, 2017. One contained him whistling the opening notes of the song, another contained him beatboxing, and another contained him singing the lyrics \u201cI\u2019m so fucking happy you\u2019re alive\u201d which ended up being used in the final song.\n\nThe song became an internet meme after gaining popularity in late January 2018. The videos featured a slideshow of different pictures of the subject of the video with the Snapchat \"hearts\" filter and overlaying lyrics. The last word of each song line was surrounded by different \"heart\" and \"kiss\" emojis. <a href=\"http:\/\/www.last.fm\/music\/bazzi\/_\/Mine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

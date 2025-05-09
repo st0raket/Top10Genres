@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:01.282336+00:00",
+  "elapsed": 0.181994,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:01.282336+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2251",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=COZY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=COZY",
+  "_decoded_content": {
+    "track": {
+      "name": "COZY",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/COZY",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "442455",
+      "playcount": "8270376",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "RENAISSANCE",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/RENAISSANCE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "deep house",
+            "url": "https:\/\/www.last.fm\/tag\/deep+house"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2022, 18:56",
+        "summary": "\u201cCOZY\u201d serves as a reminder written from a third-person perspective of Beyonc\u00e9\u2019s triumphs over her struggles and solidification at the top of the game. The second track on the album continues to experiment with production mixing Pop, R&B, Dance, Rap, House, Deep House & Dance-Pop with assistance from Mike Dean, Luke Solomon, Honey Dijon & Chris Penny. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/COZY\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCOZY\u201d serves as a reminder written from a third-person perspective of Beyonc\u00e9\u2019s triumphs over her struggles and solidification at the top of the game. The second track on the album continues to experiment with production mixing Pop, R&B, Dance, Rap, House, Deep House & Dance-Pop with assistance from Mike Dean, Luke Solomon, Honey Dijon & Chris Penny. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/COZY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

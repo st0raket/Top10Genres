@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:31:28.701558+00:00",
+  "elapsed": 0.208561,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:28.701558+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1085",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ScHoolboy+Q&format=json&method=track.getInfo&track=Tales"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ScHoolboy+Q&format=json&method=track.getInfo&track=Tales",
+  "_decoded_content": {
+    "track": {
+      "name": "Tales",
+      "url": "https:\/\/www.last.fm\/music\/ScHoolboy+Q\/_\/Tales",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "69484",
+      "playcount": "394014",
+      "artist": {
+        "name": "ScHoolboy Q",
+        "mbid": "bce6d667-cde8-485e-b078-c0a05adea36d",
+        "url": "https:\/\/www.last.fm\/music\/ScHoolboy+Q"
+      },
+      "album": {
+        "artist": "ScHoolboy Q",
+        "title": "CrasH Talk",
+        "url": "https:\/\/www.last.fm\/music\/ScHoolboy+Q\/CrasH+Talk",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/94e19a18e655836b0cb4da8348287a33.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/94e19a18e655836b0cb4da8348287a33.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/94e19a18e655836b0cb4da8348287a33.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/94e19a18e655836b0cb4da8348287a33.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Gilles Peterson",
+            "url": "https:\/\/www.last.fm\/tag\/Gilles+Peterson"
+          },
+          {
+            "name": "schoolboy q",
+            "url": "https:\/\/www.last.fm\/tag\/schoolboy+q"
+          }
+        ]
+      }
+    }
+  }
+}

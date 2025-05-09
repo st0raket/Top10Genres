@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:01.360545+00:00",
+  "elapsed": 0.179383,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:01.360545+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2482",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Slide+Away"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Slide+Away",
+  "_decoded_content": {
+    "track": {
+      "name": "Slide Away",
+      "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Slide+Away",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "314552",
+      "playcount": "3672917",
+      "artist": {
+        "name": "Miley Cyrus",
+        "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Rtl Hits 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Rtl+Hits+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/58a6b61684c67abf34c914b1d3d75f7b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/58a6b61684c67abf34c914b1d3d75f7b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/58a6b61684c67abf34c914b1d3d75f7b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/58a6b61684c67abf34c914b1d3d75f7b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Miley Cyrus",
+            "url": "https:\/\/www.last.fm\/tag\/Miley+Cyrus"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Jul 2020, 08:46",
+        "summary": "\"Slide Away\" delves into the process of accepting the end of a once-promising love story. It speaks to the struggle of letting go of a perfect past and finding the strength to move on. The lyrics express a yearning for simplicity and freedom from the complications that have taken hold. The song ultimately serves as a poignant reminder that even the most beautiful moments can fade away, and that it is necessary to let go in order to find peace and personal growth. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Slide+Away\">Read more on Last.fm<\/a>.",
+        "content": "\"Slide Away\" delves into the process of accepting the end of a once-promising love story. It speaks to the struggle of letting go of a perfect past and finding the strength to move on. The lyrics express a yearning for simplicity and freedom from the complications that have taken hold. The song ultimately serves as a poignant reminder that even the most beautiful moments can fade away, and that it is necessary to let go in order to find peace and personal growth. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Slide+Away\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

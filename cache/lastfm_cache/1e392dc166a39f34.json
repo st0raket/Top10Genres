@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:48.807926+00:00",
+  "elapsed": 0.210089,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:48.807926+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3138",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Paul+McCartney&format=json&method=track.getInfo&track=Wonderful+Christmastime+-+Edited+Version+%2F+Remastered+2011"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Paul+McCartney&format=json&method=track.getInfo&track=Wonderful+Christmastime+-+Edited+Version+%2F+Remastered+2011",
+  "_decoded_content": {
+    "track": {
+      "name": "Wonderful Christmastime - Edited Version \/ Remastered 2011",
+      "url": "https:\/\/www.last.fm\/music\/Paul+McCartney\/_\/Wonderful+Christmastime+-+Edited+Version+%2F+Remastered+2011",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "590753",
+      "playcount": "2521039",
+      "artist": {
+        "name": "Paul McCartney",
+        "mbid": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "url": "https:\/\/www.last.fm\/music\/Paul+McCartney"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Julemusik 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Julemusik+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "classic tracks",
+            "url": "https:\/\/www.last.fm\/tag\/classic+tracks"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Dec 2020, 14:35",
+        "summary": "This was McCartney's first single after the breakup of Wings. It was recorded during the studio time for his 1980 solo album McCartney II. While Wings had no input to the song, they do appear in the music video, dancing and singing outside the pub. It became a massive hit for the former Beatle and it has been a staple of any good Christmas music compilation since. \n\nMcCartney had retreated to his home and he recorded all elements of the song himself. <a href=\"http:\/\/www.last.fm\/music\/Paul+McCartney\/_\/Wonderful+Christmastime+-+Edited+Version+%2F+Remastered+2011\">Read more on Last.fm<\/a>.",
+        "content": "This was McCartney's first single after the breakup of Wings. It was recorded during the studio time for his 1980 solo album McCartney II. While Wings had no input to the song, they do appear in the music video, dancing and singing outside the pub. It became a massive hit for the former Beatle and it has been a staple of any good Christmas music compilation since. \n\nMcCartney had retreated to his home and he recorded all elements of the song himself. The unique intro was created on his newly acquired 'Sequential Circuits Prophet-5' synthesiser. \n\nIn recent years, it has been the centrepiece of a popular meme which jokes that the song is about witches being interrupted during a ritual. \n\nWitches: 'The moon is right, the spirits up, we're here tonight, and that's enough...'\n*someone enters the room*\nWitches: 'SIMPLY HAVING A WONDERFUL CHRISTMAS TIME! SIMPLY HAVING A WONDERFUL CHRISTMAS TIME!' <a href=\"http:\/\/www.last.fm\/music\/Paul+McCartney\/_\/Wonderful+Christmastime+-+Edited+Version+%2F+Remastered+2011\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

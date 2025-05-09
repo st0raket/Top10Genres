@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:02.988003+00:00",
+  "elapsed": 0.705414,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:02.988003+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4662",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BABYMONSTER&format=json&method=track.getInfo&track=SHEESH"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BABYMONSTER&format=json&method=track.getInfo&track=SHEESH",
+  "_decoded_content": {
+    "track": {
+      "name": "SHEESH",
+      "url": "https:\/\/www.last.fm\/music\/BABYMONSTER\/_\/SHEESH",
+      "duration": "170000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "241308",
+      "playcount": "4560804",
+      "artist": {
+        "name": "BABYMONSTER",
+        "url": "https:\/\/www.last.fm\/music\/BABYMONSTER"
+      },
+      "album": {
+        "artist": "BABYMONSTER",
+        "title": "BABYMONS7ER",
+        "url": "https:\/\/www.last.fm\/music\/BABYMONSTER\/BABYMONS7ER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6ce07a020074167c77eb107371aa2c1b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Apr 2024, 08:57",
+        "summary": "\"SHEESH\" is a song by the South Korean girl group BABYMONSTER, released on April 1, 2024, by YG Entertainment alongside their debut mini-album, BABYMONS7ER. This track also marks the return of member AHYEON to the group after her hiatus. YG Entertainment has confirmed that \"SHEESH\" is the group's official debut. The song's theme centers around captivating their audience with their talents, encouraging listeners to exclaim \"SHEESH\" in admiration.\n <a href=\"http:\/\/www.last.fm\/music\/BABYMONSTER\/_\/SHEESH\">Read more on Last.fm<\/a>.",
+        "content": "\"SHEESH\" is a song by the South Korean girl group BABYMONSTER, released on April 1, 2024, by YG Entertainment alongside their debut mini-album, BABYMONS7ER. This track also marks the return of member AHYEON to the group after her hiatus. YG Entertainment has confirmed that \"SHEESH\" is the group's official debut. The song's theme centers around captivating their audience with their talents, encouraging listeners to exclaim \"SHEESH\" in admiration.\n\nThe genre of \"SHEESH\" blends K-pop, hip-hop, and dance elements, showcasing a distinctive sound that blends baroque-style piano melodies with synthesizer rhythms. The song was co-written by Choice37, Sonny, Lil G, LP, Choi Hyun-suk, and Sandra Wikstr\u00f6m, with YG contributing to the composition alongside them. The arrangement was handled by LP, Choice37, YG, and Dee.P. The track\u2019s production is notable for its innovative blend of classical and modern sounds, creating a unique auditory experience that stands out in the contemporary K-pop scene.\n\nUpon its release, \"SHEESH\" quickly established BABYMONSTER as one of the most promising rookie groups in the K-pop industry. The song's success was evident as it became their first track to enter the top 10 on real-time Korean charts. This achievement also made BABYMONSTER the latest group under YG Entertainment to secure a top 10 position across all major Korean charts, following the footsteps of their senior groups, BLACKPINK, WINNER, and AKMU.\n\nThe track broke several records, including becoming the most viewed music video of a K-pop song in 2024 within the first 24 hours of its release. It also achieved remarkable streaming numbers on Spotify, setting new benchmarks for debut releases by rookie groups. The viral success of \"SHEESH\" has further solidified BABYMONSTER's status in the industry, garnering widespread attention and acclaim both domestically and internationally.\n\nThe music video for \"SHEESH\" was released simultaneously with the song and quickly amassed millions of views, underscoring the group's massive appeal and the high anticipation surrounding their debut. The visual elements of the video, combined with the song's dynamic beat and captivating choreography, have resonated strongly with fans and critics alike, making it a standout moment in the early careers of BABYMONSTER.\n\nOverall, \"SHEESH\" has not only marked a significant milestone in BABYMONSTER's career but has also set new standards in the K-pop genre. Its blend of innovative musical elements and compelling visuals has positioned BABYMONSTER as a formidable force in the music industry. With their impressive debut, BABYMONSTER continues to build on their momentum, promising even greater achievements in the future. <a href=\"http:\/\/www.last.fm\/music\/BABYMONSTER\/_\/SHEESH\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

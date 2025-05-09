@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:43:40.566997+00:00",
+  "elapsed": 0.234115,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:40.566997+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "995",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=CORPSE&format=json&method=track.getInfo&track=HOT+DEMON+B%21TCHES+NEAR+U+%21+%21+%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=CORPSE&format=json&method=track.getInfo&track=HOT+DEMON+B%21TCHES+NEAR+U+%21+%21+%21",
+  "_decoded_content": {
+    "track": {
+      "name": "HOT DEMON B!TCHES NEAR U ! ! !",
+      "url": "https:\/\/www.last.fm\/music\/Corpse\/_\/HOT+DEMON+B%21TCHES+NEAR+U+%21+%21+%21",
+      "duration": "96000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "247154",
+      "playcount": "3818698",
+      "artist": {
+        "name": "Corpse",
+        "mbid": "fe7fa4e4-90d6-4222-849a-421e791cb517",
+        "url": "https:\/\/www.last.fm\/music\/Corpse"
+      },
+      "album": {
+        "artist": "CORPSE, Night Lovell",
+        "title": "HOT DEMON B!TCHES NEAR U ! ! !",
+        "url": "https:\/\/www.last.fm\/music\/CORPSE,+Night+Lovell\/HOT+DEMON+B%21TCHES+NEAR+U+%21+%21+%21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6b61d529731ff46c8f60b73fc979ec22.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6b61d529731ff46c8f60b73fc979ec22.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6b61d529731ff46c8f60b73fc979ec22.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6b61d529731ff46c8f60b73fc979ec22.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

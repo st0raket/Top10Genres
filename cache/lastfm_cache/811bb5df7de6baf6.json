@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:04.482907+00:00",
+  "elapsed": 0.201703,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:04.482907+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3861",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Only+The+Young+-+Featured+in+Miss+Americana"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Only+The+Young+-+Featured+in+Miss+Americana",
+  "_decoded_content": {
+    "track": {
+      "name": "Only The Young - Featured in Miss Americana",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Only+The+Young+-+Featured+in+Miss+Americana",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "245120",
+      "playcount": "2618859",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Sep 2022, 13:46",
+        "summary": "\"Only the Young\" is a song recorded by American singer-songwriter Taylor Swift. It was released on January 31, 2020, through Republic Records, as a promotional single for \"Miss Americana\", a 2020 Netflix documentary on Swift. In the film's closing credits, the song is featured. Held back from being included on Swift's seventh studio album, \"Lover\", the song was both written and produced by Swift and Joel Little, inspired by the 2018 United States elections. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Only+The+Young+-+Featured+in+Miss+Americana\">Read more on Last.fm<\/a>.",
+        "content": "\"Only the Young\" is a song recorded by American singer-songwriter Taylor Swift. It was released on January 31, 2020, through Republic Records, as a promotional single for \"Miss Americana\", a 2020 Netflix documentary on Swift. In the film's closing credits, the song is featured. Held back from being included on Swift's seventh studio album, \"Lover\", the song was both written and produced by Swift and Joel Little, inspired by the 2018 United States elections.\n\nThe song is a synth-pop tune and features backing vocals from Little's daughters. As a protest song, \"Only the Young\" discusses subjects such as school shootings, Donald Trump, and vote-tampering concerns in its lyrics. Upon release, music critics praised Swift's lyricism on United States politics, addressing matters such as gun violence and mass shootings. Some critics have noted it as Swift's most politically-charged song yet.\n\n\"Only the Young\" won the People's Choice Award for the Best Soundtrack Song of 2020. The song entered the charts in several countries worldwide, reaching the top 20 in Scotland and the Netherlands, top 40 in Australia, Hungary, and Ireland, as well as the top 50 in Belgium and the US. It debuted at number one on the Billboard Digital Song Sales, becoming Swift's record-extending nineteenth number-one song on the chart. The song was used in a video advertisement for the Biden\/Harris campaign campaign in the 2020 United States presidential election and trended during the 2022 Philippine presidential election.\n\nIn the United States, buoyed by 30,000 sales in its first week, \"Only the Young\" debuted at number one on the Billboard Digital Song Sales chart, becoming Swift's record-extending 19th number-one song on the chart. The song also debuted at number 50 on the Billboard Hot 100 chart, becoming her ninety-seventh Hot 100 entry. In New Zealand, it peaked at number two on the Official New Zealand Hot Singles chart. Elsewhere, \"Only the Young\" reached numbers 13, 20, 31 and 40 on Scottish Singles, the Netherlands' Single Tip, Australia's ARIA Singles and Irish Singles, respectively. In May 2022, the song debuted at number 23 on the Billboard Philippines Songs chart, following the results of the 2022 Philippine presidential election. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Only+The+Young+-+Featured+in+Miss+Americana\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

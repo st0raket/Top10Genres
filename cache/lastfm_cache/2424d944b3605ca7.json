@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:29:18.595228+00:00",
+  "elapsed": 0.27371,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:18.595228+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1137",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Electric+Kiss"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Electric+Kiss",
+  "_decoded_content": {
+    "track": {
+      "name": "Electric Kiss",
+      "url": "https:\/\/www.last.fm\/music\/Exo\/_\/Electric+Kiss",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "58515",
+      "playcount": "689536",
+      "artist": {
+        "name": "Exo",
+        "mbid": "f2f9845c-6803-4451-a10e-9c6673608667",
+        "url": "https:\/\/www.last.fm\/music\/Exo"
+      },
+      "album": {
+        "artist": "EXO",
+        "title": "COUNTDOWN",
+        "url": "https:\/\/www.last.fm\/music\/EXO\/COUNTDOWN",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c1f53d5a9fc7a4f2d61cb8e7d4a64bf9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c1f53d5a9fc7a4f2d61cb8e7d4a64bf9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c1f53d5a9fc7a4f2d61cb8e7d4a64bf9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c1f53d5a9fc7a4f2d61cb8e7d4a64bf9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "JPop",
+            "url": "https:\/\/www.last.fm\/tag\/JPop"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "exo",
+            "url": "https:\/\/www.last.fm\/tag\/exo"
+          },
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      }
+    }
+  }
+}

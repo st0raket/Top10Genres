@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:40:26.317369+00:00",
+  "elapsed": 0.244945,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:26.317369+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2537",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=grave"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=grave",
+  "_decoded_content": {
+    "track": {
+      "name": "grave",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/grave",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "128492",
+      "playcount": "1668584",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "album": {
+        "artist": "Tate McRae",
+        "title": "THINK LATER",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/THINK+LATER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d5c9a69fcda54143308997e32981c139.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d5c9a69fcda54143308997e32981c139.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d5c9a69fcda54143308997e32981c139.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d5c9a69fcda54143308997e32981c139.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "hino",
+            "url": "https:\/\/www.last.fm\/tag\/hino"
+          },
+          {
+            "name": "my scribbled",
+            "url": "https:\/\/www.last.fm\/tag\/my+scribbled"
+          },
+          {
+            "name": "justin's music discovery",
+            "url": "https:\/\/www.last.fm\/tag\/justin%27s+music+discovery"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Dec 2023, 17:40",
+        "summary": "\u201cgrave\u201d sees McRae realizing that trying to change a person to fix a relationship doesn\u2019t always work. It encapsulates the emotional rollercoaster of realizing the end of a relationship, capturing the complexity of emotions and the struggle endured when having to let go of a connection that has reached its final resting place.\n\nThe track was first teased at the end of the \u201cexes\u201d music video and made its live debut on Saturday Night Live the next day on November 18, 2023. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/grave\">Read more on Last.fm<\/a>.",
+        "content": "\u201cgrave\u201d sees McRae realizing that trying to change a person to fix a relationship doesn\u2019t always work. It encapsulates the emotional rollercoaster of realizing the end of a relationship, capturing the complexity of emotions and the struggle endured when having to let go of a connection that has reached its final resting place.\n\nThe track was first teased at the end of the \u201cexes\u201d music video and made its live debut on Saturday Night Live the next day on November 18, 2023. Fans first speculated about the song after a sign in the \u201cgreedy\u201d music video reading \u201cTake \u2018em to the grave!\u201d <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/grave\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

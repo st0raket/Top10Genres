@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:26.617933+00:00",
+  "elapsed": 0.209616,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:26.617933+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1900",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=aenergy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=aenergy",
+  "_decoded_content": {
+    "track": {
+      "name": "aenergy",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/aenergy",
+      "duration": "147000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "253298",
+      "playcount": "3836781",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "Savage - The 1st Mini Album",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/Savage+-+The+1st+Mini+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9686de538a7ca3b967de4cc7e76e316b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9686de538a7ca3b967de4cc7e76e316b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9686de538a7ca3b967de4cc7e76e316b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9686de538a7ca3b967de4cc7e76e316b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Nov 2023, 02:41",
+        "summary": "\"aenergy\", is an \"uplifting anthem\" that explores \"the group's members and the characteristics they showcase throughout their superheroine-like story, declaring each members' in-universe skills and abilities.\" <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/aenergy\">Read more on Last.fm<\/a>.",
+        "content": "\"aenergy\", is an \"uplifting anthem\" that explores \"the group's members and the characteristics they showcase throughout their superheroine-like story, declaring each members' in-universe skills and abilities.\" <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/aenergy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:54.180286+00:00",
+  "elapsed": 0.211933,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:54.180286+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2019",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Headie+One&format=json&method=track.getInfo&track=Only+You+Freestyle"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Headie+One&format=json&method=track.getInfo&track=Only+You+Freestyle",
+  "_decoded_content": {
+    "track": {
+      "name": "Only You Freestyle",
+      "url": "https:\/\/www.last.fm\/music\/Headie+One\/_\/Only+You+Freestyle",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "167255",
+      "playcount": "1754532",
+      "artist": {
+        "name": "Headie One",
+        "url": "https:\/\/www.last.fm\/music\/Headie+One"
+      },
+      "album": {
+        "artist": "Headie One",
+        "title": "EDNA (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Headie+One\/EDNA+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/13a4ca7a9506808a91db587789022a70.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/13a4ca7a9506808a91db587789022a70.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/13a4ca7a9506808a91db587789022a70.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/13a4ca7a9506808a91db587789022a70.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "UK hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/UK+hip+hop"
+          },
+          {
+            "name": "UK rap",
+            "url": "https:\/\/www.last.fm\/tag\/UK+rap"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "UK Drill",
+            "url": "https:\/\/www.last.fm\/tag\/UK+Drill"
+          },
+          {
+            "name": "Headie One",
+            "url": "https:\/\/www.last.fm\/tag\/Headie+One"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Mar 2023, 09:14",
+        "summary": "Only You Freestyle\" is a song by written and performed by British rapper Headie One and Canadian rapper Drake, released on 20 July 2020 by Relentless Records and OVO Sound. It served as the lead single to the former's debut studio album, Edna <a href=\"http:\/\/www.last.fm\/music\/Headie+One\/_\/Only+You+Freestyle\">Read more on Last.fm<\/a>.",
+        "content": "Only You Freestyle\" is a song by written and performed by British rapper Headie One and Canadian rapper Drake, released on 20 July 2020 by Relentless Records and OVO Sound. It served as the lead single to the former's debut studio album, Edna <a href=\"http:\/\/www.last.fm\/music\/Headie+One\/_\/Only+You+Freestyle\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

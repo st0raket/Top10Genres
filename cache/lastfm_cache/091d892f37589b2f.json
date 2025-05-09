@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:41.512007+00:00",
+  "elapsed": 0.197213,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:41.512007+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2638",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Paranoid"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Paranoid",
+  "_decoded_content": {
+    "track": {
+      "name": "Paranoid",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Paranoid",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "275393",
+      "playcount": "2324916",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Post Malone",
+        "title": "beerbongs & bentleys",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone\/beerbongs+&+bentleys",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d9a790b6c8526a4c8cb9862c64bc3342.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Oct 2020, 03:49",
+        "summary": "\"Paranoid\u201d is the opening track to Post Malone\u2019s long-awaited \"beerbongs & bentleys\". Post details his doubts about his security and safety with his friends and his rise to fame. He feels as if people could be manipulating him for his fame and fortune and begins taking more precautions to protect himself.\n\nThis song could be influenced by the 2017 controversy in which infamous YouTuber, Jake Paul, uploaded a since-deleted video that initially <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Paranoid\">Read more on Last.fm<\/a>.",
+        "content": "\"Paranoid\u201d is the opening track to Post Malone\u2019s long-awaited \"beerbongs & bentleys\". Post details his doubts about his security and safety with his friends and his rise to fame. He feels as if people could be manipulating him for his fame and fortune and begins taking more precautions to protect himself.\n\nThis song could be influenced by the 2017 controversy in which infamous YouTuber, Jake Paul, uploaded a since-deleted video that initially contained footage of Post Malone\u2019s private property after seeing his interview with H3H3 Productions in which Post criticized Paul\u2019s single, \u201cIt\u2019s Everyday Bro\u201d, and then proceeded to purchase Paul\u2019s merch for an ironic joke soon after. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Paranoid\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

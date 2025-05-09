@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:33:06.643522+00:00",
+  "elapsed": 0.221216,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:06.643522+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2153",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Chrome+Heart+Tags"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Chrome+Heart+Tags",
+  "_decoded_content": {
+    "track": {
+      "name": "Chrome Heart Tags",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Chrome+Heart+Tags",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "191934",
+      "playcount": "1898714",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Apr 2021, 15:17",
+        "summary": "\u201cChrome Heart Tags\u201d (originally titled \u201cChrome Hearts Tags\u201d) is Lil Uzi Vert\u2019s first released collaboration with Chief Keef.\n\nAlthough anticipated snippets like \u201cBean\u201d and \u201cMooliani\u201d were teased before the release of Eternal Atake, \u201cChrome Hearts Tag\u201d features no vocals and only production by Chief Keef.\n\nOn the track, Uzi laments the loss of a girl and spends money to cope. The chorus shouts out Virgil Abloh, founder of fashion label Off-White and current Creative Director of Louis Vuitton. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Chrome+Heart+Tags\">Read more on Last.fm<\/a>.",
+        "content": "\u201cChrome Heart Tags\u201d (originally titled \u201cChrome Hearts Tags\u201d) is Lil Uzi Vert\u2019s first released collaboration with Chief Keef.\n\nAlthough anticipated snippets like \u201cBean\u201d and \u201cMooliani\u201d were teased before the release of Eternal Atake, \u201cChrome Hearts Tag\u201d features no vocals and only production by Chief Keef.\n\nOn the track, Uzi laments the loss of a girl and spends money to cope. The chorus shouts out Virgil Abloh, founder of fashion label Off-White and current Creative Director of Louis Vuitton. He most notably designed the cover for Uzi\u2019s 2017 release Luv Is Rage 2.\n\nThe instrumental was first used by Chief Keef himself for his unreleased track \u201cSkkrt Skkrt Skkrt Skkrt Skkrt.\u201d <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Chrome+Heart+Tags\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

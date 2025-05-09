@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:35:06.935250+00:00",
+  "elapsed": 0.254145,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:06.935250+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2391",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Leave+The+Door+Open"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Leave+The+Door+Open",
+  "_decoded_content": {
+    "track": {
+      "name": "Leave The Door Open",
+      "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Leave+The+Door+Open",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1105346",
+      "playcount": "12224677",
+      "artist": {
+        "name": "Bruno Mars",
+        "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Smooth Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Smooth+Soul"
+          },
+          {
+            "name": "Anderson paak",
+            "url": "https:\/\/www.last.fm\/tag\/Anderson+paak"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop soul",
+            "url": "https:\/\/www.last.fm\/tag\/pop+soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Mar 2021, 22:13",
+        "summary": "\u201cLeave The Door Open\u201d is Silk Sonic\u2019s debut single, a side project featuring Anderson .Paak and Bruno Mars. \n\nThroughout the song, the two profess their love for a significant other, telling her the door will be left wide open for her to enter at any time.\n\nIn a February 26 Twitter post, Bruno Mars announced that the group\u2019s first single would be released on March 5, 2021. The song premiered alongside a music video directed by Bruno Mars and Florent D\u00e9chard. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Leave+The+Door+Open\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLeave The Door Open\u201d is Silk Sonic\u2019s debut single, a side project featuring Anderson .Paak and Bruno Mars. \n\nThroughout the song, the two profess their love for a significant other, telling her the door will be left wide open for her to enter at any time.\n\nIn a February 26 Twitter post, Bruno Mars announced that the group\u2019s first single would be released on March 5, 2021. The song premiered alongside a music video directed by Bruno Mars and Florent D\u00e9chard.\n\n\u201cLeave The Door Open\u201d debuted at #4 on the Billboard Hot 100 during the chart week of March 20, 2021. It is Anderson .Paak\u2019s highest-charting song. The song has since peaked at #1 during the week ending April 17, 2021. It is .Paak\u2019s first song to top the chart and Mars' eighth.\n\nThe song was awarded with the Record Of The Year, Song Of The Year, Best R&B Song and Best R&B Performance at the 2022 GRAMMYs. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Leave+The+Door+Open\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

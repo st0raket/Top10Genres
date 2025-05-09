@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:29:08.891142+00:00",
+  "elapsed": 0.261176,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:08.891142+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "346",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Michael+Bubl%C3%A9&format=json&method=track.getInfo&track=Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Michael+Bubl%C3%A9&format=json&method=track.getInfo&track=Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Christmas",
+      "url": "https:\/\/www.last.fm\/music\/Michael+Bubl%C3%A9\/_\/Christmas",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1173",
+      "playcount": "2719",
+      "artist": {
+        "name": "Michael Bubl\u00e9",
+        "mbid": "611700cf-27f0-4dc9-ae80-c513a767853e",
+        "url": "https:\/\/www.last.fm\/music\/Michael+Bubl%C3%A9"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

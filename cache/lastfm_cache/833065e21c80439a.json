@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:06.594641+00:00",
+  "elapsed": 0.256154,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:06.594641+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1392",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=Have+Yourself+A+Merry+Little+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=Have+Yourself+A+Merry+Little+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Have Yourself a Merry Little Christmas",
+      "mbid": "07ab36c2-d24f-47dc-b9c0-f8703f41a701",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/_\/Have+Yourself+a+Merry+Little+Christmas",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "358532",
+      "playcount": "1159514",
+      "artist": {
+        "name": "Sam Smith",
+        "mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith"
+      },
+      "album": {
+        "artist": "Sam Smith",
+        "title": "Have Yourself a Merry Little Christmas",
+        "mbid": "74a4453f-2a14-4fed-807e-f3fe52666e00",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/Have+Yourself+a+Merry+Little+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/64257491b3984e24ce8d3093e4277453.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/64257491b3984e24ce8d3093e4277453.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/64257491b3984e24ce8d3093e4277453.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/64257491b3984e24ce8d3093e4277453.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "calm",
+            "url": "https:\/\/www.last.fm\/tag\/calm"
+          }
+        ]
+      }
+    }
+  }
+}

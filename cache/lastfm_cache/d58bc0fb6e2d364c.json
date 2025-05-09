@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:09.596891+00:00",
+  "elapsed": 0.247824,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:09.596891+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2453",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Fortnight"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Fortnight",
+  "_decoded_content": {
+    "track": {
+      "name": "Fortnight",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Fortnight",
+      "duration": "229000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "23636",
+      "playcount": "167458",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Fortnight (feat. Post Malone) [BLOND:ISH Remix]",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Fortnight+(feat.+Post+Malone)+%5BBLOND:ISH+Remix%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9968f4ee0740bbea218bdd156b5d3605.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9968f4ee0740bbea218bdd156b5d3605.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9968f4ee0740bbea218bdd156b5d3605.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9968f4ee0740bbea218bdd156b5d3605.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "climate terrorist",
+            "url": "https:\/\/www.last.fm\/tag\/climate+terrorist"
+          },
+          {
+            "name": "\ud83d\udca9",
+            "url": "https:\/\/www.last.fm\/tag\/%F0%9F%92%A9"
+          },
+          {
+            "name": "Colleen Hoover",
+            "url": "https:\/\/www.last.fm\/tag\/Colleen+Hoover"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Apr 2024, 22:37",
+        "summary": "\"Fortnight\" is a song by the American singer-songwriter Taylor Swift featuring the American rapper and singer Post Malone, taken from Swift's eleventh studio album, The Tortured Poets Department. The two artists wrote the track with Jack Antonoff, who produced it with Swift. Republic Records released the song as the lead single concurrently with its parent album on April 19, 2024. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Fortnight\">Read more on Last.fm<\/a>.",
+        "content": "\"Fortnight\" is a song by the American singer-songwriter Taylor Swift featuring the American rapper and singer Post Malone, taken from Swift's eleventh studio album, The Tortured Poets Department. The two artists wrote the track with Jack Antonoff, who produced it with Swift. Republic Records released the song as the lead single concurrently with its parent album on April 19, 2024. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Fortnight\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

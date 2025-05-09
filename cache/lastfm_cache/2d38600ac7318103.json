@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:13.250478+00:00",
+  "elapsed": 0.320416,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:13.250478+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1319",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROS%C3%89&format=json&method=track.getInfo&track=dance+all+night"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROS%C3%89&format=json&method=track.getInfo&track=dance+all+night",
+  "_decoded_content": {
+    "track": {
+      "name": "Dance All Night",
+      "url": "https:\/\/www.last.fm\/music\/Ros%C3%A9\/_\/Dance+All+Night",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "101257",
+      "playcount": "1151830",
+      "artist": {
+        "name": "Ros\u00e9",
+        "url": "https:\/\/www.last.fm\/music\/Ros%C3%A9"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "emotional",
+            "url": "https:\/\/www.last.fm\/tag\/emotional"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Dec 2024, 06:48",
+        "summary": "\u201cdance all night\u201d is the final song off  ROS\u00c9\u2019s debut album, rosie. Throughout the song, ROS\u00c9 explains that she wants to live a carefree life away from anxiety, heartache, and stress. <a href=\"http:\/\/www.last.fm\/music\/Ros%C3%A9\/_\/Dance+All+Night\">Read more on Last.fm<\/a>.",
+        "content": "\u201cdance all night\u201d is the final song off  ROS\u00c9\u2019s debut album, rosie. Throughout the song, ROS\u00c9 explains that she wants to live a carefree life away from anxiety, heartache, and stress. <a href=\"http:\/\/www.last.fm\/music\/Ros%C3%A9\/_\/Dance+All+Night\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:46.812659+00:00",
+  "elapsed": 0.184308,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:46.812659+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2109",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Anitta&format=json&method=track.getInfo&track=Girl+From+Rio"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Anitta&format=json&method=track.getInfo&track=Girl+From+Rio",
+  "_decoded_content": {
+    "track": {
+      "name": "Girl from Rio",
+      "url": "https:\/\/www.last.fm\/music\/Anitta\/_\/Girl+from+Rio",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "145075",
+      "playcount": "2754524",
+      "artist": {
+        "name": "Anitta",
+        "mbid": "d606b860-cc03-4959-a3fd-3a24bccf2560",
+        "url": "https:\/\/www.last.fm\/music\/Anitta"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "40 Tubes 2022",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/40+Tubes+2022",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a1884bf196d209be5afe8dc8cac37272.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a1884bf196d209be5afe8dc8cac37272.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a1884bf196d209be5afe8dc8cac37272.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a1884bf196d209be5afe8dc8cac37272.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Bossa Nova",
+            "url": "https:\/\/www.last.fm\/tag\/Bossa+Nova"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Apr 2021, 12:50",
+        "summary": "\"Girl from Rio\" is the second single from Brazilian singer Anitta's fifth studio album, Versions of Me (2022).\n\nIt interpolates \"The Girl from Ipanema\" by Vinicius de Moraes and Ant\u00f4nio Carlos Jobim. A remix of the song featuring American rapper DaBaby was released on May 21, 2021. <a href=\"http:\/\/www.last.fm\/music\/Anitta\/_\/Girl+from+Rio\">Read more on Last.fm<\/a>.",
+        "content": "\"Girl from Rio\" is the second single from Brazilian singer Anitta's fifth studio album, Versions of Me (2022).\n\nIt interpolates \"The Girl from Ipanema\" by Vinicius de Moraes and Ant\u00f4nio Carlos Jobim. A remix of the song featuring American rapper DaBaby was released on May 21, 2021. <a href=\"http:\/\/www.last.fm\/music\/Anitta\/_\/Girl+from+Rio\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

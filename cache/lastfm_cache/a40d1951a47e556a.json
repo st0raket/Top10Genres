@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:32:48.866652+00:00",
+  "elapsed": 0.252226,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:48.866652+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "859",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eno&format=json&method=track.getInfo&track=Kommunikation"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eno&format=json&method=track.getInfo&track=Kommunikation",
+  "_decoded_content": {
+    "track": {
+      "name": "Kommunikation",
+      "url": "https:\/\/www.last.fm\/music\/Eno\/_\/Kommunikation",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4646",
+      "playcount": "32649",
+      "artist": {
+        "name": "Eno",
+        "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872",
+        "url": "https:\/\/www.last.fm\/music\/Eno"
+      },
+      "album": {
+        "artist": "Eno",
+        "title": "Bonit\u00e4t",
+        "url": "https:\/\/www.last.fm\/music\/Eno\/Bonit%C3%A4t",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6c8bd5ed3ddabd4a44116fc2e61e997c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6c8bd5ed3ddabd4a44116fc2e61e997c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6c8bd5ed3ddabd4a44116fc2e61e997c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6c8bd5ed3ddabd4a44116fc2e61e997c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

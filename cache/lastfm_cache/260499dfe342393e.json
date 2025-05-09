@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:48.122353+00:00",
+  "elapsed": 0.189625,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:48.122353+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4509",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mariah+Carey&format=json&method=track.getInfo&track=All+I+Want+for+Christmas+Is+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mariah+Carey&format=json&method=track.getInfo&track=All+I+Want+for+Christmas+Is+You",
+  "_decoded_content": {
+    "track": {
+      "name": "All I Want for Christmas Is You",
+      "mbid": "a6fab057-cf3a-4456-950e-d3edaf219326",
+      "url": "https:\/\/www.last.fm\/music\/Mariah+Carey\/_\/All+I+Want+for+Christmas+Is+You",
+      "duration": "243000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1952220",
+      "playcount": "17171232",
+      "artist": {
+        "name": "Mariah Carey",
+        "mbid": "494e8d09-f85b-4543-892f-a5096aed1cd4",
+        "url": "https:\/\/www.last.fm\/music\/Mariah+Carey"
+      },
+      "album": {
+        "artist": "Mariah Carey",
+        "title": "Merry Christmas",
+        "mbid": "2cd98c57-4d2c-3890-88ec-939393144131",
+        "url": "https:\/\/www.last.fm\/music\/Mariah+Carey\/Merry+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "Mariah Carey",
+            "url": "https:\/\/www.last.fm\/tag\/Mariah+Carey"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Dec 2009, 10:03",
+        "summary": "\"All I Want for Christmas Is You\" is the lead single from Mariah Carey's first holiday album and fourth studio album, Merry Christmas in 1994. Written and produced by Mariah Carey & Walter Afanasieff.\n\n\"All I Want for Christmas Is You\" is an uptempo love song that declares that the narrator does not care about Christmas presents or lights; all she wants for Christmas is to be with her lover.\n\nThe song has become established as a Christmas standard. <a href=\"http:\/\/www.last.fm\/music\/Mariah+Carey\/_\/All+I+Want+for+Christmas+Is+You\">Read more on Last.fm<\/a>.",
+        "content": "\"All I Want for Christmas Is You\" is the lead single from Mariah Carey's first holiday album and fourth studio album, Merry Christmas in 1994. Written and produced by Mariah Carey & Walter Afanasieff.\n\n\"All I Want for Christmas Is You\" is an uptempo love song that declares that the narrator does not care about Christmas presents or lights; all she wants for Christmas is to be with her lover.\n\nThe song has become established as a Christmas standard. It has sold more than 14 million copies globally since its debut, making it one of the best-selling singles ever. In the US, the song has sold 3.6 million downloads as of 2019.\n\nOver time, countless artists have covered the song, including Miley Cyrus, John Mayer, Shania Twain, Ariana Grande, Fifth Harmony, Demi Lovato, Cee Lo Green, Lady Antebellum and Mumford & Sons.\n\nMariah herself has re-recorded the song too. In 2011, Carey re-recorded the song as a duet with Justin Bieber. A year later in 2012, Carey recorded a fun version with classroom instruments and children for The Tonight Show Starring Jimmy Fallon.\n\nThe song\u2019s influence has extended beyond music, too. In 2015, Carey released a book with the same title as her holiday staple, acknowledging the song\u2019s longevity:\n\nWhen I wrote \u2018All I Want For Christmas Is You\u2019 it was my dream for it to become a classic Christmas song. I am so proud of the song\u2019s impact as it continues to create memories for fans each year. I am thrilled to be able to bring the story of the song to new.\n\nShe also released a movie called Mariah Carey\u2019s All I Want For Christmas Is You in 2017.\n\nThe song\u2019s legacy remains unparalleled. It charts every holiday season since its original release, and is estimated to have earned Carey $60 million in royalties. The song is also referred to as \u201cthe biggest Christmas song of all time\u201d. The song\u2019s immense popularity has earned Mariah the title \u2018Queen of Christmas\u2019.\n\nAfter 25 years, the track finally reached No. 1 in Billboard Hot 100, becoming Mariah\u2019s 19th song to do so and making the singer the solo artist with most Billboard Hot 100 chart-toppers. It also sets a new record of the longest run to No. 1 on the chart, surpassing Elton John\u2019s re-recording of Candle in the Wind. <a href=\"http:\/\/www.last.fm\/music\/Mariah+Carey\/_\/All+I+Want+for+Christmas+Is+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

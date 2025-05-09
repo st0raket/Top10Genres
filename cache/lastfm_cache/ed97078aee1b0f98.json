@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:19.060980+00:00",
+  "elapsed": 0.185307,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:19.060980+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2784",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=ilomilo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=ilomilo",
+  "_decoded_content": {
+    "track": {
+      "name": "ilomilo",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/ilomilo",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "722589",
+      "playcount": "8591717",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "KISS KISS PLAY SUMMER 2020 [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/KISS+KISS+PLAY+SUMMER+2020+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/47a4605e07387163c5f9d585ca84fa03.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/47a4605e07387163c5f9d585ca84fa03.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/47a4605e07387163c5f9d585ca84fa03.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/47a4605e07387163c5f9d585ca84fa03.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "Billie Eilish",
+            "url": "https:\/\/www.last.fm\/tag\/Billie+Eilish"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Aug 2020, 02:14",
+        "summary": "\"ilomilo\" is a song by American singer Billie Eilish from her debut studio album \"When We All Fall Asleep, Where Do We Go?\" The song was sent to Italian contemporary hit radio stations on April 10, 2020, by Universal Music Group, and later to US alternative radio on May 26 through Darkroom and Interscope Records, as the album's seventh and final single. Eilish and her brother Finneas O'Connell co-wrote it, while the latter handled the production. Musically an electropop track with ska-influenced instrumentation <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/ilomilo\">Read more on Last.fm<\/a>.",
+        "content": "\"ilomilo\" is a song by American singer Billie Eilish from her debut studio album \"When We All Fall Asleep, Where Do We Go?\" The song was sent to Italian contemporary hit radio stations on April 10, 2020, by Universal Music Group, and later to US alternative radio on May 26 through Darkroom and Interscope Records, as the album's seventh and final single. Eilish and her brother Finneas O'Connell co-wrote it, while the latter handled the production. Musically an electropop track with ska-influenced instrumentation, the song was heavily inspired by the puzzle video game of the same name. The track also references \"Bury a Friend\", its predecessor on the album track list. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/ilomilo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

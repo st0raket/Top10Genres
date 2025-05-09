@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:57.956575+00:00",
+  "elapsed": 0.224214,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:57.956575+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2969",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tyla&format=json&method=track.getInfo&track=Water"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tyla&format=json&method=track.getInfo&track=Water",
+  "_decoded_content": {
+    "track": {
+      "name": "Water",
+      "url": "https:\/\/www.last.fm\/music\/Tyla\/_\/Water",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "821999",
+      "playcount": "8531252",
+      "artist": {
+        "name": "Tyla",
+        "mbid": "2bf761c6-4bcf-4cfc-a388-8fcb2eea8cc8",
+        "url": "https:\/\/www.last.fm\/music\/Tyla"
+      },
+      "album": {
+        "artist": "Tyla",
+        "title": "Water",
+        "url": "https:\/\/www.last.fm\/music\/Tyla\/Water",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/577fb2fb4de35b6aa6040dc06e6d5167.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/577fb2fb4de35b6aa6040dc06e6d5167.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/577fb2fb4de35b6aa6040dc06e6d5167.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/577fb2fb4de35b6aa6040dc06e6d5167.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "amapiano",
+            "url": "https:\/\/www.last.fm\/tag\/amapiano"
+          },
+          {
+            "name": "Afropiano",
+            "url": "https:\/\/www.last.fm\/tag\/Afropiano"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "afrobeats",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeats"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Feb 2024, 00:47",
+        "summary": "\"Water\" is a song by South African singer Tyla from her debut studio album Tyla (2024). It was released on 28 July 2023 through Fax and Epic Records as the lead single from the album. An amapiano song with elements of pop, R&B, and Afrobeats, it sees Tyla expressing a desire for a passionate and intimate tryst. Remix versions of the song featuring American rapper Travis Scott and record producer Marshmello were both released on 17 November 2023.\n <a href=\"http:\/\/www.last.fm\/music\/Tyla\/_\/Water\">Read more on Last.fm<\/a>.",
+        "content": "\"Water\" is a song by South African singer Tyla from her debut studio album Tyla (2024). It was released on 28 July 2023 through Fax and Epic Records as the lead single from the album. An amapiano song with elements of pop, R&B, and Afrobeats, it sees Tyla expressing a desire for a passionate and intimate tryst. Remix versions of the song featuring American rapper Travis Scott and record producer Marshmello were both released on 17 November 2023.\n\n\"Water\" reached number one in New Zealand and the top ten in Australia, Denmark, the Netherlands, the United Kingdom, South Africa, Ireland, Sweden, and the United States, where Tyla became the youngest-ever South African and the first South African soloist in 55 years to enter the Billboard Hot 100, following Hugh Masekela's \"Grazing in the Grass\" in 1968. The song topped Rolling Stone's list of the 40 best Afropop songs of 2023 and won the Grammy Award for Best African Music Performance in 2024. It is also nominated for Best International Song at the 2024 BRIT Awards. <a href=\"http:\/\/www.last.fm\/music\/Tyla\/_\/Water\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:39.502957+00:00",
+  "elapsed": 0.180426,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:39.502957+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2651",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Chromatica+II"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Chromatica+II",
+  "_decoded_content": {
+    "track": {
+      "name": "Chromatica II",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Chromatica+II",
+      "duration": "42000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "239286",
+      "playcount": "4887493",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "Chromatica",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/Chromatica",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "interlude",
+            "url": "https:\/\/www.last.fm\/tag\/interlude"
+          },
+          {
+            "name": "Classical",
+            "url": "https:\/\/www.last.fm\/tag\/Classical"
+          },
+          {
+            "name": "ambient",
+            "url": "https:\/\/www.last.fm\/tag\/ambient"
+          },
+          {
+            "name": "modern classical",
+            "url": "https:\/\/www.last.fm\/tag\/modern+classical"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jun 2020, 20:25",
+        "summary": "Keeping in theme with the opener, \"Chromatica II\" is a string instrumental interlude. The track appears one-third of the way through the album introducing the second part of the journey.\nThe Spotify description of the track reads, \"I believe it\u2019s in the middle of our voyages as people that things become both terrifying and whimsical at the same time. I felt life was asking the impossible of me, which I think I\u2019m not alone in feeling. So I was scared, but I believe in magic. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Chromatica+II\">Read more on Last.fm<\/a>.",
+        "content": "Keeping in theme with the opener, \"Chromatica II\" is a string instrumental interlude. The track appears one-third of the way through the album introducing the second part of the journey.\nThe Spotify description of the track reads, \"I believe it\u2019s in the middle of our voyages as people that things become both terrifying and whimsical at the same time. I felt life was asking the impossible of me, which I think I\u2019m not alone in feeling. So I was scared, but I believe in magic. So, I wrote this interlude as a reminder that my magic was working. I believe that means yours is too.\". <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Chromatica+II\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

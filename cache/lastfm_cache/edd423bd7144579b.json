@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:23.739791+00:00",
+  "elapsed": 0.281127,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:23.739791+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1914",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=WHEN+I+WAS+OLDER+-+Music+Inspired+By+The+Film+ROMA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=WHEN+I+WAS+OLDER+-+Music+Inspired+By+The+Film+ROMA",
+  "_decoded_content": {
+    "track": {
+      "name": "WHEN I WAS OLDER - Music Inspired By The Film ROMA",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/WHEN+I+WAS+OLDER+-+Music+Inspired+By+The+Film+ROMA",
+      "duration": "270000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "230600",
+      "playcount": "1818889",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "Billie Eilish",
+            "url": "https:\/\/www.last.fm\/tag\/Billie+Eilish"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jun 2021, 15:46",
+        "summary": "With soft, haunting vocals over eery, minimalistic production, \u201cWHEN I WAS OLDER\u201d is inspired by director Alfonso Cuar\u00f3n\u2019s critically-acclaimed 2018 film, Roma.\n\nThe song was announced on January 7th, 2019 through Billie Eilish\u2019s Instagram. The track is also included in the Japanese Import and Target Repack version of Eilish\u2019s debut album, WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/WHEN+I+WAS+OLDER+-+Music+Inspired+By+The+Film+ROMA\">Read more on Last.fm<\/a>.",
+        "content": "With soft, haunting vocals over eery, minimalistic production, \u201cWHEN I WAS OLDER\u201d is inspired by director Alfonso Cuar\u00f3n\u2019s critically-acclaimed 2018 film, Roma.\n\nThe song was announced on January 7th, 2019 through Billie Eilish\u2019s Instagram. The track is also included in the Japanese Import and Target Repack version of Eilish\u2019s debut album, WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/WHEN+I+WAS+OLDER+-+Music+Inspired+By+The+Film+ROMA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

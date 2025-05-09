@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:35:25.189752+00:00",
+  "elapsed": 0.248723,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:25.189752+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "859",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Myke+Towers&format=json&method=track.getInfo&track=M%C3%8DRENME+AHORA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Myke+Towers&format=json&method=track.getInfo&track=M%C3%8DRENME+AHORA",
+  "_decoded_content": {
+    "track": {
+      "name": "M\u00cdRENME AHORA",
+      "url": "https:\/\/www.last.fm\/music\/Myke+Towers\/_\/M%C3%8DRENME+AHORA",
+      "duration": "187000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "30240",
+      "playcount": "305857",
+      "artist": {
+        "name": "Myke Towers",
+        "url": "https:\/\/www.last.fm\/music\/Myke+Towers"
+      },
+      "album": {
+        "artist": "Myke Towers",
+        "title": "LYKE MIKE",
+        "url": "https:\/\/www.last.fm\/music\/Myke+Towers\/LYKE+MIKE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7245adf42c58355599043bbe4a6e1781.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7245adf42c58355599043bbe4a6e1781.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7245adf42c58355599043bbe4a6e1781.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7245adf42c58355599043bbe4a6e1781.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:16.751295+00:00",
+  "elapsed": 0.200636,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:16.751295+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1213",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Calvin+Harris&format=json&method=track.getInfo&track=Heatstroke"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Calvin+Harris&format=json&method=track.getInfo&track=Heatstroke",
+  "_decoded_content": {
+    "track": {
+      "name": "Heatstroke",
+      "url": "https:\/\/www.last.fm\/music\/Calvin+Harris\/_\/Heatstroke",
+      "duration": "229000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "80502",
+      "playcount": "426039",
+      "artist": {
+        "name": "Calvin Harris",
+        "mbid": "8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+        "url": "https:\/\/www.last.fm\/music\/Calvin+Harris"
+      },
+      "album": {
+        "artist": "Calvin Harris",
+        "title": "Heatstroke",
+        "url": "https:\/\/www.last.fm\/music\/Calvin+Harris\/Heatstroke",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/23638df21b0c68716073d89c6a80fe8a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/23638df21b0c68716073d89c6a80fe8a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/23638df21b0c68716073d89c6a80fe8a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/23638df21b0c68716073d89c6a80fe8a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Ariana Grande",
+            "url": "https:\/\/www.last.fm\/tag\/Ariana+Grande"
+          },
+          {
+            "name": "Young Thug",
+            "url": "https:\/\/www.last.fm\/tag\/Young+Thug"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      }
+    }
+  }
+}

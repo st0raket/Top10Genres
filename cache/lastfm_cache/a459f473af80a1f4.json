@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:44:40.379126+00:00",
+  "elapsed": 0.284115,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:40.379126+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4629",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Anitta&format=json&method=track.getInfo&track=Vai+malandra"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Anitta&format=json&method=track.getInfo&track=Vai+malandra",
+  "_decoded_content": {
+    "track": {
+      "name": "Vai Malandra",
+      "url": "https:\/\/www.last.fm\/music\/Anitta\/_\/Vai+Malandra",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1639",
+      "playcount": "28171",
+      "artist": {
+        "name": "Anitta",
+        "mbid": "d606b860-cc03-4959-a3fd-3a24bccf2560",
+        "url": "https:\/\/www.last.fm\/music\/Anitta"
+      },
+      "album": {
+        "artist": "Anitta",
+        "title": "Checkmate",
+        "url": "https:\/\/www.last.fm\/music\/Anitta\/Checkmate",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/47f1a26761d6d12af330195b71ff0930.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/47f1a26761d6d12af330195b71ff0930.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/47f1a26761d6d12af330195b71ff0930.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/47f1a26761d6d12af330195b71ff0930.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "19 Dec 2017, 06:29",
+        "summary": "\"Vai Malandra\" \u00e9 uma can\u00e7\u00e3o dos cantores brasileiros Anitta e MC Zaac juntamente com o rapper estadunidense Maejor, trazendo ainda a participa\u00e7\u00e3o especial dos produtores brasileiros Tropkillaz e DJ Yuri Martins. A faixa foi lan\u00e7ada em 18 de dezembro de 2017 como quarto e \u00faltimo single do projeto CheckMate \u2013 no qual Anitta lan\u00e7ou um novo single por m\u00eas.\nEm 17 de dezembro, Anitta apresentou-se no Festival de Ver\u00e3o Salvador, onde cantou todas <a href=\"http:\/\/www.last.fm\/music\/Anitta\/_\/Vai+Malandra\">Read more on Last.fm<\/a>.",
+        "content": "\"Vai Malandra\" \u00e9 uma can\u00e7\u00e3o dos cantores brasileiros Anitta e MC Zaac juntamente com o rapper estadunidense Maejor, trazendo ainda a participa\u00e7\u00e3o especial dos produtores brasileiros Tropkillaz e DJ Yuri Martins. A faixa foi lan\u00e7ada em 18 de dezembro de 2017 como quarto e \u00faltimo single do projeto CheckMate \u2013 no qual Anitta lan\u00e7ou um novo single por m\u00eas.\nEm 17 de dezembro, Anitta apresentou-se no Festival de Ver\u00e3o Salvador, onde cantou todas as m\u00fasicas do CheckMate e falou que o lan\u00e7amento de \"Vai Malandra\" ocorreria no dia seguinte. No dia do lan\u00e7amento da can\u00e7\u00e3o e do videoclipe, a cantora realizou uma transmiss\u00e3o ao vivo em seu canal no YouTube, a qual teve mais de 100 mil visualiza\u00e7\u00f5es, com apresenta\u00e7\u00e3o de Didi Wagner entrevistando os envolvidos no projeto, cenas dos bastidores e contando como havia sido a grava\u00e7\u00e3o.\nO videoclipe foi gravado em 20 de agosto de 2017, dia da Meia Maratona do Rio, o que fez com que a produ\u00e7\u00e3o tivesse que adiantar a entrada de toda a equipe no Morro do Vidigal, favela pacificada do Rio de Janeiro, para \u00e0s 5 horas da manh\u00e3 por conta dos bloqueios das ruas. A dire\u00e7\u00e3o ficou por conta do estadunidense Terry Richardson. O set de filmagem era composto por cerca de 120 pessoas entre c\u00e2meras, produtores e figurantes, sendo que 60 figurantes selecionados eram moradores da comunidade. Ao todo foram quase 30 horas de grava\u00e7\u00e3o incluindo as montagens de composi\u00e7\u00e3o dos cen\u00e1rios, como a piscina que foi constru\u00edda em cima de um caminh\u00e3o (que foi completada de \u00e1gua com a ajuda de um caminh\u00e3o-pipa) e a instala\u00e7\u00e3o de sistema soundsystem com caixas de som de mais de 100kg. A produ\u00e7\u00e3o tamb\u00e9m teve que lidar com a chuva durante a noite, que aparecem nas cenas noturnas. \"N\u00e3o estava programada, mas tornou o clipe ainda mais real\", comentou Felipe Tadeu, especialista em produ\u00e7\u00e3o executiva e s\u00f3cio da Mangaba Produ\u00e7\u00f5es.\nOriginalmente planejado para ser lan\u00e7ado em setembro, o v\u00eddeo acabou sendo adiado ap\u00f3s a imprensa internacional divulgar diversas acusa\u00e7\u00f5es de ass\u00e9dio sexual do diretor em seus trabalhos anteriores, fazendo com que Anitta refletisse que n\u00e3o era o momento para liberar um trabalho que fosse associa-la ao profissional. Apenas no final de novembro a cantora se pronunciou, anunciando que liberaria o videoclipe em respeito aos profissionais envolvidos e ao potencial de sucesso da can\u00e7\u00e3o, por\u00e9m que repudiava qualquer tipo de ass\u00e9dio ou machismo envolvendo o diretor ou qualquer outro caso. Em 14 de dezembro \u00e9 liberada uma pr\u00e9via do v\u00eddeo.\nO v\u00eddeo foi lan\u00e7ado no dia 18 de dezembro \u00e0s 12 horas (hor\u00e1rio de Bras\u00edlia) em todas as plataformas digitais e o videoclipe estreou simultaneamente no canal do Youtube da cantora. Desde o in\u00edcio do mesmo dia, a hashtag #VaiMalandra ocupou a primeira posi\u00e7\u00e3o nos \"Trending Topics\" mundiais. Em 20 minutos ap\u00f3s o lan\u00e7amento, o clipe ultrapassou a marca de 500 mil visualiza\u00e7\u00f5es. <a href=\"http:\/\/www.last.fm\/music\/Anitta\/_\/Vai+Malandra\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

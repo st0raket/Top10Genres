@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:11.801467+00:00",
+  "elapsed": 0.191507,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:11.801467+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2474",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=Ready+For+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=Ready+For+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Ready For Love",
+      "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/_\/Ready+For+Love",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "191771",
+      "playcount": "3881765",
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK"
+      },
+      "album": {
+        "artist": "BLACKPINK",
+        "title": "Ready For Love",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/Ready+For+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/35066d1cce97f224608e1481ea76e2c5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/35066d1cce97f224608e1481ea76e2c5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/35066d1cce97f224608e1481ea76e2c5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/35066d1cce97f224608e1481ea76e2c5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Aug 2021, 23:22",
+        "summary": "\"Ready for Love\" is a\u00a0promotional single\u00a0by South Korean girl group\u00a0Blackpink\u00a0for their collaboration with\u00a0battle royale\u00a0video game\u00a0PUBG Mobile. It was released as an animated music video on July 29, 2022, making it the group's first release since\u00a0The Album\u00a0(2020). The song also serves as an eighth and final track on the group's sophomore studio album, \"BORN PINK\".\n\nBLACKPINK's October 2020 Netflix documentary movie, Light Up The Sky, shows the making of \"Ready for Love.\" <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/Ready+For+Love\">Read more on Last.fm<\/a>.",
+        "content": "\"Ready for Love\" is a\u00a0promotional single\u00a0by South Korean girl group\u00a0Blackpink\u00a0for their collaboration with\u00a0battle royale\u00a0video game\u00a0PUBG Mobile. It was released as an animated music video on July 29, 2022, making it the group's first release since\u00a0The Album\u00a0(2020). The song also serves as an eighth and final track on the group's sophomore studio album, \"BORN PINK\".\n\nBLACKPINK's October 2020 Netflix documentary movie, Light Up The Sky, shows the making of \"Ready for Love.\" <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/Ready+For+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:52.146547+00:00",
+  "elapsed": 0.254823,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:52.146547+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1335",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Milli+Vanilli&format=json&method=track.getInfo&track=Blame+It+On+the+Rain"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Milli+Vanilli&format=json&method=track.getInfo&track=Blame+It+On+the+Rain",
+  "_decoded_content": {
+    "track": {
+      "name": "Blame It On The Rain",
+      "mbid": "46d4b97c-4f81-4c3f-80a0-f3bb51a94bf3",
+      "url": "https:\/\/www.last.fm\/music\/Milli+Vanilli\/_\/Blame+It+On+The+Rain",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "113974",
+      "playcount": "604121",
+      "artist": {
+        "name": "Milli Vanilli",
+        "mbid": "d3d83a98-4a2e-433c-903c-5b4c79ccb42e",
+        "url": "https:\/\/www.last.fm\/music\/Milli+Vanilli"
+      },
+      "album": {
+        "artist": "Milli Vanilli",
+        "title": "The Remix Album",
+        "mbid": "2a334ffb-a7b6-3c65-aa2f-303f06c1e286",
+        "url": "https:\/\/www.last.fm\/music\/Milli+Vanilli\/The+Remix+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c6aa433e28ef41298c75c5aa4a67b04f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c6aa433e28ef41298c75c5aa4a67b04f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c6aa433e28ef41298c75c5aa4a67b04f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c6aa433e28ef41298c75c5aa4a67b04f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "milli vanilli",
+            "url": "https:\/\/www.last.fm\/tag\/milli+vanilli"
+          },
+          {
+            "name": "rain",
+            "url": "https:\/\/www.last.fm\/tag\/rain"
+          },
+          {
+            "name": "top 40",
+            "url": "https:\/\/www.last.fm\/tag\/top+40"
+          }
+        ]
+      }
+    }
+  }
+}

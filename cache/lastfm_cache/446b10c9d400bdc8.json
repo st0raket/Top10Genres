@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:50.172059+00:00",
+  "elapsed": 0.196736,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:50.172059+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2676",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Little+Mix&format=json&method=track.getInfo&track=Touch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Little+Mix&format=json&method=track.getInfo&track=Touch",
+  "_decoded_content": {
+    "track": {
+      "name": "Touch",
+      "url": "https:\/\/www.last.fm\/music\/Little+Mix\/_\/Touch",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "296575",
+      "playcount": "3161790",
+      "artist": {
+        "name": "Little Mix",
+        "mbid": "38f59974-2f4d-4bfa-b2e3-d2696de1b675",
+        "url": "https:\/\/www.last.fm\/music\/Little+Mix"
+      },
+      "album": {
+        "artist": "Little Mix",
+        "title": "Glory Days (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Little+Mix\/Glory+Days+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cd68d1ca4c06e6364549852b7b4def27.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cd68d1ca4c06e6364549852b7b4def27.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cd68d1ca4c06e6364549852b7b4def27.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cd68d1ca4c06e6364549852b7b4def27.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "best of little mix",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+little+mix"
+          },
+          {
+            "name": "little mix",
+            "url": "https:\/\/www.last.fm\/tag\/little+mix"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Oct 2020, 10:51",
+        "summary": "\"Touch\" is a song by British girl group Little Mix. It was released as the second single from their studio album Glory Days. \"Touch\" reached the top five in the United Kingdom, Scotland and Ireland, as well as the top forty in eight other countries, and has been certified double platinum in the UK and Australia. A remixed version, featuring newly-recorded vocals from American rapper Kid Ink, was released on 28 February 2017. The remix of the song is included on \"Glory Days: The Platinum Edition\". <a href=\"http:\/\/www.last.fm\/music\/Little+Mix\/_\/Touch\">Read more on Last.fm<\/a>.",
+        "content": "\"Touch\" is a song by British girl group Little Mix. It was released as the second single from their studio album Glory Days. \"Touch\" reached the top five in the United Kingdom, Scotland and Ireland, as well as the top forty in eight other countries, and has been certified double platinum in the UK and Australia. A remixed version, featuring newly-recorded vocals from American rapper Kid Ink, was released on 28 February 2017. The remix of the song is included on \"Glory Days: The Platinum Edition\". The song was nominated for British Single of the Year and Best British Video of the Year at the 2018 Brit Awards.  <a href=\"http:\/\/www.last.fm\/music\/Little+Mix\/_\/Touch\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

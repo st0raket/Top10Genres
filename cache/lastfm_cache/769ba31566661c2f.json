@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:54.880390+00:00",
+  "elapsed": 0.212882,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:54.880390+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2300",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=mgk&format=json&method=track.getInfo&track=bloody+valentine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=mgk&format=json&method=track.getInfo&track=bloody+valentine",
+  "_decoded_content": {
+    "track": {
+      "name": "Bloody Valentine",
+      "url": "https:\/\/www.last.fm\/music\/MGK\/_\/Bloody+Valentine",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "83074",
+      "playcount": "539785",
+      "artist": {
+        "name": "MGK",
+        "mbid": "f6af669a-56ea-448a-a044-de76181ada33",
+        "url": "https:\/\/www.last.fm\/music\/MGK"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "pop punk",
+            "url": "https:\/\/www.last.fm\/tag\/pop+punk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jun 2024, 10:40",
+        "summary": "\u201cBloody Valentine\u201d sees MGK hoping for something real with a lover, taking a noticeable departure from the wary attitude he possessed about betrayal on 2019\u2019s Hotel Diablo. He announced the song via Twitter on April 27th, 2020, calling it the \u201cfirst single\u201d from Tickets To My Downfall.\n\nThe music video for the single was released on May 20th starring American actress Megan Fox and amassed over twenty million views within its first month. <a href=\"http:\/\/www.last.fm\/music\/MGK\/_\/Bloody+Valentine\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBloody Valentine\u201d sees MGK hoping for something real with a lover, taking a noticeable departure from the wary attitude he possessed about betrayal on 2019\u2019s Hotel Diablo. He announced the song via Twitter on April 27th, 2020, calling it the \u201cfirst single\u201d from Tickets To My Downfall.\n\nThe music video for the single was released on May 20th starring American actress Megan Fox and amassed over twenty million views within its first month. Machine Gun Kelly would also go on to appear to confirm a relationship with Fox roughly a month after the video\u2019s release.\n\nThe song debuted atop the Billboard Rock Digital Songs chart as well as charting at #7 on the Billboard Bubbling Under Hot 100 chart, #79 on the UK Singles chart, and #81 on the Canadian Hot 100, as of June 18th, 2020.\n\nThe song is also featured in the game Tony Hawk\u2019s Pro Skater 1+2 Remake. <a href=\"http:\/\/www.last.fm\/music\/MGK\/_\/Bloody+Valentine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

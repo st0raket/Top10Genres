@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:57.739890+00:00",
+  "elapsed": 0.183254,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:57.739890+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1443",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=La+Oreja+de+Van+Gogh&format=json&method=track.getInfo&track=Rosas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=La+Oreja+de+Van+Gogh&format=json&method=track.getInfo&track=Rosas",
+  "_decoded_content": {
+    "track": {
+      "name": "Rosas",
+      "mbid": "973e3193-a217-4b47-a9b7-551b27497d95",
+      "url": "https:\/\/www.last.fm\/music\/La+Oreja+de+Van+Gogh\/_\/Rosas",
+      "duration": "237000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "281176",
+      "playcount": "2258379",
+      "artist": {
+        "name": "La Oreja de Van Gogh",
+        "mbid": "a7c38944-b3fa-4a3d-a4bd-d3b3b06f0cbf",
+        "url": "https:\/\/www.last.fm\/music\/La+Oreja+de+Van+Gogh"
+      },
+      "album": {
+        "artist": "La Oreja de Van Gogh",
+        "title": "Lo que te cont\u00e9 mientras te hac\u00edas la dormida",
+        "mbid": "8617b918-df71-4547-8302-0fe902bd1d99",
+        "url": "https:\/\/www.last.fm\/music\/La+Oreja+de+Van+Gogh\/Lo+que+te+cont%C3%A9+mientras+te+hac%C3%ADas+la+dormida",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/19654c17e16abab02d9097e3de50830a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/19654c17e16abab02d9097e3de50830a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/19654c17e16abab02d9097e3de50830a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/19654c17e16abab02d9097e3de50830a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "spanish",
+            "url": "https:\/\/www.last.fm\/tag\/spanish"
+          },
+          {
+            "name": "la oreja de van gogh",
+            "url": "https:\/\/www.last.fm\/tag\/la+oreja+de+van+gogh"
+          },
+          {
+            "name": "Romantica",
+            "url": "https:\/\/www.last.fm\/tag\/Romantica"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          }
+        ]
+      }
+    }
+  }
+}

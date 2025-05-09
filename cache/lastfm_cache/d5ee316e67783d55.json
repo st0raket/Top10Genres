@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:45.277124+00:00",
+  "elapsed": 0.223016,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:45.277124+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2218",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kodak+Black&format=json&method=track.getInfo&track=Tunnel+Vision"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kodak+Black&format=json&method=track.getInfo&track=Tunnel+Vision",
+  "_decoded_content": {
+    "track": {
+      "name": "Tunnel Vision",
+      "url": "https:\/\/www.last.fm\/music\/Kodak+Black\/_\/Tunnel+Vision",
+      "duration": "268000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "435272",
+      "playcount": "3923741",
+      "artist": {
+        "name": "Kodak Black",
+        "url": "https:\/\/www.last.fm\/music\/Kodak+Black"
+      },
+      "album": {
+        "artist": "Kodak Black",
+        "title": "Painting Pictures",
+        "url": "https:\/\/www.last.fm\/music\/Kodak+Black\/Painting+Pictures",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dfb3515e4593aadc2676bad85bf26629.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dfb3515e4593aadc2676bad85bf26629.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dfb3515e4593aadc2676bad85bf26629.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dfb3515e4593aadc2676bad85bf26629.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "hiphop",
+            "url": "https:\/\/www.last.fm\/tag\/hiphop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2017, 08:15",
+        "summary": "In \u2018'Tunnel Vision,\u2019\u2018 Kodak raps about the corrupt system, facing jail time, and many more issues he\u2019s faced in the past over Metro Boomin and Southside\u2019s production.\n\nIt was previously teased in live performances, on his Instagram, and in several videos that have received more than 1 million views before the song\u2019s official release. <a href=\"http:\/\/www.last.fm\/music\/Kodak+Black\/_\/Tunnel+Vision\">Read more on Last.fm<\/a>.",
+        "content": "In \u2018'Tunnel Vision,\u2019\u2018 Kodak raps about the corrupt system, facing jail time, and many more issues he\u2019s faced in the past over Metro Boomin and Southside\u2019s production.\n\nIt was previously teased in live performances, on his Instagram, and in several videos that have received more than 1 million views before the song\u2019s official release. <a href=\"http:\/\/www.last.fm\/music\/Kodak+Black\/_\/Tunnel+Vision\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

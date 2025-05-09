@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:28:25.886916+00:00",
+  "elapsed": 0.304621,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:25.886916+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1102",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=OMG"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=OMG",
+  "_decoded_content": {
+    "track": {
+      "name": "OMG",
+      "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/_\/OMG",
+      "duration": "228000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "81353",
+      "playcount": "811057",
+      "artist": {
+        "name": "Camila Cabello",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello"
+      },
+      "album": {
+        "artist": "Camila Cabello",
+        "title": "OMG",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/OMG",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9fbc1b0da069a46de194c4be24cb11e2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9fbc1b0da069a46de194c4be24cb11e2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9fbc1b0da069a46de194c4be24cb11e2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9fbc1b0da069a46de194c4be24cb11e2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:42:49.211409+00:00",
+  "elapsed": 0.277008,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:49.211409+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1199",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Rea&format=json&method=track.getInfo&track=Driving+Home+for+Christmas+-+2019+Remaster"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Rea&format=json&method=track.getInfo&track=Driving+Home+for+Christmas+-+2019+Remaster",
+  "_decoded_content": {
+    "track": {
+      "name": "Driving Home for Christmas - 2019 Remaster",
+      "url": "https:\/\/www.last.fm\/music\/Chris+Rea\/_\/Driving+Home+for+Christmas+-+2019+Remaster",
+      "duration": "241000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "144130",
+      "playcount": "560295",
+      "artist": {
+        "name": "Chris Rea",
+        "mbid": "c707b37e-cb5c-4694-be4d-46beefcb2475",
+        "url": "https:\/\/www.last.fm\/music\/Chris+Rea"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Silver Bells - Christmas Holiday",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Silver+Bells+-+Christmas+Holiday",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6fcc355cf589880a18b99a274b1765bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6fcc355cf589880a18b99a274b1765bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6fcc355cf589880a18b99a274b1765bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6fcc355cf589880a18b99a274b1765bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "Christmas and the new year and easter music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+and+the+new+year+and+easter+music"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:44:01.964018+00:00",
+  "elapsed": 0.546926,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:01.964018+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "844",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rod+Wave&format=json&method=track.getInfo&track=Heart+On+Ice"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rod+Wave&format=json&method=track.getInfo&track=Heart+On+Ice",
+  "_decoded_content": {
+    "track": {
+      "name": "Heart On Ice",
+      "url": "https:\/\/www.last.fm\/music\/Rod+Wave\/_\/Heart+On+Ice",
+      "duration": "159000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "164626",
+      "playcount": "1381049",
+      "artist": {
+        "name": "Rod Wave",
+        "url": "https:\/\/www.last.fm\/music\/Rod+Wave"
+      },
+      "album": {
+        "artist": "Rod Wave",
+        "title": "Heart On Ice",
+        "url": "https:\/\/www.last.fm\/music\/Rod+Wave\/Heart+On+Ice",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/56f14de2d63d98ff3edbc43c07efd622.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/56f14de2d63d98ff3edbc43c07efd622.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/56f14de2d63d98ff3edbc43c07efd622.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/56f14de2d63d98ff3edbc43c07efd622.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:02.653093+00:00",
+  "elapsed": 0.182911,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:02.653093+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2785",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Dynamite"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Dynamite",
+  "_decoded_content": {
+    "track": {
+      "name": "Dynamite",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Dynamite",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "862291",
+      "playcount": "136301289",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "album": {
+        "artist": "BTS",
+        "title": "Dynamite - EP",
+        "url": "https:\/\/www.last.fm\/music\/BTS\/Dynamite+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bfb84f4aa2ac69a5ffa98c0406b8bf10.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bfb84f4aa2ac69a5ffa98c0406b8bf10.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bfb84f4aa2ac69a5ffa98c0406b8bf10.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bfb84f4aa2ac69a5ffa98c0406b8bf10.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Aug 2020, 23:39",
+        "summary": "\"Dynamite\" is a song by South Korean boy band BTS. It was released on August 21, 2020, through Big Hit and Sony Music as the group's first song fully recorded in English. \n\nThe accompanying music video broke the world record for receiving the most views within 24 hours on YouTube, garnering 101.1 million views. According to YouTube, it also broke the record for a video premiere with 3 million concurrent viewers. The song debut at #1 on the Billboard Hot100 chart. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Dynamite\">Read more on Last.fm<\/a>.",
+        "content": "\"Dynamite\" is a song by South Korean boy band BTS. It was released on August 21, 2020, through Big Hit and Sony Music as the group's first song fully recorded in English. \n\nThe accompanying music video broke the world record for receiving the most views within 24 hours on YouTube, garnering 101.1 million views. According to YouTube, it also broke the record for a video premiere with 3 million concurrent viewers. The song debut at #1 on the Billboard Hot100 chart.\n\nThe song was later included in their seventh mini-album, Be.\n\nDynamite by BTS (\ubc29\ud0c4\uc18c\ub144\ub2e8) Apple Music\n\nBTS  (\ubc29\ud0c4\uc18c\ub144\ub2e8)  Last.FM Page - Korean Name:  (https:\/\/www.last.fm\/music\/\ubc29\ud0c4\uc18c\ub144\ub2e8)\nBTS  (\ubc29\ud0c4\uc18c\ub144\ub2e8)  Last.FM Page - English Name: (https:\/\/www.last.fm\/music\/BTS)\nTrack (Apple Music): (https:\/\/music.apple.com\/us\/album\/dynamite\/1529518691?i=1529518695) <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Dynamite\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

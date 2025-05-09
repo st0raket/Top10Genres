@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:34:17.424111+00:00",
+  "elapsed": 0.177388,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:17.424111+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1971",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=Said+N+Done"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=Said+N+Done",
+  "_decoded_content": {
+    "track": {
+      "name": "Said N Done",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/Said+N+Done",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "178768",
+      "playcount": "1377799",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Metro Boomin",
+            "url": "https:\/\/www.last.fm\/tag\/Metro+Boomin"
+          },
+          {
+            "name": "21 savage",
+            "url": "https:\/\/www.last.fm\/tag\/21+savage"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Apr 2024, 16:50",
+        "summary": "On the closing track of SAVAGE MODE II and over a smooth 80s-like beat, \u201cSaid N Done\u201d features a 21 Savage rapping about his long span of his lifestyle; going from the cheating of his girl, betrayals and poverty to having a life full of success and pride for the people around Savage, being that he has finally \u201cdone\u201d what he \u201csaid\u201d earlier in his life.\nMetro Boomin samples Stephanie Mills\u2018 1987 song, \u201cTouch Me Now,\u201d giving a soft <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/Said+N+Done\">Read more on Last.fm<\/a>.",
+        "content": "On the closing track of SAVAGE MODE II and over a smooth 80s-like beat, \u201cSaid N Done\u201d features a 21 Savage rapping about his long span of his lifestyle; going from the cheating of his girl, betrayals and poverty to having a life full of success and pride for the people around Savage, being that he has finally \u201cdone\u201d what he \u201csaid\u201d earlier in his life.\nMetro Boomin samples Stephanie Mills\u2018 1987 song, \u201cTouch Me Now,\u201d giving a soft ambience accompanied by the typical trap kicks\u2014and beat overall\u2014that Metro usually uses in his work. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/Said+N+Done\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

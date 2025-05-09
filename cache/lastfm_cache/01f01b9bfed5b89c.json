@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:05.773138+00:00",
+  "elapsed": 0.204871,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:05.773138+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2989",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=papercuts"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=papercuts",
+  "_decoded_content": {
+    "track": {
+      "name": "papercuts",
+      "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/papercuts",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "83369",
+      "playcount": "855771",
+      "artist": {
+        "name": "Machine Gun Kelly",
+        "mbid": "f6af669a-56ea-448a-a044-de76181ada33",
+        "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Halloween Pop",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Halloween+Pop",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7c643a3ae5b488a16a67d41ac7c54cd9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7c643a3ae5b488a16a67d41ac7c54cd9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7c643a3ae5b488a16a67d41ac7c54cd9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7c643a3ae5b488a16a67d41ac7c54cd9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "punk",
+            "url": "https:\/\/www.last.fm\/tag\/punk"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "Grunge",
+            "url": "https:\/\/www.last.fm\/tag\/Grunge"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Apr 2022, 13:14",
+        "summary": "\u201cpapercuts,\u201d the lead single off of Machine Gun Kelly\u2019s sixth studio album, mainstream sellout, discusses his struggles with living in the public eye off the tails of his successful 2020 record Tickets to My Downfall and high-profile relationship with actress Megan Fox. Stylistically, the song takes on a grittier, more industrial sound than the pop-punk sound of his previous record, while still recruiting \u200b\u200bblink-182 drummer Travis Barker on percussion. <a href=\"http:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/papercuts\">Read more on Last.fm<\/a>.",
+        "content": "\u201cpapercuts,\u201d the lead single off of Machine Gun Kelly\u2019s sixth studio album, mainstream sellout, discusses his struggles with living in the public eye off the tails of his successful 2020 record Tickets to My Downfall and high-profile relationship with actress Megan Fox. Stylistically, the song takes on a grittier, more industrial sound than the pop-punk sound of his previous record, while still recruiting \u200b\u200bblink-182 drummer Travis Barker on percussion.\n\nAlongside the song, MGK released a Cole Bennett-directed music video, marking their first collaboration and Bennett\u2019s first rock video. The day before the song and video came out, Kells tweeted a screenshot of a FaceTime call he had with Bennett, showing him with a seemingly shaven head. News outlets like Buzzfeed, Yahoo, Entertainment Tonight, and Billboard reported that he shaved his head, but it was ultimately a bald cap that Kells tore off in the middle of the music video. <a href=\"http:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/papercuts\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2025-05-03T14:44:01.691337+00:00",
+  "elapsed": 0.301195,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:01.691337+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2031",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rvssian&format=json&method=track.getInfo&track=No+Me+Ame"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rvssian&format=json&method=track.getInfo&track=No+Me+Ame",
+  "_decoded_content": {
+    "track": {
+      "name": "No Me Ame",
+      "url": "https:\/\/www.last.fm\/music\/RVSSIAN\/_\/No+Me+Ame",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "60327",
+      "playcount": "481042",
+      "artist": {
+        "name": "RVSSIAN",
+        "url": "https:\/\/www.last.fm\/music\/RVSSIAN"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Aug 2024, 09:32",
+        "summary": "\u201cNo Me Ame\u201d surprises the Latin public with the surprise participation of the American rapper Juice WRLD, who died on December 8, 2019 after an epileptic attack for wanting to hide drugs from the police, who were searching the plane in which it was transported. Initially the song was leaked in February 2020, but it was not released until April of the same year, accompanied by a music video.\n\nIn the song they talk about how a woman has provoked anger in them since she did not know how to appreciate them when they were together <a href=\"http:\/\/www.last.fm\/music\/RVSSIAN\/_\/No+Me+Ame\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNo Me Ame\u201d surprises the Latin public with the surprise participation of the American rapper Juice WRLD, who died on December 8, 2019 after an epileptic attack for wanting to hide drugs from the police, who were searching the plane in which it was transported. Initially the song was leaked in February 2020, but it was not released until April of the same year, accompanied by a music video.\n\nIn the song they talk about how a woman has provoked anger in them since she did not know how to appreciate them when they were together, and now she is looking for them to remedy it but it is too late because they do not feel the same love that they felt before.\n\n\u201cNo Me Ame\u201d marks Anuel\u2019s first collaboration with Juice. <a href=\"http:\/\/www.last.fm\/music\/RVSSIAN\/_\/No+Me+Ame\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

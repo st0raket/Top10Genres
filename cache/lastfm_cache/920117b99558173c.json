@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:33:37.222171+00:00",
+  "elapsed": 0.201533,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:37.222171+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "375",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%D0%A5%D0%B0%D0%BD%D0%B7%D0%B0&format=json&method=track.getInfo&track=%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%D0%A5%D0%B0%D0%BD%D0%B7%D0%B0&format=json&method=track.getInfo&track=%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0",
+  "_decoded_content": {
+    "track": {
+      "name": "\u0412\u0435\u0447\u0435\u0440\u0438\u043d\u043a\u0430",
+      "url": "https:\/\/www.last.fm\/music\/%D0%A5%D0%B0%D0%BD%D0%B7%D0%B0\/_\/%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3183",
+      "playcount": "20340",
+      "artist": {
+        "name": "\u0425\u0430\u043d\u0437\u0430",
+        "url": "https:\/\/www.last.fm\/music\/%D0%A5%D0%B0%D0%BD%D0%B7%D0%B0"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

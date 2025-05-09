@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:40.160904+00:00",
+  "elapsed": 0.214863,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:40.160904+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3302",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cochise&format=json&method=track.getInfo&track=Tell+Em"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cochise&format=json&method=track.getInfo&track=Tell+Em",
+  "_decoded_content": {
+    "track": {
+      "name": "TELL EM",
+      "url": "https:\/\/www.last.fm\/music\/Cochise\/_\/TELL+EM",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "575475",
+      "playcount": "8466761",
+      "artist": {
+        "name": "Cochise",
+        "mbid": "f0340cd2-9eb5-4399-b18c-08afacd1f4b3",
+        "url": "https:\/\/www.last.fm\/music\/Cochise"
+      },
+      "album": {
+        "artist": "$NOT",
+        "title": "Tell Em - Single",
+        "url": "https:\/\/www.last.fm\/music\/$NOT\/Tell+Em+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cc7c1d8892f3b0ce47d586a51ebfb0e6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cc7c1d8892f3b0ce47d586a51ebfb0e6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cc7c1d8892f3b0ce47d586a51ebfb0e6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cc7c1d8892f3b0ce47d586a51ebfb0e6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "plugg",
+            "url": "https:\/\/www.last.fm\/tag\/plugg"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jun 2021, 12:16",
+        "summary": "\u201cTell Em\u201d is a song by Florida rappers Cochise and $NOT. The highly anticipated track finally released on May 28, 2021.\n\nThe song blew up on TikTok, using multiple passages from the track: the \u201ctell \u2018em wassup!\u201d part, the phrase \u201cbetter turn me up,\u201d and $NOT\u2019s verse.\n\nBefore release, this song saw a weird rollout. It was supposed to have a feature from $NOT but was later \u201cremoved\u201d from the song by his label. This left many fans disappointed and asking for $NOT to get back on the song. <a href=\"http:\/\/www.last.fm\/music\/Cochise\/_\/TELL+EM\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTell Em\u201d is a song by Florida rappers Cochise and $NOT. The highly anticipated track finally released on May 28, 2021.\n\nThe song blew up on TikTok, using multiple passages from the track: the \u201ctell \u2018em wassup!\u201d part, the phrase \u201cbetter turn me up,\u201d and $NOT\u2019s verse.\n\nBefore release, this song saw a weird rollout. It was supposed to have a feature from $NOT but was later \u201cremoved\u201d from the song by his label. This left many fans disappointed and asking for $NOT to get back on the song.\n\nAfter about two days of this being revealed, Cochise and $NOT revealed that it was a troll and the song would be released the next Friday.\n\nThis song marks $NOT and Cochise\u2019s first collaboration, despite having followed each other for a long time and talked to each other on live a lot.\n\nWhile fans were asking for a release on Cochise\u2019s new project, BENBOW CRESCENT, Cochise said that this would not be released on BENBOW CRESCENT but would see a release in the future.\n\nCochise and $not used a free \u201cPlayboi Carti x Pierre Bourne\u201d type beat from YouTube, produced by Jootsu.\n\n\u201cTell Em\u201d debuted and peaked at #64 on the Hot 100 during the week ending June 12, 2021.\n\nOn February 4, 2022, \u201cTell Em\u201d was certified platinum by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/Cochise\/_\/TELL+EM\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:54.751079+00:00",
+  "elapsed": 0.197424,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:54.751079+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2072",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+U&format=json&method=track.getInfo&track=Baggy+Jeans"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+U&format=json&method=track.getInfo&track=Baggy+Jeans",
+  "_decoded_content": {
+    "track": {
+      "name": "Baggy Jeans",
+      "url": "https:\/\/www.last.fm\/music\/NCT+U\/_\/Baggy+Jeans",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "162806",
+      "playcount": "2205501",
+      "artist": {
+        "name": "NCT U",
+        "url": "https:\/\/www.last.fm\/music\/NCT+U"
+      },
+      "album": {
+        "artist": "NCT",
+        "title": "Golden Age - The 4th Album",
+        "url": "https:\/\/www.last.fm\/music\/NCT\/Golden+Age+-+The+4th+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6e6099a0f485445b631481db338ba79d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6e6099a0f485445b631481db338ba79d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6e6099a0f485445b631481db338ba79d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6e6099a0f485445b631481db338ba79d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "NCT",
+            "url": "https:\/\/www.last.fm\/tag\/NCT"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Aug 2023, 00:16",
+        "summary": "\"Baggy Jeans\" is a hip-hop dance song by South Korean boy group NCT U performed by TAEYONG, TEN, MARK, DOYOUNG, and JAEHYUN. Featuring a heavy bass line, minimalistic drums, and unique vocals over a dreamy feeling synthesizer, \"Baggy Jeans\" is the second title track of NCT's fourth album, Golden Age. <a href=\"http:\/\/www.last.fm\/music\/NCT+U\/_\/Baggy+Jeans\">Read more on Last.fm<\/a>.",
+        "content": "\"Baggy Jeans\" is a hip-hop dance song by South Korean boy group NCT U performed by TAEYONG, TEN, MARK, DOYOUNG, and JAEHYUN. Featuring a heavy bass line, minimalistic drums, and unique vocals over a dreamy feeling synthesizer, \"Baggy Jeans\" is the second title track of NCT's fourth album, Golden Age. <a href=\"http:\/\/www.last.fm\/music\/NCT+U\/_\/Baggy+Jeans\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

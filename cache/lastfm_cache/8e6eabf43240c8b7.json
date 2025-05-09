@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:34.933710+00:00",
+  "elapsed": 0.210426,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:34.933710+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2723",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ellie+Goulding&format=json&method=track.getInfo&track=Close+to+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ellie+Goulding&format=json&method=track.getInfo&track=Close+to+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Close to Me",
+      "url": "https:\/\/www.last.fm\/music\/Ellie+Goulding\/_\/Close+to+Me",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "123421",
+      "playcount": "715441",
+      "artist": {
+        "name": "Ellie Goulding",
+        "mbid": "33ca19f4-18c8-4411-98df-ac23890ce9f5",
+        "url": "https:\/\/www.last.fm\/music\/Ellie+Goulding"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music, Vol. 69",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music,+Vol.+69",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b1eff32e2637cc0a17588365a7920b5c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b1eff32e2637cc0a17588365a7920b5c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b1eff32e2637cc0a17588365a7920b5c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b1eff32e2637cc0a17588365a7920b5c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "Chill House",
+            "url": "https:\/\/www.last.fm\/tag\/Chill+House"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "unrelatable",
+            "url": "https:\/\/www.last.fm\/tag\/unrelatable"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2019, 16:06",
+        "summary": "\"Close to Me\" is a song by English singer Ellie Goulding, American record producer Diplo and American singer Swae Lee, released on 24 October 2018.\n\n\"At the time, there was a lot going on in the world that I wanted to forget. Savan gets very overwhelmed with what's happening particularly in America, and I think we all wanted to forget that and just write something a bit silly. It was so nice to just go back to just writing a song about a turbulent, probably doomed relationship \u2013 someone to forget the world with.\" <a href=\"http:\/\/www.last.fm\/music\/Ellie+Goulding\/_\/Close+to+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"Close to Me\" is a song by English singer Ellie Goulding, American record producer Diplo and American singer Swae Lee, released on 24 October 2018.\n\n\"At the time, there was a lot going on in the world that I wanted to forget. Savan gets very overwhelmed with what's happening particularly in America, and I think we all wanted to forget that and just write something a bit silly. It was so nice to just go back to just writing a song about a turbulent, probably doomed relationship \u2013 someone to forget the world with.\"\n\u2014 Goulding on the inspiration behind the song.  <a href=\"http:\/\/www.last.fm\/music\/Ellie+Goulding\/_\/Close+to+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

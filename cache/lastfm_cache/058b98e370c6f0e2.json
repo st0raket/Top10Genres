@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:22.066507+00:00",
+  "elapsed": 0.387894,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:22.066507+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2297",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Orphans"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Orphans",
+  "_decoded_content": {
+    "track": {
+      "name": "Orphans",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Orphans",
+      "duration": "197000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "229789",
+      "playcount": "1454100",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "100 Greatest Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/100+Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e0fdfa988b8caf6ddce7a51dd6eb65a4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e0fdfa988b8caf6ddce7a51dd6eb65a4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e0fdfa988b8caf6ddce7a51dd6eb65a4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e0fdfa988b8caf6ddce7a51dd6eb65a4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Oct 2019, 20:59",
+        "summary": "The co-lead single from Everyday Life and lead single from \u2018Sunset\u2019, the second part of the double album, \u201cOrphans\u201d, tackles the Syrian civil war, more specifically the Damascus bombing of 2018. It showcases the story of a girl (Rosaleen) and her Baba (Arabic for father) who died and are now met by the archangels who talk to them about their passing to the world of the dead. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Orphans\">Read more on Last.fm<\/a>.",
+        "content": "The co-lead single from Everyday Life and lead single from \u2018Sunset\u2019, the second part of the double album, \u201cOrphans\u201d, tackles the Syrian civil war, more specifically the Damascus bombing of 2018. It showcases the story of a girl (Rosaleen) and her Baba (Arabic for father) who died and are now met by the archangels who talk to them about their passing to the world of the dead. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Orphans\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

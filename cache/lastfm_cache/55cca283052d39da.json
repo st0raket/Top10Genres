@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:43:11.145801+00:00",
+  "elapsed": 0.274691,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:11.145801+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1727",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zach+Bryan&format=json&method=track.getInfo&track=Fear+and+Friday%27s"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zach+Bryan&format=json&method=track.getInfo&track=Fear+and+Friday%27s",
+  "_decoded_content": {
+    "track": {
+      "name": "Fear and Friday's",
+      "url": "https:\/\/www.last.fm\/music\/Zach+Bryan\/_\/Fear+and+Friday%27s",
+      "duration": "171000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "103185",
+      "playcount": "1174119",
+      "artist": {
+        "name": "Zach Bryan",
+        "url": "https:\/\/www.last.fm\/music\/Zach+Bryan"
+      },
+      "album": {
+        "artist": "Zach Bryan",
+        "title": "Zach Bryan",
+        "url": "https:\/\/www.last.fm\/music\/Zach+Bryan\/Zach+Bryan",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/18ee0dffd7ecbeb2191c9c882ca1abed.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/18ee0dffd7ecbeb2191c9c882ca1abed.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/18ee0dffd7ecbeb2191c9c882ca1abed.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/18ee0dffd7ecbeb2191c9c882ca1abed.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "10 Mar 2024, 16:37",
+        "summary": "\u201cFear and Friday's\u201c is another Keroac-esque poem over an acoustic guitar. It was posted on Twitter on March 27, 2023:\n\n\u201cyeah I think fear and Fridays got an awful lot in common, they\u2019re overdone and glorified and always leave you wanting\u201c <a href=\"http:\/\/www.last.fm\/music\/Zach+Bryan\/_\/Fear+and+Friday%27s\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFear and Friday's\u201c is another Keroac-esque poem over an acoustic guitar. It was posted on Twitter on March 27, 2023:\n\n\u201cyeah I think fear and Fridays got an awful lot in common, they\u2019re overdone and glorified and always leave you wanting\u201c <a href=\"http:\/\/www.last.fm\/music\/Zach+Bryan\/_\/Fear+and+Friday%27s\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

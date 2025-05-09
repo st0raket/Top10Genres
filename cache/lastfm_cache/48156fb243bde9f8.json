@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:42:12.813214+00:00",
+  "elapsed": 0.289363,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:12.813214+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2446",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Empty+Out+Your+Pockets"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Empty+Out+Your+Pockets",
+  "_decoded_content": {
+    "track": {
+      "name": "empty out your pockets",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/empty+out+your+pockets",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "139174",
+      "playcount": "2126832",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "The Party Never Ends (Spotify)",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/The+Party+Never+Ends+(Spotify)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6508f2af9870d4afa17216d02376c1f5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6508f2af9870d4afa17216d02376c1f5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6508f2af9870d4afa17216d02376c1f5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6508f2af9870d4afa17216d02376c1f5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Dec 2024, 19:30",
+        "summary": "\u201cEmpty Out Your Pockets\u201d is the highly anticipated hype track by the late Chicago rapper, Juice WRLD.\n\nOn the Nick Mira production, Juice is talking about his wealth, dirt bikes, opposition and much more in his typical fashion.\n\nThe track\u2019s release was confirmed by Epic Games via an Instagram post, stating that the song will premiere world-wide in Fortnite on November 30th, 2024, with Juice\u2019s label saying that the song will be added afterwards on \u201cThe Party Never Ends\u201d. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/empty+out+your+pockets\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEmpty Out Your Pockets\u201d is the highly anticipated hype track by the late Chicago rapper, Juice WRLD.\n\nOn the Nick Mira production, Juice is talking about his wealth, dirt bikes, opposition and much more in his typical fashion.\n\nThe track\u2019s release was confirmed by Epic Games via an Instagram post, stating that the song will premiere world-wide in Fortnite on November 30th, 2024, with Juice\u2019s label saying that the song will be added afterwards on \u201cThe Party Never Ends\u201d. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/empty+out+your+pockets\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

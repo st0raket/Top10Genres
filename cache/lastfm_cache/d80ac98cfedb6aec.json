@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:50.181406+00:00",
+  "elapsed": 0.201919,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:50.181406+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1613",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Everybody+Dies+In+Their+Nightmares"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Everybody+Dies+In+Their+Nightmares",
+  "_decoded_content": {
+    "track": {
+      "name": "Everybody Dies in Their Nightmares",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/Everybody+Dies+in+Their+Nightmares",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "838577",
+      "playcount": "11191391",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "emo rap",
+            "url": "https:\/\/www.last.fm\/tag\/emo+rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 16:19",
+        "summary": "\u201cEverybody Dies In Their Nightmares\u201d is the 4th track on X\u2019s debut album, 17. The instrumental was created by Potsu, who produced 17 songs, \u201cJocelyn Flores\u201d and \u201cCarry On\u201d as well. The instrumental samples lyrics from Shiloh Dynasty\u2019s \u201cthis really makes me wanna die\u201d. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Everybody+Dies+in+Their+Nightmares\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEverybody Dies In Their Nightmares\u201d is the 4th track on X\u2019s debut album, 17. The instrumental was created by Potsu, who produced 17 songs, \u201cJocelyn Flores\u201d and \u201cCarry On\u201d as well. The instrumental samples lyrics from Shiloh Dynasty\u2019s \u201cthis really makes me wanna die\u201d. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Everybody+Dies+in+Their+Nightmares\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

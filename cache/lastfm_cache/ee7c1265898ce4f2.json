@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:34.593382+00:00",
+  "elapsed": 0.213513,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:34.593382+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2969",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=530"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=530",
+  "_decoded_content": {
+    "track": {
+      "name": "530",
+      "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/_\/530",
+      "duration": "289000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "217779",
+      "playcount": "1751384",
+      "artist": {
+        "name": "\u00a5$",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$"
+      },
+      "album": {
+        "artist": "\u00a5$",
+        "title": "VULTURES 2",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/VULTURES+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cf88cc2592017da95262e95f3eddeb0d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cf88cc2592017da95262e95f3eddeb0d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cf88cc2592017da95262e95f3eddeb0d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cf88cc2592017da95262e95f3eddeb0d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "melodic",
+            "url": "https:\/\/www.last.fm\/tag\/melodic"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Aug 2024, 08:11",
+        "summary": "530 is the 7th track from VULTURES 2.\n\nThis track was first revealed under the name of \u201cThe Cars Missing\u201d on an early tracklist for Donda 2 that surfaced on February 4, 2022. The song later made an appearance on the first tracklist Kanye West shared himself on February 18, as \u201c530.\u201d Finally, it appeared as \u201cDear Summer\u201d on the February 22 setlist for the Miami listening party for the album, shared by Ben Baller on the same night.\n\nThis song was first previewed at the start of Ye\u2019s short documentary <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/530\">Read more on Last.fm<\/a>.",
+        "content": "530 is the 7th track from VULTURES 2.\n\nThis track was first revealed under the name of \u201cThe Cars Missing\u201d on an early tracklist for Donda 2 that surfaced on February 4, 2022. The song later made an appearance on the first tracklist Kanye West shared himself on February 18, as \u201c530.\u201d Finally, it appeared as \u201cDear Summer\u201d on the February 22 setlist for the Miami listening party for the album, shared by Ben Baller on the same night.\n\nThis song was first previewed at the start of Ye\u2019s short documentary, LAST WEEK, released on October 10, 2022. The snippet showcased a reference track in the background of Ye\u2019s rapping and some mumbled lyrics.\n\nThe track was eventually released on the 3rd of August 2024, still containing the mumble lyrics. A week later, an updated version released replacing Ye's bridge with Ty Dolla $ign. A final update was released on the 11th of November 2024 which contained a completely redone second half with complete lyrics done by AI. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/530\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

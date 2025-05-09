@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:39.040282+00:00",
+  "elapsed": 0.188513,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:39.040282+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4482",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Hold+My+Hand"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Hold+My+Hand",
+  "_decoded_content": {
+    "track": {
+      "name": "Hold My Hand",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Hold+My+Hand",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "233260",
+      "playcount": "2388160",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "Hold My Hand",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/Hold+My+Hand",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c2021372e5cb5cd4f5837616c18f256f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c2021372e5cb5cd4f5837616c18f256f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c2021372e5cb5cd4f5837616c18f256f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c2021372e5cb5cd4f5837616c18f256f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Power ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Power+ballad"
+          },
+          {
+            "name": "arena rock",
+            "url": "https:\/\/www.last.fm\/tag\/arena+rock"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2022, 16:24",
+        "summary": "\"Hold My Hand\" is a song by American singer Lady Gaga, released May 3, 2022 by\u00a0Interscope. It is the lead single from Top Gun: Maverick (Music from the Motion Picture). The song was written and produced by Gaga and\u00a0BloodPop\u00a0as \"a love letter to the world during and after a very hard time\". Benjamin Rice received additional production credits.\n\n\"Hold My Hand\" has been described by music and film critics as a \"hopeful, anthemic\"\u00a0arena rock power ballad. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Hold+My+Hand\">Read more on Last.fm<\/a>.",
+        "content": "\"Hold My Hand\" is a song by American singer Lady Gaga, released May 3, 2022 by\u00a0Interscope. It is the lead single from Top Gun: Maverick (Music from the Motion Picture). The song was written and produced by Gaga and\u00a0BloodPop\u00a0as \"a love letter to the world during and after a very hard time\". Benjamin Rice received additional production credits.\n\n\"Hold My Hand\" has been described by music and film critics as a \"hopeful, anthemic\"\u00a0arena rock power ballad. Jazz Tangcay of\u00a0Variety\u00a0called \"Hold My Hand\" a \"soaring\u00a0rock tune with violins and guitar licks that harken back to the power ballads of the '80s.\"\u00a0Its lyrics sees Gaga reassuring someone that she will always be there for them \"without question.\" Lars Brandle of\u00a0Billboard\u00a0noted that the song has a close lineage to\u00a0Berlin's \"Take My Breath Away\" and\u00a0Kenny Loggins' \"Danger Zone\", two tracks from the soundtrack of the original\u00a0Top Gun\u00a0film.\u00a0Music critics from other outlets compared \"Hold My Hand\" to songs such as \"Open Arms\" by\u00a0Journey, \"Alone\" by\u00a0Heart, and Gaga's own 2011 single, \"The Edge of Glory\".\u00a0The song was originally published in the key of G major and starts with G\/D\/C\/G\/D chord progression with three intro bars before singer starts to sing with the lyrics \"Hold my hand, every thing will be okay, I heard from the heavens that clouds have been grey. Pull me close, wrap me in your arching arms\".\n\nRobin Murray of\u00a0Clash\u00a0called the song \"a triumph of bombast\" which \"finds Lady Gaga cutting loose as a vocalist\". Stuart Heritage of\u00a0The Guardian\u00a0thought that the song is \"bombastic and emotional, and includes everything you could possibly want from a Lady Gaga power ballad\". Variety's\u00a0Jazz Tangcay found the song a \"catchy earworm\" with a \"strong guitar solo\", and argued that it is \"on track to being an\u00a0Oscar\u00a0frontrunner in the\u00a0original song\u00a0race.\" Vulture, an online blog associated with\u00a0New York\u00a0opined that \"Hold My Hand\" is an \"outlier in Gaga's catalogue\" as \"this is one of her only pop songs with zero subversive elements\", while noting that \"the song\u2019s sheer level of self-determination is quintessential Gaga. It feels like a sincere attempt to write the most inspiring end-credits ballad of all time.\" Alexa Camp of\u00a0Slant Magazine\u00a0was more negative in her review, thinking that \"for a song the artist claims she's been perfecting 'for years', 'Hold My Hand' struggles to take flight.\" <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Hold+My+Hand\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

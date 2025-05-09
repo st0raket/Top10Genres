@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:39:17.938689+00:00",
+  "elapsed": 0.204979,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:17.938689+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1932",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jack+Harlow&format=json&method=track.getInfo&track=Ambitious"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jack+Harlow&format=json&method=track.getInfo&track=Ambitious",
+  "_decoded_content": {
+    "track": {
+      "name": "Ambitious",
+      "url": "https:\/\/www.last.fm\/music\/Jack+Harlow\/_\/Ambitious",
+      "duration": "172000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "86025",
+      "playcount": "433968",
+      "artist": {
+        "name": "Jack Harlow",
+        "url": "https:\/\/www.last.fm\/music\/Jack+Harlow"
+      },
+      "album": {
+        "artist": "Jack Harlow",
+        "title": "Jackman. [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Jack+Harlow\/Jackman.+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6ee81e936d4efec8d1e26ef5aff39c02.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6ee81e936d4efec8d1e26ef5aff39c02.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6ee81e936d4efec8d1e26ef5aff39c02.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6ee81e936d4efec8d1e26ef5aff39c02.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Best song on the album",
+            "url": "https:\/\/www.last.fm\/tag\/Best+song+on+the+album"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Apr 2023, 15:20",
+        "summary": "In \u201cAmbitious\u201c, Jack Harlow contemplates the ambitions he\u2019s had at three different ages: 14, 19 and 24. He raps about how he\u2019s become successful through the years and how everything that seemed crazy when he was younger isn\u2019t anymore. <a href=\"http:\/\/www.last.fm\/music\/Jack+Harlow\/_\/Ambitious\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cAmbitious\u201c, Jack Harlow contemplates the ambitions he\u2019s had at three different ages: 14, 19 and 24. He raps about how he\u2019s become successful through the years and how everything that seemed crazy when he was younger isn\u2019t anymore. <a href=\"http:\/\/www.last.fm\/music\/Jack+Harlow\/_\/Ambitious\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

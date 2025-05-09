@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:07.354266+00:00",
+  "elapsed": 0.212369,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:07.354266+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1776",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Venetia"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Venetia",
+  "_decoded_content": {
+    "track": {
+      "name": "Venetia",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Venetia",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "241677",
+      "playcount": "2911650",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Oct 2024, 12:32",
+        "summary": "Venetia is the second song of Lil Uzi\u2019s third persona, Uzi, off of Eternal Atake, in which Uzi brags about acquiring new money and getting cars. He has done everything including turning a gay girl straight and never turning his back on his 1600 block friends, while rapping about his constant wear of designer brands such as Dior. The songs' title may be in reference to the person who named Pluto, Venetia Burney. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Venetia\">Read more on Last.fm<\/a>.",
+        "content": "Venetia is the second song of Lil Uzi\u2019s third persona, Uzi, off of Eternal Atake, in which Uzi brags about acquiring new money and getting cars. He has done everything including turning a gay girl straight and never turning his back on his 1600 block friends, while rapping about his constant wear of designer brands such as Dior. The songs' title may be in reference to the person who named Pluto, Venetia Burney. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Venetia\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

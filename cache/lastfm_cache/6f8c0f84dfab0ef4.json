@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:30:42.531184+00:00",
+  "elapsed": 0.189953,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:42.531184+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1932",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Armed+and+Dangerous"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Armed+and+Dangerous",
+  "_decoded_content": {
+    "track": {
+      "name": "Armed And Dangerous",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Armed+And+Dangerous",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "481556",
+      "playcount": "7672478",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Dec 2019, 20:26",
+        "summary": "\u201cArmed & Dangerous\u201d is about Juice\u2019s lifestyle of wealth, drugs and guns and him reflecting upon his superiority to others after becoming famous.\n\nThis marks the first collaboration between Juice and Dre Moon.\n\nThe song was performed at concerts in Copenhagen and Amsterdam on the JUICEWRLD: The World Domination Tour. Clips from the concert are also included in the music video.\n\nIn March, 2019, it was also added to his debut album, Goodbye and Good Riddance.\n\n:0 <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Armed+And+Dangerous\">Read more on Last.fm<\/a>.",
+        "content": "\u201cArmed & Dangerous\u201d is about Juice\u2019s lifestyle of wealth, drugs and guns and him reflecting upon his superiority to others after becoming famous.\n\nThis marks the first collaboration between Juice and Dre Moon.\n\nThe song was performed at concerts in Copenhagen and Amsterdam on the JUICEWRLD: The World Domination Tour. Clips from the concert are also included in the music video.\n\nIn March, 2019, it was also added to his debut album, Goodbye and Good Riddance.\n\n:0 <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Armed+And+Dangerous\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

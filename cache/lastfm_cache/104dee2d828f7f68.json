@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:12.271608+00:00",
+  "elapsed": 0.183168,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:12.271608+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2497",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Alone+Again"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Alone+Again",
+  "_decoded_content": {
+    "track": {
+      "name": "Alone Again",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Alone+Again",
+      "duration": "250000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "546498",
+      "playcount": "6130420",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "After Hours",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/After+Hours",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4583932b753c96d0d2f22fe9774e5ef3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jul 2021, 03:35",
+        "summary": "\u201cAlone Again\u201d serves as the opener of Abel\u2019s long-awaited 2020 album After Hours. On the track, Abel addresses a substance abuse issue and overdose scare, asking his lover to remind him of who he is and draw him out of his problem. The track\u2019s production features twinkly synthesizers transitioning into a harder hitting beat with droning bass and aggressive drums.\n\nThe track was first previewed in a one-minute clip on Abel\u2019s Twitter and Instagram pages. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Alone+Again\">Read more on Last.fm<\/a>.",
+        "content": "\u201cAlone Again\u201d serves as the opener of Abel\u2019s long-awaited 2020 album After Hours. On the track, Abel addresses a substance abuse issue and overdose scare, asking his lover to remind him of who he is and draw him out of his problem. The track\u2019s production features twinkly synthesizers transitioning into a harder hitting beat with droning bass and aggressive drums.\n\nThe track was first previewed in a one-minute clip on Abel\u2019s Twitter and Instagram pages. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Alone+Again\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

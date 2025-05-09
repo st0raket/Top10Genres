@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:09.263562+00:00",
+  "elapsed": 0.22378,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:09.263562+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2897",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Secrets"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Secrets",
+  "_decoded_content": {
+    "track": {
+      "name": "Secrets",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Secrets",
+      "duration": "265000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "520252",
+      "playcount": "5275992",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "Starboy",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/Starboy",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/08e3f15aca0423b084fb49f342756f3b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/08e3f15aca0423b084fb49f342756f3b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/08e3f15aca0423b084fb49f342756f3b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/08e3f15aca0423b084fb49f342756f3b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jun 2020, 15:59",
+        "summary": "\u201cSecrets,\u201d initially inspired by Dolly Parton and Conway Twitty, finds Abel explaining that he can fully understand what\u2019s going on in the girls mind. A preview of the song appeared on the \u201cM A N I A\u201d visuals, released on the 23rd of November 2016, two days before the official release.\n\nThe track was initially meant as a country song, but later changed by Doc McKinney, Cirkut and Sir Dylan to a new-wave\/soul styled version, marking one of The Weeknd\u2019s new artificial styles. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Secrets\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSecrets,\u201d initially inspired by Dolly Parton and Conway Twitty, finds Abel explaining that he can fully understand what\u2019s going on in the girls mind. A preview of the song appeared on the \u201cM A N I A\u201d visuals, released on the 23rd of November 2016, two days before the official release.\n\nThe track was initially meant as a country song, but later changed by Doc McKinney, Cirkut and Sir Dylan to a new-wave\/soul styled version, marking one of The Weeknd\u2019s new artificial styles.\n\nThe song has Abel singing lower notes than his famous falsetto, which he is used to. As the song continues, Abel slowly changes to a somewhat of a Transatlantic accent.\n\nThe track noticeably samples two well known New Wave songs. The entire chorus is an interpolation of The Romantics' \u201cTalking In Your Sleep,\u201d while the backing track also relies heavily on a sample of Tears For Fears' \u201cPale Shelter.\u201d <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Secrets\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

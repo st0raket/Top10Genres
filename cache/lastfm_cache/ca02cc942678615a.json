@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:03.012466+00:00",
+  "elapsed": 0.201465,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:03.012466+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2826",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Modern+Loneliness"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Modern+Loneliness",
+  "_decoded_content": {
+    "track": {
+      "name": "Modern Loneliness",
+      "url": "https:\/\/www.last.fm\/music\/Lauv\/_\/Modern+Loneliness",
+      "duration": "252000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "126912",
+      "playcount": "1098644",
+      "artist": {
+        "name": "Lauv",
+        "url": "https:\/\/www.last.fm\/music\/Lauv"
+      },
+      "album": {
+        "artist": "Lauv",
+        "title": "~how i'm feeling~",
+        "url": "https:\/\/www.last.fm\/music\/Lauv\/~how+i%27m+feeling~",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "vocal harmonies",
+            "url": "https:\/\/www.last.fm\/tag\/vocal+harmonies"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "lonely",
+            "url": "https:\/\/www.last.fm\/tag\/lonely"
+          },
+          {
+            "name": "major key tonality",
+            "url": "https:\/\/www.last.fm\/tag\/major+key+tonality"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jan 2022, 20:19",
+        "summary": "On \u201cModern Loneliness,\u201d American singer-songwriter Lauv sings about the \u2018modern way\u2019 of being lonely despite people being constantly surrounded by friends.\n\nThis is the tenth and final pre-released single from Lauv\u2019s debut album \"~how i\u2019m feeling~\" which dropped in early March 2020. It was preceded by the upbeat \u201cTattoos Together\u201d with a similar release rollout.\n\n\u201cModern Loneliness\u201d\u2019s release date was shared with fans on social media back in February 18, 2020, alongside a little note: <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Modern+Loneliness\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cModern Loneliness,\u201d American singer-songwriter Lauv sings about the \u2018modern way\u2019 of being lonely despite people being constantly surrounded by friends.\n\nThis is the tenth and final pre-released single from Lauv\u2019s debut album \"~how i\u2019m feeling~\" which dropped in early March 2020. It was preceded by the upbeat \u201cTattoos Together\u201d with a similar release rollout.\n\n\u201cModern Loneliness\u201d\u2019s release date was shared with fans on social media back in February 18, 2020, alongside a little note:\n\n\"[This is my] favorite song I\u2019ve ever made and the most important song of my career so far.\"\n\nThe lyrics play a huge part in setting the song\u2019s mood. Shortly after the song was released, Lauv took to Twitter to encourage fans to \u201cLISTEN TO THE LYRICS \ud83d\ude2d.\u201d <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Modern+Loneliness\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

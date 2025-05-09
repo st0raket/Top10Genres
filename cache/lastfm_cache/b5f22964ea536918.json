@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:34:53.309927+00:00",
+  "elapsed": 0.242784,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:53.309927+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "813",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zkr&format=json&method=track.getInfo&track=Intro+%239"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zkr&format=json&method=track.getInfo&track=Intro+%239",
+  "_decoded_content": {
+    "track": {
+      "name": "Intro #9",
+      "url": "https:\/\/www.last.fm\/music\/ZKR\/_\/Intro+%239",
+      "duration": "284000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2090",
+      "playcount": "16060",
+      "artist": {
+        "name": "ZKR",
+        "url": "https:\/\/www.last.fm\/music\/ZKR"
+      },
+      "album": {
+        "artist": "ZKR",
+        "title": "Dans les mains",
+        "url": "https:\/\/www.last.fm\/music\/ZKR\/Dans+les+mains",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aef07d45173116c76974c3582de7ec0e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aef07d45173116c76974c3582de7ec0e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aef07d45173116c76974c3582de7ec0e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aef07d45173116c76974c3582de7ec0e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

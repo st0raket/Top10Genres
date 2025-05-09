@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:29:24.744186+00:00",
+  "elapsed": 0.214061,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:24.743779+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1125",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Betta+Lemme&format=json&method=track.getInfo&track=Bambola"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Betta+Lemme&format=json&method=track.getInfo&track=Bambola",
+  "_decoded_content": {
+    "track": {
+      "name": "Bambola",
+      "url": "https:\/\/www.last.fm\/music\/Betta+Lemme\/_\/Bambola",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "27338",
+      "playcount": "221890",
+      "artist": {
+        "name": "Betta Lemme",
+        "url": "https:\/\/www.last.fm\/music\/Betta+Lemme"
+      },
+      "album": {
+        "artist": "Betta Lemme",
+        "title": "Bambola",
+        "url": "https:\/\/www.last.fm\/music\/Betta+Lemme\/Bambola",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fb2ccc48064d26700d82b09e95c78866.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fb2ccc48064d26700d82b09e95c78866.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fb2ccc48064d26700d82b09e95c78866.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fb2ccc48064d26700d82b09e95c78866.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "canada",
+            "url": "https:\/\/www.last.fm\/tag\/canada"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          }
+        ]
+      }
+    }
+  }
+}

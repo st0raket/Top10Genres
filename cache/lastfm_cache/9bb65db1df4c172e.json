@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:43.517770+00:00",
+  "elapsed": 0.223061,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:43.517770+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2445",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Smoking+on+my+Ex+Pack"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Smoking+on+my+Ex+Pack",
+  "_decoded_content": {
+    "track": {
+      "name": "Smoking on My Ex Pack",
+      "url": "https:\/\/www.last.fm\/music\/SZA\/_\/Smoking+on+My+Ex+Pack",
+      "duration": "83000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "528322",
+      "playcount": "4868605",
+      "artist": {
+        "name": "SZA",
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "url": "https:\/\/www.last.fm\/music\/SZA"
+      },
+      "album": {
+        "artist": "SZA",
+        "title": "SOS",
+        "url": "https:\/\/www.last.fm\/music\/SZA\/SOS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "sza",
+            "url": "https:\/\/www.last.fm\/tag\/sza"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Dec 2022, 02:44",
+        "summary": "The eleventh song on SZA\u2019s sophomore album, SOS, is \u201cSmoking on my Ex Pack.\u201d The song is aimed at one of her ex boyfriends.\nSmoking her ex\u2019s pack is mentioned in the lyrics, which alludes to properly disrepecting them, and moving on from a previous relationship. The song\u2019s overall message appears to be one of independence and moving on.\n\n\u201cSmoking on my Ex Pack\u201d debuted at #52 on the Billboard Hot 100 during the chart week ending of December 24, 2022. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Smoking+on+My+Ex+Pack\">Read more on Last.fm<\/a>.",
+        "content": "The eleventh song on SZA\u2019s sophomore album, SOS, is \u201cSmoking on my Ex Pack.\u201d The song is aimed at one of her ex boyfriends.\nSmoking her ex\u2019s pack is mentioned in the lyrics, which alludes to properly disrepecting them, and moving on from a previous relationship. The song\u2019s overall message appears to be one of independence and moving on.\n\n\u201cSmoking on my Ex Pack\u201d debuted at #52 on the Billboard Hot 100 during the chart week ending of December 24, 2022. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Smoking+on+My+Ex+Pack\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

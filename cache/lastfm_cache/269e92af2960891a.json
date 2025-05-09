@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:38:02.571115+00:00",
+  "elapsed": 0.214315,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:02.571115+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "867",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PA+Sports&format=json&method=track.getInfo&track=HEAVEN"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PA+Sports&format=json&method=track.getInfo&track=HEAVEN",
+  "_decoded_content": {
+    "track": {
+      "name": "HEAVEN",
+      "url": "https:\/\/www.last.fm\/music\/PA+Sports\/_\/HEAVEN",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6316",
+      "playcount": "54670",
+      "artist": {
+        "name": "PA Sports",
+        "mbid": "444d7ee4-fd70-4bd9-b0f1-354476877ff1",
+        "url": "https:\/\/www.last.fm\/music\/PA+Sports"
+      },
+      "album": {
+        "artist": "PA Sports",
+        "title": "HEAVEN",
+        "url": "https:\/\/www.last.fm\/music\/PA+Sports\/HEAVEN",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/35858a5b2dddbde83abaffa965f224ca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/35858a5b2dddbde83abaffa965f224ca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/35858a5b2dddbde83abaffa965f224ca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/35858a5b2dddbde83abaffa965f224ca.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

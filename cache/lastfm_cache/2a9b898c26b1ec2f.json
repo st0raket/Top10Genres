@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:38.989171+00:00",
+  "elapsed": 0.204854,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:38.989171+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2037",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IZ%2AONE&format=json&method=track.getInfo&track=La+Vie+en+Rose"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IZ%2AONE&format=json&method=track.getInfo&track=La+Vie+en+Rose",
+  "_decoded_content": {
+    "track": {
+      "name": "La Vie en Rose",
+      "url": "https:\/\/www.last.fm\/music\/IZ%2AONE\/_\/La+Vie+en+Rose",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "284200",
+      "playcount": "4866978",
+      "artist": {
+        "name": "IZ*ONE",
+        "url": "https:\/\/www.last.fm\/music\/IZ%2AONE"
+      },
+      "album": {
+        "artist": "IZ*ONE",
+        "title": "Twelve",
+        "url": "https:\/\/www.last.fm\/music\/IZ%2AONE\/Twelve",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cca1da55da9b7d391a1cf174d2b41820.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cca1da55da9b7d391a1cf174d2b41820.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cca1da55da9b7d391a1cf174d2b41820.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cca1da55da9b7d391a1cf174d2b41820.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Nov 2021, 07:13",
+        "summary": "La Vie en Rose is the debut single by South Korean girl group Iz*One, released on October 29, 2018 by Off the Record Entertainment as the lead single from their debut  (EP) Color*Iz. It was written, composed and produced by the MosPick Music Producing Group from Cube Entertainment. <a href=\"http:\/\/www.last.fm\/music\/IZ%2AONE\/_\/La+Vie+en+Rose\">Read more on Last.fm<\/a>.",
+        "content": "La Vie en Rose is the debut single by South Korean girl group Iz*One, released on October 29, 2018 by Off the Record Entertainment as the lead single from their debut  (EP) Color*Iz. It was written, composed and produced by the MosPick Music Producing Group from Cube Entertainment. <a href=\"http:\/\/www.last.fm\/music\/IZ%2AONE\/_\/La+Vie+en+Rose\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:42.422194+00:00",
+  "elapsed": 0.218367,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:42.422194+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2403",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TOMORROW+X+TOGETHER&format=json&method=track.getInfo&track=Good+Boy+Gone+Bad"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TOMORROW+X+TOGETHER&format=json&method=track.getInfo&track=Good+Boy+Gone+Bad",
+  "_decoded_content": {
+    "track": {
+      "name": "Good Boy Gone Bad",
+      "url": "https:\/\/www.last.fm\/music\/TOMORROW+X+TOGETHER\/_\/Good+Boy+Gone+Bad",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "293639",
+      "playcount": "12094716",
+      "artist": {
+        "name": "TOMORROW X TOGETHER",
+        "url": "https:\/\/www.last.fm\/music\/TOMORROW+X+TOGETHER"
+      },
+      "album": {
+        "artist": "TOMORROW X TOGETHER",
+        "title": "minisode 2: Thursday\u2019s Child",
+        "url": "https:\/\/www.last.fm\/music\/TOMORROW+X+TOGETHER\/minisode+2:+Thursday%E2%80%99s+Child",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/03142d8389d68a877ded6b095b9a2089.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/03142d8389d68a877ded6b095b9a2089.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/03142d8389d68a877ded6b095b9a2089.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/03142d8389d68a877ded6b095b9a2089.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 May 2022, 00:29",
+        "summary": "TOMORROW X TOGETHER\u2019s \u201cGood Boy Gone Bad\u201d, a hip hop and rock-influenced track marks a dark and heavily emotional transformation of a titular \u201cboy\u201d with a good temperament after experiencing a typical break-up for the first time, as also shows the power of majesty in an awe thing.\n\nThe song serves as the title track off of the group\u2019s fourth mini album, minisode 2: Thursday\u2019s Child. <a href=\"http:\/\/www.last.fm\/music\/TOMORROW+X+TOGETHER\/_\/Good+Boy+Gone+Bad\">Read more on Last.fm<\/a>.",
+        "content": "TOMORROW X TOGETHER\u2019s \u201cGood Boy Gone Bad\u201d, a hip hop and rock-influenced track marks a dark and heavily emotional transformation of a titular \u201cboy\u201d with a good temperament after experiencing a typical break-up for the first time, as also shows the power of majesty in an awe thing.\n\nThe song serves as the title track off of the group\u2019s fourth mini album, minisode 2: Thursday\u2019s Child. <a href=\"http:\/\/www.last.fm\/music\/TOMORROW+X+TOGETHER\/_\/Good+Boy+Gone+Bad\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:32.090350+00:00",
+  "elapsed": 0.287993,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:32.090350+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1164",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Raf+Camora&format=json&method=track.getInfo&track=Primo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Raf+Camora&format=json&method=track.getInfo&track=Primo",
+  "_decoded_content": {
+    "track": {
+      "name": "Primo",
+      "url": "https:\/\/www.last.fm\/music\/RAF+Camora\/_\/Primo",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "26637",
+      "playcount": "293843",
+      "artist": {
+        "name": "RAF Camora",
+        "mbid": "a5386648-7b2c-4e0a-8094-ac5d16b91e54",
+        "url": "https:\/\/www.last.fm\/music\/RAF+Camora"
+      },
+      "album": {
+        "artist": "RAF Camora",
+        "title": "Anthrazit",
+        "url": "https:\/\/www.last.fm\/music\/RAF+Camora\/Anthrazit",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a75ca6b4b4fd43b62615630475da094c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a75ca6b4b4fd43b62615630475da094c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a75ca6b4b4fd43b62615630475da094c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a75ca6b4b4fd43b62615630475da094c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "austrian",
+            "url": "https:\/\/www.last.fm\/tag\/austrian"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          },
+          {
+            "name": "Deutschrap",
+            "url": "https:\/\/www.last.fm\/tag\/Deutschrap"
+          }
+        ]
+      }
+    }
+  }
+}

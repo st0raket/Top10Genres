@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:29:22.675378+00:00",
+  "elapsed": 0.204547,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:22.675378+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1162",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Julia+Michaels&format=json&method=track.getInfo&track=Heaven"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Julia+Michaels&format=json&method=track.getInfo&track=Heaven",
+  "_decoded_content": {
+    "track": {
+      "name": "Heaven",
+      "url": "https:\/\/www.last.fm\/music\/Julia+Michaels\/_\/Heaven",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "303693",
+      "playcount": "2102910",
+      "artist": {
+        "name": "Julia Michaels",
+        "url": "https:\/\/www.last.fm\/music\/Julia+Michaels"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Cool Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Cool+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/089024716f48bccad8b343608dbaea4f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/089024716f48bccad8b343608dbaea4f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/089024716f48bccad8b343608dbaea4f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/089024716f48bccad8b343608dbaea4f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Bad boys",
+            "url": "https:\/\/www.last.fm\/tag\/Bad+boys"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalist"
+          },
+          {
+            "name": "evil",
+            "url": "https:\/\/www.last.fm\/tag\/evil"
+          }
+        ]
+      }
+    }
+  }
+}

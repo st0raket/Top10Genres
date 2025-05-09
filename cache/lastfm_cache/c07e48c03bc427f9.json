@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:39:16.724929+00:00",
+  "elapsed": 0.176362,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:16.724929+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1168",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Grupo+Frontera&format=json&method=track.getInfo&track=un+x100to"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Grupo+Frontera&format=json&method=track.getInfo&track=un+x100to",
+  "_decoded_content": {
+    "track": {
+      "name": "un x100to",
+      "url": "https:\/\/www.last.fm\/music\/Grupo+Frontera\/_\/un+x100to",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "293509",
+      "playcount": "3491563",
+      "artist": {
+        "name": "Grupo Frontera",
+        "url": "https:\/\/www.last.fm\/music\/Grupo+Frontera"
+      },
+      "album": {
+        "artist": "Grupo Frontera",
+        "title": "un x100to",
+        "url": "https:\/\/www.last.fm\/music\/Grupo+Frontera\/un+x100to",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b205be343c12a5aa406ab2db32edb5c2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b205be343c12a5aa406ab2db32edb5c2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b205be343c12a5aa406ab2db32edb5c2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b205be343c12a5aa406ab2db32edb5c2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "garbage",
+            "url": "https:\/\/www.last.fm\/tag\/garbage"
+          },
+          {
+            "name": "cringe",
+            "url": "https:\/\/www.last.fm\/tag\/cringe"
+          },
+          {
+            "name": "bad bunny",
+            "url": "https:\/\/www.last.fm\/tag\/bad+bunny"
+          },
+          {
+            "name": "Grupo Frontera",
+            "url": "https:\/\/www.last.fm\/tag\/Grupo+Frontera"
+          }
+        ]
+      }
+    }
+  }
+}

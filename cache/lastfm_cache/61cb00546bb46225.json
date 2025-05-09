@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:29:56.459211+00:00",
+  "elapsed": 0.182926,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:56.459211+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2042",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KIDS+SEE+GHOSTS&format=json&method=track.getInfo&track=Reborn"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KIDS+SEE+GHOSTS&format=json&method=track.getInfo&track=Reborn",
+  "_decoded_content": {
+    "track": {
+      "name": "Reborn",
+      "url": "https:\/\/www.last.fm\/music\/Kids+See+Ghosts\/_\/Reborn",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "654090",
+      "playcount": "10195465",
+      "artist": {
+        "name": "Kids See Ghosts",
+        "url": "https:\/\/www.last.fm\/music\/Kids+See+Ghosts"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Mar 2021, 17:47",
+        "summary": "This song is the hit song off the collaboration album  between Kanye West and Kid Cudi titled Kids See Ghosts. The song takes the listener on the journey that both artists are going through. Kanye speaks on his past issues and controversies with acceptance and perseverance. Kid cudi melodically raps about overcoming his struggles including suicidal thoughts and depression. He talks of being reborn as a new man, stronger and better than ever. The song connects with just about everyone, and is an amazing pick-me-up song for people feeling down. <a href=\"http:\/\/www.last.fm\/music\/Kids+See+Ghosts\/_\/Reborn\">Read more on Last.fm<\/a>.",
+        "content": "This song is the hit song off the collaboration album  between Kanye West and Kid Cudi titled Kids See Ghosts. The song takes the listener on the journey that both artists are going through. Kanye speaks on his past issues and controversies with acceptance and perseverance. Kid cudi melodically raps about overcoming his struggles including suicidal thoughts and depression. He talks of being reborn as a new man, stronger and better than ever. The song connects with just about everyone, and is an amazing pick-me-up song for people feeling down. <a href=\"http:\/\/www.last.fm\/music\/Kids+See+Ghosts\/_\/Reborn\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

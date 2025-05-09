@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:22.988045+00:00",
+  "elapsed": 0.209541,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:22.988045+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2568",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fetty+Wap&format=json&method=track.getInfo&track=Again"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fetty+Wap&format=json&method=track.getInfo&track=Again",
+  "_decoded_content": {
+    "track": {
+      "name": "Again",
+      "url": "https:\/\/www.last.fm\/music\/Fetty+Wap\/_\/Again",
+      "duration": "312000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "441279",
+      "playcount": "2879737",
+      "artist": {
+        "name": "Fetty Wap",
+        "url": "https:\/\/www.last.fm\/music\/Fetty+Wap"
+      },
+      "album": {
+        "artist": "Fetty Wap",
+        "title": "Fetty Wap (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Fetty+Wap\/Fetty+Wap+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9da99f00fc1f754450e16b2fafcb8bb9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9da99f00fc1f754450e16b2fafcb8bb9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9da99f00fc1f754450e16b2fafcb8bb9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9da99f00fc1f754450e16b2fafcb8bb9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "catchy",
+            "url": "https:\/\/www.last.fm\/tag\/catchy"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          },
+          {
+            "name": "hype",
+            "url": "https:\/\/www.last.fm\/tag\/hype"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jul 2022, 06:42",
+        "summary": "\u201cAgain\u201d could be a follow-up to Fetty\u2019s smash hit \u201cTrap Queen\u201d \u2013 an ode to the mystery woman he loves. \u201cAgain\u201d serves as the song that tries to win her back following a breakup. Interpolated lyrics from \u201cTrap Queen\u201d back up this idea.\n\nThis song is an old Fetty Wap track from 2014, but wasn\u2019t released until early 2015 under 300 Entertainment. The song debuted at #8 on the Billboard Hot Rap Songs joining three other Fetty Wap songs in the Top Ten (\u201cTrap Queen <a href=\"http:\/\/www.last.fm\/music\/Fetty+Wap\/_\/Again\">Read more on Last.fm<\/a>.",
+        "content": "\u201cAgain\u201d could be a follow-up to Fetty\u2019s smash hit \u201cTrap Queen\u201d \u2013 an ode to the mystery woman he loves. \u201cAgain\u201d serves as the song that tries to win her back following a breakup. Interpolated lyrics from \u201cTrap Queen\u201d back up this idea.\n\nThis song is an old Fetty Wap track from 2014, but wasn\u2019t released until early 2015 under 300 Entertainment. The song debuted at #8 on the Billboard Hot Rap Songs joining three other Fetty Wap songs in the Top Ten (\u201cTrap Queen,\u201d \u201c679\u201d, and \u201cMy Way\u201d), the first time in the history of the chart that an artist had four simultaneous top ten hits. <a href=\"http:\/\/www.last.fm\/music\/Fetty+Wap\/_\/Again\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

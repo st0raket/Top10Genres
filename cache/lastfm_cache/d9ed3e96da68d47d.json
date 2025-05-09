@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:22.196478+00:00",
+  "elapsed": 0.229752,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:22.196478+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6720",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=White+Horse"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=White+Horse",
+  "_decoded_content": {
+    "track": {
+      "name": "White Horse",
+      "mbid": "c46a220b-32be-4094-b38c-78b84d76ec0a",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/White+Horse",
+      "duration": "234000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "421749",
+      "playcount": "2961185",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Fearless",
+        "mbid": "6caf2472-3922-403e-90bf-19a45d98d065",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Fearless",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Apr 2009, 08:32",
+        "summary": "\"White Horse\" is a song by American singer-songwriter Taylor Swift and the second single from her second studio album, Fearless. Big Machine Records released the track to US country radio on December 8, 2008. Swift wrote \"White Horse\" with Liz Rose and produced it with Nathan Chapman. An understated country pop ballad, the song is driven by a finger-picked guitar and includes piano and cello accents. The lyrics incorporate fairy-tale imagery of princesses <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/White+Horse\">Read more on Last.fm<\/a>.",
+        "content": "\"White Horse\" is a song by American singer-songwriter Taylor Swift and the second single from her second studio album, Fearless. Big Machine Records released the track to US country radio on December 8, 2008. Swift wrote \"White Horse\" with Liz Rose and produced it with Nathan Chapman. An understated country pop ballad, the song is driven by a finger-picked guitar and includes piano and cello accents. The lyrics incorporate fairy-tale imagery of princesses and white horses\u2014a narrator is heartbroken on realizing that her boyfriend is not an ideal figure like she thought, and in the end leaves her town with hopes of finding somebody more worthy.\n\nMusic critics lauded \"White Horse\" for what they deemed a somber production and a portrayal of universal feelings arising from heartbreak, but some found the lyrics uncreative. At the 2010 Grammy Awards, the track won Best Country Song and Best Female Country Vocal Performance. In the United States, the single peaked at number 13 on the Billboard Hot 100 and number two on the Hot Country Songs chart, and the Recording Industry Association of America (RIAA) certified it double platinum. The song also charted in Australia, Canada, and the United Kingdom; it received certifications in the first two countries.\n\nTrey Fanjoy directed the song's music video, which depicts Swift reliving memories with her ex-boyfriend after having ended their relationship through a phone call. The video premiered on February 7, 2009, on CMT, and it became the first video to debut at number one on the network's countdown. Swift performed \"White Horse\" live at the 2008 American Music Awards, on her Fearless Tour (2009\u20132010), and on select dates of her later tours. Following the 2019 dispute regarding the ownership of Swift's back catalog, she re-recorded the song as \"White Horse (Taylor's Version)\" for her 2021 re-recorded album Fearless (Taylor's Version).\n\nAccording to a note published in the liner notes of Swift's 2019 album Lover, part of the lyrics to \"White Horse\" dated from December 2006. She wrote the first verse by herself; co-writer Liz Rose helped her complete the song in 45 minutes. Swift completed writing \"White Horse\" weeks after she finished the lead single \"Love Story\", almost one year before the release of Fearless. Swift said she was inspired to write \"White Horse\" by the moment she realized all the fantasies she had about a boy turned out completely false. The subject was also the inspiration for \"Love Story\"\u2014Swift never dated him and, although initially infatuated with him, realized he was not an ideal Prince Charming like she thought. She told The Daily Telegraph that she kept his identity anonymous so as to \"not glorify his inspirational qualities\". Whereas both \"Love Story\" and \"White Horse\" feature prominent fairy-tale lyrical imagery, Swift said it was important to regard fairy tales with \"both sides\"; the former song represented her optimistic and idealistic viewpoint on romance, and the latter her disillusionment with the said notion.\n\nSwift intended to leave \"White Horse\" off Fearless because she felt the album already had a fair share of sad songs. She changed the decision when the producers of Grey's Anatomy wanted to feature the song in the series. Swift recalled that at a meeting set up by her agency with the show's executive producers Shonda Rhimes and Betsy Beers, she played \"White Horse\" alone on guitar and they \"freaked out\". The song appeared on the premiere of season five, broadcast on September 25, 2008. Swift was elated by the feature and said it was her \"life goal\" to have her song on Grey's Anatomy, one of her favorite series.\n\n\"White Horse\" was released as an album cut on Fearless, on November 11, 2008, by Big Machine Records. On December 8, Big Machine released the song to US country radio as the second single from the album. In the United States, \"White Horse\" debuted and peaked at number 13 on the Billboard Hot 100 chart week ending November 29, 2008. It gave Swift her sixth top-20 debut in 2008, which broke the record for the most top-20 debuts in a calendar year by an artist. On Hot Country Songs, the single peaked at number two on the chart week ending April 4, 2009. It was certified double platinum by the Recording Industry Association of America (RIAA) in 2014 and had sold two million digital copies in the United States by 2017. The single also charted in Australia (41), Canada (43), and the United Kingdom (60). It was certified gold in the first two countries. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/White+Horse\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

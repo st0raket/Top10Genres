@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:44.690870+00:00",
+  "elapsed": 0.340836,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:44.690870+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2655",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rita+Ora&format=json&method=track.getInfo&track=Anywhere"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rita+Ora&format=json&method=track.getInfo&track=Anywhere",
+  "_decoded_content": {
+    "track": {
+      "name": "Anywhere",
+      "url": "https:\/\/www.last.fm\/music\/Rita+Ora\/_\/Anywhere",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "239951",
+      "playcount": "2676183",
+      "artist": {
+        "name": "Rita Ora",
+        "mbid": "c9dd033c-0270-463c-b3ec-f4b7712486fe",
+        "url": "https:\/\/www.last.fm\/music\/Rita+Ora"
+      },
+      "album": {
+        "artist": "Rita Ora",
+        "title": "Anywhere - Single",
+        "url": "https:\/\/www.last.fm\/music\/Rita+Ora\/Anywhere+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/886753efeb9f4208c6840185b14da17a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/886753efeb9f4208c6840185b14da17a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/886753efeb9f4208c6840185b14da17a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/886753efeb9f4208c6840185b14da17a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "hino",
+            "url": "https:\/\/www.last.fm\/tag\/hino"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Oct 2018, 07:25",
+        "summary": "\"Anywhere\" is a song by British singer Rita Ora. It was released on 20 October 2017 as the second single from Ora's second studio album, Phoenix (2018). The track was written by Ali Tamposi, Brian Lee, Nick Gale and Ora, and its producers Alesso, Andrew Watt and Sir Nolan. It is a wistful, dance-pop and electropop love song about escapism, featuring a breakdown of stuttering vocal loops.\n\nThe song was chosen as The Guardian's track of the week. Commercially <a href=\"http:\/\/www.last.fm\/music\/Rita+Ora\/_\/Anywhere\">Read more on Last.fm<\/a>.",
+        "content": "\"Anywhere\" is a song by British singer Rita Ora. It was released on 20 October 2017 as the second single from Ora's second studio album, Phoenix (2018). The track was written by Ali Tamposi, Brian Lee, Nick Gale and Ora, and its producers Alesso, Andrew Watt and Sir Nolan. It is a wistful, dance-pop and electropop love song about escapism, featuring a breakdown of stuttering vocal loops.\n\nThe song was chosen as The Guardian's track of the week. Commercially, \"Anywhere\" reached number two on the UK Singles Chart, making it Ora's eleventh UK top-ten single. The music video, directed by Declan Whitebloom, shows Ora in various locations throughout New York City.  <a href=\"http:\/\/www.last.fm\/music\/Rita+Ora\/_\/Anywhere\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

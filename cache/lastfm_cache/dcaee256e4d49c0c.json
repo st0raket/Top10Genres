@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:36:19.833500+00:00",
+  "elapsed": 0.215877,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:19.833500+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1185",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+127&format=json&method=track.getInfo&track=Dreamer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+127&format=json&method=track.getInfo&track=Dreamer",
+  "_decoded_content": {
+    "track": {
+      "name": "Dreamer",
+      "url": "https:\/\/www.last.fm\/music\/NCT+127\/_\/Dreamer",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "50651",
+      "playcount": "486663",
+      "artist": {
+        "name": "NCT 127",
+        "url": "https:\/\/www.last.fm\/music\/NCT+127"
+      },
+      "album": {
+        "artist": "NCT 127",
+        "title": "Favorite - The 3rd Album Repackage",
+        "url": "https:\/\/www.last.fm\/music\/NCT+127\/Favorite+-+The+3rd+Album+Repackage",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0240e04459899db01f5f5c827a5651f6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0240e04459899db01f5f5c827a5651f6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0240e04459899db01f5f5c827a5651f6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0240e04459899db01f5f5c827a5651f6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "good music",
+            "url": "https:\/\/www.last.fm\/tag\/good+music"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "ruined by johnny",
+            "url": "https:\/\/www.last.fm\/tag\/ruined+by+johnny"
+          }
+        ]
+      }
+    }
+  }
+}

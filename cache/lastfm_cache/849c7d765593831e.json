@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:37:47.098610+00:00",
+  "elapsed": 0.204204,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:47.098610+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1953",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Insane"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Insane",
+  "_decoded_content": {
+    "track": {
+      "name": "Insane",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Insane",
+      "duration": "169000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "134207",
+      "playcount": "1070180",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Post Malone",
+        "title": "Twelve Carat Toothache",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone\/Twelve+Carat+Toothache",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d897b8b9afe75c015ae753ff914f9021.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d897b8b9afe75c015ae753ff914f9021.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d897b8b9afe75c015ae753ff914f9021.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d897b8b9afe75c015ae753ff914f9021.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "post malone",
+            "url": "https:\/\/www.last.fm\/tag\/post+malone"
+          },
+          {
+            "name": "dumb but fun rhymes",
+            "url": "https:\/\/www.last.fm\/tag\/dumb+but+fun+rhymes"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jun 2022, 23:00",
+        "summary": "\u201cInsane\u201d is the seventh song of Post Malone\u2019s fourth studio album \"Twelve Carat Toothache\". With trap production by frequent collaborator Louis Bell and Post himself, he goes through his lifestyle after fame, involving money and women. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Insane\">Read more on Last.fm<\/a>.",
+        "content": "\u201cInsane\u201d is the seventh song of Post Malone\u2019s fourth studio album \"Twelve Carat Toothache\". With trap production by frequent collaborator Louis Bell and Post himself, he goes through his lifestyle after fame, involving money and women. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Insane\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

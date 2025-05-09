@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:28.752552+00:00",
+  "elapsed": 0.186264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:28.752552+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4390",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Why+Don%27t+We&format=json&method=track.getInfo&track=8+Letters"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Why+Don%27t+We&format=json&method=track.getInfo&track=8+Letters",
+  "_decoded_content": {
+    "track": {
+      "name": "8 Letters",
+      "url": "https:\/\/www.last.fm\/music\/why+don%27t+we\/_\/8+Letters",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "211770",
+      "playcount": "2078912",
+      "artist": {
+        "name": "why don't we",
+        "url": "https:\/\/www.last.fm\/music\/why+don%27t+we"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Mar 2022, 00:47",
+        "summary": "On \u201c8 Letters,\u201d Why Don\u2019t We talk about a phrase containing eight letters, which was later confirmed as the phrase \u201cI love you\u201d. The song serves as the third single and title track from Why Don\u2019t We\u2019s debut album.\n\nThe track became the band\u2019s first to hit one-hundred million streams on Spotify, and did so on April 7th 2019.\n\nJust a month later, the track also became their first single to be certified gold by the RIAA \u2013 moving over 500,000 units within nine months. <a href=\"http:\/\/www.last.fm\/music\/why+don%27t+we\/_\/8+Letters\">Read more on Last.fm<\/a>.",
+        "content": "On \u201c8 Letters,\u201d Why Don\u2019t We talk about a phrase containing eight letters, which was later confirmed as the phrase \u201cI love you\u201d. The song serves as the third single and title track from Why Don\u2019t We\u2019s debut album.\n\nThe track became the band\u2019s first to hit one-hundred million streams on Spotify, and did so on April 7th 2019.\n\nJust a month later, the track also became their first single to be certified gold by the RIAA \u2013 moving over 500,000 units within nine months.\n\nThe song is about being scared of falling in love with someone new, trusting them, and finally saying those eight letters despite previous heartbreak. The song shares a similar meaning with a previous Why Don\u2019t We song, \u201cRunner\u201d, albeit being told from the opposite perspective.\n\n\"I remember we were in this writing camp. We literally probably made 70 songs there. It was actually lunchtime, and I finished eating early as I usually do. I went into studio C or something like that. There were these writers, they had that synth thing going, and starting to come up with lyrics and stuff, and I remember I ran over to Daniel, and I was like \u201cYo, they have like some crazy stuff going on in studio C, you got to come over\u201d, we went and just sat in there, on the session, and just helped out. Because there would be days, we\u2019d have like 5 studios going every day, so there\u2019d be days some of us would be in 1 studio, some of us would be in the next studio. So, we were all working on something crazy, we\u2019re like \u201cyo, come in here.\u201d\"\n\n\"They were coming up with ideas like every single second. And they are so fresh. It was cool too, I mean, some writers, you go in, and they\u2019re very independent, like they are doing their thing, and they have a way of doing it on their own, and that\u2019s cool, you still want them to come and bring their ideas. But these guys are so cool because we would just come into the session, and they would totally be open to us adding ideas, or just coming in and listening, and like, so I don\u2019t know, they were really chill guys, we could just hang with them. Johnny is just the freshest man on this earth. He has a different mind. He\u2019s a really chill guy, and it was cool, because he would kinda really take life experiences and start ranting about them, and out of nowhere, a lyric would pop up from this rant he just did. And the Monsters have a really dope name. They would just take music a lot of places you wouldn\u2019t expect it to go, like you would hear this, and that\u2019s what a lot of people would hear, and then The Monsters would be like, we\u2019re the Monsters, and it\u2019d interesting to see where they would take it. I think this is a deeper song than we\u2019ve ever really put out before. We\u2019re tapping into some real emotional stuff. It was so, like, crazy to be working with the people we got to work with on this song, because we dreamt of working with them. It was super cool.\" <a href=\"http:\/\/www.last.fm\/music\/why+don%27t+we\/_\/8+Letters\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

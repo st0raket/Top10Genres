@@ -1,0 +1,93 @@
+{
+  "created_at": "2025-05-03T14:44:25.119779+00:00",
+  "elapsed": 0.234259,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:25.119779+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1241",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stan+Kenton&format=json&method=track.getInfo&track=Lonesome+Train"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stan+Kenton&format=json&method=track.getInfo&track=Lonesome+Train",
+  "_decoded_content": {
+    "track": {
+      "name": "Lonesome Train",
+      "mbid": "8f76a0a4-2a81-49fa-803c-1842cb28671a",
+      "url": "https:\/\/www.last.fm\/music\/Stan+Kenton\/_\/Lonesome+Train",
+      "duration": "166000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2223",
+      "playcount": "3869",
+      "artist": {
+        "name": "Stan Kenton",
+        "mbid": "f19ce47e-2ceb-484c-9c4d-c04dcc7aff7e",
+        "url": "https:\/\/www.last.fm\/music\/Stan+Kenton"
+      },
+      "album": {
+        "artist": "Stan Kenton",
+        "title": "New Concepts of Artistry in Rhythm",
+        "mbid": "0279b907-868a-4207-93d1-22d04b0fa0c8",
+        "url": "https:\/\/www.last.fm\/music\/Stan+Kenton\/New+Concepts+of+Artistry+in+Rhythm",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32de8eb5240f4f999f4ad866b8cfd0cb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32de8eb5240f4f999f4ad866b8cfd0cb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32de8eb5240f4f999f4ad866b8cfd0cb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32de8eb5240f4f999f4ad866b8cfd0cb.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "weird jazz",
+            "url": "https:\/\/www.last.fm\/tag\/weird+jazz"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          }
+        ]
+      }
+    }
+  }
+}

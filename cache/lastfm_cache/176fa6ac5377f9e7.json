@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:06.955855+00:00",
+  "elapsed": 0.199835,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:06.955855+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2043",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=POP"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=POP",
+  "_decoded_content": {
+    "track": {
+      "name": "POP",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/POP",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "223436",
+      "playcount": "1868036",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "best",
+            "url": "https:\/\/www.last.fm\/tag\/best"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 May 2021, 16:21",
+        "summary": "Lil Uzi Vert talks about having sexual intercourse with a girl while toting major car brands and flexing his money in the process\n\nLil Uzi Vert tweeted that songs 1 \u2013 6 is him in Baby Pluto version. From the first six songs, Uzi talks about women and ladies a lot more than usual. However this song talks about his sexual encounters with ladies and how they are addicted to him, he also switches back to his usual braggadocios style and flexes a bit for while but later comes back to speak about his sexual encounters again <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/POP\">Read more on Last.fm<\/a>.",
+        "content": "Lil Uzi Vert talks about having sexual intercourse with a girl while toting major car brands and flexing his money in the process\n\nLil Uzi Vert tweeted that songs 1 \u2013 6 is him in Baby Pluto version. From the first six songs, Uzi talks about women and ladies a lot more than usual. However this song talks about his sexual encounters with ladies and how they are addicted to him, he also switches back to his usual braggadocios style and flexes a bit for while but later comes back to speak about his sexual encounters again\n\n\u201cPOP\u201d debuted at #28 on the Billboard Hot 100 for the chart week of March 21, 2020. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/POP\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:33.651473+00:00",
+  "elapsed": 0.183496,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:33.651473+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3080",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=I+Was+Never+There"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=I+Was+Never+There",
+  "_decoded_content": {
+    "track": {
+      "name": "I Was Never There",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/I+Was+Never+There",
+      "duration": "241000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "963723",
+      "playcount": "11975556",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "Camels on the Road",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/Camels+on+the+Road",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0527371ab8b7f3f6025da0b8e53f837f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0527371ab8b7f3f6025da0b8e53f837f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0527371ab8b7f3f6025da0b8e53f837f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0527371ab8b7f3f6025da0b8e53f837f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 May 2022, 22:07",
+        "summary": "On \u201cI Was Never There,\u201d The Weeknd waxes lyrically about the end of a meaningful relationship.\n\nAbel describes a recurring tale of his attempts to remedy his happiless life, while spinning it as if it's of someone elses, which does repeatedly with the line \"it was like he was never there\", despite the title being \"I Was Never There\"\n\nHe's unable to deal with the break-up in a healthy way, resorting to drugs, alcohol, and casual sex to numb the pain. While he recognizes that this is self-destructive, he pins the blame on the other party. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/I+Was+Never+There\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cI Was Never There,\u201d The Weeknd waxes lyrically about the end of a meaningful relationship.\n\nAbel describes a recurring tale of his attempts to remedy his happiless life, while spinning it as if it's of someone elses, which does repeatedly with the line \"it was like he was never there\", despite the title being \"I Was Never There\"\n\nHe's unable to deal with the break-up in a healthy way, resorting to drugs, alcohol, and casual sex to numb the pain. While he recognizes that this is self-destructive, he pins the blame on the other party.\n\nAs with the rest of My Dear Melancholy, there is speculation as to whether Bella Hadid or Selena Gomez is the subject of this song. It is likely the latter, considering she features as a theme for the majority of the rest of the album as well.\n\n\u201cI Was Never There\u201d (along with \u201cHurt You,\u201d also from My Dear Melancholy,) marks The Weeknd\u2019s first collaboration with Gesaffelstein. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/I+Was+Never+There\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:46.754872+00:00",
+  "elapsed": 0.285329,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:46.754872+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3006",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tears+For+Fears&format=json&method=track.getInfo&track=Everybody+Wants+To+Rule+The+World"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tears+For+Fears&format=json&method=track.getInfo&track=Everybody+Wants+To+Rule+The+World",
+  "_decoded_content": {
+    "track": {
+      "name": "Everybody Wants to Rule the World",
+      "mbid": "e4b347be-ecb2-44ff-aaa8-3d4c517d7ea5",
+      "url": "https:\/\/www.last.fm\/music\/Tears+for+Fears\/_\/Everybody+Wants+to+Rule+the+World",
+      "duration": "250000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2279780",
+      "playcount": "24230225",
+      "artist": {
+        "name": "Tears for Fears",
+        "mbid": "7c7f9c94-dee8-4903-892b-6cf44652e2de",
+        "url": "https:\/\/www.last.fm\/music\/Tears+for+Fears"
+      },
+      "album": {
+        "artist": "Tears for Fears",
+        "title": "Songs from the Big Chair",
+        "mbid": "714c8fa2-0a75-470b-a5d3-3709e41aa6dd",
+        "url": "https:\/\/www.last.fm\/music\/Tears+for+Fears\/Songs+from+the+Big+Chair",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dcd9b642fec54a00a4cb310fd9775608.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dcd9b642fec54a00a4cb310fd9775608.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dcd9b642fec54a00a4cb310fd9775608.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dcd9b642fec54a00a4cb310fd9775608.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "new wave",
+            "url": "https:\/\/www.last.fm\/tag\/new+wave"
+          },
+          {
+            "name": "Tears for Fears",
+            "url": "https:\/\/www.last.fm\/tag\/Tears+for+Fears"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Nov 2008, 22:34",
+        "summary": "\"Everybody Wants to Rule the World\" is a song by the English New Wave band Tears for Fears.\n\nIt was the band's ninth single release in the United Kingdom (the third from their second LP: Songs from the Big Chair) and seventh UK Top 40 chart hit, peaking at number two in April 1985.\n\n In the U.S., it was the lead single from the album and gave the band their first Billboard Hot 100 number-one hit on 8 June 1985, remaining there for two weeks. It also <a href=\"http:\/\/www.last.fm\/music\/Tears+for+Fears\/_\/Everybody+Wants+to+Rule+the+World\">Read more on Last.fm<\/a>.",
+        "content": "\"Everybody Wants to Rule the World\" is a song by the English New Wave band Tears for Fears.\n\nIt was the band's ninth single release in the United Kingdom (the third from their second LP: Songs from the Big Chair) and seventh UK Top 40 chart hit, peaking at number two in April 1985.\n\n In the U.S., it was the lead single from the album and gave the band their first Billboard Hot 100 number-one hit on 8 June 1985, remaining there for two weeks. It also reached number-one on both the Hot Dance Music\/Club Play and Hot Dance Singles Sales charts in the U.S.\n The song has since become the pinnacle of Tears for Fears' chart success, its endurance allowing it to accumulate over two million radio broadcasts by 1994, according to BMI.\n\n <a href=\"http:\/\/www.last.fm\/music\/Tears+for+Fears\/_\/Everybody+Wants+to+Rule+the+World\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

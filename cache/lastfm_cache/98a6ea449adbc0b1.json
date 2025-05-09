@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:08.810718+00:00",
+  "elapsed": 0.181991,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:08.810718+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2620",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=The+Louvre"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=The+Louvre",
+  "_decoded_content": {
+    "track": {
+      "name": "The Louvre",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/The+Louvre",
+      "duration": "271000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "634478",
+      "playcount": "10311275",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Melodrama",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Melodrama",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Dec 2020, 02:05",
+        "summary": "\"The Louvre\" is about a passionate and intense relationship between two people. The narrator has become obsessed with the other person but is aware that the relationship might not be the healthiest one for her. Despite this, she does not want to let it go and can't help but fall in love with them. The chorus reflects this intense energy and desire as the narrator repeatedly calls for the other person to \"make 'em all dance to\" their relationship. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/The+Louvre\">Read more on Last.fm<\/a>.",
+        "content": "\"The Louvre\" is about a passionate and intense relationship between two people. The narrator has become obsessed with the other person but is aware that the relationship might not be the healthiest one for her. Despite this, she does not want to let it go and can't help but fall in love with them. The chorus reflects this intense energy and desire as the narrator repeatedly calls for the other person to \"make 'em all dance to\" their relationship. The song is ultimately an anthem of passionate love and appreciation - even if it is a bit unhealthy - with the ultimate hope that the two of them will become immortalized in the world-famous Louvre Museum. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/The+Louvre\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

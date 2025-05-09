@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:44:58.693546+00:00",
+  "elapsed": 0.251372,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:58.693546+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "956",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Axwell+%2F%5C+Ingrosso&format=json&method=track.getInfo&track=I+Love+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Axwell+%2F%5C+Ingrosso&format=json&method=track.getInfo&track=I+Love+You",
+  "_decoded_content": {
+    "track": {
+      "name": "I Love You",
+      "url": "https:\/\/www.last.fm\/music\/Axwell+%2F%5C+Ingrosso\/_\/I+Love+You",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62817",
+      "playcount": "294361",
+      "artist": {
+        "name": "Axwell \/\\ Ingrosso",
+        "url": "https:\/\/www.last.fm\/music\/Axwell+%2F%5C+Ingrosso"
+      },
+      "album": {
+        "artist": "Axwell \/\\ Ingrosso",
+        "title": "I Love You",
+        "url": "https:\/\/www.last.fm\/music\/Axwell+%2F%5C+Ingrosso\/I+Love+You",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ddad57b7885bcf9d4f2e0e920bad1905.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ddad57b7885bcf9d4f2e0e920bad1905.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ddad57b7885bcf9d4f2e0e920bad1905.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ddad57b7885bcf9d4f2e0e920bad1905.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "kid ink",
+            "url": "https:\/\/www.last.fm\/tag\/kid+ink"
+          }
+        ]
+      }
+    }
+  }
+}

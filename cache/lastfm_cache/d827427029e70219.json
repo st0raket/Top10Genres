@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:33.160101+00:00",
+  "elapsed": 0.188705,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:33.160101+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3320",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=P%21nk&format=json&method=track.getInfo&track=Never+Gonna+Not+Dance+Again"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=P%21nk&format=json&method=track.getInfo&track=Never+Gonna+Not+Dance+Again",
+  "_decoded_content": {
+    "track": {
+      "name": "Never Gonna Not Dance Again",
+      "url": "https:\/\/www.last.fm\/music\/P%21nk\/_\/Never+Gonna+Not+Dance+Again",
+      "duration": "221000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "107804",
+      "playcount": "654002",
+      "artist": {
+        "name": "P!nk",
+        "mbid": "f4d5cc07-3bc9-4836-9b15-88a08359bc63",
+        "url": "https:\/\/www.last.fm\/music\/P%21nk"
+      },
+      "album": {
+        "artist": "P!nk",
+        "title": "Never Gonna Not Dance Again",
+        "url": "https:\/\/www.last.fm\/music\/P%21nk\/Never+Gonna+Not+Dance+Again",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7d9d42571620a975f16109413a37d727.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7d9d42571620a975f16109413a37d727.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7d9d42571620a975f16109413a37d727.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7d9d42571620a975f16109413a37d727.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "happy",
+            "url": "https:\/\/www.last.fm\/tag\/happy"
+          },
+          {
+            "name": "saxophone",
+            "url": "https:\/\/www.last.fm\/tag\/saxophone"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Nov 2022, 21:43",
+        "summary": "\"Never Gonna Not Dance Again\" is a song by American singer Pink. It was released on November 4, 2022, as the lead single from her ninth studio album Trustfall.\n\nOn October 6, 2022, Pink announced that she would be touring in the UK and Europe as part of her Summer Carnival Tour in 2023. On October 17, 2022, two weeks before the song's release, Pink teased the song and released a snippet on social media. The song became available to stream on Apple Music and Spotify on November 4, 2022. <a href=\"http:\/\/www.last.fm\/music\/P%21nk\/_\/Never+Gonna+Not+Dance+Again\">Read more on Last.fm<\/a>.",
+        "content": "\"Never Gonna Not Dance Again\" is a song by American singer Pink. It was released on November 4, 2022, as the lead single from her ninth studio album Trustfall.\n\nOn October 6, 2022, Pink announced that she would be touring in the UK and Europe as part of her Summer Carnival Tour in 2023. On October 17, 2022, two weeks before the song's release, Pink teased the song and released a snippet on social media. The song became available to stream on Apple Music and Spotify on November 4, 2022. Some critics felt it was too similar to \"Can't Stop the Feeling!\"\n\nThe song was described as \"an upbeat anthem about dancing through our perpetually hard times\". An associated press release called the track \"vibrant, joyful and euphoric\". In an interview with Good Morning America, Pink said that the song reflected her desire to just find happiness, saying \"you can take everything I have, but you can't take my joy.\" In the same interview, she noted that insecurities should not limit people from doing what they want.\n\nThe music video was released on YouTube the same day. The singer is seen wearing a colorful outfit and roller skating in a grocery store and a parking lot. At the end, the former transforms into a nightclub. <a href=\"http:\/\/www.last.fm\/music\/P%21nk\/_\/Never+Gonna+Not+Dance+Again\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

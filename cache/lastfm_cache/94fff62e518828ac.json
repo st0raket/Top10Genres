@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:28:38.898584+00:00",
+  "elapsed": 0.202517,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:38.898584+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "587",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%AC%E3%82%A4%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%97%E3%82%BB%E3%83%B3&format=json&method=track.getInfo&track=Cut+to+the+Feeling"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%AC%E3%82%A4%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%97%E3%82%BB%E3%83%B3&format=json&method=track.getInfo&track=Cut+to+the+Feeling",
+  "_decoded_content": {
+    "track": {
+      "name": "Cut to the Feeling",
+      "url": "https:\/\/www.last.fm\/music\/%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%AC%E3%82%A4%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%97%E3%82%BB%E3%83%B3\/_\/Cut+to+the+Feeling",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1041",
+      "playcount": "4670",
+      "artist": {
+        "name": "\u30ab\u30fc\u30ea\u30fc\u30fb\u30ec\u30a4\u30fb\u30b8\u30a7\u30d7\u30bb\u30f3",
+        "mbid": "09887aa7-226e-4ecc-9a0c-02d2ae5777e1",
+        "url": "https:\/\/www.last.fm\/music\/%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%AC%E3%82%A4%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%97%E3%82%BB%E3%83%B3"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

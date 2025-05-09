@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:11.141676+00:00",
+  "elapsed": 0.216655,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:11.141676+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4304",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coolio&format=json&method=track.getInfo&track=Gangsta%27s+Paradise"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coolio&format=json&method=track.getInfo&track=Gangsta%27s+Paradise",
+  "_decoded_content": {
+    "track": {
+      "name": "Gangsta's Paradise",
+      "mbid": "2f7a6735-2e09-4ce2-81e4-b148e6c39a55",
+      "url": "https:\/\/www.last.fm\/music\/Coolio\/_\/Gangsta%27s+Paradise",
+      "duration": "241000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1578365",
+      "playcount": "11095988",
+      "artist": {
+        "name": "Coolio",
+        "mbid": "cc30e630-8c75-4d78-b205-8e2edc6bdaa7",
+        "url": "https:\/\/www.last.fm\/music\/Coolio"
+      },
+      "album": {
+        "artist": "Coolio",
+        "title": "Gangsta's Paradise",
+        "mbid": "aafc82e5-d09a-4923-b659-f94f8cc3a441",
+        "url": "https:\/\/www.last.fm\/music\/Coolio\/Gangsta%27s+Paradise",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6389cb742ee846d28100600f70a317d5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6389cb742ee846d28100600f70a317d5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6389cb742ee846d28100600f70a317d5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6389cb742ee846d28100600f70a317d5.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Mar 2009, 19:45",
+        "summary": "\"Gangsta's Paradise\" is a rap song by Coolio featuring L.V. from the movie Dangerous Minds. The song was later released on the albums Gangsta's Paradise and Dangerous Minds soundtrack in 1995. Coolio was awarded a Grammy for the song\/album. The song was voted as the best single of the year in The Village Voice Pazz & Jop critics poll.\n\nIt sampled the chorus and music of the song \"Pastime Paradise\" by Stevie Wonder. The song was also listed at #69 on Billboard's Greatest Songs of All-Time. <a href=\"http:\/\/www.last.fm\/music\/Coolio\/_\/Gangsta%27s+Paradise\">Read more on Last.fm<\/a>.",
+        "content": "\"Gangsta's Paradise\" is a rap song by Coolio featuring L.V. from the movie Dangerous Minds. The song was later released on the albums Gangsta's Paradise and Dangerous Minds soundtrack in 1995. Coolio was awarded a Grammy for the song\/album. The song was voted as the best single of the year in The Village Voice Pazz & Jop critics poll.\n\nIt sampled the chorus and music of the song \"Pastime Paradise\" by Stevie Wonder. The song was also listed at #69 on Billboard's Greatest Songs of All-Time. In 2008, it was ranked number 38 on VH1's 100 Greatest Songs of Hip Hop.\n\nFollowing Coolio's appearance in the UK TV show Celebrity Big Brother 2009 Gangsta's Paradise re-entered the UK singles chart peaking at #31. L.V. released a solo version of the single in 1996 on his debut album, I Am L.V. This version did not feature Coolio and featured additional lyrics written by L.V. himself. The single did not repeat the popularity of the original with Coolio.\n\nThe music is a reworking of Stevie Wonder's \"Pastime Paradise\", a song from his album Songs in the Key of Life. \"Gangsta's Paradise\" uses the same tune and a different orchestration of the same backing music. Coolio changed the lyrics to be more relevant to life on the streets.\n\nThe song begins with a line from Psalm 23:4 from the Bible: As I walk through the valley of the shadow of death, but then diverges with: I take a look at my life \/ And realize there's nothin' left. Adding to some of the religious overtones are choral vocals in the background. Many of the lyrics are very dark and tragic and are meant to be a criticism of the violence and tragedy of the \"gangsta\" life. The choral lines (sung by L.V.) Tell me why are we so blind to see \/ That the ones we hurt are you and me offer an especially plaintive self-criticism. The music video for the song was directed by Antoine Fuqua of Propaganda Films and featured Michelle Pfeiffer reprising her earlier role in Dangerous Minds. When Coolio won Best Rap Video at the MTV Video Music Awards in 1996, he said in a press conference that Bone Thugs-n-Harmony deserved the award for \"Tha Crossroads\". <a href=\"http:\/\/www.last.fm\/music\/Coolio\/_\/Gangsta%27s+Paradise\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

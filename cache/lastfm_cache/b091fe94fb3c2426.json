@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:39.757438+00:00",
+  "elapsed": 0.193206,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:39.757438+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2550",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chanel&format=json&method=track.getInfo&track=SloMo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chanel&format=json&method=track.getInfo&track=SloMo",
+  "_decoded_content": {
+    "track": {
+      "name": "SloMo",
+      "url": "https:\/\/www.last.fm\/music\/Chanel\/_\/SloMo",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "73234",
+      "playcount": "1232744",
+      "artist": {
+        "name": "Chanel",
+        "mbid": "a4f4fa8a-48bd-4d26-b3b7-88e57e908ffe",
+        "url": "https:\/\/www.last.fm\/music\/Chanel"
+      },
+      "album": {
+        "artist": "Chanel",
+        "title": "SloMo",
+        "url": "https:\/\/www.last.fm\/music\/Chanel\/SloMo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32df11d5bf036506a830a9d0149e62cd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32df11d5bf036506a830a9d0149e62cd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32df11d5bf036506a830a9d0149e62cd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32df11d5bf036506a830a9d0149e62cd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "eurovision 2022",
+            "url": "https:\/\/www.last.fm\/tag\/eurovision+2022"
+          },
+          {
+            "name": "ESC 2022",
+            "url": "https:\/\/www.last.fm\/tag\/ESC+2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jan 2023, 04:40",
+        "summary": "\"SloMo\" is the debut single by Cuban-Spanish singer Chanel Terrero. The song represented Spain in the Eurovision Song Contest 2022 in Turin, Italy, finishing in third place becoming the best result for Spain since 1995.\n\nThe single was certified triple platinum in Spain.\n\nIn a press conference, Chanel reported that the song spoke of \"empowerment, to feel comfortable with your body, strong, big and stepping well, put on your crown and twerk to the ground. It is impossible not to get up from the chair.\" <a href=\"http:\/\/www.last.fm\/music\/Chanel\/_\/SloMo\">Read more on Last.fm<\/a>.",
+        "content": "\"SloMo\" is the debut single by Cuban-Spanish singer Chanel Terrero. The song represented Spain in the Eurovision Song Contest 2022 in Turin, Italy, finishing in third place becoming the best result for Spain since 1995.\n\nThe single was certified triple platinum in Spain.\n\nIn a press conference, Chanel reported that the song spoke of \"empowerment, to feel comfortable with your body, strong, big and stepping well, put on your crown and twerk to the ground. It is impossible not to get up from the chair.\" <a href=\"http:\/\/www.last.fm\/music\/Chanel\/_\/SloMo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

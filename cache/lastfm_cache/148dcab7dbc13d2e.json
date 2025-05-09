@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:44:14.510511+00:00",
+  "elapsed": 0.214115,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:14.510511+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2565",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROSAL%C3%8DA&format=json&method=track.getInfo&track=Milion%C3%A0ria"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROSAL%C3%8DA&format=json&method=track.getInfo&track=Milion%C3%A0ria",
+  "_decoded_content": {
+    "track": {
+      "name": "Milion\u00e0ria",
+      "url": "https:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/Milion%C3%A0ria",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "123544",
+      "playcount": "1144211",
+      "artist": {
+        "name": "Rosal\u00eda",
+        "mbid": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+        "url": "https:\/\/www.last.fm\/music\/Rosal%C3%ADa"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "catalan",
+            "url": "https:\/\/www.last.fm\/tag\/catalan"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "rumba",
+            "url": "https:\/\/www.last.fm\/tag\/rumba"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Jul 2023, 20:45",
+        "summary": "\"Milion\u00e0ria\" portrays a materialistic and aspirational perspective on life where wealth is the ultimate goal, and the more money one has, the more powerful and happy they feel.\n\nThe song is all about the singer's desire to become wealthy and live a luxurious lifestyle. She believes that she was born to be a millionaire and that money can bring her happiness and success. In the first verse, she describes how she envisions herself throwing money into the air like it's raining and traveling to exotic destinations like Mumbai and Malta. <a href=\"http:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/Milion%C3%A0ria\">Read more on Last.fm<\/a>.",
+        "content": "\"Milion\u00e0ria\" portrays a materialistic and aspirational perspective on life where wealth is the ultimate goal, and the more money one has, the more powerful and happy they feel.\n\nThe song is all about the singer's desire to become wealthy and live a luxurious lifestyle. She believes that she was born to be a millionaire and that money can bring her happiness and success. In the first verse, she describes how she envisions herself throwing money into the air like it's raining and traveling to exotic destinations like Mumbai and Malta. The second verse talks about how money can grant her access to exclusive places, including art museums like the Louvre and the MACBA.\n\nThe chorus, which repeats throughout the song, emphasizes her desire to see \"fucking money\" and the dollar sign in her mind. She wants to see nothing less than a hundred-dollar bill. In the bridge, she talks about the luxury items she owns, such as her diamond-covered Audemars watches and a Hublot Black Caviar Bang Bang watch that she could give away as a gift. She also mentions having her own island and buying a star. <a href=\"http:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/Milion%C3%A0ria\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

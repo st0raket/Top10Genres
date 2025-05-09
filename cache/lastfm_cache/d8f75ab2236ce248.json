@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:40.953354+00:00",
+  "elapsed": 0.18787,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:40.953354+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3190",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Long+Live"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Long+Live",
+  "_decoded_content": {
+    "track": {
+      "name": "Long Live",
+      "mbid": "10a72d45-cb69-413c-8969-9f0d3dfa27e2",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Long+Live",
+      "duration": "317000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "409703",
+      "playcount": "4764679",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Speak Now",
+        "mbid": "829d9e28-e7a8-4f91-a21a-1eef17da356d",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Speak+Now",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "14"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Nov 2010, 13:58",
+        "summary": "Taylor Swift explains the story behind \"Long Live\" on her official website:\n\n\"Long Live,\" (in parentheses \"We Will Be Remembered\"), is the first song where I've ever had parentheses in the title. Besides that, though, this song is about my band, and my producer, and all the people who have helped us build this brick by brick. The fans, the people who I feel that we are all in this together, this song talks about the triumphant moments that we've had in the last two years. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Long+Live\">Read more on Last.fm<\/a>.",
+        "content": "Taylor Swift explains the story behind \"Long Live\" on her official website:\n\n\"Long Live,\" (in parentheses \"We Will Be Remembered\"), is the first song where I've ever had parentheses in the title. Besides that, though, this song is about my band, and my producer, and all the people who have helped us build this brick by brick. The fans, the people who I feel that we are all in this together, this song talks about the triumphant moments that we've had in the last two years. We've had times where we just jump up and down, and dance like we don't care how we're dancing, and just scream at the top of our lungs, \"How is this happening?\" And, I feel very lucky to even have had one of those moments, nonetheless all the ones that I got to have.\n\n\"Long Live\" is about how I feel reflecting on it. This song for me is like looking at a photo album of all the award shows, and all the stadium shows, and all the hands in the air in the crowd. It's sort of the first love song that I've written to my team.\" <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Long+Live\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

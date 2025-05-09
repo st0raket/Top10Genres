@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:07.157171+00:00",
+  "elapsed": 0.178666,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:07.157171+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2638",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YNW+Melly&format=json&method=track.getInfo&track=Murder+On+My+Mind"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YNW+Melly&format=json&method=track.getInfo&track=Murder+On+My+Mind",
+  "_decoded_content": {
+    "track": {
+      "name": "Murder On My Mind",
+      "url": "https:\/\/www.last.fm\/music\/YNW+Melly\/_\/Murder+On+My+Mind",
+      "duration": "268000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "501136",
+      "playcount": "5216437",
+      "artist": {
+        "name": "YNW Melly",
+        "url": "https:\/\/www.last.fm\/music\/YNW+Melly"
+      },
+      "album": {
+        "artist": "YNW Melly",
+        "title": "Murder On My Mind",
+        "url": "https:\/\/www.last.fm\/music\/YNW+Melly\/Murder+On+My+Mind",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b9a697544e91a9092a251a51bda7307f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b9a697544e91a9092a251a51bda7307f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b9a697544e91a9092a251a51bda7307f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b9a697544e91a9092a251a51bda7307f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Horrorcore",
+            "url": "https:\/\/www.last.fm\/tag\/Horrorcore"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Apr 2021, 12:56",
+        "summary": "\u201cMurder on My Mind\u201d is YNW Melly\u2019s breakout song. It depicts a dark, upsetting story of Melly shooting a close friend and holding him in his arms as he slowly lost consciousness and died. Melly also mentions his previous jail time served for gun charges and drug possession.\n\n\u201cMurder on My Mind\u201d was soon followed up by a sequel, \u201cMind on My Murder,\u201d which depicts the same events of this song from the victim\u2019s perspective. It is subsequent in the album\u2019s tracklisting. <a href=\"http:\/\/www.last.fm\/music\/YNW+Melly\/_\/Murder+On+My+Mind\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMurder on My Mind\u201d is YNW Melly\u2019s breakout song. It depicts a dark, upsetting story of Melly shooting a close friend and holding him in his arms as he slowly lost consciousness and died. Melly also mentions his previous jail time served for gun charges and drug possession.\n\n\u201cMurder on My Mind\u201d was soon followed up by a sequel, \u201cMind on My Murder,\u201d which depicts the same events of this song from the victim\u2019s perspective. It is subsequent in the album\u2019s tracklisting.\n\nThe shooting he refers to in this song happened in 2016 or earlier, it is NOT a confession for charges he is currently facing. <a href=\"http:\/\/www.last.fm\/music\/YNW+Melly\/_\/Murder+On+My+Mind\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

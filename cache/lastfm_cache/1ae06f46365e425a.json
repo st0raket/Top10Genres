@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:48.180283+00:00",
+  "elapsed": 0.18048,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:48.180283+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3479",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Creedence+Clearwater+Revival&format=json&method=track.getInfo&track=Have+You+Ever+Seen+The+Rain"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Creedence+Clearwater+Revival&format=json&method=track.getInfo&track=Have+You+Ever+Seen+The+Rain",
+  "_decoded_content": {
+    "track": {
+      "name": "Have You Ever Seen the Rain",
+      "mbid": "c6e5ba59-bbcb-4064-afc2-74b3375e5a79",
+      "url": "https:\/\/www.last.fm\/music\/Creedence+Clearwater+Revival\/_\/Have+You+Ever+Seen+the+Rain",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1346232",
+      "playcount": "9965746",
+      "artist": {
+        "name": "Creedence Clearwater Revival",
+        "mbid": "44c48a1b-defd-4222-bee6-03f9ee9a7be9",
+        "url": "https:\/\/www.last.fm\/music\/Creedence+Clearwater+Revival"
+      },
+      "album": {
+        "artist": "Creedence Clearwater Revival",
+        "title": "Creedence Gold",
+        "mbid": "317f9fad-4334-4f09-941c-d06a7775431c",
+        "url": "https:\/\/www.last.fm\/music\/Creedence+Clearwater+Revival\/Creedence+Gold",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/317e62e14606466fb9484ac889c8626d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/317e62e14606466fb9484ac889c8626d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/317e62e14606466fb9484ac889c8626d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/317e62e14606466fb9484ac889c8626d.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "Southern Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Rock"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Nov 2008, 09:50",
+        "summary": "This song is John Fogerty's take on the imminent departure of his brother Tom from the band, and the overall tension in the group at a time when they should have been enjoying their success. The line, \"I want to know - have you ever seen the rain comin' down on a sunny day?\" refers to Tom leaving while CCR was at its commercial zenith. The flip side of this single, \"Hey Tonight\", is John reassuring the band that all would go well despite the adversity. <a href=\"http:\/\/www.last.fm\/music\/Creedence+Clearwater+Revival\/_\/Have+You+Ever+Seen+the+Rain\">Read more on Last.fm<\/a>.",
+        "content": "This song is John Fogerty's take on the imminent departure of his brother Tom from the band, and the overall tension in the group at a time when they should have been enjoying their success. The line, \"I want to know - have you ever seen the rain comin' down on a sunny day?\" refers to Tom leaving while CCR was at its commercial zenith. The flip side of this single, \"Hey Tonight\", is John reassuring the band that all would go well despite the adversity.\n\nAccording to John Fogerty, this song's meaning changed for him over time. Introducing the song at a 2012 show in Arizona, he said: \"This song was originally written about a very sad thing that was going on in my life. But I refuse to be sad now. Because now this song reminds me of my little girl, Kelsy, and every time I sing it, I think about Kelsy and rainbows.\"\n\nMusically, this song was inspired by the group Booker T. & the MG's, whose most famous song is \"Green Onions.\" They opened for Creedence Clearwater Revival before CCR recorded the Pendulum album. John Fogerty loved the sound of Booker T. Jones' Hammond organ, so he used it on some tracks for the album, including this one. <a href=\"http:\/\/www.last.fm\/music\/Creedence+Clearwater+Revival\/_\/Have+You+Ever+Seen+the+Rain\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

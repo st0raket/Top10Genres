@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:29:06.786767+00:00",
+  "elapsed": 0.220279,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:06.786767+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "712",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Darlene+Love&format=json&method=track.getInfo&track=Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Darlene+Love&format=json&method=track.getInfo&track=Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Christmas",
+      "url": "https:\/\/www.last.fm\/music\/Darlene+Love\/_\/Christmas",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "823",
+      "playcount": "2445",
+      "artist": {
+        "name": "Darlene Love",
+        "mbid": "af953ba2-283b-41ef-93bc-b4cfc5feeebc",
+        "url": "https:\/\/www.last.fm\/music\/Darlene+Love"
+      },
+      "album": {
+        "artist": "Christmas Band, Pat Boone, Chuck Berry",
+        "title": "Christmas Is Coming To Town",
+        "url": "https:\/\/www.last.fm\/music\/Christmas+Band,+Pat+Boone,+Chuck+Berry\/Christmas+Is+Coming+To+Town",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "xmas1",
+            "url": "https:\/\/www.last.fm\/tag\/xmas1"
+          }
+        ]
+      }
+    }
+  }
+}

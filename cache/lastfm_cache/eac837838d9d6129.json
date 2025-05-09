@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:40.216765+00:00",
+  "elapsed": 0.193138,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:40.216765+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3172",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Holy+Ground"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Holy+Ground",
+  "_decoded_content": {
+    "track": {
+      "name": "Holy Ground",
+      "mbid": "dc37c55f-4ef3-4493-b5e2-233d6e749e64",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Holy+Ground",
+      "duration": "254000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "263869",
+      "playcount": "2848728",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Red",
+        "mbid": "90d96ad7-ca44-41f2-bc47-cbc9c762be3b",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "country rock",
+            "url": "https:\/\/www.last.fm\/tag\/country+rock"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Sep 2022, 08:25",
+        "summary": "\u201cHoly Ground\u201d is the first of two of Swift\u2019s songs that Jeff Bhasker has produced, the first being \u201cThe Lucky One.\u201d When she started writing the song, she knew she wanted Bhasker to produce the track. Taylor contacted him and he agreed to produce the song. As a result, \u201cHoly Ground\u201d sounds different from any of Taylor\u2019s previous work.\n\nIn the song, Taylor is looking back at a whirl wind relationship from her past. She\u2019s realizing just because the relationship didn\u2019t last <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Holy+Ground\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHoly Ground\u201d is the first of two of Swift\u2019s songs that Jeff Bhasker has produced, the first being \u201cThe Lucky One.\u201d When she started writing the song, she knew she wanted Bhasker to produce the track. Taylor contacted him and he agreed to produce the song. As a result, \u201cHoly Ground\u201d sounds different from any of Taylor\u2019s previous work.\n\nIn the song, Taylor is looking back at a whirl wind relationship from her past. She\u2019s realizing just because the relationship didn\u2019t last, doesn\u2019t mean it wasn\u2019t a good memory or that it was wasted time. The memories are still important and sacred. Just because Taylor and the guy weren\u2019t meant to be, doesn\u2019t mean she can\u2019t look back fondly at the time they spent together. Every mistake is a lesson learned.\n\nThe song\u2019s hidden message is \u201cWhen you came to the show in SD\u201d which leads to assumption that this song was penned about Joe Jonas who was spotted at Taylor\u2019s San Diego show during the Speak Now tour <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Holy+Ground\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

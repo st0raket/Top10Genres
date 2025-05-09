@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:32:41.856889+00:00",
+  "elapsed": 0.198957,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:41.856889+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1746",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JACKBOYS&format=json&method=track.getInfo&track=JACKBOYS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JACKBOYS&format=json&method=track.getInfo&track=JACKBOYS",
+  "_decoded_content": {
+    "track": {
+      "name": "JACKBOYS",
+      "url": "https:\/\/www.last.fm\/music\/JackBoys\/_\/JACKBOYS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "160409",
+      "playcount": "906462",
+      "artist": {
+        "name": "JackBoys",
+        "url": "https:\/\/www.last.fm\/music\/JackBoys"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "Houston",
+            "url": "https:\/\/www.last.fm\/tag\/Houston"
+          },
+          {
+            "name": "cactus jack",
+            "url": "https:\/\/www.last.fm\/tag\/cactus+jack"
+          },
+          {
+            "name": "JACKBOYS",
+            "url": "https:\/\/www.last.fm\/tag\/JACKBOYS"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Oct 2023, 15:18",
+        "summary": "\u201cJACKBOYS\u201d is an instrumental track produced by superproducer Mike Dean alongside WondaGurl, who set the tone for the album with synths and a powerful distorted vibe. The 48-second track develops a melody growing in volume and clarity, which then transitions into and becomes the intro of \u201cGANG GANG.\u201d\n\nThe track was originally titled \u201cINTRO\u201d on streaming services before being changed to \u201cJACKBOYS\u201d a day after release. <a href=\"http:\/\/www.last.fm\/music\/JackBoys\/_\/JACKBOYS\">Read more on Last.fm<\/a>.",
+        "content": "\u201cJACKBOYS\u201d is an instrumental track produced by superproducer Mike Dean alongside WondaGurl, who set the tone for the album with synths and a powerful distorted vibe. The 48-second track develops a melody growing in volume and clarity, which then transitions into and becomes the intro of \u201cGANG GANG.\u201d\n\nThe track was originally titled \u201cINTRO\u201d on streaming services before being changed to \u201cJACKBOYS\u201d a day after release. <a href=\"http:\/\/www.last.fm\/music\/JackBoys\/_\/JACKBOYS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

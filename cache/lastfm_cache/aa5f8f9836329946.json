@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:08.427353+00:00",
+  "elapsed": 0.187805,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:08.427353+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2551",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=CAN%27T+SAY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=CAN%27T+SAY",
+  "_decoded_content": {
+    "track": {
+      "name": "CAN'T SAY",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/CAN%27T+SAY",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "766154",
+      "playcount": "12283079",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "album": {
+        "artist": "Travis Scott",
+        "title": "ASTROWORLD",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/ASTROWORLD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4386a469e620103f8436b3e969075959.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4386a469e620103f8436b3e969075959.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4386a469e620103f8436b3e969075959.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4386a469e620103f8436b3e969075959.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "don toliver",
+            "url": "https:\/\/www.last.fm\/tag\/don+toliver"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Aug 2021, 16:36",
+        "summary": "With a winding, hypnotic beat from Wondagurl and London Cyr, Travis cedes most of \u201cCAN\u2019T SAY\u201d to Houston newcomer and recent Cactus Jack signee Don Toliver.\n\nTogether, the two trade stories of getting high and pulling women.\n\nFurthering the homage to Houston hip-hop present throughout most of ASTROWORLD, the track includes an interlude sampling Fat Pat\u2019s 1998 verse from \u201c25 Lighters,\u201d a song by DJ DMD that also featured Lil Keke, who Travis also references on \u201c5% TINT.\u201d <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/CAN%27T+SAY\">Read more on Last.fm<\/a>.",
+        "content": "With a winding, hypnotic beat from Wondagurl and London Cyr, Travis cedes most of \u201cCAN\u2019T SAY\u201d to Houston newcomer and recent Cactus Jack signee Don Toliver.\n\nTogether, the two trade stories of getting high and pulling women.\n\nFurthering the homage to Houston hip-hop present throughout most of ASTROWORLD, the track includes an interlude sampling Fat Pat\u2019s 1998 verse from \u201c25 Lighters,\u201d a song by DJ DMD that also featured Lil Keke, who Travis also references on \u201c5% TINT.\u201d <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/CAN%27T+SAY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

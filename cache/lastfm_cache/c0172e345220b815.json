@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:40:51.223390+00:00",
+  "elapsed": 0.213801,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:51.223390+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1791",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lazza&format=json&method=track.getInfo&track=100+MESSAGGI"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lazza&format=json&method=track.getInfo&track=100+MESSAGGI",
+  "_decoded_content": {
+    "track": {
+      "name": "100 Messaggi",
+      "url": "https:\/\/www.last.fm\/music\/Lazza\/_\/100+Messaggi",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "20992",
+      "playcount": "370092",
+      "artist": {
+        "name": "Lazza",
+        "url": "https:\/\/www.last.fm\/music\/Lazza"
+      },
+      "album": {
+        "artist": "Lazza",
+        "title": "100 Messaggi - Single",
+        "url": "https:\/\/www.last.fm\/music\/Lazza\/100+Messaggi+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f2f580732ef33a9d1cbc15f0acf22e9b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f2f580732ef33a9d1cbc15f0acf22e9b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f2f580732ef33a9d1cbc15f0acf22e9b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f2f580732ef33a9d1cbc15f0acf22e9b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Feb 2024, 02:17",
+        "summary": "Jacopo Lazzarini, in arte Lazza, ha cantato questa canzone al Teatro Aristo di Sanremo durante la finale di Sanremo 2024, regalando al pubblico del teatro ed agli ascoltatori da casa una possibile canzone presente nel suo prossimo album. <a href=\"http:\/\/www.last.fm\/music\/Lazza\/_\/100+Messaggi\">Read more on Last.fm<\/a>.",
+        "content": "Jacopo Lazzarini, in arte Lazza, ha cantato questa canzone al Teatro Aristo di Sanremo durante la finale di Sanremo 2024, regalando al pubblico del teatro ed agli ascoltatori da casa una possibile canzone presente nel suo prossimo album. <a href=\"http:\/\/www.last.fm\/music\/Lazza\/_\/100+Messaggi\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

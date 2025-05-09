@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:45.309307+00:00",
+  "elapsed": 0.199581,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:45.309307+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3154",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=U+Got+It+Bad"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=U+Got+It+Bad",
+  "_decoded_content": {
+    "track": {
+      "name": "U Got It Bad",
+      "mbid": "74cf8434-2ea6-47a4-a23b-17fa16583951",
+      "url": "https:\/\/www.last.fm\/music\/Usher\/_\/U+Got+It+Bad",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "523630",
+      "playcount": "1959844",
+      "artist": {
+        "name": "Usher",
+        "mbid": "3414d446-735a-443c-931f-10634f57e5b9",
+        "url": "https:\/\/www.last.fm\/music\/Usher"
+      },
+      "album": {
+        "artist": "Usher",
+        "title": "8701",
+        "mbid": "a93c927a-7d57-3b94-865f-fc0d28fd44a0",
+        "url": "https:\/\/www.last.fm\/music\/Usher\/8701",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2b0c3dec9ff48568ee66946fb446ee95.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2b0c3dec9ff48568ee66946fb446ee95.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2b0c3dec9ff48568ee66946fb446ee95.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2b0c3dec9ff48568ee66946fb446ee95.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Usher",
+            "url": "https:\/\/www.last.fm\/tag\/Usher"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Nov 2013, 06:37",
+        "summary": "\"U Got It Bad\" is a song by American singer Usher, released through Arista Records as the second single from his third studio album 8701 . It was written by the singer, Jermaine Dupri and Bryan-Michael Cox, and co-produced by the former two. It was released in the United States on August 21, 2001. \"U Got It Bad\" is an R&B ballad that, according to MTV, incorporates \"digi-coustic\" guitars, a \"slow-burning bass line\" and \"sex funk\" drums. The lyrics notably contain some quick direct allusions to other soul music ballads <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/U+Got+It+Bad\">Read more on Last.fm<\/a>.",
+        "content": "\"U Got It Bad\" is a song by American singer Usher, released through Arista Records as the second single from his third studio album 8701 . It was written by the singer, Jermaine Dupri and Bryan-Michael Cox, and co-produced by the former two. It was released in the United States on August 21, 2001. \"U Got It Bad\" is an R&B ballad that, according to MTV, incorporates \"digi-coustic\" guitars, a \"slow-burning bass line\" and \"sex funk\" drums. The lyrics notably contain some quick direct allusions to other soul music ballads, mainly Maxwell's \"Fortunate\" and Prince's \"Adore\".\n\n\"U Got It Bad\" topped the US Billboard Hot 100 for one week before being replaced for four weeks by Nickelback's \"How You Remind Me\". \"U Got It Bad\" then returned to number one, going on to stay atop for five consecutive weeks. With the song and previous single \"U Remind Me\", Usher was the only solo male act to have a number-one hit on the Hot 100 in 2001. The accompanying music video features TLC's Chilli as Usher's love interest. <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/U+Got+It+Bad\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

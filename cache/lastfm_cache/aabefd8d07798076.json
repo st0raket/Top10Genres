@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:30:16.240102+00:00",
+  "elapsed": 0.234077,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:16.240102+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "421",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=I+Am+Who+They+Say+I+Am"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=I+Am+Who+They+Say+I+Am",
+  "_decoded_content": {
+    "track": {
+      "name": "I Am Who They Say I Am",
+      "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/_\/I+Am+Who+They+Say+I+Am",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3679",
+      "playcount": "17854",
+      "artist": {
+        "name": "YoungBoy Never Broke Again",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "kevin gates",
+            "url": "https:\/\/www.last.fm\/tag\/kevin+gates"
+          }
+        ]
+      }
+    }
+  }
+}

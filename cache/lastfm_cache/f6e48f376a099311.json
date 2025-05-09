@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:41.667795+00:00",
+  "elapsed": 0.179685,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:41.667795+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2586",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=You+Proof"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=You+Proof",
+  "_decoded_content": {
+    "track": {
+      "name": "You Proof",
+      "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/You+Proof",
+      "duration": "155000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "189501",
+      "playcount": "2176555",
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen"
+      },
+      "album": {
+        "artist": "Morgan Wallen",
+        "title": "You Proof",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/You+Proof",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/70289f063c4379f5787319fac19c423d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/70289f063c4379f5787319fac19c423d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/70289f063c4379f5787319fac19c423d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/70289f063c4379f5787319fac19c423d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bro-country",
+            "url": "https:\/\/www.last.fm\/tag\/bro-country"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Aug 2022, 07:54",
+        "summary": "\"You Proof\" is a song by country music singer Morgan Wallen. It debuted at #1 on the Billboard Hot Country Songs chart for May 23, 2022, replacing Wallen's own \"Thought You Should Know\" at the same position. It is Wallen's fifth single to debut at the top of that chart. It was released as a promotional single on May 13, 2022, before being released to country radio on July 18, 2022. The song was written by Wallen, along with Ashley Gorley, Ernest K. Smith and Charlie Handsome and is the lead single from Wallen's upcoming third studio album. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/You+Proof\">Read more on Last.fm<\/a>.",
+        "content": "\"You Proof\" is a song by country music singer Morgan Wallen. It debuted at #1 on the Billboard Hot Country Songs chart for May 23, 2022, replacing Wallen's own \"Thought You Should Know\" at the same position. It is Wallen's fifth single to debut at the top of that chart. It was released as a promotional single on May 13, 2022, before being released to country radio on July 18, 2022. The song was written by Wallen, along with Ashley Gorley, Ernest K. Smith and Charlie Handsome and is the lead single from Wallen's upcoming third studio album. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/You+Proof\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:40:30.914398+00:00",
+  "elapsed": 0.293494,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:30.914398+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2949",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=american+dream"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=american+dream",
+  "_decoded_content": {
+    "track": {
+      "name": "American Dream",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/American+Dream",
+      "duration": "63000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "224959",
+      "playcount": "647159",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "album": {
+        "artist": "21 Savage",
+        "title": "american dream",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage\/american+dream",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "21 savage",
+            "url": "https:\/\/www.last.fm\/tag\/21+savage"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jan 2024, 18:33",
+        "summary": "The title track and introduction to american dream is a spoken word from 21 Savage\u2019s mother, Heather Carmillia Joseph. She begins the album by outlining her son\u2019s career in the context of her own life, describing harsh choices and persevering through difficult circumstances so that her family\u2014specifically, her son, 21\u2014could have a better life and achieve his \u201cAmerican dream.\u201d In hindsight, we know that he became a successful, wealthy rapper and musician. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/American+Dream\">Read more on Last.fm<\/a>.",
+        "content": "The title track and introduction to american dream is a spoken word from 21 Savage\u2019s mother, Heather Carmillia Joseph. She begins the album by outlining her son\u2019s career in the context of her own life, describing harsh choices and persevering through difficult circumstances so that her family\u2014specifically, her son, 21\u2014could have a better life and achieve his \u201cAmerican dream.\u201d In hindsight, we know that he became a successful, wealthy rapper and musician. Via Heather\u2019s commentary, we can assume the title of this track and the album as a whole are reflective of Savage\u2019s mindset now that he is this far along on his journey in life. When the introduction ends, it smoothly transitions into \u201call of me,\u201d a song that fittingly paints a picture of 21\u2019s harsh upbringing and key events across his life.\n\nIn an Instagram post made January 9, 2024, 21\u2019s mom said:\n\nThis Friday 12th\u2026.The New @21savage Album\ud83d\ude4c\ud83c\udffe\ud83d\udc4f\ud83c\udffd\u2026Ya\u2019ll Ready ?!!!!!! Mom is \ud83e\udd70\n#AmericanDream\ud83d\udd25\ud83d\udd25\ud83d\udd25 <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/American+Dream\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

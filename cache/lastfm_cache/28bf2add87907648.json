@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:34:54.064245+00:00",
+  "elapsed": 0.196085,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:54.064245+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "253",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gazo&format=json&method=track.getInfo&track=Kassav"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gazo&format=json&method=track.getInfo&track=Kassav",
+  "_decoded_content": {
+    "track": {
+      "name": "Kassav",
+      "url": "https:\/\/www.last.fm\/music\/Gazo\/_\/Kassav",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "92",
+      "playcount": "433",
+      "artist": {
+        "name": "Gazo",
+        "url": "https:\/\/www.last.fm\/music\/Gazo"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

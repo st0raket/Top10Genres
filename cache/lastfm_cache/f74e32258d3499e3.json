@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:28:04.256805+00:00",
+  "elapsed": 0.216922,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:04.256805+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2537",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hailee+Steinfeld&format=json&method=track.getInfo&track=Most+Girls"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hailee+Steinfeld&format=json&method=track.getInfo&track=Most+Girls",
+  "_decoded_content": {
+    "track": {
+      "name": "Most Girls",
+      "url": "https:\/\/www.last.fm\/music\/Hailee+Steinfeld\/_\/Most+Girls",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "267877",
+      "playcount": "1634099",
+      "artist": {
+        "name": "Hailee Steinfeld",
+        "url": "https:\/\/www.last.fm\/music\/Hailee+Steinfeld"
+      },
+      "album": {
+        "artist": "Hailee Steinfeld",
+        "title": "Most Girls",
+        "url": "https:\/\/www.last.fm\/music\/Hailee+Steinfeld\/Most+Girls",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2c88a4bae0d18e7b638d9c94b6f3cbd8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2c88a4bae0d18e7b638d9c94b6f3cbd8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2c88a4bae0d18e7b638d9c94b6f3cbd8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2c88a4bae0d18e7b638d9c94b6f3cbd8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "tropical house",
+            "url": "https:\/\/www.last.fm\/tag\/tropical+house"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "Hailee Steinfeld",
+            "url": "https:\/\/www.last.fm\/tag\/Hailee+Steinfeld"
+          },
+          {
+            "name": "2017 single",
+            "url": "https:\/\/www.last.fm\/tag\/2017+single"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jan 2022, 06:10",
+        "summary": "At its core, \u201cMost Girls\u201d is a female empowerment anthem. In it, Hailee celebrates all kinds of girls, regardless of what they choose to wear, who they choose to love, and what they wanna do with their lives. Accompanied with cheery pop beats, Hailee emphasizes this message with a chorus that celebrating girls as strong and powerful in their own right.\n\n\u201cMost Girls\u201d follows Hailee\u2019s first EP \"Haiz\", and a collaboration with Machine Gun Kelly on his single \u201cAt My Best.\u201d <a href=\"http:\/\/www.last.fm\/music\/Hailee+Steinfeld\/_\/Most+Girls\">Read more on Last.fm<\/a>.",
+        "content": "At its core, \u201cMost Girls\u201d is a female empowerment anthem. In it, Hailee celebrates all kinds of girls, regardless of what they choose to wear, who they choose to love, and what they wanna do with their lives. Accompanied with cheery pop beats, Hailee emphasizes this message with a chorus that celebrating girls as strong and powerful in their own right.\n\n\u201cMost Girls\u201d follows Hailee\u2019s first EP \"Haiz\", and a collaboration with Machine Gun Kelly on his single \u201cAt My Best.\u201d <a href=\"http:\/\/www.last.fm\/music\/Hailee+Steinfeld\/_\/Most+Girls\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

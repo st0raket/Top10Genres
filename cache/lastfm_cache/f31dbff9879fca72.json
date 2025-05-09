@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:04.152376+00:00",
+  "elapsed": 0.22165,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:04.152376+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2880",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wizzard&format=json&method=track.getInfo&track=I+Wish+It+Could+Be+Christmas+Everyday"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wizzard&format=json&method=track.getInfo&track=I+Wish+It+Could+Be+Christmas+Everyday",
+  "_decoded_content": {
+    "track": {
+      "name": "I Wish It Could Be Christmas Everyday",
+      "mbid": "e61684b4-dfd3-46f5-a07a-c87dd0e23a9e",
+      "url": "https:\/\/www.last.fm\/music\/Wizzard\/_\/I+Wish+It+Could+Be+Christmas+Everyday",
+      "duration": "289000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "329710",
+      "playcount": "1196434",
+      "artist": {
+        "name": "Wizzard",
+        "mbid": "9a121283-e355-4741-8729-f4b84650ff78",
+        "url": "https:\/\/www.last.fm\/music\/Wizzard"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Christmas",
+        "mbid": "aca546a3-e628-4a4f-8745-c7ac7adee80a",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b18e4bdcd3bf06a91eca752e85e9e248.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b18e4bdcd3bf06a91eca752e85e9e248.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b18e4bdcd3bf06a91eca752e85e9e248.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b18e4bdcd3bf06a91eca752e85e9e248.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "glam rock",
+            "url": "https:\/\/www.last.fm\/tag\/glam+rock"
+          },
+          {
+            "name": "christmas favorites",
+            "url": "https:\/\/www.last.fm\/tag\/christmas+favorites"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Dec 2009, 09:15",
+        "summary": "\"I Wish It Could Be Christmas Everyday\" is a popular Christmas song in the UK, first released in 1973 by Wizzard, when it reached number four in the singles chart, famously beaten to number one by Slade's \"Merry Xmas Everybody\". As with the vast majority of Wizzard songs, it was penned and produced by Roy Wood.\n\nThe song features the lead vocals of frontman Roy Wood but also contains backing vocals by The Suedettes as well as The Stockland Green Bilateral School First Year <a href=\"http:\/\/www.last.fm\/music\/Wizzard\/_\/I+Wish+It+Could+Be+Christmas+Everyday\">Read more on Last.fm<\/a>.",
+        "content": "\"I Wish It Could Be Christmas Everyday\" is a popular Christmas song in the UK, first released in 1973 by Wizzard, when it reached number four in the singles chart, famously beaten to number one by Slade's \"Merry Xmas Everybody\". As with the vast majority of Wizzard songs, it was penned and produced by Roy Wood.\n\nThe song features the lead vocals of frontman Roy Wood but also contains backing vocals by The Suedettes as well as The Stockland Green Bilateral School First Year, with additional noises being produced by \"Miss Snob and Class 3C\", as credited on the sleeve. <a href=\"http:\/\/www.last.fm\/music\/Wizzard\/_\/I+Wish+It+Could+Be+Christmas+Everyday\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

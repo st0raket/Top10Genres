@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:56.139526+00:00",
+  "elapsed": 0.181099,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:56.139526+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "7135",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=You+Shook+Me+All+Night+Long"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=You+Shook+Me+All+Night+Long",
+  "_decoded_content": {
+    "track": {
+      "name": "You Shook Me All Night Long",
+      "mbid": "7d36812d-087e-4144-a9c8-52750d5007ee",
+      "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/_\/You+Shook+Me+All+Night+Long",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1428721",
+      "playcount": "11053491",
+      "artist": {
+        "name": "AC\/DC",
+        "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC"
+      },
+      "album": {
+        "artist": "AC\/DC",
+        "title": "Back in Black",
+        "mbid": "38914b29-7788-4cff-80b7-1ced523f8675",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/Back+in+Black",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3d359b955132742bc2fc3eacdff90b8c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3d359b955132742bc2fc3eacdff90b8c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3d359b955132742bc2fc3eacdff90b8c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3d359b955132742bc2fc3eacdff90b8c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "ACDC",
+            "url": "https:\/\/www.last.fm\/tag\/ACDC"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Apr 2009, 12:07",
+        "summary": "\"You Shook Me All Night Long\" is a song by hard rock band AC\/DC, from the album Back in Black. The song also reappeared on their later album Who Made Who. It is AC\/DC's first single with Brian Johnson as the lead singer, replacing Bon Scott who died of alcohol poisoning in February 1980. It reached #35 on the USA's Hot 100 pop singles chart in 1980. The single was re-released internationally in 1986, following the release of the album Who Made Who. <a href=\"http:\/\/www.last.fm\/music\/AC%2FDC\/_\/You+Shook+Me+All+Night+Long\">Read more on Last.fm<\/a>.",
+        "content": "\"You Shook Me All Night Long\" is a song by hard rock band AC\/DC, from the album Back in Black. The song also reappeared on their later album Who Made Who. It is AC\/DC's first single with Brian Johnson as the lead singer, replacing Bon Scott who died of alcohol poisoning in February 1980. It reached #35 on the USA's Hot 100 pop singles chart in 1980. The single was re-released internationally in 1986, following the release of the album Who Made Who. The re-released single in 1986 contains the B-side(s): B1. \"She's Got Balls\" (Live, Bondi Lifesaver '77); B2. \"You Shook Me All Night Long\" (Live '83 \u2013 12-inch maxi-single only).\n\nIn January 2018, as part of Triple M's \"Ozzest 100\", the 'most Australian' songs of all time, \"You Shook Me All Night Long\" was ranked #63.\n\n\"You Shook Me All Night Long\" placed at #10 on VH1's list of \"The 100 Greatest Songs of the 80s\". It was also #1 on VH1's \"Top Ten AC\/DC Songs\". Guitar World placed \"You Shook Me All Night Long\" at #80 on their \"100 Greatest Guitar Solos\" list.\n\nThe song has also become a staple of AC\/DC concerts, and is rarely excluded from the setlist. Four live versions of the song were officially released. The first one appeared on the 1986 maxi-single \"You Shook Me All Night Long\"; the second one was included on the band's album Live; the third version is on the soundtrack to the Howard Stern movie Private Parts, and also appears on the AC\/DC box set Backtracks; and the fourth one is on the band's live album, Live at River Plate.[citation needed]\n\n\"You Shook Me All Night Long\" was also the second song to be played by AC\/DC on Saturday Night Live in 2000, following their performance of \"Stiff Upper Lip.\" When AC\/DC was inducted to the Rock and Roll Hall of Fame in 2003 by Steven Tyler of Aerosmith, they performed this song with Tyler.\n\nJohnson performed the song with Billy Joel at Madison Square Garden in New York, US in March 2014. The Salon publication stated on the following morning in its introduction to the video footage of the performance: \"This will either be your favorite video today, or a total musical nightmare!\"\n\nThere have been several claims made over decades that (at least) some parts of the lyrics to the song were written by Bon Scott.\n\nSilver Smith, late former girlfriend of Bon Scott, interviewed by Jesse Fink for his biography of Scott, Bon: The Last Highway, said: 'I know for sure that [the song] was written at [my flat in] Gloucester Road [in Kensington, London] back in \u201976. \"She told me to come but I was already there\" \u2013 he wrote that in a letter to somebody, one of his grotty mates, just after we got together, actually. He always kept notebooks and added and subtracted to them and so on. He put in \"American thighs\" even way back then, because that was the market they were going to try and crack. So that was written a long time ago.' In the same book, Scott's girlfriend in Miami, Florida, a woman under the pseudonym 'Holly X', says the original lyric 'chartreuse eyes' was changed to 'sightless eyes' and that she had a horse called Doubletime. The lyrics 'working double time on the seduction line' appear in the finished song.\n\nDoug Thaler, Bon's friend and AC\/DC's booking agent on their American tours, also says: 'I don't care who tells me anything different: you can bet your life that Bon Scott wrote the lyrics to \"You Shook Me All Night Long\". It's Bon Scott's lyrics all over the place.'\n\nFrom AC\/DC: Hell Ain't a Bad Place to Be by Mick Wall: 'However Malcolm Dome claims that shortly before he died, Bon \"shoved me his book of lyrics. He had sheets of lyrics that he kept in a file, carried them around. He'd been showing me some of the ideas he'd been working for Back in Black. Not the song 'Back in Black' but songs that were for the next album. There were a couple of lines, like, 'She told me to come but I was already there', which ended up in 'You Shook Me All Night Long' - that\u2019s a Bon lyric. And I saw it. I saw it written down. There were lyrics, lines used, on Back in Black that Bon wrote. [But] he wasn\u2019t credited and to this day no one's really sure what happened. I don\u2019t think he even got close to finishing the whole songs. But there are lines in there that I know.'\n\nMalcolm Dome again in Classic Rock, August 2005, pg. 46: 'Bon proudly showed me some of the scribbles he'd put down in preparation for an album he felt would define AC\/DC - and open up new possibilities as well. It\u2019s hard to be absolutely accurate from a distance of quarter of a century, and through the haze of alcohol which enveloped the night, but one line sticks in my mind as being on one of those sheets: \"She told me to come, but I was already there.\" A renowned lyric from the song You Shook Me All Night Long, it has Bon's trademark all over it - a neatly worked double entendre that fits in with the track record of a man who wrote Big Balls, The Jack and other similarly styled songs.' <a href=\"http:\/\/www.last.fm\/music\/AC%2FDC\/_\/You+Shook+Me+All+Night+Long\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

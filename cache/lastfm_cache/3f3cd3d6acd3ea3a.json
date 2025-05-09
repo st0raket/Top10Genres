@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:33:17.809388+00:00",
+  "elapsed": 0.264895,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:17.809388+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "808",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sech&format=json&method=track.getInfo&track=Relaci%C3%B3n"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sech&format=json&method=track.getInfo&track=Relaci%C3%B3n",
+  "_decoded_content": {
+    "track": {
+      "name": "Relaci\u00f3n",
+      "url": "https:\/\/www.last.fm\/music\/Sech\/_\/Relaci%C3%B3n",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "65534",
+      "playcount": "404682",
+      "artist": {
+        "name": "Sech",
+        "url": "https:\/\/www.last.fm\/music\/Sech"
+      },
+      "album": {
+        "artist": "Sech",
+        "title": "1 of 1",
+        "url": "https:\/\/www.last.fm\/music\/Sech\/1+of+1",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4e5f9f49a88fe39442499cbeb3f7665e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4e5f9f49a88fe39442499cbeb3f7665e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4e5f9f49a88fe39442499cbeb3f7665e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4e5f9f49a88fe39442499cbeb3f7665e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

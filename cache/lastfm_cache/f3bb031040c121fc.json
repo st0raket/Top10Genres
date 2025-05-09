@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:20.882081+00:00",
+  "elapsed": 0.234422,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:20.882081+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3152",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Black+Panther"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Black+Panther",
+  "_decoded_content": {
+    "track": {
+      "name": "Black Panther",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Black+Panther",
+      "duration": "130000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "236116",
+      "playcount": "1005661",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar & SZA",
+        "title": "Black Panther the Album Music From and Inspired By",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar+&+SZA\/Black+Panther+the+Album+Music+From+and+Inspired+By",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d50fd63eecf28d688e27b9d2231bea2f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d50fd63eecf28d688e27b9d2231bea2f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d50fd63eecf28d688e27b9d2231bea2f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d50fd63eecf28d688e27b9d2231bea2f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "kendrick lamar",
+            "url": "https:\/\/www.last.fm\/tag\/kendrick+lamar"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2022, 00:21",
+        "summary": "Kendrick kicks off the \"Black Panther\" soundtrack with a solitary verse speaking from the perspective of T'Challa, the main character, and alter ego of Black Panther. This is a full contrast to Kendrick\u2019s second verse on \u201cKing\u2019s Dead,\u201d (appears later on the album) which speaks from the perspective of Erik Killmonger, who is Black Panther\u2019s rival and is learned to be T'Challa\u2019s cousin. The song also parallels Kendrick\u2019s own perspective and responsibilities in society. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Black+Panther\">Read more on Last.fm<\/a>.",
+        "content": "Kendrick kicks off the \"Black Panther\" soundtrack with a solitary verse speaking from the perspective of T'Challa, the main character, and alter ego of Black Panther. This is a full contrast to Kendrick\u2019s second verse on \u201cKing\u2019s Dead,\u201d (appears later on the album) which speaks from the perspective of Erik Killmonger, who is Black Panther\u2019s rival and is learned to be T'Challa\u2019s cousin. The song also parallels Kendrick\u2019s own perspective and responsibilities in society.\n\nThe song bears a calm, peaceful, hopeful, and uplifting vibe from the instrumentation throughout the song, down to Kendrick\u2019s verse. This is to exemplify the heroic nature exhibited by T\u2019Challa. Throughout the song, the beat switches to a darker key-laden sound, which expresses T'Challa\u2019s Black Panther side. On the other hand, Kendrick\u2019s portrayal of antagonist, Erik Killmonger in \u201cKing\u2019s Dead,\u201d is rapped in an aggressive and violent manner, while the beat is more dark and grim. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Black+Panther\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

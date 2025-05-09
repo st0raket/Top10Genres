@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:43:51.879565+00:00",
+  "elapsed": 0.212366,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:51.877816+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "867",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Liam+Payne&format=json&method=track.getInfo&track=Naughty+List"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Liam+Payne&format=json&method=track.getInfo&track=Naughty+List",
+  "_decoded_content": {
+    "track": {
+      "name": "Naughty List",
+      "url": "https:\/\/www.last.fm\/music\/Liam+Payne\/_\/Naughty+List",
+      "duration": "154000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4130",
+      "playcount": "8214",
+      "artist": {
+        "name": "Liam Payne",
+        "url": "https:\/\/www.last.fm\/music\/Liam+Payne"
+      },
+      "album": {
+        "artist": "Liam Payne",
+        "title": "Naughty List - Single",
+        "url": "https:\/\/www.last.fm\/music\/Liam+Payne\/Naughty+List+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ee5e3e732e9f092d3ba7ce4b3965e14d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ee5e3e732e9f092d3ba7ce4b3965e14d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ee5e3e732e9f092d3ba7ce4b3965e14d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ee5e3e732e9f092d3ba7ce4b3965e14d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:30:20.822318+00:00",
+  "elapsed": 0.265317,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:20.822318+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5113",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=Donald+Trump"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=Donald+Trump",
+  "_decoded_content": {
+    "track": {
+      "name": "Donald Trump",
+      "mbid": "63c0d4ce-2a5d-440e-9f7b-261641768c75",
+      "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/_\/Donald+Trump",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "540173",
+      "playcount": "3557900",
+      "artist": {
+        "name": "Mac Miller",
+        "mbid": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller"
+      },
+      "album": {
+        "artist": "Mac Miller",
+        "title": "Best Day Ever",
+        "mbid": "af008090-8bc8-4201-bb01-384a83d262f2",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/Best+Day+Ever",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ee9e131092d34cd1b8bb0d4b0d03d935.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ee9e131092d34cd1b8bb0d4b0d03d935.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ee9e131092d34cd1b8bb0d4b0d03d935.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ee9e131092d34cd1b8bb0d4b0d03d935.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "mac miller",
+            "url": "https:\/\/www.last.fm\/tag\/mac+miller"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Donald Trump",
+            "url": "https:\/\/www.last.fm\/tag\/Donald+Trump"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2024, 18:56",
+        "summary": "\"Donald Trump\" is a song by American rapper Mac Miller, released as the only single from his mixtape Best Day Ever. The melody played throughout the song is sampled from \"Vesuvius\" by Sufjan Stevens. The song's music video was uploaded to YouTube on March 3, 2011, while the single was released digitally on May 17, 2011.\n\nThe money-inspired song references Donald Trump, who, five years after the song's release, was elected as the 45th president of the United States. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/Donald+Trump\">Read more on Last.fm<\/a>.",
+        "content": "\"Donald Trump\" is a song by American rapper Mac Miller, released as the only single from his mixtape Best Day Ever. The melody played throughout the song is sampled from \"Vesuvius\" by Sufjan Stevens. The song's music video was uploaded to YouTube on March 3, 2011, while the single was released digitally on May 17, 2011.\n\nThe money-inspired song references Donald Trump, who, five years after the song's release, was elected as the 45th president of the United States. Trump and Miller feuded over the song for years, with Trump demanding royalties for the use of his name.\n\nAfter performing the song for several weeks, Mac Miller released \"Donald Trump\" as a free download on February 9, 2011. Its music video, directed by Ian Wolfson, was uploaded to YouTube on March 3, 2011. The song was included in Miller's 2011 mixtape Best Day Ever, and commercially released by Rostrum Records as a single on May 17, 2011.\n\nThe money-inspired song refers to Donald Trump, particularly Miller's ambitions to become wealthy and successful like him (\"Take over the world when I'm on my Donald Trump shit \/ Look at all this money, ain't that some shit?\"). According to Miller, the use of Trump's name was a last-minute decision, and he \"was just somebody who symbolized financial success to everybody at that time\". When the music video surpassed 20 million views in August 2011, Trump released a YouTube video congratulating Miller, and branded him \"the new Eminem\". Miller responded appreciatively but played down any comparisons between himself and Eminem.\n\nAs the song garnered more streams in 2012, Trump took a more aggressive tone and demanded royalties for using his name, igniting a feud with Miller. In a January 2013 interview, Miller insulted Trump and said he was bothered by Trump taking credit for the song's success. He added that he could have referenced Bill Gates instead and that the name did not matter. In response, Trump threatened Miller with a lawsuit via a series of tweets. In July 2015, Trump changed his attitude toward Miller again when he ended an interview by praising Miller's song as it approached 100 million views. During Trump's 2016 presidential campaign, Miller denounced Trump and urged people not to elect him. Miller said on The Nightly Show with Larry Wilmore that he \"hated\" Trump, and described him as \"an egomaniacal, attention-thirsty, psychopathic, power-hungry, delusional waste of skin and bones\".\n\nRolling Stone's Nick Catucci called the track an \"irresistible bro-down\".\n\n\"Donald Trump\" was Miller's first song to chart on the US Billboard Hot 100, entering at number 80 on the chart dated June 11, 2011, and peaking at number 75 on January 7, 2012. On March 19, 2013, it was certified platinum by the Recording Industry Association of America for digital download sales of over one million. The song also charted in SNEP, the official French Singles Chart, peaking at number 110 in June 2012. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/Donald+Trump\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

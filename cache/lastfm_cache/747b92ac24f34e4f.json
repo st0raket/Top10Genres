@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:24.407066+00:00",
+  "elapsed": 0.204283,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:24.407066+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2088",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=When+We+Were+Young"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=When+We+Were+Young",
+  "_decoded_content": {
+    "track": {
+      "name": "When We Were Young",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/When+We+Were+Young",
+      "duration": "291000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "859370",
+      "playcount": "8012688",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "25",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/25",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5565dd1eb681a30ad024e9f053894adf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5565dd1eb681a30ad024e9f053894adf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5565dd1eb681a30ad024e9f053894adf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5565dd1eb681a30ad024e9f053894adf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "2015",
+            "url": "https:\/\/www.last.fm\/tag\/2015"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Nov 2015, 12:10",
+        "summary": "\"When We Were Young\" is a nostalgic ballad about looking back on a past relationship and longing for a time when things were simpler and more carefree. The lyrics describe the intense attraction and connection the singer feels towards the person she's seeing, comparing them to a dream come true. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/When+We+Were+Young\">Read more on Last.fm<\/a>.",
+        "content": "\"When We Were Young\" is a nostalgic ballad about looking back on a past relationship and longing for a time when things were simpler and more carefree. The lyrics describe the intense attraction and connection the singer feels towards the person she's seeing, comparing them to a dream come true. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/When+We+Were+Young\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

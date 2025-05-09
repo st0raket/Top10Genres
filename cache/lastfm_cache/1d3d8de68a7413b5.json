@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:01.117151+00:00",
+  "elapsed": 0.175955,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:01.117151+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2591",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ILLIT&format=json&method=track.getInfo&track=Magnetic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ILLIT&format=json&method=track.getInfo&track=Magnetic",
+  "_decoded_content": {
+    "track": {
+      "name": "Magnetic",
+      "url": "https:\/\/www.last.fm\/music\/Illit\/_\/Magnetic",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "662675",
+      "playcount": "16454129",
+      "artist": {
+        "name": "Illit",
+        "url": "https:\/\/www.last.fm\/music\/Illit"
+      },
+      "album": {
+        "artist": "Illit",
+        "title": "SUPER REAL ME",
+        "url": "https:\/\/www.last.fm\/music\/Illit\/SUPER+REAL+ME",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/417f9093f56aa032be0355bfc29e8cff.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/417f9093f56aa032be0355bfc29e8cff.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/417f9093f56aa032be0355bfc29e8cff.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/417f9093f56aa032be0355bfc29e8cff.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pluggnb",
+            "url": "https:\/\/www.last.fm\/tag\/pluggnb"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Mar 2024, 17:30",
+        "summary": "\"Magnetic\" is a song recorded by the South Korean girl group ILLIT. Released on March 25, 2024, as the debut single from their EP \"SUPER REAL ME\" under BELIFT LAB, the song explores the theme of irresistible attraction and connection between two people, using magnetism as a metaphor for this powerful pull. The track features a captivating melody that blends modern pop elements with an infectious beat, showcasing the group's vocal talents and emotional depth. <a href=\"http:\/\/www.last.fm\/music\/Illit\/_\/Magnetic\">Read more on Last.fm<\/a>.",
+        "content": "\"Magnetic\" is a song recorded by the South Korean girl group ILLIT. Released on March 25, 2024, as the debut single from their EP \"SUPER REAL ME\" under BELIFT LAB, the song explores the theme of irresistible attraction and connection between two people, using magnetism as a metaphor for this powerful pull. The track features a captivating melody that blends modern pop elements with an infectious beat, showcasing the group's vocal talents and emotional depth. With its polished production and relatable theme, \"Magnetic\" has been well-received by fans and critics alike, marking a strong debut for ILLIT in the competitive K-pop industry and establishing them as a promising new act. <a href=\"http:\/\/www.last.fm\/music\/Illit\/_\/Magnetic\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

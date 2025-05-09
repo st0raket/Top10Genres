@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:29:36.033666+00:00",
+  "elapsed": 0.188342,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:36.033666+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2386",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Pump&format=json&method=track.getInfo&track=Esskeetit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Pump&format=json&method=track.getInfo&track=Esskeetit",
+  "_decoded_content": {
+    "track": {
+      "name": "Esskeetit",
+      "url": "https:\/\/www.last.fm\/music\/LIL+PUMP\/_\/Esskeetit",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "132650",
+      "playcount": "806685",
+      "artist": {
+        "name": "LIL PUMP",
+        "url": "https:\/\/www.last.fm\/music\/LIL+PUMP"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "fallon",
+            "url": "https:\/\/www.last.fm\/tag\/fallon"
+          },
+          {
+            "name": "Lil pump",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+pump"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Mar 2023, 00:21",
+        "summary": "\"Esskeetit\" is a song by American rapper Lil Pump. The single and its music video were released on April 13, 2018. Written and produced alongside CBMix, the song debuted and peaked at number 24 on the Billboard Hot 100.\n\nThe first snippet of the song was posted to Lil Pump's official Twitter account on February 6, 2018. Pump previewed the song and its music video multiple times on Twitter and Instagram, originally intended to be released on April 8, 2018. <a href=\"http:\/\/www.last.fm\/music\/LIL+PUMP\/_\/Esskeetit\">Read more on Last.fm<\/a>.",
+        "content": "\"Esskeetit\" is a song by American rapper Lil Pump. The single and its music video were released on April 13, 2018. Written and produced alongside CBMix, the song debuted and peaked at number 24 on the Billboard Hot 100.\n\nThe first snippet of the song was posted to Lil Pump's official Twitter account on February 6, 2018. Pump previewed the song and its music video multiple times on Twitter and Instagram, originally intended to be released on April 8, 2018. However, its release was pushed back to April 13 due to copyright issues. The song takes its title from Pump's signature phrase. Lyrically, the song references drugs including Ecstasy (or X) and Actavis, along with luxury brands including Porsche, and Patek Phillipe, among others.\n\nThe song's music video, directed by Pump himself along with Ben Griffin, was premiered with its release. As of February 2023, the video has received over 530 million views on YouTube.\n\nOn May 24, 2018, Pump performed \"Esskeetit\" on The Tonight Show Starring Jimmy Fallon. <a href=\"http:\/\/www.last.fm\/music\/LIL+PUMP\/_\/Esskeetit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

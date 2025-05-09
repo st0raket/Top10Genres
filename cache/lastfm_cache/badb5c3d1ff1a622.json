@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:19.616943+00:00",
+  "elapsed": 0.192623,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:19.616943+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3602",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NF&format=json&method=track.getInfo&track=HOPE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NF&format=json&method=track.getInfo&track=HOPE",
+  "_decoded_content": {
+    "track": {
+      "name": "HOPE",
+      "url": "https:\/\/www.last.fm\/music\/NF\/_\/HOPE",
+      "duration": "264000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "153626",
+      "playcount": "2323427",
+      "artist": {
+        "name": "NF",
+        "mbid": "adf056ea-8a89-4ac0-afba-c60d205f26d3",
+        "url": "https:\/\/www.last.fm\/music\/NF"
+      },
+      "album": {
+        "artist": "NF",
+        "title": "HOPE",
+        "url": "https:\/\/www.last.fm\/music\/NF\/HOPE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1562d05b1c4daa9e368589517e44a386.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1562d05b1c4daa9e368589517e44a386.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1562d05b1c4daa9e368589517e44a386.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1562d05b1c4daa9e368589517e44a386.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "SHAZAM",
+            "url": "https:\/\/www.last.fm\/tag\/SHAZAM"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Dec 2023, 04:40",
+        "summary": "\"HOPE\" is a song by American rapper NF, released on February 16, 2023, as the lead single from his fifth studio album of the same name. Written with Tommee Profitt, the two produced it with Jeff Sojka.\n\n\"HOPE\" is split into two parts. The song begins with \"plucky\" piano chords before segueing into staccato stringed instruments and a pulsing echo of voices in the background and features tempo changes and crescendos. Lyrically, the song deals with NF overcoming his internal conflicts <a href=\"http:\/\/www.last.fm\/music\/NF\/_\/HOPE\">Read more on Last.fm<\/a>.",
+        "content": "\"HOPE\" is a song by American rapper NF, released on February 16, 2023, as the lead single from his fifth studio album of the same name. Written with Tommee Profitt, the two produced it with Jeff Sojka.\n\n\"HOPE\" is split into two parts. The song begins with \"plucky\" piano chords before segueing into staccato stringed instruments and a pulsing echo of voices in the background and features tempo changes and crescendos. Lyrically, the song deals with NF overcoming his internal conflicts, as he raps about topics such as faith, fatherhood, pain, and success, especially on trusting one's gut and being authentic while still holding onto the best qualities of oneself. In the second part, he reflects on his past self and focuses on being a voice of reason without giving up the qualities of who he once was.\n\nWonderland gave a positive review of the song: \"'HOPE' is dramatic and cinematic, expertly crafted in its build-up to a rousing climatic. NF brings the nuanced delivery and thoughtful lyricism that we have grown to love from him.\"\n\nThe official music video released the same day as the song, was directed by NF and Patrick Tohill. It opens with NF stranded on a wooden raft in the middle of an ocean in an all-white outfit, rapping as he finds his way to the shore. Later, a clone of himself clothed entirely in black misguides NF around the island before mocking him and pushing him through the roof of an abandoned mansion. Wandering through, NF confronts a different version of himself in every room he enters, each representing NF during a particular era of his musical career. He is eventually transported to a mountaintop, looking lost as he raps. <a href=\"http:\/\/www.last.fm\/music\/NF\/_\/HOPE\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

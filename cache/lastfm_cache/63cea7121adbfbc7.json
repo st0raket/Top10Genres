@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:10.109057+00:00",
+  "elapsed": 0.193781,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:10.109057+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2935",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jungle&format=json&method=track.getInfo&track=Back+On+74"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jungle&format=json&method=track.getInfo&track=Back+On+74",
+  "_decoded_content": {
+    "track": {
+      "name": "Back on 74",
+      "url": "https:\/\/www.last.fm\/music\/Jungle\/_\/Back+on+74",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "639763",
+      "playcount": "6503894",
+      "artist": {
+        "name": "Jungle",
+        "mbid": "6bbb3983-ce8a-4971-96e0-7cae73268fc4",
+        "url": "https:\/\/www.last.fm\/music\/Jungle"
+      },
+      "album": {
+        "artist": "Jungle",
+        "title": "Volcano",
+        "url": "https:\/\/www.last.fm\/music\/Jungle\/Volcano",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d9a2ed33d293d14649500d483c74a144.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d9a2ed33d293d14649500d483c74a144.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d9a2ed33d293d14649500d483c74a144.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d9a2ed33d293d14649500d483c74a144.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Neo Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo+Soul"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          },
+          {
+            "name": "Meyers",
+            "url": "https:\/\/www.last.fm\/tag\/Meyers"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Jun 2024, 15:46",
+        "summary": "\"Back on 74\" is a song by the British band Jungle, released as the fourth and final single from their album Volcano on 28 July 2023 through Caiola and AWAL. It was written by Jungle members Josh Lloyd and Thomas McFarland and their newest member Lydia Kitto, and produced by Lloyd. It reached the top 40 in the UK and New Zealand. The track and its video went viral on TikTok in late 2023 and early 2024, which was also aided by a performance at the 2024 Brit Awards. <a href=\"http:\/\/www.last.fm\/music\/Jungle\/_\/Back+on+74\">Read more on Last.fm<\/a>.",
+        "content": "\"Back on 74\" is a song by the British band Jungle, released as the fourth and final single from their album Volcano on 28 July 2023 through Caiola and AWAL. It was written by Jungle members Josh Lloyd and Thomas McFarland and their newest member Lydia Kitto, and produced by Lloyd. It reached the top 40 in the UK and New Zealand. The track and its video went viral on TikTok in late 2023 and early 2024, which was also aided by a performance at the 2024 Brit Awards. The track was later nominated for the Best Contemporary Song Ivor Novello Award on Thursday 23rd May 2024.\n\nJosh Lloyd said the track was written about a fictional place where one grew up and has \"fond memories\" of: \"74 is a fictitious thing, but for us it's like 74th Avenue or 74th Street or something, where, in your imagination or as a kid, you were playing out on the street. You've gone back to this place and it's giving you this really nostalgic feeling but everything's not quite the same.\" <a href=\"http:\/\/www.last.fm\/music\/Jungle\/_\/Back+on+74\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

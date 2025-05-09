@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:06.929797+00:00",
+  "elapsed": 0.20694,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:06.929797+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3546",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=DNA."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=DNA.",
+  "_decoded_content": {
+    "track": {
+      "name": "DNA.",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/DNA.",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1471819",
+      "playcount": "19921824",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "DAMN. COLLECTORS EDITION.",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/DAMN.+COLLECTORS+EDITION.",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Apr 2017, 21:32",
+        "summary": "\"DNA.\"  is a song by American rapper Kendrick Lamar, taken from his fourth studio album \"DAMN.\". The song's lyrics were written by Lamar, while the production was handled by Mike Will Made It. The song's music video was released on April 18, 2017 and features American actor Don Cheadle.\n\nThe song's music video, released on April 18, 2017, features American actor Don Cheadle. The video, directed by Nabil and The Little Homies, begins with Cheadle entering an interrogation room <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/DNA.\">Read more on Last.fm<\/a>.",
+        "content": "\"DNA.\"  is a song by American rapper Kendrick Lamar, taken from his fourth studio album \"DAMN.\". The song's lyrics were written by Lamar, while the production was handled by Mike Will Made It. The song's music video was released on April 18, 2017 and features American actor Don Cheadle.\n\nThe song's music video, released on April 18, 2017, features American actor Don Cheadle. The video, directed by Nabil and The Little Homies, begins with Cheadle entering an interrogation room, where Lamar is being held captive and attached to a lie detector machine. After Cheadle mocks Lamar, he turns the machine on where he's shocked with Lamar's life force and begins rapping the track. From here, Cheadle and Lamar switch back and forth from rapping the song, mirroring each other's movements along the way until Cheadle finally succumbs to Lamar and lets him go. Afterwards, scenes of Lamar rapping alone along with some of his friends, including American rapper Schoolboy Q, follow. The video ends with an extended outro for the song, as Schoolboy Q approaches and punches the camera in slow motion. The video features the use of Chinese in the second half, with Kendrick subtitled \"\u529f\u592b\u80af\u5c3c\" (\"Kung Fu Kenny\", an alternate name used throughout the DAMN. album) and Kendrick's crew being given \"\u7684\u5bb6\u5ead\" (De ji\u0101t\u00edng; \"The family\".) The Top Dawg Entertainment logo is presented alongside \"\u9876\u7ea7\u72d7\u5a31\u4e50\" (D\u01d0ngj\u00ed g\u01d2u y\u00fal\u00e8, literally \"top level dog entertainment\".) <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/DNA.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

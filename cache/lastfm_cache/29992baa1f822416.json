@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:30.284685+00:00",
+  "elapsed": 0.305233,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:30.284685+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3555",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=t+h+e+.+c+l+i+m+b+.+b+a+c+k"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=t+h+e+.+c+l+i+m+b+.+b+a+c+k",
+  "_decoded_content": {
+    "track": {
+      "name": "t h e . c l i m b . b a c k",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/t+h+e+.+c+l+i+m+b+.+b+a+c+k",
+      "duration": "304000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "231451",
+      "playcount": "2054862",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "J. Cole",
+        "title": "Lewis Street",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole\/Lewis+Street",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "east coast hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/east+coast+hip+hop"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "chipmunk soul",
+            "url": "https:\/\/www.last.fm\/tag\/chipmunk+soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Dec 2022, 15:27",
+        "summary": "On \u201c\u200bt h e . c l i m b . b a c k,\u201d J. Cole talks about rediscovering his love for rap and some of his traumatic life experiences.\n\nTwo days before releasing the song, Cole published an essay titled \u201cThe Audacity\u201d in which he discussed several critical periods of his life and the persistent obligation to achieve his goals. He specifically utilized the word \u2018climb\u2019 to describe how he advanced himself in each of these periods, which can be seen as a prelude to this song. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/t+h+e+.+c+l+i+m+b+.+b+a+c+k\">Read more on Last.fm<\/a>.",
+        "content": "On \u201c\u200bt h e . c l i m b . b a c k,\u201d J. Cole talks about rediscovering his love for rap and some of his traumatic life experiences.\n\nTwo days before releasing the song, Cole published an essay titled \u201cThe Audacity\u201d in which he discussed several critical periods of his life and the persistent obligation to achieve his goals. He specifically utilized the word \u2018climb\u2019 to describe how he advanced himself in each of these periods, which can be seen as a prelude to this song.\n\nThis and \u201cLion King on Ice\u201d were intended to be the first two singles from Cole\u2019s seventh studio album, The Fall Off. They were released together as the two-track Lewis Street.\n\nOn May 12, 2021, \u201cThe Climb Back\u201d was reformatted to \u201ct h e . c l i m b . b a c k\u201d on streaming services. The following day, it was confirmed that it would now be included as a track on The Off-Season, instead of its original placement on The Fall Off, making it the LP\u2019s lead single. The periods weren\u2019t added to the title until the album\u2019s release.\n\n\u201cThe Climb Back\u201d debuted at #100 on the Billboard Hot 100 in the week of August 1, 2020. Its low debut can be attributed to the single being released on a Wednesday night; chart weeks end on Thursdays at midnight, so the song only had 26 hours of tracking. In the August 8 tracking week, it rose to #52. On July 14, 2021, \u201ct h e . c l i m b . b a c k\u201d was certified gold by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/t+h+e+.+c+l+i+m+b+.+b+a+c+k\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

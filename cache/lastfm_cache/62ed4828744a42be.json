@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:32:22.702882+00:00",
+  "elapsed": 0.205189,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:22.702882+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2154",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=On+God"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=On+God",
+  "_decoded_content": {
+    "track": {
+      "name": "ON GOD",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/ON+GOD",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "381960",
+      "playcount": "3750007",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christian",
+            "url": "https:\/\/www.last.fm\/tag\/christian"
+          },
+          {
+            "name": "Christian Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Christian+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 19:11",
+        "summary": "\u201cOn God\u201d is an uptempo track from Kanye West that features production from Pi'erre Bourne, marking the third collaboration between the two, following Travis Scott\u2019s May 2018 track, \u201cWatch\u201d and Kanye\u2019s June 2018 track, \u201cYikes.\u201d\n\nThe track continues the spiritual themes of the album and features Kanye preaching the message of the Bible. In particular, Kanye addresses his controversial comments on the thirteenth amendment and calls out the Grammys' system, while also name dropping Chief Keef. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/ON+GOD\">Read more on Last.fm<\/a>.",
+        "content": "\u201cOn God\u201d is an uptempo track from Kanye West that features production from Pi'erre Bourne, marking the third collaboration between the two, following Travis Scott\u2019s May 2018 track, \u201cWatch\u201d and Kanye\u2019s June 2018 track, \u201cYikes.\u201d\n\nThe track continues the spiritual themes of the album and features Kanye preaching the message of the Bible. In particular, Kanye addresses his controversial comments on the thirteenth amendment and calls out the Grammys' system, while also name dropping Chief Keef.\n\nThe title is also a nod to the expression \u201con god\u201d \u2013 a common phrase in hip hop \u2013 which means something like \u201cbelieve me\u201d or \u201cswear on my life.\u201d <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/ON+GOD\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

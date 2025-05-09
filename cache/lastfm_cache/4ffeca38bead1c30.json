@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:00.763557+00:00",
+  "elapsed": 0.212104,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:00.763557+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1718",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Dawn+FM"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Dawn+FM",
+  "_decoded_content": {
+    "track": {
+      "name": "dawn FM",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/dawn+FM",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "459495",
+      "playcount": "3421617",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jan 2022, 16:32",
+        "summary": "The intro and title track of The Weeknd\u2019s fifth studio album includes additional narration from actor Jim Carrey, who also appears on the outro track. The song was first previewed on January 3, 2022 when Abel released the trailer for the album and announced the release date. The Weeknd first met Carrey on his 30th birthday and they both bonded over their love of telescopes. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/dawn+FM\">Read more on Last.fm<\/a>.",
+        "content": "The intro and title track of The Weeknd\u2019s fifth studio album includes additional narration from actor Jim Carrey, who also appears on the outro track. The song was first previewed on January 3, 2022 when Abel released the trailer for the album and announced the release date. The Weeknd first met Carrey on his 30th birthday and they both bonded over their love of telescopes. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/dawn+FM\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

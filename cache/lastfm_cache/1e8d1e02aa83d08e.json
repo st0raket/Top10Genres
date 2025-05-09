@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:25.010956+00:00",
+  "elapsed": 0.182743,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:25.010956+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2080",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Don+Toliver&format=json&method=track.getInfo&track=Way+Bigger"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Don+Toliver&format=json&method=track.getInfo&track=Way+Bigger",
+  "_decoded_content": {
+    "track": {
+      "name": "Way Bigger",
+      "url": "https:\/\/www.last.fm\/music\/Don+Toliver\/_\/Way+Bigger",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "191361",
+      "playcount": "2018986",
+      "artist": {
+        "name": "Don Toliver",
+        "url": "https:\/\/www.last.fm\/music\/Don+Toliver"
+      },
+      "album": {
+        "artist": "Don Toliver",
+        "title": "Life of a DON",
+        "url": "https:\/\/www.last.fm\/music\/Don+Toliver\/Life+of+a+DON",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4bc4875948c7ffe1dcdbb45607822a83.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4bc4875948c7ffe1dcdbb45607822a83.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4bc4875948c7ffe1dcdbb45607822a83.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4bc4875948c7ffe1dcdbb45607822a83.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "don toliver",
+            "url": "https:\/\/www.last.fm\/tag\/don+toliver"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2023, 00:51",
+        "summary": "The outro of \u201cWay Bigger\u201d was first previewed by Don on Instagram on April 15th, 2021 with the caption \u201cMind. Body. Soul.\u201d It was dubbed \u201cWaves\u201d by fans.\n\n\u201cWay Bigger\u201d debuted at #58 on the Rolling Stone\u2019s Top 100 Songs Chart during the week ending October 14, 2021. <a href=\"http:\/\/www.last.fm\/music\/Don+Toliver\/_\/Way+Bigger\">Read more on Last.fm<\/a>.",
+        "content": "The outro of \u201cWay Bigger\u201d was first previewed by Don on Instagram on April 15th, 2021 with the caption \u201cMind. Body. Soul.\u201d It was dubbed \u201cWaves\u201d by fans.\n\n\u201cWay Bigger\u201d debuted at #58 on the Rolling Stone\u2019s Top 100 Songs Chart during the week ending October 14, 2021. <a href=\"http:\/\/www.last.fm\/music\/Don+Toliver\/_\/Way+Bigger\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

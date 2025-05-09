@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:38:55.378619+00:00",
+  "elapsed": 0.219649,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:55.378619+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1184",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rita+Ora&format=json&method=track.getInfo&track=You+Only+Love+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rita+Ora&format=json&method=track.getInfo&track=You+Only+Love+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "You Only Love Me",
+      "url": "https:\/\/www.last.fm\/music\/Rita+Ora\/_\/You+Only+Love+Me",
+      "duration": "145000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "72971",
+      "playcount": "473773",
+      "artist": {
+        "name": "Rita Ora",
+        "mbid": "c9dd033c-0270-463c-b3ec-f4b7712486fe",
+        "url": "https:\/\/www.last.fm\/music\/Rita+Ora"
+      },
+      "album": {
+        "artist": "Rita Ora",
+        "title": "You Only Love Me",
+        "url": "https:\/\/www.last.fm\/music\/Rita+Ora\/You+Only+Love+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/afd11ccac43dc6c96f9dd22f19433ac2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/afd11ccac43dc6c96f9dd22f19433ac2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/afd11ccac43dc6c96f9dd22f19433ac2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/afd11ccac43dc6c96f9dd22f19433ac2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          },
+          {
+            "name": "Number 1",
+            "url": "https:\/\/www.last.fm\/tag\/Number+1"
+          }
+        ]
+      }
+    }
+  }
+}

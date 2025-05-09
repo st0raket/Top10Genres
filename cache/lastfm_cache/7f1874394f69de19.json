@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:13.194397+00:00",
+  "elapsed": 0.213171,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:13.194397+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2287",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Empty"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Empty",
+  "_decoded_content": {
+    "track": {
+      "name": "Empty",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Empty",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "332751",
+      "playcount": "5785194",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "Death Race for Love",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/Death+Race+for+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/16ee17f2d1f0aeebdf9ef057a336b9b6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/16ee17f2d1f0aeebdf9ef057a336b9b6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/16ee17f2d1f0aeebdf9ef057a336b9b6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/16ee17f2d1f0aeebdf9ef057a336b9b6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Aug 2021, 11:30",
+        "summary": "On \u201cEmpty,\u201d the introduction to Juice WRLD\u2019s second studio album Death Race for Love, he talks about dealing with an empty soul caused by a broken heart through taking various drugs, including promethazine, codeine (lean), dope, and various \u201cpills.\u201d In the second verse, Juice WRLD sings with a more hopeful tone about how his recent wealth gain has impacted his depression and lifestyle. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Empty\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cEmpty,\u201d the introduction to Juice WRLD\u2019s second studio album Death Race for Love, he talks about dealing with an empty soul caused by a broken heart through taking various drugs, including promethazine, codeine (lean), dope, and various \u201cpills.\u201d In the second verse, Juice WRLD sings with a more hopeful tone about how his recent wealth gain has impacted his depression and lifestyle. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Empty\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

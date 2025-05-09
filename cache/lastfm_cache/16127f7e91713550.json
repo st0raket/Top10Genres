@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:34:21.255348+00:00",
+  "elapsed": 0.273147,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:21.255348+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "911",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Martin+Jensen&format=json&method=track.getInfo&track=Running+Back+To+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Martin+Jensen&format=json&method=track.getInfo&track=Running+Back+To+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Running Back To You",
+      "url": "https:\/\/www.last.fm\/music\/Martin+Jensen\/_\/Running+Back+To+You",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "24378",
+      "playcount": "109139",
+      "artist": {
+        "name": "Martin Jensen",
+        "url": "https:\/\/www.last.fm\/music\/Martin+Jensen"
+      },
+      "album": {
+        "artist": "Nico Santos",
+        "title": "Nico Santos (Special Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Nico+Santos\/Nico+Santos+(Special+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cc9e4050f6a70399029f5f280bdb2ed3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cc9e4050f6a70399029f5f280bdb2ed3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cc9e4050f6a70399029f5f280bdb2ed3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cc9e4050f6a70399029f5f280bdb2ed3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

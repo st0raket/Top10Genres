@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:41:38.413634+00:00",
+  "elapsed": 0.253598,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:38.413634+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3801",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Skyfall"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Skyfall",
+  "_decoded_content": {
+    "track": {
+      "name": "Skyfall",
+      "mbid": "edda9387-65a9-4ade-903c-3a9cea3fa7c2",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/Skyfall",
+      "duration": "286000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1053450",
+      "playcount": "10213102",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "City of Prague Philharmonic Orchestra",
+        "title": "Film Music 2012",
+        "mbid": "f0a5ba5b-b4a1-45c5-9081-3a2a9a6eb95f",
+        "url": "https:\/\/www.last.fm\/music\/City+of+Prague+Philharmonic+Orchestra\/Film+Music+2012",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2f99e0bb8fee4447e84b40fc9166e75a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2f99e0bb8fee4447e84b40fc9166e75a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2f99e0bb8fee4447e84b40fc9166e75a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2f99e0bb8fee4447e84b40fc9166e75a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "12"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "james bond",
+            "url": "https:\/\/www.last.fm\/tag\/james+bond"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Adele",
+            "url": "https:\/\/www.last.fm\/tag\/Adele"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Oct 2012, 13:41",
+        "summary": "\"Skyfall\" is a song recorded by Adele for the James Bond film of the same name. The film company Eon Productions invited the singer to work on the theme song in early 2011, a task that Adele accepted after reading the film's script. While composing the song, Adele and Epworth aimed to capture the mood and style of the other Bond themes, including dark and moody lyrics descriptive of the film's plot. \"Skyfall\" was released at 0:07 BST on 5 October 2012 as part of the Global James Bond Day, celebrating the 50th anniversary of the release of Dr. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Skyfall\">Read more on Last.fm<\/a>.",
+        "content": "\"Skyfall\" is a song recorded by Adele for the James Bond film of the same name. The film company Eon Productions invited the singer to work on the theme song in early 2011, a task that Adele accepted after reading the film's script. While composing the song, Adele and Epworth aimed to capture the mood and style of the other Bond themes, including dark and moody lyrics descriptive of the film's plot. \"Skyfall\" was released at 0:07 BST on 5 October 2012 as part of the Global James Bond Day, celebrating the 50th anniversary of the release of Dr. No, the first James Bond film.\n\n\"Skyfall\" received universal acclaim, with critics praising its lyrics, production and Adele's vocal performance, with numerous critics and publications ranking it amongst the best Bond themes. The song was a global success, topping the charts in eleven countries and reaching the top five in various other regions. It peaked at number two on the UK Singles Chart and number eight on the US Billboard Hot 100. With sales of 7.2 million copies worldwide, \"Skyfall\" is one of the best selling digital singles of all time.\n\n\"Skyfall\" received various accolades, including the Academy Award for Best Original Song, Brit Award for British Single of the Year, Critics' Choice Movie Award for Best Song, Golden Globe Award for Best Original Song, and the Grammy Award for Best Song Written for Visual Media, thus making it the first Bond theme to win all the aforementioned awards. During the 85th Academy Awards, Adele performed the song live for the first time. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Skyfall\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

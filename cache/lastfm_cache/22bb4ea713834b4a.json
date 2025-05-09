@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:38:37.427763+00:00",
+  "elapsed": 0.202709,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:37.427763+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "821",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=Stardom"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=Stardom",
+  "_decoded_content": {
+    "track": {
+      "name": "Stardom",
+      "url": "https:\/\/www.last.fm\/music\/King+Gnu\/_\/Stardom",
+      "duration": "290000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "10486",
+      "playcount": "70360",
+      "artist": {
+        "name": "King Gnu",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu"
+      },
+      "album": {
+        "artist": "King Gnu",
+        "title": "Stardom",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu\/Stardom",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8c726364a3b01d96f03bd2f2f666dc8f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8c726364a3b01d96f03bd2f2f666dc8f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8c726364a3b01d96f03bd2f2f666dc8f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8c726364a3b01d96f03bd2f2f666dc8f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

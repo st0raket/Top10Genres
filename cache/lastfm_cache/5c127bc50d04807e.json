@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:26.760954+00:00",
+  "elapsed": 0.258577,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:26.760287+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1704",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=42+Dugg&format=json&method=track.getInfo&track=Thump+Shit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=42+Dugg&format=json&method=track.getInfo&track=Thump+Shit",
+  "_decoded_content": {
+    "track": {
+      "name": "Thump Shit",
+      "url": "https:\/\/www.last.fm\/music\/42+Dugg\/_\/Thump+Shit",
+      "duration": "226000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "47675",
+      "playcount": "341711",
+      "artist": {
+        "name": "42 Dugg",
+        "url": "https:\/\/www.last.fm\/music\/42+Dugg"
+      },
+      "album": {
+        "artist": "42 Dugg",
+        "title": "Last Ones Left",
+        "url": "https:\/\/www.last.fm\/music\/42+Dugg\/Last+Ones+Left",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e57b35ce7cf478f32d6a5d3536aab8f6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e57b35ce7cf478f32d6a5d3536aab8f6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e57b35ce7cf478f32d6a5d3536aab8f6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e57b35ce7cf478f32d6a5d3536aab8f6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "detroit trap",
+            "url": "https:\/\/www.last.fm\/tag\/detroit+trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Dec 2022, 05:16",
+        "summary": "During the week ending April 23, 2022, \u201cThump Shit\u201d debuted at #79 on the Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/42+Dugg\/_\/Thump+Shit\">Read more on Last.fm<\/a>.",
+        "content": "During the week ending April 23, 2022, \u201cThump Shit\u201d debuted at #79 on the Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/42+Dugg\/_\/Thump+Shit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

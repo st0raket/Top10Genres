@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:11.465014+00:00",
+  "elapsed": 0.230431,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:11.465014+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2174",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Robyn&format=json&method=track.getInfo&track=Missing+U"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Robyn&format=json&method=track.getInfo&track=Missing+U",
+  "_decoded_content": {
+    "track": {
+      "name": "Missing U",
+      "url": "https:\/\/www.last.fm\/music\/Robyn\/_\/Missing+U",
+      "duration": "297000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "141475",
+      "playcount": "1435482",
+      "artist": {
+        "name": "Robyn",
+        "mbid": "5a8e07d5-d932-4484-a7f7-e700793a9c94",
+        "url": "https:\/\/www.last.fm\/music\/Robyn"
+      },
+      "album": {
+        "artist": "Robyn",
+        "title": "Honey",
+        "url": "https:\/\/www.last.fm\/music\/Robyn\/Honey",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/86269e8cd4f97272e669a41f0e72f7bc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/86269e8cd4f97272e669a41f0e72f7bc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/86269e8cd4f97272e669a41f0e72f7bc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/86269e8cd4f97272e669a41f0e72f7bc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "swedish",
+            "url": "https:\/\/www.last.fm\/tag\/swedish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Aug 2018, 13:30",
+        "summary": "On August 1st Robyn 2018, Robyn presented for first Missing U in BBC Radio 1 Annie Mac's show. There she talked about the long silence and the process of making the upcoming album to be released before 2018 end. Robyn also released a mini-documentary featuring the song and a tribute to her fans who were missing her and her new music for years. <a href=\"http:\/\/www.last.fm\/music\/Robyn\/_\/Missing+U\">Read more on Last.fm<\/a>.",
+        "content": "On August 1st Robyn 2018, Robyn presented for first Missing U in BBC Radio 1 Annie Mac's show. There she talked about the long silence and the process of making the upcoming album to be released before 2018 end. Robyn also released a mini-documentary featuring the song and a tribute to her fans who were missing her and her new music for years. <a href=\"http:\/\/www.last.fm\/music\/Robyn\/_\/Missing+U\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

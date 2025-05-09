@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:23.921158+00:00",
+  "elapsed": 0.175673,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:23.921158+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2562",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Don%27t+Start+Now"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Don%27t+Start+Now",
+  "_decoded_content": {
+    "track": {
+      "name": "doN'T StArT nOw",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/doN%27T+StArT+nOw",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1300146",
+      "playcount": "20536531",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "nu-disco",
+            "url": "https:\/\/www.last.fm\/tag\/nu-disco"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Nov 2019, 16:28",
+        "summary": "'Don't Start Now' is the the bass-heavy and disco infused comeback single from British singer-songwriter Dua Lipa. It serves as the lead single from her sophomore album, 'Future Nostalgia', released 27 March 2020. \nDua began teasing the 'Future Nostalgia' era on 1 October 2019, when she posted to Instagram a photo of her revealing her new hairstyle, captioned, \u201cA new era! Thank you for your patience. See you soon #DL2.\u201d Eventually, on 11 October <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/doN%27T+StArT+nOw\">Read more on Last.fm<\/a>.",
+        "content": "'Don't Start Now' is the the bass-heavy and disco infused comeback single from British singer-songwriter Dua Lipa. It serves as the lead single from her sophomore album, 'Future Nostalgia', released 27 March 2020. \nDua began teasing the 'Future Nostalgia' era on 1 October 2019, when she posted to Instagram a photo of her revealing her new hairstyle, captioned, \u201cA new era! Thank you for your patience. See you soon #DL2.\u201d Eventually, on 11 October, via an interview Dua's management did with Variety, the official release date was announced as 31 October 2019. Dua then blacked out the majority of her social media accounts, such as Instagram and Twitter, to signify the beginning of the era. The song was announced officially from Dua herself on 22 October 2019, and was released on 31 October 2019 to great anticipation. The song was a great success, especially in Europe, Australia, and North America. 'Don't Start Now' has garnered over 19 million plays here on Last.fm and over 1 billion streams collectively. It has been a radio, streaming, and chart force. 'Don't Start Now' has also been a great success critically, and enhanced Dua's career to new heights. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/doN%27T+StArT+nOw\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

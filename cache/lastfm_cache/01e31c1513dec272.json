@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:43:29.811055+00:00",
+  "elapsed": 0.228981,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:29.811055+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "325",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mora&format=json&method=track.getInfo&track=Volando+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mora&format=json&method=track.getInfo&track=Volando+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Volando - Remix",
+      "url": "https:\/\/www.last.fm\/music\/Mora\/_\/Volando+-+Remix",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "118262",
+      "playcount": "1497792",
+      "artist": {
+        "name": "Mora",
+        "mbid": "5fd0d57d-238a-4161-bcd4-12c22fe92556",
+        "url": "https:\/\/www.last.fm\/music\/Mora"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

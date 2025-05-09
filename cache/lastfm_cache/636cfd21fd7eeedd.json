@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:38:44.447914+00:00",
+  "elapsed": 0.182291,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:44.447914+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2325",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Central+Cee&format=json&method=track.getInfo&track=LET+GO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Central+Cee&format=json&method=track.getInfo&track=LET+GO",
+  "_decoded_content": {
+    "track": {
+      "name": "Let Go",
+      "url": "https:\/\/www.last.fm\/music\/Central+Cee\/_\/Let+Go",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "262983",
+      "playcount": "2316046",
+      "artist": {
+        "name": "Central Cee",
+        "url": "https:\/\/www.last.fm\/music\/Central+Cee"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "UK hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/UK+hip+hop"
+          },
+          {
+            "name": "UK rap",
+            "url": "https:\/\/www.last.fm\/tag\/UK+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Dec 2022, 23:54",
+        "summary": "\u201cLET GO\u201d is Central Cee\u2019s sentimental track where he vents his feelings and reminisces on times he had with an unnamed woman, causing him to feel depressed and emotional. The track\u2019s beat samples Passenger\u2019s February 2012 single \u201cLet Her Go.\u201d\n\nShortly after posting the snippet, Central Cee removed it and proclaimed that he wouldn\u2019t release it as his girlfriend, Madeline Argy disapproved of it since he called females \u201choes.\u201d Central Cee questioned Madeline for her opinions on the snippet <a href=\"http:\/\/www.last.fm\/music\/Central+Cee\/_\/Let+Go\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLET GO\u201d is Central Cee\u2019s sentimental track where he vents his feelings and reminisces on times he had with an unnamed woman, causing him to feel depressed and emotional. The track\u2019s beat samples Passenger\u2019s February 2012 single \u201cLet Her Go.\u201d\n\nShortly after posting the snippet, Central Cee removed it and proclaimed that he wouldn\u2019t release it as his girlfriend, Madeline Argy disapproved of it since he called females \u201choes.\u201d Central Cee questioned Madeline for her opinions on the snippet, to which she simply responded with \u201cno.\u201d\n\nOn December 11, 2022, Madeline posted a TikTok, singing along to the lyrics, where she decided to approve the song with the caption \u201cchange my mind.\u201d\n\nOn December 14, 2022, days after Madeline changed her thoughts, Central Cee surprised his followers with a snippet on Instagram, simply captioning it \u201ctomorrow.\u201d <a href=\"http:\/\/www.last.fm\/music\/Central+Cee\/_\/Let+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

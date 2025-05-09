@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:40:46.017867+00:00",
+  "elapsed": 1.232876,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:46.017867+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "967",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Kissing+Strangers"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Kissing+Strangers",
+  "_decoded_content": {
+    "track": {
+      "name": "Kissing Strangers",
+      "url": "https:\/\/www.last.fm\/music\/Usher\/_\/Kissing+Strangers",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "35705",
+      "playcount": "177916",
+      "artist": {
+        "name": "Usher",
+        "mbid": "3414d446-735a-443c-931f-10634f57e5b9",
+        "url": "https:\/\/www.last.fm\/music\/Usher"
+      },
+      "album": {
+        "artist": "Usher",
+        "title": "COMING HOME [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Usher\/COMING+HOME+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c16186ba7cc4400a0ee2d45624e9b2ba.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c16186ba7cc4400a0ee2d45624e9b2ba.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c16186ba7cc4400a0ee2d45624e9b2ba.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c16186ba7cc4400a0ee2d45624e9b2ba.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      }
+    }
+  }
+}

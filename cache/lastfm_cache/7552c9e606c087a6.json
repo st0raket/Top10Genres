@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:03.610906+00:00",
+  "elapsed": 0.366757,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:03.610906+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2573",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Griff&format=json&method=track.getInfo&track=Head+on+Fire"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Griff&format=json&method=track.getInfo&track=Head+on+Fire",
+  "_decoded_content": {
+    "track": {
+      "name": "Head on Fire",
+      "url": "https:\/\/www.last.fm\/music\/griff\/_\/Head+on+Fire",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "78322",
+      "playcount": "618963",
+      "artist": {
+        "name": "griff",
+        "mbid": "84b8a3bc-7e45-4b1e-a34c-bb1a99b7bf5e",
+        "url": "https:\/\/www.last.fm\/music\/griff"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "synth-pop",
+            "url": "https:\/\/www.last.fm\/tag\/synth-pop"
+          },
+          {
+            "name": "heard live",
+            "url": "https:\/\/www.last.fm\/tag\/heard+live"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Nov 2022, 15:30",
+        "summary": "In a video discussing the creation of \u201cThe Making of Head on Fire\u201d, Griff and Sigrid said that this song is about that moment when you really can\u2019t get someone out of your head. Griff also noted that this was her first time working with another artist rather than just a producer.\n\n\u201cGriff and I met sharing a pizza at the Rueben Selby show at Fashion Week in London\u2026We went to the studio a while later and just had a day of talking about life, before writing \u2018Head On Fire\u2019.\u201c <a href=\"http:\/\/www.last.fm\/music\/griff\/_\/Head+on+Fire\">Read more on Last.fm<\/a>.",
+        "content": "In a video discussing the creation of \u201cThe Making of Head on Fire\u201d, Griff and Sigrid said that this song is about that moment when you really can\u2019t get someone out of your head. Griff also noted that this was her first time working with another artist rather than just a producer.\n\n\u201cGriff and I met sharing a pizza at the Rueben Selby show at Fashion Week in London\u2026We went to the studio a while later and just had a day of talking about life, before writing \u2018Head On Fire\u2019.\u201c\n\n\u2014 Sigrid via NME\n\n\u201cI\u2019ve looked up to Sigrid so much, especially as a young girl who broke through making powerful, credible pop music. So I was excited to hear she wanted to write. We hung out and made \u2018Head On Fire\u2019, this really fun, feel-good song, and I\u2019m excited for the world to finally hear us on a track together.\u201c\n\n\u2014 Griff via NME\n\n\u201cIt\u2019s about that feeling when you meet someone who just flips everything upside down and you can\u2019t focus on anything else but that person. [Griff\u2019s] just lovely, and it\u2019s been so much fun working with her.\u201c\n\n\u2014 Sigrid via NME <a href=\"http:\/\/www.last.fm\/music\/griff\/_\/Head+on+Fire\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

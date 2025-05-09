@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:50.637251+00:00",
+  "elapsed": 0.214131,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:50.637251+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1374",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nat+King+Cole&format=json&method=track.getInfo&track=Joy+To+The+World"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nat+King+Cole&format=json&method=track.getInfo&track=Joy+To+The+World",
+  "_decoded_content": {
+    "track": {
+      "name": "Joy to the World",
+      "mbid": "75ad2d0a-32ac-4bcf-943a-e0f680cce031",
+      "url": "https:\/\/www.last.fm\/music\/Nat+King+Cole\/_\/Joy+to+the+World",
+      "duration": "82000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "416959",
+      "playcount": "1241728",
+      "artist": {
+        "name": "Nat King Cole",
+        "mbid": "fbe054ec-a143-4101-9e9e-64abc5ff5ac9",
+        "url": "https:\/\/www.last.fm\/music\/Nat+King+Cole"
+      },
+      "album": {
+        "artist": "Nat King Cole",
+        "title": "The Christmas Song",
+        "mbid": "1d0bf79a-7f38-4520-a337-c7079acba4cc",
+        "url": "https:\/\/www.last.fm\/music\/Nat+King+Cole\/The+Christmas+Song",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1ae47a0ddb0230db59c8165fc8094936.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1ae47a0ddb0230db59c8165fc8094936.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1ae47a0ddb0230db59c8165fc8094936.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1ae47a0ddb0230db59c8165fc8094936.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "christmas song",
+            "url": "https:\/\/www.last.fm\/tag\/christmas+song"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          }
+        ]
+      }
+    }
+  }
+}

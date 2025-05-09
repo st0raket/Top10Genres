@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:28:32.473646+00:00",
+  "elapsed": 0.272811,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:32.473646+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1622",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Depression+%26+Obsession"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Depression+%26+Obsession",
+  "_decoded_content": {
+    "track": {
+      "name": "Depression & Obsession",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/Depression+&+Obsession",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "375789",
+      "playcount": "4148097",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "post-nerdcore",
+            "url": "https:\/\/www.last.fm\/tag\/post-nerdcore"
+          },
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 16:21",
+        "summary": "\u201cDepression and Obsession\u201d is the 3rd track of X\u2019s debut album, 17. It was first previewed on August 5th on X\u2019s Snapchat story. This track was originally slated to be on X\u2019s scrapped album, Bad Vibes Forever, featuring Abra & Nicole Dollanganger. This song is likely about his ex girlfriend, Geneva Ayala. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Depression+&+Obsession\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDepression and Obsession\u201d is the 3rd track of X\u2019s debut album, 17. It was first previewed on August 5th on X\u2019s Snapchat story. This track was originally slated to be on X\u2019s scrapped album, Bad Vibes Forever, featuring Abra & Nicole Dollanganger. This song is likely about his ex girlfriend, Geneva Ayala. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Depression+&+Obsession\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:15.025107+00:00",
+  "elapsed": 0.277411,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:15.025107+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2624",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Pure+Souls"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Pure+Souls",
+  "_decoded_content": {
+    "track": {
+      "name": "Pure Souls",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Pure+Souls",
+      "duration": "359000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "391374",
+      "playcount": "4585967",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Donda",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Donda",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "Roddy Ricch",
+            "url": "https:\/\/www.last.fm\/tag\/Roddy+Ricch"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "gospel",
+            "url": "https:\/\/www.last.fm\/tag\/gospel"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Oct 2021, 04:27",
+        "summary": "\u201cPure Souls\u201d is the first ever collaboration between Kanye West and Roddy Ricch.\nThe collab came as a shock to some fans, as the duo had a minor spat on social media after Ye posted a video of himself urinating on one of his Grammy Awards.\nRoddy Ricch took to Instagram Live to speak out against Kanye\u2019s tweet, describing it as \u201clame.\u201d\nRegardless of prior beef, the duo link up for a profound song that references the challenges that they have faced since reaching high levels of success. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Pure+Souls\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPure Souls\u201d is the first ever collaboration between Kanye West and Roddy Ricch.\nThe collab came as a shock to some fans, as the duo had a minor spat on social media after Ye posted a video of himself urinating on one of his Grammy Awards.\nRoddy Ricch took to Instagram Live to speak out against Kanye\u2019s tweet, describing it as \u201clame.\u201d\nRegardless of prior beef, the duo link up for a profound song that references the challenges that they have faced since reaching high levels of success. They spit about avoiding the temptation to \u201csell\u201d their souls to fame and fortune. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Pure+Souls\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

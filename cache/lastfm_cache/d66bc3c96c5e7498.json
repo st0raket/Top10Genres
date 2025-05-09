@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:37.203552+00:00",
+  "elapsed": 0.1858,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:37.203552+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1972",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jin&format=json&method=track.getInfo&track=Yours"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jin&format=json&method=track.getInfo&track=Yours",
+  "_decoded_content": {
+    "track": {
+      "name": "Yours",
+      "url": "https:\/\/www.last.fm\/music\/Jin\/_\/Yours",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "212644",
+      "playcount": "28434082",
+      "artist": {
+        "name": "Jin",
+        "mbid": "bd9e7f29-d80b-443d-9ce0-6153b8179022",
+        "url": "https:\/\/www.last.fm\/music\/Jin"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "ost",
+            "url": "https:\/\/www.last.fm\/tag\/ost"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Nov 2021, 07:24",
+        "summary": "\u201cYours,\u201d a heart-touching ballad, works as one of the leading songs for the Korean TV drama, Jirisan (\uc9c0\ub9ac\uc0b0), and is introduced in Episode 6.\n\nThe song marks the second release, after \u201c\uc8fd\uc5b4\ub3c4 \ub108\uc57c (It\u2019s Definitely You)\u201d from the drama Hwarang (\ud654\ub791), sung by Jin which works as the soundtrack for the tv series.\n\nJirisan (\uc9c0\ub9ac\uc0b0), directed by Lee Eung Bok (\uc774\uc751\ubcf5), is one of the most anticipated Korean series of 2021. This <a href=\"http:\/\/www.last.fm\/music\/Jin\/_\/Yours\">Read more on Last.fm<\/a>.",
+        "content": "\u201cYours,\u201d a heart-touching ballad, works as one of the leading songs for the Korean TV drama, Jirisan (\uc9c0\ub9ac\uc0b0), and is introduced in Episode 6.\n\nThe song marks the second release, after \u201c\uc8fd\uc5b4\ub3c4 \ub108\uc57c (It\u2019s Definitely You)\u201d from the drama Hwarang (\ud654\ub791), sung by Jin which works as the soundtrack for the tv series.\n\nJirisan (\uc9c0\ub9ac\uc0b0), directed by Lee Eung Bok (\uc774\uc751\ubcf5), is one of the most anticipated Korean series of 2021. This mystery thriller follows the story of a dedicated team of rangers working at the Jiri Mountain National Park\u2014the biggest and the oldest in South Korea. <a href=\"http:\/\/www.last.fm\/music\/Jin\/_\/Yours\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

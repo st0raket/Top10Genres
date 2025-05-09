@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:42:45.397180+00:00",
+  "elapsed": 0.355561,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:45.397180+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1203",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Eskine&format=json&method=track.getInfo&track=Resenha+do+Arrocha"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Eskine&format=json&method=track.getInfo&track=Resenha+do+Arrocha",
+  "_decoded_content": {
+    "track": {
+      "name": "Resenha do Arrocha",
+      "url": "https:\/\/www.last.fm\/music\/J.+Eskine\/_\/Resenha+do+Arrocha",
+      "duration": "354000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "180341",
+      "playcount": "1424655",
+      "artist": {
+        "name": "J. Eskine",
+        "url": "https:\/\/www.last.fm\/music\/J.+Eskine"
+      },
+      "album": {
+        "artist": "J. Eskine",
+        "title": "Resenha do Arrocha - Single",
+        "url": "https:\/\/www.last.fm\/music\/J.+Eskine\/Resenha+do+Arrocha+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/84a62771896e2de9fd19b4a9860eba98.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/84a62771896e2de9fd19b4a9860eba98.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/84a62771896e2de9fd19b4a9860eba98.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/84a62771896e2de9fd19b4a9860eba98.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "arrocha",
+            "url": "https:\/\/www.last.fm\/tag\/arrocha"
+          },
+          {
+            "name": "piseiro",
+            "url": "https:\/\/www.last.fm\/tag\/piseiro"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "Avant-Garde",
+            "url": "https:\/\/www.last.fm\/tag\/Avant-Garde"
+          },
+          {
+            "name": "screamo",
+            "url": "https:\/\/www.last.fm\/tag\/screamo"
+          }
+        ]
+      }
+    }
+  }
+}

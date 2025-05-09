@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:01.023426+00:00",
+  "elapsed": 0.193789,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:01.023426+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2680",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YG+Marley&format=json&method=track.getInfo&track=Praise+Jah+In+The+Moonlight"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YG+Marley&format=json&method=track.getInfo&track=Praise+Jah+In+The+Moonlight",
+  "_decoded_content": {
+    "track": {
+      "name": "Praise Jah in the Moonlight",
+      "url": "https:\/\/www.last.fm\/music\/YG+Marley\/_\/Praise+Jah+in+the+Moonlight",
+      "duration": "263000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "327769",
+      "playcount": "2508049",
+      "artist": {
+        "name": "YG Marley",
+        "url": "https:\/\/www.last.fm\/music\/YG+Marley"
+      },
+      "album": {
+        "artist": "YG Marley",
+        "title": "Praise Jah In the Moonlight - Single",
+        "url": "https:\/\/www.last.fm\/music\/YG+Marley\/Praise+Jah+In+the+Moonlight+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/02158ce8f594210d0ea5d39f2f86927e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/02158ce8f594210d0ea5d39f2f86927e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/02158ce8f594210d0ea5d39f2f86927e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/02158ce8f594210d0ea5d39f2f86927e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "reggae",
+            "url": "https:\/\/www.last.fm\/tag\/reggae"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "Olivia",
+            "url": "https:\/\/www.last.fm\/tag\/Olivia"
+          },
+          {
+            "name": "in love",
+            "url": "https:\/\/www.last.fm\/tag\/in+love"
+          },
+          {
+            "name": "tiktok",
+            "url": "https:\/\/www.last.fm\/tag\/tiktok"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Feb 2024, 21:53",
+        "summary": "\"Praise Jah in the Moonlight\" is a song by YG Marley, released as his debut single on December 27, 2023. It was co-written by Marley with his mother Lauryn Hill, and samples his grandfather Bob Marley's 1978 song \"Crisis\" performed with The Wailers. It charted internationally, charting the highest in New Zealand at number one.\n\nIn late 2023, Marley performed the song at several of his mother Lauryn Hill's concerts, which led to the song gaining popularity on TikTok and fans asking for an official release of the song <a href=\"http:\/\/www.last.fm\/music\/YG+Marley\/_\/Praise+Jah+in+the+Moonlight\">Read more on Last.fm<\/a>.",
+        "content": "\"Praise Jah in the Moonlight\" is a song by YG Marley, released as his debut single on December 27, 2023. It was co-written by Marley with his mother Lauryn Hill, and samples his grandfather Bob Marley's 1978 song \"Crisis\" performed with The Wailers. It charted internationally, charting the highest in New Zealand at number one.\n\nIn late 2023, Marley performed the song at several of his mother Lauryn Hill's concerts, which led to the song gaining popularity on TikTok and fans asking for an official release of the song, which occurred on December 27, 2023. <a href=\"http:\/\/www.last.fm\/music\/YG+Marley\/_\/Praise+Jah+in+the+Moonlight\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:37:46.172574+00:00",
+  "elapsed": 0.198472,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:46.172574+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "850",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Robin&format=json&method=track.getInfo&track=Layla"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Robin&format=json&method=track.getInfo&track=Layla",
+  "_decoded_content": {
+    "track": {
+      "name": "Layla",
+      "url": "https:\/\/www.last.fm\/music\/DJ+Robin\/_\/Layla",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38030",
+      "playcount": "362379",
+      "artist": {
+        "name": "DJ Robin",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Robin"
+      },
+      "album": {
+        "artist": "DJ Robin",
+        "title": "Layla (English Version)",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Robin\/Layla+(English+Version)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/90fa98f0232f3fc4d07804e0db92091e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/90fa98f0232f3fc4d07804e0db92091e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/90fa98f0232f3fc4d07804e0db92091e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/90fa98f0232f3fc4d07804e0db92091e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

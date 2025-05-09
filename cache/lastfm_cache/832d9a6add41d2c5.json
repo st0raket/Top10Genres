@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:15.566355+00:00",
+  "elapsed": 0.209835,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:15.566355+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2350",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=The+Planet"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=The+Planet",
+  "_decoded_content": {
+    "track": {
+      "name": "THE PLANET",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/THE+PLANET",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "168343",
+      "playcount": "15484754",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "ost",
+            "url": "https:\/\/www.last.fm\/tag\/ost"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jun 2023, 00:53",
+        "summary": "\u201cThe Planet\u201d marks the first time all seven members of the boy band have come together on a new song since they announced in Oct. 2022 that they\u2019d be taking time to focus on their solo efforts and individual creative journeys.\n\nSince then, Jin, Jimin, V and Jung kook have collaborated with Snoop Dogg and Benny Blanco on the duo\u2019s dance single \u201cBad Decisions\u201d while J-Hope, RM, Jimin and Suga all released their respective solo albums: Jack in the Box, Indigo, FACE and D-DAY (as Agust D) as well as documentaries, photo folios and more. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/THE+PLANET\">Read more on Last.fm<\/a>.",
+        "content": "\u201cThe Planet\u201d marks the first time all seven members of the boy band have come together on a new song since they announced in Oct. 2022 that they\u2019d be taking time to focus on their solo efforts and individual creative journeys.\n\nSince then, Jin, Jimin, V and Jung kook have collaborated with Snoop Dogg and Benny Blanco on the duo\u2019s dance single \u201cBad Decisions\u201d while J-Hope, RM, Jimin and Suga all released their respective solo albums: Jack in the Box, Indigo, FACE and D-DAY (as Agust D) as well as documentaries, photo folios and more.\n\nIt\u2019s particularly worth noting \u201cThe Planet\u201d is likely the last new release ARMY can enjoy featuring the entire group together for the foreseeable future, considering Jin and J-Hope have both started their mandatory service in the South Korean military and the other five expected to follow in succession based on their ages. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/THE+PLANET\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

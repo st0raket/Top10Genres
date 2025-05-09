@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:34:29.166004+00:00",
+  "elapsed": 0.187202,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:29.166004+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4380",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rockwell&format=json&method=track.getInfo&track=Somebody%27s+Watching+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rockwell&format=json&method=track.getInfo&track=Somebody%27s+Watching+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Somebody's Watching Me",
+      "mbid": "e9ddbdab-256a-4ffd-8237-c79fe3e2c477",
+      "url": "https:\/\/www.last.fm\/music\/Rockwell\/_\/Somebody%27s+Watching+Me",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "563828",
+      "playcount": "3029247",
+      "artist": {
+        "name": "Rockwell",
+        "mbid": "b7d224b3-a31c-4616-b69f-b6fcabd5cfbd",
+        "url": "https:\/\/www.last.fm\/music\/Rockwell"
+      },
+      "album": {
+        "artist": "Rockwell",
+        "title": "Somebody's Watching Me",
+        "mbid": "974cdb88-830c-4efc-8a9d-83e19b37ca90",
+        "url": "https:\/\/www.last.fm\/music\/Rockwell\/Somebody%27s+Watching+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1a5813e30ff9d3426cdddadad99f2437.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1a5813e30ff9d3426cdddadad99f2437.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1a5813e30ff9d3426cdddadad99f2437.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1a5813e30ff9d3426cdddadad99f2437.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "One Hit Wonders",
+            "url": "https:\/\/www.last.fm\/tag\/One+Hit+Wonders"
+          },
+          {
+            "name": "motown",
+            "url": "https:\/\/www.last.fm\/tag\/motown"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Aug 2009, 18:38",
+        "summary": "\u201cSomebody\u2019s Watching Me\u201d is Rockwell\u2019s only hit. Released on January 14, 1984, it peaked at #2 on the Billboard 100, and was certified gold in the US. It also reached the top 10 in eight countries overseas including the UK. The song is written about paranoia and has a famously spooky Halloween vibe.\n\nKennedy Gordy (son of Berry Gordy, CEO of Motown at the time) had been writing songs as a child he later called \u2018mediocre at best\u2019. In his frustration, he prayed \u2018to write a song that\u2019ll go to the top of the charts\u2019. <a href=\"http:\/\/www.last.fm\/music\/Rockwell\/_\/Somebody%27s+Watching+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSomebody\u2019s Watching Me\u201d is Rockwell\u2019s only hit. Released on January 14, 1984, it peaked at #2 on the Billboard 100, and was certified gold in the US. It also reached the top 10 in eight countries overseas including the UK. The song is written about paranoia and has a famously spooky Halloween vibe.\n\nKennedy Gordy (son of Berry Gordy, CEO of Motown at the time) had been writing songs as a child he later called \u2018mediocre at best\u2019. In his frustration, he prayed \u2018to write a song that\u2019ll go to the top of the charts\u2019. Over the next two days, he wrote \u201cSomebody\u2019s Watching Me\u201d.\n\nHe played a demo of the song for his father, but he was not impressed. So Kennedy then sang the song for long-time childhood friend Michael Jackson, who liked it so much he asked Kennedy to perform it multiple times, each time adding more of his own family members to the audience. When Jackson then asked who Kennedy planned to have sing backups, he asked Jackson to do it.\n\nKennedy, wanting to not use his father\u2019s name, secretly submitted the song to Motown under the name Rockwell. When Motown signed Rockwell without his father\u2019s knowledge, Berry Gordy was initially flabbergasted \u2013 but later very proud of his son, even referring to him as Rockwell in public.\n\nRockwell told Rolling Stone how the song came to him:\n\n\"I asked God to give me it. The prayer was, \u2018God grant me the creativity to write a song that\u2019ll go to the top of the charts and tickle the taste buds of the music connoisseur.\u2019 Everything came to me so easily after that prayer.\"\n\nKennedy Gordy (aka Rockwell) was a childhood friend of Jackson. He played the music of the song while singing it for Jackson one day:\n\n\"I performed it about eight or nine times. Michael says, \u2018Hey Rebbie! Hey Janet! You gotta hear this song Kennedy did.\u2019 Every time we stopped the song, Michael called three more people down. Afterwards, Michael pulled me to the side and says, \u2018Kennedy, I gotta talk to you for a second. Who are you going to get to sing background vocals?\u2019 I said, \u2018Why don\u2019t you do it?\u2019 It worked just like that.\" <a href=\"http:\/\/www.last.fm\/music\/Rockwell\/_\/Somebody%27s+Watching+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

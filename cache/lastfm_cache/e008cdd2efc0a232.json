@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:27.205161+00:00",
+  "elapsed": 0.186553,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:27.205161+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2681",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Maroon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Maroon",
+  "_decoded_content": {
+    "track": {
+      "name": "Maroon",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Maroon",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "761131",
+      "playcount": "22703245",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Midnights",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Midnights",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8914bab2a0e4e454c6892f151d57208f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "shit",
+            "url": "https:\/\/www.last.fm\/tag\/shit"
+          },
+          {
+            "name": "overrated",
+            "url": "https:\/\/www.last.fm\/tag\/overrated"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Oct 2022, 00:00",
+        "summary": "\"Maroon\" is a melancholic reflection of a romantic relationship that has ended. In it, Swift laments over the memory of a former lover, reminiscing on the happy and chaotic moments they shared together. The chorus\u2019 metaphor of the song's namesake \u2013 a burgundy t-shirt, stained by the red of their wine \u2013 expresses her emotional turmoil at the conclusion of their relationship. In the bridge, Swift changes the tone of the song, promising to move forward with the memory of their relationship in mind. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Maroon\">Read more on Last.fm<\/a>.",
+        "content": "\"Maroon\" is a melancholic reflection of a romantic relationship that has ended. In it, Swift laments over the memory of a former lover, reminiscing on the happy and chaotic moments they shared together. The chorus\u2019 metaphor of the song's namesake \u2013 a burgundy t-shirt, stained by the red of their wine \u2013 expresses her emotional turmoil at the conclusion of their relationship. In the bridge, Swift changes the tone of the song, promising to move forward with the memory of their relationship in mind. Ultimately, \"Maroon\" is a song about the recollections of a once-turbulent and seemingly tumultuous yet deeply loving union. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Maroon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

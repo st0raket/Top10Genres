@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:28:31.283547+00:00",
+  "elapsed": 0.304724,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:31.283547+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1427",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=No+Sleep+Leak"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=No+Sleep+Leak",
+  "_decoded_content": {
+    "track": {
+      "name": "No Sleep Leak",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/No+Sleep+Leak",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "196197",
+      "playcount": "1753730",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          },
+          {
+            "name": "21st century in music",
+            "url": "https:\/\/www.last.fm\/tag\/21st+century+in+music"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 May 2021, 16:17",
+        "summary": "\u201cNo Sleep Leak\u201d is a song where Lil Uzi Vert talks about the sudden fame and money that came in his life.\n\nHe repeatedly gives insight to the lavish lifestyle he lives and states how he used to be broke but now he experiences luxury consistently. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/No+Sleep+Leak\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNo Sleep Leak\u201d is a song where Lil Uzi Vert talks about the sudden fame and money that came in his life.\n\nHe repeatedly gives insight to the lavish lifestyle he lives and states how he used to be broke but now he experiences luxury consistently. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/No+Sleep+Leak\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

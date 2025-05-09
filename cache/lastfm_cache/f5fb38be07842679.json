@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:11.584941+00:00",
+  "elapsed": 0.209431,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:11.584941+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3291",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Solange&format=json&method=track.getInfo&track=Almeda"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Solange&format=json&method=track.getInfo&track=Almeda",
+  "_decoded_content": {
+    "track": {
+      "name": "Almeda",
+      "url": "https:\/\/www.last.fm\/music\/Solange\/_\/Almeda",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "382685",
+      "playcount": "4415390",
+      "artist": {
+        "name": "Solange",
+        "mbid": "ff7103c5-da9e-434d-b8aa-037424ba45ad",
+        "url": "https:\/\/www.last.fm\/music\/Solange"
+      },
+      "album": {
+        "artist": "Solange",
+        "title": "When I Get Home",
+        "url": "https:\/\/www.last.fm\/music\/Solange\/When+I+Get+Home",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/208ad3588684dab829d7420aa7d4e470.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/208ad3588684dab829d7420aa7d4e470.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/208ad3588684dab829d7420aa7d4e470.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/208ad3588684dab829d7420aa7d4e470.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Mar 2022, 18:31",
+        "summary": "\"Almeda\" is a celebration of black identity, culture and ownership. The song establishes the importance of black-owned businesses, goods, and faith, which cannot be washed or erased despite the racist history and events. The repeated lines of pouring and sipping brown liquor, referring to the color of black skin, are an assertion of pride in blackness.\n\nThe lyrics also reference Florida water, which is a traditional spiritual cleansing product used in the African American community. <a href=\"http:\/\/www.last.fm\/music\/Solange\/_\/Almeda\">Read more on Last.fm<\/a>.",
+        "content": "\"Almeda\" is a celebration of black identity, culture and ownership. The song establishes the importance of black-owned businesses, goods, and faith, which cannot be washed or erased despite the racist history and events. The repeated lines of pouring and sipping brown liquor, referring to the color of black skin, are an assertion of pride in blackness.\n\nThe lyrics also reference Florida water, which is a traditional spiritual cleansing product used in the African American community. It is believed to have healing and protective properties against negative energies and spirits.\n\nThe song features Playboi Carti, whose verse does not contribute to the original theme of the song, but rather emphasizes his wealth, with references to his diamonds, cash, and material possessions. The-Dream's ad-libs and refrain add to the leisurely, carefree vibe of the song, where the artists are content with just hanging out and enjoying each other's company.\n\nOverall, \"Almeda\" is a powerful celebration of black pride and ownership, which are not only financial but also cultural and spiritual. It encourages the support of black-owned businesses and the healing of black communities through the collective strength of their identity and faith. <a href=\"http:\/\/www.last.fm\/music\/Solange\/_\/Almeda\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

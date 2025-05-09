@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:50.314242+00:00",
+  "elapsed": 0.197056,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:50.314242+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1085",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burl+Ives&format=json&method=track.getInfo&track=Rudolph+The+Red-Nosed+Reindeer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burl+Ives&format=json&method=track.getInfo&track=Rudolph+The+Red-Nosed+Reindeer",
+  "_decoded_content": {
+    "track": {
+      "name": "Rudolph The Red-Nosed Reindeer",
+      "mbid": "cba218ec-7017-46bb-99f6-9a6a7d3ebfb3",
+      "url": "https:\/\/www.last.fm\/music\/Burl+Ives\/_\/Rudolph+The+Red-Nosed+Reindeer",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "325636",
+      "playcount": "894515",
+      "artist": {
+        "name": "Burl Ives",
+        "mbid": "086c1936-9eaa-4091-b140-ad33a51a3b71",
+        "url": "https:\/\/www.last.fm\/music\/Burl+Ives"
+      },
+      "album": {
+        "artist": "Burl Ives",
+        "title": "Have A Holly Jolly Christmas",
+        "mbid": "9077eddb-f46a-4162-beac-df057ae59009",
+        "url": "https:\/\/www.last.fm\/music\/Burl+Ives\/Have+A+Holly+Jolly+Christmas",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "classic Christmas",
+            "url": "https:\/\/www.last.fm\/tag\/classic+Christmas"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          }
+        ]
+      }
+    }
+  }
+}

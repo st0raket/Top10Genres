@@ -1,0 +1,85 @@
+{
+  "created_at": "2025-05-03T14:31:21.531081+00:00",
+  "elapsed": 0.22422,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:21.531081+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3083",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Free+Spirit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Free+Spirit",
+  "_decoded_content": {
+    "track": {
+      "name": "Free Spirit",
+      "url": "https:\/\/www.last.fm\/music\/Khalid\/_\/Free+Spirit",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "126535",
+      "playcount": "661000",
+      "artist": {
+        "name": "Khalid",
+        "mbid": "c6bfb05d-f570-46c8-98e1-e25441189770",
+        "url": "https:\/\/www.last.fm\/music\/Khalid"
+      },
+      "album": {
+        "artist": "Khalid",
+        "title": "Free Spirit",
+        "url": "https:\/\/www.last.fm\/music\/Khalid\/Free+Spirit",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Mar 2022, 04:38",
+        "summary": "\u201cFree Spirit\u201d is the title track of Khalid\u2019s sophomore album, which was released on April 5, 2019.\n\nOn \u201cFree Spirit\", Khalid is ready to let go of all of his worries and live his life in its purest form, and he invites someone around him to do the same.\n\n\"\u201cFree Spirit,\u201d the title track, took me the longest to write. I\u2019ve been holding on to that since May of last year and finished writing that song in February 2019. I wanted to make sure I wrote the title track after the album was done. <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/Free+Spirit\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFree Spirit\u201d is the title track of Khalid\u2019s sophomore album, which was released on April 5, 2019.\n\nOn \u201cFree Spirit\", Khalid is ready to let go of all of his worries and live his life in its purest form, and he invites someone around him to do the same.\n\n\"\u201cFree Spirit,\u201d the title track, took me the longest to write. I\u2019ve been holding on to that since May of last year and finished writing that song in February 2019. I wanted to make sure I wrote the title track after the album was done. I feel like it\u2019s better to wrap everything up and find the common theme. \u201cFree Spirit\u201d is those first few steps into the world, when you realize that the world is not as easy as you planned it to be. In high school, we all have an idea of everything we want to achieve, but we don\u2019t really accept the fact that it\u2019s hard. Life is hard, moving on is hard, growing up is hard. That\u2019s why a lot of people get comfortable and they find themselves stagnant. I didn\u2019t want to do that. Music is my life at this point. Music is what allows me to live. But that\u2019s an adult mentality. I still have love for it, but the fact that it pays off and people get to become impacted by the music, it\u2019s amazing. I really wanted to make sure Free Spirit was personal.\"\n\n- via Billboard <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/Free+Spirit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

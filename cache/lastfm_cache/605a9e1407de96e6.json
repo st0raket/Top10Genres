@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:24.152476+00:00",
+  "elapsed": 0.302366,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:24.152476+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2126",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JVKE&format=json&method=track.getInfo&track=Golden+Hour"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JVKE&format=json&method=track.getInfo&track=Golden+Hour",
+  "_decoded_content": {
+    "track": {
+      "name": "golden hour",
+      "url": "https:\/\/www.last.fm\/music\/JVKE\/_\/golden+hour",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "772366",
+      "playcount": "10605899",
+      "artist": {
+        "name": "JVKE",
+        "url": "https:\/\/www.last.fm\/music\/JVKE"
+      },
+      "album": {
+        "artist": "JVKE",
+        "title": "golden hour",
+        "url": "https:\/\/www.last.fm\/music\/JVKE\/golden+hour",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d5932e6465c076a186052a5727d4cfec.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d5932e6465c076a186052a5727d4cfec.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d5932e6465c076a186052a5727d4cfec.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d5932e6465c076a186052a5727d4cfec.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "epic",
+            "url": "https:\/\/www.last.fm\/tag\/epic"
+          },
+          {
+            "name": "chamber pop",
+            "url": "https:\/\/www.last.fm\/tag\/chamber+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Sep 2022, 02:35",
+        "summary": "\u201cgolden hour\u201d is the third song released off of JVKE\u2019s debut album.\n\nBefore announcing the title and pre-save link, JVKE shared on his Instagram story on July 12, 2022:\n\n\"This song has a special place in my heart and I can\u2019t wait to share it with you all. I did my absolute best to embody beauty in every detail of the production.\" <a href=\"http:\/\/www.last.fm\/music\/JVKE\/_\/golden+hour\">Read more on Last.fm<\/a>.",
+        "content": "\u201cgolden hour\u201d is the third song released off of JVKE\u2019s debut album.\n\nBefore announcing the title and pre-save link, JVKE shared on his Instagram story on July 12, 2022:\n\n\"This song has a special place in my heart and I can\u2019t wait to share it with you all. I did my absolute best to embody beauty in every detail of the production.\" <a href=\"http:\/\/www.last.fm\/music\/JVKE\/_\/golden+hour\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

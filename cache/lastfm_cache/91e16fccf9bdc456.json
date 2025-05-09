@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:42:17.378822+00:00",
+  "elapsed": 0.185892,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:17.378822+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "899",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fuerza+Regida&format=json&method=track.getInfo&track=ME+JALO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fuerza+Regida&format=json&method=track.getInfo&track=ME+JALO",
+  "_decoded_content": {
+    "track": {
+      "name": "ME JALO",
+      "url": "https:\/\/www.last.fm\/music\/Fuerza+Regida\/_\/ME+JALO",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "66892",
+      "playcount": "691218",
+      "artist": {
+        "name": "Fuerza Regida",
+        "url": "https:\/\/www.last.fm\/music\/Fuerza+Regida"
+      },
+      "album": {
+        "artist": "Fuerza Regida & Grupo Frontera",
+        "title": "MALA M\u00cdA - EP",
+        "url": "https:\/\/www.last.fm\/music\/Fuerza+Regida+&+Grupo+Frontera\/MALA+M%C3%8DA+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/accd0474aef8c72d8aeaa6b6e6711e62.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/accd0474aef8c72d8aeaa6b6e6711e62.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/accd0474aef8c72d8aeaa6b6e6711e62.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/accd0474aef8c72d8aeaa6b6e6711e62.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

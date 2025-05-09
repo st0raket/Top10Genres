@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:36:27.576091+00:00",
+  "elapsed": 0.215454,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:27.576091+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "951",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=%E2%A6%B5"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=%E2%A6%B5",
+  "_decoded_content": {
+    "track": {
+      "name": "\u29b5",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/%E2%A6%B5",
+      "duration": "53000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9545",
+      "playcount": "38234",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "Music Of The Spheres - Vol. 1. From Earth With Love",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/Music+Of+The+Spheres+-+Vol.+1.+From+Earth+With+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/781611516c0213e4db27a81bb98ccf16.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/781611516c0213e4db27a81bb98ccf16.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/781611516c0213e4db27a81bb98ccf16.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/781611516c0213e4db27a81bb98ccf16.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

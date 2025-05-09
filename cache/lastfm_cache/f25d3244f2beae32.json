@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:04.589115+00:00",
+  "elapsed": 0.188535,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:04.589115+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2849",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Daylight"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Daylight",
+  "_decoded_content": {
+    "track": {
+      "name": "Daylight",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Daylight",
+      "duration": "293000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "653166",
+      "playcount": "14366184",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Daylight",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Daylight",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1574252060eaaa97901fe48a64a67b4f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1574252060eaaa97901fe48a64a67b4f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1574252060eaaa97901fe48a64a67b4f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1574252060eaaa97901fe48a64a67b4f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Jan 2022, 00:21",
+        "summary": "\"Daylight\" is a reflection on the struggles of navigating life and relationships. The words depict a time of darkness and emotional pain caused by the cruelty of life, betrayal and trust issues. She highlights the struggle one goes through to learn life's hard lessons, break through the darkness and finally see a brighter dawn. There is a sense of longing in her words to run away from the past and to move on in life. The chorus gives a powerful message of hope and resilience in the face of darkness. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Daylight\">Read more on Last.fm<\/a>.",
+        "content": "\"Daylight\" is a reflection on the struggles of navigating life and relationships. The words depict a time of darkness and emotional pain caused by the cruelty of life, betrayal and trust issues. She highlights the struggle one goes through to learn life's hard lessons, break through the darkness and finally see a brighter dawn. There is a sense of longing in her words to run away from the past and to move on in life. The chorus gives a powerful message of hope and resilience in the face of darkness. The bridge conveys a message of wisdom as one looks at their past and learns from it so that it does not define them in the future. The song ultimately conveys a message of hope and resilience in the face of darkness and provides a reminder to keep moving forward despite hardships and heartache. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Daylight\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

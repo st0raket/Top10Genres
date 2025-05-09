@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:29.037056+00:00",
+  "elapsed": 0.210167,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:29.037056+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2487",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Rich+-+Interlude"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Rich+-+Interlude",
+  "_decoded_content": {
+    "track": {
+      "name": "Rich - Interlude",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Rich+-+Interlude",
+      "duration": "103000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "507067",
+      "playcount": "2870311",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "Mr. Morale & the Big Steppers",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/Mr.+Morale+&+the+Big+Steppers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "kodak black",
+            "url": "https:\/\/www.last.fm\/tag\/kodak+black"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "spoken word",
+            "url": "https:\/\/www.last.fm\/tag\/spoken+word"
+          },
+          {
+            "name": "poetry",
+            "url": "https:\/\/www.last.fm\/tag\/poetry"
+          },
+          {
+            "name": "minimalism",
+            "url": "https:\/\/www.last.fm\/tag\/minimalism"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 May 2022, 02:54",
+        "summary": "On \u201cRich\u201d, one of the two interludes for \"Mr. Morale and the Big Steppers\", Kodak Black discusses the numerous struggles he encountered on his journey to success in the porn industry.\n\nWhile also expressing that even though he is in a much better situation in life compared to his situation years prior, he is still fearful of his problems in the past and consequently behaves in a way that is cautious towards them. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Rich+-+Interlude\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cRich\u201d, one of the two interludes for \"Mr. Morale and the Big Steppers\", Kodak Black discusses the numerous struggles he encountered on his journey to success in the porn industry.\n\nWhile also expressing that even though he is in a much better situation in life compared to his situation years prior, he is still fearful of his problems in the past and consequently behaves in a way that is cautious towards them. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Rich+-+Interlude\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

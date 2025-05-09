@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:27:59.705808+00:00",
+  "elapsed": 0.213899,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:59.705808+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4909",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Hymn+for+the+Weekend"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Hymn+for+the+Weekend",
+  "_decoded_content": {
+    "track": {
+      "name": "Hymn for the Weekend",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Hymn+for+the+Weekend",
+      "duration": "258000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "978072",
+      "playcount": "8902455",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "A Head Full of Dreams",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/A+Head+Full+of+Dreams",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/91777f251715e25d7ca9922da16c7c07.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/91777f251715e25d7ca9922da16c7c07.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/91777f251715e25d7ca9922da16c7c07.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/91777f251715e25d7ca9922da16c7c07.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "beyonce",
+            "url": "https:\/\/www.last.fm\/tag\/beyonce"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2016, 15:50",
+        "summary": "\"Hymn for the Weekend\" is a song by British rock band Coldplay featuring uncredited vocals from American singer Beyonc\u00e9. It was released on 25 January 2016 as the second single from their seventh studio album A Head Full of Dreams (2015), where it appears as the third track. It was written by the band's members (Guy Berryman, Jonny Buckland, Will Champion, and Chris Martin), while the production was handled by Rik Simpson, Avicii, Digital Divide, and Stargate. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Hymn+for+the+Weekend\">Read more on Last.fm<\/a>.",
+        "content": "\"Hymn for the Weekend\" is a song by British rock band Coldplay featuring uncredited vocals from American singer Beyonc\u00e9. It was released on 25 January 2016 as the second single from their seventh studio album A Head Full of Dreams (2015), where it appears as the third track. It was written by the band's members (Guy Berryman, Jonny Buckland, Will Champion, and Chris Martin), while the production was handled by Rik Simpson, Avicii, Digital Divide, and Stargate.\n\nBackground\n\nThe song was debuted on Annie Mac's BBC radio show on 30 November 2015, and Coldplay bassist Guy Berryman dialed in after the song aired to talk about his brush with royalty. According to Berryman, lead singer Chris Martin originally wanted the song to be a party song with lyrics like \"drinks on me, drinks on me\", but his bandmates didn't think that would go well with their fans. Beyonc\u00e9, who was Martin's longtime friend, was asked to sing on the song, and she accepted the request.\n\nMartin corroborated Berryman's story about the band protesting him singing, \"Drinks on me, drinks on me\" in an interview with The Wall Street Journal. According to Martin, the original kernel was that he was listening to Flo Rida or something, and he thought, it's such a shame that Coldplay could never have one of those late-night club songs, like \"Turn Down for What\". \"I thought I\u2019d like to have a song called 'Drinks on Me' where you sit on the side of a club and buy everyone drinks because you're so fucking cool,\" Martin recalled. \"I was chuckling about that, when this melody came, 'drinks on me, drinks on me', then the rest of the song came out. I presented it to the rest of the band and they said, 'We love this song, but there's no way you can sing \"drinks on me.\"' So that changed into 'drink from me' and the idea of having an angelic person in your life. Then that turned into asking Beyonc\u00e9 to sing on it.\"\n\nMusic video\n\nAccording to The Times of India, the video was shot in October, in Mumbai, India. The video was filmed by Ben Mor, and was released on 29 January 2016.[3][4] The video features Beyonc\u00e9 and Indian actress Sonam Kapoor.\n\n\"I love Coldplay's music and so does the world. It was a huge honour to be a part of the video. It's a great concept and I had a lot of fun shooting for it.\" Kapoor said.\n\nThe video captures several snippets of Indian life including sadhus in bright saffron robs, children splashing holi colors in India's busy streets and back flipping into streams, puppeteers on streets, classical dancers, marigold flowers, fireworks and fire-breathers. Within hours, the video came under severe criticism, especially from social media users who claimed that the video showed Indian stereotypes and attempted cultural appropriation by showing Beyonce as a bollywood actress in traditional Indian dress. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Hymn+for+the+Weekend\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

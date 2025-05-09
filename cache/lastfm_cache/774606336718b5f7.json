@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:42:20.176217+00:00",
+  "elapsed": 0.224982,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:20.176217+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "849",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gu%C3%A8&format=json&method=track.getInfo&track=Oh+Mamma+Mia"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gu%C3%A8&format=json&method=track.getInfo&track=Oh+Mamma+Mia",
+  "_decoded_content": {
+    "track": {
+      "name": "Oh Mamma Mia",
+      "url": "https:\/\/www.last.fm\/music\/Gu%C3%A8\/_\/Oh+Mamma+Mia",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "243",
+      "playcount": "398",
+      "artist": {
+        "name": "Gu\u00e8",
+        "url": "https:\/\/www.last.fm\/music\/Gu%C3%A8"
+      },
+      "album": {
+        "artist": "Gu\u00e8",
+        "title": "Tropico Del Capricorno",
+        "url": "https:\/\/www.last.fm\/music\/Gu%C3%A8\/Tropico+Del+Capricorno",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a0a714a0c627880650a4857fa563de3b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a0a714a0c627880650a4857fa563de3b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a0a714a0c627880650a4857fa563de3b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a0a714a0c627880650a4857fa563de3b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:30:55.050426+00:00",
+  "elapsed": 0.220679,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:55.050426+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1158",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=WINNER&format=json&method=track.getInfo&track=MILLIONS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=WINNER&format=json&method=track.getInfo&track=MILLIONS",
+  "_decoded_content": {
+    "track": {
+      "name": "MILLIONS",
+      "url": "https:\/\/www.last.fm\/music\/Winner\/_\/MILLIONS",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "37312",
+      "playcount": "300246",
+      "artist": {
+        "name": "Winner",
+        "mbid": "acb2191f-0f55-4ec6-b7ff-ce73dea50f3e",
+        "url": "https:\/\/www.last.fm\/music\/Winner"
+      },
+      "album": {
+        "artist": "Winner",
+        "title": "MILLIONS - Single",
+        "url": "https:\/\/www.last.fm\/music\/Winner\/MILLIONS+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f0f5e7cbd55eaea4f794d0b20d9c4430.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f0f5e7cbd55eaea4f794d0b20d9c4430.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f0f5e7cbd55eaea4f794d0b20d9c4430.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f0f5e7cbd55eaea4f794d0b20d9c4430.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "winner",
+            "url": "https:\/\/www.last.fm\/tag\/winner"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          }
+        ]
+      }
+    }
+  }
+}

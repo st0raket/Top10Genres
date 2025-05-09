@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:59.313490+00:00",
+  "elapsed": 0.179091,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:59.313490+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3564",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=7+rings"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=7+rings",
+  "_decoded_content": {
+    "track": {
+      "name": "7 rings",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/7+rings",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1382269",
+      "playcount": "23223616",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Les Hits de Gulli Et\u00e9 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Les+Hits+de+Gulli+Et%C3%A9+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1542b2ad2ddb735b9bcff50208bd2c97.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1542b2ad2ddb735b9bcff50208bd2c97.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1542b2ad2ddb735b9bcff50208bd2c97.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1542b2ad2ddb735b9bcff50208bd2c97.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jan 2019, 04:44",
+        "summary": "\"7 rings\" is the second single from Ariana Grande's fifth studio album, thank u next.\n\nIt's a trap, R&B and rap song that runs for 3 mins. It features a heavy bass and sees Grande discuss \"how global success has allowed her to enjoy the finer things\". Billboard magazine noted it's \"the most hip-hop-leaning song Grande has released in the post-Sweetener era yet, with Grande almost rapping the song's verses\".\n\n\nGrande described the song as a \"friendship anthem\" that \"evolves\" from previous single \"thank u, next\", while embracing a new chapter. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/7+rings\">Read more on Last.fm<\/a>.",
+        "content": "\"7 rings\" is the second single from Ariana Grande's fifth studio album, thank u next.\n\nIt's a trap, R&B and rap song that runs for 3 mins. It features a heavy bass and sees Grande discuss \"how global success has allowed her to enjoy the finer things\". Billboard magazine noted it's \"the most hip-hop-leaning song Grande has released in the post-Sweetener era yet, with Grande almost rapping the song's verses\".\n\n\nGrande described the song as a \"friendship anthem\" that \"evolves\" from previous single \"thank u, next\", while embracing a new chapter. She opens up about how her break-up with Pete Davidson led her to \"treating her friends instead\".\n\n\"7 rings\" debuted at number-one on the US Billboard Hot 100, earning Grande her second number one single (and second number one debut). It spent eight non-consecutive weeks atop the chart and 33 weeks overall. \"7 rings\" was ranked in Billboard's decade-end chart of its best-performing tracks throughout the 2010s decade. It broke several streams records upon release, and reached massive commercial success overseas; topping charts in 23 countries including Australia, Finland, Hungary, New Zealand, Scotland, Sweden, Switzerland, the United Kingdom and the United States; as well as reaching the top ten in 10 countries. \"7 rings\" was the fifth best-selling song for 2019 worldwide, with over 13.3 million units and is one of the best-selling songs in digital history. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/7+rings\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

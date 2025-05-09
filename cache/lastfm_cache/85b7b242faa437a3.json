@@ -1,0 +1,62 @@
+{
+  "created_at": "2025-05-03T14:33:21.816750+00:00",
+  "elapsed": 0.207629,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:21.816750+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2058",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kid+Cudi&format=json&method=track.getInfo&track=Leader+of+the+Delinquents"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kid+Cudi&format=json&method=track.getInfo&track=Leader+of+the+Delinquents",
+  "_decoded_content": {
+    "track": {
+      "name": "Leader Of The Delinquents",
+      "url": "https:\/\/www.last.fm\/music\/Kid+Cudi\/_\/Leader+Of+The+Delinquents",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "106183",
+      "playcount": "666747",
+      "artist": {
+        "name": "Kid Cudi",
+        "mbid": "e0e1db18-f7ba-4dee-95ff-7ae8cf545460",
+        "url": "https:\/\/www.last.fm\/music\/Kid+Cudi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "kid cudi",
+            "url": "https:\/\/www.last.fm\/tag\/kid+cudi"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Dec 2021, 18:40",
+        "summary": "Leader of The Delinquents\u201d is Cudi\u2019s first solo music since his April 2018 single \u201cThe Rage.\u201d Cudi crowns himself as the track\u2019s titular figure, rapping rebelliously about his experiences with different drugs and people all while getting into heavier topics such as his mental health.\n\nThe track is a peek back into much of Cudi\u2019s older music, featuring hardcore hip-hop vocals rather than the more melodic route he took as he career progressed. This is fitting, seeing as he can be seen performing the song in as early as April 2012. <a href=\"http:\/\/www.last.fm\/music\/Kid+Cudi\/_\/Leader+Of+The+Delinquents\">Read more on Last.fm<\/a>.",
+        "content": "Leader of The Delinquents\u201d is Cudi\u2019s first solo music since his April 2018 single \u201cThe Rage.\u201d Cudi crowns himself as the track\u2019s titular figure, rapping rebelliously about his experiences with different drugs and people all while getting into heavier topics such as his mental health.\n\nThe track is a peek back into much of Cudi\u2019s older music, featuring hardcore hip-hop vocals rather than the more melodic route he took as he career progressed. This is fitting, seeing as he can be seen performing the song in as early as April 2012.\n\nThe track was first premiered on Kid Cudi\u2019s Instagram live stream on April 10, 2020. Cudi confirmed the song\u2019s title in a conversation with Jaden in the same stream. <a href=\"http:\/\/www.last.fm\/music\/Kid+Cudi\/_\/Leader+Of+The+Delinquents\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "created_at": "2025-05-03T14:35:48.041930+00:00",
+  "elapsed": 1.09854,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:48.041930+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1158",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mimi+Webb&format=json&method=track.getInfo&track=Dumb+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mimi+Webb&format=json&method=track.getInfo&track=Dumb+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Dumb Love",
+      "url": "https:\/\/www.last.fm\/music\/Mimi+Webb\/_\/Dumb+Love",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "56486",
+      "playcount": "337038",
+      "artist": {
+        "name": "Mimi Webb",
+        "url": "https:\/\/www.last.fm\/music\/Mimi+Webb"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "NOW That's What I Call Music! 110",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/NOW+That%27s+What+I+Call+Music%21+110",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a4dd88b02e3047e70534f05c2aca815a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a4dd88b02e3047e70534f05c2aca815a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a4dd88b02e3047e70534f05c2aca815a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a4dd88b02e3047e70534f05c2aca815a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "my scribbled",
+            "url": "https:\/\/www.last.fm\/tag\/my+scribbled"
+          }
+        ]
+      }
+    }
+  }
+}

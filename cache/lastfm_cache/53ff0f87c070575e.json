@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:35:15.281803+00:00",
+  "elapsed": 0.302123,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:15.281803+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1503",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Griff&format=json&method=track.getInfo&track=Black+Hole"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Griff&format=json&method=track.getInfo&track=Black+Hole",
+  "_decoded_content": {
+    "track": {
+      "name": "Black Hole",
+      "url": "https:\/\/www.last.fm\/music\/griff\/_\/Black+Hole",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "132926",
+      "playcount": "1116356",
+      "artist": {
+        "name": "griff",
+        "mbid": "84b8a3bc-7e45-4b1e-a34c-bb1a99b7bf5e",
+        "url": "https:\/\/www.last.fm\/music\/griff"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Sep 2021, 19:08",
+        "summary": "\"Black Hole\" is a song by British singer-songwriter Griff, from her mixtape One Foot in Front of the Other. The song is written by Griff, Peter Rycroft, and Frederik Castenschiold Eichen and produced by Lostboy. The song was released on 18 January 2021 on the Warner Records label. <a href=\"http:\/\/www.last.fm\/music\/griff\/_\/Black+Hole\">Read more on Last.fm<\/a>.",
+        "content": "\"Black Hole\" is a song by British singer-songwriter Griff, from her mixtape One Foot in Front of the Other. The song is written by Griff, Peter Rycroft, and Frederik Castenschiold Eichen and produced by Lostboy. The song was released on 18 January 2021 on the Warner Records label. <a href=\"http:\/\/www.last.fm\/music\/griff\/_\/Black+Hole\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

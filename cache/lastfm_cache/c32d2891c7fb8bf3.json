@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:44:33.779136+00:00",
+  "elapsed": 0.431268,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:33.779136+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1277",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Panic%21+At+The+Disco&format=json&method=track.getInfo&track=Roaring+20s"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Panic%21+At+The+Disco&format=json&method=track.getInfo&track=Roaring+20s",
+  "_decoded_content": {
+    "track": {
+      "name": "Roaring 20s",
+      "url": "https:\/\/www.last.fm\/music\/Panic%21+at+the+Disco\/_\/Roaring+20s",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "174366",
+      "playcount": "1480064",
+      "artist": {
+        "name": "Panic! at the Disco",
+        "mbid": "b9472588-93f3-4922-a1a2-74082cdf9ce8",
+        "url": "https:\/\/www.last.fm\/music\/Panic%21+at+the+Disco"
+      },
+      "album": {
+        "artist": "Panic! at the Disco",
+        "title": "Pray for the Wicked",
+        "url": "https:\/\/www.last.fm\/music\/Panic%21+at+the+Disco\/Pray+for+the+Wicked",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/15d962ee89b1690b3ad3abc9f558d4dd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/15d962ee89b1690b3ad3abc9f558d4dd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/15d962ee89b1690b3ad3abc9f558d4dd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/15d962ee89b1690b3ad3abc9f558d4dd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "Big Band",
+            "url": "https:\/\/www.last.fm\/tag\/Big+Band"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      }
+    }
+  }
+}

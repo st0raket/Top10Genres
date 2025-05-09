@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:28:11.272301+00:00",
+  "elapsed": 0.225738,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:11.272301+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "913",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pitbull&format=json&method=track.getInfo&track=Hey+Ma"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pitbull&format=json&method=track.getInfo&track=Hey+Ma",
+  "_decoded_content": {
+    "track": {
+      "name": "Hey Ma",
+      "url": "https:\/\/www.last.fm\/music\/Pitbull\/_\/Hey+Ma",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "99",
+      "playcount": "683",
+      "artist": {
+        "name": "Pitbull",
+        "mbid": "d262ea27-3ffe-40f7-b922-85c42d625e67",
+        "url": "https:\/\/www.last.fm\/music\/Pitbull"
+      },
+      "album": {
+        "artist": "Britney Spears",
+        "title": "Glory - Unreleased & Rarities",
+        "url": "https:\/\/www.last.fm\/music\/Britney+Spears\/Glory+-+Unreleased+&+Rarities",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/539030e9b8180d991574a1add4e7e053.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/539030e9b8180d991574a1add4e7e053.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/539030e9b8180d991574a1add4e7e053.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/539030e9b8180d991574a1add4e7e053.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

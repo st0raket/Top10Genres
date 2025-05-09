@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:31:33.349925+00:00",
+  "elapsed": 0.212258,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:33.349925+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1131",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Bruises"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Bruises",
+  "_decoded_content": {
+    "track": {
+      "name": "Bruises",
+      "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Bruises",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "443674",
+      "playcount": "3913244",
+      "artist": {
+        "name": "Lewis Capaldi",
+        "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi"
+      },
+      "album": {
+        "artist": "Lewis Capaldi",
+        "title": "Bruises",
+        "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi\/Bruises",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/36fc9f5b214e8906878df19de3ef1d97.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/36fc9f5b214e8906878df19de3ef1d97.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/36fc9f5b214e8906878df19de3ef1d97.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/36fc9f5b214e8906878df19de3ef1d97.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      }
+    }
+  }
+}

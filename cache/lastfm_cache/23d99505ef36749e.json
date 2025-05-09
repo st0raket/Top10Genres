@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:14.425328+00:00",
+  "elapsed": 0.227759,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:14.425328+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1982",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=6ix9ine&format=json&method=track.getInfo&track=KEKE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=6ix9ine&format=json&method=track.getInfo&track=KEKE",
+  "_decoded_content": {
+    "track": {
+      "name": "KEKE",
+      "url": "https:\/\/www.last.fm\/music\/6ix9ine\/_\/KEKE",
+      "duration": "151000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "169836",
+      "playcount": "1465711",
+      "artist": {
+        "name": "6ix9ine",
+        "url": "https:\/\/www.last.fm\/music\/6ix9ine"
+      },
+      "album": {
+        "artist": "6ix9ine",
+        "title": "KeKe",
+        "url": "https:\/\/www.last.fm\/music\/6ix9ine\/KeKe",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e93ae8c60fc5d2a6877e0d8f3a7ebb9f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e93ae8c60fc5d2a6877e0d8f3a7ebb9f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e93ae8c60fc5d2a6877e0d8f3a7ebb9f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e93ae8c60fc5d2a6877e0d8f3a7ebb9f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Fetty wap",
+            "url": "https:\/\/www.last.fm\/tag\/Fetty+wap"
+          },
+          {
+            "name": "a boogie wit da hoodie",
+            "url": "https:\/\/www.last.fm\/tag\/a+boogie+wit+da+hoodie"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "guilty pleasure",
+            "url": "https:\/\/www.last.fm\/tag\/guilty+pleasure"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Aug 2022, 20:40",
+        "summary": "\u201cKEKE\u201d is a remix to a previous song by 6ix9ine titled \u201cOn the Regular.\u201d\n\nThe song was first previewed twice on Instagram and later leaked in its entirety on December 29, 2017. The official music video and song were released on January 14, 2018. <a href=\"http:\/\/www.last.fm\/music\/6ix9ine\/_\/KEKE\">Read more on Last.fm<\/a>.",
+        "content": "\u201cKEKE\u201d is a remix to a previous song by 6ix9ine titled \u201cOn the Regular.\u201d\n\nThe song was first previewed twice on Instagram and later leaked in its entirety on December 29, 2017. The official music video and song were released on January 14, 2018. <a href=\"http:\/\/www.last.fm\/music\/6ix9ine\/_\/KEKE\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

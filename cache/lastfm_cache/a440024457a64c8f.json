@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:44:37.144148+00:00",
+  "elapsed": 0.206886,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:37.144148+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2432",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Avicii&format=json&method=track.getInfo&track=You+Make+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Avicii&format=json&method=track.getInfo&track=You+Make+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "You Make Me",
+      "mbid": "237a8ea1-3c6d-4fb1-86ac-085234d022ac",
+      "url": "https:\/\/www.last.fm\/music\/Avicii\/_\/You+Make+Me",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "423130",
+      "playcount": "2827028",
+      "artist": {
+        "name": "Avicii",
+        "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5",
+        "url": "https:\/\/www.last.fm\/music\/Avicii"
+      },
+      "album": {
+        "artist": "Avicii",
+        "title": "True",
+        "mbid": "df93fa50-a9ab-4b1c-8a83-e842652ac39c",
+        "url": "https:\/\/www.last.fm\/music\/Avicii\/True",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "Avicii",
+            "url": "https:\/\/www.last.fm\/tag\/Avicii"
+          },
+          {
+            "name": "swedish",
+            "url": "https:\/\/www.last.fm\/tag\/swedish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Feb 2014, 12:38",
+        "summary": "You Make Me\" is a song written and recorded by Swedish DJ, remixer, and record producer Avicii and Swedish soul\/pop musician and singer Salem Al Fakir in collaboration with Swedish songwriter Vincent Pontare and producer Arash Pournouri. It was produced for Avicii's debut studio album, True, and appears as the second track on the album. The song was released as the second single from True on August 30, 2013 <a href=\"http:\/\/www.last.fm\/music\/Avicii\/_\/You+Make+Me\">Read more on Last.fm<\/a>.",
+        "content": "You Make Me\" is a song written and recorded by Swedish DJ, remixer, and record producer Avicii and Swedish soul\/pop musician and singer Salem Al Fakir in collaboration with Swedish songwriter Vincent Pontare and producer Arash Pournouri. It was produced for Avicii's debut studio album, True, and appears as the second track on the album. The song was released as the second single from True on August 30, 2013 <a href=\"http:\/\/www.last.fm\/music\/Avicii\/_\/You+Make+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:32.104277+00:00",
+  "elapsed": 0.210849,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:32.104277+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2435",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Enemies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Enemies",
+  "_decoded_content": {
+    "track": {
+      "name": "Enemies",
+      "url": "https:\/\/www.last.fm\/music\/Lauv\/_\/Enemies",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "100062",
+      "playcount": "672620",
+      "artist": {
+        "name": "Lauv",
+        "url": "https:\/\/www.last.fm\/music\/Lauv"
+      },
+      "album": {
+        "artist": "Lauv",
+        "title": "Enemies - Single",
+        "url": "https:\/\/www.last.fm\/music\/Lauv\/Enemies+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dc8b6b90fdf58742f13f46445812b76d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dc8b6b90fdf58742f13f46445812b76d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dc8b6b90fdf58742f13f46445812b76d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dc8b6b90fdf58742f13f46445812b76d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          },
+          {
+            "name": "hairy chest",
+            "url": "https:\/\/www.last.fm\/tag\/hairy+chest"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jan 2022, 18:41",
+        "summary": "\u201cEnemies\u201d denotes the feeling of not obtaining the desired relationship with another. In this new single, Lauv wants to forget about past scars in a previous relationship and stitch them up as best as possible. Even though he is aware that their relationship may never be what it used to be, he wishes for her to not see him as an enemy.\n\n\u201cEnemies\u201d is number eight in Lauv\u2019s complete playlist \"I met you when I was 18\", leading on after the ballad, \u2018The Story Never Ends\u2019. <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Enemies\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEnemies\u201d denotes the feeling of not obtaining the desired relationship with another. In this new single, Lauv wants to forget about past scars in a previous relationship and stitch them up as best as possible. Even though he is aware that their relationship may never be what it used to be, he wishes for her to not see him as an enemy.\n\n\u201cEnemies\u201d is number eight in Lauv\u2019s complete playlist \"I met you when I was 18\", leading on after the ballad, \u2018The Story Never Ends\u2019. <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Enemies\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

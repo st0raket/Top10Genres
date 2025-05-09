@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:44:43.444728+00:00",
+  "elapsed": 0.249418,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:43.444728+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "629",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=2+Chainz&format=json&method=track.getInfo&track=It%27s+A+Vibe"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=2+Chainz&format=json&method=track.getInfo&track=It%27s+A+Vibe",
+  "_decoded_content": {
+    "track": {
+      "name": "It's A Vibe",
+      "url": "https:\/\/www.last.fm\/music\/2+Chainz\/_\/It%27s+A+Vibe",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "265854",
+      "playcount": "1739060",
+      "artist": {
+        "name": "2 Chainz",
+        "mbid": "dff0d392-4cd5-4052-9fbb-f485df3891e5",
+        "url": "https:\/\/www.last.fm\/music\/2+Chainz"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "trey songz",
+            "url": "https:\/\/www.last.fm\/tag\/trey+songz"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "2 chainz",
+            "url": "https:\/\/www.last.fm\/tag\/2+chainz"
+          },
+          {
+            "name": "jhene aiko",
+            "url": "https:\/\/www.last.fm\/tag\/jhene+aiko"
+          }
+        ]
+      }
+    }
+  }
+}

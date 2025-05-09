@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:39:41.879261+00:00",
+  "elapsed": 0.187157,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:41.879261+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1709",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Cream+Soda"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Cream+Soda",
+  "_decoded_content": {
+    "track": {
+      "name": "Cream Soda",
+      "url": "https:\/\/www.last.fm\/music\/Exo\/_\/Cream+Soda",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "138151",
+      "playcount": "3569403",
+      "artist": {
+        "name": "Exo",
+        "mbid": "f2f9845c-6803-4451-a10e-9c6673608667",
+        "url": "https:\/\/www.last.fm\/music\/Exo"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2024, 09:15",
+        "summary": "\"Cream Soda\" is a song by South Korean-Chinese boy band EXO, released on July 10, 2023, by SM Entertainment as the third single and title track for their seventh studio album Exist.\n\nIt's a dance-pop song with an exotic rhythm and upbeat brass, keyboard and drum instrumentation. It features sensual vocals, and the lyrics compare the soft yet thrilling moment of falling in love to cream soda. <a href=\"http:\/\/www.last.fm\/music\/Exo\/_\/Cream+Soda\">Read more on Last.fm<\/a>.",
+        "content": "\"Cream Soda\" is a song by South Korean-Chinese boy band EXO, released on July 10, 2023, by SM Entertainment as the third single and title track for their seventh studio album Exist.\n\nIt's a dance-pop song with an exotic rhythm and upbeat brass, keyboard and drum instrumentation. It features sensual vocals, and the lyrics compare the soft yet thrilling moment of falling in love to cream soda. <a href=\"http:\/\/www.last.fm\/music\/Exo\/_\/Cream+Soda\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:20.529772+00:00",
+  "elapsed": 0.188498,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:20.529772+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1503",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay+X+BTS&format=json&method=track.getInfo&track=My+Universe"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay+X+BTS&format=json&method=track.getInfo&track=My+Universe",
+  "_decoded_content": {
+    "track": {
+      "name": "My Universe",
+      "url": "https:\/\/www.last.fm\/music\/COLDPLAY+X+BTS\/_\/My+Universe",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "19841",
+      "playcount": "2116462",
+      "artist": {
+        "name": "COLDPLAY X BTS",
+        "url": "https:\/\/www.last.fm\/music\/COLDPLAY+X+BTS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "Coldplay",
+            "url": "https:\/\/www.last.fm\/tag\/Coldplay"
+          },
+          {
+            "name": "youtube",
+            "url": "https:\/\/www.last.fm\/tag\/youtube"
+          },
+          {
+            "name": "video",
+            "url": "https:\/\/www.last.fm\/tag\/video"
+          },
+          {
+            "name": "featuring",
+            "url": "https:\/\/www.last.fm\/tag\/featuring"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Sep 2021, 22:44",
+        "summary": "\"My Universe\", released on September 24, 2021, is the second single off Coldplay's ninth studio album, \"Music of the Spheres\", released on October 15, 2021. Korean sensation, BTS, joined the British pop-rockers on the cosmic love song produced by eternal hitmaker Max Martin. <a href=\"http:\/\/www.last.fm\/music\/COLDPLAY+X+BTS\/_\/My+Universe\">Read more on Last.fm<\/a>.",
+        "content": "\"My Universe\", released on September 24, 2021, is the second single off Coldplay's ninth studio album, \"Music of the Spheres\", released on October 15, 2021. Korean sensation, BTS, joined the British pop-rockers on the cosmic love song produced by eternal hitmaker Max Martin. <a href=\"http:\/\/www.last.fm\/music\/COLDPLAY+X+BTS\/_\/My+Universe\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

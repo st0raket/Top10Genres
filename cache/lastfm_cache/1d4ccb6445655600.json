@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:42:56.139526+00:00",
+  "elapsed": 0.273854,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:56.139526+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "898",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bernadya&format=json&method=track.getInfo&track=Kata+Mereka+Ini+Berlebihan"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bernadya&format=json&method=track.getInfo&track=Kata+Mereka+Ini+Berlebihan",
+  "_decoded_content": {
+    "track": {
+      "name": "Kata Mereka Ini Berlebihan",
+      "url": "https:\/\/www.last.fm\/music\/Bernadya\/_\/Kata+Mereka+Ini+Berlebihan",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "12752",
+      "playcount": "169859",
+      "artist": {
+        "name": "Bernadya",
+        "url": "https:\/\/www.last.fm\/music\/Bernadya"
+      },
+      "album": {
+        "artist": "Bernadya",
+        "title": "Kata Mereka Ini Berlebihan",
+        "url": "https:\/\/www.last.fm\/music\/Bernadya\/Kata+Mereka+Ini+Berlebihan",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/696a4145d6d8013cfb023d91e77fa3cd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/696a4145d6d8013cfb023d91e77fa3cd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/696a4145d6d8013cfb023d91e77fa3cd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/696a4145d6d8013cfb023d91e77fa3cd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

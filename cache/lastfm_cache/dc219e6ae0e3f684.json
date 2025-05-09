@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:40:00.559218+00:00",
+  "elapsed": 0.210459,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:00.559218+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1539",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IVE&format=json&method=track.getInfo&track=Either+Way"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IVE&format=json&method=track.getInfo&track=Either+Way",
+  "_decoded_content": {
+    "track": {
+      "name": "Either Way",
+      "url": "https:\/\/www.last.fm\/music\/Ive\/_\/Either+Way",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "155770",
+      "playcount": "3362743",
+      "artist": {
+        "name": "Ive",
+        "url": "https:\/\/www.last.fm\/music\/Ive"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "emotional",
+            "url": "https:\/\/www.last.fm\/tag\/emotional"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Sep 2023, 09:23",
+        "summary": "\"Either Way\" is a song recorded by South Korean girl group IVE for their debut Korean-language extended play, I'VE MINE. It was released on September 25, 2023 as the EP's lead single. The track was written by Sunwoojunga, composed by Ryan Jhun, Luke Fitton, Lauren Aquilina and Liam O\u2019Donnell & arranged by Jhun and Fitton. <a href=\"http:\/\/www.last.fm\/music\/Ive\/_\/Either+Way\">Read more on Last.fm<\/a>.",
+        "content": "\"Either Way\" is a song recorded by South Korean girl group IVE for their debut Korean-language extended play, I'VE MINE. It was released on September 25, 2023 as the EP's lead single. The track was written by Sunwoojunga, composed by Ryan Jhun, Luke Fitton, Lauren Aquilina and Liam O\u2019Donnell & arranged by Jhun and Fitton. <a href=\"http:\/\/www.last.fm\/music\/Ive\/_\/Either+Way\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

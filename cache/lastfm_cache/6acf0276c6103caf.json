@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:29:53.840390+00:00",
+  "elapsed": 0.267669,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:53.840390+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1610",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+1975&format=json&method=track.getInfo&track=Give+Yourself+a+Try"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+1975&format=json&method=track.getInfo&track=Give+Yourself+a+Try",
+  "_decoded_content": {
+    "track": {
+      "name": "Give Yourself A Try",
+      "url": "https:\/\/www.last.fm\/music\/The+1975\/_\/Give+Yourself+A+Try",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "258612",
+      "playcount": "3200705",
+      "artist": {
+        "name": "The 1975",
+        "mbid": "5b6ebfe0-f72b-4902-bba9-74c8af0f1af0",
+        "url": "https:\/\/www.last.fm\/music\/The+1975"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 May 2018, 21:47",
+        "summary": "\u201cGive Yourself A Try\u201d is first single from The 1975 after their recent hiatus. The song first aired during Annie Mac's set on BBC Radio 1 as the Hottest Record on May 31st. The band's upcoming album, A Brief Enquiry Into Online Relationships, is set to feature this song and will release in October 2018. <a href=\"http:\/\/www.last.fm\/music\/The+1975\/_\/Give+Yourself+A+Try\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGive Yourself A Try\u201d is first single from The 1975 after their recent hiatus. The song first aired during Annie Mac's set on BBC Radio 1 as the Hottest Record on May 31st. The band's upcoming album, A Brief Enquiry Into Online Relationships, is set to feature this song and will release in October 2018. <a href=\"http:\/\/www.last.fm\/music\/The+1975\/_\/Give+Yourself+A+Try\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

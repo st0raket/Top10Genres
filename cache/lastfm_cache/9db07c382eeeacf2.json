@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:06.749180+00:00",
+  "elapsed": 0.223749,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:06.749180+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2889",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Train&format=json&method=track.getInfo&track=Shake+Up+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Train&format=json&method=track.getInfo&track=Shake+Up+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Shake Up Christmas",
+      "mbid": "7f48c12f-5e39-4a97-b8d1-9219335571ca",
+      "url": "https:\/\/www.last.fm\/music\/Train\/_\/Shake+Up+Christmas",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "226047",
+      "playcount": "774763",
+      "artist": {
+        "name": "Train",
+        "mbid": "e273f427-3287-472d-84fe-1a9f2f91e5e2",
+        "url": "https:\/\/www.last.fm\/music\/Train"
+      },
+      "album": {
+        "artist": "Train",
+        "title": "Shake up Christmas",
+        "mbid": "1054bb05-6c59-460d-a8e3-0f2ad166a44d",
+        "url": "https:\/\/www.last.fm\/music\/Train\/Shake+up+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f2b500b862a3dade993fd272202064f7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f2b500b862a3dade993fd272202064f7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f2b500b862a3dade993fd272202064f7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f2b500b862a3dade993fd272202064f7.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "Coca-Cola",
+            "url": "https:\/\/www.last.fm\/tag\/Coca-Cola"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "train",
+            "url": "https:\/\/www.last.fm\/tag\/train"
+          },
+          {
+            "name": "winter",
+            "url": "https:\/\/www.last.fm\/tag\/winter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Dec 2022, 01:40",
+        "summary": "\"Shake Up Christmas\" is a song by the American rock band Train. It was released on November 1, 2010, as the fourth single from their fifth studio album, Save Me, San Francisco. A different version of the song appears on the band's 2015 Christmas album, Christmas in Tahoe. The song was written by Butch Walker and Pat Monahan.\n\nA music video to accompany the release of \"Shake Up Christmas\" was first released on YouTube on November 29, 2010, at a total length of four minutes and one second. <a href=\"http:\/\/www.last.fm\/music\/Train\/_\/Shake+Up+Christmas\">Read more on Last.fm<\/a>.",
+        "content": "\"Shake Up Christmas\" is a song by the American rock band Train. It was released on November 1, 2010, as the fourth single from their fifth studio album, Save Me, San Francisco. A different version of the song appears on the band's 2015 Christmas album, Christmas in Tahoe. The song was written by Butch Walker and Pat Monahan.\n\nA music video to accompany the release of \"Shake Up Christmas\" was first released on YouTube on November 29, 2010, at a total length of four minutes and one second. The song features the Coke jingle, most prominently at the beginning, while the video shows Santa Claus drinking Coca-Cola and shaking a snow globe. Clips from the video were spliced into Christmas Coke commercials during December 2010. <a href=\"http:\/\/www.last.fm\/music\/Train\/_\/Shake+Up+Christmas\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

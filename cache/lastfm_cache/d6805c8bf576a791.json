@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:08.427353+00:00",
+  "elapsed": 0.185244,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:08.427353+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3261",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=HOUSTONFORNICATION"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=HOUSTONFORNICATION",
+  "_decoded_content": {
+    "track": {
+      "name": "HOUSTONFORNICATION",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/HOUSTONFORNICATION",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "386687",
+      "playcount": "4672717",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "album": {
+        "artist": "Travis Scott",
+        "title": "ASTROWORLD",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/ASTROWORLD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4386a469e620103f8436b3e969075959.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4386a469e620103f8436b3e969075959.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4386a469e620103f8436b3e969075959.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4386a469e620103f8436b3e969075959.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jan 2021, 09:24",
+        "summary": "Much like the rest of the album, this song sees Travis talking about his experiences in the city of Houston as well as relationships and drug use amongst other topics. The title of the song is a portmanteau of \u2018Houston\u2019 and \u2018fornication\u2019 which essentially refers to the act of having sex before marriage. The song serves as an ode to Travis\u2019 hometown of Houston and the reckless and potentially harmful activities his young self would have engaged in. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/HOUSTONFORNICATION\">Read more on Last.fm<\/a>.",
+        "content": "Much like the rest of the album, this song sees Travis talking about his experiences in the city of Houston as well as relationships and drug use amongst other topics. The title of the song is a portmanteau of \u2018Houston\u2019 and \u2018fornication\u2019 which essentially refers to the act of having sex before marriage. The song serves as an ode to Travis\u2019 hometown of Houston and the reckless and potentially harmful activities his young self would have engaged in.\nA lengthy, high-quality snippet of the song was leaked online on June 25, 2018. Shortly after, producer FARRI, who might have mistaken the instrumental for one that he produced, took to Twitter and announced that he was disappointed about the leak, claiming he would upload it to SoundCloud. The tweets have since been deleted. Later, on July 23, 2018, Music Mafia put the song up for sale on their website. Regardless, the song was updated and included on the album anyway.\nThe title is also a reference to the popular song \u201cCalifornication\u201d by Red Hot Chili Peppers. Interestingly, in an interview with Complex, producer Sevn Thomas explained that he even titled the instrumental \u201cCalifornication\u201d after it was finished. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/HOUSTONFORNICATION\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

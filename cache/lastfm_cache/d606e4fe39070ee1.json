@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:45:08.930350+00:00",
+  "elapsed": 0.215,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:08.930350+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1891",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kiiara&format=json&method=track.getInfo&track=Gold"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kiiara&format=json&method=track.getInfo&track=Gold",
+  "_decoded_content": {
+    "track": {
+      "name": "Gold",
+      "url": "https:\/\/www.last.fm\/music\/Kiiara\/_\/Gold",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "411767",
+      "playcount": "2694903",
+      "artist": {
+        "name": "Kiiara",
+        "url": "https:\/\/www.last.fm\/music\/Kiiara"
+      },
+      "album": {
+        "artist": "Kiiara",
+        "title": "Low Kii Savage",
+        "url": "https:\/\/www.last.fm\/music\/Kiiara\/Low+Kii+Savage",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d73f01eb5d2491d8051d97ed61c023f7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d73f01eb5d2491d8051d97ed61c023f7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d73f01eb5d2491d8051d97ed61c023f7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d73f01eb5d2491d8051d97ed61c023f7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "glitch pop",
+            "url": "https:\/\/www.last.fm\/tag\/glitch+pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Jul 2016, 18:16",
+        "summary": "\"Gold\" is the debut single from American recording artist Kiiara. The song was released on October 26, 2015, through Atlantic Records and Warner Music Group. It is included on her debut extended play (EP) Low Kii Savage. <a href=\"http:\/\/www.last.fm\/music\/Kiiara\/_\/Gold\">Read more on Last.fm<\/a>.",
+        "content": "\"Gold\" is the debut single from American recording artist Kiiara. The song was released on October 26, 2015, through Atlantic Records and Warner Music Group. It is included on her debut extended play (EP) Low Kii Savage. <a href=\"http:\/\/www.last.fm\/music\/Kiiara\/_\/Gold\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

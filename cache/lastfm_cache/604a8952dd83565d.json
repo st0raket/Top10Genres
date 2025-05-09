@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:12.058875+00:00",
+  "elapsed": 0.179613,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:12.058875+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2404",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Pipe+Down"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Pipe+Down",
+  "_decoded_content": {
+    "track": {
+      "name": "Pipe Down",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Pipe+Down",
+      "duration": "205000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "342993",
+      "playcount": "4041742",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "Certified Lover Boy",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/Certified+Lover+Boy",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d2e5f9374b3caa052e36e0f223c6cd68.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d2e5f9374b3caa052e36e0f223c6cd68.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d2e5f9374b3caa052e36e0f223c6cd68.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d2e5f9374b3caa052e36e0f223c6cd68.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Sep 2021, 15:30",
+        "summary": "\u201cPipe Down\u201c is the tenth track off of Drake\u2019s 2021 release Certified Lover Boy, Drake seems to outline the edges of a relationship that isn\u2019t working out how he would like it to. Drake feels like no matter how much he loves her, no matter what he buys her, she\u2019s never gonna be the woman that he needs her to be for him, and he\u2019s always gonna end up asking her to pipe down.\nTo tell someone to \u201cpipe down\u201d is to tell someone to relax. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Pipe+Down\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPipe Down\u201c is the tenth track off of Drake\u2019s 2021 release Certified Lover Boy, Drake seems to outline the edges of a relationship that isn\u2019t working out how he would like it to. Drake feels like no matter how much he loves her, no matter what he buys her, she\u2019s never gonna be the woman that he needs her to be for him, and he\u2019s always gonna end up asking her to pipe down.\nTo tell someone to \u201cpipe down\u201d is to tell someone to relax. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Pipe+Down\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

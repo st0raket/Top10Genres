@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:00.659615+00:00",
+  "elapsed": 0.185722,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:00.659615+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2006",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yeat&format=json&method=track.getInfo&track=If+We+Being+R%C3%ABal"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yeat&format=json&method=track.getInfo&track=If+We+Being+R%C3%ABal",
+  "_decoded_content": {
+    "track": {
+      "name": "If We Being R\u00ebal",
+      "url": "https:\/\/www.last.fm\/music\/yeat\/_\/If+We+Being+R%C3%ABal",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "415237",
+      "playcount": "5770225",
+      "artist": {
+        "name": "yeat",
+        "url": "https:\/\/www.last.fm\/music\/yeat"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "industrial hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/industrial+hip+hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2024, 23:16",
+        "summary": "On \"If We Being R\u00ebal\", Yeat touches on themes of isolation, detachment, and a sense of superiority. The lyrics explore feelings of emptiness, disconnection from others, and a desire for control. There\u2019s a sense of defiance and a refusal to conform to societal norms, with an emphasis on self-preservation and maintaining personal boundaries.\n\nThe instrumental of the song has mysterious, futuristic elements, almost giving it a dreamy ethereal touch. <a href=\"http:\/\/www.last.fm\/music\/yeat\/_\/If+We+Being+R%C3%ABal\">Read more on Last.fm<\/a>.",
+        "content": "On \"If We Being R\u00ebal\", Yeat touches on themes of isolation, detachment, and a sense of superiority. The lyrics explore feelings of emptiness, disconnection from others, and a desire for control. There\u2019s a sense of defiance and a refusal to conform to societal norms, with an emphasis on self-preservation and maintaining personal boundaries.\n\nThe instrumental of the song has mysterious, futuristic elements, almost giving it a dreamy ethereal touch.\n\n\u201cIf We Being R\u00ebal\u201d by Yeat was produced by Synthetic, \u200b\u200bdreamr., Radiate & Fendii, and written by Yeat himself. <a href=\"http:\/\/www.last.fm\/music\/yeat\/_\/If+We+Being+R%C3%ABal\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

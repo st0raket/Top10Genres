@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:32:44.726217+00:00",
+  "elapsed": 0.185818,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:44.726217+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3935",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Godzilla"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Godzilla",
+  "_decoded_content": {
+    "track": {
+      "name": "Godzilla",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Godzilla",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "32816",
+      "playcount": "340487",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Godzilla",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Godzilla",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/18dd4f35db9405188f44b7ca8fe2cfb8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/18dd4f35db9405188f44b7ca8fe2cfb8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/18dd4f35db9405188f44b7ca8fe2cfb8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/18dd4f35db9405188f44b7ca8fe2cfb8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "my scribbled",
+            "url": "https:\/\/www.last.fm\/tag\/my+scribbled"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2021, 16:12",
+        "summary": "\"Godzilla\" is a song by American rapper Eminem featuring American rapper Juice Wrld. It was released as a single on January 28, 2020, from Eminem's eleventh studio album Music to Be Murdered By (2020). The song was Juice Wrld's first posthumous release following his death in December 2019.\n\nBackground\nAmerican rapper Juice Wrld's feature on the track marked his first posthumous release following his fatal seizure resulting from a drug overdose on December 8, 2019. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Godzilla\">Read more on Last.fm<\/a>.",
+        "content": "\"Godzilla\" is a song by American rapper Eminem featuring American rapper Juice Wrld. It was released as a single on January 28, 2020, from Eminem's eleventh studio album Music to Be Murdered By (2020). The song was Juice Wrld's first posthumous release following his death in December 2019.\n\nBackground\nAmerican rapper Juice Wrld's feature on the track marked his first posthumous release following his fatal seizure resulting from a drug overdose on December 8, 2019. Eminem's third verse on the track holds the record for his fastest rap verse, rapping 10.65 syllables per second, or 300 words in 30 seconds. Eminem surpassed his own records held by his feature on Nicki Minaj and Labrinth's 2018 song \"Majesty\", where he rapped 10.3 syllables per second, and his 2013 single \"Rap God\", where he rapped 9.6 syllables per second.\n\nMusic video\nOn March 4, 2020, a lyric video for the single was released. On March 6, Eminem released a snippet of the music video, partnered with Lyrical Lemonade. The music video, directed by Cole Bennett, released on March 9, featuring appearances by Mike Tyson, Dr. Dre, and a dedication to Juice WRLD at the end.\n\nChart performance\n\"Godzilla\" was a success in the United States and Europe. It debuted at number one in Finland and on both the UK Singles Chart and the Irish Singles Chart, becoming Eminem's tenth and ninth number-one single in the UK and Ireland, respectively, as well as the first for Juice Wrld posthumously and in total in both countries. It also went to number two in Flanders, the Czech Republic, Hungary, New Zealand, and Slovakia. It went to number three in Eminem's homeland, the United States, and went top ten in 20 regions. Outside Europe, it saw moderate success in Lebanon and Singapore, peaking inside the top 20 in those regions. As of November 3, the song has sold more than 3 million units in the US and became eligible for 3 times platinum.\n\nIt was nominated for two awards in 2020s MTV Video Music Awards for Video of the Year and Best Hip-Hop. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Godzilla\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:42.957710+00:00",
+  "elapsed": 0.18774,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:42.957710+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3823",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Daylight"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Daylight",
+  "_decoded_content": {
+    "track": {
+      "name": "Daylight",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Daylight",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "606713",
+      "playcount": "9349488",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Harry\u2019s House",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Harry%E2%80%99s+House",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "soft rock",
+            "url": "https:\/\/www.last.fm\/tag\/soft+rock"
+          },
+          {
+            "name": "punk",
+            "url": "https:\/\/www.last.fm\/tag\/punk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 May 2022, 20:23",
+        "summary": "\u201cDaylight\u201d is the fifth track off Harry Styles' third studio album, Harry's House. Styles unveiled the song a day before its release at the Citi Concert Series for the TODAY show.\n\nThe song focuses on a lover who pushed Harry away despite all his affection for her. In a May 2022 interview for the Howard Stern Show, the British singer declared that \u201cDaylight\u201d was written in a \u201cstream-of-consciousness\u201d style after ruminating on a relationship all night\u2014the band stayed up until daylight to finish composing the song. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Daylight\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDaylight\u201d is the fifth track off Harry Styles' third studio album, Harry's House. Styles unveiled the song a day before its release at the Citi Concert Series for the TODAY show.\n\nThe song focuses on a lover who pushed Harry away despite all his affection for her. In a May 2022 interview for the Howard Stern Show, the British singer declared that \u201cDaylight\u201d was written in a \u201cstream-of-consciousness\u201d style after ruminating on a relationship all night\u2014the band stayed up until daylight to finish composing the song.\n\nAdditionally, after numerous speculations, Styles confirmed to Howard Stern that the song had no connection to his former girlfriend Taylor Swift\u2019s track \u201cDaylight\u201d from the album \"Lover\"\u2014a song about finding a healthy new love after a period of toxic relationships.\n\n\"You are reading too much into it. You know I\u2019d love to tell you that you\u2019re spot-on, but you\u2019re not. We will always wonder.\"\n\n\"We were like, \u2018We have to find a way to stay awake and finish this, because if we all go to bed, then this won\u2019t turn out the way it would if we finished tonight.\u2019 So we powered through, finished it and went down to the beach as the sun was coming up and it was like, \u2018Okay. Yeah.\u2019 It felt correct that we\u2019d finished it in that place. Life, and songs in particular, are so much about moments. In surfing, for example, sometimes you don\u2019t get the wave and sometimes the wave comes and you haven\u2019t practised. But every now and again, the wave comes and you\u2019re ready, you\u2019ve practised enough that you can ride it. Sometimes when the songs write themselves like that, it feels like, \u2018Okay, there\u2019s a reason why sometimes I sit out there, falling off the board a bunch. It\u2019s for this moment.\"\n\n\u2013 via Apple Music <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Daylight\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

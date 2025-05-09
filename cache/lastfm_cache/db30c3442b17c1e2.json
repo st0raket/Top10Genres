@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:56.757891+00:00",
+  "elapsed": 0.354282,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:56.757891+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2826",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=Slow+It+Down"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=Slow+It+Down",
+  "_decoded_content": {
+    "track": {
+      "name": "Slow It Down",
+      "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/_\/Slow+It+Down",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "394501",
+      "playcount": "3531804",
+      "artist": {
+        "name": "Benson Boone",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone"
+      },
+      "album": {
+        "artist": "Benson Boone",
+        "title": "Slow It Down",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/Slow+It+Down",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/493fb9310fe32c75d23bd9dba60faeee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/493fb9310fe32c75d23bd9dba60faeee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/493fb9310fe32c75d23bd9dba60faeee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/493fb9310fe32c75d23bd9dba60faeee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "true neo-satanic pop",
+            "url": "https:\/\/www.last.fm\/tag\/true+neo-satanic+pop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Apr 2024, 23:39",
+        "summary": "\u201cSlow It Down\u201d is the second single released for pop singer-songwriter Benson Boone\u2019s debut studio album, Fireworks & Rollerblades. It appears as the third overall track on the record.\n\nSome sources have labeled this cut as an \u201caching, piano-driven number,\u201d and had labeled it as evidence that Boone \u201chad found his niche.\u201d\n\n\u201cSlow It Down\u201d was digitally released on March 21, 2024, which came alongside the official announcement of Fireworks & Rollerblades. <a href=\"http:\/\/www.last.fm\/music\/Benson+Boone\/_\/Slow+It+Down\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSlow It Down\u201d is the second single released for pop singer-songwriter Benson Boone\u2019s debut studio album, Fireworks & Rollerblades. It appears as the third overall track on the record.\n\nSome sources have labeled this cut as an \u201caching, piano-driven number,\u201d and had labeled it as evidence that Boone \u201chad found his niche.\u201d\n\n\u201cSlow It Down\u201d was digitally released on March 21, 2024, which came alongside the official announcement of Fireworks & Rollerblades. Boone first teased it on his social media in a video that was posted on January 8, about two months before the song\u2019s release.\n\nDuring the tracking week ending April 5, 2024, the song debuted at #45 on the Hot 100.\n\nThe song marks his fourth appearance on the Hot 100, following \u201cGHOST TOWN\u201d, \u201cIn the Stars\u201d, and \u201cBeautiful Things\u201d. <a href=\"http:\/\/www.last.fm\/music\/Benson+Boone\/_\/Slow+It+Down\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

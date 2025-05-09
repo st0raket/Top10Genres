@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:40.565647+00:00",
+  "elapsed": 0.222296,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:40.565647+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1971",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JACKBOYS&format=json&method=track.getInfo&track=GANG+GANG"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JACKBOYS&format=json&method=track.getInfo&track=GANG+GANG",
+  "_decoded_content": {
+    "track": {
+      "name": "GANG GANG",
+      "url": "https:\/\/www.last.fm\/music\/JackBoys\/_\/GANG+GANG",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "301393",
+      "playcount": "3124750",
+      "artist": {
+        "name": "JackBoys",
+        "url": "https:\/\/www.last.fm\/music\/JackBoys"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Sheck Wes",
+            "url": "https:\/\/www.last.fm\/tag\/Sheck+Wes"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "don toliver",
+            "url": "https:\/\/www.last.fm\/tag\/don+toliver"
+          },
+          {
+            "name": "JACKBOYS",
+            "url": "https:\/\/www.last.fm\/tag\/JACKBOYS"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Jun 2023, 02:33",
+        "summary": "\u201cGANG GANG\u201d features each Cactus Jack member proclaiming the relationship they have with one another and the loyalty that comes with being signed to the same label. The song\u2019s production furthers the use of string orchestration, previously used on \u201cJACKBOYS.\u201d\n\nOne day after the song\u2019s release, a music video was uploaded to YouTube with visuals featuring the artists smoking and hanging out in a junkyard, where they also flex expensive cars. <a href=\"http:\/\/www.last.fm\/music\/JackBoys\/_\/GANG+GANG\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGANG GANG\u201d features each Cactus Jack member proclaiming the relationship they have with one another and the loyalty that comes with being signed to the same label. The song\u2019s production furthers the use of string orchestration, previously used on \u201cJACKBOYS.\u201d\n\nOne day after the song\u2019s release, a music video was uploaded to YouTube with visuals featuring the artists smoking and hanging out in a junkyard, where they also flex expensive cars.\n\nThe track\u2019s instrumental was first used on Mar90s\u2018 December 2019 track, \u201cBlue Hunnits,\u201d released two days before. <a href=\"http:\/\/www.last.fm\/music\/JackBoys\/_\/GANG+GANG\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

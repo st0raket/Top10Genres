@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:29.073793+00:00",
+  "elapsed": 0.204126,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:29.073793+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1989",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TWICE&format=json&method=track.getInfo&track=GIRLS+LIKE+US"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TWICE&format=json&method=track.getInfo&track=GIRLS+LIKE+US",
+  "_decoded_content": {
+    "track": {
+      "name": "GIRLS LIKE US",
+      "url": "https:\/\/www.last.fm\/music\/TWICE\/_\/GIRLS+LIKE+US",
+      "duration": "158000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "99823",
+      "playcount": "1229568",
+      "artist": {
+        "name": "TWICE",
+        "mbid": "d594ff3d-d3ca-4d2e-bb6a-a7dada9af0c5",
+        "url": "https:\/\/www.last.fm\/music\/TWICE"
+      },
+      "album": {
+        "artist": "TWICE",
+        "title": "FANCY YOU",
+        "url": "https:\/\/www.last.fm\/music\/TWICE\/FANCY+YOU",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9b4e7025d2217c85044064c984ff68d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9b4e7025d2217c85044064c984ff68d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9b4e7025d2217c85044064c984ff68d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9b4e7025d2217c85044064c984ff68d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "charli xcx",
+            "url": "https:\/\/www.last.fm\/tag\/charli+xcx"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Sep 2019, 21:58",
+        "summary": "\"Girls Like Us\" is a song recorded by South Korean girl group TWICE.  It is the third track of the EP [albumartist=TWICE]Fancy You. The song is written by member Jihyo and produced by a team of professionals, including British singer Charli XCX. <a href=\"http:\/\/www.last.fm\/music\/TWICE\/_\/GIRLS+LIKE+US\">Read more on Last.fm<\/a>.",
+        "content": "\"Girls Like Us\" is a song recorded by South Korean girl group TWICE.  It is the third track of the EP [albumartist=TWICE]Fancy You. The song is written by member Jihyo and produced by a team of professionals, including British singer Charli XCX. <a href=\"http:\/\/www.last.fm\/music\/TWICE\/_\/GIRLS+LIKE+US\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

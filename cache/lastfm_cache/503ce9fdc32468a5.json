@@ -1,0 +1,93 @@
+{
+  "created_at": "2025-05-03T14:39:09.841385+00:00",
+  "elapsed": 0.212504,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:09.841385+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3401",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Candy+Necklace"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Candy+Necklace",
+  "_decoded_content": {
+    "track": {
+      "name": "Candy Necklace",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Candy+Necklace",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "11046",
+      "playcount": "63093",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "candy necklace",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/candy+necklace",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0caaf290af10bdd2e99664bd034dbf2e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0caaf290af10bdd2e99664bd034dbf2e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0caaf290af10bdd2e99664bd034dbf2e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0caaf290af10bdd2e99664bd034dbf2e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "Jon Batiste",
+            "url": "https:\/\/www.last.fm\/tag\/Jon+Batiste"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Dec 2024, 18:03",
+        "summary": "\"Candy Necklace\" is a song that explores the complex and emotionally turbulent nature of a relationship that is characterized by obsession, lies and erratic behavior.\n\nThe song that explores the intense and obsessive nature of a relationship. It begins with Lana set in a northern town feeling fortunate and indulging in white fire and cinnamon on her teeth while sitting at a stoplight. She then drives somewhere out of range, while listening to white noise coming out of her brain. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Candy+Necklace\">Read more on Last.fm<\/a>.",
+        "content": "\"Candy Necklace\" is a song that explores the complex and emotionally turbulent nature of a relationship that is characterized by obsession, lies and erratic behavior.\n\nThe song that explores the intense and obsessive nature of a relationship. It begins with Lana set in a northern town feeling fortunate and indulging in white fire and cinnamon on her teeth while sitting at a stoplight. She then drives somewhere out of range, while listening to white noise coming out of her brain.\n\nIn the pre-chorus, she refers to her lover as a \"Rockafella\" and \"God\" while also calling him a \"storyteller\" which hints at him possibly lying or deceiving her. The chorus reveals Del Rey's obsession with her lover's erratic behavior, which includes acting restless and reckless, dancing like the young and the restless, and obsessing over candy necklaces.\n\nThe second verse describes Lana Del Rey's suicidal thoughts and how her lover is bringing her down. She thought they were cool and kicking it like the A Tribe Called Quest, but her lover's behavior is negatively impacting her mental health. In the pre-chorus, she refers to her lover as a \"fortune teller\" and her \"favorite ever\" which reveals how conflicted and confused she is about their relationship.\n\nIt is the sixth track from Lana Del Rey's ninth studio album, Did You Know That There's a Tunnel Under Ocean Blvd. The song features American musician Jon Batiste. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Candy+Necklace\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

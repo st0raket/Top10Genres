@@ -1,0 +1,57 @@
+{
+  "created_at": "2025-05-03T14:42:50.106839+00:00",
+  "elapsed": 0.198722,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:50.106839+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "522",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gene+Autry&format=json&method=track.getInfo&track=Here+Comes+Santa+Claus+%28Right+Down+Santa+Claus+Lane%29+-+1947+Version"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gene+Autry&format=json&method=track.getInfo&track=Here+Comes+Santa+Claus+%28Right+Down+Santa+Claus+Lane%29+-+1947+Version",
+  "_decoded_content": {
+    "track": {
+      "name": "Here Comes Santa Claus (Right Down Santa Claus Lane) - 1947 Version",
+      "url": "https:\/\/www.last.fm\/music\/Gene+Autry\/_\/Here+Comes+Santa+Claus+(Right+Down+Santa+Claus+Lane)+-+1947+Version",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "308789",
+      "playcount": "867677",
+      "artist": {
+        "name": "Gene Autry",
+        "mbid": "675b7627-6b5d-4a46-a728-785cb24a299e",
+        "url": "https:\/\/www.last.fm\/music\/Gene+Autry"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "My Music Library",
+            "url": "https:\/\/www.last.fm\/tag\/My+Music+Library"
+          }
+        ]
+      }
+    }
+  }
+}

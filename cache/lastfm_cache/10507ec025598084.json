@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:39.913081+00:00",
+  "elapsed": 0.189242,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:39.913081+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3233",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Enchanted"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Enchanted",
+  "_decoded_content": {
+    "track": {
+      "name": "Enchanted",
+      "mbid": "c2013766-2c2a-4b80-ac5b-754623ff618c",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Enchanted",
+      "duration": "266000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "840802",
+      "playcount": "13713269",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Speak Now",
+        "mbid": "829d9e28-e7a8-4f91-a21a-1eef17da356d",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Speak+Now",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Nov 2010, 14:13",
+        "summary": "\u201cEnchanted\u201d details Taylor\u2019s infatuation with Owl City\u2019s Adam Young, who Taylor corresponded with via email for quite some time. When she finally met him in New York City, she was \u201cwonderstruck\u201d but worried she would never see him again and worried he was in love with another girl.\n\nThe song, lyrically and melodically, exemplifies almost perfectly the \u201cfairytale\u201d theme apparent throughout Swift\u2019s earlier discography of the Speak Now and Fearless albums. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Enchanted\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEnchanted\u201d details Taylor\u2019s infatuation with Owl City\u2019s Adam Young, who Taylor corresponded with via email for quite some time. When she finally met him in New York City, she was \u201cwonderstruck\u201d but worried she would never see him again and worried he was in love with another girl.\n\nThe song, lyrically and melodically, exemplifies almost perfectly the \u201cfairytale\u201d theme apparent throughout Swift\u2019s earlier discography of the Speak Now and Fearless albums. From the story-like narration, to the romantic and magical adjectives used, to the absolutely whimsical melody \u2013 this song is the fairytale era personified.\n\n\nInterestingly, this track was originally planned to lend its title to the album, too, until Taylor\u2019s record label CEO Scott Borchetta recommended she title it something more mature.\n\nWe were at lunch, and she had played me a bunch of the new songs. I looked at her and I\u2019m like, \u2018Taylor, this record isn\u2019t about fairy tales and high school anymore. That\u2019s not where you\u2019re at. I don\u2019t think the record should be called \u2018Enchanted.\u2019 <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Enchanted\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

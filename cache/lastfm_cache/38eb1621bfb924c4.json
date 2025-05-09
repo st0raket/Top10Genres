@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:36:31.436666+00:00",
+  "elapsed": 0.219871,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:31.436666+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "986",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=BOY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=BOY",
+  "_decoded_content": {
+    "track": {
+      "name": "BOY",
+      "url": "https:\/\/www.last.fm\/music\/King+Gnu\/_\/BOY",
+      "duration": "241000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "56055",
+      "playcount": "534416",
+      "artist": {
+        "name": "King Gnu",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu"
+      },
+      "album": {
+        "artist": "King Gnu",
+        "title": "BOY - Single",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu\/BOY+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f3af2fe0e3b80db107e46dad582c1444.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f3af2fe0e3b80db107e46dad582c1444.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f3af2fe0e3b80db107e46dad582c1444.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f3af2fe0e3b80db107e46dad582c1444.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "anime",
+            "url": "https:\/\/www.last.fm\/tag\/anime"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          }
+        ]
+      }
+    }
+  }
+}

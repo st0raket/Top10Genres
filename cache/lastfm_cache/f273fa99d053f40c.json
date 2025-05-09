@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:39:46.776906+00:00",
+  "elapsed": 0.230611,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:46.776906+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2136",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=TELEKINESIS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=TELEKINESIS",
+  "_decoded_content": {
+    "track": {
+      "name": "telekinesis",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/telekinesis",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "216394",
+      "playcount": "802248",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "orchestral",
+            "url": "https:\/\/www.last.fm\/tag\/orchestral"
+          },
+          {
+            "name": "Post-Industrial",
+            "url": "https:\/\/www.last.fm\/tag\/Post-Industrial"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Jul 2023, 21:58",
+        "summary": "This tracks title, \u201cTELEKINESIS\u201d, is a reference to the supposed ability of moving objects via one\u2019s mind. It is often fictionally portrayed in Superhero films and comics, which Travis has a liking to, even dressing as his favorites on multiple occasions including Batman and Iron-Man.\n\nIt was formerly Kanye West\u2019s, and was tentatively titled \u201cFuture Sounds\u201d, containing a feature from none other than Travis himself \u2014 recorded during sessions for West\u2019s Donda. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/telekinesis\">Read more on Last.fm<\/a>.",
+        "content": "This tracks title, \u201cTELEKINESIS\u201d, is a reference to the supposed ability of moving objects via one\u2019s mind. It is often fictionally portrayed in Superhero films and comics, which Travis has a liking to, even dressing as his favorites on multiple occasions including Batman and Iron-Man.\n\nIt was formerly Kanye West\u2019s, and was tentatively titled \u201cFuture Sounds\u201d, containing a feature from none other than Travis himself \u2014 recorded during sessions for West\u2019s Donda. However it would be heavily re-worked to feature Future & SZA, where they create a soundscape that is magical, like telekinesis. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/telekinesis\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

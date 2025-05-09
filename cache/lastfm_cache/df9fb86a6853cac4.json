@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:29:45.444589+00:00",
+  "elapsed": 0.290599,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:45.444589+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1153",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Lean+4+Real"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Lean+4+Real",
+  "_decoded_content": {
+    "track": {
+      "name": "Lean 4 Real",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Lean+4+Real",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "11671",
+      "playcount": "169535",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "album": {
+        "artist": "Playboi Carti",
+        "title": "Die Lit",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/Die+Lit",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d1761236c12379d3e1dfce76023231f6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d1761236c12379d3e1dfce76023231f6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d1761236c12379d3e1dfce76023231f6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d1761236c12379d3e1dfce76023231f6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "alternative hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+hip+hop"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          }
+        ]
+      }
+    }
+  }
+}

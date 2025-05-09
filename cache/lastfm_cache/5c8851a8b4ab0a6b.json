@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:22.595192+00:00",
+  "elapsed": 0.227869,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:22.595192+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2685",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Bored"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Bored",
+  "_decoded_content": {
+    "track": {
+      "name": "Bored",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Bored",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "864319",
+      "playcount": "9629654",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "Bored",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/Bored",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8bccd9c4336ffdbe502671287bc1b85c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8bccd9c4336ffdbe502671287bc1b85c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8bccd9c4336ffdbe502671287bc1b85c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8bccd9c4336ffdbe502671287bc1b85c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Billie Eilish",
+            "url": "https:\/\/www.last.fm\/tag\/Billie+Eilish"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "13 reasons why",
+            "url": "https:\/\/www.last.fm\/tag\/13+reasons+why"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jan 2022, 01:08",
+        "summary": "\"Bored\" is a song by American singer-songwriter Billie Eilish from the soundtrack album, 13 Reasons Why (A Netflix Original Series Soundtrack). The song was written by Eilish, her brother Finneas O'Connell, Aron Forbes, and Tim Anderson. Production was solely handled by Finneas. It was released by Darkroom and Interscope Records for digital download and streaming on March 30, 2017, as the lead single from the soundtrack. A mid-tempo pop ballad, the song's lyrics see Eilish sing about finally discovering her former lover's mistakes. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Bored\">Read more on Last.fm<\/a>.",
+        "content": "\"Bored\" is a song by American singer-songwriter Billie Eilish from the soundtrack album, 13 Reasons Why (A Netflix Original Series Soundtrack). The song was written by Eilish, her brother Finneas O'Connell, Aron Forbes, and Tim Anderson. Production was solely handled by Finneas. It was released by Darkroom and Interscope Records for digital download and streaming on March 30, 2017, as the lead single from the soundtrack. A mid-tempo pop ballad, the song's lyrics see Eilish sing about finally discovering her former lover's mistakes. The song has received generally mixed reviews from music critics, with a number of them deeming it as forgettable. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Bored\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

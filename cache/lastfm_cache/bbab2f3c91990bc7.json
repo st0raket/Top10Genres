@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:30.244134+00:00",
+  "elapsed": 0.184371,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:30.244134+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2097",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=What%27s+the+Use%3F"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mac+Miller&format=json&method=track.getInfo&track=What%27s+the+Use%3F",
+  "_decoded_content": {
+    "track": {
+      "name": "What's the Use?",
+      "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/_\/What%27s+the+Use%3F",
+      "duration": "288000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "505865",
+      "playcount": "5890706",
+      "artist": {
+        "name": "Mac Miller",
+        "mbid": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller"
+      },
+      "album": {
+        "artist": "Mac Miller",
+        "title": "What's the Use?",
+        "url": "https:\/\/www.last.fm\/music\/Mac+Miller\/What%27s+the+Use%3F",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad47fd53ecdf39fa61f2023b8cc94091.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad47fd53ecdf39fa61f2023b8cc94091.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad47fd53ecdf39fa61f2023b8cc94091.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad47fd53ecdf39fa61f2023b8cc94091.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Jan 2022, 18:32",
+        "summary": "\u201cWhat\u2019s the Use?\u201d was teased as the follow up to the album\u2019s first single \u201cSelf Care\u201d with guest appearances by Thundercat, Snoop Dogg, and Syd. It premiered a week later via Apple Music on Zane Lowe\u2019s World Record Beats 1 radio show on July 24, 2018. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/What%27s+the+Use%3F\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWhat\u2019s the Use?\u201d was teased as the follow up to the album\u2019s first single \u201cSelf Care\u201d with guest appearances by Thundercat, Snoop Dogg, and Syd. It premiered a week later via Apple Music on Zane Lowe\u2019s World Record Beats 1 radio show on July 24, 2018. <a href=\"http:\/\/www.last.fm\/music\/Mac+Miller\/_\/What%27s+the+Use%3F\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

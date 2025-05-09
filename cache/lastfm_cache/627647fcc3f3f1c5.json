@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:38.114052+00:00",
+  "elapsed": 0.342673,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:38.114052+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1183",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nick+Jonas&format=json&method=track.getInfo&track=Find+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nick+Jonas&format=json&method=track.getInfo&track=Find+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Find You",
+      "url": "https:\/\/www.last.fm\/music\/Nick+Jonas\/_\/Find+You",
+      "duration": "197000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "103054",
+      "playcount": "646220",
+      "artist": {
+        "name": "Nick Jonas",
+        "mbid": "d7baf435-0df0-4227-9b8f-aa1d8681988b",
+        "url": "https:\/\/www.last.fm\/music\/Nick+Jonas"
+      },
+      "album": {
+        "artist": "Nick Jonas",
+        "title": "Find You",
+        "url": "https:\/\/www.last.fm\/music\/Nick+Jonas\/Find+You",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/96b370db22440e92da7b932bec6b35fe.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/96b370db22440e92da7b932bec6b35fe.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/96b370db22440e92da7b932bec6b35fe.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/96b370db22440e92da7b932bec6b35fe.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          }
+        ]
+      }
+    }
+  }
+}

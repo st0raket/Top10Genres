@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:43.142002+00:00",
+  "elapsed": 0.343264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:43.142002+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2959",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Lift+Yourself"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Lift+Yourself",
+  "_decoded_content": {
+    "track": {
+      "name": "Lift Yourself",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Lift+Yourself",
+      "duration": "266000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "336510",
+      "playcount": "2395459",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Lift Yourself - Single",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Lift+Yourself+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f576aebdde780388a7329a3b899d5b82.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f576aebdde780388a7329a3b899d5b82.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f576aebdde780388a7329a3b899d5b82.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f576aebdde780388a7329a3b899d5b82.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "poop",
+            "url": "https:\/\/www.last.fm\/tag\/poop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "scoop",
+            "url": "https:\/\/www.last.fm\/tag\/scoop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2018, 21:36",
+        "summary": "On April 27, 2018, Kanye announced on Twitter that he would be releasing a new song titled \u201cLift Yourself.\u201d According to Ye, the song would bring closure to Hot 97 radio presenter, Ebro Darden.\n\nThis was three days after Ebro went on air to discuss the conversation he had with West concerning his support for Donald Trump and his alleged opioid addiction. Kanye then made a bizarre phone call to Ebro\u2019s radio show, declaring that he loves him. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Lift+Yourself\">Read more on Last.fm<\/a>.",
+        "content": "On April 27, 2018, Kanye announced on Twitter that he would be releasing a new song titled \u201cLift Yourself.\u201d According to Ye, the song would bring closure to Hot 97 radio presenter, Ebro Darden.\n\nThis was three days after Ebro went on air to discuss the conversation he had with West concerning his support for Donald Trump and his alleged opioid addiction. Kanye then made a bizarre phone call to Ebro\u2019s radio show, declaring that he loves him.\n\nLater the same day, Kanye posted another tweet, linking to his website where he had uploaded the song.\n\nHours after the release of \u201cLift Yourself,\u201d Power 106 premiered the T.I.-featuring \u201cYe Vs. The People.\u201d This track serves as a better \u201cexplanation\u201d to Ebro and was supposedly the lead single to Kanye\u2019s upcoming album.\n\nAlmost a month after the release of \u201cLift Yourself,\u201d Kanye interpolated his \u201cpoopy-di-scoop\u201d line in his verse on Pusha-T\u2019s \u201cWhat Would Meek Do?\u201d <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Lift+Yourself\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

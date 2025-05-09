@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:28:09.817737+00:00",
+  "elapsed": 0.20206,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:09.817737+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2155",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Metro+Boomin&format=json&method=track.getInfo&track=No+Complaints"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Metro+Boomin&format=json&method=track.getInfo&track=No+Complaints",
+  "_decoded_content": {
+    "track": {
+      "name": "No Complaints",
+      "url": "https:\/\/www.last.fm\/music\/Metro+Boomin\/_\/No+Complaints",
+      "duration": "261000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "41220",
+      "playcount": "250057",
+      "artist": {
+        "name": "Metro Boomin",
+        "url": "https:\/\/www.last.fm\/music\/Metro+Boomin"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Underground Rap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Underground+Rap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "offset",
+            "url": "https:\/\/www.last.fm\/tag\/offset"
+          },
+          {
+            "name": "Metro Boomin",
+            "url": "https:\/\/www.last.fm\/tag\/Metro+Boomin"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Jul 2017, 20:53",
+        "summary": "\u201cNo Complaints,\u201d allegedly the first single from Metro Boomin\u2019s album Boominati, showcases traditional hip-hop motifs of flaunting wealth and discussing the process by which they acquired it.\n\nThe song is supposedly a leftover from the 2017 Migos album Culture, according to a leaked tracklist of the album. <a href=\"http:\/\/www.last.fm\/music\/Metro+Boomin\/_\/No+Complaints\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNo Complaints,\u201d allegedly the first single from Metro Boomin\u2019s album Boominati, showcases traditional hip-hop motifs of flaunting wealth and discussing the process by which they acquired it.\n\nThe song is supposedly a leftover from the 2017 Migos album Culture, according to a leaked tracklist of the album. <a href=\"http:\/\/www.last.fm\/music\/Metro+Boomin\/_\/No+Complaints\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

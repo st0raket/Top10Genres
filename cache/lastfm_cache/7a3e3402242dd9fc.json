@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:35:11.084274+00:00",
+  "elapsed": 0.217724,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:11.084274+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2558",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=2+Much"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=2+Much",
+  "_decoded_content": {
+    "track": {
+      "name": "2 Much",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/2+Much",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "188244",
+      "playcount": "1784518",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Justin Bieber",
+        "title": "Justice",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/Justice",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f09689d30b3a8faeb9d1f2dcec968307.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f09689d30b3a8faeb9d1f2dcec968307.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f09689d30b3a8faeb9d1f2dcec968307.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f09689d30b3a8faeb9d1f2dcec968307.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Jan 2022, 19:30",
+        "summary": "\u201cToo Much\u201d is the opening song of Justin Bieber\u2019s album \"Justice\". The title was spotted in Justin Bieber\u2019s Documentary, \"Justin Bieber: Next Chapter\", as we see the singer deciding the supposed tracklist for Justice, in the studio. Previous singles like \u201cHoly,\u201d \u201cAnyone\u201d and \u201cLonely\u201d can be seen listed on the song board.\n\nIn the same fashion as some of Justin\u2019s previous albums (for example, the opening song on \"Purpose\" \u201cMark My Words\u201d) <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/2+Much\">Read more on Last.fm<\/a>.",
+        "content": "\u201cToo Much\u201d is the opening song of Justin Bieber\u2019s album \"Justice\". The title was spotted in Justin Bieber\u2019s Documentary, \"Justin Bieber: Next Chapter\", as we see the singer deciding the supposed tracklist for Justice, in the studio. Previous singles like \u201cHoly,\u201d \u201cAnyone\u201d and \u201cLonely\u201d can be seen listed on the song board.\n\nIn the same fashion as some of Justin\u2019s previous albums (for example, the opening song on \"Purpose\" \u201cMark My Words\u201d), the intro track of \"Justice\" is slower than many of the songs in the track-list, as it represents a tone-setter for the whole experience. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/2+Much\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

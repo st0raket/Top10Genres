@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:44:10.133625+00:00",
+  "elapsed": 0.461394,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:10.133625+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1135",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=Panini+-+DaBaby+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=Panini+-+DaBaby+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Panini - DaBaby Remix",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Panini+-+DaBaby+Remix",
+      "duration": "151000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "175835",
+      "playcount": "1009531",
+      "artist": {
+        "name": "Lil Nas X",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X"
+      },
+      "album": {
+        "artist": "Lil Nas X",
+        "title": "Panini",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/Panini",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bb4308cc55db636ca14729b3e77e86a2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bb4308cc55db636ca14729b3e77e86a2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bb4308cc55db636ca14729b3e77e86a2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bb4308cc55db636ca14729b3e77e86a2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "Lil Nas X",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Nas+X"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:42:36.724595+00:00",
+  "elapsed": 0.179394,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:36.724595+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "990",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=David+Guetta&format=json&method=track.getInfo&track=Beautiful+People"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=David+Guetta&format=json&method=track.getInfo&track=Beautiful+People",
+  "_decoded_content": {
+    "track": {
+      "name": "Beautiful People",
+      "url": "https:\/\/www.last.fm\/music\/David+Guetta\/_\/Beautiful+People",
+      "duration": "187000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "55109",
+      "playcount": "166854",
+      "artist": {
+        "name": "David Guetta",
+        "mbid": "302bd7b9-d012-4360-897a-93b00c855680",
+        "url": "https:\/\/www.last.fm\/music\/David+Guetta"
+      },
+      "album": {
+        "artist": "David Guetta",
+        "title": "Beautiful People",
+        "url": "https:\/\/www.last.fm\/music\/David+Guetta\/Beautiful+People",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c2154de4ef4a57d89a32dbf9bfe06b70.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c2154de4ef4a57d89a32dbf9bfe06b70.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c2154de4ef4a57d89a32dbf9bfe06b70.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c2154de4ef4a57d89a32dbf9bfe06b70.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "europa plus",
+            "url": "https:\/\/www.last.fm\/tag\/europa+plus"
+          }
+        ]
+      }
+    }
+  }
+}

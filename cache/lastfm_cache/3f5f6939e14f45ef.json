@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:38:25.198766+00:00",
+  "elapsed": 0.210134,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:25.198766+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "844",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MORGENSHTERN&format=json&method=track.getInfo&track=GUF+DISS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MORGENSHTERN&format=json&method=track.getInfo&track=GUF+DISS",
+  "_decoded_content": {
+    "track": {
+      "name": "GUF DISS",
+      "url": "https:\/\/www.last.fm\/music\/Morgenshtern\/_\/GUF+DISS",
+      "duration": "143000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4225",
+      "playcount": "23167",
+      "artist": {
+        "name": "Morgenshtern",
+        "url": "https:\/\/www.last.fm\/music\/Morgenshtern"
+      },
+      "album": {
+        "artist": "Morgenshtern",
+        "title": "LAST ONE",
+        "url": "https:\/\/www.last.fm\/music\/Morgenshtern\/LAST+ONE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/71af5aea70d259de09eb78759308047b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/71af5aea70d259de09eb78759308047b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/71af5aea70d259de09eb78759308047b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/71af5aea70d259de09eb78759308047b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

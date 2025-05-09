@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:54.046660+00:00",
+  "elapsed": 0.222439,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:54.046660+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2575",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sia&format=json&method=track.getInfo&track=Snowman"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sia&format=json&method=track.getInfo&track=Snowman",
+  "_decoded_content": {
+    "track": {
+      "name": "Snowman",
+      "url": "https:\/\/www.last.fm\/music\/Sia\/_\/Snowman",
+      "duration": "165000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "834467",
+      "playcount": "6178583",
+      "artist": {
+        "name": "Sia",
+        "mbid": "2f548675-008d-4332-876c-108b0c7ab9c5",
+        "url": "https:\/\/www.last.fm\/music\/Sia"
+      },
+      "album": {
+        "artist": "Sia",
+        "title": "Everyday Is Christmas",
+        "url": "https:\/\/www.last.fm\/music\/Sia\/Everyday+Is+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2cd7c022dddf612f1cd111c6e52ca669.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2cd7c022dddf612f1cd111c6e52ca669.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2cd7c022dddf612f1cd111c6e52ca669.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2cd7c022dddf612f1cd111c6e52ca669.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "sia",
+            "url": "https:\/\/www.last.fm\/tag\/sia"
+          },
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          },
+          {
+            "name": "christmas pop",
+            "url": "https:\/\/www.last.fm\/tag\/christmas+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Nov 2021, 16:32",
+        "summary": "\u201cSnowman\u201d was released as the second single off Sia\u2019s first Christmas album, Everyday Is Christmas. In this down-tempo love song, Sia confesses her love to her snowman, a metaphor for the man she loves. While ostensibly a holiday tune, this song can also be read as a prequel to Sia\u2019s \u201cThe Girl You Lost To Cocaine,\u201d in which she dubs her addicted former lover \u201cstill as a snowman.\u201d That song is about the process of leaving, but this <a href=\"http:\/\/www.last.fm\/music\/Sia\/_\/Snowman\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSnowman\u201d was released as the second single off Sia\u2019s first Christmas album, Everyday Is Christmas. In this down-tempo love song, Sia confesses her love to her snowman, a metaphor for the man she loves. While ostensibly a holiday tune, this song can also be read as a prequel to Sia\u2019s \u201cThe Girl You Lost To Cocaine,\u201d in which she dubs her addicted former lover \u201cstill as a snowman.\u201d That song is about the process of leaving, but this one is about staying \u2013 perhaps with the implication of the narrator also continuing her addiction so she can stay frosty with her \u201csnowman.\u201d <a href=\"http:\/\/www.last.fm\/music\/Sia\/_\/Snowman\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

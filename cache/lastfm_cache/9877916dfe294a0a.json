@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:41:33.429339+00:00",
+  "elapsed": 0.29245,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:33.429339+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "791",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MACAN&format=json&method=track.getInfo&track=TSM"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MACAN&format=json&method=track.getInfo&track=TSM",
+  "_decoded_content": {
+    "track": {
+      "name": "TSM",
+      "url": "https:\/\/www.last.fm\/music\/Macan\/_\/TSM",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3080",
+      "playcount": "23682",
+      "artist": {
+        "name": "Macan",
+        "url": "https:\/\/www.last.fm\/music\/Macan"
+      },
+      "album": {
+        "artist": "Macan",
+        "title": "I AM",
+        "url": "https:\/\/www.last.fm\/music\/Macan\/I+AM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/951352a48d0a109533371383fdc26a5b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/951352a48d0a109533371383fdc26a5b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/951352a48d0a109533371383fdc26a5b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/951352a48d0a109533371383fdc26a5b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

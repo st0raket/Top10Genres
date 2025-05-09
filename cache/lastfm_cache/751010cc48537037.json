@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:18.140393+00:00",
+  "elapsed": 0.278057,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:18.140393+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2313",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=Before+I+Let+Go+-+Homecoming+Live+Bonus+Track"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=Before+I+Let+Go+-+Homecoming+Live+Bonus+Track",
+  "_decoded_content": {
+    "track": {
+      "name": "Before I Let Go - Homecoming Live Bonus Track",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/Before+I+Let+Go+-+Homecoming+Live+Bonus+Track",
+      "duration": "240000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "95827",
+      "playcount": "845755",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul pop",
+            "url": "https:\/\/www.last.fm\/tag\/soul+pop"
+          },
+          {
+            "name": "bonus track",
+            "url": "https:\/\/www.last.fm\/tag\/bonus+track"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Apr 2019, 00:58",
+        "summary": "\"Before I Let Go\" is a song performed by American R&B band Maze, issued as the second single from the band's fifth album and first live album Live in New Orleans. Although Live in New Orleans is a live album, \"Before I Let Go\" appears on the album as a studio recording.[4] Written and produced by lead singer Frankie Beverly,[2][3] the song peaked at #13 on the Billboard R&B chart in 1981.[5]\n\nBeyonc\u00e9 covered the song for her 2019 film Homecoming, and included the cover on the accompanying live album. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/Before+I+Let+Go+-+Homecoming+Live+Bonus+Track\">Read more on Last.fm<\/a>.",
+        "content": "\"Before I Let Go\" is a song performed by American R&B band Maze, issued as the second single from the band's fifth album and first live album Live in New Orleans. Although Live in New Orleans is a live album, \"Before I Let Go\" appears on the album as a studio recording.[4] Written and produced by lead singer Frankie Beverly,[2][3] the song peaked at #13 on the Billboard R&B chart in 1981.[5]\n\nBeyonc\u00e9 covered the song for her 2019 film Homecoming, and included the cover on the accompanying live album. It also includes a sample of New Orleans bounce artist, DJ Jubilee, one of the pioneers of bounce music. Cover also includes a sample of Candy by Cameo throughout the song.. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/Before+I+Let+Go+-+Homecoming+Live+Bonus+Track\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:36:33.364479+00:00",
+  "elapsed": 0.20758,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:33.364479+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1200",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Little+Nell&format=json&method=track.getInfo&track=Time+Warp"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Little+Nell&format=json&method=track.getInfo&track=Time+Warp",
+  "_decoded_content": {
+    "track": {
+      "name": "Time Warp",
+      "url": "https:\/\/www.last.fm\/music\/Little+Nell\/_\/Time+Warp",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "169984",
+      "playcount": "871397",
+      "artist": {
+        "name": "Little Nell",
+        "mbid": "9b31dfae-74cc-40a5-b90f-179c2feab78c",
+        "url": "https:\/\/www.last.fm\/music\/Little+Nell"
+      },
+      "album": {
+        "artist": "Richard O'Brien",
+        "title": "The Rocky Horror Picture Show (Soundtrack from the Motion Picture)",
+        "url": "https:\/\/www.last.fm\/music\/Richard+O%27Brien\/The+Rocky+Horror+Picture+Show+(Soundtrack+from+the+Motion+Picture)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f105b610fa14b15af3cd936b11c35bd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f105b610fa14b15af3cd936b11c35bd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f105b610fa14b15af3cd936b11c35bd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f105b610fa14b15af3cd936b11c35bd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "musical",
+            "url": "https:\/\/www.last.fm\/tag\/musical"
+          },
+          {
+            "name": "glam rock",
+            "url": "https:\/\/www.last.fm\/tag\/glam+rock"
+          },
+          {
+            "name": "halloween",
+            "url": "https:\/\/www.last.fm\/tag\/halloween"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:38:51.662069+00:00",
+  "elapsed": 0.197209,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:51.662069+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "834",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aya+Nakamura&format=json&method=track.getInfo&track=Daddy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aya+Nakamura&format=json&method=track.getInfo&track=Daddy",
+  "_decoded_content": {
+    "track": {
+      "name": "Daddy",
+      "url": "https:\/\/www.last.fm\/music\/Aya+Nakamura\/_\/Daddy",
+      "duration": "197000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "14187",
+      "playcount": "108551",
+      "artist": {
+        "name": "Aya Nakamura",
+        "url": "https:\/\/www.last.fm\/music\/Aya+Nakamura"
+      },
+      "album": {
+        "artist": "Aya Nakamura",
+        "title": "Daddy",
+        "url": "https:\/\/www.last.fm\/music\/Aya+Nakamura\/Daddy",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/85715f5e041afff2b5bd141cb7a6fe34.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/85715f5e041afff2b5bd141cb7a6fe34.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/85715f5e041afff2b5bd141cb7a6fe34.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/85715f5e041afff2b5bd141cb7a6fe34.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

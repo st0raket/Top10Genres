@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:31:11.729553+00:00",
+  "elapsed": 0.459691,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:11.729553+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1178",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shindy&format=json&method=track.getInfo&track=Road2Goat"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shindy&format=json&method=track.getInfo&track=Road2Goat",
+  "_decoded_content": {
+    "track": {
+      "name": "ROAD2GOAT",
+      "url": "https:\/\/www.last.fm\/music\/Shindy\/_\/ROAD2GOAT",
+      "duration": "294000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6424",
+      "playcount": "76093",
+      "artist": {
+        "name": "Shindy",
+        "mbid": "eb7215c0-913b-4403-a7e2-62d22393e358",
+        "url": "https:\/\/www.last.fm\/music\/Shindy"
+      },
+      "album": {
+        "artist": "Shindy",
+        "title": "Road2Goat - Single",
+        "url": "https:\/\/www.last.fm\/music\/Shindy\/Road2Goat+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7a7dbcc6e336b9fffc99620b49ef9768.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7a7dbcc6e336b9fffc99620b49ef9768.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7a7dbcc6e336b9fffc99620b49ef9768.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7a7dbcc6e336b9fffc99620b49ef9768.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "Deutschrap",
+            "url": "https:\/\/www.last.fm\/tag\/Deutschrap"
+          },
+          {
+            "name": "german rap",
+            "url": "https:\/\/www.last.fm\/tag\/german+rap"
+          }
+        ]
+      }
+    }
+  }
+}

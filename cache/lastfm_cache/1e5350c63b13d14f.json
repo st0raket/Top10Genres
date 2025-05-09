@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:43:19.196852+00:00",
+  "elapsed": 0.205947,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:19.196852+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "983",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King&format=json&method=track.getInfo&track=Maan+Meri+Jaan"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King&format=json&method=track.getInfo&track=Maan+Meri+Jaan",
+  "_decoded_content": {
+    "track": {
+      "name": "Maan Meri Jaan",
+      "url": "https:\/\/www.last.fm\/music\/King\/_\/Maan+Meri+Jaan",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "37734",
+      "playcount": "333704",
+      "artist": {
+        "name": "King",
+        "mbid": "e6b770d2-4fb6-4416-8722-471717fdd41d",
+        "url": "https:\/\/www.last.fm\/music\/King"
+      },
+      "album": {
+        "artist": "King",
+        "title": "Champagne Talk",
+        "url": "https:\/\/www.last.fm\/music\/King\/Champagne+Talk",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/acf90ac2a151eee110b888a495ebbe59.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/acf90ac2a151eee110b888a495ebbe59.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/acf90ac2a151eee110b888a495ebbe59.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/acf90ac2a151eee110b888a495ebbe59.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "banger",
+            "url": "https:\/\/www.last.fm\/tag\/banger"
+          }
+        ]
+      }
+    }
+  }
+}

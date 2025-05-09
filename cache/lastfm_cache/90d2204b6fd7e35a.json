@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:31:12.523404+00:00",
+  "elapsed": 0.183717,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:12.523404+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1907",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=wish+you+were+gay"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=wish+you+were+gay",
+  "_decoded_content": {
+    "track": {
+      "name": "Wish You Were Gay",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Wish+You+Were+Gay",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "878549",
+      "playcount": "9493864",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Mar 2019, 14:41",
+        "summary": "\"wish you were gay\" is the fourth single on American singer Billie Eilish's debut studio album \"when we all fall asleep, where do we go?\". The song was released on March 4, 2019, through Darkroom and Interscope Records. In Billie's words, \"this is a selfish song about unreciprocated feelings.\" She has unreciprocated feelings, and wishes that the person was gay to \"give their lack of interest an explanation\" other than them simply not being interested in her. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Wish+You+Were+Gay\">Read more on Last.fm<\/a>.",
+        "content": "\"wish you were gay\" is the fourth single on American singer Billie Eilish's debut studio album \"when we all fall asleep, where do we go?\". The song was released on March 4, 2019, through Darkroom and Interscope Records. In Billie's words, \"this is a selfish song about unreciprocated feelings.\" She has unreciprocated feelings, and wishes that the person was gay to \"give their lack of interest an explanation\" other than them simply not being interested in her. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Wish+You+Were+Gay\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

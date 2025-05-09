@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:53.809718+00:00",
+  "elapsed": 0.202289,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:53.809718+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2008",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Paramore&format=json&method=track.getInfo&track=Told+You+So"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Paramore&format=json&method=track.getInfo&track=Told+You+So",
+  "_decoded_content": {
+    "track": {
+      "name": "TOlD YOU SO",
+      "url": "https:\/\/www.last.fm\/music\/Paramore\/_\/TOlD+YOU+SO",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "351692",
+      "playcount": "3798330",
+      "artist": {
+        "name": "Paramore",
+        "mbid": "728ea90d-279b-4201-a8c4-597830883150",
+        "url": "https:\/\/www.last.fm\/music\/Paramore"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "new wave",
+            "url": "https:\/\/www.last.fm\/tag\/new+wave"
+          },
+          {
+            "name": "alternative dance",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+dance"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 May 2017, 17:09",
+        "summary": "\"Told You So\" is a song by American rock band Paramore. It was released on May 3, 2017 through Fueled by Ramen as the second single off their upcoming fifth studio album After Laughter. It was written by lead vocalist Hayley Williams and guitarist Taylor York and was recorded in the band's hometown, Nashville, Tennessee. A music video for the song, directed by drummer Zac Farro and Aaron Joseph, was uploaded to their record label Fueled by Ramen's YouTube channel along with the release of the song. <a href=\"http:\/\/www.last.fm\/music\/Paramore\/_\/TOlD+YOU+SO\">Read more on Last.fm<\/a>.",
+        "content": "\"Told You So\" is a song by American rock band Paramore. It was released on May 3, 2017 through Fueled by Ramen as the second single off their upcoming fifth studio album After Laughter. It was written by lead vocalist Hayley Williams and guitarist Taylor York and was recorded in the band's hometown, Nashville, Tennessee. A music video for the song, directed by drummer Zac Farro and Aaron Joseph, was uploaded to their record label Fueled by Ramen's YouTube channel along with the release of the song. <a href=\"http:\/\/www.last.fm\/music\/Paramore\/_\/TOlD+YOU+SO\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

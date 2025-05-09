@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:32:03.588242+00:00",
+  "elapsed": 0.226571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:03.588242+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "647",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=F%2A%2Ak+it+I+love+you"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=F%2A%2Ak+it+I+love+you",
+  "_decoded_content": {
+    "track": {
+      "name": "F**k It I Love You",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/F%2A%2Ak+It+I+Love+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "18165",
+      "playcount": "255145",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "warm",
+            "url": "https:\/\/www.last.fm\/tag\/warm"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          }
+        ]
+      }
+    }
+  }
+}

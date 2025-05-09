@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:39.315116+00:00",
+  "elapsed": 0.182553,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:39.315116+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3383",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Alice"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Alice",
+  "_decoded_content": {
+    "track": {
+      "name": "Alice",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Alice",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "318431",
+      "playcount": "5837302",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "Chromatica",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/Chromatica",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "Lady Gaga",
+            "url": "https:\/\/www.last.fm\/tag\/Lady+Gaga"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 May 2020, 12:43",
+        "summary": "\"Alice\" is about the desire to escape from the difficulties and pressures of reality and find a magical and euphoric place where one can be free and happy. The song uses the reference of Alice in Wonderland to convey this message as it is a story about a girl who falls into a fantasy world through the rabbit hole and experiences a different reality.\n\nThe opening lines already establish the theme as Gaga sings \"My name isn't Alice, but I'll keep looking for Wonderland\" <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Alice\">Read more on Last.fm<\/a>.",
+        "content": "\"Alice\" is about the desire to escape from the difficulties and pressures of reality and find a magical and euphoric place where one can be free and happy. The song uses the reference of Alice in Wonderland to convey this message as it is a story about a girl who falls into a fantasy world through the rabbit hole and experiences a different reality.\n\nThe opening lines already establish the theme as Gaga sings \"My name isn't Alice, but I'll keep looking for Wonderland\", implying that she wants to escape to a place where she can be the best version of herself. The chorus repeats this sentiment, expressing the idea that although she is not Alice, she is still searching for her own version of Wonderland.\n\nThe second verse suggests that Gaga is tired of trying to break free on her own and wants someone to lift her from her struggles. She mentions being \"sick and tired\" of her reality and screams out for someone to help free her from her mind and the pain it brings.\n\nThe post-chorus repetition of \"take me home, take me to Wonderland\" reinforces the theme of finding a place of safety and happiness away from the difficulties of life.\n\nOverall, the song is a plea for hope and a happier reality, and a search for meaning beyond the troubles that Gaga faces. It speaks to the desire to find a place where one can be free and escape the pressures of society and the struggles in life. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Alice\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

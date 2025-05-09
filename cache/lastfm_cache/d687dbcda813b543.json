@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:30:12.023939+00:00",
+  "elapsed": 0.209098,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:12.023939+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4696",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aretha+Franklin&format=json&method=track.getInfo&track=I+Say+a+Little+Prayer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aretha+Franklin&format=json&method=track.getInfo&track=I+Say+a+Little+Prayer",
+  "_decoded_content": {
+    "track": {
+      "name": "I Say a Little Prayer",
+      "mbid": "39642b23-2c49-47f4-851f-b128c4df48c2",
+      "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/I+Say+a+Little+Prayer",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "862794",
+      "playcount": "4860640",
+      "artist": {
+        "name": "Aretha Franklin",
+        "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+        "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin"
+      },
+      "album": {
+        "artist": "Aretha Franklin",
+        "title": "Respect",
+        "mbid": "68f30ee1-2bbf-4d5a-9cf6-c8a492bd8559",
+        "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin\/Respect",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "60s",
+            "url": "https:\/\/www.last.fm\/tag\/60s"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          },
+          {
+            "name": "motown",
+            "url": "https:\/\/www.last.fm\/tag\/motown"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Nov 2019, 02:58",
+        "summary": "I Say a Little Prayer is a classic song written by Burt Bacharach and Hal David, initially recorded by Dionne Warwick in 1966. Released as a single in 1967, the song peaked at number four on the U.S. Billboard Hot 100 and number eight on the R&B chart. The lyrics reflect a woman's devotion as she prays daily for her partner, who is implied to be serving in the Vietnam War.\n\nWarwick's rendition is characterized by its elegant arrangement in G major, showcasing Bacharach's signature style. <a href=\"http:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/I+Say+a+Little+Prayer\">Read more on Last.fm<\/a>.",
+        "content": "I Say a Little Prayer is a classic song written by Burt Bacharach and Hal David, initially recorded by Dionne Warwick in 1966. Released as a single in 1967, the song peaked at number four on the U.S. Billboard Hot 100 and number eight on the R&B chart. The lyrics reflect a woman's devotion as she prays daily for her partner, who is implied to be serving in the Vietnam War.\n\nWarwick's rendition is characterized by its elegant arrangement in G major, showcasing Bacharach's signature style. The song's original harmonic structure, particularly in the bridge and chorus, underscores the reflective and tender nature of the lyrics. It became one of Warwick's enduring hits, cementing her as a leading interpreter of Bacharach and David's works.\n\nIn 1968, Aretha Franklin recorded a soulful reinterpretation of the song for her album Aretha Now. Initially intended as the B-side to The House That Jack Built, Franklin's version gained momentum due to its inventive arrangement and emotional depth, driven by Clayton Ivey's dynamic piano work. Transposed to A major, Franklin's version introduced new harmonic elements that set it apart from Warwick's original. The single reached number ten on the Billboard Hot 100 and number three on the R&B chart, while also charting internationally, peaking at number four in the UK and achieving significant success in Europe and Australia.\n\nFranklin's I Say a Little Prayer became a cultural milestone, representing her ability to transform existing material into deeply personal and universally resonant performances. It was her ninth consecutive top-ten hit on the Atlantic label and her biggest UK hit until her 1987 collaboration with George Michael, I Knew You Were Waiting (For Me).\n\nFranklin's rendition received critical acclaim, with *New Musical Express* naming it the greatest single of all time in a 1987 poll. In 2021, Rolling Stone ranked the song at No. 117 on its list of \"The 500 Greatest Songs of All Time.\" The song remains a testament to Franklin's unparalleled vocal artistry and emotional expressiveness.\n\nI Say a Little Prayer continues to be celebrated as a quintessential example of soul and pop music fusion. Both Warwick's and Franklin's versions showcase the versatility of the composition, appealing to diverse audiences through their distinct interpretations. Franklin's version, in particular, is often associated with her role in music history as a powerful voice of emotion and social resonance. <a href=\"http:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/I+Say+a+Little+Prayer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

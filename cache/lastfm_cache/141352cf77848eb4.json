@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:44.754182+00:00",
+  "elapsed": 0.252571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:44.754182+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3067",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=Tranquility+Base+Hotel+%26+Casino"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=Tranquility+Base+Hotel+%26+Casino",
+  "_decoded_content": {
+    "track": {
+      "name": "Tranquility Base Hotel & Casino",
+      "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/Tranquility+Base+Hotel+&+Casino",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "297685",
+      "playcount": "2891569",
+      "artist": {
+        "name": "Arctic Monkeys",
+        "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys"
+      },
+      "album": {
+        "artist": "Arctic Monkeys",
+        "title": "Live at The Royal Albert Hall",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/Live+at+The+Royal+Albert+Hall",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/163fbf042e59d0ef1334aa3be4dc4c83.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/163fbf042e59d0ef1334aa3be4dc4c83.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/163fbf042e59d0ef1334aa3be4dc4c83.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/163fbf042e59d0ef1334aa3be4dc4c83.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "art rock",
+            "url": "https:\/\/www.last.fm\/tag\/art+rock"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "lounge pop",
+            "url": "https:\/\/www.last.fm\/tag\/lounge+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jan 2022, 01:54",
+        "summary": "The title track and fourth song off the album \"Tranquility Base Hotel & Casino\" by the British rock band, Arctic Monkeys.\n\nThe song uses conceptual and political imagery to give the listener a firsthand view of the \u201cCasino\u201d and its features.\n\nA couple of months after the album\u2019s release, the track was released as the second and final single for the LP.\n\n\"'Tranquility Base, in reality, is the site of the first lunar landing. But whether we\u2019re actually talking about a sort of hotel-casino complex on the moon or not is debatable. <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/Tranquility+Base+Hotel+&+Casino\">Read more on Last.fm<\/a>.",
+        "content": "The title track and fourth song off the album \"Tranquility Base Hotel & Casino\" by the British rock band, Arctic Monkeys.\n\nThe song uses conceptual and political imagery to give the listener a firsthand view of the \u201cCasino\u201d and its features.\n\nA couple of months after the album\u2019s release, the track was released as the second and final single for the LP.\n\n\"'Tranquility Base, in reality, is the site of the first lunar landing. But whether we\u2019re actually talking about a sort of hotel-casino complex on the moon or not is debatable. I like the idea that the record be named after a place. It isn\u2019t something that I\u2019ve done before, but I do consider many of my favorite records almost being like places that you can visit.'\"\n\n- Alex Turner in an interview with Entertainment Weekly. <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/Tranquility+Base+Hotel+&+Casino\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:29:53.026008+00:00",
+  "elapsed": 0.224357,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:53.026008+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1153",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AJ+Tracey&format=json&method=track.getInfo&track=Butterflies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AJ+Tracey&format=json&method=track.getInfo&track=Butterflies",
+  "_decoded_content": {
+    "track": {
+      "name": "Butterflies",
+      "url": "https:\/\/www.last.fm\/music\/AJ+Tracey\/_\/Butterflies",
+      "duration": "224000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "16493",
+      "playcount": "110836",
+      "artist": {
+        "name": "AJ Tracey",
+        "url": "https:\/\/www.last.fm\/music\/AJ+Tracey"
+      },
+      "album": {
+        "artist": "AJ Tracey",
+        "title": "Butterflies",
+        "url": "https:\/\/www.last.fm\/music\/AJ+Tracey\/Butterflies",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0f493083416ed7aa49af41e524025821.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0f493083416ed7aa49af41e524025821.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0f493083416ed7aa49af41e524025821.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0f493083416ed7aa49af41e524025821.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "urban",
+            "url": "https:\/\/www.last.fm\/tag\/urban"
+          },
+          {
+            "name": "dancehall",
+            "url": "https:\/\/www.last.fm\/tag\/dancehall"
+          },
+          {
+            "name": "British Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/British+Hip+Hop"
+          }
+        ]
+      }
+    }
+  }
+}

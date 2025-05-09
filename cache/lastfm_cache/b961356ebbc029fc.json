@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:38:35.555698+00:00",
+  "elapsed": 0.209754,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:35.555698+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "705",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RADWIMPS&format=json&method=track.getInfo&track=%E3%81%99%E3%81%9A%E3%82%81"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RADWIMPS&format=json&method=track.getInfo&track=%E3%81%99%E3%81%9A%E3%82%81",
+  "_decoded_content": {
+    "track": {
+      "name": "\u3059\u305a\u3081",
+      "url": "https:\/\/www.last.fm\/music\/RADWIMPS\/_\/%E3%81%99%E3%81%9A%E3%82%81",
+      "duration": "238000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3751",
+      "playcount": "26900",
+      "artist": {
+        "name": "RADWIMPS",
+        "mbid": "6f500293-7396-4903-b4fd-118127d06f9e",
+        "url": "https:\/\/www.last.fm\/music\/RADWIMPS"
+      },
+      "album": {
+        "artist": "Radwimps|\u9663\u5185\u4e00\u771f",
+        "title": "\u3059\u305a\u3081\u306e\u6238\u7de0\u307e\u308a",
+        "url": "https:\/\/www.last.fm\/music\/Radwimps%7C%E9%99%A3%E5%86%85%E4%B8%80%E7%9C%9F\/%E3%81%99%E3%81%9A%E3%82%81%E3%81%AE%E6%88%B8%E7%B7%A0%E3%81%BE%E3%82%8A",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

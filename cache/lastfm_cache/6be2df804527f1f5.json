@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:34.743752+00:00",
+  "elapsed": 0.185288,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:34.743752+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2668",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cardi+B&format=json&method=track.getInfo&track=Money"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cardi+B&format=json&method=track.getInfo&track=Money",
+  "_decoded_content": {
+    "track": {
+      "name": "Money",
+      "url": "https:\/\/www.last.fm\/music\/Cardi+B\/_\/Money",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "415984",
+      "playcount": "3446854",
+      "artist": {
+        "name": "Cardi B",
+        "url": "https:\/\/www.last.fm\/music\/Cardi+B"
+      },
+      "album": {
+        "artist": "Cardi B",
+        "title": "Money - Single",
+        "url": "https:\/\/www.last.fm\/music\/Cardi+B\/Money+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8cad83524cc3c18d22f035716f3efae0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8cad83524cc3c18d22f035716f3efae0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8cad83524cc3c18d22f035716f3efae0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8cad83524cc3c18d22f035716f3efae0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "east coast hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/east+coast+hip+hop"
+          },
+          {
+            "name": "Better than Nicki Minaj",
+            "url": "https:\/\/www.last.fm\/tag\/Better+than+Nicki+Minaj"
+          },
+          {
+            "name": "money",
+            "url": "https:\/\/www.last.fm\/tag\/money"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Jan 2021, 17:52",
+        "summary": "\"Money\" is a song by American rapper Cardi B, released by Atlantic Records on October 23, 2018. The song was written by Cardi B with its producer J. White Did It. Its music video features Cardi playing characters in different locations, including in an art museum, a bank and a strip club. Cardi performed the song at the 61st Annual Grammy Awards, alongside the \"Money Bag\" instrumental. The song and its music video received acclaim and accolades including <a href=\"http:\/\/www.last.fm\/music\/Cardi+B\/_\/Money\">Read more on Last.fm<\/a>.",
+        "content": "\"Money\" is a song by American rapper Cardi B, released by Atlantic Records on October 23, 2018. The song was written by Cardi B with its producer J. White Did It. Its music video features Cardi playing characters in different locations, including in an art museum, a bank and a strip club. Cardi performed the song at the 61st Annual Grammy Awards, alongside the \"Money Bag\" instrumental. The song and its music video received acclaim and accolades including Best Hip Hop Video at both the 2019 BET Hip Hop Awards and the 2019 MTV Video Music Awards and a Rhythm & Bars Award at the 2019 Soul Train Music Awards. \"Money\" was certified quadruple platinum by the Recording Industry Association of America (RIAA). <a href=\"http:\/\/www.last.fm\/music\/Cardi+B\/_\/Money\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

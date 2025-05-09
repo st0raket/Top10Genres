@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:30:12.073481+00:00",
+  "elapsed": 0.193675,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:12.073481+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3658",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aretha+Franklin&format=json&method=track.getInfo&track=Respect"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aretha+Franklin&format=json&method=track.getInfo&track=Respect",
+  "_decoded_content": {
+    "track": {
+      "name": "Respect",
+      "mbid": "a22a519b-19a4-49ae-908f-02c61d8fa67a",
+      "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/Respect",
+      "duration": "146000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1155547",
+      "playcount": "5544287",
+      "artist": {
+        "name": "Aretha Franklin",
+        "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+        "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin"
+      },
+      "album": {
+        "artist": "Aretha Franklin",
+        "title": "I Never Loved a Man the Way I Love You",
+        "mbid": "4b43b2a7-2cab-4f87-9a7e-dfc0913c39ab",
+        "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin\/I+Never+Loved+a+Man+the+Way+I+Love+You",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f9ce1c92bcd8ba658de5183bb19b8020.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f9ce1c92bcd8ba658de5183bb19b8020.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f9ce1c92bcd8ba658de5183bb19b8020.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f9ce1c92bcd8ba658de5183bb19b8020.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "60s",
+            "url": "https:\/\/www.last.fm\/tag\/60s"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          },
+          {
+            "name": "motown",
+            "url": "https:\/\/www.last.fm\/tag\/motown"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jul 2008, 19:48",
+        "summary": "Aretha Franklin's rendition of Respect is widely regarded as one of the most iconic and influential songs in music history. Originally written and recorded by Otis Redding in 1965, Franklin's 1967 cover became her signature song and a powerful anthem for the Civil Rights and Women's Rights movements. Franklin's version of Respect differed significantly from Redding's original:\n\n1. She rearranged the music, giving it a new sound and energy.\n2. She altered the lyrics to represent a strong woman demanding respect from her man. <a href=\"http:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/Respect\">Read more on Last.fm<\/a>.",
+        "content": "Aretha Franklin's rendition of Respect is widely regarded as one of the most iconic and influential songs in music history. Originally written and recorded by Otis Redding in 1965, Franklin's 1967 cover became her signature song and a powerful anthem for the Civil Rights and Women's Rights movements. Franklin's version of Respect differed significantly from Redding's original:\n\n1. She rearranged the music, giving it a new sound and energy.\n2. She altered the lyrics to represent a strong woman demanding respect from her man.\n3. She added the now-famous \"R-E-S-P-E-C-T\" spelling and \"sock it to me\" lines.\n\nThe song's impact was immediate and long-lasting:\n\n\nIt reached #1 on the Billboard Hot 100 chart in 1967\nIt won Aretha Franklin two Grammy Awards in 1968 for \"Best Rhythm & Blues Recording\" and \"Best Rhythm & Blues Solo Vocal Performance, Female\"\nIn 1987, it was inducted into the Grammy Hall of Fame\nIn 2002, the Library of Congress added it to the National Recording Registry\nIn 2021, Rolling Stone magazine ranked it #1 on their updated list of \"The 500 Greatest Songs of All Time\"\n\n\nRespect has been interpreted as a powerful statement on gender roles, civil rights, and human dignity. It has been covered by numerous artists and continues to resonate with audiences today, serving as an anthem for anyone who has felt marginalized or demands recognition. <a href=\"http:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/Respect\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

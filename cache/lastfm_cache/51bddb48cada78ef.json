@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:44:04.647461+00:00",
+  "elapsed": 0.403128,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:04.647461+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1227",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tame+Impala&format=json&method=track.getInfo&track=One+More+Year"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tame+Impala&format=json&method=track.getInfo&track=One+More+Year",
+  "_decoded_content": {
+    "track": {
+      "name": "One More Year",
+      "url": "https:\/\/www.last.fm\/music\/Tame+Impala\/_\/One+More+Year",
+      "duration": "322000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "318563",
+      "playcount": "2104404",
+      "artist": {
+        "name": "Tame Impala",
+        "mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+        "url": "https:\/\/www.last.fm\/music\/Tame+Impala"
+      },
+      "album": {
+        "artist": "Tame Impala",
+        "title": "The Slow Rush",
+        "url": "https:\/\/www.last.fm\/music\/Tame+Impala\/The+Slow+Rush",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/832ade6a35ec2a224ea9a5be326b5de4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/832ade6a35ec2a224ea9a5be326b5de4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/832ade6a35ec2a224ea9a5be326b5de4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/832ade6a35ec2a224ea9a5be326b5de4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "indietronica",
+            "url": "https:\/\/www.last.fm\/tag\/indietronica"
+          }
+        ]
+      }
+    }
+  }
+}

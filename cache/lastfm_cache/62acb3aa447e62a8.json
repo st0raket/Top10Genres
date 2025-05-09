@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:48.576634+00:00",
+  "elapsed": 0.194406,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:48.576634+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2382",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Talking+to+Myself"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Talking+to+Myself",
+  "_decoded_content": {
+    "track": {
+      "name": "Talking to Myself",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Talking+to+Myself",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "176144",
+      "playcount": "1391983",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "One More Light",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/One+More+Light",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 May 2020, 02:50",
+        "summary": "\"Talking to Myself\" is a song by American rock band Linkin Park. The song is the second single from their seventh studio album, One More Light and was released on July 25, 2017. The music video was released on July 20, 2017, the same day that Linkin Park's lead vocalist, Chester Bennington, was found dead by suicide. It is Chester Bennington's first posthumously released single. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Talking+to+Myself\">Read more on Last.fm<\/a>.",
+        "content": "\"Talking to Myself\" is a song by American rock band Linkin Park. The song is the second single from their seventh studio album, One More Light and was released on July 25, 2017. The music video was released on July 20, 2017, the same day that Linkin Park's lead vocalist, Chester Bennington, was found dead by suicide. It is Chester Bennington's first posthumously released single. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Talking+to+Myself\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

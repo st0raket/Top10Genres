@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:39:45.763342+00:00",
+  "elapsed": 0.249556,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:45.763342+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2304",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=CIRCUS+MAXIMUS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=CIRCUS+MAXIMUS",
+  "_decoded_content": {
+    "track": {
+      "name": "CIRCUS MAXiMuS",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/CIRCUS+MAXiMuS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "230804",
+      "playcount": "748063",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          },
+          {
+            "name": "Progressive Electronic",
+            "url": "https:\/\/www.last.fm\/tag\/Progressive+Electronic"
+          },
+          {
+            "name": "hardcore hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hardcore+hip+hop"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Jul 2023, 17:08",
+        "summary": "UTOPIA\u2019s twelfth track, \u201cCIRCUS MAXIMUS\u201d shares a title with Travis Scott\u2019s debut film \u2014 directed by himself \u2014 both of which were inspired by the attraction in Ancient Rome, which was a chariot-racing stadium, and a venue reserved for Italian entertainment. The track was unveiled via UTOPIA\u2019s tracklist, shared under two hours before its release.\n\nIt unites Swae Lee, The Weeknd, & Travis Scott for a grandiose cut \u2014 baring striking resemblance to Kanye West\u2019s \u201cBlack Skinhead\u201d \u2014 that plays into the idea of Circus Maximus <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/CIRCUS+MAXiMuS\">Read more on Last.fm<\/a>.",
+        "content": "UTOPIA\u2019s twelfth track, \u201cCIRCUS MAXIMUS\u201d shares a title with Travis Scott\u2019s debut film \u2014 directed by himself \u2014 both of which were inspired by the attraction in Ancient Rome, which was a chariot-racing stadium, and a venue reserved for Italian entertainment. The track was unveiled via UTOPIA\u2019s tracklist, shared under two hours before its release.\n\nIt unites Swae Lee, The Weeknd, & Travis Scott for a grandiose cut \u2014 baring striking resemblance to Kanye West\u2019s \u201cBlack Skinhead\u201d \u2014 that plays into the idea of Circus Maximus, more specifically its action and entertainment fed to the crowd, who in modern day are the listeners of UTOPIA. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/CIRCUS+MAXiMuS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:39:44.612057+00:00",
+  "elapsed": 0.245643,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:44.612057+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1156",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=On+The+Radar+Freestyle"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=On+The+Radar+Freestyle",
+  "_decoded_content": {
+    "track": {
+      "name": "On The Radar Freestyle",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/On+The+Radar+Freestyle",
+      "duration": "275000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "183024",
+      "playcount": "1255130",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "On The Radar Freestyle",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/On+The+Radar+Freestyle",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/14ed579c65716ef98f51fc758e121b30.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/14ed579c65716ef98f51fc758e121b30.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/14ed579c65716ef98f51fc758e121b30.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/14ed579c65716ef98f51fc758e121b30.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "Central Cee",
+            "url": "https:\/\/www.last.fm\/tag\/Central+Cee"
+          },
+          {
+            "name": "Combination",
+            "url": "https:\/\/www.last.fm\/tag\/Combination"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      }
+    }
+  }
+}

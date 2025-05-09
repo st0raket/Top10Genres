@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:41:35.288521+00:00",
+  "elapsed": 0.262802,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:35.288521+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2727",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=RIVER"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=RIVER",
+  "_decoded_content": {
+    "track": {
+      "name": "River",
+      "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/_\/River",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "186522",
+      "playcount": "1628369",
+      "artist": {
+        "name": "\u00a5$",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Young Thug",
+            "url": "https:\/\/www.last.fm\/tag\/Young+Thug"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "melodic",
+            "url": "https:\/\/www.last.fm\/tag\/melodic"
+          },
+          {
+            "name": "gospel",
+            "url": "https:\/\/www.last.fm\/tag\/gospel"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Mar 2024, 01:38",
+        "summary": "On \u201cRiver,\u201d Kanye West and Ty Dolla $ign plea for their sins to be absolved in a river of purity, addressing false ideologies in the rap scene. The two are joined by Young Thug, who was incarcerated on a sweeping Racketeering indictment during 2022, enabling Ye to employ a melodic delivery for Thug\u2019s freedom, as well as Larry Hoover \u2014 founder of the Gangster Disciples street gang based in Chicago.\n\nThe track was previewed at Jamaican restaurant in Miami on December 10, 2023, a day prior to the rave listening party for VULTURES. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/River\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cRiver,\u201d Kanye West and Ty Dolla $ign plea for their sins to be absolved in a river of purity, addressing false ideologies in the rap scene. The two are joined by Young Thug, who was incarcerated on a sweeping Racketeering indictment during 2022, enabling Ye to employ a melodic delivery for Thug\u2019s freedom, as well as Larry Hoover \u2014 founder of the Gangster Disciples street gang based in Chicago.\n\nThe track was previewed at Jamaican restaurant in Miami on December 10, 2023, a day prior to the rave listening party for VULTURES.\n\nThis track was supposed to drop on Vultures Vol. 1 according to the 8th of December 2023 tracklist, but the album didn\u2019t drop on 12\/12. It was also seen on the January 2024 tracklist. Finally VULTURES 1 dropped and this song is being considered for VULTURES 2.\n\nThe 12\/12\/23 Miami Listening Party for Vultures was the first official public preview of this song from Kanye and Ty Dolla $ign\u2019s upcoming collaborative album.\n\nIt was previewed again by Kanye West and Ty Dolla $ign at a private listening party in LA on March 9th 2024 with an altered instrumental.\n\nThe track would be released as the 10th track on VULTURES 2 with new production, and would have a feature from Charlie Wilson for the outro of the track <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/River\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:34.661261+00:00",
+  "elapsed": 0.201101,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:34.661261+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1893",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Zack+And+Codeine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Zack+And+Codeine",
+  "_decoded_content": {
+    "track": {
+      "name": "Zack And Codeine",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Zack+And+Codeine",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "209446",
+      "playcount": "1487857",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Oct 2020, 21:57",
+        "summary": "\u201cZack and Codeine\u201d references the Disney Channel show The Suite Life of Zack and Cody. The show stars real-life twins Cole and Dylan Sprouse playing the titular twins as they live in a luxury hotel.\n\nThe hotel motif is apparent on the track, as Post raps about his raging life and the parties he throws in hotels. He plays on the homophone of Cody\u2019s name and \u201ccodeine,\u201d an opiate that is most often referenced in hip-hop due to its status as an ingredient for lean. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Zack+And+Codeine\">Read more on Last.fm<\/a>.",
+        "content": "\u201cZack and Codeine\u201d references the Disney Channel show The Suite Life of Zack and Cody. The show stars real-life twins Cole and Dylan Sprouse playing the titular twins as they live in a luxury hotel.\n\nThe hotel motif is apparent on the track, as Post raps about his raging life and the parties he throws in hotels. He plays on the homophone of Cody\u2019s name and \u201ccodeine,\u201d an opiate that is most often referenced in hip-hop due to its status as an ingredient for lean. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Zack+And+Codeine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

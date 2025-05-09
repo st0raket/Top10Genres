@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:38:50.641548+00:00",
+  "elapsed": 0.181953,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:50.641548+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1115",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Loi&format=json&method=track.getInfo&track=Gold"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Loi&format=json&method=track.getInfo&track=Gold",
+  "_decoded_content": {
+    "track": {
+      "name": "Gold",
+      "url": "https:\/\/www.last.fm\/music\/loi\/_\/Gold",
+      "duration": "170000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "33777",
+      "playcount": "198514",
+      "artist": {
+        "name": "loi",
+        "mbid": "6d2ee48f-7cd4-4500-b528-332aeaa9760b",
+        "url": "https:\/\/www.last.fm\/music\/loi"
+      },
+      "album": {
+        "artist": "loi",
+        "title": "Gold",
+        "url": "https:\/\/www.last.fm\/music\/loi\/Gold",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/11ea2eb06e0becd28ae1669eb43fef0b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/11ea2eb06e0becd28ae1669eb43fef0b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/11ea2eb06e0becd28ae1669eb43fef0b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/11ea2eb06e0becd28ae1669eb43fef0b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "stolen",
+            "url": "https:\/\/www.last.fm\/tag\/stolen"
+          },
+          {
+            "name": "ripoff",
+            "url": "https:\/\/www.last.fm\/tag\/ripoff"
+          },
+          {
+            "name": "happy pop",
+            "url": "https:\/\/www.last.fm\/tag\/happy+pop"
+          }
+        ]
+      }
+    }
+  }
+}

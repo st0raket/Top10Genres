@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:43:13.968937+00:00",
+  "elapsed": 0.239316,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:13.968937+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "874",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Semicenk&format=json&method=track.getInfo&track=Pi%C5%9Fman+De%C4%9Filim"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Semicenk&format=json&method=track.getInfo&track=Pi%C5%9Fman+De%C4%9Filim",
+  "_decoded_content": {
+    "track": {
+      "name": "Pi\u015fman De\u011filim",
+      "url": "https:\/\/www.last.fm\/music\/Semicenk\/_\/Pi%C5%9Fman+De%C4%9Filim",
+      "duration": "142000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "12767",
+      "playcount": "142871",
+      "artist": {
+        "name": "Semicenk",
+        "url": "https:\/\/www.last.fm\/music\/Semicenk"
+      },
+      "album": {
+        "artist": "Semicenk",
+        "title": "Pi\u015fman De\u011filim",
+        "url": "https:\/\/www.last.fm\/music\/Semicenk\/Pi%C5%9Fman+De%C4%9Filim",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/028d912b43cf37feda7bb458a3df38e3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/028d912b43cf37feda7bb458a3df38e3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/028d912b43cf37feda7bb458a3df38e3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/028d912b43cf37feda7bb458a3df38e3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

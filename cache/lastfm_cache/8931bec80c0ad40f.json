@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:00.867361+00:00",
+  "elapsed": 0.411455,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:00.867361+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2312",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Khaled&format=json&method=track.getInfo&track=Wild+Thoughts"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Khaled&format=json&method=track.getInfo&track=Wild+Thoughts",
+  "_decoded_content": {
+    "track": {
+      "name": "Wild Thoughts",
+      "url": "https:\/\/www.last.fm\/music\/DJ+Khaled\/_\/Wild+Thoughts",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "148919",
+      "playcount": "1078952",
+      "artist": {
+        "name": "DJ Khaled",
+        "mbid": "081a2d60-9791-4e05-a075-f1890355eeee",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Khaled"
+      },
+      "album": {
+        "artist": "DJ Khaled",
+        "title": "Greatest Hits",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Khaled\/Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6cd396c756dcbdae5b309f0ebdd4d94e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6cd396c756dcbdae5b309f0ebdd4d94e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6cd396c756dcbdae5b309f0ebdd4d94e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6cd396c756dcbdae5b309f0ebdd4d94e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Rihanna",
+            "url": "https:\/\/www.last.fm\/tag\/Rihanna"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Maria Maria",
+            "url": "https:\/\/www.last.fm\/tag\/Maria+Maria"
+          },
+          {
+            "name": "Bryson Tiller",
+            "url": "https:\/\/www.last.fm\/tag\/Bryson+Tiller"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Nov 2017, 22:26",
+        "summary": "\"Wild Thoughts\" is a hip-hop song by American musician DJ Khaled featuring Barbadian singer Rihanna and American singer Bryson Tiller. It was released on June 16, 2017, by We the Best and Epic Records as the third single from Khaled's tenth studio album, Grateful (2017). The song heavily samples Maria Maria by American rock band Santana and American R&B duo The Product G&B. <a href=\"http:\/\/www.last.fm\/music\/DJ+Khaled\/_\/Wild+Thoughts\">Read more on Last.fm<\/a>.",
+        "content": "\"Wild Thoughts\" is a hip-hop song by American musician DJ Khaled featuring Barbadian singer Rihanna and American singer Bryson Tiller. It was released on June 16, 2017, by We the Best and Epic Records as the third single from Khaled's tenth studio album, Grateful (2017). The song heavily samples Maria Maria by American rock band Santana and American R&B duo The Product G&B. <a href=\"http:\/\/www.last.fm\/music\/DJ+Khaled\/_\/Wild+Thoughts\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

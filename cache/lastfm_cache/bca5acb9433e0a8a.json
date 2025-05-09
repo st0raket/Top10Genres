@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:47.934233+00:00",
+  "elapsed": 0.229392,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:47.934233+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1209",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=M%C3%98&format=json&method=track.getInfo&track=When+I+Was+Young"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=M%C3%98&format=json&method=track.getInfo&track=When+I+Was+Young",
+  "_decoded_content": {
+    "track": {
+      "name": "When I Was Young",
+      "url": "https:\/\/www.last.fm\/music\/M%C3%98\/_\/When+I+Was+Young",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "52195",
+      "playcount": "307484",
+      "artist": {
+        "name": "M\u00d8",
+        "mbid": "3ab2ee23-1c2f-458c-9c8c-ca4844729120",
+        "url": "https:\/\/www.last.fm\/music\/M%C3%98"
+      },
+      "album": {
+        "artist": "M\u00d8",
+        "title": "When I Was Young - EP",
+        "url": "https:\/\/www.last.fm\/music\/M%C3%98\/When+I+Was+Young+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4cf33c74465583f1ea0e21b10a0ac685.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4cf33c74465583f1ea0e21b10a0ac685.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4cf33c74465583f1ea0e21b10a0ac685.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4cf33c74465583f1ea0e21b10a0ac685.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "danish",
+            "url": "https:\/\/www.last.fm\/tag\/danish"
+          }
+        ]
+      }
+    }
+  }
+}

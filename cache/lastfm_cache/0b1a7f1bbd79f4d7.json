@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:46.451036+00:00",
+  "elapsed": 0.225438,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:46.451036+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1778",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SEVENTEEN&format=json&method=track.getInfo&track=Left+%26+Right"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SEVENTEEN&format=json&method=track.getInfo&track=Left+%26+Right",
+  "_decoded_content": {
+    "track": {
+      "name": "Left & Right",
+      "url": "https:\/\/www.last.fm\/music\/Seventeen\/_\/Left+&+Right",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "223140",
+      "playcount": "4216934",
+      "artist": {
+        "name": "Seventeen",
+        "mbid": "7d35e85a-8f73-4481-9c2b-24e142ed2307",
+        "url": "https:\/\/www.last.fm\/music\/Seventeen"
+      },
+      "album": {
+        "artist": "Seventeen",
+        "title": "Heng : Gar\u00e6 - EP",
+        "url": "https:\/\/www.last.fm\/music\/Seventeen\/Heng+:+Gar%C3%A6+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e20f09b6ec67399a56737c2aba0e9b69.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e20f09b6ec67399a56737c2aba0e9b69.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e20f09b6ec67399a56737c2aba0e9b69.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e20f09b6ec67399a56737c2aba0e9b69.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "energy",
+            "url": "https:\/\/www.last.fm\/tag\/energy"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "party music",
+            "url": "https:\/\/www.last.fm\/tag\/party+music"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Oct 2021, 21:41",
+        "summary": "\"Left & Right\" is a song by SEVENTEEN. It is the second and title track of the seventh mini album Heng:gar\u00e6. <a href=\"http:\/\/www.last.fm\/music\/Seventeen\/_\/Left+&+Right\">Read more on Last.fm<\/a>.",
+        "content": "\"Left & Right\" is a song by SEVENTEEN. It is the second and title track of the seventh mini album Heng:gar\u00e6. <a href=\"http:\/\/www.last.fm\/music\/Seventeen\/_\/Left+&+Right\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

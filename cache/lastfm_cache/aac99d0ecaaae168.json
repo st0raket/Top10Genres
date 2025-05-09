@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:58.153225+00:00",
+  "elapsed": 0.220756,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:58.153225+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1632",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=24kGoldn&format=json&method=track.getInfo&track=CITY+OF+ANGELS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=24kGoldn&format=json&method=track.getInfo&track=CITY+OF+ANGELS",
+  "_decoded_content": {
+    "track": {
+      "name": "CITY OF ANGELS",
+      "url": "https:\/\/www.last.fm\/music\/24kgoldn\/_\/CITY+OF+ANGELS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "316156",
+      "playcount": "2665688",
+      "artist": {
+        "name": "24kgoldn",
+        "url": "https:\/\/www.last.fm\/music\/24kgoldn"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2024, 14:23",
+        "summary": "City of Angels\" is a song by American rapper 24kGoldn. It was released as a single on March 31, 2020, peaking at number 25 on the UK Singles Chart and number 3 on the US Billboard Bubbling Under Hot 100.\n\nThe song's title refers the nickname of Los Angeles, City of Angels; Goldn explains during the chorus \"the city of angels is where I have my fun\". <a href=\"http:\/\/www.last.fm\/music\/24kgoldn\/_\/CITY+OF+ANGELS\">Read more on Last.fm<\/a>.",
+        "content": "City of Angels\" is a song by American rapper 24kGoldn. It was released as a single on March 31, 2020, peaking at number 25 on the UK Singles Chart and number 3 on the US Billboard Bubbling Under Hot 100.\n\nThe song's title refers the nickname of Los Angeles, City of Angels; Goldn explains during the chorus \"the city of angels is where I have my fun\". <a href=\"http:\/\/www.last.fm\/music\/24kgoldn\/_\/CITY+OF+ANGELS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

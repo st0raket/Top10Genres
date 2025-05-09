@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:17.624687+00:00",
+  "elapsed": 0.208206,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:17.624687+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2828",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Melanie+Martinez&format=json&method=track.getInfo&track=DEATH"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Melanie+Martinez&format=json&method=track.getInfo&track=DEATH",
+  "_decoded_content": {
+    "track": {
+      "name": "DEATH",
+      "url": "https:\/\/www.last.fm\/music\/Melanie+Martinez\/_\/DEATH",
+      "duration": "306000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "328796",
+      "playcount": "5295833",
+      "artist": {
+        "name": "Melanie Martinez",
+        "mbid": "0df563ec-1a79-486e-a46d-5b9862a40311",
+        "url": "https:\/\/www.last.fm\/music\/Melanie+Martinez"
+      },
+      "album": {
+        "artist": "Melanie Martinez",
+        "title": "PORTALS [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Melanie+Martinez\/PORTALS+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c575e604553a7dea24cb60e1543989e1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c575e604553a7dea24cb60e1543989e1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c575e604553a7dea24cb60e1543989e1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c575e604553a7dea24cb60e1543989e1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "melanie martinez",
+            "url": "https:\/\/www.last.fm\/tag\/melanie+martinez"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Mar 2023, 18:32",
+        "summary": "\"DEATH\" is the lead single and first track from PORTALS, the third studio album by American singer-songwriter Melanie Martinez, released on March 17th, 2023. DEATH was being used as a teaser to Melanie's awaited return from her 3-4 year hiatus after the release of K-12 and After School EP. It was released along with a visualizer. Its music video was released 1 week after.\nIn the song, Melanie talks about the cycle of life and death, renaissance and rituals to connect with the dead. <a href=\"http:\/\/www.last.fm\/music\/Melanie+Martinez\/_\/DEATH\">Read more on Last.fm<\/a>.",
+        "content": "\"DEATH\" is the lead single and first track from PORTALS, the third studio album by American singer-songwriter Melanie Martinez, released on March 17th, 2023. DEATH was being used as a teaser to Melanie's awaited return from her 3-4 year hiatus after the release of K-12 and After School EP. It was released along with a visualizer. Its music video was released 1 week after.\nIn the song, Melanie talks about the cycle of life and death, renaissance and rituals to connect with the dead. No matter what happens to herself, she will always come back from the dead, reborn and with a brand new design. She also metaphorically talks about her hiatus, when people thought her career and herself were dead. But, of course, they were incorrect. <a href=\"http:\/\/www.last.fm\/music\/Melanie+Martinez\/_\/DEATH\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

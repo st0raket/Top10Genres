@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:11.774606+00:00",
+  "elapsed": 0.230356,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:11.774606+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2909",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Welcome+To+New+York"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Welcome+To+New+York",
+  "_decoded_content": {
+    "track": {
+      "name": "Welcome to New York",
+      "mbid": "3c2fefb5-ca6a-4793-b044-babc85bed24e",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Welcome+to+New+York",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "601380",
+      "playcount": "7307264",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "1989",
+        "mbid": "b15d9a20-5fe8-4b35-ad58-bf686787d950",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/1989",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "new york",
+            "url": "https:\/\/www.last.fm\/tag\/new+york"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Mar 2022, 11:31",
+        "summary": "\"Welcome to New York\" is about arriving in New York City and embracing a sense of possibility and hope. Swift's lyrics present the city as a fresh start, a place of new opportunity and excitement. The song is an energetic ode to the city, emphasizing the hustle and bustle of life in New York as well as its unique culture and opportunities. Taylor Swift invokes the idea of a \"new soundtrack\" in the chorus, referring to the way that different experiences, people, and music shape the rhythm of life in the city. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Welcome+to+New+York\">Read more on Last.fm<\/a>.",
+        "content": "\"Welcome to New York\" is about arriving in New York City and embracing a sense of possibility and hope. Swift's lyrics present the city as a fresh start, a place of new opportunity and excitement. The song is an energetic ode to the city, emphasizing the hustle and bustle of life in New York as well as its unique culture and opportunities. Taylor Swift invokes the idea of a \"new soundtrack\" in the chorus, referring to the way that different experiences, people, and music shape the rhythm of life in the city. The last few lines of the song serve as a reminder that it's ok for things to change and for plans to fall through, as the city is ready to welcome anyone regardless. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Welcome+to+New+York\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

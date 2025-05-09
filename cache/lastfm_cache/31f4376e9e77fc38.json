@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:03.210605+00:00",
+  "elapsed": 0.309679,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:03.210605+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2445",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=You+%26+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=You+%26+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "You & Me",
+      "url": "https:\/\/www.last.fm\/music\/Jennie\/_\/You+&+Me",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "276271",
+      "playcount": "5247939",
+      "artist": {
+        "name": "Jennie",
+        "mbid": "d32de3a1-01f0-430e-859a-72307724041c",
+        "url": "https:\/\/www.last.fm\/music\/Jennie"
+      },
+      "album": {
+        "artist": "Jennie",
+        "title": "You & Me",
+        "url": "https:\/\/www.last.fm\/music\/Jennie\/You+&+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/19f5dc6dd1a2afe31a8dd94404bdfa17.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/19f5dc6dd1a2afe31a8dd94404bdfa17.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/19f5dc6dd1a2afe31a8dd94404bdfa17.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/19f5dc6dd1a2afe31a8dd94404bdfa17.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "english",
+            "url": "https:\/\/www.last.fm\/tag\/english"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Oct 2023, 14:14",
+        "summary": "\u201cYou & Me\u201d is the second solo single by South Korean singer JENNIE. It tells a fiery tale of unwavering love, accompanied by a vibrant dance-pop rhythm and a bouncy bassline.\n\nThe captivating song made its debut on stage during JENNIE\u2019s solo performance as part of BLACKPINK\u2019s BORN PINK WORLD TOUR on October 15, 2022.\n\nFollowing the tour\u2019s grand finale on September 17th, 2023, the highly anticipated track was released on October 6, 2023, as a special gift to fans. <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/You+&+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cYou & Me\u201d is the second solo single by South Korean singer JENNIE. It tells a fiery tale of unwavering love, accompanied by a vibrant dance-pop rhythm and a bouncy bassline.\n\nThe captivating song made its debut on stage during JENNIE\u2019s solo performance as part of BLACKPINK\u2019s BORN PINK WORLD TOUR on October 15, 2022.\n\nFollowing the tour\u2019s grand finale on September 17th, 2023, the highly anticipated track was released on October 6, 2023, as a special gift to fans. <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/You+&+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

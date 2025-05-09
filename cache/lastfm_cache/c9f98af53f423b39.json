@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:44.533135+00:00",
+  "elapsed": 0.181003,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:44.533135+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2952",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gotye&format=json&method=track.getInfo&track=Somebody+That+I+Used+To+Know"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gotye&format=json&method=track.getInfo&track=Somebody+That+I+Used+To+Know",
+  "_decoded_content": {
+    "track": {
+      "name": "Somebody That I Used To Know",
+      "mbid": "5b6ad1ba-9e08-4570-bcef-e3343519070a",
+      "url": "https:\/\/www.last.fm\/music\/Gotye\/_\/Somebody+That+I+Used+To+Know",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2269265",
+      "playcount": "25516120",
+      "artist": {
+        "name": "Gotye",
+        "mbid": "6f6fd596-76e0-4b82-aa37-f558ac2d337b",
+        "url": "https:\/\/www.last.fm\/music\/Gotye"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "NOW That's What I Call A Million",
+        "mbid": "c2584f53-b82a-4df9-bbee-b18199de6323",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/NOW+That%27s+What+I+Call+A+Million",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "28"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Nov 2011, 11:02",
+        "summary": "This song by Gotye also features vocals by Kimbra. The song was a commercial and critical success, topping the charts in at least 17 countries including Australia, United States, UK, New Zealand, Poland, Germany, France, Belgium and the Netherlands. It was voted #1 on the 2011 Australian Triple J Hottest 100 national music poll. It was the second best selling single of 2011 in Australia. \n\nAs of March 2012, it had sold 600,000 copies in the UK making it the best-selling single of 2012 so far <a href=\"http:\/\/www.last.fm\/music\/Gotye\/_\/Somebody+That+I+Used+To+Know\">Read more on Last.fm<\/a>.",
+        "content": "This song by Gotye also features vocals by Kimbra. The song was a commercial and critical success, topping the charts in at least 17 countries including Australia, United States, UK, New Zealand, Poland, Germany, France, Belgium and the Netherlands. It was voted #1 on the 2011 Australian Triple J Hottest 100 national music poll. It was the second best selling single of 2011 in Australia. \n\nAs of March 2012, it had sold 600,000 copies in the UK making it the best-selling single of 2012 so far, and it also became the 3rd best-selling download ever in Germany with digital sales between 500,000 and 600,000. \n\nAs of April 2012, it's officially the most successful song in the history of the Dutch charts. In April, the song rose to number one on the US Billboard chart with sales of 542,000 downloads. It is the fourth-biggest weekly sales since Nielsen SoundScan began tracking digital sales in 2003.\n\nThe opening guitar riff is sampled from \"Seville\" by Luiz Bonfa. <a href=\"http:\/\/www.last.fm\/music\/Gotye\/_\/Somebody+That+I+Used+To+Know\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

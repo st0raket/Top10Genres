@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:35:15.370763+00:00",
+  "elapsed": 0.391493,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:15.370763+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1164",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IU&format=json&method=track.getInfo&track=Flu"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IU&format=json&method=track.getInfo&track=Flu",
+  "_decoded_content": {
+    "track": {
+      "name": "Flu",
+      "url": "https:\/\/www.last.fm\/music\/IU\/_\/Flu",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "67540",
+      "playcount": "624944",
+      "artist": {
+        "name": "IU",
+        "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+        "url": "https:\/\/www.last.fm\/music\/IU"
+      },
+      "album": {
+        "artist": "IU",
+        "title": "IU 5th Album 'LILAC'",
+        "url": "https:\/\/www.last.fm\/music\/IU\/IU+5th+Album+%27LILAC%27",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a375aef404f1d6b4ddbf163fd3585a0b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a375aef404f1d6b4ddbf163fd3585a0b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a375aef404f1d6b4ddbf163fd3585a0b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a375aef404f1d6b4ddbf163fd3585a0b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "adult contemporary",
+            "url": "https:\/\/www.last.fm\/tag\/adult+contemporary"
+          }
+        ]
+      }
+    }
+  }
+}

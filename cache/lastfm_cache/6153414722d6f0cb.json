@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:36:29.837808+00:00",
+  "elapsed": 0.205364,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:29.837808+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "851",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yuuri&format=json&method=track.getInfo&track=%E3%82%B7%E3%83%A3%E3%83%83%E3%82%BF%E3%83%BC"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yuuri&format=json&method=track.getInfo&track=%E3%82%B7%E3%83%A3%E3%83%83%E3%82%BF%E3%83%BC",
+  "_decoded_content": {
+    "track": {
+      "name": "\u30b7\u30e3\u30c3\u30bf\u30fc",
+      "url": "https:\/\/www.last.fm\/music\/Yuuri\/_\/%E3%82%B7%E3%83%A3%E3%83%83%E3%82%BF%E3%83%BC",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "20069",
+      "playcount": "155817",
+      "artist": {
+        "name": "Yuuri",
+        "url": "https:\/\/www.last.fm\/music\/Yuuri"
+      },
+      "album": {
+        "artist": "Yuuri",
+        "title": "\u58f1",
+        "url": "https:\/\/www.last.fm\/music\/Yuuri\/%E5%A3%B1",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/94d6e58f190a799d7d9d8942184f89c0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/94d6e58f190a799d7d9d8942184f89c0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/94d6e58f190a799d7d9d8942184f89c0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/94d6e58f190a799d7d9d8942184f89c0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

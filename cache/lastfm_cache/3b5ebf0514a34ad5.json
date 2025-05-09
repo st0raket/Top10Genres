@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:12.916822+00:00",
+  "elapsed": 0.262215,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:12.916822+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2984",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=God+Breathed"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=God+Breathed",
+  "_decoded_content": {
+    "track": {
+      "name": "God Breathed",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/God+Breathed",
+      "duration": "333000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "431026",
+      "playcount": "2643981",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Donda",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Donda",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "-1001885395428",
+            "url": "https:\/\/www.last.fm\/tag\/-1001885395428"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "industrial",
+            "url": "https:\/\/www.last.fm\/tag\/industrial"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Feb 2022, 05:02",
+        "summary": "\u201cGod Breathed\u201d is the third track from \"Donda\" by Kanye West that finds him imploring the listener to put their trust in God over a minimalist, drum-driven instrumental. Its title likely refers to 2 Timothy 3:16, which says:\n\n\"All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness\"\n\nThe track was recorded during sessions for \"JESUS IS KING\", and at one point appeared on an early tracklist that was shared by Consequence. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/God+Breathed\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGod Breathed\u201d is the third track from \"Donda\" by Kanye West that finds him imploring the listener to put their trust in God over a minimalist, drum-driven instrumental. Its title likely refers to 2 Timothy 3:16, which says:\n\n\"All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness\"\n\nThe track was recorded during sessions for \"JESUS IS KING\", and at one point appeared on an early tracklist that was shared by Consequence. Kanye played the track at the Chicago listening party, shortly before saying that it wasn\u2019t on the album. It later leaked online on March 15, 2020.\n\nGod\u2019s breath is also mentioned in the Bible\u2019s Creation story, as God breathes the breath of life into Adam in Genesis 2:7:\n\n\"And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.\" <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/God+Breathed\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

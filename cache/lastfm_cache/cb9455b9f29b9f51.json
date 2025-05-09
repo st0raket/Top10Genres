@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:39:24.089835+00:00",
+  "elapsed": 0.173781,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:24.089835+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2402",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Say+Yes+To+Heaven"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Say+Yes+To+Heaven",
+  "_decoded_content": {
+    "track": {
+      "name": "Say Yes To Heaven",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Say+Yes+To+Heaven",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1057247",
+      "playcount": "12863852",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 May 2023, 21:50",
+        "summary": "\"Say Yes to Heaven\", alternatively known as \"Yes to Heaven\", is an outtake of Lana Del Rey's second major-label studio album, Ultraviolence. The song was written in 2012 by Del Rey and Rick Nowels, with the production handled by the latter. It was recorded around November 2013 during the sessions of Ultraviolence, but did not make the final cut. \n\nSnippets of the song emerged for the first time in 2016. It eventually leaked as a full-length track onto the internet in October 2020 and gained a huge virality within the next two years. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Say+Yes+To+Heaven\">Read more on Last.fm<\/a>.",
+        "content": "\"Say Yes to Heaven\", alternatively known as \"Yes to Heaven\", is an outtake of Lana Del Rey's second major-label studio album, Ultraviolence. The song was written in 2012 by Del Rey and Rick Nowels, with the production handled by the latter. It was recorded around November 2013 during the sessions of Ultraviolence, but did not make the final cut. \n\nSnippets of the song emerged for the first time in 2016. It eventually leaked as a full-length track onto the internet in October 2020 and gained a huge virality within the next two years. On March 2023, UMG and Polydor claimed the copyright of the song, sparking speculations about an imminent release.\n\nWithout any prior announcement, the song\u2014accompanied by the frequently used sped-up version\u2014was officially released on streaming platforms as a two-track EP on May 19, 2023. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Say+Yes+To+Heaven\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

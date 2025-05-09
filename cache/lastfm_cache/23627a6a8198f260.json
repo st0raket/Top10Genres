@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:41.090567+00:00",
+  "elapsed": 0.17897,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:41.090567+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2341",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PinkPantheress&format=json&method=track.getInfo&track=Just+for+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PinkPantheress&format=json&method=track.getInfo&track=Just+for+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "just for me",
+      "url": "https:\/\/www.last.fm\/music\/pinkpantheress\/_\/just+for+me",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "679462",
+      "playcount": "8092558",
+      "artist": {
+        "name": "pinkpantheress",
+        "url": "https:\/\/www.last.fm\/music\/pinkpantheress"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2-step",
+            "url": "https:\/\/www.last.fm\/tag\/2-step"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "UK Garage",
+            "url": "https:\/\/www.last.fm\/tag\/UK+Garage"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Nov 2021, 18:26",
+        "summary": "\"Just for me\" is a song by PinkPantheress. It was produced by Mura Masa and was released on 13 August 2021, through Parlophone as the fourth single from her debut mixtape, \"to hell with it.\"\n\nPrior to the release, a snippet of the song posted to TikTok by PinkPantheress went viral on the platform. The bedroom pop, 2-step garage, and alternative pop song is a spiritual successor to PinkPantheress's song \"Pain\", and is written about her unhealthy obsession with a crush. <a href=\"http:\/\/www.last.fm\/music\/pinkpantheress\/_\/just+for+me\">Read more on Last.fm<\/a>.",
+        "content": "\"Just for me\" is a song by PinkPantheress. It was produced by Mura Masa and was released on 13 August 2021, through Parlophone as the fourth single from her debut mixtape, \"to hell with it.\"\n\nPrior to the release, a snippet of the song posted to TikTok by PinkPantheress went viral on the platform. The bedroom pop, 2-step garage, and alternative pop song is a spiritual successor to PinkPantheress's song \"Pain\", and is written about her unhealthy obsession with a crush. The song was later sampled by Central Cee on his hit song \"Obsessed with You\" released on 10 September 2021 \n\n\"Just for me\" received critical acclaim and peaked at number 27 on the UK Singles Chart and at number 49 on the Irish Singles Chart. A low-resolution music video for the song, directed by PinkPantheress and Lauzza, was released on 9 September 2021 and depicts PinkPantheress singing to a crowd of depressed youths. <a href=\"http:\/\/www.last.fm\/music\/pinkpantheress\/_\/just+for+me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

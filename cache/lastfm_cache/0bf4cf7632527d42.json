@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:56.349252+00:00",
+  "elapsed": 0.231237,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:56.349252+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1857",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=V&format=json&method=track.getInfo&track=FRI%28END%29S"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=V&format=json&method=track.getInfo&track=FRI%28END%29S",
+  "_decoded_content": {
+    "track": {
+      "name": "FRI(END)S",
+      "url": "https:\/\/www.last.fm\/music\/V\/_\/FRI(END)S",
+      "duration": "148000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "232726",
+      "playcount": "76707977",
+      "artist": {
+        "name": "V",
+        "mbid": "8f509d2c-a88e-4de2-8ec2-e8e863b9e41d",
+        "url": "https:\/\/www.last.fm\/music\/V"
+      },
+      "album": {
+        "artist": "V",
+        "title": "FRI(END)S",
+        "url": "https:\/\/www.last.fm\/music\/V\/FRI(END)S",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d75d4b3735dbf2a58f716da801c33894.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d75d4b3735dbf2a58f716da801c33894.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d75d4b3735dbf2a58f716da801c33894.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d75d4b3735dbf2a58f716da801c33894.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "v",
+            "url": "https:\/\/www.last.fm\/tag\/v"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "lovely",
+            "url": "https:\/\/www.last.fm\/tag\/lovely"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Mar 2024, 15:24",
+        "summary": "This song talks about putting an end to a friend with benefits kind of relationship going on for many years in order to start a real relationship because they have become emotionally attached to each other <a href=\"http:\/\/www.last.fm\/music\/V\/_\/FRI(END)S\">Read more on Last.fm<\/a>.",
+        "content": "This song talks about putting an end to a friend with benefits kind of relationship going on for many years in order to start a real relationship because they have become emotionally attached to each other <a href=\"http:\/\/www.last.fm\/music\/V\/_\/FRI(END)S\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

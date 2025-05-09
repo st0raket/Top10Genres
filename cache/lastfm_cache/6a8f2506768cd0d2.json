@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:34.102760+00:00",
+  "elapsed": 0.190094,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:34.102760+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2938",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Feather"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Feather",
+  "_decoded_content": {
+    "track": {
+      "name": "Feather",
+      "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Feather",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1114923",
+      "playcount": "21622844",
+      "artist": {
+        "name": "Sabrina Carpenter",
+        "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter"
+      },
+      "album": {
+        "artist": "Sabrina Carpenter",
+        "title": "emails i can\u2019t send fwd:",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/emails+i+can%E2%80%99t+send+fwd:",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/177a1ef8117442c97ad096e8c758bbc4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/177a1ef8117442c97ad096e8c758bbc4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/177a1ef8117442c97ad096e8c758bbc4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/177a1ef8117442c97ad096e8c758bbc4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "funk pop",
+            "url": "https:\/\/www.last.fm\/tag\/funk+pop"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Nov 2023, 06:18",
+        "summary": "\"Feather\" is a song by American singer Sabrina Carpenter from Emails I Can\u2019t Send Fwd:, the deluxe edition of her fifth studio album released in 2022. Carpenter and Amy Allen wrote the song with its producer, John Ryan. \n\n\"Feather\" is a pop song about overcoming a relationship. Incorporating electric piano, piano, synthesizer, kick, and bass in its instrumentation, the song's lyrics detail blocking someone on social media and feeling like a burden has been lifted after leaving them behind: \"I got you blocked \/ After this <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Feather\">Read more on Last.fm<\/a>.",
+        "content": "\"Feather\" is a song by American singer Sabrina Carpenter from Emails I Can\u2019t Send Fwd:, the deluxe edition of her fifth studio album released in 2022. Carpenter and Amy Allen wrote the song with its producer, John Ryan. \n\n\"Feather\" is a pop song about overcoming a relationship. Incorporating electric piano, piano, synthesizer, kick, and bass in its instrumentation, the song's lyrics detail blocking someone on social media and feeling like a burden has been lifted after leaving them behind: \"I got you blocked \/ After this, an afterthought \/ I finally cut you off \/ I feel so much lighter, like a feather with you off my mind.\"\n\nIsland Records released its sped-up version for digital download and streaming on August 4, 2023. A music video for the song was released on October 31, 2023. <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Feather\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:53.896099+00:00",
+  "elapsed": 0.18637,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:53.896099+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2522",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maroon+5&format=json&method=track.getInfo&track=Payphone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maroon+5&format=json&method=track.getInfo&track=Payphone",
+  "_decoded_content": {
+    "track": {
+      "name": "Payphone",
+      "mbid": "f445403a-0739-4001-b450-4a6e01c6c3d5",
+      "url": "https:\/\/www.last.fm\/music\/Maroon+5\/_\/Payphone",
+      "duration": "222000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1367956",
+      "playcount": "11449950",
+      "artist": {
+        "name": "Maroon 5",
+        "mbid": "0ab49580-c84f-44d4-875f-d83760ea2cfe",
+        "url": "https:\/\/www.last.fm\/music\/Maroon+5"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Pop Party 10",
+        "mbid": "97fe5b5b-9786-43df-b984-12d6d83870cd",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Pop+Party+10",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/caad5e3030e9bdeee7b4075641b516ee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/caad5e3030e9bdeee7b4075641b516ee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/caad5e3030e9bdeee7b4075641b516ee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/caad5e3030e9bdeee7b4075641b516ee.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "maroon 5",
+            "url": "https:\/\/www.last.fm\/tag\/maroon+5"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "payphone",
+            "url": "https:\/\/www.last.fm\/tag\/payphone"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "2012",
+            "url": "https:\/\/www.last.fm\/tag\/2012"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 May 2012, 17:44",
+        "summary": "\"Payphone\" is a pop song by American band Maroon 5 featuring American rapper Wiz Khalifa. It was released on April 16, 2012, as the lead single from their fourth studio album, Overexposed (2012). The Payphone Songfacts reports that the 493,000 units logged by this song in its debut week in the US, broke the record for most digital download sales by a group over a 7 day period. It is one of their most iconic and best-selling hits. <a href=\"http:\/\/www.last.fm\/music\/Maroon+5\/_\/Payphone\">Read more on Last.fm<\/a>.",
+        "content": "\"Payphone\" is a pop song by American band Maroon 5 featuring American rapper Wiz Khalifa. It was released on April 16, 2012, as the lead single from their fourth studio album, Overexposed (2012). The Payphone Songfacts reports that the 493,000 units logged by this song in its debut week in the US, broke the record for most digital download sales by a group over a 7 day period. It is one of their most iconic and best-selling hits. <a href=\"http:\/\/www.last.fm\/music\/Maroon+5\/_\/Payphone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:43:03.941487+00:00",
+  "elapsed": 0.175596,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:03.941487+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3043",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=HOODRAT"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=HOODRAT",
+  "_decoded_content": {
+    "track": {
+      "name": "HOODRAT",
+      "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/_\/HOODRAT",
+      "duration": "222000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "134479",
+      "playcount": "607124",
+      "artist": {
+        "name": "\u00a5$",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$"
+      },
+      "album": {
+        "artist": "\u00a5$",
+        "title": "VULTURES 1",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/VULTURES+1",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e32f0dbb17b6546dd80f2315dce56cc5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e32f0dbb17b6546dd80f2315dce56cc5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e32f0dbb17b6546dd80f2315dce56cc5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e32f0dbb17b6546dd80f2315dce56cc5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "hoodrat",
+            "url": "https:\/\/www.last.fm\/tag\/hoodrat"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "ty dolla sign",
+            "url": "https:\/\/www.last.fm\/tag\/ty+dolla+sign"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Feb 2024, 20:27",
+        "summary": "\u201cHOODRAT,\u201d the sixth track on the first installment of Kanye West and Ty Dolla $ign\u2019s VULTURES trilogy sees the duo taking turns on the track while backed by a repetitive and aggressive \u201choodrat.\u201d\n\nThe song\u2019s production almost relies entirely on its hard-hitting drums and bass alongside the echoes of \u201choodrat\u201d being repeated throughout the refrain and verses, assisting Ye\u2019s classic rap cadence and allowing Ty to bring versatility to the track as he inserts his vocals amidst Ye\u2019s aggressive rapping. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/HOODRAT\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHOODRAT,\u201d the sixth track on the first installment of Kanye West and Ty Dolla $ign\u2019s VULTURES trilogy sees the duo taking turns on the track while backed by a repetitive and aggressive \u201choodrat.\u201d\n\nThe song\u2019s production almost relies entirely on its hard-hitting drums and bass alongside the echoes of \u201choodrat\u201d being repeated throughout the refrain and verses, assisting Ye\u2019s classic rap cadence and allowing Ty to bring versatility to the track as he inserts his vocals amidst Ye\u2019s aggressive rapping.\n\nA \u201choodrat\u201d is often a term for a woman who goes against the stereotypical ideology of what a woman is. The two rap about how their social standings affect the way women act around them. The track also included a sample from Mike Tyson\u2019s podcast as he spoke about Ye being hated by the industry despite everyone knowing his artistic abilities.\n\nA snippet of the song was first leaked on February 4, 2024, followed by another on February 7. The track was then previewed in its entirety at the Vultures Listening Party on the 8th, resulting in fans flocking to the captivating refrain. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/HOODRAT\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

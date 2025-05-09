@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:14.723254+00:00",
+  "elapsed": 0.211595,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:14.723254+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2328",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Louis+Tomlinson&format=json&method=track.getInfo&track=Two+of+Us"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Louis+Tomlinson&format=json&method=track.getInfo&track=Two+of+Us",
+  "_decoded_content": {
+    "track": {
+      "name": "Two of Us",
+      "url": "https:\/\/www.last.fm\/music\/Louis+Tomlinson\/_\/Two+of+Us",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "147242",
+      "playcount": "2124502",
+      "artist": {
+        "name": "Louis Tomlinson",
+        "url": "https:\/\/www.last.fm\/music\/Louis+Tomlinson"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "MNM Big Hits 2019.2",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/MNM+Big+Hits+2019.2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5df3d9b8a43d00dfc00ec993852c91e1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5df3d9b8a43d00dfc00ec993852c91e1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5df3d9b8a43d00dfc00ec993852c91e1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5df3d9b8a43d00dfc00ec993852c91e1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "grief",
+            "url": "https:\/\/www.last.fm\/tag\/grief"
+          },
+          {
+            "name": "Louis",
+            "url": "https:\/\/www.last.fm\/tag\/Louis"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2021, 12:22",
+        "summary": "\"Two of Us\" is a song by English singer and songwriter Louis Tomlinson, released as a single on 7 March 2019. It is his first release on Arista Records after signing with the label in early 2019. The song is about his late mother, Johannah Deakin who died in 2016 after battling a long fight against leukemia. It is the lead single from Tomlinson's debut studio album Walls, released on 31 January 2020. <a href=\"http:\/\/www.last.fm\/music\/Louis+Tomlinson\/_\/Two+of+Us\">Read more on Last.fm<\/a>.",
+        "content": "\"Two of Us\" is a song by English singer and songwriter Louis Tomlinson, released as a single on 7 March 2019. It is his first release on Arista Records after signing with the label in early 2019. The song is about his late mother, Johannah Deakin who died in 2016 after battling a long fight against leukemia. It is the lead single from Tomlinson's debut studio album Walls, released on 31 January 2020. <a href=\"http:\/\/www.last.fm\/music\/Louis+Tomlinson\/_\/Two+of+Us\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

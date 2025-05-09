@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:28:45.168555+00:00",
+  "elapsed": 0.29766,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:45.168555+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1261",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DAOKO%C3%97%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB&format=json&method=track.getInfo&track=%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DAOKO%C3%97%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB&format=json&method=track.getInfo&track=%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB",
+  "_decoded_content": {
+    "track": {
+      "name": "\u6253\u4e0a\u82b1\u706b",
+      "url": "https:\/\/www.last.fm\/music\/DAOKO%C3%97%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB\/_\/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB",
+      "duration": "289000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "18718",
+      "playcount": "193881",
+      "artist": {
+        "name": "DAOKO\u00d7\u7c73\u6d25\u7384\u5e2b",
+        "url": "https:\/\/www.last.fm\/music\/DAOKO%C3%97%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB"
+      },
+      "album": {
+        "artist": "DAOKO",
+        "title": "\u6253\u4e0a\u82b1\u706b",
+        "url": "https:\/\/www.last.fm\/music\/DAOKO\/%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e1e400136edf10cd904823d6a8f56543.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e1e400136edf10cd904823d6a8f56543.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e1e400136edf10cd904823d6a8f56543.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e1e400136edf10cd904823d6a8f56543.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "JPop",
+            "url": "https:\/\/www.last.fm\/tag\/JPop"
+          },
+          {
+            "name": "anime",
+            "url": "https:\/\/www.last.fm\/tag\/anime"
+          }
+        ]
+      }
+    }
+  }
+}

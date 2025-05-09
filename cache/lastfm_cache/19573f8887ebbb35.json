@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:33:06.256249+00:00",
+  "elapsed": 0.208915,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:06.256249+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1126",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jhen%C3%A9+Aiko&format=json&method=track.getInfo&track=Tryna+Smoke"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jhen%C3%A9+Aiko&format=json&method=track.getInfo&track=Tryna+Smoke",
+  "_decoded_content": {
+    "track": {
+      "name": "Tryna Smoke",
+      "url": "https:\/\/www.last.fm\/music\/Jhen%C3%A9+Aiko\/_\/Tryna+Smoke",
+      "duration": "269000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "69235",
+      "playcount": "469351",
+      "artist": {
+        "name": "Jhen\u00e9 Aiko",
+        "mbid": "ceb3f5b7-9f1a-430f-afbe-976fdcf30482",
+        "url": "https:\/\/www.last.fm\/music\/Jhen%C3%A9+Aiko"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Bake Sale",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Bake+Sale",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2e1127e780175330b0c3496069c7f3c4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2e1127e780175330b0c3496069c7f3c4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2e1127e780175330b0c3496069c7f3c4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2e1127e780175330b0c3496069c7f3c4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      }
+    }
+  }
+}

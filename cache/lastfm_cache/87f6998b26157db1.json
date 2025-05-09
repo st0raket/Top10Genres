@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:34:45.593548+00:00",
+  "elapsed": 0.220378,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:45.593548+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2720",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Tone+Deaf"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Tone+Deaf",
+  "_decoded_content": {
+    "track": {
+      "name": "Tone Deaf",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Tone+Deaf",
+      "duration": "290000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "86681",
+      "playcount": "656100",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Music To Be Murdered By: Side B (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Music+To+Be+Murdered+By:+Side+B+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3def7ad8e9ba9c954a45aae7acbaaa2a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3def7ad8e9ba9c954a45aae7acbaaa2a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3def7ad8e9ba9c954a45aae7acbaaa2a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3def7ad8e9ba9c954a45aae7acbaaa2a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "bornana",
+            "url": "https:\/\/www.last.fm\/tag\/bornana"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Dec 2021, 18:12",
+        "summary": "\u201cTone Deaf\u201d is another self produced song on the project, this time with the frequent collaborator Luis Resto, the man behind some classic songs of Eminem like Lose Yourself. The title \u201cTone Deaf\u201d is a diss to mumble rappers since they can\u2019t jump on a beat without mumbling.\n\nThe track starts by Em pretending to not hear the person on the other side of the phone, a shade at people who called him washed. The song is almost five minutes and Eminem could fill three, long verses and a hook to it. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Tone+Deaf\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTone Deaf\u201d is another self produced song on the project, this time with the frequent collaborator Luis Resto, the man behind some classic songs of Eminem like Lose Yourself. The title \u201cTone Deaf\u201d is a diss to mumble rappers since they can\u2019t jump on a beat without mumbling.\n\nThe track starts by Em pretending to not hear the person on the other side of the phone, a shade at people who called him washed. The song is almost five minutes and Eminem could fill three, long verses and a hook to it. He talks about topics from dissing the rap game, to bragging up about his rapping skills.\n\nOn March 5, 2021, Eminem released an animated lyric video as a response to Gen Z trying to cancel him. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Tone+Deaf\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

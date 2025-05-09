@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:04.775027+00:00",
+  "elapsed": 0.178362,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:04.775027+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2364",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=Fleeting+Lullaby"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=Fleeting+Lullaby",
+  "_decoded_content": {
+    "track": {
+      "name": "Fleeting Lullaby",
+      "url": "https:\/\/www.last.fm\/music\/Ado\/_\/Fleeting+Lullaby",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "71368",
+      "playcount": "986877",
+      "artist": {
+        "name": "Ado",
+        "mbid": "ca195d97-30d9-4870-8a52-7fd3c2e175c3",
+        "url": "https:\/\/www.last.fm\/music\/Ado"
+      },
+      "album": {
+        "artist": "Ado",
+        "title": "UTA'S SONGS ONE PIECE FILM RED",
+        "url": "https:\/\/www.last.fm\/music\/Ado\/UTA%27S+SONGS+ONE+PIECE+FILM+RED",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "swing",
+            "url": "https:\/\/www.last.fm\/tag\/swing"
+          },
+          {
+            "name": "jazzy",
+            "url": "https:\/\/www.last.fm\/tag\/jazzy"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "electro-swing",
+            "url": "https:\/\/www.last.fm\/tag\/electro-swing"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jan 2023, 23:07",
+        "summary": "\u30a6\u30bf\u30ab\u30bf\u30e9\u30e9\u30d0\u30a4 (Fleeting Lullaby or Utakata Lullaby in English) is a song by Ado and an insert song in the movie One Piece Film: Red. The song is a collaboration between the singer Ado and the band FAKE TYPE.\n\nLike many of the songs in the One Piece Film Red album, the song is considered to be very different from the rest as this approaches a short and very fast paced song with primarily rapping. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/Fleeting+Lullaby\">Read more on Last.fm<\/a>.",
+        "content": "\u30a6\u30bf\u30ab\u30bf\u30e9\u30e9\u30d0\u30a4 (Fleeting Lullaby or Utakata Lullaby in English) is a song by Ado and an insert song in the movie One Piece Film: Red. The song is a collaboration between the singer Ado and the band FAKE TYPE.\n\nLike many of the songs in the One Piece Film Red album, the song is considered to be very different from the rest as this approaches a short and very fast paced song with primarily rapping. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/Fleeting+Lullaby\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

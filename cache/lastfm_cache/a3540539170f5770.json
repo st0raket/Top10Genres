@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:45:08.280481+00:00",
+  "elapsed": 0.198284,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:08.280481+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3261",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ed+Sheeran&format=json&method=track.getInfo&track=The+A+Team"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ed+Sheeran&format=json&method=track.getInfo&track=The+A+Team",
+  "_decoded_content": {
+    "track": {
+      "name": "The A Team",
+      "mbid": "9b9257d2-8f1b-44e9-ae32-45a5d163a541",
+      "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/The+A+Team",
+      "duration": "222000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1011166",
+      "playcount": "8760490",
+      "artist": {
+        "name": "Ed Sheeran",
+        "mbid": "b8a7c51f-362c-4dcb-a259-bc6e0095f0a6",
+        "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran"
+      },
+      "album": {
+        "artist": "Ed Sheeran",
+        "title": "+",
+        "mbid": "1bfaab2a-9510-40df-bdce-4d45f56a383e",
+        "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran\/%252B",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d08fbb920e514f5c893d95552379d3fc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d08fbb920e514f5c893d95552379d3fc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d08fbb920e514f5c893d95552379d3fc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d08fbb920e514f5c893d95552379d3fc.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "chillout",
+            "url": "https:\/\/www.last.fm\/tag\/chillout"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Jul 2012, 17:38",
+        "summary": "\"The A Team\" is the debut solo single by English singer-songwriter Ed Sheeran. It was released as a digital download in the United Kingdom on June 10, 2011, serving as the lead single from his debut album, +. \"The A Team\" is a folk ballad about a sex worker addicted to crack cocaine, a Class A drug. It was written after Sheeran visited a homeless shelter and heard some of the stories of the lives people had been living. He wrote the song following a last-minute performance at an event for the homeless. <a href=\"http:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/The+A+Team\">Read more on Last.fm<\/a>.",
+        "content": "\"The A Team\" is the debut solo single by English singer-songwriter Ed Sheeran. It was released as a digital download in the United Kingdom on June 10, 2011, serving as the lead single from his debut album, +. \"The A Team\" is a folk ballad about a sex worker addicted to crack cocaine, a Class A drug. It was written after Sheeran visited a homeless shelter and heard some of the stories of the lives people had been living. He wrote the song following a last-minute performance at an event for the homeless. The chorus of \"The A Team\" was also used by Sheeran in the track \"Little Lady\", which features Mikill Pane. \"Little Lady\" is available on the EP No. 5 Collaborations Project.\n\nThe A Team Songfacts explains the song is a true story and was written by Sheeran after meeting a homeless prostitute called Angel, whilst volunteering at a Crisis homeless shelter. The song became the highest selling debut single on the UK singles charts in the first half of 2011.\n\nThe song is a story about a girl he met whilst volunteering at a homeless shelter \u2013 it soared into the top three on its release in June 2011. <a href=\"http:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/The+A+Team\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

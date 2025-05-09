@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:10.223127+00:00",
+  "elapsed": 0.42561,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:10.223127+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1375",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Michael+Bubl%C3%A9&format=json&method=track.getInfo&track=Winter+Wonderland"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Michael+Bubl%C3%A9&format=json&method=track.getInfo&track=Winter+Wonderland",
+  "_decoded_content": {
+    "track": {
+      "name": "Winter Wonderland",
+      "mbid": "058690cc-f21a-4edc-bb69-7ae50f4c0add",
+      "url": "https:\/\/www.last.fm\/music\/Michael+Bubl%C3%A9\/_\/Winter+Wonderland",
+      "duration": "149000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "216259",
+      "playcount": "664880",
+      "artist": {
+        "name": "Michael Bubl\u00e9",
+        "mbid": "611700cf-27f0-4dc9-ae80-c513a767853e",
+        "url": "https:\/\/www.last.fm\/music\/Michael+Bubl%C3%A9"
+      },
+      "album": {
+        "artist": "Michael Bubl\u00e9",
+        "title": "Christmas",
+        "mbid": "1931b6f1-2940-461f-931f-e2c0adaa755f",
+        "url": "https:\/\/www.last.fm\/music\/Michael+Bubl%C3%A9\/Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/971da21dd15e4fa6a085866fca0ca7d8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/971da21dd15e4fa6a085866fca0ca7d8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/971da21dd15e4fa6a085866fca0ca7d8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/971da21dd15e4fa6a085866fca0ca7d8.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "17"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "winter",
+            "url": "https:\/\/www.last.fm\/tag\/winter"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:29.641358+00:00",
+  "elapsed": 0.179209,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:29.640858+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2901",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Rare+Occasions&format=json&method=track.getInfo&track=Notion"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Rare+Occasions&format=json&method=track.getInfo&track=Notion",
+  "_decoded_content": {
+    "track": {
+      "name": "Notion",
+      "url": "https:\/\/www.last.fm\/music\/The+Rare+Occasions\/_\/Notion",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "787789",
+      "playcount": "9369657",
+      "artist": {
+        "name": "The Rare Occasions",
+        "url": "https:\/\/www.last.fm\/music\/The+Rare+Occasions"
+      },
+      "album": {
+        "artist": "The Rare Occasions",
+        "title": "Futureproof",
+        "url": "https:\/\/www.last.fm\/music\/The+Rare+Occasions\/Futureproof",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b96a735f7f8f77d1eddc7d75f0e29809.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b96a735f7f8f77d1eddc7d75f0e29809.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b96a735f7f8f77d1eddc7d75f0e29809.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b96a735f7f8f77d1eddc7d75f0e29809.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "power pop",
+            "url": "https:\/\/www.last.fm\/tag\/power+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 May 2023, 14:00",
+        "summary": "\"Notion\" is a song by American indie rock band The Rare Occasions, written by lead singer Brian McLaughlin. It was first released independently as part of their Futureproof EP on August 5, 2016. The song went viral on TikTok in October 2021. The renewed popularity of the song led the band to re-release it as a single.\n\n\"Notion\" is about religion, or specifically, not believing in it. The opening lines (\"Sure it's a calming notion, perpetual in motion <a href=\"http:\/\/www.last.fm\/music\/The+Rare+Occasions\/_\/Notion\">Read more on Last.fm<\/a>.",
+        "content": "\"Notion\" is a song by American indie rock band The Rare Occasions, written by lead singer Brian McLaughlin. It was first released independently as part of their Futureproof EP on August 5, 2016. The song went viral on TikTok in October 2021. The renewed popularity of the song led the band to re-release it as a single.\n\n\"Notion\" is about religion, or specifically, not believing in it. The opening lines (\"Sure it's a calming notion, perpetual in motion, but I don't need the comfort in any lies\") describe how religious texts calm people, though what it tells might not be true. In his 2016 review of the EP Futureproof, Mitch Mosk of Atwood Magazine wrote that the song makes one consider that \"Life has its ups and its downs, but that isn't a reason to not live each day to our fullest potential.\"\n\n\"Notion\" entered the UK Singles Chart for two weeks and peaked at number 72. <a href=\"http:\/\/www.last.fm\/music\/The+Rare+Occasions\/_\/Notion\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

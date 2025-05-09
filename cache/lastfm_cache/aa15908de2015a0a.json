@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:39:59.989903+00:00",
+  "elapsed": 0.223413,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:59.989903+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "900",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Diljit+Dosanjh&format=json&method=track.getInfo&track=Jatt+Vailly"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Diljit+Dosanjh&format=json&method=track.getInfo&track=Jatt+Vailly",
+  "_decoded_content": {
+    "track": {
+      "name": "Jatt Vailly",
+      "url": "https:\/\/www.last.fm\/music\/Diljit+Dosanjh\/_\/Jatt+Vailly",
+      "duration": "151000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "8495",
+      "playcount": "74234",
+      "artist": {
+        "name": "Diljit Dosanjh",
+        "mbid": "f931c961-b647-4861-be8c-f47d84a4de51",
+        "url": "https:\/\/www.last.fm\/music\/Diljit+Dosanjh"
+      },
+      "album": {
+        "artist": "Diljit Dosanjh",
+        "title": "Ghost",
+        "url": "https:\/\/www.last.fm\/music\/Diljit+Dosanjh\/Ghost",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/65e6e7229af780351f54b653c5ff13d4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/65e6e7229af780351f54b653c5ff13d4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/65e6e7229af780351f54b653c5ff13d4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/65e6e7229af780351f54b653c5ff13d4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

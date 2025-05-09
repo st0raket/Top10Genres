@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:53.564407+00:00",
+  "elapsed": 0.22385,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:53.564407+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1199",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jaden+Smith&format=json&method=track.getInfo&track=Icon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jaden+Smith&format=json&method=track.getInfo&track=Icon",
+  "_decoded_content": {
+    "track": {
+      "name": "Icon",
+      "url": "https:\/\/www.last.fm\/music\/Jaden+Smith\/_\/Icon",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "71882",
+      "playcount": "505836",
+      "artist": {
+        "name": "Jaden Smith",
+        "mbid": "166cb987-3156-4166-b0d3-f1ad5a6c514c",
+        "url": "https:\/\/www.last.fm\/music\/Jaden+Smith"
+      },
+      "album": {
+        "artist": "Jaden Smith",
+        "title": "SYRE",
+        "url": "https:\/\/www.last.fm\/music\/Jaden+Smith\/SYRE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1cf3b3cb3be5a359cb8f31ac9c03bc5b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1cf3b3cb3be5a359cb8f31ac9c03bc5b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1cf3b3cb3be5a359cb8f31ac9c03bc5b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1cf3b3cb3be5a359cb8f31ac9c03bc5b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "alternative hip-hop",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+hip-hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "personal favourites",
+            "url": "https:\/\/www.last.fm\/tag\/personal+favourites"
+          }
+        ]
+      }
+    }
+  }
+}

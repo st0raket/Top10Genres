@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:43:30.240500+00:00",
+  "elapsed": 0.179147,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:30.240500+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1002",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JVKE&format=json&method=track.getInfo&track=this+is+what+falling+in+love+feels+like"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JVKE&format=json&method=track.getInfo&track=this+is+what+falling+in+love+feels+like",
+  "_decoded_content": {
+    "track": {
+      "name": "this is what falling in love feels like",
+      "url": "https:\/\/www.last.fm\/music\/JVKE\/_\/this+is+what+falling+in+love+feels+like",
+      "duration": "120000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "509640",
+      "playcount": "4966080",
+      "artist": {
+        "name": "JVKE",
+        "url": "https:\/\/www.last.fm\/music\/JVKE"
+      },
+      "album": {
+        "artist": "JVKE",
+        "title": "This Is What Falling In Love Feels Like - Single",
+        "url": "https:\/\/www.last.fm\/music\/JVKE\/This+Is+What+Falling+In+Love+Feels+Like+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6140a8ed19ec6f669ae44e39753fb4bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6140a8ed19ec6f669ae44e39753fb4bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6140a8ed19ec6f669ae44e39753fb4bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6140a8ed19ec6f669ae44e39753fb4bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      }
+    }
+  }
+}

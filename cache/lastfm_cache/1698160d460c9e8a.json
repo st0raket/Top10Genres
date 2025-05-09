@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:41:17.122588+00:00",
+  "elapsed": 0.181736,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:17.122588+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2450",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=L%E2%80%99AMOUR+DE+MA+VIE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=L%E2%80%99AMOUR+DE+MA+VIE",
+  "_decoded_content": {
+    "track": {
+      "name": "L\u2019Amour De Ma Vie",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/L%E2%80%99Amour+De+Ma+Vie",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "800954",
+      "playcount": "11923496",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "alt-pop",
+            "url": "https:\/\/www.last.fm\/tag\/alt-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 May 2024, 14:15",
+        "summary": "\u201cL\u2019AMOUR DE MA VIE\u201d from Billie Eilish's third studio album HIT ME HARD AND SOFT is a unique and emotionally charged track. The song is structured in two parts, transitioning from an intense, almost brooding beginning into a softer, more vulnerable tone as it progresses. The duality of the song reflects the complex emotions that come with deep love\u2014its highs and lows, intensity, and fragility.\n\nThematically, \u201cL\u2019amour de ma vie\u201d deals with love <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/L%E2%80%99Amour+De+Ma+Vie\">Read more on Last.fm<\/a>.",
+        "content": "\u201cL\u2019AMOUR DE MA VIE\u201d from Billie Eilish's third studio album HIT ME HARD AND SOFT is a unique and emotionally charged track. The song is structured in two parts, transitioning from an intense, almost brooding beginning into a softer, more vulnerable tone as it progresses. The duality of the song reflects the complex emotions that come with deep love\u2014its highs and lows, intensity, and fragility.\n\nThematically, \u201cL\u2019amour de ma vie\u201d deals with love, longing, and introspection, with Billie exploring the emotional weight of relationships. The lyrics and vocal delivery mirror the depth of her attachment, while also showcasing moments of reflection and vulnerability.\n\nMusically, the track is layered, beginning with more intense instrumentation that gradually shifts to softer, quieter sounds, allowing Eilish's vocals to take center stage as the song unfolds. This transition is a hallmark of the album's emotional dynamism, helping the song stand out as both powerful and intimate. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/L%E2%80%99Amour+De+Ma+Vie\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

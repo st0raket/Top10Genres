@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:13.434192+00:00",
+  "elapsed": 0.19929,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:13.434192+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3435",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=STAYC&format=json&method=track.getInfo&track=RUN2U"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=STAYC&format=json&method=track.getInfo&track=RUN2U",
+  "_decoded_content": {
+    "track": {
+      "name": "RUN2U",
+      "url": "https:\/\/www.last.fm\/music\/STAYC\/_\/RUN2U",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "343588",
+      "playcount": "8012442",
+      "artist": {
+        "name": "STAYC",
+        "url": "https:\/\/www.last.fm\/music\/STAYC"
+      },
+      "album": {
+        "artist": "STAYC",
+        "title": "YOUNG-LUV.COM",
+        "url": "https:\/\/www.last.fm\/music\/STAYC\/YOUNG-LUV.COM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bfce19f033d86d3c1e823979b6503e81.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bfce19f033d86d3c1e823979b6503e81.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bfce19f033d86d3c1e823979b6503e81.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bfce19f033d86d3c1e823979b6503e81.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Electroclash",
+            "url": "https:\/\/www.last.fm\/tag\/Electroclash"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2022, 01:37",
+        "summary": "\u2018RUN2U\u2019 is the first track and lead single from STAYC\u2019s second extended play YOUNG-LUV.COM released on February 21st, 2022.\n\nWritten by B.E.P and Jeon Goon, with composition handled by the duo alongside FLYT, and arranged by Rado and FLYT, the song was described as song with \"retro synth sound\" with lyrics that explore themes of \"freely expressing the desire to run towards you with fearing for love, regardless of what others opinion\". \u2018RUN2U\u2019 was composed in the key of B minor, with a tempo of 130 beats per minute. <a href=\"http:\/\/www.last.fm\/music\/STAYC\/_\/RUN2U\">Read more on Last.fm<\/a>.",
+        "content": "\u2018RUN2U\u2019 is the first track and lead single from STAYC\u2019s second extended play YOUNG-LUV.COM released on February 21st, 2022.\n\nWritten by B.E.P and Jeon Goon, with composition handled by the duo alongside FLYT, and arranged by Rado and FLYT, the song was described as song with \"retro synth sound\" with lyrics that explore themes of \"freely expressing the desire to run towards you with fearing for love, regardless of what others opinion\". \u2018RUN2U\u2019 was composed in the key of B minor, with a tempo of 130 beats per minute.\n\nThe track debuted at number 29 on South Korea's Gaon Digital Chart in the chart issue dated March 5, 2022; on its component charts, the song debuted at number four on the Gaon Download Chart, and number 54 on the Gaon Streaming Chart. The song ascended to number four on the Gaon Digital Chart, and number five on the Gaon Streaming Chart in the chart issue dated March 6\u201312, 2022.\nOn the Billboard K-pop Hot 100, the song debuted at number 50 in the chart issue dated March 5, 2022, ascending to number three in the chart issue dated March 26, 2022. In New Zealand, the song debuted at number 29 on the RMNZ Hot Singles in the chart issue dated February 28, 2022. In Singapore, the song debuted at number 22 on the RIAS Top Regional Chart in the chart issue dated February 18\u201324, 2022. In United States, the song debuted at number nine on the Billboard World Digital Song Sales in the chart issue dated March 5, 2022. <a href=\"http:\/\/www.last.fm\/music\/STAYC\/_\/RUN2U\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:29.997970+00:00",
+  "elapsed": 0.186347,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:29.997970+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2045",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Von&format=json&method=track.getInfo&track=Armed+%26+Dangerous"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Von&format=json&method=track.getInfo&track=Armed+%26+Dangerous",
+  "_decoded_content": {
+    "track": {
+      "name": "Armed & Dangerous",
+      "url": "https:\/\/www.last.fm\/music\/King+Von\/_\/Armed+&+Dangerous",
+      "duration": "122000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "246812",
+      "playcount": "2967821",
+      "artist": {
+        "name": "King Von",
+        "url": "https:\/\/www.last.fm\/music\/King+Von"
+      },
+      "album": {
+        "artist": "King Von",
+        "title": "Welcome to O'Block",
+        "url": "https:\/\/www.last.fm\/music\/King+Von\/Welcome+to+O%27Block",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7d224ef587d7e98a3b810cac986cc821.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7d224ef587d7e98a3b810cac986cc821.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7d224ef587d7e98a3b810cac986cc821.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7d224ef587d7e98a3b810cac986cc821.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "drill",
+            "url": "https:\/\/www.last.fm\/tag\/drill"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Sep 2024, 13:08",
+        "summary": "In this song, King Von describes how people with gifts are always watching him, and how he keeps a water gun on him to repel those people, as he believes he has been gifted enough, and that different people should get those presents\nHow nice of King Von <3 <a href=\"http:\/\/www.last.fm\/music\/King+Von\/_\/Armed+&+Dangerous\">Read more on Last.fm<\/a>.",
+        "content": "In this song, King Von describes how people with gifts are always watching him, and how he keeps a water gun on him to repel those people, as he believes he has been gifted enough, and that different people should get those presents\nHow nice of King Von <3 <a href=\"http:\/\/www.last.fm\/music\/King+Von\/_\/Armed+&+Dangerous\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

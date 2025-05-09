@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:07.166076+00:00",
+  "elapsed": 0.187291,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:07.166076+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3124",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=Pink+Venom"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=Pink+Venom",
+  "_decoded_content": {
+    "track": {
+      "name": "Pink Venom",
+      "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/_\/Pink+Venom",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "602987",
+      "playcount": "22167291",
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK"
+      },
+      "album": {
+        "artist": "BLACKPINK",
+        "title": "Pink Venom",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/Pink+Venom",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1386df18af239aa912623b9f035a3a8a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1386df18af239aa912623b9f035a3a8a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1386df18af239aa912623b9f035a3a8a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1386df18af239aa912623b9f035a3a8a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Aug 2022, 19:29",
+        "summary": "\"Pink Venom\" is the lead single from the group's sophomore studio album \"BORN PINK\".\n\nKicking off the song with an classic hip-pop beat and trap middle-eastern aesthetic, the melody is accompanied by traditional Korean instruments, including an gayageum. An gayageum (\uac00\uc57c\uae08), is a pluck zither, containing 12 strings. Additionally, the songs lyrics explores through the girls evil plan of attracting others into their dangerous-yet-lovely \u201cPink Venom\u201d. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/Pink+Venom\">Read more on Last.fm<\/a>.",
+        "content": "\"Pink Venom\" is the lead single from the group's sophomore studio album \"BORN PINK\".\n\nKicking off the song with an classic hip-pop beat and trap middle-eastern aesthetic, the melody is accompanied by traditional Korean instruments, including an gayageum. An gayageum (\uac00\uc57c\uae08), is a pluck zither, containing 12 strings. Additionally, the songs lyrics explores through the girls evil plan of attracting others into their dangerous-yet-lovely \u201cPink Venom\u201d.\n\nNoted as YG Entertainment\u2019s highest-budget music video, it showcases the girls in multiple dark scenes with an antique-yet-mystical feel. Surprisingly, the music video also hides many easter eggs leading to BLACKPINK, which was noticed by fans.\n\n\"PINK VENOM\" is the first single from the \"BORN PINK\" album, demonstrating the impact that BLACKPINK has on the music industry, entering the Top 1 Spotify Global.\n\nBLACKPINK promoted \u201cPink Venom\u201d globally with a light-up campaign in multiple areas of the world. Later, it was followed by the official \u201cPink Venom\u201d choreography challenge. The music video had then also gained millions of views in under minutes, outselling multiple videos, and YouTube records. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/Pink+Venom\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

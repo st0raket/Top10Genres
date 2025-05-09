@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:25.414793+00:00",
+  "elapsed": 0.18312,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:25.414793+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3325",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=Eve%2C+Psyche+%26+The+Bluebeard%E2%80%99s+wife"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=Eve%2C+Psyche+%26+The+Bluebeard%E2%80%99s+wife",
+  "_decoded_content": {
+    "track": {
+      "name": "Eve, Psyche & The Bluebeard\u2019s wife",
+      "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/Eve,+Psyche+&+The+Bluebeard%E2%80%99s+wife",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "463895",
+      "playcount": "10305410",
+      "artist": {
+        "name": "LE SSERAFIM",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM"
+      },
+      "album": {
+        "artist": "LE SSERAFIM",
+        "title": "UNFORGIVEN",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/UNFORGIVEN",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3440483112bc2197eb2f0be4e83523b0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3440483112bc2197eb2f0be4e83523b0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3440483112bc2197eb2f0be4e83523b0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3440483112bc2197eb2f0be4e83523b0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "cunt",
+            "url": "https:\/\/www.last.fm\/tag\/cunt"
+          },
+          {
+            "name": "baltimore club",
+            "url": "https:\/\/www.last.fm\/tag\/baltimore+club"
+          },
+          {
+            "name": "jersey club",
+            "url": "https:\/\/www.last.fm\/tag\/jersey+club"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2023, 09:34",
+        "summary": "Eve, Psyche & The Bluebeard's wife (Korean title: \uc774\ube0c, \ud504\uc2dc\ucf00 \uadf8\ub9ac\uace0 \ud478\ub978 \uc218\uc5fc\uc758 \uc544\ub0b4) is a song recorded by South Korean girl group LE SSERAFIM for their first full album, UNFORGIVEN. It was released on May 1, 2023, and released as the second single for the album on May 24, 2023 with an official music video. \n\nThis track was originally teased on the concept trailer for ANTIFRAGILE, with member HUH YUNJIN's written lines, however in that version, it was a rock-inspired track written for the trailer only. <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/Eve,+Psyche+&+The+Bluebeard%E2%80%99s+wife\">Read more on Last.fm<\/a>.",
+        "content": "Eve, Psyche & The Bluebeard's wife (Korean title: \uc774\ube0c, \ud504\uc2dc\ucf00 \uadf8\ub9ac\uace0 \ud478\ub978 \uc218\uc5fc\uc758 \uc544\ub0b4) is a song recorded by South Korean girl group LE SSERAFIM for their first full album, UNFORGIVEN. It was released on May 1, 2023, and released as the second single for the album on May 24, 2023 with an official music video. \n\nThis track was originally teased on the concept trailer for ANTIFRAGILE, with member HUH YUNJIN's written lines, however in that version, it was a rock-inspired track written for the trailer only. The track is a Baltimore Club song, lyrically mainly about wishing for what is forbidden to you. Eve, Psyche & The Bluebeard\u2019s wife are three different mythological figures, all who were curious and looked to what was forbidden to them and would end up in misfortune because of this. LE SSERAFIM includes these characters to represent women disobeying the rules set for them by society, which links to the title of their album \u201cUNFORGIVEN.\u201d The characters mentioned may not be forgiven by some for what they did, but they don\u2019t need to be because the actions caused by their curiosity allowed them to see the truth that was hidden by them. <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/Eve,+Psyche+&+The+Bluebeard%E2%80%99s+wife\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

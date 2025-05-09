@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:07.256730+00:00",
+  "elapsed": 0.199392,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:07.256730+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "916",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gazo&format=json&method=track.getInfo&track=NO+L%C3%88CHE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gazo&format=json&method=track.getInfo&track=NO+L%C3%88CHE",
+  "_decoded_content": {
+    "track": {
+      "name": "NO L\u00c8CHE",
+      "url": "https:\/\/www.last.fm\/music\/Gazo\/_\/NO+L%C3%88CHE",
+      "duration": "192000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "15745",
+      "playcount": "181498",
+      "artist": {
+        "name": "Gazo",
+        "url": "https:\/\/www.last.fm\/music\/Gazo"
+      },
+      "album": {
+        "artist": "Gazo",
+        "title": "NO L\u00c8CHE \ud83d\udeab\ud83d\udc45 (feat. Fav\u00e9, Kerchak & Leto)",
+        "url": "https:\/\/www.last.fm\/music\/Gazo\/NO+L%C3%88CHE+%F0%9F%9A%AB%F0%9F%91%85+(feat.+Fav%C3%A9,+Kerchak+&+Leto)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/57d641a324096341df0a3f41b088cd03.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/57d641a324096341df0a3f41b088cd03.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/57d641a324096341df0a3f41b088cd03.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/57d641a324096341df0a3f41b088cd03.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

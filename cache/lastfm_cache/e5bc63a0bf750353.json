@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:44:26.034089+00:00",
+  "elapsed": 0.206296,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:26.034089+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1271",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Queen&format=json&method=track.getInfo&track=Crazy+Little+Thing+Called+Love+-+Remastered+2011"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Queen&format=json&method=track.getInfo&track=Crazy+Little+Thing+Called+Love+-+Remastered+2011",
+  "_decoded_content": {
+    "track": {
+      "name": "Crazy Little Thing Called Love - Remastered 2011",
+      "url": "https:\/\/www.last.fm\/music\/Queen\/_\/Crazy+Little+Thing+Called+Love+-+Remastered+2011",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "721951",
+      "playcount": "4346233",
+      "artist": {
+        "name": "Queen",
+        "mbid": "420ca290-76c5-41af-999e-564d7c71f1a7",
+        "url": "https:\/\/www.last.fm\/music\/Queen"
+      },
+      "album": {
+        "artist": "Queen",
+        "title": "The Game (2011 Remaster)",
+        "url": "https:\/\/www.last.fm\/music\/Queen\/The+Game+(2011+Remaster)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5a23956df65d9581338e0e71db00d79a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5a23956df65d9581338e0e71db00d79a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5a23956df65d9581338e0e71db00d79a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5a23956df65d9581338e0e71db00d79a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "rockabilly",
+            "url": "https:\/\/www.last.fm\/tag\/rockabilly"
+          },
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      }
+    }
+  }
+}

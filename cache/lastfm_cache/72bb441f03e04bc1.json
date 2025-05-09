@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:08.166310+00:00",
+  "elapsed": 0.228209,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:08.166310+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2220",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kelly+Clarkson&format=json&method=track.getInfo&track=Underneath+the+Tree"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kelly+Clarkson&format=json&method=track.getInfo&track=Underneath+the+Tree",
+  "_decoded_content": {
+    "track": {
+      "name": "Underneath the Tree",
+      "mbid": "1e62185e-2731-4da4-930a-a5817962ff19",
+      "url": "https:\/\/www.last.fm\/music\/Kelly+Clarkson\/_\/Underneath+the+Tree",
+      "duration": "229000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "822940",
+      "playcount": "4359816",
+      "artist": {
+        "name": "Kelly Clarkson",
+        "mbid": "d339efbb-77b9-4147-ba9e-59f2f24550b2",
+        "url": "https:\/\/www.last.fm\/music\/Kelly+Clarkson"
+      },
+      "album": {
+        "artist": "Kelly Clarkson",
+        "title": "Wrapped in Red",
+        "mbid": "52b7afe9-1e61-4a56-9194-d3f5e6db7487",
+        "url": "https:\/\/www.last.fm\/music\/Kelly+Clarkson\/Wrapped+in+Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/afd2dff4621149d085e1aa612fa80ff5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/afd2dff4621149d085e1aa612fa80ff5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/afd2dff4621149d085e1aa612fa80ff5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/afd2dff4621149d085e1aa612fa80ff5.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          },
+          {
+            "name": "love song",
+            "url": "https:\/\/www.last.fm\/tag\/love+song"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Dec 2022, 10:20",
+        "summary": "Underneath the Tree\" is a song by Kelly Clarkson from her sixth studio album and first Christmas album, Wrapped in Red (2013).\nIn 2021, \"Underneath the Tree\" was named the ASCAP's most popular Christmas song released in the 21st century. <a href=\"http:\/\/www.last.fm\/music\/Kelly+Clarkson\/_\/Underneath+the+Tree\">Read more on Last.fm<\/a>.",
+        "content": "Underneath the Tree\" is a song by Kelly Clarkson from her sixth studio album and first Christmas album, Wrapped in Red (2013).\nIn 2021, \"Underneath the Tree\" was named the ASCAP's most popular Christmas song released in the 21st century. <a href=\"http:\/\/www.last.fm\/music\/Kelly+Clarkson\/_\/Underneath+the+Tree\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

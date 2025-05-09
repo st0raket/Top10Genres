@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:25.514810+00:00",
+  "elapsed": 0.212511,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:25.514810+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2694",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ang%C3%A8le&format=json&method=track.getInfo&track=Oui+ou+non"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ang%C3%A8le&format=json&method=track.getInfo&track=Oui+ou+non",
+  "_decoded_content": {
+    "track": {
+      "name": "Oui ou non",
+      "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Oui+ou+non",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "79687",
+      "playcount": "680849",
+      "artist": {
+        "name": "Ang\u00e8le",
+        "mbid": "f1a50113-12c6-4a5e-94ba-d73bd6ad47be",
+        "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Alors On Dance",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Alors+On+Dance",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ead4ef63d772ebdec26c2ff9e02a0bc5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ead4ef63d772ebdec26c2ff9e02a0bc5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ead4ef63d772ebdec26c2ff9e02a0bc5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ead4ef63d772ebdec26c2ff9e02a0bc5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "french",
+            "url": "https:\/\/www.last.fm\/tag\/french"
+          },
+          {
+            "name": "french pop",
+            "url": "https:\/\/www.last.fm\/tag\/french+pop"
+          },
+          {
+            "name": "Belgium",
+            "url": "https:\/\/www.last.fm\/tag\/Belgium"
+          },
+          {
+            "name": "france",
+            "url": "https:\/\/www.last.fm\/tag\/france"
+          },
+          {
+            "name": "belgian",
+            "url": "https:\/\/www.last.fm\/tag\/belgian"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Nov 2022, 01:34",
+        "summary": "\u201cOui ou non\u201d is the second track from the album Brol, la suite, released on November 8, 2019.\n\nAng\u00e8le talks about her personal reaction following her breakup with her former boyfriend. The song seems to be the logical continuation of the previous title, \u201cPerdus\u201d, where the singer confided precisely in her feelings vis-\u00e0-vis their relationship, damaged by the pressure of success.\n\nOn October 5, 2020, the song was certified diamond single in France, by SNEP, with more than 50,000,000 cumulative streams. <a href=\"http:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Oui+ou+non\">Read more on Last.fm<\/a>.",
+        "content": "\u201cOui ou non\u201d is the second track from the album Brol, la suite, released on November 8, 2019.\n\nAng\u00e8le talks about her personal reaction following her breakup with her former boyfriend. The song seems to be the logical continuation of the previous title, \u201cPerdus\u201d, where the singer confided precisely in her feelings vis-\u00e0-vis their relationship, damaged by the pressure of success.\n\nOn October 5, 2020, the song was certified diamond single in France, by SNEP, with more than 50,000,000 cumulative streams.\n\nThe artist performed the track live at the 35th Victoires de la Musique ceremony in February 2018. <a href=\"http:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Oui+ou+non\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

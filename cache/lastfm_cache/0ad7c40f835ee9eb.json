@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:20.741272+00:00",
+  "elapsed": 0.212185,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:20.741272+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2476",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=Kick+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=Kick+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Kick It",
+      "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/_\/Kick+It",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "230185",
+      "playcount": "3640513",
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK"
+      },
+      "album": {
+        "artist": "BLACKPINK",
+        "title": "THEBEST",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/THEBEST",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0ffc6c0173583bfe3df9718dbd7a17b4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0ffc6c0173583bfe3df9718dbd7a17b4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0ffc6c0173583bfe3df9718dbd7a17b4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0ffc6c0173583bfe3df9718dbd7a17b4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Oct 2022, 00:46",
+        "summary": "\u201cKick It\u201d is an anthem of self-love, freedom, and independence. It\u2019s about finally letting go of someone who isn\u2019t good for you. The song is produced by TeddyPark and 24, and written by Teddy Park, Danny Chung, and TAEO.\n\nWhile the song features elements of pop, hip-hop and rap, it also includes softer guitars and emotional melodies, which mirrors YG\u2019s statements of the stereotype challenging meaning behind the name BLACKPINK.\n\nThis the third track featured in BLACKPINK\u2019s EP Kill This Love. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/Kick+It\">Read more on Last.fm<\/a>.",
+        "content": "\u201cKick It\u201d is an anthem of self-love, freedom, and independence. It\u2019s about finally letting go of someone who isn\u2019t good for you. The song is produced by TeddyPark and 24, and written by Teddy Park, Danny Chung, and TAEO.\n\nWhile the song features elements of pop, hip-hop and rap, it also includes softer guitars and emotional melodies, which mirrors YG\u2019s statements of the stereotype challenging meaning behind the name BLACKPINK.\n\nThis the third track featured in BLACKPINK\u2019s EP Kill This Love. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/Kick+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

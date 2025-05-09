@@ -1,0 +1,11 @@
+genre,best_params,mae,rmse,mape
+pop,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 0.1, 'seasonality_mode': 'additive'}",72929965.83788063,86189931.39071001,7.747741467433427
+rap_hip_hop,"{'changepoint_prior_scale': 0.5, 'seasonality_prior_scale': 0.1, 'seasonality_mode': 'additive'}",129312284.5449,185681118.91985095,20.510935460620747
+latin_music,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'additive'}",83456714.04222873,114919343.71875593,20.41184347313432
+alternative,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 20.0, 'seasonality_mode': 'additive'}",49114372.10419622,54490207.038086586,24.629148469088825
+dance,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'multiplicative'}",14693725.13641597,19404492.67900784,18.938228041682233
+randb,"{'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}",67447857.4879033,97672788.62222941,27.023354283823654
+rock,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 20.0, 'seasonality_mode': 'additive'}",5927425.189937832,6257349.866437646,5.7082113566169035
+electro,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 1.0, 'seasonality_mode': 'additive'}",12756528.386999063,13686808.488996554,53.98571339634708
+asian_music,"{'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'multiplicative'}",16495867.22711417,22857739.024011455,19.017607432829386
+films_games,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'additive'}",28733441.713900328,31006020.042276394,115.34968027427475

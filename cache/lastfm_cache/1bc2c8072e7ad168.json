@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:51.387370+00:00",
+  "elapsed": 0.223499,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:51.387370+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2627",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=It%27ll+Be+Okay"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=It%27ll+Be+Okay",
+  "_decoded_content": {
+    "track": {
+      "name": "It'll Be Okay",
+      "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/It%27ll+Be+Okay",
+      "duration": "222000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "236056",
+      "playcount": "2204738",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes"
+      },
+      "album": {
+        "artist": "Shawn Mendes",
+        "title": "It'll Be Okay",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/It%27ll+Be+Okay",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3be456d0f6b574b47336dc820ab329e2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3be456d0f6b574b47336dc820ab329e2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3be456d0f6b574b47336dc820ab329e2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3be456d0f6b574b47336dc820ab329e2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jan 2022, 05:42",
+        "summary": "\"It\u2019ll Be Okay\" is a song written and recorded by Canadian singer, Shawn Mendes.\n\n\"It\u2019ll Be Okay\" is a mellow, piano song that follows the public breakup of him and his girlfriend, Camila Cabello. On top of that, it lines up with the situation, due to the breakup happening, exactly two weeks before the song released.\n\nMany believe that it is a song talking about the breakup because in a social media post, Shawn comments on the song saying, \u201cIt feels like I haven\u2019t truly connected with you guys in a while.\u201d <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/It%27ll+Be+Okay\">Read more on Last.fm<\/a>.",
+        "content": "\"It\u2019ll Be Okay\" is a song written and recorded by Canadian singer, Shawn Mendes.\n\n\"It\u2019ll Be Okay\" is a mellow, piano song that follows the public breakup of him and his girlfriend, Camila Cabello. On top of that, it lines up with the situation, due to the breakup happening, exactly two weeks before the song released.\n\nMany believe that it is a song talking about the breakup because in a social media post, Shawn comments on the song saying, \u201cIt feels like I haven\u2019t truly connected with you guys in a while.\u201d <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/It%27ll+Be+Okay\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

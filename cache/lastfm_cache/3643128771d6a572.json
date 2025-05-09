@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:02.005865+00:00",
+  "elapsed": 0.182447,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:02.005865+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3702",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Male+Fantasy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Male+Fantasy",
+  "_decoded_content": {
+    "track": {
+      "name": "Male Fantasy",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Male+Fantasy",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "533771",
+      "playcount": "7338218",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "Happier Than Ever: Acapellas",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/Happier+Than+Ever:+Acapellas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0954c526dfcf3189834d383179d4728d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0954c526dfcf3189834d383179d4728d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0954c526dfcf3189834d383179d4728d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0954c526dfcf3189834d383179d4728d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "Jazz-Pop",
+            "url": "https:\/\/www.last.fm\/tag\/Jazz-Pop"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2021, 00:41",
+        "summary": "\"Male Fantasy\" delves into the complexities of love and relationships, and how they can be influenced by societal expectations and personal insecurities. The opening verse offers a glimpse into the dark side of pornography addiction, where the protagonist faces the internal conflict of enjoying its temporary distractions while disliking the unrealistic portrayals of women and their desires. The line \"it's a male fantasy\" highlights the notion that pornography often caters to male fantasies rather than portraying the reality of female sexuality. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Male+Fantasy\">Read more on Last.fm<\/a>.",
+        "content": "\"Male Fantasy\" delves into the complexities of love and relationships, and how they can be influenced by societal expectations and personal insecurities. The opening verse offers a glimpse into the dark side of pornography addiction, where the protagonist faces the internal conflict of enjoying its temporary distractions while disliking the unrealistic portrayals of women and their desires. The line \"it's a male fantasy\" highlights the notion that pornography often caters to male fantasies rather than portraying the reality of female sexuality.\n\nThe chorus seems to address a past romantic relationship, where the protagonist is unsure if they have truly moved on or if they are simply pretending to be okay. The line \"if I'm getting over you or just pretending to be alright, convince myself I hate you\" suggests a struggle with progress and acceptance of the end of the relationship, while still maintaining feelings for the other person.\n\nIn the second verse, the protagonist receives a call from an old friend, possibly triggering memories of the past and the same internal conflict of processing love and loss. The line \"nothing lasts, I know the deal\" highlights the fleeting nature of relationships and how they can leave lasting effects on a person.\n\nOverall, \"Male Fantasy\" explores the complexities of relationships and how they can be influenced by societal expectations and personal struggles. It delves into the conflict of having feelings for someone while trying to move on, and the challenges that come with acceptance and growth. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Male+Fantasy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

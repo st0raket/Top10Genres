@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:39:30.599109+00:00",
+  "elapsed": 0.182589,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:30.599109+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2169",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROSAL%C3%8DA&format=json&method=track.getInfo&track=TUYA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROSAL%C3%8DA&format=json&method=track.getInfo&track=TUYA",
+  "_decoded_content": {
+    "track": {
+      "name": "TUYA",
+      "url": "https:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/TUYA",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "133116",
+      "playcount": "1148064",
+      "artist": {
+        "name": "Rosal\u00eda",
+        "mbid": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+        "url": "https:\/\/www.last.fm\/music\/Rosal%C3%ADa"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "hardstyle",
+            "url": "https:\/\/www.last.fm\/tag\/hardstyle"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "flamenco pop",
+            "url": "https:\/\/www.last.fm\/tag\/flamenco+pop"
+          },
+          {
+            "name": "safic",
+            "url": "https:\/\/www.last.fm\/tag\/safic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Jul 2023, 20:36",
+        "summary": "\"Tuya\" (stylized in all caps) is about the power of physical attraction and the thrill of a short-lived but intense encounter.\n\nThe song seems to be about a one-night stand between the singer and the person she is addressing in the song. In the verses, she asserts her confidence in her abilities and warns the listener to be careful before getting involved with her. The chorus and bridge describe the physical attraction between the singer and the listener and the pleasure they are experiencing together. <a href=\"http:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/TUYA\">Read more on Last.fm<\/a>.",
+        "content": "\"Tuya\" (stylized in all caps) is about the power of physical attraction and the thrill of a short-lived but intense encounter.\n\nThe song seems to be about a one-night stand between the singer and the person she is addressing in the song. In the verses, she asserts her confidence in her abilities and warns the listener to be careful before getting involved with her. The chorus and bridge describe the physical attraction between the singer and the listener and the pleasure they are experiencing together. The lyrics in the bridge also suggest that the singer sees herself as a mystical or powerful figure in the listener's life, offering them good luck and fortune. <a href=\"http:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/TUYA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

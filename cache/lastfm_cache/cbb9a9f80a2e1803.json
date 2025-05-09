@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:23.641518+00:00",
+  "elapsed": 0.178882,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:23.641518+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3080",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Janelle+Mon%C3%A1e&format=json&method=track.getInfo&track=Make+Me+Feel"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Janelle+Mon%C3%A1e&format=json&method=track.getInfo&track=Make+Me+Feel",
+  "_decoded_content": {
+    "track": {
+      "name": "Make Me Feel",
+      "url": "https:\/\/www.last.fm\/music\/Janelle+Mon%C3%A1e\/_\/Make+Me+Feel",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "353433",
+      "playcount": "3216380",
+      "artist": {
+        "name": "Janelle Mon\u00e1e",
+        "mbid": "ee190f6b-7d98-43ec-b924-da5f8018eca0",
+        "url": "https:\/\/www.last.fm\/music\/Janelle+Mon%C3%A1e"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Smash Hits Girl Power",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Smash+Hits+Girl+Power",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d908d3a829a565f61a3914b967f3970f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d908d3a829a565f61a3914b967f3970f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d908d3a829a565f61a3914b967f3970f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d908d3a829a565f61a3914b967f3970f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "prince",
+            "url": "https:\/\/www.last.fm\/tag\/prince"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Feb 2018, 17:38",
+        "summary": "\u201cMake Me Feel\u201d is the lead single from Janelle Mon\u00e1e\u2019s third studio album Dirty Computer.\n\nThe song was premiered by Zane Lowe on his Beats 1 radio show. Regarding the track, Monae told Lowe: \"I actually had this title on this concept before my first album The ArchAndroid, and it scared me because a lot of the things that I knew that I needed to say were very deep, very personal, from the heart. You know, this is an extremely vulnerable album and it took me a while to make it because I\u2019m a self editor.\" <a href=\"http:\/\/www.last.fm\/music\/Janelle+Mon%C3%A1e\/_\/Make+Me+Feel\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMake Me Feel\u201d is the lead single from Janelle Mon\u00e1e\u2019s third studio album Dirty Computer.\n\nThe song was premiered by Zane Lowe on his Beats 1 radio show. Regarding the track, Monae told Lowe: \"I actually had this title on this concept before my first album The ArchAndroid, and it scared me because a lot of the things that I knew that I needed to say were very deep, very personal, from the heart. You know, this is an extremely vulnerable album and it took me a while to make it because I\u2019m a self editor.\"\n\nThe song is vaguely reminiscent of \u201cKiss\u201d by the late Prince who was both a friend to and a heavy influence on Janelle, appearing on her previous album The Electric Lady. Janelle also told The Guardian Prince was helping her with this album prior to his death. A music video for the song was released the same day as the single.\n\nThe song was an instant critical darling, with Pitchfork naming it a \u201cBest New Track\u201d mere hours after its release. <a href=\"http:\/\/www.last.fm\/music\/Janelle+Mon%C3%A1e\/_\/Make+Me+Feel\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

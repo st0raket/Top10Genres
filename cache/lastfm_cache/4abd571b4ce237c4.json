@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:24.704400+00:00",
+  "elapsed": 0.187809,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:24.704400+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3300",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=feelslikeimfallinginlove"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=feelslikeimfallinginlove",
+  "_decoded_content": {
+    "track": {
+      "name": "feelslikeimfallinginlove",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/feelslikeimfallinginlove",
+      "duration": "237000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "207508",
+      "playcount": "1042235",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "feelslikeimfallinginlove",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/feelslikeimfallinginlove",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8654b2694fbfb189935ab0cffdf89fc4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8654b2694fbfb189935ab0cffdf89fc4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8654b2694fbfb189935ab0cffdf89fc4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8654b2694fbfb189935ab0cffdf89fc4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "synth pop",
+            "url": "https:\/\/www.last.fm\/tag\/synth+pop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jun 2024, 12:59",
+        "summary": "\"Feelslikeimfallinginlove\" (stylised in all lowercase) is a song by British rock band Coldplay. It was released on 21 June 2024 through Parlophone in the United Kingdom and Atlantic Records in the United States, being marketed as the lead single for the band's tenth studio album Moon Music. Written by all members of the band alongside Max Martin, Jon Hopkins and Chris Martin's daughter Apple Martin, the track contains a sample from Tim Rutili's \"Funeral Singers\". It was nominated for Song of the Year at the Brit Awards 2025. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/feelslikeimfallinginlove\">Read more on Last.fm<\/a>.",
+        "content": "\"Feelslikeimfallinginlove\" (stylised in all lowercase) is a song by British rock band Coldplay. It was released on 21 June 2024 through Parlophone in the United Kingdom and Atlantic Records in the United States, being marketed as the lead single for the band's tenth studio album Moon Music. Written by all members of the band alongside Max Martin, Jon Hopkins and Chris Martin's daughter Apple Martin, the track contains a sample from Tim Rutili's \"Funeral Singers\". It was nominated for Song of the Year at the Brit Awards 2025.\n\n\"feelslikeimfallinginlove\" received generally positive reviews from music critics. Andrew Unterberger from Billboard described the song as \"Coldplay generally doing what they do best: love songs with moody verses and blood-rush choruses that you can remember after a single listen\". Stereogum's Chris DeVille wrote \"Despite the involvement of a pop mastermind like Max Martin, who also worked on 2021's crossover-minded Music of the Spheres, [it] comes off a bit more like mid-2000s imperial Coldplay with a bit more sparkle\". Writing for Uproxx, Derrick Rossignol praised the work as a \"lush and uplifting number\". <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/feelslikeimfallinginlove\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

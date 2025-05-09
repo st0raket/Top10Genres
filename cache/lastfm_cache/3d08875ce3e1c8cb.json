@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:42.101138+00:00",
+  "elapsed": 0.21445,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:42.101138+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3008",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imogen+Heap&format=json&method=track.getInfo&track=Headlock"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imogen+Heap&format=json&method=track.getInfo&track=Headlock",
+  "_decoded_content": {
+    "track": {
+      "name": "Headlock",
+      "mbid": "02eaddcd-0838-46b3-8c28-dd6de6c7dd11",
+      "url": "https:\/\/www.last.fm\/music\/Imogen+Heap\/_\/Headlock",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1065126",
+      "playcount": "14740810",
+      "artist": {
+        "name": "Imogen Heap",
+        "mbid": "328d146c-79f1-4eb6-9e40-8ee5710c14e5",
+        "url": "https:\/\/www.last.fm\/music\/Imogen+Heap"
+      },
+      "album": {
+        "artist": "Imogen Heap",
+        "title": "Speak for Yourself",
+        "mbid": "f29ea105-ff73-4d44-9ab6-9980b646e5a3",
+        "url": "https:\/\/www.last.fm\/music\/Imogen+Heap\/Speak+for+Yourself",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/be7fa8a690d74035320a79944445e17c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/be7fa8a690d74035320a79944445e17c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/be7fa8a690d74035320a79944445e17c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/be7fa8a690d74035320a79944445e17c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "electronica",
+            "url": "https:\/\/www.last.fm\/tag\/electronica"
+          },
+          {
+            "name": "imogen heap",
+            "url": "https:\/\/www.last.fm\/tag\/imogen+heap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Feb 2025, 07:36",
+        "summary": "\"Headlock\" is a song by Imogen Heap, from her 2005 album Speak for Yourself. It was the third single from the album, following \"Hide and Seek\" and \"Goodnight and Go\". Remixed for radio as 'Immi's Radio mix' and accompanied by a new all-vocal B-side, titled \"Mic Check\".\n\nThe song debuted at number 74 on the UK Official Singles Chart on 22 October 2006. After renewed interest in the song due to its association with the 2024 psychological horror video game Mouthwashing <a href=\"http:\/\/www.last.fm\/music\/Imogen+Heap\/_\/Headlock\">Read more on Last.fm<\/a>.",
+        "content": "\"Headlock\" is a song by Imogen Heap, from her 2005 album Speak for Yourself. It was the third single from the album, following \"Hide and Seek\" and \"Goodnight and Go\". Remixed for radio as 'Immi's Radio mix' and accompanied by a new all-vocal B-side, titled \"Mic Check\".\n\nThe song debuted at number 74 on the UK Official Singles Chart on 22 October 2006. After renewed interest in the song due to its association with the 2024 psychological horror video game Mouthwashing, the song re-entered the UK Official Singles Chart 18 years following it's debut repeaking at it's 2006 placement, number 74, on 22 November 2024. The song later climbed to a new peak and became Heap's first top 40 single on the chart. The song entered the Billboard Hot 100 at number 100 in January 2025, becoming her first entry on the chart. <a href=\"http:\/\/www.last.fm\/music\/Imogen+Heap\/_\/Headlock\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

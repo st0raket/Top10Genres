@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:49.984189+00:00",
+  "elapsed": 0.181265,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:49.984189+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4345",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=ALL+MY+LOVE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=ALL+MY+LOVE",
+  "_decoded_content": {
+    "track": {
+      "name": "All My Love",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/All+My+Love",
+      "duration": "222000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "100676",
+      "playcount": "380961",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "Moon Music (Full Moon Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/Moon+Music+(Full+Moon+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/20b1e0ef41e4346f7a72fbc141b3719f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/20b1e0ef41e4346f7a72fbc141b3719f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/20b1e0ef41e4346f7a72fbc141b3719f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/20b1e0ef41e4346f7a72fbc141b3719f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2025, 04:09",
+        "summary": "\"All My Love\" (stylised in all caps) is a song by British rock band Coldplay from their tenth studio album Moon Music. It was released as the record's third single on 4 October 2024 through Parlophone in the United Kingdom and Atlantic Records in the United States. The song was later announced as the final single from their entire career by the band's frontman and vocalist Chris Martin in an interview with Rolling Stone: \"All My Love\" is really the final Coldplay single. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/All+My+Love\">Read more on Last.fm<\/a>.",
+        "content": "\"All My Love\" (stylised in all caps) is a song by British rock band Coldplay from their tenth studio album Moon Music. It was released as the record's third single on 4 October 2024 through Parlophone in the United Kingdom and Atlantic Records in the United States. The song was later announced as the final single from their entire career by the band's frontman and vocalist Chris Martin in an interview with Rolling Stone: \"All My Love\" is really the final Coldplay single. After this, there\u2019s no more singles, because we don\u2019t want to do that. Of all of the songs that have dropped through really quickly, this is maybe the one that I just don\u2019t understand how it happened. I\u2019m so grateful for this song. I don\u2019t know if and when it will connect with who or not, but for me, it\u2019s a really important song. It\u2019s like, after everything we\u2019ve been through, you have all my love. That\u2019s it. That\u2019s how we feel about life and the world and our fans and our critics and everybody. I didn\u2019t really have to do anything on that song. I just played it. I don\u2019t know how to explain that. Even when I\u2019m playing it now, I\u2019m like: \"how did that come through?\".\n\nThe song was written by all band members with additional contribution from John Metcalfe and Chris Martin's son Moses Martin. Production was carried out by Max Martin, Oscar Holter, Bill Rahko, Daniel Green, Michael Ilbert and Ilya Salmanzadeh. It has been described as a piano ballad with Beatlesque sounds, drawing comparisons to works by Elton John as well.\n\nA lyric video shot on iPhone and directed by Chris Candy was made available on 4 October 2024. It follows Chris Martin's alter ego Nigel Crisp who buys a set of red balloons and gives them away while passing through the streets of Las Vegas. By evening, he runs out of balloons and sings \"All My Love\" for karaoke at the Dino's dive bar. The official video is dedicated to American actor Dick Van Dyke, who handled production alongside his wife Arlene Silver. Its director's cut, led by Spike Jonze and Mary Wigmore, came out on 6 December. Coldplay published a shorter version (which credits Crisp as director) on 13 December, celebrating Van Dyke's 99th birthday. The alter ego also makes an appearance on the Pnau remix, which was directed by Candy and released on 27 December. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/All+My+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

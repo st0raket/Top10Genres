@@ -1,0 +1,85 @@
+{
+  "created_at": "2025-05-03T14:38:05.088458+00:00",
+  "elapsed": 0.202276,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:05.088458+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2356",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=Where+the+Wind+Blows"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=Where+the+Wind+Blows",
+  "_decoded_content": {
+    "track": {
+      "name": "Where the Wind Blows",
+      "url": "https:\/\/www.last.fm\/music\/Ado\/_\/Where+the+Wind+Blows",
+      "duration": "272000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38308",
+      "playcount": "398990",
+      "artist": {
+        "name": "Ado",
+        "mbid": "ca195d97-30d9-4870-8a52-7fd3c2e175c3",
+        "url": "https:\/\/www.last.fm\/music\/Ado"
+      },
+      "album": {
+        "artist": "Ado",
+        "title": "UTA'S SONGS ONE PIECE FILM RED",
+        "url": "https:\/\/www.last.fm\/music\/Ado\/UTA%27S+SONGS+ONE+PIECE+FILM+RED",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jan 2023, 23:13",
+        "summary": "Where the Wind Blows is a song by Ado and an insert song in the movie One Piece Film: Red and the seventh track on her One Piece Album . The song is a collaboration between the singer Ado and the singer-songwriter Motohiro Hata with Toei Animation (The Animation Studio for One Piece) doing the official music video. \n\nThe song serves not only as an insert for the film and one of the last tracks of the album, but it is the closing song for the film as well as being played in episode 1029 of the One Piece anime. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/Where+the+Wind+Blows\">Read more on Last.fm<\/a>.",
+        "content": "Where the Wind Blows is a song by Ado and an insert song in the movie One Piece Film: Red and the seventh track on her One Piece Album . The song is a collaboration between the singer Ado and the singer-songwriter Motohiro Hata with Toei Animation (The Animation Studio for One Piece) doing the official music video. \n\nThe song serves not only as an insert for the film and one of the last tracks of the album, but it is the closing song for the film as well as being played in episode 1029 of the One Piece anime. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/Where+the+Wind+Blows\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

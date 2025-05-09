@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:27.811058+00:00",
+  "elapsed": 0.182281,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:27.811058+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2029",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joji&format=json&method=track.getInfo&track=SLOW+DANCING+IN+THE+DARK"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joji&format=json&method=track.getInfo&track=SLOW+DANCING+IN+THE+DARK",
+  "_decoded_content": {
+    "track": {
+      "name": "Slow dancing in the dark",
+      "url": "https:\/\/www.last.fm\/music\/Joji\/_\/Slow+dancing+in+the+dark",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1428587",
+      "playcount": "27177800",
+      "artist": {
+        "name": "Joji",
+        "url": "https:\/\/www.last.fm\/music\/Joji"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "joji",
+            "url": "https:\/\/www.last.fm\/tag\/joji"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2020, 06:08",
+        "summary": "On \u201cSLOW DANCING IN THE DARK,\u201d Joji continues the lovelorn narrative from his previous single \u201cYeah Right\u201d over a dark, ambient instrumental.\n\nThis time around, he uses the metaphor of slow dancing in the dark to characterize a failing relationship\u2014just like a slow dance where you can\u2019t see your partner\u2019s face, his relationship with this person is intimate but ultimately impersonal.\n\nJoji first previewed the song on May 12, 2018 at the Blurry Vision Festival. <a href=\"http:\/\/www.last.fm\/music\/Joji\/_\/Slow+dancing+in+the+dark\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cSLOW DANCING IN THE DARK,\u201d Joji continues the lovelorn narrative from his previous single \u201cYeah Right\u201d over a dark, ambient instrumental.\n\nThis time around, he uses the metaphor of slow dancing in the dark to characterize a failing relationship\u2014just like a slow dance where you can\u2019t see your partner\u2019s face, his relationship with this person is intimate but ultimately impersonal.\n\nJoji first previewed the song on May 12, 2018 at the Blurry Vision Festival. He announced its official release on September 7, along with teaser photos from the music video. <a href=\"http:\/\/www.last.fm\/music\/Joji\/_\/Slow+dancing+in+the+dark\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

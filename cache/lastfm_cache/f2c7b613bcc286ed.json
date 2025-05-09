@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:07.544156+00:00",
+  "elapsed": 0.177176,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:07.544156+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3056",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Juicy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Juicy",
+  "_decoded_content": {
+    "track": {
+      "name": "Juicy",
+      "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/_\/Juicy",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "639793",
+      "playcount": "7063814",
+      "artist": {
+        "name": "Doja Cat",
+        "mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat"
+      },
+      "album": {
+        "artist": "Doja Cat",
+        "title": "100% Doja Cat",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/100%25+Doja+Cat",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/79a5a4dcf37a3eacc9f93c38ecc23289.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/79a5a4dcf37a3eacc9f93c38ecc23289.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/79a5a4dcf37a3eacc9f93c38ecc23289.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/79a5a4dcf37a3eacc9f93c38ecc23289.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "tyga",
+            "url": "https:\/\/www.last.fm\/tag\/tyga"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Oct 2021, 05:27",
+        "summary": "\"Juicy\" is a song recorded by American singer and rapper Doja Cat. It was included as the fourteenth track on the deluxe edition of her debut studio album Amala, released on March 1, 2019. A remix version with American rapper Tyga was released as the lead single from her second studio album Hot Pink on August 15, 2019. It was written by Doja Cat, Lydia Asrat, David Sprecher and Lukasz Gottwald. The song was produced by Yeti Beats and Lukasz Gottwald, with the latter also co-writing the song under the pseudonym Tyson Trax. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Juicy\">Read more on Last.fm<\/a>.",
+        "content": "\"Juicy\" is a song recorded by American singer and rapper Doja Cat. It was included as the fourteenth track on the deluxe edition of her debut studio album Amala, released on March 1, 2019. A remix version with American rapper Tyga was released as the lead single from her second studio album Hot Pink on August 15, 2019. It was written by Doja Cat, Lydia Asrat, David Sprecher and Lukasz Gottwald. The song was produced by Yeti Beats and Lukasz Gottwald, with the latter also co-writing the song under the pseudonym Tyson Trax.\n\nDoja Cat stated that she \"had a clear picture in her head\" of what she wanted the song to be about. \"Sometimes, I can see my ass from the front\", she told them. \"So then I was like, if you can see it from the front, wait until you see it from the back. I thought that was the coolest thing in the world, the greatest hook ever.\" \"Juicy\" took less than one day to make. She added that she was \"proud of it\", adding that she \"knew people were going to like it, because (she) loved it\". <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Juicy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

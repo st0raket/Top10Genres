@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:21.939030+00:00",
+  "elapsed": 0.224737,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:21.939030+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2295",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Today+Was+A+Fairytale"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Today+Was+A+Fairytale",
+  "_decoded_content": {
+    "track": {
+      "name": "Today Was a Fairytale",
+      "mbid": "bdc3a14b-d210-4db9-a3b5-71750219fcc6",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Today+Was+a+Fairytale",
+      "duration": "242000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "130857",
+      "playcount": "858955",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Today Was a Fairytale",
+        "mbid": "14a7e061-0c61-42db-bebf-6548611c0356",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Today+Was+a+Fairytale",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/391192861b501807ec5c7708359e722f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/391192861b501807ec5c7708359e722f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/391192861b501807ec5c7708359e722f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/391192861b501807ec5c7708359e722f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jan 2010, 19:03",
+        "summary": "\"Today  Was a Fairytale\" is the first single from the soundtrack for the romantic comedy  Valentine's Day.\n\nAccording to Songfacts,  Today Was A Fairytale features boy-meets-girl lyrics utilizing a fairy tale metaphor in a similar way to Taylor's 2008 single Love Story .  <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Today+Was+a+Fairytale\">Read more on Last.fm<\/a>.",
+        "content": "\"Today  Was a Fairytale\" is the first single from the soundtrack for the romantic comedy  Valentine's Day.\n\nAccording to Songfacts,  Today Was A Fairytale features boy-meets-girl lyrics utilizing a fairy tale metaphor in a similar way to Taylor's 2008 single Love Story .  <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Today+Was+a+Fairytale\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

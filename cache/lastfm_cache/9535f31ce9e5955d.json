@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:29.290645+00:00",
+  "elapsed": 0.216487,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:29.290645+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3365",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lizzo&format=json&method=track.getInfo&track=About+Damn+Time"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lizzo&format=json&method=track.getInfo&track=About+Damn+Time",
+  "_decoded_content": {
+    "track": {
+      "name": "About Damn Time",
+      "url": "https:\/\/www.last.fm\/music\/Lizzo\/_\/About+Damn+Time",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "654730",
+      "playcount": "6338571",
+      "artist": {
+        "name": "Lizzo",
+        "mbid": "50d06c43-5392-4393-ba2d-f091d8167227",
+        "url": "https:\/\/www.last.fm\/music\/Lizzo"
+      },
+      "album": {
+        "artist": "Lizzo",
+        "title": "Special",
+        "url": "https:\/\/www.last.fm\/music\/Lizzo\/Special",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aa0fa19a3c3cdff70672d238c9861358.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aa0fa19a3c3cdff70672d238c9861358.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aa0fa19a3c3cdff70672d238c9861358.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aa0fa19a3c3cdff70672d238c9861358.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Apr 2022, 18:46",
+        "summary": "\"About Damn Time\" is a song Recorded by American singer and rapper Lizzo released on April 14, 2022 by Atlantic Records as the lead single to Lizzo's fourth studio album Special\n\n-- What Lizzo Says 'About Damn Time': \nI made the song of the summer with \u201cAbout Damn Time\u201d. I\u2019m in my bag, and my bag is music. I\u2019m good at music. It\u2019s what I do.\n\n\u201cAbout Damn Time\u201d can lead into so many conversations. It\u2019s about damn time I feel better, it\u2019s about damn time we get out this pandemic. <a href=\"http:\/\/www.last.fm\/music\/Lizzo\/_\/About+Damn+Time\">Read more on Last.fm<\/a>.",
+        "content": "\"About Damn Time\" is a song Recorded by American singer and rapper Lizzo released on April 14, 2022 by Atlantic Records as the lead single to Lizzo's fourth studio album Special\n\n-- What Lizzo Says 'About Damn Time': \nI made the song of the summer with \u201cAbout Damn Time\u201d. I\u2019m in my bag, and my bag is music. I\u2019m good at music. It\u2019s what I do.\n\n\u201cAbout Damn Time\u201d can lead into so many conversations. It\u2019s about damn time I feel better, it\u2019s about damn time we get out this pandemic. It\u2019s about damn time we to get the first black female Supreme Court Justice. There\u2019s so many things. It\u2019s about damn time we popped the champagne. It\u2019s about damn time the tequila got here.\n\nI have to give props to Ricky [Reed] and Blake Slatkin. I was in my diva bag on this one, because I thought I was done with my album, Zane. I was like, \u201cI\u2019m done, no more songs.\u201d Then they were like, \u201cYo, we think we got something,\u201d and I was like, \u201cI ain\u2019t coming to the studio unless it\u2019s a hit.\u201d They played a track, I heard the track, and I was like, \u201cI\u2019ll be there in 10 minutes.\u201d You know what I\u2019m saying? When I got there, the idea is disco was revolutionary for a lot of people, disco and funk. This was intentionally disco, funk, something to walk to coming out of this dark time. This was intentional, the genre of music. <a href=\"http:\/\/www.last.fm\/music\/Lizzo\/_\/About+Damn+Time\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

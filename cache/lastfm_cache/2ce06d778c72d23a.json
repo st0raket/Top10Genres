@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:50.446818+00:00",
+  "elapsed": 0.227048,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:50.446818+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1369",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weavers&format=json&method=track.getInfo&track=We+Wish+You+A+Merry+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weavers&format=json&method=track.getInfo&track=We+Wish+You+A+Merry+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "We Wish You A Merry Christmas",
+      "mbid": "7afb337b-6d79-4afd-8b70-e7bccb13ad84",
+      "url": "https:\/\/www.last.fm\/music\/The+Weavers\/_\/We+Wish+You+A+Merry+Christmas",
+      "duration": "151000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "59557",
+      "playcount": "132296",
+      "artist": {
+        "name": "The Weavers",
+        "mbid": "621b8812-df32-4bf1-80c4-aee05f803137",
+        "url": "https:\/\/www.last.fm\/music\/The+Weavers"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "The White Christmas Album",
+        "mbid": "ff23c828-1023-43cb-b7a2-9af0c9f5be36",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/The+White+Christmas+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/09892e3ed3e746d0af32e0816bfe1844.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/09892e3ed3e746d0af32e0816bfe1844.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/09892e3ed3e746d0af32e0816bfe1844.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/09892e3ed3e746d0af32e0816bfe1844.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "18"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          }
+        ]
+      }
+    }
+  }
+}

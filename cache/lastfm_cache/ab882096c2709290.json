@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:36.624394+00:00",
+  "elapsed": 0.204709,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:36.624394+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1534",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=bad+vibes+forever"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=bad+vibes+forever",
+  "_decoded_content": {
+    "track": {
+      "name": "Bad Vibes Forever",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/Bad+Vibes+Forever",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "225211",
+      "playcount": "2777067",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trippie redd",
+            "url": "https:\/\/www.last.fm\/tag\/trippie+redd"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          },
+          {
+            "name": "pnb rock",
+            "url": "https:\/\/www.last.fm\/tag\/pnb+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Sep 2021, 10:39",
+        "summary": "For the album\u2019s title track, XXXTENTACION teams up with his frequent collaborators, PnB Rock and Trippie Redd. They each beg their women to love them emotionally and physically.\n\nThis is the third pre-release single from BVF, and it was released two weeks before the album. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Bad+Vibes+Forever\">Read more on Last.fm<\/a>.",
+        "content": "For the album\u2019s title track, XXXTENTACION teams up with his frequent collaborators, PnB Rock and Trippie Redd. They each beg their women to love them emotionally and physically.\n\nThis is the third pre-release single from BVF, and it was released two weeks before the album. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Bad+Vibes+Forever\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

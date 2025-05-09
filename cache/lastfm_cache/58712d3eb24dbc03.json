@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:58.264109+00:00",
+  "elapsed": 0.253268,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:58.264109+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2999",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=obsessed"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=obsessed",
+  "_decoded_content": {
+    "track": {
+      "name": "obsessed",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/obsessed",
+      "duration": "170000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "661259",
+      "playcount": "10607469",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "album": {
+        "artist": "Olivia Rodrigo",
+        "title": "GUTS: the secret tracks",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/GUTS:+the+secret+tracks",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e5027e7d3e2e1c44f16d747606f10921.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e5027e7d3e2e1c44f16d747606f10921.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e5027e7d3e2e1c44f16d747606f10921.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e5027e7d3e2e1c44f16d747606f10921.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "power pop",
+            "url": "https:\/\/www.last.fm\/tag\/power+pop"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "garage rock revival",
+            "url": "https:\/\/www.last.fm\/tag\/garage+rock+revival"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Mar 2024, 01:34",
+        "summary": "\u201cobsessed\u201c is a song by American singer-songwriter Olivia Rodrigo. It was released on March 22, 2024, through Geffen Records, as the only single from GUTS (spilled), the 2024 deluxe edition of her second studio album, GUTS.\n\n\u201cobsessed\u201c focuses on the idea of hyperfixating over your partner\u2019s exes to the point where it could seem like you were in love with their exes. Its themes overlap with \u201cjealousy, jealousy\u201c, a song featured on Olivia Rodrigo\u2019s first album, SOUR. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/obsessed\">Read more on Last.fm<\/a>.",
+        "content": "\u201cobsessed\u201c is a song by American singer-songwriter Olivia Rodrigo. It was released on March 22, 2024, through Geffen Records, as the only single from GUTS (spilled), the 2024 deluxe edition of her second studio album, GUTS.\n\n\u201cobsessed\u201c focuses on the idea of hyperfixating over your partner\u2019s exes to the point where it could seem like you were in love with their exes. Its themes overlap with \u201cjealousy, jealousy\u201c, a song featured on Olivia Rodrigo\u2019s first album, SOUR.\n\nOn March 22, 2024, the song was made available on streaming from GUTS (spilled) as a deluxe track, along with 4 other exclusively deluxe tracks. Previously, \u201cobsessed\u201c was only available on vinyl versions of Olivia Rodrigo's second album, GUTS, as the last track from the vinyl format of the album. Olivia Rodrigo and Dan Nigro wrote the track with St Vincent (credited as Annie Clark), who was previously credited as a writer for deja vu. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/obsessed\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:42:42.331959+00:00",
+  "elapsed": 0.185162,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:42.331959+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2653",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charli+xcx&format=json&method=track.getInfo&track=Guess+featuring+billie+eilish"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charli+xcx&format=json&method=track.getInfo&track=Guess+featuring+billie+eilish",
+  "_decoded_content": {
+    "track": {
+      "name": "guess featuring billie eilish",
+      "url": "https:\/\/www.last.fm\/music\/Charli+XCX\/_\/guess+featuring+billie+eilish",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1206036",
+      "playcount": "20003093",
+      "artist": {
+        "name": "Charli XCX",
+        "mbid": "260b6184-8828-48eb-945c-bc4cb6fc34ca",
+        "url": "https:\/\/www.last.fm\/music\/Charli+XCX"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electro house",
+            "url": "https:\/\/www.last.fm\/tag\/electro+house"
+          },
+          {
+            "name": "tech house",
+            "url": "https:\/\/www.last.fm\/tag\/tech+house"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "Electroclash",
+            "url": "https:\/\/www.last.fm\/tag\/Electroclash"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Aug 2024, 04:24",
+        "summary": "Teamed with Billie Eilish, this is a remix of \u201dGuess\u201d from the deluxe version of Charli\u2019s seventh studio album BRAT.\n\nCharli first teased the remix on the 31st of July, captioning the post \u2019Guess ?\u2019; in which, much like the cheeky lyrics in the original song, Charli cheekily wants her fans to guess who is collaborating on the remix.\n\nAlthough at that time, the collaborator\u2019s identity remained ambiguous, it was speculated by many that American singer & songwriter, Billie Eilish, was to be collaborating with Charli on the song. <a href=\"http:\/\/www.last.fm\/music\/Charli+XCX\/_\/guess+featuring+billie+eilish\">Read more on Last.fm<\/a>.",
+        "content": "Teamed with Billie Eilish, this is a remix of \u201dGuess\u201d from the deluxe version of Charli\u2019s seventh studio album BRAT.\n\nCharli first teased the remix on the 31st of July, captioning the post \u2019Guess ?\u2019; in which, much like the cheeky lyrics in the original song, Charli cheekily wants her fans to guess who is collaborating on the remix.\n\nAlthough at that time, the collaborator\u2019s identity remained ambiguous, it was speculated by many that American singer & songwriter, Billie Eilish, was to be collaborating with Charli on the song. Billie was to add further fuel to the speculation via her Instagram story; entertaining the potential of her being featured on the remix, with a question mark on her face, once again cheekily jabbing at the audience with the \u2018guessing\u2019 symbol.\n\nA day later, on August 1st, it was confirmed by Charli that Billie was the one collaborating on the track. Charli also revealed the existence of a music video coinciding with the remix that would be released at 6pm EST on the same day. <a href=\"http:\/\/www.last.fm\/music\/Charli+XCX\/_\/guess+featuring+billie+eilish\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:57.896930+00:00",
+  "elapsed": 0.199255,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:57.896930+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5882",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=End+Game"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=End+Game",
+  "_decoded_content": {
+    "track": {
+      "name": "End Game",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/End+Game",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "658014",
+      "playcount": "11193168",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "End Game",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/End+Game",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a11dc25604ce6ed546ebafc79db20c57.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a11dc25604ce6ed546ebafc79db20c57.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a11dc25604ce6ed546ebafc79db20c57.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a11dc25604ce6ed546ebafc79db20c57.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "future",
+            "url": "https:\/\/www.last.fm\/tag\/future"
+          },
+          {
+            "name": "Ed Sheeran",
+            "url": "https:\/\/www.last.fm\/tag\/Ed+Sheeran"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2022, 02:49",
+        "summary": "\"End Game\" is a song by American singer-songwriter Taylor Swift, featuring English singer Ed Sheeran and American rapper Future. The song is taken from Swift's sixth studio album \"reputation\". It was written by the three artists and its producers, Max Martin and Shellback. Musically, \"End Game\" is a pop-rap and power pop song that hybridizes hip hop and R&B, incorporating loose cadences, trap beats, and hip hop-influenced drums. In the lyrics, the <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/End+Game\">Read more on Last.fm<\/a>.",
+        "content": "\"End Game\" is a song by American singer-songwriter Taylor Swift, featuring English singer Ed Sheeran and American rapper Future. The song is taken from Swift's sixth studio album \"reputation\". It was written by the three artists and its producers, Max Martin and Shellback. Musically, \"End Game\" is a pop-rap and power pop song that hybridizes hip hop and R&B, incorporating loose cadences, trap beats, and hip hop-influenced drums. In the lyrics, the three artists talk about finding their true love amidst the tumultuous gossip on their perceived reputations.\n\nThis star-studded track is the sole collaboration on reputation. Before it was announced, \u201cEddie\u201d and \u201cFuture\u201d were written in graffiti in certain shots of the \u201c\u2026Ready For It?\u201d music video.\n\n\u201cEnd Game\u201d revolves around the idea of Taylor wanting to be her lover\u2019s soulmate. While she never mentions who this person is, the Internet seems to be convinced that since he has a huge \u201creputation,\u201d he must be Tom Hiddleston, whom Taylor was in a relationship in 2016, or Joe Alwyn, her boyfriend as of the song\u2019s release. Through the lyrics, Taylor hopes that the \u201cdrama\u201d revolving around her doesn\u2019t keep this guy from being with her because they\u2019ve already been so close.\n\nTaylor previously worked with Ed Sheeran on her 2012 track \u201cEverything Has Changed,\u201d on which Ed sang the second verse. This is her first collaboration with Future and her overall third collaboration with a rapper, following the remix of her track \u201cBad Blood,\u201d which featured Kendrick Lamar, and \u201cBoth of Us (feat. Taylor Swift)\u201d by B.o.B., featuring Swift.\n\nThe track was released as the 3rd single off the album and sent to contemporary hit radio on December 3rd, 2017 in the United States. The music video was released on January 11th, 2018.\n\nIn the behind-the-scenes video for the song\u2019s music video, Ed Sheeran said:\n\n\"I actually wrote [my verse] in, I remember where it was, I was in a hotel room in New York, in bed at about eight o'clock in the morning. I woke up \u2018cause for some reason I, like, dreamed it in my head what I was gonna do. [\u2026] I woke up and then, like, typed it all out and then recorded it like a day later and sent it to [Taylor]. And I remember [she] liked it, which is good, positive. [\u2026] I\u2019ve never really featured like this, maybe I\u2019ve done, like, two tracks where I\u2019ve featured. [\u2026] Well, you see, [the \u201cFourth of July\u201d line] is kind of a play on words. Not really a play on words, it\u2019s kind of\u2026 there\u2019s a film with Tom Cruise called Born on the Fourth of July\u2026 my relationship started on the fourth of July.\"\n\nIn the same video, Taylor said:\n\n\"I really, really, really, really, really, really liked [Ed\u2019s verse] because [he hadn\u2019t] done the, like, cadence, rhythmic thing since Plus. [\u2026] The \u201cfourth of July\u201d line makes me really happy. [\u2026] I also like, um, like, I don\u2019t know, \u201cI\u2019ve got chips on both of my shoulders,\u201d I like that a lot.\"\n\nSheeran told Audacy in September 2021:\n\n\"I was playing Mohegan Sun in Connecticut, and [Taylor] has a place in Rhode Island, which isn\u2019t too far. So she hits me up like, \u2018I know you\u2019re in Connecticut, come around.\u2019 I go around, she plays me some of what turned out to be reputation, and plays me this End Game, and I was like \u2018Man, I really like this. Can I do a verse? Can I do a rap verse?\u2019 And she was like, \u2018Yeah, for sure!\u2019 So the next day, I remember, I was in bed, and woke up and got my laptop out, put the song, just looped it, wrote this verse, and I went in with Max Martin, who she did the song with, and recorded it. Then Future did a verse, and then Taylor wrote a verse and we did the video.\"\n\n\u201cEnd Game\u201d became Swift\u2019s recording breaking 55th top 40 hit in the history of the Billboard Hot 100 chart, according a recent Billboard article! <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/End+Game\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

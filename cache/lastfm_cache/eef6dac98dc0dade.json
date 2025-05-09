@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:12.285236+00:00",
+  "elapsed": 0.215747,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:12.285236+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3048",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Timberlake&format=json&method=track.getInfo&track=Filthy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Timberlake&format=json&method=track.getInfo&track=Filthy",
+  "_decoded_content": {
+    "track": {
+      "name": "Filthy",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Timberlake\/_\/Filthy",
+      "duration": "253000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "113153",
+      "playcount": "671759",
+      "artist": {
+        "name": "Justin Timberlake",
+        "mbid": "596ffa74-3d08-44ef-b113-765d43d12738",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Timberlake"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Grandmix 2018 (mixed by Ben Liebrand)",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Grandmix+2018+(mixed+by+Ben+Liebrand)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0f78b1c515803d876969678ed6106141.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0f78b1c515803d876969678ed6106141.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0f78b1c515803d876969678ed6106141.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0f78b1c515803d876969678ed6106141.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "bomba",
+            "url": "https:\/\/www.last.fm\/tag\/bomba"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "worst of 2018",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2018"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Jan 2018, 13:07",
+        "summary": "\"Filthy\" is the lead single from American singer-songwriter Justin Timberlake's upcoming studio album, Man of the Woods (2018). The song was written and produced by Timberlake, Timbaland, and Danja, with additional songwriting from James Fauntleroy, and Larrance Dopson. The single was released on January 5, 2018, along with its music video. It will be serviced to contemporary hit radio on January 9, 2018.\n\n\"Filthy\" was revealed as the first single the day after Man of the Woods was confirmed. <a href=\"http:\/\/www.last.fm\/music\/Justin+Timberlake\/_\/Filthy\">Read more on Last.fm<\/a>.",
+        "content": "\"Filthy\" is the lead single from American singer-songwriter Justin Timberlake's upcoming studio album, Man of the Woods (2018). The song was written and produced by Timberlake, Timbaland, and Danja, with additional songwriting from James Fauntleroy, and Larrance Dopson. The single was released on January 5, 2018, along with its music video. It will be serviced to contemporary hit radio on January 9, 2018.\n\n\"Filthy\" was revealed as the first single the day after Man of the Woods was confirmed. Timberlake, Timbaland and Danja first collaborated in Justified and FutureSex\/LoveSounds, respectively. All three artists co-wrote the song along with James Fauntleroy, who co-wrote all songs on The 20\/20 Experience and all but two songs on 2 of 2 and Larrance Dopson.\n\n\"Filthy\" is an electro funk number. The song comprises funky electro-R&B elements.[5] Billboard noted the song is a combination of anthemic rock with electro.\n\n\n <a href=\"http:\/\/www.last.fm\/music\/Justin+Timberlake\/_\/Filthy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

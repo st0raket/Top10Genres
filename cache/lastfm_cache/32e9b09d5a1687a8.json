@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:32:35.984551+00:00",
+  "elapsed": 0.205144,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:35.984551+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2010",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Roddy+Ricch&format=json&method=track.getInfo&track=Perfect+Time"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Roddy+Ricch&format=json&method=track.getInfo&track=Perfect+Time",
+  "_decoded_content": {
+    "track": {
+      "name": "Perfect Time",
+      "url": "https:\/\/www.last.fm\/music\/Roddy+Ricch\/_\/Perfect+Time",
+      "duration": "142000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "80829",
+      "playcount": "570767",
+      "artist": {
+        "name": "Roddy Ricch",
+        "url": "https:\/\/www.last.fm\/music\/Roddy+Ricch"
+      },
+      "album": {
+        "artist": "Roddy Ricch",
+        "title": "Please Excuse Me for Being Antisocial",
+        "url": "https:\/\/www.last.fm\/music\/Roddy+Ricch\/Please+Excuse+Me+for+Being+Antisocial",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b99fa4b5cf3a2cd7974ffd139c7250fc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b99fa4b5cf3a2cd7974ffd139c7250fc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b99fa4b5cf3a2cd7974ffd139c7250fc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b99fa4b5cf3a2cd7974ffd139c7250fc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Aug 2023, 03:13",
+        "summary": "Perfect Time\u201d is the fourth track off Roddy\u2019s debut studio album Please Excuse Me for Being Antisocial. On \u201cPerfect Time\u201d, the Compton native talks about his fame and success and how he\u2019s grateful for what he has. He questions who\u2019s real and who isn\u2019t and only knows the authenticity of the people who have been with him the whole time. <a href=\"http:\/\/www.last.fm\/music\/Roddy+Ricch\/_\/Perfect+Time\">Read more on Last.fm<\/a>.",
+        "content": "Perfect Time\u201d is the fourth track off Roddy\u2019s debut studio album Please Excuse Me for Being Antisocial. On \u201cPerfect Time\u201d, the Compton native talks about his fame and success and how he\u2019s grateful for what he has. He questions who\u2019s real and who isn\u2019t and only knows the authenticity of the people who have been with him the whole time. <a href=\"http:\/\/www.last.fm\/music\/Roddy+Ricch\/_\/Perfect+Time\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

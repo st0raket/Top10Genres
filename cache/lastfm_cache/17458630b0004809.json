@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:44.851154+00:00",
+  "elapsed": 0.234201,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:44.851154+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3517",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Empire+Of+The+Sun&format=json&method=track.getInfo&track=We+Are+The+People"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Empire+Of+The+Sun&format=json&method=track.getInfo&track=We+Are+The+People",
+  "_decoded_content": {
+    "track": {
+      "name": "We Are the People",
+      "mbid": "35b424ed-5524-45dc-a463-679374a53620",
+      "url": "https:\/\/www.last.fm\/music\/Empire+of+the+Sun\/_\/We+Are+the+People",
+      "duration": "268000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1181444",
+      "playcount": "12845001",
+      "artist": {
+        "name": "Empire of the Sun",
+        "mbid": "ac7e838c-3d95-47c2-92a9-81767ad7c217",
+        "url": "https:\/\/www.last.fm\/music\/Empire+of+the+Sun"
+      },
+      "album": {
+        "artist": "Empire of the Sun",
+        "title": "We Are The People",
+        "mbid": "59055d12-65c9-4214-b04d-ef4df050e24e",
+        "url": "https:\/\/www.last.fm\/music\/Empire+of+the+Sun\/We+Are+The+People",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/461fe4e8e5ee4eed9cf34766f3541dc8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/461fe4e8e5ee4eed9cf34766f3541dc8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/461fe4e8e5ee4eed9cf34766f3541dc8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/461fe4e8e5ee4eed9cf34766f3541dc8.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Feb 2009, 19:45",
+        "summary": "\"We Are the People\" is a song by Australian electronic music duo Empire of the Sun. It is the second single from their debut studio album, Walking on a Dream (2008). It was released in Australia on 20 September 2008 and debuted at #85 on the ARIA Singles Chart before peaking at #24 on 12 January 2009. In December 2010, it reached number one in Germany.\n\nMusic Video  \nThe music video, directed by Josh Logue, was filmed in Mexico and was inspired by the ancient Mexican festival D\u00eda de Muertos (Day of the Dead). <a href=\"http:\/\/www.last.fm\/music\/Empire+of+the+Sun\/_\/We+Are+the+People\">Read more on Last.fm<\/a>.",
+        "content": "\"We Are the People\" is a song by Australian electronic music duo Empire of the Sun. It is the second single from their debut studio album, Walking on a Dream (2008). It was released in Australia on 20 September 2008 and debuted at #85 on the ARIA Singles Chart before peaking at #24 on 12 January 2009. In December 2010, it reached number one in Germany.\n\nMusic Video  \nThe music video, directed by Josh Logue, was filmed in Mexico and was inspired by the ancient Mexican festival D\u00eda de Muertos (Day of the Dead). Shooting locations included Garc\u00eda, Nuevo Le\u00f3n (Icamole Desert), Mina, Nuevo Le\u00f3n (Ex-Hacienda del Muerto), and Xilitla in San Luis Potos\u00ed (Jard\u00edn de Las Pozas). The video was nominated for Best Video at the ARIA Music Awards of 2008.\n\nIn Popular Culture  \nThe song has been featured in various media, including:\n\nAdvertisements for the Special Broadcasting Service\nCommercials for Vizio televisions\nIdents for Channel V\nTV commercials for Vodafone Germany (from October 2010), leading to a chart resurgence and reaching #1\nThe 2011 films The Roommate and Hall Pass\nEpisode 11, Season 6 of Entourage\n\n\nIn 2024, the song experienced a resurgence in popularity after going viral on the social media platform TikTok. <a href=\"http:\/\/www.last.fm\/music\/Empire+of+the+Sun\/_\/We+Are+the+People\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

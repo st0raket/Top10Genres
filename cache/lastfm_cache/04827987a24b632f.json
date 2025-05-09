@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:41:32.849607+00:00",
+  "elapsed": 0.442501,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:32.849607+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2607",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Chk+Chk+Boom"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Chk+Chk+Boom",
+  "_decoded_content": {
+    "track": {
+      "name": "Chk Chk Boom",
+      "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Chk+Chk+Boom",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "237020",
+      "playcount": "8138635",
+      "artist": {
+        "name": "STRAY KIDS",
+        "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Aug 2024, 20:09",
+        "summary": "\u201cChk Chk Boom\u201d is the lead-single and second track from Stray Kids\u2019s ninth extended play ATE. The song and music video were released alongside the album on July 19, 2024, with the music video, directed by Bang Jae-yeob, starring Ryan Reynolds and Hugh Jackman to promote their upcoming movie Deadpool & Wolverine, which was released a couple days later, the movie also featuring a soundtrack by Stray Kids, titled \"SLASH\".\n\nThe track did well on international and domestic charts <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Chk+Chk+Boom\">Read more on Last.fm<\/a>.",
+        "content": "\u201cChk Chk Boom\u201d is the lead-single and second track from Stray Kids\u2019s ninth extended play ATE. The song and music video were released alongside the album on July 19, 2024, with the music video, directed by Bang Jae-yeob, starring Ryan Reynolds and Hugh Jackman to promote their upcoming movie Deadpool & Wolverine, which was released a couple days later, the movie also featuring a soundtrack by Stray Kids, titled \"SLASH\".\n\nThe track did well on international and domestic charts, peaking at 23 on the Circle Chart, as well as hitting #1 on Billboard's US World Digital Song Sales. \n\nThe song was written and composed entirely by Stray Kids\u2019s production team 3RACHA, collaborating on composition and arrangement alongside iconic DJ DallasK, Dutch songwriter Ronnie Icon, Swedish composer BB ELLIOT, Korean producer RESTART, and Korean composer Chae Kang-hae.\n\n\"It's a track that exudes the confidence to aim for your desired goals more perfectly than anyone else. It is a song that will make you feel a new charm with an addictive loop on top of a Latin-style reggaeton and hip-hop rhythm interpreted in our way as Stray Kids, a languid and unique top line, and lyrics.\" \u2014Stray Kids <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Chk+Chk+Boom\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

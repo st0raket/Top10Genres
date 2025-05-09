@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:16.697936+00:00",
+  "elapsed": 0.286165,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:16.697936+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1657",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marshmello&format=json&method=track.getInfo&track=FRIENDS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marshmello&format=json&method=track.getInfo&track=FRIENDS",
+  "_decoded_content": {
+    "track": {
+      "name": "FRIENDS",
+      "url": "https:\/\/www.last.fm\/music\/Marshmello\/_\/FRIENDS",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "542870",
+      "playcount": "3817557",
+      "artist": {
+        "name": "Marshmello",
+        "url": "https:\/\/www.last.fm\/music\/Marshmello"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Rtl Hits 2018",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Rtl+Hits+2018",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4bd953953e138b9525bb72f555745100.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4bd953953e138b9525bb72f555745100.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4bd953953e138b9525bb72f555745100.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4bd953953e138b9525bb72f555745100.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "teen pop",
+            "url": "https:\/\/www.last.fm\/tag\/teen+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Mar 2018, 20:53",
+        "summary": "A collaborative song with Marshmello and Anne-Marie about getting friendzoned by a lover. <a href=\"http:\/\/www.last.fm\/music\/Marshmello\/_\/FRIENDS\">Read more on Last.fm<\/a>.",
+        "content": "A collaborative song with Marshmello and Anne-Marie about getting friendzoned by a lover. <a href=\"http:\/\/www.last.fm\/music\/Marshmello\/_\/FRIENDS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

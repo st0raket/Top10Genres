@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:36:02.883694+00:00",
+  "elapsed": 0.194923,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:02.883694+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1251",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Isaiah+Rashad&format=json&method=track.getInfo&track=RIP+Young"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Isaiah+Rashad&format=json&method=track.getInfo&track=RIP+Young",
+  "_decoded_content": {
+    "track": {
+      "name": "RIP Young",
+      "url": "https:\/\/www.last.fm\/music\/Isaiah+Rashad\/_\/RIP+Young",
+      "duration": "132000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "332371",
+      "playcount": "3411924",
+      "artist": {
+        "name": "Isaiah Rashad",
+        "mbid": "37547347-ea75-45fa-9766-ff36b44d8147",
+        "url": "https:\/\/www.last.fm\/music\/Isaiah+Rashad"
+      },
+      "album": {
+        "artist": "Isaiah Rashad",
+        "title": "The House is Burning",
+        "url": "https:\/\/www.last.fm\/music\/Isaiah+Rashad\/The+House+is+Burning",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a4a0843850fa09baf14b30bb07cfce77.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a4a0843850fa09baf14b30bb07cfce77.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a4a0843850fa09baf14b30bb07cfce77.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a4a0843850fa09baf14b30bb07cfce77.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Tennessee",
+            "url": "https:\/\/www.last.fm\/tag\/Tennessee"
+          },
+          {
+            "name": "chopped and screwed",
+            "url": "https:\/\/www.last.fm\/tag\/chopped+and+screwed"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          }
+        ]
+      }
+    }
+  }
+}

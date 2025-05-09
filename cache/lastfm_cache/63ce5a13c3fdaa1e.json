@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:44.637730+00:00",
+  "elapsed": 0.203495,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:44.637730+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5396",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=Rodeo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=Rodeo",
+  "_decoded_content": {
+    "track": {
+      "name": "Rodeo",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Rodeo",
+      "duration": "145000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "293871",
+      "playcount": "2086794",
+      "artist": {
+        "name": "Lil Nas X",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X"
+      },
+      "album": {
+        "artist": "Lil Nas X",
+        "title": "7 - EP",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/7+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3510d913360bcd74aca82554bc63ef7b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3510d913360bcd74aca82554bc63ef7b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3510d913360bcd74aca82554bc63ef7b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3510d913360bcd74aca82554bc63ef7b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cardi b",
+            "url": "https:\/\/www.last.fm\/tag\/cardi+b"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "country rap",
+            "url": "https:\/\/www.last.fm\/tag\/country+rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 May 2023, 18:59",
+        "summary": "\u201cRodeo\u201c is a song by American rappers Lil Nas X and Cardi B from the former's debut project, 7 EP. The song was written by the artists alongside Pardison Fontaine and producers Take a Daytrip, Roy Lenzo, and Russ Chell. Due to the song's interpolation of Heart's 1977 song \u201cBarracuda\u201c, band members Ann Wilson, Nancy Wilson, Michael Derosier, and Roger Fisher are also credited as songwriters. Musically, the song is a country trap track with a surf trumpet and reverberated staccato guitar riff. <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Rodeo\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRodeo\u201c is a song by American rappers Lil Nas X and Cardi B from the former's debut project, 7 EP. The song was written by the artists alongside Pardison Fontaine and producers Take a Daytrip, Roy Lenzo, and Russ Chell. Due to the song's interpolation of Heart's 1977 song \u201cBarracuda\u201c, band members Ann Wilson, Nancy Wilson, Michael Derosier, and Roger Fisher are also credited as songwriters. Musically, the song is a country trap track with a surf trumpet and reverberated staccato guitar riff. The song received generally positive reviews from music critics, who praised Cardi B's verse.\n\n\u201cRodeo\u201c debuted at number 22 on the US Billboard Hot 100, and reached charts in numerous other territories. The track was later certified platinum by the Recording Industry Association of America (RIAA) for shipments of a million certified units on February 19, 2020. In Canada, it peaked at number 44 on the Canadian Hot 100 and attained a double platinum certification from Music Canada (MC). The track charted at number 55 on the UK Singles Chart, number 35 on the Irish Singles Chart and number 13 on Latvia's M\u016bzikas Pat\u0113ri\u0146a Tops chart. The song peaked at number 72 on the ARIA Singles chart and number six on the New Zealand Hot Singles chart, an extension to the New Zealand Top 40 Singles chart.\n\n\nLil Nas X and Cardi B, among others, were sued by Don Lee and Glen Keith DeMeritt III, with the two of them claiming that \u201cRodeo\u201c plagiarized a track they produced called \u201cBroad Day\u201c. A remix of the former with Lil Nas X and American rapper Nas was released for digital download and streaming as a single on January 27, 2020, after a live performance by Lil Nas X and Nas of the remix during the 2020 Grammy Awards the previous day. It was supported by a music video and caused the song to re-enter the Billboard Hot 100 at number 74, with the magazine billing the artist as \"Lil Nas X featuring Cardi B or Nas\".\n\nAccording to Take a Daytrip, the duo of David Biral and Denzel Baptiste, the guitar lick for \"Rodeo\" was introduced during Lil Nas X's first studio session ever. The song's chorus was the first part the three of them completed, which was posted to Lil Nas X's Instagram before the rest of the song was finished, and had received around three million views within two days. A solo version of it was completed one month and a half later in New York City. Cardi B's verse was a late addition to \"Rodeo\", which Lil Nas X texted to the producers when they \"were in the studio working on something else\" a few days prior. The song was written by Lil Nas X and Cardi B, alongside Pardison Fontaine, Roy Lenzo, Russ Chell, Biral, and Baptiste, while the latter four produced the song.\n\nLil Nas X revealed the song's name as part of the tracklist for 7. Cardi B's appearance on it was not announced until the EP's release on June 21, 2019. A hip-hop song, \"Rodeo\" retains Lil Nas X's \"country trap style with twanging guitars\" according to Spin's Nina Braca. The song samples a guitar riff, described by Uproxx's Aaron Williams as \"a harder rock-oriented loop\" similar to Heart's \"Barracuda\", featuring Lil Nas X's country trap vocals, which Williams thought were \"to censure a romantic flame for her dependence on his largesse\". It includes a reverbed staccato guitar riff and surf trumpet. With \"twisted, brooding Mariachi tones\", \"Rodeo\" has a hint of guitar-and-drum driven heaviness. <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Rodeo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

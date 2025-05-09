@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:56.610865+00:00",
+  "elapsed": 0.200741,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:56.610865+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1381",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mannheim+Steamroller&format=json&method=track.getInfo&track=Deck+the+Halls"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mannheim+Steamroller&format=json&method=track.getInfo&track=Deck+the+Halls",
+  "_decoded_content": {
+    "track": {
+      "name": "Deck The Halls",
+      "mbid": "13aa0595-891a-4c4f-aeed-20b5d275c119",
+      "url": "https:\/\/www.last.fm\/music\/Mannheim+Steamroller\/_\/Deck+The+Halls",
+      "duration": "217000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "65018",
+      "playcount": "172439",
+      "artist": {
+        "name": "Mannheim Steamroller",
+        "mbid": "922a18b1-0aba-4868-8f38-2aa4f324fe16",
+        "url": "https:\/\/www.last.fm\/music\/Mannheim+Steamroller"
+      },
+      "album": {
+        "artist": "Mannheim Steamroller",
+        "title": "Christmas",
+        "mbid": "584dc05c-1858-46c4-b160-ca8f7dd9bf08",
+        "url": "https:\/\/www.last.fm\/music\/Mannheim+Steamroller\/Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5cbdce18004240baafe2aa750eb1cc31.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5cbdce18004240baafe2aa750eb1cc31.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5cbdce18004240baafe2aa750eb1cc31.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5cbdce18004240baafe2aa750eb1cc31.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          },
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "Yule",
+            "url": "https:\/\/www.last.fm\/tag\/Yule"
+          }
+        ]
+      }
+    }
+  }
+}

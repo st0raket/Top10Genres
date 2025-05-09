@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:39:58.343269+00:00",
+  "elapsed": 0.181919,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:58.343269+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1194",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sosa+La+M&format=json&method=track.getInfo&track=Enchant%C3%A9"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sosa+La+M&format=json&method=track.getInfo&track=Enchant%C3%A9",
+  "_decoded_content": {
+    "track": {
+      "name": "Enchant\u00e9",
+      "url": "https:\/\/www.last.fm\/music\/Sosa+La+M\/_\/Enchant%C3%A9",
+      "duration": "96000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "19757",
+      "playcount": "260622",
+      "artist": {
+        "name": "Sosa La M",
+        "url": "https:\/\/www.last.fm\/music\/Sosa+La+M"
+      },
+      "album": {
+        "artist": "Sosa La M",
+        "title": "Enchant\u00e9 - Single",
+        "url": "https:\/\/www.last.fm\/music\/Sosa+La+M\/Enchant%C3%A9+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9d671c5d643ce782a7b3206ec7293c6f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9d671c5d643ce782a7b3206ec7293c6f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9d671c5d643ce782a7b3206ec7293c6f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9d671c5d643ce782a7b3206ec7293c6f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "german hiphop",
+            "url": "https:\/\/www.last.fm\/tag\/german+hiphop"
+          },
+          {
+            "name": "german rap",
+            "url": "https:\/\/www.last.fm\/tag\/german+rap"
+          },
+          {
+            "name": "french rap",
+            "url": "https:\/\/www.last.fm\/tag\/french+rap"
+          },
+          {
+            "name": "french trap",
+            "url": "https:\/\/www.last.fm\/tag\/french+trap"
+          },
+          {
+            "name": "german trap",
+            "url": "https:\/\/www.last.fm\/tag\/german+trap"
+          }
+        ]
+      }
+    }
+  }
+}

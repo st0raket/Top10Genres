@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:30:11.191735+00:00",
+  "elapsed": 0.219498,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:11.191735+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1116",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=W+O+R+K+I+N+M+E"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=W+O+R+K+I+N+M+E",
+  "_decoded_content": {
+    "track": {
+      "name": "W O R K I N M E",
+      "url": "https:\/\/www.last.fm\/music\/Quavo\/_\/W+O+R+K+I+N+M+E",
+      "duration": "169000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "16165",
+      "playcount": "59961",
+      "artist": {
+        "name": "Quavo",
+        "url": "https:\/\/www.last.fm\/music\/Quavo"
+      },
+      "album": {
+        "artist": "Quavo",
+        "title": "W O R K I N M E",
+        "url": "https:\/\/www.last.fm\/music\/Quavo\/W+O+R+K+I+N+M+E",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e9500ca29faf92499b677e8657a18e42.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e9500ca29faf92499b677e8657a18e42.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e9500ca29faf92499b677e8657a18e42.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e9500ca29faf92499b677e8657a18e42.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "fallon",
+            "url": "https:\/\/www.last.fm\/tag\/fallon"
+          }
+        ]
+      }
+    }
+  }
+}

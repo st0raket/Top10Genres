@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:25.682687+00:00",
+  "elapsed": 0.200707,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:25.682687+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2520",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Landed"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Landed",
+  "_decoded_content": {
+    "track": {
+      "name": "Landed",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Landed",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "160310",
+      "playcount": "1227843",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "Dark Lane Demo Tapes",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/Dark+Lane+Demo+Tapes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e75cc42063c783b2efc46f0178530083.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e75cc42063c783b2efc46f0178530083.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e75cc42063c783b2efc46f0178530083.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e75cc42063c783b2efc46f0178530083.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": " rap",
+            "url": "https:\/\/www.last.fm\/tag\/+rap"
+          },
+          {
+            "name": " trap",
+            "url": "https:\/\/www.last.fm\/tag\/+trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Aug 2021, 12:07",
+        "summary": "On \u201cLanded\u201d Drake drops braggadocios bars and name drops the various brands he enjoys in his luxurious life referencing everything from high end jewelry brand Cartier to luxury car brand Cadillac to his own personal plane \u201cAir Drake.\u201d The hook references Drakes frequent travel, which has most likely increased since he got his own plane designed by friend and fashion icon Virgil Abloh.\n\nIt was originally teased on April 9th via Drake Instagram <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Landed\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cLanded\u201d Drake drops braggadocios bars and name drops the various brands he enjoys in his luxurious life referencing everything from high end jewelry brand Cartier to luxury car brand Cadillac to his own personal plane \u201cAir Drake.\u201d The hook references Drakes frequent travel, which has most likely increased since he got his own plane designed by friend and fashion icon Virgil Abloh.\n\nIt was originally teased on April 9th via Drake Instagram with the fanmade title \u201cScottie\u201d The song would end up being confirmed via tracklist with the official name to be Landed. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Landed\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

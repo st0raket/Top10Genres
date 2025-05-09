@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:33:12.471063+00:00",
+  "elapsed": 0.188287,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:12.471063+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1810",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Hardest+To+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Hardest+To+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Hardest To Love",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Hardest+To+Love",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "520966",
+      "playcount": "6039913",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "liquid funk",
+            "url": "https:\/\/www.last.fm\/tag\/liquid+funk"
+          },
+          {
+            "name": "liquid drum and bass",
+            "url": "https:\/\/www.last.fm\/tag\/liquid+drum+and+bass"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 May 2022, 12:57",
+        "summary": "\u201cHardest to Love\u201d features Abel reminiscing on his past behaviors in a relationship, blaming himself for its demise. The track\u2019s instrumental belongs to the genre of liquid drum & bass, a popular subgenre of electronica that rarely appears in mainstream pop music.\n\nThe song was first previewed in a teaser video posted to Abel\u2019s Twitter account on March 19, 2020. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Hardest+To+Love\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHardest to Love\u201d features Abel reminiscing on his past behaviors in a relationship, blaming himself for its demise. The track\u2019s instrumental belongs to the genre of liquid drum & bass, a popular subgenre of electronica that rarely appears in mainstream pop music.\n\nThe song was first previewed in a teaser video posted to Abel\u2019s Twitter account on March 19, 2020. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Hardest+To+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

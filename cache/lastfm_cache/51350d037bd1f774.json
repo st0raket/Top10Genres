@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:34:58.942599+00:00",
+  "elapsed": 0.182764,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:58.942599+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1409",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cardi+B&format=json&method=track.getInfo&track=Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cardi+B&format=json&method=track.getInfo&track=Up",
+  "_decoded_content": {
+    "track": {
+      "name": "UP",
+      "url": "https:\/\/www.last.fm\/music\/Cardi+B\/_\/UP",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "562197",
+      "playcount": "5770058",
+      "artist": {
+        "name": "Cardi B",
+        "url": "https:\/\/www.last.fm\/music\/Cardi+B"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Feb 2021, 21:47",
+        "summary": "\"Up\" is a song by American rapper Cardi B, released on February 5, 2021, through Atlantic Records. The song was written by Cardi B alongside Edis Selmani (Yung Dza), Jordan Thorpe, Joshua Baker, DJ SwanQo and Sean Island and was produced by the latter two alongside Yung Dza. <a href=\"http:\/\/www.last.fm\/music\/Cardi+B\/_\/UP\">Read more on Last.fm<\/a>.",
+        "content": "\"Up\" is a song by American rapper Cardi B, released on February 5, 2021, through Atlantic Records. The song was written by Cardi B alongside Edis Selmani (Yung Dza), Jordan Thorpe, Joshua Baker, DJ SwanQo and Sean Island and was produced by the latter two alongside Yung Dza. <a href=\"http:\/\/www.last.fm\/music\/Cardi+B\/_\/UP\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

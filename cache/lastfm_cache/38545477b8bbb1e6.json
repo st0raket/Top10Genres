@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:50.923825+00:00",
+  "elapsed": 0.228515,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:50.923825+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2187",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lu%C3%ADsa+Sonza&format=json&method=track.getInfo&track=MODO+TURBO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lu%C3%ADsa+Sonza&format=json&method=track.getInfo&track=MODO+TURBO",
+  "_decoded_content": {
+    "track": {
+      "name": "MODO TURBO",
+      "url": "https:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/_\/MODO+TURBO",
+      "duration": "150000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "235830",
+      "playcount": "4960528",
+      "artist": {
+        "name": "Lu\u00edsa Sonza",
+        "url": "https:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Caf\u00e9 com Cuscuz Funk",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Caf%C3%A9+com+Cuscuz+Funk",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/356792c3828c1238262d176767336ca6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/356792c3828c1238262d176767336ca6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/356792c3828c1238262d176767336ca6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/356792c3828c1238262d176767336ca6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "urban",
+            "url": "https:\/\/www.last.fm\/tag\/urban"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "brasil",
+            "url": "https:\/\/www.last.fm\/tag\/brasil"
+          },
+          {
+            "name": "brazilian",
+            "url": "https:\/\/www.last.fm\/tag\/brazilian"
+          },
+          {
+            "name": "Nacional",
+            "url": "https:\/\/www.last.fm\/tag\/Nacional"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Dec 2020, 13:19",
+        "summary": "\"Modo Turbo\" (stylized in all caps) is a song by Brazilian singers Lu\u00edsa Sonza, Pabllo Vittar and Anitta, recorded for Sonza's second studio album, Doce 22. It was composed by Sonza, Diego Timb\u00f3, Rafinha RSQ and Arthur Marques, being produced by the latter two. It was released by Universal Music on December 21, 2020. <a href=\"http:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/_\/MODO+TURBO\">Read more on Last.fm<\/a>.",
+        "content": "\"Modo Turbo\" (stylized in all caps) is a song by Brazilian singers Lu\u00edsa Sonza, Pabllo Vittar and Anitta, recorded for Sonza's second studio album, Doce 22. It was composed by Sonza, Diego Timb\u00f3, Rafinha RSQ and Arthur Marques, being produced by the latter two. It was released by Universal Music on December 21, 2020. <a href=\"http:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/_\/MODO+TURBO\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

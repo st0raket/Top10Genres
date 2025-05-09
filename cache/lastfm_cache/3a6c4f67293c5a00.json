@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:26.793755+00:00",
+  "elapsed": 0.187066,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:26.793755+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3570",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KAROL+G&format=json&method=track.getInfo&track=Tusa"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KAROL+G&format=json&method=track.getInfo&track=Tusa",
+  "_decoded_content": {
+    "track": {
+      "name": "Tusa",
+      "url": "https:\/\/www.last.fm\/music\/Karol+G\/_\/Tusa",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "412454",
+      "playcount": "4806617",
+      "artist": {
+        "name": "Karol G",
+        "url": "https:\/\/www.last.fm\/music\/Karol+G"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "nicki minaj",
+            "url": "https:\/\/www.last.fm\/tag\/nicki+minaj"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Jun 2022, 06:11",
+        "summary": "\"Tusa\" is a song by Colombian reggaeton singer Karol G and Trinidadian-American rapper Nicki Minaj. The song was released on November 7, 2019 by Republic Records, Universal Music Latino and Universal Music Group, and was later included on Karol G's third studio album \"KG0516\". The song was written by Karol G, Minaj, Keityn, and Ovy on the Drums, and was produced by the latter.\n\n\"Tusa\" peaked at number 42 on the US Billboard Hot 100. It also became the first song by two lead female artists to debut at number one on the US Hot Latin Songs chart. <a href=\"http:\/\/www.last.fm\/music\/Karol+G\/_\/Tusa\">Read more on Last.fm<\/a>.",
+        "content": "\"Tusa\" is a song by Colombian reggaeton singer Karol G and Trinidadian-American rapper Nicki Minaj. The song was released on November 7, 2019 by Republic Records, Universal Music Latino and Universal Music Group, and was later included on Karol G's third studio album \"KG0516\". The song was written by Karol G, Minaj, Keityn, and Ovy on the Drums, and was produced by the latter.\n\n\"Tusa\" peaked at number 42 on the US Billboard Hot 100. It also became the first song by two lead female artists to debut at number one on the US Hot Latin Songs chart. As well, the song debuted at number 56 on the Rolling Stone Top 100, later peaking at number 41. The song peaked at number one in various Spanish-speaking countries and is the longest-running number-one single on the Argentina Hot 100, having spent 25 weeks at number one on the chart.\n\n\"Tusa\" is the first collaboration between Karol G and Minaj. On 6 November 2019, Karol G shared the artwork for the single on her social media, as well as snippets of the official music video. In an interview with Billboard, she told them how the collaboration came about:\n\n\"She called me and said: \"I'm going to make the best rap of my life for your song\", I felt so happy. I sent her the music at 1 p.m. At 1:07 p.m., she downloaded the file, and at 8 p.m., I had the song back.\"\n\n\"Tusa\" is Colombian slang for the mixture of heartache and desire for revenge felt by a person when their partner breaks up with them.\n\nWhile at a Pollstar conference Minaj spoke on her part on Tusa. Minaj said \"She had sent me another song, and she really loved it, and I tried to write to it but I couldn't, and instead of brushing her off, finally was like 'You know what, I love you, but I don't like this song. Could you send me something else?' And she sent me Tusa.\"\n\n\"Tusa\" was nominated for two Latin Grammy Awards in the categories Record of the Year and Song of the Year. The song was certified in multiple countries, going onto become the highest certified song in Mexico by AMPROFON and the 9th highest certified song by the Latin RIAA, according to the database. <a href=\"http:\/\/www.last.fm\/music\/Karol+G\/_\/Tusa\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

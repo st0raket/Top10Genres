@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:33:09.592133+00:00",
+  "elapsed": 0.383256,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:09.592133+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "599",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Haftbefehl&format=json&method=track.getInfo&track=Bolon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Haftbefehl&format=json&method=track.getInfo&track=Bolon",
+  "_decoded_content": {
+    "track": {
+      "name": "Bolon",
+      "url": "https:\/\/www.last.fm\/music\/Haftbefehl\/_\/Bolon",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7892",
+      "playcount": "73070",
+      "artist": {
+        "name": "Haftbefehl",
+        "mbid": "5fce249a-96cd-4296-b9f2-ef60c876b0bb",
+        "url": "https:\/\/www.last.fm\/music\/Haftbefehl"
+      },
+      "album": {
+        "artist": "Haftbefehl",
+        "title": "Das weisse Album [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Haftbefehl\/Das+weisse+Album+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

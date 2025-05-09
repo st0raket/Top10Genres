@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:34:14.464266+00:00",
+  "elapsed": 0.230526,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:14.464266+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1262",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camilo&format=json&method=track.getInfo&track=Vida+de+Rico"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camilo&format=json&method=track.getInfo&track=Vida+de+Rico",
+  "_decoded_content": {
+    "track": {
+      "name": "Vida de Rico",
+      "url": "https:\/\/www.last.fm\/music\/Camilo\/_\/Vida+de+Rico",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62635",
+      "playcount": "417456",
+      "artist": {
+        "name": "Camilo",
+        "mbid": "66287707-f62f-44f1-bc81-63489c8a4e3a",
+        "url": "https:\/\/www.last.fm\/music\/Camilo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Los N\u00ba1 de Cadena 100 (2021)",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Los+N%C2%BA1+de+Cadena+100+(2021)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a18f14c0ca2bd1fe1cb431842b27b0de.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a18f14c0ca2bd1fe1cb431842b27b0de.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a18f14c0ca2bd1fe1cb431842b27b0de.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a18f14c0ca2bd1fe1cb431842b27b0de.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cumbia",
+            "url": "https:\/\/www.last.fm\/tag\/cumbia"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          },
+          {
+            "name": "wsc 3 semi 3",
+            "url": "https:\/\/www.last.fm\/tag\/wsc+3+semi+3"
+          },
+          {
+            "name": "linedance 2021",
+            "url": "https:\/\/www.last.fm\/tag\/linedance+2021"
+          },
+          {
+            "name": "C Artist",
+            "url": "https:\/\/www.last.fm\/tag\/C+Artist"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:42.783857+00:00",
+  "elapsed": 0.21367,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:42.783857+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3646",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=No.+1+Party+Anthem"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=No.+1+Party+Anthem",
+  "_decoded_content": {
+    "track": {
+      "name": "No. 1 Party Anthem",
+      "mbid": "52ba3e3d-157f-400a-a603-6fb00ba3968c",
+      "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/No.+1+Party+Anthem",
+      "duration": "260000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1243675",
+      "playcount": "15739560",
+      "artist": {
+        "name": "Arctic Monkeys",
+        "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys"
+      },
+      "album": {
+        "artist": "Arctic Monkeys",
+        "title": "AM",
+        "mbid": "bf584cf2-dc33-433e-b8b2-b85578822726",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/AM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f579e414e20f40969185e41182d72472.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f579e414e20f40969185e41182d72472.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f579e414e20f40969185e41182d72472.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f579e414e20f40969185e41182d72472.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alex turner",
+            "url": "https:\/\/www.last.fm\/tag\/alex+turner"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2022, 03:38",
+        "summary": "Ironically, the slowest track off of \"AM\", \u201cNo. 1 Party Anthem\u201d pokes fun at waiting for an anthemic party song to feel the vibe. Some of the lyrics here were first used on Arctic Monkeys greatest hit, \u201cDo I Wanna Know?\u201d as Alex Turner commented:\n\n\"'Actually, I was looking through my old voice memos on my iPhone this morning, and I found a demo for \u201cDo I Wanna Know?\u201d that I\u2019ve done, and it\u2019s got the lyrics from \u201cNo. 1 Party Anthem\u201d on it.'\" <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/No.+1+Party+Anthem\">Read more on Last.fm<\/a>.",
+        "content": "Ironically, the slowest track off of \"AM\", \u201cNo. 1 Party Anthem\u201d pokes fun at waiting for an anthemic party song to feel the vibe. Some of the lyrics here were first used on Arctic Monkeys greatest hit, \u201cDo I Wanna Know?\u201d as Alex Turner commented:\n\n\"'Actually, I was looking through my old voice memos on my iPhone this morning, and I found a demo for \u201cDo I Wanna Know?\u201d that I\u2019ve done, and it\u2019s got the lyrics from \u201cNo. 1 Party Anthem\u201d on it.'\"\n\n\u201cNo. 1 Party Anthem\u201d is a bit of an outlier on this album, since it\u2019s a ballad on an album of more upbeat tracks. Did you worry about how it was going to fit on this album?\"\n\n\"'A little bit. I knew we wanted to have a couple of them types of tunes on there. You\u2019ve got that, and you\u2019ve got \u201cMad Sounds,\u201d which comes after it, but it\u2019s got a little bit of something else in there. There are others that are in major key on the record, but what connects it to the rest of them is the subject matter and the melody. I was trying to get away from melodies that stick on something, and it was one of the first melodies that meandered around a bit. You get that on \u201cDo I Wanna Know?\u201d and a couple others, as well, on the melody and the bridge. It\u2019s almost kind of conversational more than melodic. It doesn\u2019t seem to follow a formula. You don\u2019t really know where the next line is going to move melodically, which is exciting for me.'\"\n\n\u2014Alex Turner, Under the Radar <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/No.+1+Party+Anthem\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:39.573997+00:00",
+  "elapsed": 0.194329,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:39.573997+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2588",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Dumb+%26+Poetic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Dumb+%26+Poetic",
+  "_decoded_content": {
+    "track": {
+      "name": "Dumb & Poetic",
+      "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Dumb+&+Poetic",
+      "duration": "133000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "508026",
+      "playcount": "5746001",
+      "artist": {
+        "name": "Sabrina Carpenter",
+        "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter"
+      },
+      "album": {
+        "artist": "Sabrina Carpenter",
+        "title": "Short n' Sweet [Clean] [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/Short+n%27+Sweet+%5BClean%5D+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f12406c41b319b91faeb0efcd4709fa9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f12406c41b319b91faeb0efcd4709fa9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f12406c41b319b91faeb0efcd4709fa9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f12406c41b319b91faeb0efcd4709fa9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "folk pop",
+            "url": "https:\/\/www.last.fm\/tag\/folk+pop"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Aug 2024, 00:55",
+        "summary": "Confessional and heart wrenching, track 8 off of Sabrina\u2019s sixth album, \u201dShort n\u2019 Sweet\u201d, \u2019Dumb and Poetic\u2019 sees Sabrina reminisce on what her ex lover used to be, before ultimately realising he\u2019ll ruin her heart and her life through lies and deception\n\nSabrina lambasts him, stating that he faked being dumb and poetic in order to fool her to stay with him, trapping her within his self-centred cycle of drug abuse, layering it too with a lack of communication <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Dumb+&+Poetic\">Read more on Last.fm<\/a>.",
+        "content": "Confessional and heart wrenching, track 8 off of Sabrina\u2019s sixth album, \u201dShort n\u2019 Sweet\u201d, \u2019Dumb and Poetic\u2019 sees Sabrina reminisce on what her ex lover used to be, before ultimately realising he\u2019ll ruin her heart and her life through lies and deception\n\nSabrina lambasts him, stating that he faked being dumb and poetic in order to fool her to stay with him, trapping her within his self-centred cycle of drug abuse, layering it too with a lack of communication <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Dumb+&+Poetic\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

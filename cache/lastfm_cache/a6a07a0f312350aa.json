@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:58.836532+00:00",
+  "elapsed": 0.203733,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:58.836532+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3818",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Who%E2%80%99s+Afraid+of+Little+Old+Me%3F"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Who%E2%80%99s+Afraid+of+Little+Old+Me%3F",
+  "_decoded_content": {
+    "track": {
+      "name": "Who\u2019s Afraid of Little Old Me?",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Who%E2%80%99s+Afraid+of+Little+Old+Me%3F",
+      "duration": "334000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "521713",
+      "playcount": "11659249",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT [Clean] [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT+%5BClean%5D+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0d6266d79516537982f01b01f68ac36b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0d6266d79516537982f01b01f68ac36b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0d6266d79516537982f01b01f68ac36b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0d6266d79516537982f01b01f68ac36b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "chatgpt",
+            "url": "https:\/\/www.last.fm\/tag\/chatgpt"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "best of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Nov 2024, 04:16",
+        "summary": "Throughout this confrontational soundtrack, Taylor addresses and mocks all the rumors that surround her professional and personal life. In \u201cWho\u2019s Afraid of Little Old Me?,\u201d she highlights how the media constantly downsizes her, evidently through her repetition of \u201clittle old me\u201d as she refers to herself. This song shares similar sentiments to previous tracks in Taylor\u2019s discography, namely \u201cthe last great american dynasty\u201d and \u201cmad woman\u201d from folklore <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Who%E2%80%99s+Afraid+of+Little+Old+Me%3F\">Read more on Last.fm<\/a>.",
+        "content": "Throughout this confrontational soundtrack, Taylor addresses and mocks all the rumors that surround her professional and personal life. In \u201cWho\u2019s Afraid of Little Old Me?,\u201d she highlights how the media constantly downsizes her, evidently through her repetition of \u201clittle old me\u201d as she refers to herself. This song shares similar sentiments to previous tracks in Taylor\u2019s discography, namely \u201cthe last great american dynasty\u201d and \u201cmad woman\u201d from folklore, \u201cLook What You Made Me Do\u201d from reputation, and \u201cMiss Americana & The HeartBreak Prince\u201d from Lover.\n\nThe song echoes many instrumental and vocal similarities with her previous album reputation, which is rumored to be the next rerecording following this album. A large part of reputation discusses the struggle and backlash she faced from the media and people during her 3-year hiatus. In an effort to show that not a lot has changed since then, Taylor details receiving the same comments now as back then.\n\nTaylor writes this song amidst her new relationship with Travis Kelce. Fans believe this album was written in her immediate post breakup period from Joe Alwyn. During that time, many rumors came out about her possible relationship with The 1975 lead singer Matt Healy, feud with Olivia Rodrigo, a possible conflict with Ticketmaster, and allegations that her new relationship was a PR stunt.\n\nThe title possibly references the 1966 film\/1962 play by Edward Albee \u201cWho\u2019s afraid of Virginia Woolf?,\u201d a film that explores the complexities of a failing marriage. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Who%E2%80%99s+Afraid+of+Little+Old+Me%3F\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:03.204146+00:00",
+  "elapsed": 0.182908,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:03.204146+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3433",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=G+Herbo&format=json&method=track.getInfo&track=PTSD"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=G+Herbo&format=json&method=track.getInfo&track=PTSD",
+  "_decoded_content": {
+    "track": {
+      "name": "PTSD",
+      "url": "https:\/\/www.last.fm\/music\/G+Herbo\/_\/PTSD",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "267313",
+      "playcount": "3735949",
+      "artist": {
+        "name": "G Herbo",
+        "mbid": "db1543f1-7b3c-4110-8e60-5a4b3d80d97c",
+        "url": "https:\/\/www.last.fm\/music\/G+Herbo"
+      },
+      "album": {
+        "artist": "G Herbo",
+        "title": "PTSD",
+        "url": "https:\/\/www.last.fm\/music\/G+Herbo\/PTSD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0299f55960194b129cde6bc29215b37b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0299f55960194b129cde6bc29215b37b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0299f55960194b129cde6bc29215b37b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0299f55960194b129cde6bc29215b37b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "chance the rapper",
+            "url": "https:\/\/www.last.fm\/tag\/chance+the+rapper"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          },
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2021, 13:51",
+        "summary": "G Herbo recruits frequent collaborators Lil Uzi Vert, Chance the Rapper and Juice WRLD for the title track of his February 2020 album PTSD. The song marks Juice\u2019s second posthumous release, following his January 2020 song with Eminem: \u201cGodzilla\u201c. The PTSD album artwork features a tribute to many of Herbo\u2019s deceased friends, including Juice WRLD, who can be spotted towards the middle area.\n\n\u201cPTSD\u201d details the four artists' experiences with Post-Traumatic Stress Disorder <a href=\"http:\/\/www.last.fm\/music\/G+Herbo\/_\/PTSD\">Read more on Last.fm<\/a>.",
+        "content": "G Herbo recruits frequent collaborators Lil Uzi Vert, Chance the Rapper and Juice WRLD for the title track of his February 2020 album PTSD. The song marks Juice\u2019s second posthumous release, following his January 2020 song with Eminem: \u201cGodzilla\u201c. The PTSD album artwork features a tribute to many of Herbo\u2019s deceased friends, including Juice WRLD, who can be spotted towards the middle area.\n\n\u201cPTSD\u201d details the four artists' experiences with Post-Traumatic Stress Disorder, a mental health condition that develops in some people who have experienced a shocking event. G Herbo opened up about his experience with the disorder for Hip Hop DX:\n\n\"[Seeing a therapist] was probably my first introduction to me embracing my PTSD. We\u2019re so immune to a lot of this stuff that goes on in the inner city with like violence, going to jail and all that kind of shit, that we don\u2019t know that we suffer from these mental health issues. I\u2019m a product of that. I seen my first murder at nine years old.\"\n\nIt\u2019s worth noting that G Herbo, Lil Uzi and Chance have previously appeared together on Herbo\u2019s February 2018 song \u201cEverything (Remix)\u201c. Juice has also collaborated multiple times before with G Herbo, such as on the 2018 track \u201cHonestly\u201d.\n\nDuring the week ending March 14, 2020, \u201cPTSD\u201d debuted and peaked at #38 on the Hot 100.  \u201cPTSD\u201d was certified platinum by the RIAA on September 7th, 2020. <a href=\"http:\/\/www.last.fm\/music\/G+Herbo\/_\/PTSD\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

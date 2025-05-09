@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:01.367396+00:00",
+  "elapsed": 0.189486,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:01.367396+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3011",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KALEO&format=json&method=track.getInfo&track=Way+down+We+Go"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KALEO&format=json&method=track.getInfo&track=Way+down+We+Go",
+  "_decoded_content": {
+    "track": {
+      "name": "Way Down We Go",
+      "url": "https:\/\/www.last.fm\/music\/Kaleo\/_\/Way+Down+We+Go",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "691912",
+      "playcount": "6190016",
+      "artist": {
+        "name": "Kaleo",
+        "mbid": "ce8bf7a1-edc8-44ca-b405-84d9b7db0b17",
+        "url": "https:\/\/www.last.fm\/music\/Kaleo"
+      },
+      "album": {
+        "artist": "Kaleo",
+        "title": "A\/B",
+        "url": "https:\/\/www.last.fm\/music\/Kaleo\/A%2FB",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/73b6083496123a7736904f6b77a44895.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/73b6083496123a7736904f6b77a44895.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/73b6083496123a7736904f6b77a44895.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/73b6083496123a7736904f6b77a44895.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "blues rock",
+            "url": "https:\/\/www.last.fm\/tag\/blues+rock"
+          },
+          {
+            "name": "10s",
+            "url": "https:\/\/www.last.fm\/tag\/10s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Dec 2020, 14:52",
+        "summary": "\"Way Down We Go\" is a song by Icelandic rock band Kaleo, released as the second single for their first studio album A\/B by Elektra Records and Atlantic Records.\n\nCommercial performance\n\"Way Down We Go\" peaked at No. 1 on Billboard's Alternative Songs and Rock Airplay charts.\n\nLive performances\nA live performance of the song was recorded in the magma chamber of the dormant Icelandic volcano Thrihnukagigur.\n\nAppearances in other media\nThe song was used in the movie Collateral Beauty <a href=\"http:\/\/www.last.fm\/music\/Kaleo\/_\/Way+Down+We+Go\">Read more on Last.fm<\/a>.",
+        "content": "\"Way Down We Go\" is a song by Icelandic rock band Kaleo, released as the second single for their first studio album A\/B by Elektra Records and Atlantic Records.\n\nCommercial performance\n\"Way Down We Go\" peaked at No. 1 on Billboard's Alternative Songs and Rock Airplay charts.\n\nLive performances\nA live performance of the song was recorded in the magma chamber of the dormant Icelandic volcano Thrihnukagigur.\n\nAppearances in other media\nThe song was used in the movie Collateral Beauty, in a trailer for the movie Logan, in the trailer for the fourth season of Orange Is the New Black, as well as the shows Suits, Supergirl, Manifest, The Blacklist, Notorious, Lucifer, Grey's Anatomy, Teen Wolf, Blindspot, Eyewitness, Frequency and The Vampire Diaries, an advertisement for Boots UK, Riverdale, NCIS and was featured in the sports video game FIFA 16. A remix of the song was also played by EDM artist Lost Frequencies during his set at Tomorrowland in 2018. It is also available as DLC for the game Rocksmith 2014. <a href=\"http:\/\/www.last.fm\/music\/Kaleo\/_\/Way+Down+We+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

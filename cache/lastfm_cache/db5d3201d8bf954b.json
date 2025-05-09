@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:44:50.437089+00:00",
+  "elapsed": 0.206137,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:50.437089+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "946",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cashmere+Cat&format=json&method=track.getInfo&track=Quit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cashmere+Cat&format=json&method=track.getInfo&track=Quit",
+  "_decoded_content": {
+    "track": {
+      "name": "Quit",
+      "url": "https:\/\/www.last.fm\/music\/Cashmere+Cat\/_\/Quit",
+      "duration": "258000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7196",
+      "playcount": "44169",
+      "artist": {
+        "name": "Cashmere Cat",
+        "mbid": "8fbcd70f-bf1e-4624-b94a-fcff6b0c637e",
+        "url": "https:\/\/www.last.fm\/music\/Cashmere+Cat"
+      },
+      "album": {
+        "artist": "Cashmere Cat",
+        "title": "9",
+        "url": "https:\/\/www.last.fm\/music\/Cashmere+Cat\/9",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b782d5c2d33e416ea018dc2dc0a236d7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b782d5c2d33e416ea018dc2dc0a236d7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b782d5c2d33e416ea018dc2dc0a236d7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b782d5c2d33e416ea018dc2dc0a236d7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "ArianaGrande Quit",
+            "url": "https:\/\/www.last.fm\/tag\/ArianaGrande+Quit"
+          }
+        ]
+      }
+    }
+  }
+}

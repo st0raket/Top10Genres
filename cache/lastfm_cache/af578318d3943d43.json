@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:40:41.036600+00:00",
+  "elapsed": 0.19914,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:41.036600+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2578",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Carnival"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Carnival",
+  "_decoded_content": {
+    "track": {
+      "name": "Carnival",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Carnival",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "348149",
+      "playcount": "4383127",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "inter milan",
+            "url": "https:\/\/www.last.fm\/tag\/inter+milan"
+          },
+          {
+            "name": "Playboi Carti",
+            "url": "https:\/\/www.last.fm\/tag\/Playboi+Carti"
+          },
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Feb 2024, 08:19",
+        "summary": "\u201cCARNIVAL\u201d (initially \u201cH00LIGANS\u201d) is the twelfth track from VULTURES 1 and features Rich The Kid & Playboi Carti. The track was originally previewed at the Las Vegas Vultures Rave on December 15th, 2023. A newer version was later previewed at the Vultures Listening Party held in Chicago\u2019s United Center on February 8th, 2024. \n\nThis song features a new choir background, a new instrumental, an altered Rich The Kid and Kanye verse, and an entirely new feature by Playboi Carti. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Carnival\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCARNIVAL\u201d (initially \u201cH00LIGANS\u201d) is the twelfth track from VULTURES 1 and features Rich The Kid & Playboi Carti. The track was originally previewed at the Las Vegas Vultures Rave on December 15th, 2023. A newer version was later previewed at the Vultures Listening Party held in Chicago\u2019s United Center on February 8th, 2024. \n\nThis song features a new choir background, a new instrumental, an altered Rich The Kid and Kanye verse, and an entirely new feature by Playboi Carti. This version of the track was played at the February 9th Vultures Listening Party at the UBS Center in New York, after  Carti made a surprise appearance on the stage.\n\nKanye West also samples his own song \u201cHell of a Life\u201d in this song due to the original sample by  Ozzy Osbourne not being cleared announced via a public ouburst.\n\nThe Carnival Pack EP Cover which the song is featured on, has an album cover of a \u2018Inter Milan Ultra fan chanting the chorus of the song. A group of 'Inter Milan fans sung the backing chorus of the song; An interpolation of Rich The Kid\u2019s Chorus. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Carnival\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

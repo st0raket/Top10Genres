@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:33.127858+00:00",
+  "elapsed": 0.206898,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:33.127858+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2212",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Destiny&format=json&method=track.getInfo&track=Je+me+casse"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Destiny&format=json&method=track.getInfo&track=Je+me+casse",
+  "_decoded_content": {
+    "track": {
+      "name": "Je Me Casse",
+      "url": "https:\/\/www.last.fm\/music\/Destiny\/_\/Je+Me+Casse",
+      "duration": "178000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "44763",
+      "playcount": "482373",
+      "artist": {
+        "name": "Destiny",
+        "mbid": "c316f5d3-b358-4ce9-a7b5-68f72226c807",
+        "url": "https:\/\/www.last.fm\/music\/Destiny"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Eurovision Song Contest Rotterdam 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Eurovision+Song+Contest+Rotterdam+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d88cda920e71c77ad69b58e416678e6c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "eurovision 2021",
+            "url": "https:\/\/www.last.fm\/tag\/eurovision+2021"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "eurovision song contest 2021",
+            "url": "https:\/\/www.last.fm\/tag\/eurovision+song+contest+2021"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 May 2021, 11:28",
+        "summary": "\"Je me casse\" (French for 'I'm Out of Here', lit.\u2009'I Break Off') is a song by Maltese singer Destiny that represented Malta in the Eurovision Song Contest 2021. The song was written and composed by Amanuel Dermont, Malin Christin, Nicklas Eklund and Pete Barringer. <a href=\"http:\/\/www.last.fm\/music\/Destiny\/_\/Je+Me+Casse\">Read more on Last.fm<\/a>.",
+        "content": "\"Je me casse\" (French for 'I'm Out of Here', lit.\u2009'I Break Off') is a song by Maltese singer Destiny that represented Malta in the Eurovision Song Contest 2021. The song was written and composed by Amanuel Dermont, Malin Christin, Nicklas Eklund and Pete Barringer. <a href=\"http:\/\/www.last.fm\/music\/Destiny\/_\/Je+Me+Casse\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

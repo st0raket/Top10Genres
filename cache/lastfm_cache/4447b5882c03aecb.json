@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:22.369582+00:00",
+  "elapsed": 0.274473,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:22.369582+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5113",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LINKIN+PARK&format=json&method=track.getInfo&track=One+More+Light"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LINKIN+PARK&format=json&method=track.getInfo&track=One+More+Light",
+  "_decoded_content": {
+    "track": {
+      "name": "One More Light",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/One+More+Light",
+      "duration": "255000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "374320",
+      "playcount": "3855379",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "One More Light",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/One+More+Light",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 May 2020, 02:40",
+        "summary": "\"One More Light\" is a song by American rock band Linkin Park. It is the ninth and title track from their seventh studio album of the same name, as well as their last single with longtime lead vocalist Chester Bennington. The song was co-written with Eg White and was released to US contemporary hit radio on October 3, 2017 as the album's third single. It is Bennington's second posthumously released single.\n\nThe music video for this song was also voted <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/One+More+Light\">Read more on Last.fm<\/a>.",
+        "content": "\"One More Light\" is a song by American rock band Linkin Park. It is the ninth and title track from their seventh studio album of the same name, as well as their last single with longtime lead vocalist Chester Bennington. The song was co-written with Eg White and was released to US contemporary hit radio on October 3, 2017 as the album's third single. It is Bennington's second posthumously released single.\n\nThe music video for this song was also voted number one in a poll of Fuse Top 40 Videos of 2017 and is also nominated for Best Rock Video at the 2018 MTV Video Music Awards.\n\nIn late 2016, Shinoda revealed that he had worked with British songwriter Eg White on a song. In an interview leading up to the reveal of the album's lead single, \"Heavy\", Shinoda revealed that White had worked with him on the song \"One More Light\" while Brad Delson attended the funeral of one of the band's friends. When asked what he wanted to write about by White, Shinoda said that the only thing he could think about was the friend who had passed. He revealed that, in spite of the horrible inevitability of loss, the song is about letting people know that you care.\n\nLater on the band revealed the friend was Amy Zaret, a 25-year veteran of Warner Bros. Records who died in October 2015 following a cancer diagnosis. Mike said,\n\n    \"We had a friend who worked for the record label for a long time and came up with us from years and years ago. She started out in radio promo and was basically driving us to the local radio stations in the U.S. Midwest, eventually getting promoted and promoted. At some point last year, I suddenly heard that she'd got cancer - and then all of a sudden she had died. We knew we absolutely had to write about what happened. It's a sad song, but the pay-off is that when something dramatic and painful like that happens, the most important thing to do is to connect with the people you love and remind them you care about them.\"\n\nThe band surprised some of the people who worked at Warner with the song, and people reacted very emotionally to it, with some weeping, giving hugs, and telling stories. They played the song on Jimmy Kimmel Live! and dedicated it to their late friend Chris Cornell who had died a day before.\n\nAfter lead singer Chester Bennington's suicide on July 20, 2017, the band selected \"One More Light\" as their next single. Shinoda wrote \"One More Light was written with the intention of sending love to those who lost someone. We now find ourselves on the receiving end. In memorial events, art, videos, and images, fans all over the world have gravitated towards this song as their declaration of love and support for the band and the memory of our dear friend, Chester. We are so very grateful and can\u2019t wait to see you again.\"\n\nOn October 25, 2017, American DJ\/Producer and Linkin Park collaborator Steve Aoki released his remix of \"One More Light\", as his second tribute song to Bennington following his mashup, \"Darker Than The Light That Never Bleeds\", which was released a month earlier. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/One+More+Light\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:45:00.100726+00:00",
+  "elapsed": 0.259608,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:00.100726+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2712",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=No+Frauds"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=No+Frauds",
+  "_decoded_content": {
+    "track": {
+      "name": "No FRauDS",
+      "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/No+FRauDS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "168798",
+      "playcount": "1297580",
+      "artist": {
+        "name": "Nicki Minaj",
+        "mbid": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Lil Wayne",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Wayne"
+          },
+          {
+            "name": "nicki minaj",
+            "url": "https:\/\/www.last.fm\/tag\/nicki+minaj"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Mar 2022, 15:39",
+        "summary": "\"No Frauds\" is a song recorded by Trinidadian-American rapper Nicki Minaj, American rapper Lil Wayne and Canadian rapper Drake. The song is a diss track, made in response to American rapper Remy Ma's 2017 song \"Shether\", a nearly seven-minute-long diss track aimed at Minaj. Produced by Murda Beatz and Cubeatz, the song was released as a single on March 10, 2017, by Young Money Entertainment, Cash Money Records and Republic Records along with \"Changed It\" and \"Regret in Your Tears\". <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/No+FRauDS\">Read more on Last.fm<\/a>.",
+        "content": "\"No Frauds\" is a song recorded by Trinidadian-American rapper Nicki Minaj, American rapper Lil Wayne and Canadian rapper Drake. The song is a diss track, made in response to American rapper Remy Ma's 2017 song \"Shether\", a nearly seven-minute-long diss track aimed at Minaj. Produced by Murda Beatz and Cubeatz, the song was released as a single on March 10, 2017, by Young Money Entertainment, Cash Money Records and Republic Records along with \"Changed It\" and \"Regret in Your Tears\". In the song, Minaj criticizes Ma for her prison sentence and her record sales, among other things.\n\n\"No Frauds\" debuted and peaked at number 14 on the Billboard Hot 100. Critics compared the song poorly to \"Shether\" and criticized Drake and Lil Wayne's appearances on the song. On April 19, the Benny Boom-directed music video for \"No Frauds\" was released, and showed Minaj, Drake, and Lil Wayne in various locations throughout London. The video garnered backlash due to a scene featuring Minaj on the Westminster Bridge a month after the 2017 Westminster attack.\n\n\"No Frauds\" sold 78,861 copies during the first week of its release, debuting and peaking at number 14 on the US Billboard Hot 100 during the week dated April 1, 2017. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/No+FRauDS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

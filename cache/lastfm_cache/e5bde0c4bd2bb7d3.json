@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:56.551180+00:00",
+  "elapsed": 0.190878,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:56.551180+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "7536",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jason+Mraz&format=json&method=track.getInfo&track=I%27m+Yours"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jason+Mraz&format=json&method=track.getInfo&track=I%27m+Yours",
+  "_decoded_content": {
+    "track": {
+      "name": "I'm Yours",
+      "mbid": "a5a2330e-2fff-4601-a715-6e68a8e98fbf",
+      "url": "https:\/\/www.last.fm\/music\/Jason+Mraz\/_\/I%27m+Yours",
+      "duration": "242000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1881047",
+      "playcount": "15184893",
+      "artist": {
+        "name": "Jason Mraz",
+        "mbid": "82eb8936-7bf6-4577-8320-a2639465206d",
+        "url": "https:\/\/www.last.fm\/music\/Jason+Mraz"
+      },
+      "album": {
+        "artist": "Jason Mraz",
+        "title": "I'm Yours",
+        "mbid": "a64a4946-21cf-4c22-b0b5-c992223de996",
+        "url": "https:\/\/www.last.fm\/music\/Jason+Mraz\/I%27m+Yours",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a45e42f0bda5c1f0be8860273c364331.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a45e42f0bda5c1f0be8860273c364331.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a45e42f0bda5c1f0be8860273c364331.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a45e42f0bda5c1f0be8860273c364331.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          },
+          {
+            "name": "happy",
+            "url": "https:\/\/www.last.fm\/tag\/happy"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Dec 2008, 03:23",
+        "summary": "\"I'm Yours\" is a song written and recorded by American singer-songwriter Jason Mraz, released in 2008 as the first single from his third studio album \"We Sing. We Dance. We Steal Things.\". The song was originally released on a limited edition EP called \"Extra Credit\" as a demo in 2005 to promote his second studio album \"Mr. A\u2013Z\". It was performed in his 2004 and 2005 gigs and already became a crowd favorite before its release. \"I'm Yours\" was nominated for Song of the Year and Best Male Pop Vocal Performance at the 51st Grammy Awards. <a href=\"http:\/\/www.last.fm\/music\/Jason+Mraz\/_\/I%27m+Yours\">Read more on Last.fm<\/a>.",
+        "content": "\"I'm Yours\" is a song written and recorded by American singer-songwriter Jason Mraz, released in 2008 as the first single from his third studio album \"We Sing. We Dance. We Steal Things.\". The song was originally released on a limited edition EP called \"Extra Credit\" as a demo in 2005 to promote his second studio album \"Mr. A\u2013Z\". It was performed in his 2004 and 2005 gigs and already became a crowd favorite before its release. \"I'm Yours\" was nominated for Song of the Year and Best Male Pop Vocal Performance at the 51st Grammy Awards.\n\n\"I'm Yours\" was a huge commercial success in the United States. The song peaked at number 6 on the Billboard Hot 100; and spent 76 weeks on the chart, breaking the record for the longest charting song on the chart, previously held by LeAnn Rimes' song \"How Do I Live\" with 69 weeks on the chart; this record has since been broken and is currently held by The Weeknd's \"Blinding Lights\", which spent 90 weeks on the chart. As of January 2013, it is the tenth best-selling digital song of all time in the US, selling over 6 million downloads, and 12.2 million worldwide. In July 2021, it surpassed 1 billion streams on Spotify. It remains Mraz's biggest US hit single to date. It was the only song to crack Billboard's top 600 of all time chart despite never cracking the top 5.\n\nMraz first launched the song from the La Costa Resort and Spa in Carlsbad, California, at Michele Clark's Sunset Sessions in 2008. He also sang a version on Sesame Street titled \"Outdoors\" and released a successful remixed version featuring Lil Wayne and Jah Cure.\n\nThroughout 2008, \"I'm Yours\" slowly increased in airplay and digital sales and would go on to become Mraz's biggest hit to date, charting higher than his previous pop hit, 2003's \"The Remedy (I Won't Worry)\". It became his first top ten single in the US, peaking at number six on the Billboard Hot 100 and number five on the Pop 100. On the Billboard Hot Adult Top 40 Tracks chart, the song was number one for a total of nine weeks. The single later received Mainstream Top 40 airplay, eventually topping that chart as well. Due to its gradually building crossover appeal, the song has had extremely unusual longevity, not reaching number one on the Mainstream Top 40 until December 2008, ten months after its release and seven months after it debuted on the VH1 Top 20 Video Countdown. In fact, VH1 had already retired the song in early October 2008 after a 20-week run. The song returned to the top ten of the Hot 100 for the third time in its 38th week on the chart. \"I'm Yours\" would go on to chart for a total of 76 weeks, making this the longest chart run in Billboard magazine history, up until the 87-week run of Imagine Dragons' \"Radioactive\" and the 79-week run of AWOLNATION's \"Sail\", both set in 2014.\n\nA year into its release, it topped another chart for the first time, when it hit number one on the Billboard Hot Adult Contemporary Tracks during the week of February 5, 2009. This marked 11 months since the song had topped its first chart in the US, when it reached number one on the Triple A chart in March 2008. \"I'm Yours\" spent 16 weeks at number one on the Adult Contemporary chart. In addition, after topping the Adult Contemporary chart, \"I'm Yours\" became the first song to top the Triple A, Adult Top 40, Mainstream Top 40, and Adult Contemporary charts. Despite weak initial download sales, it became the eighth best-selling digital song in the United States by January 2012. It has sold 6,837,000 copies in the US as of April 23, 2014.\n\nIt is Mraz's most successful global single to date, reaching number one in Sweden and Norway, and the top ten in Canada, United States, Austria, Australia, Germany, Switzerland, Spain and Italy. It was also able to reach number one on the Top 40 Digital Track Chart in Australia. In Hawaii, radio stations do play the original version, along with a Hawaiian remix of the song. \"I'm Yours\" was also a huge hit in New Zealand where it peaked at number one, knocking off \"Poker Face\" which spent ten consecutive weeks at number one. It was certified gold after nine weeks selling over 7,500 copies and then certified platinum after 14 weeks selling over 15,000 copies.\n\n\"I'm Yours\" made its debut on the UK Singles Chart on December 12, 2008, at number 78 and then slowly climbed up the chart until it peaked at number 11. It spent the whole of 2009 on the chart apart from the final two weeks of the year, then re-entered in January 2010 and again in August, and has now clocked up 56 weeks on the official UK Top 75, making it currently the 15th longest runner of all time and the longest never to make the top 10, at 84 weeks on the top 100.\n\nThe music video debuted on March 14, 2008. I'm Yours was later featured as the Record of the Week on Scott Mills's BBC Radio One show on November 10, 2008. Since being added to YouTube it has been viewed over 620 million times as of late March 2021. It was filmed in Hawaii (Oahu and Kauai) in 2008 with veteran music video director Darren Doane.\n\n\"I'm Yours\" was featured in the episode \"All About Appearances\" from the television series \"Privileged\". It was also used for the Australian Seven Network's promotion of the season premiere of \"Packed to the Rafters\". <a href=\"http:\/\/www.last.fm\/music\/Jason+Mraz\/_\/I%27m+Yours\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:45:09.740208+00:00",
+  "elapsed": 0.358683,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:09.740208+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6343",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maroon+5&format=json&method=track.getInfo&track=Sugar"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maroon+5&format=json&method=track.getInfo&track=Sugar",
+  "_decoded_content": {
+    "track": {
+      "name": "Sugar",
+      "mbid": "ea4a91be-8a34-47de-8bcd-f5a75aec048c",
+      "url": "https:\/\/www.last.fm\/music\/Maroon+5\/_\/Sugar",
+      "duration": "234000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1058956",
+      "playcount": "7760178",
+      "artist": {
+        "name": "Maroon 5",
+        "mbid": "0ab49580-c84f-44d4-875f-d83760ea2cfe",
+        "url": "https:\/\/www.last.fm\/music\/Maroon+5"
+      },
+      "album": {
+        "artist": "Maroon 5",
+        "title": "V",
+        "mbid": "e8fe33d4-31a6-4394-941c-45fac8834322",
+        "url": "https:\/\/www.last.fm\/music\/Maroon+5\/V",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9dcbbb2587be11cca47d21f0619b49df.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9dcbbb2587be11cca47d21f0619b49df.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9dcbbb2587be11cca47d21f0619b49df.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9dcbbb2587be11cca47d21f0619b49df.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "katy perry birthday",
+            "url": "https:\/\/www.last.fm\/tag\/katy+perry+birthday"
+          },
+          {
+            "name": "katy perry",
+            "url": "https:\/\/www.last.fm\/tag\/katy+perry"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "10 of 10 stars",
+            "url": "https:\/\/www.last.fm\/tag\/10+of+10+stars"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Jul 2015, 14:35",
+        "summary": "\u201cSugar\u201d is a song by American pop-rock band Maroon 5, released on January 13, 2015, as the third single from their fifth studio album, V (2014). Written by Adam Levine, Jacob Kasher Hindlin, Mike Posner, Ammo, and producers Cirkut and Dr. Luke, the song became one of the band\u2019s biggest commercial successes and is widely known for its catchy hook and playful music video.\n\nBackground\nSugar was developed as a feel-good pop track, inspired by the upbeat, funky vibes of disco and soul music. <a href=\"http:\/\/www.last.fm\/music\/Maroon+5\/_\/Sugar\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSugar\u201d is a song by American pop-rock band Maroon 5, released on January 13, 2015, as the third single from their fifth studio album, V (2014). Written by Adam Levine, Jacob Kasher Hindlin, Mike Posner, Ammo, and producers Cirkut and Dr. Luke, the song became one of the band\u2019s biggest commercial successes and is widely known for its catchy hook and playful music video.\n\nBackground\nSugar was developed as a feel-good pop track, inspired by the upbeat, funky vibes of disco and soul music. Maroon 5 collaborated with prominent producers Dr. Luke and Cirkut to create a polished, radio-friendly sound. The song was released at a time when the band was focusing on pop crossover success, following the chart-topping hits \u201cAnimals\u201d and \u201cMaps.\u201d\n\nMusical style\nThe song blends pop, disco, and funk elements, characterized by a bouncy, infectious groove, falsetto vocals from lead singer Adam Levine, and a danceable rhythm. Bright guitar riffs, smooth basslines, and glossy synth layers make up the instrumental backdrop, while the chorus delivers an irresistibly catchy hook: \u201cSugar, yes please, won\u2019t you come and put it down on me.\u201d\n\nThe lighthearted, flirtatious tone of the song contributes to its widespread appeal across pop and dance audiences.\n\nLyrical analysis\nSugar uses sugary metaphors to express longing and desire in a romantic relationship. Lyrics like \u201cMy broken pieces, you pick them up\u201d and \u201cI need your love, I need a little sweetness in my life\u201d mix playful imagery with deeper undertones of emotional dependence and intimacy. The song maintains a fun, upbeat vibe while tapping into universal themes of love and need.\n\nChart performance\nSugar was a global hit:\n\nIn the United States, it peaked at No. 2 on the Billboard Hot 100 and remained in the top 10 for several weeks.\n\nIn the UK, it reached No. 7 on the Singles Chart.\n\nThe song also achieved top 10 positions in multiple countries, including Australia, Canada, Germany, and the Netherlands.\n\nThe Recording Industry Association of America (RIAA) certified the song multi-Platinum, marking it as one of Maroon 5\u2019s most commercially successful singles.\n\nMusic video\nThe music video, directed by David Dobkin (who also directed the film Wedding Crashers), became a viral sensation. It features Maroon 5 surprising real-life couples by crashing their weddings across Los Angeles, performing the song as the astonished brides and guests look on. The feel-good, spontaneous concept struck a chord with fans and contributed significantly to the song\u2019s popularity.\n\nThe video quickly racked up hundreds of millions of views on YouTube and remains one of the band\u2019s most iconic visual releases.\n\nLive performances\nMaroon 5 included Sugar in the setlists of their Maroon V Tour and subsequent tours. The song\u2019s energetic and upbeat nature makes it a staple for live shows, often eliciting strong audience participation.\n\nA memorable live performance took place at the 2015 iHeartRadio Music Awards, where the band brought their signature wedding-themed visuals to the stage.\n\nPersonnel\nAdam Levine \u2013 lead vocals, songwriting\n\nJesse Carmichael \u2013 keyboards, backing vocals\n\nJames Valentine \u2013 guitar, backing vocals\n\nMickey Madden \u2013 bass guitar\n\nMatt Flynn \u2013 drums\n\nPJ Morton \u2013 keyboards, backing vocals\n\nAdditional production and songwriting: Dr. Luke, Cirkut, Ammo, Mike Posner, Jacob Kasher Hindlin\n\nReception\nCritics praised Sugar for its infectious chorus and polished production, though some noted its straightforward pop formula. It has been widely embraced by fans and is frequently cited as one of Maroon 5\u2019s quintessential pop hits.\n\nThe music video, in particular, drew attention for its creative concept and feel-good execution, adding to the song\u2019s cultural impact.\n\nTrivia\nThe song received a Grammy nomination for Best Pop Duo\/Group Performance in 2016.\n\nWhile many of the weddings in the video were real, some reports suggest certain scenes were staged or re-shot for production purposes.\n\nSugar has been used in numerous commercials, TV shows, and films, underscoring its wide cultural reach. <a href=\"http:\/\/www.last.fm\/music\/Maroon+5\/_\/Sugar\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

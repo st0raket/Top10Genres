@@ -1,0 +1,72 @@
+{
+  "created_at": "2025-05-03T14:34:54.364301+00:00",
+  "elapsed": 0.195418,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:54.364301+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "592",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Masked+Wolf&format=json&method=track.getInfo&track=Astronaut+In+the+Ocean"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Masked+Wolf&format=json&method=track.getInfo&track=Astronaut+In+the+Ocean",
+  "_decoded_content": {
+    "track": {
+      "name": "Astronaut In The Ocean",
+      "url": "https:\/\/www.last.fm\/music\/Masked+Wolf\/_\/Astronaut+In+The+Ocean",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "470018",
+      "playcount": "4330334",
+      "artist": {
+        "name": "Masked Wolf",
+        "url": "https:\/\/www.last.fm\/music\/Masked+Wolf"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      }
+    }
+  }
+}

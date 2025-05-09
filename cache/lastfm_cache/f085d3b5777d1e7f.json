@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:37:12.023751+00:00",
+  "elapsed": 0.18893,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:12.023751+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4119",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TAEYEON&format=json&method=track.getInfo&track=INVU"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TAEYEON&format=json&method=track.getInfo&track=INVU",
+  "_decoded_content": {
+    "track": {
+      "name": "INVU",
+      "url": "https:\/\/www.last.fm\/music\/taeyeon\/_\/INVU",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "252853",
+      "playcount": "5249323",
+      "artist": {
+        "name": "taeyeon",
+        "url": "https:\/\/www.last.fm\/music\/taeyeon"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Mar 2022, 02:01",
+        "summary": "Taeyeon's lead single \"INVU\" (read as 'I envy you') from her third studio album of the same name is a masterpiece that showcases the singer's raw emotions and stunning vocals. Released on February 14, 2022, the song captures the feeling of envy and the pain of loving too much.\n\nThe music video, directed by Samson of High-Quality Fish, portrays Taeyeon as an enchanting warrior on a mission to annihilate the love that destroyed her. The celestial-themed video switches between various locations <a href=\"http:\/\/www.last.fm\/music\/taeyeon\/_\/INVU\">Read more on Last.fm<\/a>.",
+        "content": "Taeyeon's lead single \"INVU\" (read as 'I envy you') from her third studio album of the same name is a masterpiece that showcases the singer's raw emotions and stunning vocals. Released on February 14, 2022, the song captures the feeling of envy and the pain of loving too much.\n\nThe music video, directed by Samson of High-Quality Fish, portrays Taeyeon as an enchanting warrior on a mission to annihilate the love that destroyed her. The celestial-themed video switches between various locations, from a marble-carved ancient Roman-inspired temple to a vast desert wasteland, highlighting the singer's warlike visuals. The various sets also remind the viewers of Greek mythology, adding an extra layer of depth to the video.\n\nThe song, written by Jinli (Full8loom) and composed by Peter Wallevik, Daniel Davidsen, Rachel Furner, and Jess Morgan, is a house-based pop-dance track with a gentle and dream-like synth sound and a beautiful flute melody in the chorus. The rich high notes express the story of the song more dramatically. Taeyeon's emotional delivery and powerful vocals make the song stand out as one of the best in her discography.\n\nIn an interview with Nylon, Taeyeon revealed that hearing the song for the first time immediately drew her to this type of genre. She also stated that \"INVU\" is her favorite song off the album, as it describes the way she approaches to love. She further added that the song was not initially meant to be the lead single, but she had confidence in the track despite her team's initial doubts.\n\nMystical might be the best word to define \u201cINVU\u201d. In its music video, she is the part-Greek goddess of hunting, Artemis, and part Lord of the Rings elf on a deserted planet. With icy blue hair and a constellation of crystals, diamonds, and pearls adorning her hair to her nails, Taeyeon has never looked more ethereal. She shoots the moon in an attempt to stop the suffering. A heart of glass materializes in her hand, only to dissolve in glitter.\n\n\"INVU\" debuted at number one on South Korea's Gaon Digital Chart and topped various other component charts. On the Billboard K-pop Hot 100, the song debuted at position 15, ascending to position one in the following week.\n\nThe single is a stunning masterpiece that showcases Taeyeon's vocal prowess and raw emotions. From the gentle synth sound to the dream-like melody and the rich high notes, \"INVU\" is a must-listen for anyone who appreciates beautiful music. The music video, with its stunning visuals and mystical vibe, is a perfect complement to the song's theme and is a new kind of image and visual that Taeyeon hasn't tried before. \"INVU\" is a track that is sure to remain a classic in Taeyeon's discography for years to come. <a href=\"http:\/\/www.last.fm\/music\/taeyeon\/_\/INVU\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

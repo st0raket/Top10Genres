@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:34:55.007805+00:00",
+  "elapsed": 0.178122,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:55.007805+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3309",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vance+Joy&format=json&method=track.getInfo&track=Riptide"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vance+Joy&format=json&method=track.getInfo&track=Riptide",
+  "_decoded_content": {
+    "track": {
+      "name": "Riptide",
+      "mbid": "97c05d07-00d6-4d55-bbb8-b14321d2e4d4",
+      "url": "https:\/\/www.last.fm\/music\/Vance+Joy\/_\/Riptide",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1773638",
+      "playcount": "19211283",
+      "artist": {
+        "name": "Vance Joy",
+        "mbid": "df36f6db-5987-46ed-9d02-0cf36ed4e060",
+        "url": "https:\/\/www.last.fm\/music\/Vance+Joy"
+      },
+      "album": {
+        "artist": "Vance Joy",
+        "title": "Riptide",
+        "mbid": "3a7fdf69-9555-4253-a817-09a88bd18bbb",
+        "url": "https:\/\/www.last.fm\/music\/Vance+Joy\/Riptide",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8e9b587a6f577478e9e6480235811f7d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8e9b587a6f577478e9e6480235811f7d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8e9b587a6f577478e9e6480235811f7d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8e9b587a6f577478e9e6480235811f7d.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie folk",
+            "url": "https:\/\/www.last.fm\/tag\/indie+folk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 May 2015, 05:57",
+        "summary": "\"Riptide\" is a song by Australian singer-songwriter Vance Joy. It was first released as a track on his debut EP \"God Loves You When You're Dancing\", serving as its second single, and is also featured on his debut studio album \"Dream Your Life Away\". The song was written by Joy, who also produced it with drummer Edwin White. The upbeat indie folk song has been lyrically described as a \"coming of age love story\" and is known for its metaphors and pop culture references. <a href=\"http:\/\/www.last.fm\/music\/Vance+Joy\/_\/Riptide\">Read more on Last.fm<\/a>.",
+        "content": "\"Riptide\" is a song by Australian singer-songwriter Vance Joy. It was first released as a track on his debut EP \"God Loves You When You're Dancing\", serving as its second single, and is also featured on his debut studio album \"Dream Your Life Away\". The song was written by Joy, who also produced it with drummer Edwin White. The upbeat indie folk song has been lyrically described as a \"coming of age love story\" and is known for its metaphors and pop culture references.\n\nThe song received positive reviews from music critics, who praised its lyrics, vocals and production and drew comparisons to singer-songwriters Paul Kelly and Jeff Buckley. \"Riptide\" would go on to have commercial success in Australia, peaking at number six on the ARIA singles chart and subsequently being named the number one song in radio station Triple J's Hottest 100 of 2013. The following year, \"Riptide\" also peaked at number ten in the United Kingdom and entered Billboard\u200d\u200a's Alternative Songs chart, peaking at number 1. By May 2015, it was the second longest charting single still in the US Billboard Hot 100, appearing on that list for 43 weeks (at number 42 from its peak of number 30). <a href=\"http:\/\/www.last.fm\/music\/Vance+Joy\/_\/Riptide\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

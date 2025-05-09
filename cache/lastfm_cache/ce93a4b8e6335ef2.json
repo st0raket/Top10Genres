@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:41.746029+00:00",
+  "elapsed": 0.185812,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:41.746029+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3073",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Police&format=json&method=track.getInfo&track=Every+Breath+You+Take"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Police&format=json&method=track.getInfo&track=Every+Breath+You+Take",
+  "_decoded_content": {
+    "track": {
+      "name": "Every Breath You Take",
+      "mbid": "4bd93e75-bc94-46b8-854f-8c7cea071823",
+      "url": "https:\/\/www.last.fm\/music\/The+Police\/_\/Every+Breath+You+Take",
+      "duration": "253000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2191382",
+      "playcount": "17444969",
+      "artist": {
+        "name": "The Police",
+        "mbid": "9e0e2b01-41db-4008-bd8b-988977d6019a",
+        "url": "https:\/\/www.last.fm\/music\/The+Police"
+      },
+      "album": {
+        "artist": "The Police",
+        "title": "Synchronicity",
+        "mbid": "6079ef33-8e30-3b08-ab3d-1809d36b187d",
+        "url": "https:\/\/www.last.fm\/music\/The+Police\/Synchronicity",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f7bd956c159483fc8d96511c5fc2cfb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f7bd956c159483fc8d96511c5fc2cfb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f7bd956c159483fc8d96511c5fc2cfb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f7bd956c159483fc8d96511c5fc2cfb.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "The Police",
+            "url": "https:\/\/www.last.fm\/tag\/The+Police"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Sep 2008, 15:43",
+        "summary": "\"Every Breath You Take\" is a song written by Sting and originally performed by The Police. It was released on their 1983 album Synchronicity. The song is about stalking yet a lot of people think of it as a love song. Sting insists it is about the obsession with a lost lover, and the jealousy and surveillance that follow. He said \u201cI think the song is very, very sinister and ugly and people have actually misinterpreted it as being a gentle little love song, when it\u2019s quite the opposite. <a href=\"http:\/\/www.last.fm\/music\/The+Police\/_\/Every+Breath+You+Take\">Read more on Last.fm<\/a>.",
+        "content": "\"Every Breath You Take\" is a song written by Sting and originally performed by The Police. It was released on their 1983 album Synchronicity. The song is about stalking yet a lot of people think of it as a love song. Sting insists it is about the obsession with a lost lover, and the jealousy and surveillance that follow. He said \u201cI think the song is very, very sinister and ugly and people have actually misinterpreted it as being a gentle little love song, when it\u2019s quite the opposite.\u201d The single was one of the biggest of 1983, topping the UK charts for four weeks and the Billboard Music Charts (North America) for eight weeks. Sting won Song of the Year and The Police won Best Pop Performance by a Duo or Group with Vocal at the Grammy Awards of 1984 for \"Every Breath You Take\". The song ranks #84 on the Rolling Stone list of the 500 Greatest Songs of All Time. <a href=\"http:\/\/www.last.fm\/music\/The+Police\/_\/Every+Breath+You+Take\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

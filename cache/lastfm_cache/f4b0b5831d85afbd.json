@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:48.255458+00:00",
+  "elapsed": 0.20417,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:48.255458+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3019",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Rocky&format=json&method=track.getInfo&track=Buck+Shots"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Rocky&format=json&method=track.getInfo&track=Buck+Shots",
+  "_decoded_content": {
+    "track": {
+      "name": "Buck Shots",
+      "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/Buck+Shots",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "203342",
+      "playcount": "1857142",
+      "artist": {
+        "name": "A$AP Rocky",
+        "mbid": "25b7b584-d952-4662-a8b9-dd8cdfbfeb64",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky"
+      },
+      "album": {
+        "artist": "A$AP Rocky",
+        "title": "TESTING",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky\/TESTING",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fead178e9a987d1bb3814047344f52d0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fead178e9a987d1bb3814047344f52d0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fead178e9a987d1bb3814047344f52d0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fead178e9a987d1bb3814047344f52d0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Playboi Carti",
+            "url": "https:\/\/www.last.fm\/tag\/Playboi+Carti"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Aug 2022, 00:40",
+        "summary": "A \u201cbuckshot\u201d is the primary load carried by law enforcement in shotguns.\n\nOn \u201cBuck Shots,\u201d Rocky teams up with Playboi Carti and Smooky MarGielaa. The rappers talk about how reckless they are, with the main topic of the song being about guns and violence, like the track title suggests.\n\nThe song was produced by and features edited vocals from Kelvin Krash.\n\nRocky and Carti have previously collaborated on \u201cRAF,\u201d \u201cSummer Bummer,\u201d \u201cFirst Year Being Rich <a href=\"http:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/Buck+Shots\">Read more on Last.fm<\/a>.",
+        "content": "A \u201cbuckshot\u201d is the primary load carried by law enforcement in shotguns.\n\nOn \u201cBuck Shots,\u201d Rocky teams up with Playboi Carti and Smooky MarGielaa. The rappers talk about how reckless they are, with the main topic of the song being about guns and violence, like the track title suggests.\n\nThe song was produced by and features edited vocals from Kelvin Krash.\n\nRocky and Carti have previously collaborated on \u201cRAF,\u201d \u201cSummer Bummer,\u201d \u201cFirst Year Being Rich,\u201d \u201cWhat Happens,\u201d \u201cNew Choppa,\u201d \u201cTelephone Calls\u201d, \u201cBlowin' Minds\u201d, \u201cPerry Aye\u201d and \u201cLondon Town.\u201d\n\nSmooky has previously collaborated with Rocky on \u201cBlack Card,\u201d \u201cBYF,\u201d \u201cGet the Bag,\u201d and \u201cBahamas.\u201d\n\nKelvin has collaborated with Rocky on \"D.M.B\", \"Sandman\", \"Shittin\u2019 Me\", \"Frankenstein\", \"URRRGE!!!!!!!!!!\" and \"GET A GRIP\".\n\nA sequel to this song, titled \"WE CAN GO (BUCK SHOTS 2)\"  released as a single for Kelvins debut album \"HARSH\". <a href=\"http:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/Buck+Shots\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

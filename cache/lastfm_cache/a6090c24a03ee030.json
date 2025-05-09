@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:04.872208+00:00",
+  "elapsed": 0.205214,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:04.872208+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2284",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=I+Don%E2%80%99t+Know+Why"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=I+Don%E2%80%99t+Know+Why",
+  "_decoded_content": {
+    "track": {
+      "name": "I Don\u2019t Know Why",
+      "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/I+Don%E2%80%99t+Know+Why",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "152574",
+      "playcount": "1161227",
+      "artist": {
+        "name": "Imagine Dragons",
+        "mbid": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+        "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Feb 2020, 18:07",
+        "summary": "\u201cI Don\u2019t Know Why\u201d is the first* song on the original release of Imagine Dragons\u2019 2017 album \"Evolve\". Notably, its instrumental and lyrics are moodier than the rest of the LP, with a low synthesizer and lyrics about a \u201cdangerous\u201d love.\n\n*The song \u201cNext To Me\u201d was later made the first song on Evolve on digital platforms on February 21, 2018. This re-release of the album makes \u201cI Don\u2019t Know Why\u201d Evolve\u2019s second song on digital platforms, with the original release being unlisted and replaced by the 2018 version. <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/I+Don%E2%80%99t+Know+Why\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI Don\u2019t Know Why\u201d is the first* song on the original release of Imagine Dragons\u2019 2017 album \"Evolve\". Notably, its instrumental and lyrics are moodier than the rest of the LP, with a low synthesizer and lyrics about a \u201cdangerous\u201d love.\n\n*The song \u201cNext To Me\u201d was later made the first song on Evolve on digital platforms on February 21, 2018. This re-release of the album makes \u201cI Don\u2019t Know Why\u201d Evolve\u2019s second song on digital platforms, with the original release being unlisted and replaced by the 2018 version. (The original listing still exists on Spotify, but is difficult to locate without being saved to a user\u2019s Library prior to its unlisting.) <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/I+Don%E2%80%99t+Know+Why\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

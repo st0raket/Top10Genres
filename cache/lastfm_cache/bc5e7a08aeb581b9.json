@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:06.291068+00:00",
+  "elapsed": 0.178758,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:06.291068+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2137",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yung+Lean&format=json&method=track.getInfo&track=Ginseng+Strip+2002"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yung+Lean&format=json&method=track.getInfo&track=Ginseng+Strip+2002",
+  "_decoded_content": {
+    "track": {
+      "name": "Ginseng Strip 2002",
+      "mbid": "315f2b52-d349-4c5b-82bc-081938d45ad2",
+      "url": "https:\/\/www.last.fm\/music\/Yung+Lean\/_\/Ginseng+Strip+2002",
+      "duration": "154000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "553389",
+      "playcount": "7521558",
+      "artist": {
+        "name": "Yung Lean",
+        "mbid": "757ed661-fbad-4e45-b1cd-a6b09f06f54a",
+        "url": "https:\/\/www.last.fm\/music\/Yung+Lean"
+      },
+      "album": {
+        "artist": "Yung Lean",
+        "title": "sadboys2001",
+        "mbid": "c8840e34-e10b-46da-9fe1-8e6a293afb85",
+        "url": "https:\/\/www.last.fm\/music\/Yung+Lean\/sadboys2001",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/206c21994f06d4799a0b37a151a17a5b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/206c21994f06d4799a0b37a151a17a5b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/206c21994f06d4799a0b37a151a17a5b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/206c21994f06d4799a0b37a151a17a5b.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "emotional",
+            "url": "https:\/\/www.last.fm\/tag\/emotional"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "sadboyz",
+            "url": "https:\/\/www.last.fm\/tag\/sadboyz"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Mar 2022, 15:16",
+        "summary": "Sadboy anthem, very emotional track with multiple references to things that were popular in the year 2002. This is the song that got things popping for Lean and the boys. Leandoer wrote this song when he was only 15 years of age. <a href=\"http:\/\/www.last.fm\/music\/Yung+Lean\/_\/Ginseng+Strip+2002\">Read more on Last.fm<\/a>.",
+        "content": "Sadboy anthem, very emotional track with multiple references to things that were popular in the year 2002. This is the song that got things popping for Lean and the boys. Leandoer wrote this song when he was only 15 years of age. <a href=\"http:\/\/www.last.fm\/music\/Yung+Lean\/_\/Ginseng+Strip+2002\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

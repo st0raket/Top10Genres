@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:28:17.206004+00:00",
+  "elapsed": 0.206006,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:17.206004+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1225",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GENERATIONS+from+EXILE+TRIBE&format=json&method=track.getInfo&track=%E7%A9%BA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GENERATIONS+from+EXILE+TRIBE&format=json&method=track.getInfo&track=%E7%A9%BA",
+  "_decoded_content": {
+    "track": {
+      "name": "\u7a7a",
+      "url": "https:\/\/www.last.fm\/music\/GENERATIONS+from+EXILE+TRIBE\/_\/%E7%A9%BA",
+      "duration": "313000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1601",
+      "playcount": "9363",
+      "artist": {
+        "name": "GENERATIONS from EXILE TRIBE",
+        "mbid": "d7da9970-ac90-4d99-8328-b299a63fd24c",
+        "url": "https:\/\/www.last.fm\/music\/GENERATIONS+from+EXILE+TRIBE"
+      },
+      "album": {
+        "artist": "GENERATIONS from EXILE TRIBE",
+        "title": "\u6d99\u3092\u6d41\u305b\u306a\u3044\u30d4\u30a8\u30ed\u306f\u592a\u967d\u3082\u6708\u3082\u306a\u3044\u7a7a\u3092\u898b\u4e0a\u3052\u305f",
+        "url": "https:\/\/www.last.fm\/music\/GENERATIONS+from+EXILE+TRIBE\/%E6%B6%99%E3%82%92%E6%B5%81%E3%81%9B%E3%81%AA%E3%81%84%E3%83%94%E3%82%A8%E3%83%AD%E3%81%AF%E5%A4%AA%E9%99%BD%E3%82%82%E6%9C%88%E3%82%82%E3%81%AA%E3%81%84%E7%A9%BA%E3%82%92%E8%A6%8B%E4%B8%8A%E3%81%92%E3%81%9F",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e8cd031943b446afa94a82f5aab1f0a2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e8cd031943b446afa94a82f5aab1f0a2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e8cd031943b446afa94a82f5aab1f0a2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e8cd031943b446afa94a82f5aab1f0a2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

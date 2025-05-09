@@ -1,0 +1,70 @@
+{
+  "created_at": "2025-05-03T14:33:08.834361+00:00",
+  "elapsed": 0.20226,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:08.834361+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2252",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Like+That"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Like+That",
+  "_decoded_content": {
+    "track": {
+      "name": "Like That",
+      "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/_\/Like+That",
+      "duration": "163000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "70120",
+      "playcount": "215521",
+      "artist": {
+        "name": "Doja Cat",
+        "mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jul 2023, 21:28",
+        "summary": "\u201cLike That\u201d is the first collaboration between Doja Cat and Atlanta rapper Gucci Mane. The two artists both speak on how they want their partner to act with them.\n\nThe song was very highly anticipated when Doja revealed the track list for the project, due to the fact that Doja had blurred out the featured artist on the track. Many fans speculated about who would be the featured artist, and guessed artists from Nicki Minaj, Kanye West, or Gucci Mane. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Like+That\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLike That\u201d is the first collaboration between Doja Cat and Atlanta rapper Gucci Mane. The two artists both speak on how they want their partner to act with them.\n\nThe song was very highly anticipated when Doja revealed the track list for the project, due to the fact that Doja had blurred out the featured artist on the track. Many fans speculated about who would be the featured artist, and guessed artists from Nicki Minaj, Kanye West, or Gucci Mane.\n\nThe song became incredibly popular on video-sharing app TikTok, where it amassed over 3.8 million videos made with it.\n\nAfter the success of \u201cSay So\u201d and its Nicki Minaj Remix, Doja & her label RCA pushed \u201cLike That\u201d as the follow up single for the summer of 2020.\n\n\u201cLike That\u201d debuted at #92 on the Billboard Hot 100 during the chart week of June 13, 2020.\n\nDuring the chart week of July 11, 2020, \u201cLike That\u201d peaked at #50 on the chart following the release of the music video. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Like+That\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

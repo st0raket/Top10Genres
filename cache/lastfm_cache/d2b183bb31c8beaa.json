@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:37.068265+00:00",
+  "elapsed": 0.196571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:37.068265+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2061",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Avicii&format=json&method=track.getInfo&track=For+A+Better+Day"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Avicii&format=json&method=track.getInfo&track=For+A+Better+Day",
+  "_decoded_content": {
+    "track": {
+      "name": "For A Better Day",
+      "url": "https:\/\/www.last.fm\/music\/Avicii\/_\/For+A+Better+Day",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "208080",
+      "playcount": "1252972",
+      "artist": {
+        "name": "Avicii",
+        "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5",
+        "url": "https:\/\/www.last.fm\/music\/Avicii"
+      },
+      "album": {
+        "artist": "Avicii",
+        "title": "Stories",
+        "url": "https:\/\/www.last.fm\/music\/Avicii\/Stories",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7e11890eb230518924d132ee1e31ec37.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7e11890eb230518924d132ee1e31ec37.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7e11890eb230518924d132ee1e31ec37.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7e11890eb230518924d132ee1e31ec37.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "swedish",
+            "url": "https:\/\/www.last.fm\/tag\/swedish"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "2015",
+            "url": "https:\/\/www.last.fm\/tag\/2015"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2023, 16:44",
+        "summary": "\u201cFor A Better Day\u201d is one of two singles (alongside \u201cPure Grinding\u201d) released alongside the tracklist announcement of Avicii\u2019s Stories.\n\nOn a soul-influenced house beat, uncredited vocalist Alex Ebert (Edward Sharpe and the Magnetic Zeros) mourns a bad day for love. <a href=\"http:\/\/www.last.fm\/music\/Avicii\/_\/For+A+Better+Day\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFor A Better Day\u201d is one of two singles (alongside \u201cPure Grinding\u201d) released alongside the tracklist announcement of Avicii\u2019s Stories.\n\nOn a soul-influenced house beat, uncredited vocalist Alex Ebert (Edward Sharpe and the Magnetic Zeros) mourns a bad day for love. <a href=\"http:\/\/www.last.fm\/music\/Avicii\/_\/For+A+Better+Day\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

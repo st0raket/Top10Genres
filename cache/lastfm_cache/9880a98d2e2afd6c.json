@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:31:02.244610+00:00",
+  "elapsed": 0.241125,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:02.244610+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "944",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kool+Savas&format=json&method=track.getInfo&track=Deine+Mutter"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kool+Savas&format=json&method=track.getInfo&track=Deine+Mutter",
+  "_decoded_content": {
+    "track": {
+      "name": "Deine Mutter",
+      "url": "https:\/\/www.last.fm\/music\/Kool+Savas\/_\/Deine+Mutter",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9974",
+      "playcount": "79043",
+      "artist": {
+        "name": "Kool Savas",
+        "mbid": "2e0d05e0-d147-46e6-be51-8ffed2a9e0da",
+        "url": "https:\/\/www.last.fm\/music\/Kool+Savas"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best Of 2019 - Fr\u00fchlingshits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+Of+2019+-+Fr%C3%BChlingshits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/343c4f7c75aa2efb243d378a8f349fee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/343c4f7c75aa2efb243d378a8f349fee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/343c4f7c75aa2efb243d378a8f349fee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/343c4f7c75aa2efb243d378a8f349fee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

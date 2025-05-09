@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:08.668948+00:00",
+  "elapsed": 0.231845,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:08.668948+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2106",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Screw+The+World+-+Interlude"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Screw+The+World+-+Interlude",
+  "_decoded_content": {
+    "track": {
+      "name": "Screw the World - Interlude",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Screw+the+World+-+Interlude",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "178247",
+      "playcount": "656825",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "chopped and screwed",
+            "url": "https:\/\/www.last.fm\/tag\/chopped+and+screwed"
+          },
+          {
+            "name": "memphis rap",
+            "url": "https:\/\/www.last.fm\/tag\/memphis+rap"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Oct 2023, 18:16",
+        "summary": "Coming in as the first interlude at the halfway point on Drake\u2019s eighth full-length studio album, For All The Dogs, \u201dScrew The World (Interlude)\u201d pays homage to legendary Houston-native, DJ Screw, his biggest breakthrough in music was his ability to chop and screw music. In Screw\u2019s words, it\u2019s what he hears and experiences when he is intoxicated by marijuana. This particular track is one of DJ Screw\u2019s chopped-and-screwed covers of Nas\u2019 iconic track \u201cIf I Ruled The World\u201d, from his 1996 classic, It Was Written. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Screw+the+World+-+Interlude\">Read more on Last.fm<\/a>.",
+        "content": "Coming in as the first interlude at the halfway point on Drake\u2019s eighth full-length studio album, For All The Dogs, \u201dScrew The World (Interlude)\u201d pays homage to legendary Houston-native, DJ Screw, his biggest breakthrough in music was his ability to chop and screw music. In Screw\u2019s words, it\u2019s what he hears and experiences when he is intoxicated by marijuana. This particular track is one of DJ Screw\u2019s chopped-and-screwed covers of Nas\u2019 iconic track \u201cIf I Ruled The World\u201d, from his 1996 classic, It Was Written. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Screw+the+World+-+Interlude\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

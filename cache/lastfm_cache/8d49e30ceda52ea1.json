@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:10.817806+00:00",
+  "elapsed": 0.312841,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:10.817806+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3723",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dr.+Dre&format=json&method=track.getInfo&track=Forgot+About+Dre"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dr.+Dre&format=json&method=track.getInfo&track=Forgot+About+Dre",
+  "_decoded_content": {
+    "track": {
+      "name": "Forgot About Dre",
+      "mbid": "df5996f3-8b2e-4787-b147-fe287c50e295",
+      "url": "https:\/\/www.last.fm\/music\/Dr.+Dre\/_\/Forgot+About+Dre",
+      "duration": "691000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "976159",
+      "playcount": "6565057",
+      "artist": {
+        "name": "Dr. Dre",
+        "mbid": "5f6ab597-f57a-40da-be9e-adad48708203",
+        "url": "https:\/\/www.last.fm\/music\/Dr.+Dre"
+      },
+      "album": {
+        "artist": "Dr. Dre",
+        "title": "2001: Instrumentals",
+        "mbid": "f3bf9055-8df5-3db6-b311-48fbbdedc0f1",
+        "url": "https:\/\/www.last.fm\/music\/Dr.+Dre\/2001:+Instrumentals",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "dr dre",
+            "url": "https:\/\/www.last.fm\/tag\/dr+dre"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 May 2021, 15:22",
+        "summary": "\u201cForgot About Dre\u201d was released as the second single from Dr. Dre\u2019s 2001 album, and it was his statement to anyone feeling like his production suffered after his escape from Death Row in 1996. During an interview with MTV, Dre spoke about the song\u2019s concept:\n\n\"The song is basically about the little period of time I went through in between records, and what people out in the street were saying about me, about, you know, how I fell off and how I couldn\u2019t do it anymore, and all this nonsense. <a href=\"http:\/\/www.last.fm\/music\/Dr.+Dre\/_\/Forgot+About+Dre\">Read more on Last.fm<\/a>.",
+        "content": "\u201cForgot About Dre\u201d was released as the second single from Dr. Dre\u2019s 2001 album, and it was his statement to anyone feeling like his production suffered after his escape from Death Row in 1996. During an interview with MTV, Dre spoke about the song\u2019s concept:\n\n\"The song is basically about the little period of time I went through in between records, and what people out in the street were saying about me, about, you know, how I fell off and how I couldn\u2019t do it anymore, and all this nonsense. So this is just a response to that. That\u2019s all it is. Period.\"\n\nEminem not only features on the track, he also wrote almost all of the lyrics, including the majority of Dre\u2019s verses. This is rather obvious given the rapid flow, jam-packed with multisyllabic assonance\u2014a marked departure from Dre\u2019s usual style. Dre talked about how the song came together:\n\n\"This is actually one of the few times where the lyrics were written before the track. Eminem actually wrote that. He came in and was like, \u2018I got this song I wrote for you.\u2019 So, we had the problem of trying to figure out what the track was gonna be to the lyrics, and it was a little bit difficult because I\u2019m doing it that way. But we made it happen.\"\n\nThe single peaked at #25 on the US Billboard Hot 100 and #3 on the Rhythmic Top 40 charts, while also achieving platinum status in the United Kingdom. This track brought in a Grammy for Best Rap Performance By A Duo Or Group in 2001 and also won for Best Rap Video at the MTV Video Music Awards in 2000. <a href=\"http:\/\/www.last.fm\/music\/Dr.+Dre\/_\/Forgot+About+Dre\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:52.993163+00:00",
+  "elapsed": 0.177498,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:52.993163+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2748",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Intentions"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Intentions",
+  "_decoded_content": {
+    "track": {
+      "name": "Intentions",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Intentions",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "218548",
+      "playcount": "1573396",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Massive Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Massive+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "justin bieber",
+            "url": "https:\/\/www.last.fm\/tag\/justin+bieber"
+          },
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Aug 2022, 07:58",
+        "summary": "\u201cIntentions\u201d is the third single for Justin Bieber\u2019s Changes album. The song\u2019s lyrics are full of compliments towards both Bieber\u2019s and Quavo\u2019s love-interests: Hailey Bieber and Saweetie. Both artists express their intentions of caring for their women over a bright and happy beat. This song marks the third time that Justin Bieber and Quavo have worked together, with the previous two taking part in collaborations with DJ Khaled.\n\nThe song <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Intentions\">Read more on Last.fm<\/a>.",
+        "content": "\u201cIntentions\u201d is the third single for Justin Bieber\u2019s Changes album. The song\u2019s lyrics are full of compliments towards both Bieber\u2019s and Quavo\u2019s love-interests: Hailey Bieber and Saweetie. Both artists express their intentions of caring for their women over a bright and happy beat. This song marks the third time that Justin Bieber and Quavo have worked together, with the previous two taking part in collaborations with DJ Khaled.\n\nThe song was previewed on a speculated tracklist along with several other tracks in the singer\u2019s docu-series Justin Bieber: Seasons, which was officially released to YouTube on January 27, 2020. Later, the song was confirmed on Apple Music as track number 4 featuring Quavo. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Intentions\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

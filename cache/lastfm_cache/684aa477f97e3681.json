@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:37:41.879578+00:00",
+  "elapsed": 0.431817,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:41.879578+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1250",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Malik+Harris&format=json&method=track.getInfo&track=Rockstars"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Malik+Harris&format=json&method=track.getInfo&track=Rockstars",
+  "_decoded_content": {
+    "track": {
+      "name": "Rockstars",
+      "url": "https:\/\/www.last.fm\/music\/Malik+Harris\/_\/Rockstars",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "31165",
+      "playcount": "219533",
+      "artist": {
+        "name": "Malik Harris",
+        "url": "https:\/\/www.last.fm\/music\/Malik+Harris"
+      },
+      "album": {
+        "artist": "Malik Harris",
+        "title": "Rockstars - Single",
+        "url": "https:\/\/www.last.fm\/music\/Malik+Harris\/Rockstars+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bceee0fcb5380cb3e6bff3929c393c05.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bceee0fcb5380cb3e6bff3929c393c05.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bceee0fcb5380cb3e6bff3929c393c05.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bceee0fcb5380cb3e6bff3929c393c05.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "eurovision 2022",
+            "url": "https:\/\/www.last.fm\/tag\/eurovision+2022"
+          },
+          {
+            "name": "Eurovision Song Contest 2022",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest+2022"
+          }
+        ]
+      }
+    }
+  }
+}

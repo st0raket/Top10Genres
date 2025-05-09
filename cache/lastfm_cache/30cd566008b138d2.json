@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:27:58.812050+00:00",
+  "elapsed": 0.187409,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:58.812050+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2307",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Carlos+Vives&format=json&method=track.getInfo&track=La+Bicicleta"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Carlos+Vives&format=json&method=track.getInfo&track=La+Bicicleta",
+  "_decoded_content": {
+    "track": {
+      "name": "La Bicicleta",
+      "url": "https:\/\/www.last.fm\/music\/Carlos+Vives\/_\/La+Bicicleta",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "199442",
+      "playcount": "1402766",
+      "artist": {
+        "name": "Carlos Vives",
+        "mbid": "ac367c2e-7783-41e5-a184-131da6b0c166",
+        "url": "https:\/\/www.last.fm\/music\/Carlos+Vives"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "vallenato",
+            "url": "https:\/\/www.last.fm\/tag\/vallenato"
+          },
+          {
+            "name": "Shakira",
+            "url": "https:\/\/www.last.fm\/tag\/Shakira"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Feb 2023, 17:06",
+        "summary": "\"La Bicicleta\" (English: \"The Bicycle\") is a song by Colombian singer Carlos Vives and Colombian singer-songwriter Shakira from Vives' fifteenth studio album Vives (2017) and is also included as an album track on Shakira's eleventh studio album El Dorado (2017). The song was written by both singers, and produced by Andr\u00e9s Castro and it marks Shakira's first collaboration with a fellow Colombian artist. \"La Bicicleta\" was intended to be representative of both singers' homelands musical styles in Colombia. <a href=\"http:\/\/www.last.fm\/music\/Carlos+Vives\/_\/La+Bicicleta\">Read more on Last.fm<\/a>.",
+        "content": "\"La Bicicleta\" (English: \"The Bicycle\") is a song by Colombian singer Carlos Vives and Colombian singer-songwriter Shakira from Vives' fifteenth studio album Vives (2017) and is also included as an album track on Shakira's eleventh studio album El Dorado (2017). The song was written by both singers, and produced by Andr\u00e9s Castro and it marks Shakira's first collaboration with a fellow Colombian artist. \"La Bicicleta\" was intended to be representative of both singers' homelands musical styles in Colombia. It is a song with a mixture of various musical elements - vallenato, pop and cumbia and instrumentally, it features indigenous Colombian wind instruments and accordions. Lyrically, it is a nostalgic song, describing the duo's excursion on bikes to places of their childhood. <a href=\"http:\/\/www.last.fm\/music\/Carlos+Vives\/_\/La+Bicicleta\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

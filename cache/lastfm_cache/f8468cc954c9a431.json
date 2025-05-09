@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:43.552407+00:00",
+  "elapsed": 0.176622,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:43.552407+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3525",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Journey&format=json&method=track.getInfo&track=Don%27t+Stop+Believin%27"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Journey&format=json&method=track.getInfo&track=Don%27t+Stop+Believin%27",
+  "_decoded_content": {
+    "track": {
+      "name": "Don't Stop Believin'",
+      "mbid": "721fb79e-0189-4690-bee9-8910c8184fc9",
+      "url": "https:\/\/www.last.fm\/music\/Journey\/_\/Don%27t+Stop+Believin%27",
+      "duration": "249000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1718802",
+      "playcount": "12595273",
+      "artist": {
+        "name": "Journey",
+        "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+        "url": "https:\/\/www.last.fm\/music\/Journey"
+      },
+      "album": {
+        "artist": "Journey",
+        "title": "Greatest Hits",
+        "mbid": "03ffc721-3d27-4fb9-a394-c06da971ee5b",
+        "url": "https:\/\/www.last.fm\/music\/Journey\/Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/380e4158c597467fc651af79f44c7d78.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/380e4158c597467fc651af79f44c7d78.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/380e4158c597467fc651af79f44c7d78.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/380e4158c597467fc651af79f44c7d78.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "journey",
+            "url": "https:\/\/www.last.fm\/tag\/journey"
+          },
+          {
+            "name": "scrubs",
+            "url": "https:\/\/www.last.fm\/tag\/scrubs"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Mar 2009, 20:34",
+        "summary": "\"Don't Stop Believin'\" is a classic rock anthem and power ballad by the American rock band Journey. The song debuted on their 1981 album Escape. The song is considered by many to be the band's signature song. The song is well known for its lyrics and its distinctive chorused piano introduction, described by Allmusic as \"one of the best opening keyboard riffs in rock.\" The song has been included in many TV shows and movies, including The Sopranos, Family Guy, Glee, Scrubs, and the movie Bedtime Stories. <a href=\"http:\/\/www.last.fm\/music\/Journey\/_\/Don%27t+Stop+Believin%27\">Read more on Last.fm<\/a>.",
+        "content": "\"Don't Stop Believin'\" is a classic rock anthem and power ballad by the American rock band Journey. The song debuted on their 1981 album Escape. The song is considered by many to be the band's signature song. The song is well known for its lyrics and its distinctive chorused piano introduction, described by Allmusic as \"one of the best opening keyboard riffs in rock.\" The song has been included in many TV shows and movies, including The Sopranos, Family Guy, Glee, Scrubs, and the movie Bedtime Stories. It is also frequently played at Detroit Red Wings hockey games, with the music being cut during the line \"born and raised in south Detroit\" so that the entire arena can sing in unison.\n\nThe song reached #8 on Billboard's Mainstream Rock chart, and #9 on the Billboard Hot 100 chart. It also peaked at #62 on the UK singles chart. In 2006, it was ranked as the 11th greatest song of the list of the 100 greatest songs of the '80s by VH1. It is the most downloaded song not released in the 21st century of all time in the iTunes Music Store and was the 72nd most downloaded song of 2008 in the store, over 27 years after its release. The song is one of the most popular rock tracks in Ireland and continues to remain in the top ten most downloaded songs.\n\nThe track surpassed one billion streams on Spotify in 2022. <a href=\"http:\/\/www.last.fm\/music\/Journey\/_\/Don%27t+Stop+Believin%27\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

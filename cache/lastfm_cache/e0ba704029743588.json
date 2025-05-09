@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:41.143772+00:00",
+  "elapsed": 0.210489,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:41.143772+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3339",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Last+Time"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Last+Time",
+  "_decoded_content": {
+    "track": {
+      "name": "The Last Time",
+      "mbid": "eb2885e4-d0b1-43c4-b25f-b80caa030e6d",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Last+Time",
+      "duration": "299000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "200500",
+      "playcount": "1582501",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Red Karaoke",
+        "mbid": "647068db-4ea4-4ae5-9782-f0b4b38f98cc",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Red+Karaoke",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "USA",
+            "url": "https:\/\/www.last.fm\/tag\/USA"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Sep 2022, 08:20",
+        "summary": "\"The Last Time\" is a song by Taylor Swift featuring Gary Lightbody, taken from Swift's fourth studio album, Red (2012). Swift wrote the track with Lightbody and Jacknife Lee; the latter two are members of the rock band Snow Patrol. A power ballad, the song sees Swift's and Lightbody's characters expressing their perspectives on a failed relationship, torn between heartbreak and forgiveness. The production combines alternative rock and folk over dramatic string instruments and an orchestral background in the refrain. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Last+Time\">Read more on Last.fm<\/a>.",
+        "content": "\"The Last Time\" is a song by Taylor Swift featuring Gary Lightbody, taken from Swift's fourth studio album, Red (2012). Swift wrote the track with Lightbody and Jacknife Lee; the latter two are members of the rock band Snow Patrol. A power ballad, the song sees Swift's and Lightbody's characters expressing their perspectives on a failed relationship, torn between heartbreak and forgiveness. The production combines alternative rock and folk over dramatic string instruments and an orchestral background in the refrain. \"The Last Time\" was released in the United Kingdom on November 4, 2013, as a single from Red.\n\nCritics praised \"The Last Time\" for its production and Lightbody's performance, but some felt that Lightbody's and Swift's vocals do not complement each other. Retrospectively, they considered it one of Swift's weakest songs in her discography. Commercially, the song reached the top 30 on singles charts in Ireland, Scotland, and the UK. A re-recorded version, \"The Last Time (Taylor's Version)\", was included on Swift's re-recorded album Red (Taylor's Version), released on November 12, 2021. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Last+Time\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

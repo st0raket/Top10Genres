@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:01.833432+00:00",
+  "elapsed": 0.191108,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:01.833432+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3054",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Frank+Ocean&format=json&method=track.getInfo&track=Lost"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Frank+Ocean&format=json&method=track.getInfo&track=Lost",
+  "_decoded_content": {
+    "track": {
+      "name": "Lost",
+      "mbid": "fc739f6f-4e67-433c-a6c2-c97d6bef6034",
+      "url": "https:\/\/www.last.fm\/music\/Frank+Ocean\/_\/Lost",
+      "duration": "234000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1671487",
+      "playcount": "25497127",
+      "artist": {
+        "name": "Frank Ocean",
+        "mbid": "e520459c-dff4-491d-a6e4-c97be35e0044",
+        "url": "https:\/\/www.last.fm\/music\/Frank+Ocean"
+      },
+      "album": {
+        "artist": "Frank Ocean",
+        "title": "channel ORANGE",
+        "mbid": "67678102-7a0a-4bd1-aa78-2ebb1f114aca",
+        "url": "https:\/\/www.last.fm\/music\/Frank+Ocean\/channel+ORANGE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c0097390e321f20873a2d0e22d32d84e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c0097390e321f20873a2d0e22d32d84e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c0097390e321f20873a2d0e22d32d84e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c0097390e321f20873a2d0e22d32d84e.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          },
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jun 2021, 05:28",
+        "summary": "\u201cLost\u201d is the fourth single from Frank Ocean\u2019s critically acclaimed debut studio album, Channel Orange.\n\nThe protagonist in the song is a drug supplier who uses his girlfriend as a drug mule. His lover gets lost in the intensity of the jet-setting lifestyle of drug trafficking and subsequent money and lavish gifts that come along with it. He believes that one day she will live a normal life away from this criminal lifestyle, but it must come after one last smuggle, which leads to another one last smuggle. <a href=\"http:\/\/www.last.fm\/music\/Frank+Ocean\/_\/Lost\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLost\u201d is the fourth single from Frank Ocean\u2019s critically acclaimed debut studio album, Channel Orange.\n\nThe protagonist in the song is a drug supplier who uses his girlfriend as a drug mule. His lover gets lost in the intensity of the jet-setting lifestyle of drug trafficking and subsequent money and lavish gifts that come along with it. He believes that one day she will live a normal life away from this criminal lifestyle, but it must come after one last smuggle, which leads to another one last smuggle.\n\nIn early 2022, the song went viral on TikTok, which sparked new interest in the track nearly 10 years since its original release. As a result, it reentered charts across the world, including the US, and the UK, and entered the charts in Canada, where it did not chart previously. It ended up being serviced to Mainstream Top 40 radio stations in the United States starting in February 2022. <a href=\"http:\/\/www.last.fm\/music\/Frank+Ocean\/_\/Lost\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

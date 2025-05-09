@@ -1,0 +1,72 @@
+{
+  "created_at": "2025-05-03T14:36:33.081679+00:00",
+  "elapsed": 0.197888,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:33.081679+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "562",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joel+Corry&format=json&method=track.getInfo&track=I+Wish"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joel+Corry&format=json&method=track.getInfo&track=I+Wish",
+  "_decoded_content": {
+    "track": {
+      "name": "I Wish",
+      "url": "https:\/\/www.last.fm\/music\/Joel+Corry\/_\/I+Wish",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1963",
+      "playcount": "4185",
+      "artist": {
+        "name": "Joel Corry",
+        "url": "https:\/\/www.last.fm\/music\/Joel+Corry"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          }
+        ]
+      }
+    }
+  }
+}

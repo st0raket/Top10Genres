@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:34:46.148492+00:00",
+  "elapsed": 0.258391,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:46.148492+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1145",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Myke+Towers&format=json&method=track.getInfo&track=Bandido"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Myke+Towers&format=json&method=track.getInfo&track=Bandido",
+  "_decoded_content": {
+    "track": {
+      "name": "Bandido",
+      "url": "https:\/\/www.last.fm\/music\/Myke+Towers\/_\/Bandido",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "92697",
+      "playcount": "640403",
+      "artist": {
+        "name": "Myke Towers",
+        "url": "https:\/\/www.last.fm\/music\/Myke+Towers"
+      },
+      "album": {
+        "artist": "Myke Towers",
+        "title": "Bandido - Single",
+        "url": "https:\/\/www.last.fm\/music\/Myke+Towers\/Bandido+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b023b170005e8237086c6249c04b3df2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b023b170005e8237086c6249c04b3df2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b023b170005e8237086c6249c04b3df2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b023b170005e8237086c6249c04b3df2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "Myke Towers",
+            "url": "https:\/\/www.last.fm\/tag\/Myke+Towers"
+          },
+          {
+            "name": "juhn",
+            "url": "https:\/\/www.last.fm\/tag\/juhn"
+          }
+        ]
+      }
+    }
+  }
+}

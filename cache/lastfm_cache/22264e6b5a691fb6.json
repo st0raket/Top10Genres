@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:41.035346+00:00",
+  "elapsed": 0.197994,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:41.035346+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2749",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Mine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Mine",
+  "_decoded_content": {
+    "track": {
+      "name": "Mine",
+      "mbid": "721f020b-80bf-444b-a8cc-b09b0bc4a30e",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Mine",
+      "duration": "229000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "615179",
+      "playcount": "6317697",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Speak Now",
+        "mbid": "829d9e28-e7a8-4f91-a21a-1eef17da356d",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Speak+Now",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Aug 2010, 18:54",
+        "summary": "According to the Mine Songfacts, this song is about Swift's \"tendency to run from love.\" She explained: \"It's been sort of a recent tendency, and I think it's because, for me, every really direct example of love that I've had in front of me has ended in goodbye and ended in break-ups and things like that. So I think I've developed this pattern of running away when it comes time to fall in love and stay in a relationship. The song is sort of about <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Mine\">Read more on Last.fm<\/a>.",
+        "content": "According to the Mine Songfacts, this song is about Swift's \"tendency to run from love.\" She explained: \"It's been sort of a recent tendency, and I think it's because, for me, every really direct example of love that I've had in front of me has ended in goodbye and ended in break-ups and things like that. So I think I've developed this pattern of running away when it comes time to fall in love and stay in a relationship. The song is sort of about finding the exception to that and finding someone who would make you believe in love and realize that it could work out, because I'm never ever going to go past hoping that love works out.\" <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Mine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

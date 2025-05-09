@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:45.349951+00:00",
+  "elapsed": 0.19366,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:45.349951+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3111",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=How+You+Like+That"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=How+You+Like+That",
+  "_decoded_content": {
+    "track": {
+      "name": "How you like that",
+      "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/_\/How+you+like+that",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "723476",
+      "playcount": "24558545",
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Jul 2020, 17:02",
+        "summary": "\"How You Like That\" is a song recorded by South Korean girl group BLACKPINK. It was released on June 26, 2020, through YG and Interscope, as the lead single from the group's first Korean-language studio album, The Album, released on October 2, 2020. The track was written by Danny Chung and Teddy Park, with the latter as well as R. Tee and 24 credited as arrangers, it was produced by Teddy. \"How You Like That\" is a pop, hip hop and trap track about <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/How+you+like+that\">Read more on Last.fm<\/a>.",
+        "content": "\"How You Like That\" is a song recorded by South Korean girl group BLACKPINK. It was released on June 26, 2020, through YG and Interscope, as the lead single from the group's first Korean-language studio album, The Album, released on October 2, 2020. The track was written by Danny Chung and Teddy Park, with the latter as well as R. Tee and 24 credited as arrangers, it was produced by Teddy. \"How You Like That\" is a pop, hip hop and trap track about \"not being daunted by dark situations and to not lose the confidence and strength to stand up again\".\n\nAn accompanying music video for the song was directed by Seo Hyun-seung and uploaded onto Blackpink's YouTube channel simultaneously with the single's release. Upon release, the music video broke several YouTube records, including for the most-watched premiere, the most views within 24 hours for a music video, accumulating 86.3 million views in that time, and for the fastest to 100 million, 200 million and 600 million views, now it has more than 1,2 billion (Music Video) + 1,5 billion views (Dance Performance).  It also became one of the most-liked videos on YouTube with more than 24 million likes. On Spotify, How You Like That has +800 million streams. \n\n\"How You Like That\" won Song of Summer at the 2020 MTV Video Music Awards, Best Dance Award \u2013 Female at the 2020 Melon Music Awards, and Best Dance Performance \u2013 Female Group at the 2020 Mnet Asian Music Awards. Commercially, the single charted in 26 countries. It peaked at number one in South Korea (both Gaon and K-Pop Hot 100), Singapore, Hungary, and Malaysia.[5] The song has been certified gold in Canada and silver in Japan, while the album version was certified platinum in South Korea. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/How+you+like+that\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

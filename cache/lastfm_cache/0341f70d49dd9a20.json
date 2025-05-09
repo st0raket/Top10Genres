@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:13.331787+00:00",
+  "elapsed": 0.236522,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:13.331787+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2895",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Megan+Thee+Stallion&format=json&method=track.getInfo&track=Cobra"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Megan+Thee+Stallion&format=json&method=track.getInfo&track=Cobra",
+  "_decoded_content": {
+    "track": {
+      "name": "Cobra",
+      "url": "https:\/\/www.last.fm\/music\/Megan+Thee+Stallion\/_\/Cobra",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "211457",
+      "playcount": "2357672",
+      "artist": {
+        "name": "Megan Thee Stallion",
+        "url": "https:\/\/www.last.fm\/music\/Megan+Thee+Stallion"
+      },
+      "album": {
+        "artist": "Megan Thee Stallion",
+        "title": "Cobra",
+        "url": "https:\/\/www.last.fm\/music\/Megan+Thee+Stallion\/Cobra",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cb3d331f2f18724539fef6b86384e59e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cb3d331f2f18724539fef6b86384e59e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cb3d331f2f18724539fef6b86384e59e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cb3d331f2f18724539fef6b86384e59e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap rock",
+            "url": "https:\/\/www.last.fm\/tag\/rap+rock"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2024, 22:41",
+        "summary": "\u201cCobra\u201d sees Megan share her raw and intense portrayal of emotional pain, depression, and the complexities of personal relationships as well as her confidence and resilience. A day before the release of the track, the artist posted the meaning of the symbolism in the title \u201cCobra\u201d\n\nCobra: Cobras exemplify courage and self reliance. They stand tall and herse in the face of challanges, teaching one to tap into their inner strengih and rely on oneself to conquer their threats. <a href=\"http:\/\/www.last.fm\/music\/Megan+Thee+Stallion\/_\/Cobra\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCobra\u201d sees Megan share her raw and intense portrayal of emotional pain, depression, and the complexities of personal relationships as well as her confidence and resilience. A day before the release of the track, the artist posted the meaning of the symbolism in the title \u201cCobra\u201d\n\nCobra: Cobras exemplify courage and self reliance. They stand tall and herse in the face of challanges, teaching one to tap into their inner strengih and rely on oneself to conquer their threats. Emulating the cobra helps one be more confident in the person they are within.\n\nThe track was first teased on October 13, 2023, when Megan posted a series of cryptic pictures adding up to the name \u2018ACT ONE\u2019 with the caption \u2018Lets\ud83d\udc0d\u2019. This was followed by a post of a short video of the intro to the official music video on October 26, 2023. She later confirmed the track\u2019s title and release date. <a href=\"http:\/\/www.last.fm\/music\/Megan+Thee+Stallion\/_\/Cobra\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

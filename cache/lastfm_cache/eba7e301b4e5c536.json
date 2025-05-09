@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:35.518778+00:00",
+  "elapsed": 0.266657,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:35.518778+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4783",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Garden+Of+Eden"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Garden+Of+Eden",
+  "_decoded_content": {
+    "track": {
+      "name": "Garden of Eden",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Garden+of+Eden",
+      "duration": "240000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "389364",
+      "playcount": "4162692",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "MAYHEM",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/MAYHEM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Feb 2025, 11:02",
+        "summary": "\"Garden of Eden\" is a song by American singer-songwriter Lady Gaga. It was released on March 7, 2025, through Interscope Records, as the third track from Gaga's studio album, Mayhem (2025). Following the announcement of her studio album Mayhem, Gaga revealed the song title as part of the tracklist on February 18, 2025.[1] Lyrics from the song circulated a day earlier on her official website in a string of cryptic teasers.[2] On March 5, she previewed <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Garden+of+Eden\">Read more on Last.fm<\/a>.",
+        "content": "\"Garden of Eden\" is a song by American singer-songwriter Lady Gaga. It was released on March 7, 2025, through Interscope Records, as the third track from Gaga's studio album, Mayhem (2025). Following the announcement of her studio album Mayhem, Gaga revealed the song title as part of the tracklist on February 18, 2025.[1] Lyrics from the song circulated a day earlier on her official website in a string of cryptic teasers.[2] On March 5, she previewed the song through an ESPN commercial that features the song over clips and montages of Formula One racing.[3] \"Garden of Eden\" is an electro,[4] synth-pop,[3] and dance-pop[5] track co-produced by French DJ Gesaffelstein that combines influences from some of her earlier works, including The Fame (2008),[4][6] Born This Way (2011) and Artpop (2013).[7] An \"eclectic\" club song, it sees the singer incorporating ideas from her \"expansive career\" as she \"rushes into 2000s pop\" with a request to follow her.[7] Upon release, \"Garden of Eden\" received positive reviews from music critics with many declaring the song a standout. In a ranking of all songs on the album for Billboard, Stephen Daw placed it second, calling the track an \"A+ pop gem\" as well as a conglomeration of \"all the sounds that have helped make Gaga the icon that she is\".[7] Alexis Petridis of The Guardian viewed the song as an example of \"the fleeting clubland hook-up as balm for the soul\".[8] Vogue editor Christian Allaire called it one of the album's two \"sexy pop bangers certain to be hits in all the gay clubs\".[9] In a review for Pitchfork, Walden Green praised the track on which \"Gaga invokes MDMA, nine-inch stilettos, and some good old-fashioned blasphemy, envisioning the site of original sin as a warehouse rave with God in the DJ booth.\"[10]\n\nAlexa Camp at Slant Magazine thought the track was \"an attempt to revive the messy party-girl shtick\" hailing from The Fame with a \"shamelessness of someone half her age\".[4] Variety's Steven J. Horowitz went as far as saying the song was \"so aligned with that aesthetic\" that it could have appeared on either The Fame or The Fame Monster (2009).[6] \"Garden of Eden\" debuted at number 31 on the Billboard Global 200. In the United States, it reached number 52 on the Billboard Hot 100 and peaked at number 3 on the Hot Dance\/Pop Songs chart. The song also charted in over 25 countries, including number 4 in New Zealand, number 11 in Japan, number 23 in the United Kingdom, number 31 in Ireland, and number 43 in Canada.[11] Gaga's first live performance of \"Garden of Eden\" was during her headlining set at Coachella 2025, which saw the whole stage turning green and Gaga playing guitar for the song.[12][13] NME noted the track was \"given an operatic revamp\".[14] <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Garden+of+Eden\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

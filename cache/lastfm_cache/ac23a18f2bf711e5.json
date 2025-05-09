@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:41.007161+00:00",
+  "elapsed": 0.184214,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:41.007161+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3991",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Mean"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Mean",
+  "_decoded_content": {
+    "track": {
+      "name": "Mean",
+      "mbid": "b1a1a847-33c9-4dc2-8c22-15838497c784",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Mean",
+      "duration": "287000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "584428",
+      "playcount": "5423415",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Speak Now",
+        "mbid": "829d9e28-e7a8-4f91-a21a-1eef17da356d",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Speak+Now",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Oct 2010, 20:16",
+        "summary": "\"Mean\" is a song by American country pop singer-songwriter Taylor Swift, taken from her third studio album, Speak Now (2010). The song, written by Swift and produced by Nathan Chapman and Swift, was first released as a promotional single for the album on October 17, 2010, by Big Machine Records. The song was later released as an official single on March 7, 2011.\n\nThis song is rumored to be directed at blogger Bob Lefsetz, although nothing was officially confirmed. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Mean\">Read more on Last.fm<\/a>.",
+        "content": "\"Mean\" is a song by American country pop singer-songwriter Taylor Swift, taken from her third studio album, Speak Now (2010). The song, written by Swift and produced by Nathan Chapman and Swift, was first released as a promotional single for the album on October 17, 2010, by Big Machine Records. The song was later released as an official single on March 7, 2011.\n\nThis song is rumored to be directed at blogger Bob Lefsetz, although nothing was officially confirmed. In addition, it also verses about the harsh criticism Taylor has received since her performance at the 52nd Annual Grammy awards, with Stevie Nicks, considered by many subpar.\n\nTaylor Swift also explains the story behind \"Mean\" on her official website:\n\"The song \"Mean\" is about, well, when you do what I do, which is you put yourself out there for a lot of people to say whatever they want about it, there are a million different opinions from a million different people.\n\nI get it that not everyone is going to like everything that you do, and I get that no matter what, you're going to be criticized for something. But I also get that there are different kinds of ways to criticize someone. There is constructive criticism. There's professional criticism. And then, there's just being mean. There's a line that you cross when you just start to attack everything about a person, and there's one guy who just crossed the line over and over again. Just being mean, and saying things that would ruin my day.\n\nThis happens\u2026no matter what you do, no matter how old you are, no matter what your job is, no matter what your place is in life. There's always going to be someone who's just mean to you. Dealing with that is all you can control about that situation, how you handle it. \"Mean\" is about how I handle it, and sort of my mind set about this whole situation.\" <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Mean\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

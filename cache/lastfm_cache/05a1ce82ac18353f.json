@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:53.798803+00:00",
+  "elapsed": 0.184085,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:53.798803+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2861",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=FEEL."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=FEEL.",
+  "_decoded_content": {
+    "track": {
+      "name": "FEEL.",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/FEEL.",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "768082",
+      "playcount": "7835830",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "DAMN. COLLECTORS EDITION.",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/DAMN.+COLLECTORS+EDITION.",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "west coast hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/west+coast+hip+hop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "jazz rap",
+            "url": "https:\/\/www.last.fm\/tag\/jazz+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jul 2017, 22:26",
+        "summary": "On \u201cFEEL.,\u201d Kendrick catalogs the wide range of feelings, particularly the negative ones, that his stardom has elicited.\n\nHe feels that nobody is looking out for him, yet cites a desire for self-isolation. He boasts about his status in the rap game, but the very same industry that he dominates is full of toxicity. Despite having been at the peak of his critical and commercial success in the past few years, Kendrick is still struggling emotionally, interpersonally, and spiritually\u2014perhaps as much as ever. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/FEEL.\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cFEEL.,\u201d Kendrick catalogs the wide range of feelings, particularly the negative ones, that his stardom has elicited.\n\nHe feels that nobody is looking out for him, yet cites a desire for self-isolation. He boasts about his status in the rap game, but the very same industry that he dominates is full of toxicity. Despite having been at the peak of his critical and commercial success in the past few years, Kendrick is still struggling emotionally, interpersonally, and spiritually\u2014perhaps as much as ever.\n\nKendrick routinely opens up about the darker aspects of his life on his music\u2014depression, which he has grappled with ever since becoming an adolescent, and self-hate are just several topics he\u2019s discussed before. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/FEEL.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

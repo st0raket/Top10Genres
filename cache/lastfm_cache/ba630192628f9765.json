@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:01.398123+00:00",
+  "elapsed": 0.183478,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:01.398123+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2688",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MOMOLAND&format=json&method=track.getInfo&track=Baam"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MOMOLAND&format=json&method=track.getInfo&track=Baam",
+  "_decoded_content": {
+    "track": {
+      "name": "BAAM",
+      "url": "https:\/\/www.last.fm\/music\/MOMOLAND\/_\/BAAM",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "158933",
+      "playcount": "1745789",
+      "artist": {
+        "name": "MOMOLAND",
+        "url": "https:\/\/www.last.fm\/music\/MOMOLAND"
+      },
+      "album": {
+        "artist": "MOMOLAND",
+        "title": "Fun to the World",
+        "url": "https:\/\/www.last.fm\/music\/MOMOLAND\/Fun+to+the+World",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9eb138e902f71159f9acc1aace4f3aa2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9eb138e902f71159f9acc1aace4f3aa2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9eb138e902f71159f9acc1aace4f3aa2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9eb138e902f71159f9acc1aace4f3aa2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "bounce",
+            "url": "https:\/\/www.last.fm\/tag\/bounce"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "saxophone",
+            "url": "https:\/\/www.last.fm\/tag\/saxophone"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Jul 2021, 03:27",
+        "summary": "\"Baam\" (stylized as \"BAAM\") is a song recorded by South Korean girl group Momoland. It was released on June 26, 2018 by MLD Entertainment and distributed by Kakao M as the lead single from the group's fourth extended play, Fun to the World. The Japanese version of the song was released by King Records on November 7, 2019. The track was written by Shinsadong Tiger and Bum x Nangi, with Shinsadong Tiger credited as the producer.  The accompanying music <a href=\"http:\/\/www.last.fm\/music\/MOMOLAND\/_\/BAAM\">Read more on Last.fm<\/a>.",
+        "content": "\"Baam\" (stylized as \"BAAM\") is a song recorded by South Korean girl group Momoland. It was released on June 26, 2018 by MLD Entertainment and distributed by Kakao M as the lead single from the group's fourth extended play, Fun to the World. The Japanese version of the song was released by King Records on November 7, 2019. The track was written by Shinsadong Tiger and Bum x Nangi, with Shinsadong Tiger credited as the producer.  The accompanying music video for the song was uploaded onto 1theK's YouTube channel simultaneously with the single's release. To promote the single, the group performed on several South Korean music show programs, such as M Countdown and Inkigayo. Commercially, \"Baam\" peaked at number thirteen on South Korea's Gaon Digital Chart. <a href=\"http:\/\/www.last.fm\/music\/MOMOLAND\/_\/BAAM\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

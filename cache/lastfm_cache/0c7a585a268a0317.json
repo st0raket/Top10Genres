@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:43:42.974752+00:00",
+  "elapsed": 0.365208,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:42.974752+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1175",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sarah+Cothran&format=json&method=track.getInfo&track=As+the+World+Caves+In"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sarah+Cothran&format=json&method=track.getInfo&track=As+the+World+Caves+In",
+  "_decoded_content": {
+    "track": {
+      "name": "As The World Caves In",
+      "url": "https:\/\/www.last.fm\/music\/Sarah+Cothran\/_\/As+The+World+Caves+In",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "320976",
+      "playcount": "3052569",
+      "artist": {
+        "name": "Sarah Cothran",
+        "url": "https:\/\/www.last.fm\/music\/Sarah+Cothran"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Fall Vibes 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Fall+Vibes+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3f8155649a434955284b6c35ec9dd0de.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3f8155649a434955284b6c35ec9dd0de.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3f8155649a434955284b6c35ec9dd0de.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3f8155649a434955284b6c35ec9dd0de.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "cinematic",
+            "url": "https:\/\/www.last.fm\/tag\/cinematic"
+          },
+          {
+            "name": "intense",
+            "url": "https:\/\/www.last.fm\/tag\/intense"
+          }
+        ]
+      }
+    }
+  }
+}

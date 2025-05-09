@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:38:34.241644+00:00",
+  "elapsed": 0.21086,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:34.241644+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3797",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Born+Again"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Born+Again",
+  "_decoded_content": {
+    "track": {
+      "name": "Born Again",
+      "url": "https:\/\/www.last.fm\/music\/Rihanna\/_\/Born+Again",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "81165",
+      "playcount": "439614",
+      "artist": {
+        "name": "Rihanna",
+        "mbid": "db36a76f-4cdf-43ac-8cd0-5e48092d2bae",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna"
+      },
+      "album": {
+        "artist": "Rihanna",
+        "title": "Black Panther: Wakanda Forever - Music From and Inspired By",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna\/Black+Panther:+Wakanda+Forever+-+Music+From+and+Inspired+By",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1eac74f08098ce13fb2a28c0fba47698.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1eac74f08098ce13fb2a28c0fba47698.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1eac74f08098ce13fb2a28c0fba47698.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1eac74f08098ce13fb2a28c0fba47698.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "marvel",
+            "url": "https:\/\/www.last.fm\/tag\/marvel"
+          },
+          {
+            "name": "synth",
+            "url": "https:\/\/www.last.fm\/tag\/synth"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "movie song",
+            "url": "https:\/\/www.last.fm\/tag\/movie+song"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jul 2023, 15:27",
+        "summary": "Rihanna recorded \"Born Again\" for the Black Panther: Wakanda Forever Marvel movie. It plays during the film's end credits.\n\nBlack Panther: Wakanda Forever begins after the passing of T'Challa, king of Wakanda, played by the late actor Chadwick Boseman in the original Black Panther movie. It follows the Wakanda people as they fight to protect their land in the wake of King T'Challa's death. Rihanna sings of the Wakanda inhabitants' love for their fictional East African country. <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Born+Again\">Read more on Last.fm<\/a>.",
+        "content": "Rihanna recorded \"Born Again\" for the Black Panther: Wakanda Forever Marvel movie. It plays during the film's end credits.\n\nBlack Panther: Wakanda Forever begins after the passing of T'Challa, king of Wakanda, played by the late actor Chadwick Boseman in the original Black Panther movie. It follows the Wakanda people as they fight to protect their land in the wake of King T'Challa's death. Rihanna sings of the Wakanda inhabitants' love for their fictional East African country. They've lost their king but are determined to fight on and defend their nation, whatever it takes. The Wakanda people know that if T'Challa was \"born again\" he would do the same.\n\n\"Born Again\" is one of two original songs Rihanna recorded for Black Panther: Wakanda Forever. The anthemic ballad follows \"Lift Me Up,\" which Marvel released as the soundtrack's lead single.\n\nThe somber reflection on rebirth connects with Rihanna's own musical comeback after an absence of over six years. \"Lift Me Up\" and \"Born Again\" marked the Bajan superstar's first new solo music since her 2016 Anti album.\n\nRihanna co-wrote \"Born Again\" with singer-songwriters James Fauntleroy and The-Dream, and Swedish composer Ludwig G\u00f6ransson. \n\nJames Fauntleroy co-wrote eight tracks for Rihanna's Rated R album, including \"Wait Your Turn\" and \"Te Amo\"; The-Dream is a longtime Rihanna collaborator dating back to her 2007 hit \"Umbrella\"; Ludwig G\u00f6ransson produced and curated most of the original songs for the Black Panther: Wakanda Forever soundtrack.\n\nJames Fauntleroy and The-Dream sing the background vocals with Gqulu Busiswa. South African singer-songwriter Busiswa also co-wrote and performs on two tracks from the Black Panther: Wakanda Forever soundtrack album. <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Born+Again\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

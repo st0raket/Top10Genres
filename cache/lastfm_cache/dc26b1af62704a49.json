@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:39.998344+00:00",
+  "elapsed": 0.207204,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:39.998344+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2529",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Vegas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=Vegas",
+  "_decoded_content": {
+    "track": {
+      "name": "Vegas",
+      "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/_\/Vegas",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "64112",
+      "playcount": "465013",
+      "artist": {
+        "name": "Doja Cat",
+        "mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Elvis (Original Motion Picture Soundtrack)",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Elvis+(Original+Motion+Picture+Soundtrack)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a8d683ba33bedcde3438e348f04aab8b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a8d683ba33bedcde3438e348f04aab8b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a8d683ba33bedcde3438e348f04aab8b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a8d683ba33bedcde3438e348f04aab8b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Jun 2022, 17:36",
+        "summary": "\"Vegas\" is a song by Doja Cat, released as the lead single from the soundtrack for Baz Luhrmann's Elvis Presley biopic Elvis on May 6, 2022. It was produced by Yeti Beats and Rog\u00e9t Chahayed.\n\nThe song interpolates a sample of Big Mama Thornton's 1952 song \"Hound Dog\", which was written by Jerry Leiber and Mike Stoller and notably covered by Presley.\n\nThe song's lyrics refer to a man who was an \"underwhelming lover\" whom Doja Cat feels \"never deserved her attention\". <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Vegas\">Read more on Last.fm<\/a>.",
+        "content": "\"Vegas\" is a song by Doja Cat, released as the lead single from the soundtrack for Baz Luhrmann's Elvis Presley biopic Elvis on May 6, 2022. It was produced by Yeti Beats and Rog\u00e9t Chahayed.\n\nThe song interpolates a sample of Big Mama Thornton's 1952 song \"Hound Dog\", which was written by Jerry Leiber and Mike Stoller and notably covered by Presley.\n\nThe song's lyrics refer to a man who was an \"underwhelming lover\" whom Doja Cat feels \"never deserved her attention\". <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/Vegas\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

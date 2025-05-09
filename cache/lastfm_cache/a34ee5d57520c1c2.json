@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:12.546133+00:00",
+  "elapsed": 0.356524,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:12.546133+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3339",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Wild+at+Heart"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Wild+at+Heart",
+  "_decoded_content": {
+    "track": {
+      "name": "Wild at Heart",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Wild+at+Heart",
+      "duration": "246000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "295889",
+      "playcount": "3630592",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Chemtrails Over the Country Club",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Chemtrails+Over+the+Country+Club",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "americana",
+            "url": "https:\/\/www.last.fm\/tag\/americana"
+          },
+          {
+            "name": "soft rock",
+            "url": "https:\/\/www.last.fm\/tag\/soft+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jun 2021, 00:58",
+        "summary": "\"Wild at Heart\" is a love song that is about staying true to oneself in a world that can be superficial. The song is centered around the idea of being \"wild at heart\" and how this quality can both attract and repel people. In the first verse, Del Rey talks about how seeing pictures of her lover on Sunset Boulevard drives her crazy, but smoking cigarettes helps her understand the smog. The pre-chorus speaks to how being with her lover has been a convoluted journey, but that it\u2019s all been worth it in the end. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Wild+at+Heart\">Read more on Last.fm<\/a>.",
+        "content": "\"Wild at Heart\" is a love song that is about staying true to oneself in a world that can be superficial. The song is centered around the idea of being \"wild at heart\" and how this quality can both attract and repel people. In the first verse, Del Rey talks about how seeing pictures of her lover on Sunset Boulevard drives her crazy, but smoking cigarettes helps her understand the smog. The pre-chorus speaks to how being with her lover has been a convoluted journey, but that it\u2019s all been worth it in the end.\n\nIn the chorus, Del Rey sings about leaving Calabasas and embracing her \"wild\" side. She's aware that her public image may not be entirely positive, but she's okay with it as long as she's true to herself and her lover loves her for who she is. In the second verse, Del Rey wonders if her lover would still support her if she stopped performing music and started going to bars, drinking, and sharing stories.\n\nOverall, the song is about how being wild and free-spirited is not something to be ashamed of and that true love should accept and embrace all aspects of one's personality. It's a message of self-acceptance and valuing individuality over conforming to societal norms. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Wild+at+Heart\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

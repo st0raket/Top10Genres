@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:44:00.706511+00:00",
+  "elapsed": 0.195493,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:00.706511+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2395",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=Oprah%27s+Bank+Account+%28Lil+Yachty+%26+DaBaby+feat.+Drake%29"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=Oprah%27s+Bank+Account+%28Lil+Yachty+%26+DaBaby+feat.+Drake%29",
+  "_decoded_content": {
+    "track": {
+      "name": "Oprah's Bank Account (Lil Yachty & DaBaby feat. Drake)",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Yachty\/_\/Oprah%27s+Bank+Account+(Lil+Yachty+&+DaBaby+feat.+Drake)",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "94324",
+      "playcount": "529257",
+      "artist": {
+        "name": "Lil Yachty",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Yachty"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "23 Feb 2024, 12:05",
+        "summary": "Lil Yachty, Drake, and DaBaby team up for the first time on \u201cOprah\u2019s Bank Account,\u201d a melodic trap collaboration dedicated to their significant others and named after actress and talk show host Oprah Winfrey, whose net worth is estimated at $2.6B as of this song\u2019s release.\n\nYachty compared the tune of this record to that of his 2016 work, referring more specifically to the first installment of his Lil Boat series, which played a huge role in bringing Yachty\u2019s music to the mainstream at the time. <a href=\"http:\/\/www.last.fm\/music\/Lil+Yachty\/_\/Oprah%27s+Bank+Account+(Lil+Yachty+&+DaBaby+feat.+Drake)\">Read more on Last.fm<\/a>.",
+        "content": "Lil Yachty, Drake, and DaBaby team up for the first time on \u201cOprah\u2019s Bank Account,\u201d a melodic trap collaboration dedicated to their significant others and named after actress and talk show host Oprah Winfrey, whose net worth is estimated at $2.6B as of this song\u2019s release.\n\nYachty compared the tune of this record to that of his 2016 work, referring more specifically to the first installment of his Lil Boat series, which played a huge role in bringing Yachty\u2019s music to the mainstream at the time. The song was eventually released on the three-year anniversary of the tape, which also marks the two-year anniversary of its follow-up Lil Boat 2.\n\n\u201cOprah\u2019s Bank Account\u201d was first teased by Yachty on Instagram on 10 January 2020 before it leaked online 19 days later with DaBaby as the only feature. It was eventually premiered with an accompanying music video and Drake\u2019s contribution. Notably, the track\u2019s polarizing music video sees Yachty, dressed in drag, parodying Winfrey in a similar fashion to Drake\u2019s 2015 \u201cEnergy\u201d music video. <a href=\"http:\/\/www.last.fm\/music\/Lil+Yachty\/_\/Oprah%27s+Bank+Account+(Lil+Yachty+&+DaBaby+feat.+Drake)\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

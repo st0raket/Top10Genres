@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:51.516991+00:00",
+  "elapsed": 0.234566,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:51.516991+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3189",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Video+Games"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Video+Games",
+  "_decoded_content": {
+    "track": {
+      "name": "Video Games",
+      "mbid": "b9d06b81-b582-46d4-ad41-be47a6961892",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Video+Games",
+      "duration": "281000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1949276",
+      "playcount": "25590329",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Born to Die - The Paradise Edition",
+        "mbid": "d2ee5e04-e4f2-4c1e-92f1-89723aa51370",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Born+to+Die+-+The+Paradise+Edition",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "-1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "Lana Del Rey",
+            "url": "https:\/\/www.last.fm\/tag\/Lana+Del+Rey"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Oct 2011, 17:58",
+        "summary": "\"Video Games\" is the debut single by American singer-songwriter Lana Del Rey for her second studio album and major label debut, Born to Die.\n\nThe song is a baroque pop, dream pop, and downtempo ballad where the protagonist who, despite being ignored by her significant other, resolves to love him regardless.\n\n\"Video Games\" has received widespread critical acclaim from critics, many of whom praised the uniqueness of Del Rey's vocal performance and the song's cinematic production. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Video+Games\">Read more on Last.fm<\/a>.",
+        "content": "\"Video Games\" is the debut single by American singer-songwriter Lana Del Rey for her second studio album and major label debut, Born to Die.\n\nThe song is a baroque pop, dream pop, and downtempo ballad where the protagonist who, despite being ignored by her significant other, resolves to love him regardless.\n\n\"Video Games\" has received widespread critical acclaim from critics, many of whom praised the uniqueness of Del Rey's vocal performance and the song's cinematic production. The song has been considered Del Rey's \"breakthrough hit\" and was a commercial success, peaking at number one in Germany, Iceland and Luxembourg, reaching a top ten position in Belgium, France, the Netherlands and the United Kingdom and peaked at 91 on Billboard Hot 100 chart and was certified Gold. The accompanying music video was directed and edited by Del Rey herself, combining scenes of her performing the song filmed on a webcam with clips of archive footage. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Video+Games\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

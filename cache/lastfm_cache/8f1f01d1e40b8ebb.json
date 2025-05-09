@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:30:04.826408+00:00",
+  "elapsed": 0.191499,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:04.826408+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "662",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chance+the+Rapper&format=json&method=track.getInfo&track=Wala+Cam"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chance+the+Rapper&format=json&method=track.getInfo&track=Wala+Cam",
+  "_decoded_content": {
+    "track": {
+      "name": "Wala Cam",
+      "url": "https:\/\/www.last.fm\/music\/Chance+the+Rapper\/_\/Wala+Cam",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "31983",
+      "playcount": "178076",
+      "artist": {
+        "name": "Chance the Rapper",
+        "mbid": "373a4c98-a46b-48e4-86ec-f6ca65b4f438",
+        "url": "https:\/\/www.last.fm\/music\/Chance+the+Rapper"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "DBZ",
+            "url": "https:\/\/www.last.fm\/tag\/DBZ"
+          },
+          {
+            "name": "chance the rapper",
+            "url": "https:\/\/www.last.fm\/tag\/chance+the+rapper"
+          },
+          {
+            "name": "Supa Bwe",
+            "url": "https:\/\/www.last.fm\/tag\/Supa+Bwe"
+          }
+        ]
+      }
+    }
+  }
+}

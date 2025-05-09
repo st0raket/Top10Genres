@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:28:34.261890+00:00",
+  "elapsed": 0.251903,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:34.261890+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1244",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Orlando"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Orlando",
+  "_decoded_content": {
+    "track": {
+      "name": "Orlando",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/Orlando",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "214528",
+      "playcount": "2017384",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 May 2021, 16:22",
+        "summary": "\u201cOrlando\u201d is likely a reference to his Orlando arrest back in July of 2016. X was arrested for charges of robbery and aggravated assault with a deadly weapon. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Orlando\">Read more on Last.fm<\/a>.",
+        "content": "\u201cOrlando\u201d is likely a reference to his Orlando arrest back in July of 2016. X was arrested for charges of robbery and aggravated assault with a deadly weapon. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/Orlando\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

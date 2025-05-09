@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:41.644505+00:00",
+  "elapsed": 0.202555,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:41.644505+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1393",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stevie+Wonder&format=json&method=track.getInfo&track=What+Christmas+Means+to+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stevie+Wonder&format=json&method=track.getInfo&track=What+Christmas+Means+to+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "What Christmas Means to Me",
+      "mbid": "54655bfb-b65b-49ac-b8c0-df984592df42",
+      "url": "https:\/\/www.last.fm\/music\/Stevie+Wonder\/_\/What+Christmas+Means+to+Me",
+      "duration": "149000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "452923",
+      "playcount": "1342800",
+      "artist": {
+        "name": "Stevie Wonder",
+        "mbid": "c1aa2ec9-53e7-4d90-8d36-bac75832e986",
+        "url": "https:\/\/www.last.fm\/music\/Stevie+Wonder"
+      },
+      "album": {
+        "artist": "Stevie Wonder",
+        "title": "Someday At Christmas",
+        "mbid": "67b7a50a-b2a1-4cef-b173-2e9df2fa7f57",
+        "url": "https:\/\/www.last.fm\/music\/Stevie+Wonder\/Someday+At+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9ad997cff107610d47494e603bca777.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9ad997cff107610d47494e603bca777.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9ad997cff107610d47494e603bca777.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9ad997cff107610d47494e603bca777.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "12"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "christmas soul",
+            "url": "https:\/\/www.last.fm\/tag\/christmas+soul"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          }
+        ]
+      }
+    }
+  }
+}

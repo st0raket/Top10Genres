@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:12.838194+00:00",
+  "elapsed": 0.211357,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:12.838194+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2794",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dave&format=json&method=track.getInfo&track=Psycho"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dave&format=json&method=track.getInfo&track=Psycho",
+  "_decoded_content": {
+    "track": {
+      "name": "Psycho",
+      "url": "https:\/\/www.last.fm\/music\/Dave\/_\/Psycho",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "104837",
+      "playcount": "1205165",
+      "artist": {
+        "name": "Dave",
+        "mbid": "c7740223-c657-4b0a-a0a4-b8349169e760",
+        "url": "https:\/\/www.last.fm\/music\/Dave"
+      },
+      "album": {
+        "artist": "Dave",
+        "title": "Psychodrama",
+        "url": "https:\/\/www.last.fm\/music\/Dave\/Psychodrama",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d9bb91763268714c6b0bbb3745943641.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d9bb91763268714c6b0bbb3745943641.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d9bb91763268714c6b0bbb3745943641.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d9bb91763268714c6b0bbb3745943641.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "UK hip-hop",
+            "url": "https:\/\/www.last.fm\/tag\/UK+hip-hop"
+          },
+          {
+            "name": "British Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/British+Hip+Hop"
+          },
+          {
+            "name": "english hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/english+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Mar 2019, 10:55",
+        "summary": "\u201cPsycho\u201d serves as the intro to Dave\u2019s debut album, Psychodrama. The track, which is produced by frequent collaborator Fraser T Smith, sees Dave speak on the issues surrounding him, varying from pain to insecurities\u2014the song emulates a therapy session and ties in with the overall theme of Psychodrama being a \u201cyear-long course of therapy.\u201d\n\nThe song could be split into two parts, which would couple together and illustrate the \u201cmanic depression\u201d\u2014commonly <a href=\"http:\/\/www.last.fm\/music\/Dave\/_\/Psycho\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPsycho\u201d serves as the intro to Dave\u2019s debut album, Psychodrama. The track, which is produced by frequent collaborator Fraser T Smith, sees Dave speak on the issues surrounding him, varying from pain to insecurities\u2014the song emulates a therapy session and ties in with the overall theme of Psychodrama being a \u201cyear-long course of therapy.\u201d\n\nThe song could be split into two parts, which would couple together and illustrate the \u201cmanic depression\u201d\u2014commonly known as Bipolar Disorder\u2014that Dave suggests he is suffering from on this cut. The first part is closer to the manic phase: confident, angry and energetic both in beat and lyrics, whilst the second half, with its downbeat piano and lyrical themes are more identifiable with the insecure depressive episodes that Dave is the victim of. <a href=\"http:\/\/www.last.fm\/music\/Dave\/_\/Psycho\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

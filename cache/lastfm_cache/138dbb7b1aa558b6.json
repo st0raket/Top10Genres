@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:41:04.200902+00:00",
+  "elapsed": 0.185495,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:04.200902+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4196",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KISS+OF+LIFE&format=json&method=track.getInfo&track=Midas+Touch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KISS+OF+LIFE&format=json&method=track.getInfo&track=Midas+Touch",
+  "_decoded_content": {
+    "track": {
+      "name": "Midas Touch",
+      "url": "https:\/\/www.last.fm\/music\/Kiss+Of+Life\/_\/Midas+Touch",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "333061",
+      "playcount": "7838270",
+      "artist": {
+        "name": "Kiss Of Life",
+        "mbid": "c0b630b0-7ada-4350-8cb4-ed9b95ae4d03",
+        "url": "https:\/\/www.last.fm\/music\/Kiss+Of+Life"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Apr 2024, 02:09",
+        "summary": "\"Midas Touch\" is a song recorded by the South Korean girl group KISS OF LIFE. It was released on April 3, 2024, by S2 Entertainment and distributed by Kakao M. The song explores themes of transformation and empowerment, with a central motif that everything they touch turns to gold. With its captivating melody and dynamic production, \"Midas Touch\" highlights the group's ability to turn their artistic endeavors into success. The release was met with positive reviews <a href=\"http:\/\/www.last.fm\/music\/Kiss+Of+Life\/_\/Midas+Touch\">Read more on Last.fm<\/a>.",
+        "content": "\"Midas Touch\" is a song recorded by the South Korean girl group KISS OF LIFE. It was released on April 3, 2024, by S2 Entertainment and distributed by Kakao M. The song explores themes of transformation and empowerment, with a central motif that everything they touch turns to gold. With its captivating melody and dynamic production, \"Midas Touch\" highlights the group's ability to turn their artistic endeavors into success. The release was met with positive reviews, praising the song's lyrical content and the group's vocal performance, further solidifying KISS OF LIFE's presence in the K-pop industry.\n\nThe song tackles the idea of personal transformation and the power of self-belief. The lyrics convey a journey of growth and the realization of inner strength, symbolized by the metaphor of the \"Midas Touch.\" This transformation is depicted through vivid imagery of turning struggles into triumphs and dreams into reality. The chorus reinforces the notion of empowerment, with the members asserting that their touch can create success and prosperity, akin to the mythological King Midas whose touch turned everything into gold.\n\nMusically, \"Midas Touch\" blends various genres, creating a rich and layered sound. The dance elements provide a rhythmic foundation, while the new jack swing influences add a retro flair. Pop and electro-pop components infuse the track with a modern, upbeat vibe, complemented by R&B grooves and emotive ballad segments that showcase the group's vocal versatility.\n\nThe dynamic production of the song features a mix of electronic beats, smooth synth lines, and vibrant instrumentation. This fusion creates a backdrop that enhances the song's thematic content, with crescendos and drops mirroring the highs and lows of the lyrical narrative. The bridge of the song provides a moment of introspection before building up to a powerful final chorus, emphasizing the transformative journey described in the lyrics.\n\nUpon release, \"Midas Touch\" was praised for its lyrical depth and the group's compelling vocal delivery. Critics highlighted the song's ability to resonate with listeners through its universal message of self-empowerment and resilience. The positive reception of the song contributed to KISS OF LIFE's growing reputation in the K-pop industry, showcasing their potential to create impactful and meaningful music.\n\nIn addition to its commercial success, \"Midas Touch\" became a fan favorite, further establishing KISS OF LIFE as a significant act in the contemporary music scene. The song's success also demonstrated the group's commitment to exploring diverse musical styles and delivering high-quality performances, solidifying their artistic identity and influence within the genre. <a href=\"http:\/\/www.last.fm\/music\/Kiss+Of+Life\/_\/Midas+Touch\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

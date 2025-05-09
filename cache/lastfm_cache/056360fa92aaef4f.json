@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:30:42.859328+00:00",
+  "elapsed": 0.200352,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:42.859328+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4566",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Queen&format=json&method=track.getInfo&track=Killer+Queen"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Queen&format=json&method=track.getInfo&track=Killer+Queen",
+  "_decoded_content": {
+    "track": {
+      "name": "Killer Queen",
+      "mbid": "2feca2f4-60d1-410b-8f48-e52e08bc773a",
+      "url": "https:\/\/www.last.fm\/music\/Queen\/_\/Killer+Queen",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1101825",
+      "playcount": "6895040",
+      "artist": {
+        "name": "Queen",
+        "mbid": "420ca290-76c5-41af-999e-564d7c71f1a7",
+        "url": "https:\/\/www.last.fm\/music\/Queen"
+      },
+      "album": {
+        "artist": "Queen",
+        "title": "Greatest Hits",
+        "mbid": "e510d91f-f1dc-469c-9927-e7f2e31fdbd3",
+        "url": "https:\/\/www.last.fm\/music\/Queen\/Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1aec5cac8403fbda275b8200b77c8318.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1aec5cac8403fbda275b8200b77c8318.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1aec5cac8403fbda275b8200b77c8318.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1aec5cac8403fbda275b8200b77c8318.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "Queen",
+            "url": "https:\/\/www.last.fm\/tag\/Queen"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "glam rock",
+            "url": "https:\/\/www.last.fm\/tag\/glam+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jul 2008, 06:14",
+        "summary": "\"Killer Queen\",  is a song by the British rock band Queen and was written by lead singer Freddie Mercury. It was their breakthrough hit, reaching #2 in the UK and #11 in the United States in early 1975. The song was taken from Queen's 1974 album Sheer Heart Attack, and was released as a Double A-side, along with \"Flick of the Wrist\".\n\nMercury commented that the influences he received for the track included early Beatles records, Beach Boys and (lyrically) Noel Coward. <a href=\"http:\/\/www.last.fm\/music\/Queen\/_\/Killer+Queen\">Read more on Last.fm<\/a>.",
+        "content": "\"Killer Queen\",  is a song by the British rock band Queen and was written by lead singer Freddie Mercury. It was their breakthrough hit, reaching #2 in the UK and #11 in the United States in early 1975. The song was taken from Queen's 1974 album Sheer Heart Attack, and was released as a Double A-side, along with \"Flick of the Wrist\".\n\nMercury commented that the influences he received for the track included early Beatles records, Beach Boys and (lyrically) Noel Coward. He wrote the lyrics first before adding the complex musical arrangements. The recording features elaborate 4-part vocal harmonies (particularly in the choruses, and also providing backing parts in the verses), and also an elaborate multi-tracked guitar solo by Brian May. \n\nMercury was quite fond of the song, and spoke of it during a 1974 interview with Melody Maker.\n\n\n\"Well, 'Killer Queen' I wrote in one night. I'm not being conceited or anything, but it just fell into place. Certain songs do. Now, March Of The Black Queen, that took ages. I had to give it everything, to be self indulgent or whatever. But with 'Killer Queen', I scribbled down the words in the dark one Saturday night and the next morning I got them all together and I worked all day Sunday and that was it. I'd got it. It gelled. It was great. Certain things just come together, but other things you have to work for. The whole band is very particular. We don't go in for half measures and I'm very hard with myself. There're no compromises. If I thought a song wasn't quite right, I'd discard it. I'm very intricate and delicate. You can see that in my paintings. I love painters like Richard Dadd, Mucha and Dali, and I love Arthur Rackham.\"\n\nHe spoke further of the song in a 1976 interview with Record Mirror.\n\n\"We're very proud of that number. It's done me a lot of proud. It's just one of the tracks I wrote for the album to be honest. It wasn't written as a single. I just wrote a batch of songs for the Sheer Heart Attack album and when I finished writing it, and when we recorded it, we found it was a very, very strong single. It really was. At that time it was very, very unlike Queen. They all said: 'Awwwwwww.' It was another risk that we took you know. Every risk we've taken so far has paid off.\"\"\n\nThe song was included in the List of songs deemed inappropriate by Clear Channel following the September 11, 2001 attacks, although its inclusion has been subject to criticism.\n <a href=\"http:\/\/www.last.fm\/music\/Queen\/_\/Killer+Queen\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

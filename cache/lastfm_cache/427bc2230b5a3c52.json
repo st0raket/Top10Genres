@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:49.535257+00:00",
+  "elapsed": 0.189087,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:49.535257+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3715",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sara+Kays&format=json&method=track.getInfo&track=Remember+That+Night%3F"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sara+Kays&format=json&method=track.getInfo&track=Remember+That+Night%3F",
+  "_decoded_content": {
+    "track": {
+      "name": "Remember That Night?",
+      "url": "https:\/\/www.last.fm\/music\/Sara+Kays\/_\/Remember+That+Night%3F",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "281642",
+      "playcount": "2619925",
+      "artist": {
+        "name": "Sara Kays",
+        "url": "https:\/\/www.last.fm\/music\/Sara+Kays"
+      },
+      "album": {
+        "artist": "Sara Kays",
+        "title": "Future Kids",
+        "url": "https:\/\/www.last.fm\/music\/Sara+Kays\/Future+Kids",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c69bf7c75eb4c8026ccbf02141474677.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c69bf7c75eb4c8026ccbf02141474677.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c69bf7c75eb4c8026ccbf02141474677.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c69bf7c75eb4c8026ccbf02141474677.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "yearning",
+            "url": "https:\/\/www.last.fm\/tag\/yearning"
+          },
+          {
+            "name": "reminiscing",
+            "url": "https:\/\/www.last.fm\/tag\/reminiscing"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Mar 2022, 21:43",
+        "summary": "Detailing the pain of heartbreak over the strumming of a guitar, Sara Kays exploded with popularity following the release of \u201cRemember That Night?\u201d Sara recounts the emotions felt after a year-long relationship came to an end, taking the listener through the misery immediately after the couple broke up, the struggle of trying to move on from her ex in the following months, and having to go through all the heartache again after her ex reached out trying to reconnect. <a href=\"http:\/\/www.last.fm\/music\/Sara+Kays\/_\/Remember+That+Night%3F\">Read more on Last.fm<\/a>.",
+        "content": "Detailing the pain of heartbreak over the strumming of a guitar, Sara Kays exploded with popularity following the release of \u201cRemember That Night?\u201d Sara recounts the emotions felt after a year-long relationship came to an end, taking the listener through the misery immediately after the couple broke up, the struggle of trying to move on from her ex in the following months, and having to go through all the heartache again after her ex reached out trying to reconnect.\n\nOriginally teased on TikTok on October 28, 2020, Sara quickly recorded and published the song after the TikTok went viral with fans begging for the song\u2019s release. The song has amassed over 90 million streams on Spotify alone, quickly becoming Sara\u2019s most popular song.\n\nA November 2020 Prelude Press article quotes Sara saying:\n\n\"This song came out of a breakup I went through a while ago and how hard it\u2019s been to move on from it. I only started writing this song about two weeks ago but felt inclined to release it after sharing a clip on TikTok last week.\"\n\n\"5 months ago i was broken up with & its been hard to move on & about a week ago he reached out to me. . i miss him & really wanted to respond. . but i decided i would profit off of the situation instead so i grabbed my guitar & came up with a melody i liked..wrote lyrics about the situation and put them together. i really liked what i came up with so i posted it on tiktok and it blew up !! so i texted my producer and we recorded the full version of the song. then i did a photoshoot for the cover art..and after a week of hard work i was ready to profit off of his manipulation :) so i released the song !!!\"\n\nvia TikTok <a href=\"http:\/\/www.last.fm\/music\/Sara+Kays\/_\/Remember+That+Night%3F\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:30:26.861682+00:00",
+  "elapsed": 0.279223,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:26.861682+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "651",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bonez+MC&format=json&method=track.getInfo&track=Alien"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bonez+MC&format=json&method=track.getInfo&track=Alien",
+  "_decoded_content": {
+    "track": {
+      "name": "Alien",
+      "url": "https:\/\/www.last.fm\/music\/Bonez+MC\/_\/Alien",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7384",
+      "playcount": "71111",
+      "artist": {
+        "name": "Bonez MC",
+        "url": "https:\/\/www.last.fm\/music\/Bonez+MC"
+      },
+      "album": {
+        "artist": "\u0641\u0646\u0627\u0646\u0648\u0646 \u0645\u062a\u0639\u062f\u062f\u0648\u0646",
+        "title": "Deutschrap Sommer Vibes 2023 by STOKED",
+        "url": "https:\/\/www.last.fm\/music\/%D9%81%D9%86%D8%A7%D9%86%D9%88%D9%86+%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D9%88%D9%86\/Deutschrap+Sommer+Vibes+2023+by+STOKED",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

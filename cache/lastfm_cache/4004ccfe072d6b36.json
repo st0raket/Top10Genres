@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:43:31.375943+00:00",
+  "elapsed": 0.179425,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:31.375943+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1348",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Labrinth&format=json&method=track.getInfo&track=I%E2%80%99m+Tired+%28with+Zendaya%29+-+Bonus+Track"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Labrinth&format=json&method=track.getInfo&track=I%E2%80%99m+Tired+%28with+Zendaya%29+-+Bonus+Track",
+  "_decoded_content": {
+    "track": {
+      "name": "I\u2019m Tired (with Zendaya) - Bonus Track",
+      "url": "https:\/\/www.last.fm\/music\/Labrinth\/_\/I%E2%80%99m+Tired+(with+Zendaya)+-+Bonus+Track",
+      "duration": "187000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "226376",
+      "playcount": "1567705",
+      "artist": {
+        "name": "Labrinth",
+        "mbid": "dc99e6fd-c710-4f79-b74b-127b4d0b7849",
+        "url": "https:\/\/www.last.fm\/music\/Labrinth"
+      },
+      "album": {
+        "artist": "Labrinth",
+        "title": "EUPHORIA SEASON 2 OFFICIAL SCORE (FROM THE HBO ORIGINAL SERIES)",
+        "url": "https:\/\/www.last.fm\/music\/Labrinth\/EUPHORIA+SEASON+2+OFFICIAL+SCORE+(FROM+THE+HBO+ORIGINAL+SERIES)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5db9aa1815c8119dc01538a59ad42786.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5db9aa1815c8119dc01538a59ad42786.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5db9aa1815c8119dc01538a59ad42786.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5db9aa1815c8119dc01538a59ad42786.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "sadcore",
+            "url": "https:\/\/www.last.fm\/tag\/sadcore"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          }
+        ]
+      }
+    }
+  }
+}

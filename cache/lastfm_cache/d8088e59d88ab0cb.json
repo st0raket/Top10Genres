@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:34.455549+00:00",
+  "elapsed": 0.227672,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:34.455549+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3564",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=Beautiful+Things"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=Beautiful+Things",
+  "_decoded_content": {
+    "track": {
+      "name": "Beautiful Things",
+      "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/_\/Beautiful+Things",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "712066",
+      "playcount": "7136437",
+      "artist": {
+        "name": "Benson Boone",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone"
+      },
+      "album": {
+        "artist": "Benson Boone",
+        "title": "Beautiful Things",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/Beautiful+Things",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8a7c736216f42cda08cd87798ba77a8e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8a7c736216f42cda08cd87798ba77a8e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8a7c736216f42cda08cd87798ba77a8e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8a7c736216f42cda08cd87798ba77a8e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "black metal",
+            "url": "https:\/\/www.last.fm\/tag\/black+metal"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Apr 2024, 22:43",
+        "summary": "\"Beautiful Things\" is a song by American singer and songwriter Benson Boone. It was released on January 18, 2024, through Night Street Records and Warner Records as the lead single of his debut studio album, Fireworks & Rollerblades. The song was co-written by Boone with Jack LaFrantz and Evan Blair, and produced by the latter. \"Beautiful Things\" peaked at number two on the Billboard Hot 100. Outside of the United States, \"Beautiful Things\" topped the charts in several countries <a href=\"http:\/\/www.last.fm\/music\/Benson+Boone\/_\/Beautiful+Things\">Read more on Last.fm<\/a>.",
+        "content": "\"Beautiful Things\" is a song by American singer and songwriter Benson Boone. It was released on January 18, 2024, through Night Street Records and Warner Records as the lead single of his debut studio album, Fireworks & Rollerblades. The song was co-written by Boone with Jack LaFrantz and Evan Blair, and produced by the latter. \"Beautiful Things\" peaked at number two on the Billboard Hot 100. Outside of the United States, \"Beautiful Things\" topped the charts in several countries, including Australia, Canada, Germany, New Zealand and the United Kingdom.\n\n\"Beautiful Things\" is a \"ballad about the meaning of life\", where Boone reflects on gratitude for life, love, and the \"volatility of happiness\". The song adds a \"more powerful\" layer to the \"softness\" he exhibited with previous singles like \"In the Stars\", helping him bring out \"all of his character\" from inside and performing different \"vocal turns\". Consisting of \"soulful verses\" paired with a \"powerful chorus\", Boone showcases \"raw, emotive vocals\". The song is a blend of pop and alternative rock, post-grunge and Suicide-inspired no wave.\n\nStarting on December 3, 2023, Boone steadily teased the song on TikTok and Instagram, amassing over 130 million views with its sound until January 18, 2024. The music video premiered a day after the song's official release on January 19, 2024. It garnered half a million views within an hour. The video features Benson Boone and his band performing on a mountaintop and was shot near St. George, Utah. <a href=\"http:\/\/www.last.fm\/music\/Benson+Boone\/_\/Beautiful+Things\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

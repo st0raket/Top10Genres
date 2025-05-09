@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:33.808932+00:00",
+  "elapsed": 0.207068,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:33.808932+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2654",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=PUFFIN+ON+ZOOTIEZ"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=PUFFIN+ON+ZOOTIEZ",
+  "_decoded_content": {
+    "track": {
+      "name": "PUFFIN ON ZOOTIEZ",
+      "url": "https:\/\/www.last.fm\/music\/Future\/_\/PUFFIN+ON+ZOOTIEZ",
+      "duration": "172000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "583962",
+      "playcount": "9582421",
+      "artist": {
+        "name": "Future",
+        "mbid": "9f1195cf-9900-45db-bf9c-21c205672ae0",
+        "url": "https:\/\/www.last.fm\/music\/Future"
+      },
+      "album": {
+        "artist": "Future",
+        "title": "I NEVER LIKED YOU",
+        "url": "https:\/\/www.last.fm\/music\/Future\/I+NEVER+LIKED+YOU",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Apr 2022, 04:51",
+        "summary": "\u201cPUFFIN ON ZOOTIEZ\u201d is the fifth track on Future\u2019s ninth studio album \"I NEVER LIKED YOU\".\n\nThis song\u2019s snippet, which was previously named \u201cHerm\u00e8s Astronaut\u201d by fans (they misheard \u201cHerm\u00e8s ashtray\u201d for \u201cHerm\u00e8s astronaut\u201d), went viral after Future had posted it to his Instagram story on November 1, 2021.\n\nZootiez is also a brand that Future has collaborated with to help promote the album. There was a listening party for the album on the Zootiez discord server <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/PUFFIN+ON+ZOOTIEZ\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPUFFIN ON ZOOTIEZ\u201d is the fifth track on Future\u2019s ninth studio album \"I NEVER LIKED YOU\".\n\nThis song\u2019s snippet, which was previously named \u201cHerm\u00e8s Astronaut\u201d by fans (they misheard \u201cHerm\u00e8s ashtray\u201d for \u201cHerm\u00e8s astronaut\u201d), went viral after Future had posted it to his Instagram story on November 1, 2021.\n\nZootiez is also a brand that Future has collaborated with to help promote the album. There was a listening party for the album on the Zootiez discord server, where fans were also able to hear a couple of songs from the album a few hours before its eventual release. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/PUFFIN+ON+ZOOTIEZ\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

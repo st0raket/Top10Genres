@@ -1,0 +1,65 @@
+{
+  "created_at": "2025-05-03T14:44:00.863244+00:00",
+  "elapsed": 0.201546,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:00.863244+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "558",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gusttavo+Lima&format=json&method=track.getInfo&track=A+Gente+Fez+Amor+-+Ao+Vivo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gusttavo+Lima&format=json&method=track.getInfo&track=A+Gente+Fez+Amor+-+Ao+Vivo",
+  "_decoded_content": {
+    "track": {
+      "name": "A Gente Fez Amor - Ao Vivo",
+      "url": "https:\/\/www.last.fm\/music\/Gusttavo+Lima\/_\/A+Gente+Fez+Amor+-+Ao+Vivo",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38869",
+      "playcount": "360761",
+      "artist": {
+        "name": "Gusttavo Lima",
+        "mbid": "48a3a1c5-8cf3-4a9a-bd5c-5082cf8d3639",
+        "url": "https:\/\/www.last.fm\/music\/Gusttavo+Lima"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "sertanejo",
+            "url": "https:\/\/www.last.fm\/tag\/sertanejo"
+          },
+          {
+            "name": " brazilian",
+            "url": "https:\/\/www.last.fm\/tag\/+brazilian"
+          },
+          {
+            "name": " Brasil",
+            "url": "https:\/\/www.last.fm\/tag\/+Brasil"
+          }
+        ]
+      }
+    }
+  }
+}

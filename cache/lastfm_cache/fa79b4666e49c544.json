@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:30:23.683529+00:00",
+  "elapsed": 0.232015,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:23.683529+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1232",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Snake&format=json&method=track.getInfo&track=Taki+Taki"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Snake&format=json&method=track.getInfo&track=Taki+Taki",
+  "_decoded_content": {
+    "track": {
+      "name": "Taki Taki",
+      "url": "https:\/\/www.last.fm\/music\/DJ+Snake\/_\/Taki+Taki",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "24957",
+      "playcount": "146196",
+      "artist": {
+        "name": "DJ Snake",
+        "mbid": "31445b1e-96f3-4c7f-84ec-dd02e647e690",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Snake"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Ultimate Reggaeton Collection",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Ultimate+Reggaeton+Collection",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3b8e33225f8077f425527bcdcd24db5d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3b8e33225f8077f425527bcdcd24db5d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3b8e33225f8077f425527bcdcd24db5d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3b8e33225f8077f425527bcdcd24db5d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "latino",
+            "url": "https:\/\/www.last.fm\/tag\/latino"
+          },
+          {
+            "name": "major lazer",
+            "url": "https:\/\/www.last.fm\/tag\/major+lazer"
+          },
+          {
+            "name": "cardi b",
+            "url": "https:\/\/www.last.fm\/tag\/cardi+b"
+          }
+        ]
+      }
+    }
+  }
+}

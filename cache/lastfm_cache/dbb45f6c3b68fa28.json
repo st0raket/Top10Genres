@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:45.713153+00:00",
+  "elapsed": 0.719859,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:45.713153+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2612",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Omg"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Omg",
+  "_decoded_content": {
+    "track": {
+      "name": "OMG",
+      "mbid": "6535191f-33c3-41e3-86fe-71c2cb18b355",
+      "url": "https:\/\/www.last.fm\/music\/Usher\/_\/OMG",
+      "duration": "270000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "290839",
+      "playcount": "1147832",
+      "artist": {
+        "name": "Usher",
+        "mbid": "3414d446-735a-443c-931f-10634f57e5b9",
+        "url": "https:\/\/www.last.fm\/music\/Usher"
+      },
+      "album": {
+        "artist": "Usher",
+        "title": "The Singles Collection",
+        "mbid": "16784ba0-5dfb-4c7a-884e-07f1ef457c23",
+        "url": "https:\/\/www.last.fm\/music\/Usher\/The+Singles+Collection",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7ac1b86d4020f387eb08f1a9da72be61.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7ac1b86d4020f387eb08f1a9da72be61.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7ac1b86d4020f387eb08f1a9da72be61.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7ac1b86d4020f387eb08f1a9da72be61.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "14"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Usher",
+            "url": "https:\/\/www.last.fm\/tag\/Usher"
+          },
+          {
+            "name": "omg",
+            "url": "https:\/\/www.last.fm\/tag\/omg"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Apr 2010, 21:39",
+        "summary": "\"OMG\" is a song by American R&B singer, Usher. The song, which features rapper will.i.am, uses the auto-tune effect in several lines. It is the first international single off his sixth studio album, Raymond v. Raymond, and the third single overall. The track was written and produced by will.i.am. The song was met with mixed reception from critics, criticizing the the use of auto-tune, however commending the song's dance and club vibe. Usher with will.i.am performed the song on the ninth season of American Idol. <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/OMG\">Read more on Last.fm<\/a>.",
+        "content": "\"OMG\" is a song by American R&B singer, Usher. The song, which features rapper will.i.am, uses the auto-tune effect in several lines. It is the first international single off his sixth studio album, Raymond v. Raymond, and the third single overall. The track was written and produced by will.i.am. The song was met with mixed reception from critics, criticizing the the use of auto-tune, however commending the song's dance and club vibe. Usher with will.i.am performed the song on the ninth season of American Idol. <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/OMG\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

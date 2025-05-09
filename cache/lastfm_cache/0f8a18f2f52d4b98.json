@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:45.953858+00:00",
+  "elapsed": 0.212645,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:45.953858+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3040",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cigarettes+After+Sex&format=json&method=track.getInfo&track=Cry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cigarettes+After+Sex&format=json&method=track.getInfo&track=Cry",
+  "_decoded_content": {
+    "track": {
+      "name": "Cry",
+      "url": "https:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/_\/Cry",
+      "duration": "256000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "994527",
+      "playcount": "16664250",
+      "artist": {
+        "name": "Cigarettes After Sex",
+        "mbid": "34557d8f-ee4a-44ab-ae6e-49bb8ac604d0",
+        "url": "https:\/\/www.last.fm\/music\/Cigarettes+After+Sex"
+      },
+      "album": {
+        "artist": "Cigarettes After Sex",
+        "title": "Cry [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/Cry+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/163c80fbca2bc8e3e509325e141336d9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/163c80fbca2bc8e3e509325e141336d9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/163c80fbca2bc8e3e509325e141336d9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/163c80fbca2bc8e3e509325e141336d9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "waiting",
+            "url": "https:\/\/www.last.fm\/tag\/waiting"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Apr 2023, 18:24",
+        "summary": "The song describes a toxic relationship where one partner gives more affection than the other, which constantly leads to hurting the person who is more affectionate. The song is from a point of view of a less affectionate person.\n\nIn an interview with Apple Music, Greg Gonzalez said:\n\n\"I think we all, or many of us, want to be in relationships. I\u2019ve always been looking for a relationship, one that would be spiritual, one that could be forever, with someone that you just fall in love with and you can\u2019t help it. <a href=\"http:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/_\/Cry\">Read more on Last.fm<\/a>.",
+        "content": "The song describes a toxic relationship where one partner gives more affection than the other, which constantly leads to hurting the person who is more affectionate. The song is from a point of view of a less affectionate person.\n\nIn an interview with Apple Music, Greg Gonzalez said:\n\n\"I think we all, or many of us, want to be in relationships. I\u2019ve always been looking for a relationship, one that would be spiritual, one that could be forever, with someone that you just fall in love with and you can\u2019t help it. We had just started to really tour, and all I was trying to do was to play music for a living\u2014to be a writer, and for that to be my identity. I had met a few people that I probably could have had deep relationships with, but I found that since we were touring, I just wasn\u2019t ready for it, I wasn\u2019t in the right place for it. This song was a reaction to all of that. I just couldn\u2019t commit.\" <a href=\"http:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/_\/Cry\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

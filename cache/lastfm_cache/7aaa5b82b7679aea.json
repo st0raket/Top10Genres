@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:41:41.519383+00:00",
+  "elapsed": 0.292915,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:41.519383+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2403",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oasis&format=json&method=track.getInfo&track=Supersonic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oasis&format=json&method=track.getInfo&track=Supersonic",
+  "_decoded_content": {
+    "track": {
+      "name": "Supersonic",
+      "mbid": "89706925-b927-470e-831b-12a76a2489ab",
+      "url": "https:\/\/www.last.fm\/music\/Oasis\/_\/Supersonic",
+      "duration": "283000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "653676",
+      "playcount": "4515520",
+      "artist": {
+        "name": "Oasis",
+        "mbid": "ecf9f3a3-35e9-4c58-acaa-e707fba45060",
+        "url": "https:\/\/www.last.fm\/music\/Oasis"
+      },
+      "album": {
+        "artist": "Oasis",
+        "title": "Definitely Maybe",
+        "mbid": "9822581d-98bf-3f97-a94c-4b1350d090aa",
+        "url": "https:\/\/www.last.fm\/music\/Oasis\/Definitely+Maybe",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8d6acedbe66b4e69ced210643799dc4c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8d6acedbe66b4e69ced210643799dc4c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8d6acedbe66b4e69ced210643799dc4c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8d6acedbe66b4e69ced210643799dc4c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "britpop",
+            "url": "https:\/\/www.last.fm\/tag\/britpop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "oasis",
+            "url": "https:\/\/www.last.fm\/tag\/oasis"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Sep 2008, 18:55",
+        "summary": "'Supersonic' is the debut single of British rock band Oasis. It was released 11 April 1994 and peaked #31 on the official UK chart. Before that the song was performed on the first national TV performance by Oasis 18 March 1994 on Channel 4's The Word. It can be found from Oasis' debut album Definitely Maybe and the compilation album Stop the Clocks.\n\n'Supersonic' is written by Noel Gallagher. <a href=\"http:\/\/www.last.fm\/music\/Oasis\/_\/Supersonic\">Read more on Last.fm<\/a>.",
+        "content": "'Supersonic' is the debut single of British rock band Oasis. It was released 11 April 1994 and peaked #31 on the official UK chart. Before that the song was performed on the first national TV performance by Oasis 18 March 1994 on Channel 4's The Word. It can be found from Oasis' debut album Definitely Maybe and the compilation album Stop the Clocks.\n\n'Supersonic' is written by Noel Gallagher. <a href=\"http:\/\/www.last.fm\/music\/Oasis\/_\/Supersonic\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

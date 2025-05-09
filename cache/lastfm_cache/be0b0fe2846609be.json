@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:34:59.493549+00:00",
+  "elapsed": 0.242033,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:59.493549+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "853",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hamza&format=json&method=track.getInfo&track=Cheikh"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hamza&format=json&method=track.getInfo&track=Cheikh",
+  "_decoded_content": {
+    "track": {
+      "name": "Cheikh",
+      "url": "https:\/\/www.last.fm\/music\/Hamza\/_\/Cheikh",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6260",
+      "playcount": "45398",
+      "artist": {
+        "name": "Hamza",
+        "mbid": "519cacf4-8d27-4071-8b01-0824fabcdfbb",
+        "url": "https:\/\/www.last.fm\/music\/Hamza"
+      },
+      "album": {
+        "artist": "Hamza",
+        "title": "140 BPM 2",
+        "url": "https:\/\/www.last.fm\/music\/Hamza\/140+BPM+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/460c6e8006e7b4a223fd7cd424eea8d0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/460c6e8006e7b4a223fd7cd424eea8d0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/460c6e8006e7b4a223fd7cd424eea8d0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/460c6e8006e7b4a223fd7cd424eea8d0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:35.867775+00:00",
+  "elapsed": 0.21182,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:35.867775+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4125",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Kevin%E2%80%99s+Heart"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Kevin%E2%80%99s+Heart",
+  "_decoded_content": {
+    "track": {
+      "name": "Kevin\u2019s Heart",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/Kevin%E2%80%99s+Heart",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "461857",
+      "playcount": "5744473",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "J. Cole",
+        "title": "KOD [Clean] [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole\/KOD+%5BClean%5D+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/95b885758ff31e1ee22eb8f1a6cf1118.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/95b885758ff31e1ee22eb8f1a6cf1118.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/95b885758ff31e1ee22eb8f1a6cf1118.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/95b885758ff31e1ee22eb8f1a6cf1118.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 05:27",
+        "summary": "In \u201cKevin\u2019s Heart,\u201d Cole is singing from the stance of a person in love with drugs. Throughout the track, he references taking Xannies and smoking blunts, and relates the use of drugs to potentially cheating on his partner.\n\nThe title itself is a reference to actor and comedian Kevin Hart, who admitted to cheating on his wife and mother of his child. The music video of the track prominently features Hart, receiving judgement from people in the public but ultimately recognizing his own mistakes as a growth opportunity. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Kevin%E2%80%99s+Heart\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cKevin\u2019s Heart,\u201d Cole is singing from the stance of a person in love with drugs. Throughout the track, he references taking Xannies and smoking blunts, and relates the use of drugs to potentially cheating on his partner.\n\nThe title itself is a reference to actor and comedian Kevin Hart, who admitted to cheating on his wife and mother of his child. The music video of the track prominently features Hart, receiving judgement from people in the public but ultimately recognizing his own mistakes as a growth opportunity. This runs parallel with Cole\u2019s own cheating nature, and also ties into the overall message of the album \u2013 to Choose Wisely.\n\nThese lines could be a reference to an actual woman that he doesn\u2019t want to cheat on. \u201cShe\u201d could also mean the drug that the person may be attempting to sell him as later in the same pre-chorus he says, \u201cIf I take this cookie now one day I\u2019ll do the time,\u201d which could literally send him to jail.\n\nThe line relates to the title Kids On Drugs as the point of view of the song is someone attempting to stay away from the drugs they had once filled their life with. It also relates to Kill Our Demons because the demon, in this case, would be lust. The person would be attempting to kill the lust within them in an attempt to be loyal to his significant other. Lastly, King OverDosed is about Cole himself. In the past, Cole has referenced his cheating nature on tracks like \u201cShe Knows.\u201d Cole is most likely referencing and taking aim at his addiction to cheating in the earlier stages of his life.\n\nKevin Hart responded by telling Vulture Magazine that \u201cIt wasn\u2019t done from a hateful or spiteful place. It was done with a smart intent behind it, which I think a lot of Cole\u2019s stuff is done.\u201d He also featured in the video which was released the week of April 23rd, 2018.\n\n\u201cKevin\u2019s Heart\u201d by J. Cole was ranked as one of the best tracks of 2018 by former-President Barack Obama in his year-end list released on 28 December 2018. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Kevin%E2%80%99s+Heart\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:35:30.137568+00:00",
+  "elapsed": 0.217604,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:30.137568+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2702",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=p+u+n+c+h+i+n+%E2%80%98+.+t+h+e+.+c+l+o+c+k"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=p+u+n+c+h+i+n+%E2%80%98+.+t+h+e+.+c+l+o+c+k",
+  "_decoded_content": {
+    "track": {
+      "name": "p u n c h i n \u2018 . t h e . c l o c k",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/p+u+n+c+h+i+n+%E2%80%98+.+t+h+e+.+c+l+o+c+k",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "235792",
+      "playcount": "1761660",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          },
+          {
+            "name": "jazz rap",
+            "url": "https:\/\/www.last.fm\/tag\/jazz+rap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Apr 2023, 02:23",
+        "summary": "On the album\u2019s briefest track, J. Cole raps about the hours he\u2019s spent working\u2014or \u201cpunching the clock.\u201d\n\nThe intro samples NBA star Damian Lillard\u2019s August 11, 2020, post-game interview after a 61-point game. Dame is known by the moniker \u201cDame Time,\u201d a name he earned from hitting game-winners. The song title may be a nod to Lillard\u2019s nickname and \u201cpoint to the clock\u201d celebration.\n\nThe bookend of the song samples Lillard\u2019s response to the media after hitting the walk-off three against Oklahoma in the 2019\u2019s playoffs. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/p+u+n+c+h+i+n+%E2%80%98+.+t+h+e+.+c+l+o+c+k\">Read more on Last.fm<\/a>.",
+        "content": "On the album\u2019s briefest track, J. Cole raps about the hours he\u2019s spent working\u2014or \u201cpunching the clock.\u201d\n\nThe intro samples NBA star Damian Lillard\u2019s August 11, 2020, post-game interview after a 61-point game. Dame is known by the moniker \u201cDame Time,\u201d a name he earned from hitting game-winners. The song title may be a nod to Lillard\u2019s nickname and \u201cpoint to the clock\u201d celebration.\n\nThe bookend of the song samples Lillard\u2019s response to the media after hitting the walk-off three against Oklahoma in the 2019\u2019s playoffs. The excerpt highlights the theme of the album, which Cole explained in his 2021 interview with SLAM Magazine:\n\n\"The Off-Season symbolizes the work that it takes to get to the highest height. The Off-Season represents the many hours and months and years it took to get to top form\u2026 the Off-Season is where the magic really happens.\"\n\n\u201cp u n c h i n \u2018 . t h e . c l o c k\u201d debuted and peaked at #20 on the Billboard Hot 100 for the charting week ending May 29, 2021. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/p+u+n+c+h+i+n+%E2%80%98+.+t+h+e+.+c+l+o+c+k\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:37:58.921999+00:00",
+  "elapsed": 0.204683,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:58.921999+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2757",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ITZY&format=json&method=track.getInfo&track=SNEAKERS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ITZY&format=json&method=track.getInfo&track=SNEAKERS",
+  "_decoded_content": {
+    "track": {
+      "name": "SNEAKERS",
+      "url": "https:\/\/www.last.fm\/music\/Itzy\/_\/SNEAKERS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "205231",
+      "playcount": "2798660",
+      "artist": {
+        "name": "Itzy",
+        "url": "https:\/\/www.last.fm\/music\/Itzy"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "itzy",
+            "url": "https:\/\/www.last.fm\/tag\/itzy"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Dec 2022, 05:53",
+        "summary": "\"Sneakers\" is a song recorded by South Korean girl group ITZY. It was released on July 15, 2022, by JYP Entertainment and Republic Records, as the lead single for their fifth EP Checkmate. Both Korean and English versions of the song were included in the EP. The electro-pop track was written and produced by Didrik Thott, Jessica Pierpoint, Sebastian Thott, Friday, and Ogi (Galactika). An accompanying music video was released alongside the single on YouTube featuring a royal concept. <a href=\"http:\/\/www.last.fm\/music\/Itzy\/_\/SNEAKERS\">Read more on Last.fm<\/a>.",
+        "content": "\"Sneakers\" is a song recorded by South Korean girl group ITZY. It was released on July 15, 2022, by JYP Entertainment and Republic Records, as the lead single for their fifth EP Checkmate. Both Korean and English versions of the song were included in the EP. The electro-pop track was written and produced by Didrik Thott, Jessica Pierpoint, Sebastian Thott, Friday, and Ogi (Galactika). An accompanying music video was released alongside the single on YouTube featuring a royal concept.\n\n\"Sneakers\" was a commercial success in South Korea, peaking at number five on the Circle Digital Chart. This marked Itzy's second top-five single and their highest-charting song since \"Dalla Dalla\". The song also peaked at number one on Billboard's South Korea Songs chart. Following its release, Itzy promoted the song with live performances on several South Korean music television programs and amassed three music show trophies.\n\nOn June 2, 2022, JYP Entertainment announced that Itzy would be releasing their fifth Korean extended play titled Checkmate on July 15, after nearly nine months since their last release Crazy in Love with \"Sneakers\" announced as the lead single. On June 13, the group teaser photo was released. On July 11, a highlight medley teaser video was released. On July 12, the music video teaser was released. The song along with the music video was released on July 15. <a href=\"http:\/\/www.last.fm\/music\/Itzy\/_\/SNEAKERS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

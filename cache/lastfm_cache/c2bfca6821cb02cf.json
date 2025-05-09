@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:01.643473+00:00",
+  "elapsed": 0.188973,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:01.643473+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5287",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=MIDDLE+CHILD"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=MIDDLE+CHILD",
+  "_decoded_content": {
+    "track": {
+      "name": "MIDDLE CHILD",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/MIDDLE+CHILD",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "756565",
+      "playcount": "9154752",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "DJ Rectangle",
+        "title": "Vinyl Warning",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Rectangle\/Vinyl+Warning",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/31bb09ddb60cb160b563bc2515d5cd5e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/31bb09ddb60cb160b563bc2515d5cd5e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/31bb09ddb60cb160b563bc2515d5cd5e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/31bb09ddb60cb160b563bc2515d5cd5e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 15:35",
+        "summary": "\"MIDDLE CHILD\" is a song by American rapper J. Cole. The song was released on January 23, 2019, through Dreamville Records, Roc Nation and Interscope Records, as the first single from Dreamville's 2019 compilation album, Revenge of the Dreamers III. The song was written by J. Cole, T-Minus, Allan Felder, & Norman Harris, and produced by the former two. It was serviced to rhythmic and urban contemporary radio on February 5, 2019. The track contains a sample from \"Wake Up to Me\", written by Felder and Harris, as performed by First Choice. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/MIDDLE+CHILD\">Read more on Last.fm<\/a>.",
+        "content": "\"MIDDLE CHILD\" is a song by American rapper J. Cole. The song was released on January 23, 2019, through Dreamville Records, Roc Nation and Interscope Records, as the first single from Dreamville's 2019 compilation album, Revenge of the Dreamers III. The song was written by J. Cole, T-Minus, Allan Felder, & Norman Harris, and produced by the former two. It was serviced to rhythmic and urban contemporary radio on February 5, 2019. The track contains a sample from \"Wake Up to Me\", written by Felder and Harris, as performed by First Choice. On the song, J. Cole explores \"his place between the old and new generations of hip-hop, making him the 'middle child' of rap.\"\n\nJ. Cole\u2019s first offering of 2019 serves as a warning in advance of an extensive rollout of Dreamville material. On the track, Cole envisions himself in the center of the old and new generations of hip-hop, therefore making him the \u201cmiddle child\u201d of rap.\n\n\u201cMiddle Child Syndrome\u201d is a psychological condition in which middle children sometimes feel neglected by their families due to the attention that their younger and older siblings receive.\n\nAn accompanying music video for the track was uploaded to Cole's official YouTube channel on February 25, 2019. Cole announced the video via Twitter on February 22, 2019. The video was shot in Georgia, and was directed by fellow North Carolina rapper Mez, and features cameos from Dreamville artists Lute, Omen, and Cozz. The video serves as Mez' first directed video.\n\nIn an interview with Complex, Mez spoke about the creation of the video, he said:\n\n\"I came up with everything from scratch, but [J. Cole's go-to director] Scott [Lazer] had an idea for the Bentley. He was like, \"Man, we should get the Bentley dirty, we should ride it through the mud,\" you know what I mean? And we ended up having a conversation about how to expand on that idea. It's funny because we're all from North Carolina, so mudding cars is something we all know and understand. But when they said that, I then came up with the whole concept for the video. I was like, \"Oh, I know what I want it to be.\" The whole video is a concept. It's like a flip of Middle America: the NASCAR shit, the mudding shit, the hunting shit, everything. Almost every single shot\u2014even in the grocery store setting, with the white woman purchasing the black girl's features, you know what I'm saying?\"\n\nReviewing the music video, Laura Dzubay of The Michigan Daily said, \"The visuals used in the \"MIDDLE CHILD\" video are very evocative: Between the lit-up marching band, the covered dead bodies, the stuffed rappers' heads on the mantle and the woman at the end picking a Saran-wrapped head out of a sale freezer at the grocery store, it's almost hard to land on which theme (if any) might be the most significant. What does seem clear is that J. Cole is asserting his readiness to dominate the music scene no matter which direction it takes next.\" Writing for The Fader, Jordan Darville described the video as \"a fun, symbolic, and provocative set of visuals.\"\n\nJ. Cole performed \"MIDDLE CHILD\" at the 2019 NBA All-Star Game halftime show on February 17, 2019, in Charlotte, North Carolina. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/MIDDLE+CHILD\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

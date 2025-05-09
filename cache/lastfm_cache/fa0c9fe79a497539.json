@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:59.281517+00:00",
+  "elapsed": 0.24893,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:59.281517+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3504",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Whiskey+Glasses"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Whiskey+Glasses",
+  "_decoded_content": {
+    "track": {
+      "name": "Whiskey Glasses",
+      "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Whiskey+Glasses",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "196495",
+      "playcount": "2409748",
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen"
+      },
+      "album": {
+        "artist": "Morgan Wallen",
+        "title": "The Way I Talk",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/The+Way+I+Talk",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d09081ebc80db885037ab375e7a1b1d2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d09081ebc80db885037ab375e7a1b1d2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d09081ebc80db885037ab375e7a1b1d2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d09081ebc80db885037ab375e7a1b1d2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "bro-country",
+            "url": "https:\/\/www.last.fm\/tag\/bro-country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Dec 2021, 23:10",
+        "summary": "\"Whiskey Glasses\" is a song recorded by country music singer Morgan Wallen. It  reached #1 on Billboard Country Airplay chart dated June 8, 2019 after topping the Hot Country Songs chart. The song was certified 3\u00d7 Platinum by the RIAA on May 8, 2020. It has sold 391,000 copies in the United States as of March 2020. It was released as the third single from his 2018 studio album, If I Know Me.\n\n\"Whiskey Glasses\" reached #1 on Billboard Country Airplay chart dated June 8, 2019 after topping the Hot Country Songs chart. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Whiskey+Glasses\">Read more on Last.fm<\/a>.",
+        "content": "\"Whiskey Glasses\" is a song recorded by country music singer Morgan Wallen. It  reached #1 on Billboard Country Airplay chart dated June 8, 2019 after topping the Hot Country Songs chart. The song was certified 3\u00d7 Platinum by the RIAA on May 8, 2020. It has sold 391,000 copies in the United States as of March 2020. It was released as the third single from his 2018 studio album, If I Know Me.\n\n\"Whiskey Glasses\" reached #1 on Billboard Country Airplay chart dated June 8, 2019 after topping the Hot Country Songs chart. The song was certified 3\u00d7 Platinum by the RIAA on May 8, 2020. It has sold 391,000 copies in the United States as of March 2020.\n\nThe song was written by Kevin Kadish and Ben Burgess in 2015. Burgess had an idea about writing a song about whiskey glasses in a song-writing session with Kadish, who like the idea, and came up with the line \"I'mma need some whiskey glasses, 'cause I don't wanna see the truth\". They decided that the theme should be about someone who turned to drink because of a bad break-up. Burgess then remembered his father who used to say after he had too much to drink: \"Poor Pappy ... oh, pour your Pappy a drink\", which became the start of the song as \"Poor me, pour me another drink\".\n\nThe song was pitched to Wallen who then recorded the song with producer Joey Moi. It was first released in the summer of 2018, but only became a hit in 2019. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Whiskey+Glasses\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:02.030911+00:00",
+  "elapsed": 0.27465,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:02.030911+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2246",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Good+In+Bed"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Good+In+Bed",
+  "_decoded_content": {
+    "track": {
+      "name": "Good In Bed",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Good+In+Bed",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "406589",
+      "playcount": "4358127",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jul 2021, 13:28",
+        "summary": "On the penultimate track of the standard edition of \"Future Nostalgia\", \u201cGood In Bed\u201d talks about Dua Lipa\u2019s relationship. More precisely, it\u2019s about a toxic relationship redeemed only by the partners\u2019 mutual sexual enjoyment.\n\nSexual relationships are something Dua Lipa talks about frequently, especially in the pre-chorus of her 2017 smash-hit \u201cNew Rules\u201d. A lyric video for the song was released on April 9, 2020.\n\n\"I wondered about changing the title of this, because it\u2019s quite in your face. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Good+In+Bed\">Read more on Last.fm<\/a>.",
+        "content": "On the penultimate track of the standard edition of \"Future Nostalgia\", \u201cGood In Bed\u201d talks about Dua Lipa\u2019s relationship. More precisely, it\u2019s about a toxic relationship redeemed only by the partners\u2019 mutual sexual enjoyment.\n\nSexual relationships are something Dua Lipa talks about frequently, especially in the pre-chorus of her 2017 smash-hit \u201cNew Rules\u201d. A lyric video for the song was released on April 9, 2020.\n\n\"I wondered about changing the title of this, because it\u2019s quite in your face. I guess this song does what it says on the tin: It\u2019s about when good sex is the only thing that was holding two people together. It was very fun to get to make a song like this and to be so carefree and open. Those relationships never last; it\u2019s a cautionary tale.\"\n\n- via Apple Music <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Good+In+Bed\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

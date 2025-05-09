@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:41.904029+00:00",
+  "elapsed": 0.215735,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:41.904029+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2542",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Can+I+Get+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Can+I+Get+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Can I Get It",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/Can+I+Get+It",
+      "duration": "30000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "312738",
+      "playcount": "2095098",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "30",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/30",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Adele",
+            "url": "https:\/\/www.last.fm\/tag\/Adele"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 04:06",
+        "summary": "\"Can I Get It\" is a song written about wanting to be in a real relationship instead of one that would devolve into casual sex, \u201cCan I Get It\u201d is a big production pop track and features the songwriting of producer Shellback and Max Martin.\n\nIn her interview with Rolling Stone magazine, Adele shared how casual sex seemed to be the only thing the Los Angeles dating pool was good for. She has jokingly shared that she \u201clasted five seconds [dating here]\u201d <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Can+I+Get+It\">Read more on Last.fm<\/a>.",
+        "content": "\"Can I Get It\" is a song written about wanting to be in a real relationship instead of one that would devolve into casual sex, \u201cCan I Get It\u201d is a big production pop track and features the songwriting of producer Shellback and Max Martin.\n\nIn her interview with Rolling Stone magazine, Adele shared how casual sex seemed to be the only thing the Los Angeles dating pool was good for. She has jokingly shared that she \u201clasted five seconds [dating here]\u201d\n\nShe also shared that she didn\u2019t want to slip back into her old habits that come with casual dating and how it would do more damage than good. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Can+I+Get+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

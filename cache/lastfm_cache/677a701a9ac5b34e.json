@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:45:08.708687+00:00",
+  "elapsed": 0.220261,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:08.708687+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2812",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marc+E.+Bassy&format=json&method=track.getInfo&track=You+%26+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marc+E.+Bassy&format=json&method=track.getInfo&track=You+%26+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "You & Me",
+      "url": "https:\/\/www.last.fm\/music\/Marc+E.+Bassy\/_\/You+&+Me",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "141062",
+      "playcount": "828052",
+      "artist": {
+        "name": "Marc E. Bassy",
+        "url": "https:\/\/www.last.fm\/music\/Marc+E.+Bassy"
+      },
+      "album": {
+        "artist": "Marc E. Bassy",
+        "title": "You & Me",
+        "url": "https:\/\/www.last.fm\/music\/Marc+E.+Bassy\/You+&+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b7e6165e071c9f8e1160bbc4dc5ee09d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b7e6165e071c9f8e1160bbc4dc5ee09d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b7e6165e071c9f8e1160bbc4dc5ee09d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b7e6165e071c9f8e1160bbc4dc5ee09d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "a subtle use of vocal harmony",
+            "url": "https:\/\/www.last.fm\/tag\/a+subtle+use+of+vocal+harmony"
+          },
+          {
+            "name": "extensive vamping",
+            "url": "https:\/\/www.last.fm\/tag\/extensive+vamping"
+          },
+          {
+            "name": "major key tonality",
+            "url": "https:\/\/www.last.fm\/tag\/major+key+tonality"
+          },
+          {
+            "name": "acoustic rhythm piano",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic+rhythm+piano"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jun 2022, 06:36",
+        "summary": "\"You & Me\" is a song by American singer Marc E. Bassy, released as the lead single from his second EP \"Groovy People\". It features the vocal collaboration of American rapper G-Eazy. The song was first released to digital download on May 6, 2016, and later serviced to contemporary hit and rhythmic radio by Republic. \"You & Me\" is a reggae-pop track, receiving positive reviews from music critics for its \"summer feeling\".\n\nCommercially, the song has since reached a peak of number 58 on the US Billboard Hot 100 <a href=\"http:\/\/www.last.fm\/music\/Marc+E.+Bassy\/_\/You+&+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"You & Me\" is a song by American singer Marc E. Bassy, released as the lead single from his second EP \"Groovy People\". It features the vocal collaboration of American rapper G-Eazy. The song was first released to digital download on May 6, 2016, and later serviced to contemporary hit and rhythmic radio by Republic. \"You & Me\" is a reggae-pop track, receiving positive reviews from music critics for its \"summer feeling\".\n\nCommercially, the song has since reached a peak of number 58 on the US Billboard Hot 100, number 150 on the UK Singles Chart and number 52 on the Australian ARIA Singles Chart. Its music video was released on May 20, 2016, and was directed by Mike Ho. <a href=\"http:\/\/www.last.fm\/music\/Marc+E.+Bassy\/_\/You+&+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

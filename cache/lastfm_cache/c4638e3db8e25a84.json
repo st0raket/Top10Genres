@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:23.404183+00:00",
+  "elapsed": 0.23271,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:23.404183+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2967",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Sasuke"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Sasuke",
+  "_decoded_content": {
+    "track": {
+      "name": "Sasuke",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Sasuke",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "86723",
+      "playcount": "704940",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "best",
+            "url": "https:\/\/www.last.fm\/tag\/best"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2021, 12:37",
+        "summary": "\u201cSasuke\u201d is the first single by Lil Uzi Vert following his March 2020 album, Eternal Atake, and its deluxe edition, Lil Uzi Vert vs. The World 2. The title is an ode to Sasuke Uchiha, a character in Naruto, the anime and manga series. Uzi has had a continued and documented infatuation with anime.\n\nOn the song, Uzi raps about his usual topics of sex, weapons, and wealth, but he also makes references to Sasuke and the Naruto series.\n\nDuring the week leading up to the single\u2019s release <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Sasuke\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSasuke\u201d is the first single by Lil Uzi Vert following his March 2020 album, Eternal Atake, and its deluxe edition, Lil Uzi Vert vs. The World 2. The title is an ode to Sasuke Uchiha, a character in Naruto, the anime and manga series. Uzi has had a continued and documented infatuation with anime.\n\nOn the song, Uzi raps about his usual topics of sex, weapons, and wealth, but he also makes references to Sasuke and the Naruto series.\n\nDuring the week leading up to the single\u2019s release, Uzi hinted at the song\u2019s title with a series of tweets referencing \u201cSasuke\u201d as his new alter-ego, following his \u201cOrenji\u201d and \u201cBaby Pluto\u201d monikers from earlier in 2020. \u201cSasuke\u201d is Uzi\u2019s second Naruto-influenced alter-ego, as \u201cOrenji\u201d was based upon Pain, a villain in the series.\n\nThe single also arrives amidst a dispute between Uzi and his former close collaborator, Playboi Carti. On March 19, 2020, Uzi tweeted that he would drop more music as soon as an unnamed individual dropped music of their own, which many assumed was a subtle shot at Carti.\n\nAfter Carti released his single, \u201c@ MEH,\u201d on April 16, Uzi began to promote his own music in correlation with everything that Carti posted on social media. Uzi announced this single about four hours before its release by unveiling its artwork. Uzi notably takes from Carti\u2019s style in this track, from the use of Carti\u2019s adlibs to his mimicking of Carti\u2019s \u201cbaby voice.\u201d\n\nUzi and Carti ultimately squashed their beef on April 25, hours after this track was released. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Sasuke\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

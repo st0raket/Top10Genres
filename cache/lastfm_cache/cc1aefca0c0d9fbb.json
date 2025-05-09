@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:35:53.315999+00:00",
+  "elapsed": 0.207572,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:53.315999+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2969",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Permission+to+Dance"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Permission+to+Dance",
+  "_decoded_content": {
+    "track": {
+      "name": "Permission To Dance",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Permission+To+Dance",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "407362",
+      "playcount": "65749629",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Jul 2021, 05:17",
+        "summary": "\"Track page: Permission to Dance\" is a song by South Korean boy band BTS. It was released on July 9, 2021, as part of the CD release of the group's previous single \"[Track page: [track artist=BTS]Butter\", and as a stand-alone single, through Big Hit Music and Sony Music, as the band's third English-language single.\n\n\"Permission to Dance\" was written by Ed Sheeran, Johnny McDaid, Steve Mac and Jenna Andrews, with production being handled by Mac and Andrews alongside Stephen Kirk. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Permission+To+Dance\">Read more on Last.fm<\/a>.",
+        "content": "\"Track page: Permission to Dance\" is a song by South Korean boy band BTS. It was released on July 9, 2021, as part of the CD release of the group's previous single \"[Track page: [track artist=BTS]Butter\", and as a stand-alone single, through Big Hit Music and Sony Music, as the band's third English-language single.\n\n\"Permission to Dance\" was written by Ed Sheeran, Johnny McDaid, Steve Mac and Jenna Andrews, with production being handled by Mac and Andrews alongside Stephen Kirk.Big Hit initially described \"that [the song] will make your heart beat to the rhythm of BTS's positive energy.\" The song has been described as a pop song.\n\nOn May 21, 2021, BTS released their second English-language single \"Butter\" to critical and commercial success. The song was initially released digitally, on a cassette and a 7-inch vinyl. On June 15, BTS announced a CD release of \"Butter\" alongside the announcement for a new song. On June 27, Ed Sheeran revealed in an interview with Most Requested Live that he wrote a song for BTS, stating \"I've actually worked with BTS on their last record, and I've just written a song for their new record\". On July 1, the group revealed the tracklist for the CD release, announcing the song's title as \"Permission to Dance\". The song was released for digital download and streaming on July 9, 2021, alongside its instrumental.\n\nBTS (Korean: \ubc29\ud0c4\uc18c\ub144\ub2e8; RR: Bangtan Sonyeondan), also known as the Bangtan Boys, is a seven-member South Korean boy band formed in Seoul in 2013. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Permission+To+Dance\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

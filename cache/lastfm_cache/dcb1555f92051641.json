@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:37:34.059560+00:00",
+  "elapsed": 0.229069,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:34.059560+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2455",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=WE+JUS+WANNA+GET+HIGH"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=WE+JUS+WANNA+GET+HIGH",
+  "_decoded_content": {
+    "track": {
+      "name": "WE JUS WANNA GET HIGH",
+      "url": "https:\/\/www.last.fm\/music\/Future\/_\/WE+JUS+WANNA+GET+HIGH",
+      "duration": "133000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "124310",
+      "playcount": "769324",
+      "artist": {
+        "name": "Future",
+        "mbid": "9f1195cf-9900-45db-bf9c-21c205672ae0",
+        "url": "https:\/\/www.last.fm\/music\/Future"
+      },
+      "album": {
+        "artist": "Future",
+        "title": "I NEVER LIKED YOU",
+        "url": "https:\/\/www.last.fm\/music\/Future\/I+NEVER+LIKED+YOU",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4f8401c7eae61f7df866141bf910b648.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "future",
+            "url": "https:\/\/www.last.fm\/tag\/future"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 May 2022, 02:55",
+        "summary": "On \"WE JUS WANNA GET HIGH\", Future brags about his wealth in the form of firearms, exotic cars, and women. He expresses his distaste for women who do not appreciate him for who he is (that is, a self-proclaimed \"GOAT\")  and only use him for his money. Additionally, he asserts that he does not care if the women is his best friend's partner-- he will sleep with her with no regrets. \n\nThis song was produced by Atlanta-based producer, songwriter, and rapper Southside. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/WE+JUS+WANNA+GET+HIGH\">Read more on Last.fm<\/a>.",
+        "content": "On \"WE JUS WANNA GET HIGH\", Future brags about his wealth in the form of firearms, exotic cars, and women. He expresses his distaste for women who do not appreciate him for who he is (that is, a self-proclaimed \"GOAT\")  and only use him for his money. Additionally, he asserts that he does not care if the women is his best friend's partner-- he will sleep with her with no regrets. \n\nThis song was produced by Atlanta-based producer, songwriter, and rapper Southside. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/WE+JUS+WANNA+GET+HIGH\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

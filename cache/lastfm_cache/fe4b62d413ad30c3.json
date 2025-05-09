@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:44:35.108561+00:00",
+  "elapsed": 0.239585,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:35.108561+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1230",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Rocky&format=json&method=track.getInfo&track=A%24AP+Forever+REMIX"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Rocky&format=json&method=track.getInfo&track=A%24AP+Forever+REMIX",
+  "_decoded_content": {
+    "track": {
+      "name": "A$AP Forever REMIX",
+      "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky\/_\/A$AP+Forever+REMIX",
+      "duration": "315000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "61444",
+      "playcount": "469623",
+      "artist": {
+        "name": "A$AP Rocky",
+        "mbid": "25b7b584-d952-4662-a8b9-dd8cdfbfeb64",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky"
+      },
+      "album": {
+        "artist": "A$AP Rocky",
+        "title": "Testing [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Rocky\/Testing+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7de2a798330feca79e863c61908b2348.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7de2a798330feca79e863c61908b2348.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7de2a798330feca79e863c61908b2348.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7de2a798330feca79e863c61908b2348.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "Moby",
+            "url": "https:\/\/www.last.fm\/tag\/Moby"
+          }
+        ]
+      }
+    }
+  }
+}

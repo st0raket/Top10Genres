@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:34:31.948237+00:00",
+  "elapsed": 0.203123,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:31.948237+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1159",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=Rejection"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=Rejection",
+  "_decoded_content": {
+    "track": {
+      "name": "Rejection",
+      "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/_\/Rejection",
+      "duration": "246000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "45267",
+      "playcount": "155478",
+      "artist": {
+        "name": "AC\/DC",
+        "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC"
+      },
+      "album": {
+        "artist": "AC\/DC",
+        "title": "Power Up",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/Power+Up",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e01b35e9f8660be06af632dacb5ace18.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e01b35e9f8660be06af632dacb5ace18.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e01b35e9f8660be06af632dacb5ace18.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e01b35e9f8660be06af632dacb5ace18.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "blues rock",
+            "url": "https:\/\/www.last.fm\/tag\/blues+rock"
+          },
+          {
+            "name": "Ac-Dc",
+            "url": "https:\/\/www.last.fm\/tag\/Ac-Dc"
+          },
+          {
+            "name": "k1r7m",
+            "url": "https:\/\/www.last.fm\/tag\/k1r7m"
+          },
+          {
+            "name": "PWR-UP",
+            "url": "https:\/\/www.last.fm\/tag\/PWR-UP"
+          }
+        ]
+      }
+    }
+  }
+}

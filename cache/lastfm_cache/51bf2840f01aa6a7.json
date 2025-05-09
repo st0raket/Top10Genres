@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:29:53.578619+00:00",
+  "elapsed": 0.232742,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:53.578619+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1783",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KIDS+SEE+GHOSTS&format=json&method=track.getInfo&track=Fire"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KIDS+SEE+GHOSTS&format=json&method=track.getInfo&track=Fire",
+  "_decoded_content": {
+    "track": {
+      "name": "Fire",
+      "url": "https:\/\/www.last.fm\/music\/Kids+See+Ghosts\/_\/Fire",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "448686",
+      "playcount": "4931142",
+      "artist": {
+        "name": "Kids See Ghosts",
+        "url": "https:\/\/www.last.fm\/music\/Kids+See+Ghosts"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 15:18",
+        "summary": "In \u201cFire,\u201d Kanye and Cudi bring up their failures in life and the people who judge them for it. Instead of caring about this, they choose to ignore it, even going as far as stating that they \u201c[\u2026] love all your shit talkin'\u201d.\n\nThe song also brings up their wish to be forgiven for these wrongdoings, with the outro being Cudi begging for Heaven to lift him up, despite all the scars that he\u2019s left behind. <a href=\"http:\/\/www.last.fm\/music\/Kids+See+Ghosts\/_\/Fire\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cFire,\u201d Kanye and Cudi bring up their failures in life and the people who judge them for it. Instead of caring about this, they choose to ignore it, even going as far as stating that they \u201c[\u2026] love all your shit talkin'\u201d.\n\nThe song also brings up their wish to be forgiven for these wrongdoings, with the outro being Cudi begging for Heaven to lift him up, despite all the scars that he\u2019s left behind. <a href=\"http:\/\/www.last.fm\/music\/Kids+See+Ghosts\/_\/Fire\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

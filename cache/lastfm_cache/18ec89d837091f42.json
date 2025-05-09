@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:34:12.153011+00:00",
+  "elapsed": 0.606888,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:12.153011+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1191",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=salem+ilese&format=json&method=track.getInfo&track=Mad+at+Disney"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=salem+ilese&format=json&method=track.getInfo&track=Mad+at+Disney",
+  "_decoded_content": {
+    "track": {
+      "name": "Mad at Disney",
+      "url": "https:\/\/www.last.fm\/music\/salem+ilese\/_\/Mad+at+Disney",
+      "duration": "136000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "221104",
+      "playcount": "1380407",
+      "artist": {
+        "name": "salem ilese",
+        "url": "https:\/\/www.last.fm\/music\/salem+ilese"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best New Music",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+New+Music",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b78ec16f7bbd4c39969328afcd344b8d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b78ec16f7bbd4c39969328afcd344b8d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b78ec16f7bbd4c39969328afcd344b8d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b78ec16f7bbd4c39969328afcd344b8d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "indifference",
+            "url": "https:\/\/www.last.fm\/tag\/indifference"
+          },
+          {
+            "name": "tiktok",
+            "url": "https:\/\/www.last.fm\/tag\/tiktok"
+          }
+        ]
+      }
+    }
+  }
+}

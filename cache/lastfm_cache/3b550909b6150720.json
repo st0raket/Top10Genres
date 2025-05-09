@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:43:36.464074+00:00",
+  "elapsed": 0.18239,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:36.464074+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1166",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fuego&format=json&method=track.getInfo&track=Una+Vaina+Loca"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fuego&format=json&method=track.getInfo&track=Una+Vaina+Loca",
+  "_decoded_content": {
+    "track": {
+      "name": "Una Vaina Loca",
+      "mbid": "fa08837e-f369-42dd-85fb-2243d2ed048f",
+      "url": "https:\/\/www.last.fm\/music\/Fuego\/_\/Una+Vaina+Loca",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "128128",
+      "playcount": "921859",
+      "artist": {
+        "name": "Fuego",
+        "mbid": "c28b6a32-97b3-4d41-857d-fc8772c769f2",
+        "url": "https:\/\/www.last.fm\/music\/Fuego"
+      },
+      "album": {
+        "artist": "Boy Wonder",
+        "title": "Chosen Few Urbano: El Journey",
+        "mbid": "01d1e0ad-59c3-4e8f-a603-3c1d914ca4af",
+        "url": "https:\/\/www.last.fm\/music\/Boy+Wonder\/Chosen+Few+Urbano:+El+Journey",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6fc03833531f43daaf2af1c80367cba1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6fc03833531f43daaf2af1c80367cba1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6fc03833531f43daaf2af1c80367cba1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6fc03833531f43daaf2af1c80367cba1.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Una vaina loca",
+            "url": "https:\/\/www.last.fm\/tag\/Una+vaina+loca"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          }
+        ]
+      }
+    }
+  }
+}

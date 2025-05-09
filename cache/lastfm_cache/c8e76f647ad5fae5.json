@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:39:27.008013+00:00",
+  "elapsed": 0.175156,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:27.008013+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2314",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=Bye"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=Bye",
+  "_decoded_content": {
+    "track": {
+      "name": "Bye",
+      "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Bye",
+      "duration": "279000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "74532",
+      "playcount": "1044219",
+      "artist": {
+        "name": "Peso Pluma",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma"
+      },
+      "album": {
+        "artist": "Peso Pluma",
+        "title": "Bye",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/Bye",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/70accffa72d2ff94d178ca7874cd8385.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/70accffa72d2ff94d178ca7874cd8385.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/70accffa72d2ff94d178ca7874cd8385.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/70accffa72d2ff94d178ca7874cd8385.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Peso Pluma",
+            "url": "https:\/\/www.last.fm\/tag\/Peso+Pluma"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Sep 2023, 20:56",
+        "summary": "La canci\u00f3n \"Bye\" de Peso Pluma se trata de un tema de despedida, tras un rompimiento amoroso. El protagonista ve pasar el tiempo mientras extra\u00f1a a la persona, aunque ha estado con m\u00e1s no logra superarla, pero lo intenta. Expresa el dolor que es pasar por una ruptura y el proceso de superar a alguien. Luego da un giro en el que ya la ha superado y ha comprendido qu\u00e9 hay m\u00e1s personas que solo ella. En conclusi\u00f3n, la letra nos cuenta una historia detr\u00e1s de una ruptura amorosa y su debido proceso en el que el protagonista logra superarlo. <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Bye\">Read more on Last.fm<\/a>.",
+        "content": "La canci\u00f3n \"Bye\" de Peso Pluma se trata de un tema de despedida, tras un rompimiento amoroso. El protagonista ve pasar el tiempo mientras extra\u00f1a a la persona, aunque ha estado con m\u00e1s no logra superarla, pero lo intenta. Expresa el dolor que es pasar por una ruptura y el proceso de superar a alguien. Luego da un giro en el que ya la ha superado y ha comprendido qu\u00e9 hay m\u00e1s personas que solo ella. En conclusi\u00f3n, la letra nos cuenta una historia detr\u00e1s de una ruptura amorosa y su debido proceso en el que el protagonista logra superarlo. <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Bye\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

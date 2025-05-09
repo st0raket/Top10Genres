@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:43:28.555310+00:00",
+  "elapsed": 0.21335,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:28.555310+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "938",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Victor+Cibrian&format=json&method=track.getInfo&track=En+El+Radio+Un+Cochinero"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Victor+Cibrian&format=json&method=track.getInfo&track=En+El+Radio+Un+Cochinero",
+  "_decoded_content": {
+    "track": {
+      "name": "En El Radio Un Cochinero",
+      "url": "https:\/\/www.last.fm\/music\/Victor+Cibrian\/_\/En+El+Radio+Un+Cochinero",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "29079",
+      "playcount": "236664",
+      "artist": {
+        "name": "Victor Cibrian",
+        "url": "https:\/\/www.last.fm\/music\/Victor+Cibrian"
+      },
+      "album": {
+        "artist": "Victor Cibrian",
+        "title": "En El Radio Un Cochinero - Single",
+        "url": "https:\/\/www.last.fm\/music\/Victor+Cibrian\/En+El+Radio+Un+Cochinero+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cd76b78b4d0b9a4160c558afe654aaac.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cd76b78b4d0b9a4160c558afe654aaac.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cd76b78b4d0b9a4160c558afe654aaac.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cd76b78b4d0b9a4160c558afe654aaac.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

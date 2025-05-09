@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:43:58.801634+00:00",
+  "elapsed": 0.19072,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:58.801634+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4518",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Snow+On+Tha+Bluff"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Snow+On+Tha+Bluff",
+  "_decoded_content": {
+    "track": {
+      "name": "Snow On Tha Bluff",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/Snow+On+Tha+Bluff",
+      "duration": "235000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "192218",
+      "playcount": "1794949",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "J. Cole",
+        "title": "Snow On Tha Bluff - Single",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole\/Snow+On+Tha+Bluff+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4465423315809a1255d75863c261ca94.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4465423315809a1255d75863c261ca94.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4465423315809a1255d75863c261ca94.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4465423315809a1255d75863c261ca94.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Feb 2022, 05:02",
+        "summary": "\u201cSnow on tha Bluff\u201d is J. Cole\u2019s first release of 2020. On the song, which is titled after a January 2011 film about a robbery in Atlanta, Cole delivers a single continuous verse that speaks on various issues facing the United States, including police brutality, wealth inequality, and racism. He also asks for his fans not to idolize him, wanting to instead be perceived as a regular person.\n\nAlthough not explicitly stated, the first part of the track is likely a response to Noname\u2019s perceived criticisms of Cole on Twitter. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Snow+On+Tha+Bluff\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSnow on tha Bluff\u201d is J. Cole\u2019s first release of 2020. On the song, which is titled after a January 2011 film about a robbery in Atlanta, Cole delivers a single continuous verse that speaks on various issues facing the United States, including police brutality, wealth inequality, and racism. He also asks for his fans not to idolize him, wanting to instead be perceived as a regular person.\n\nAlthough not explicitly stated, the first part of the track is likely a response to Noname\u2019s perceived criticisms of Cole on Twitter. She has frequently stated that she is against capitalism and celebrity culture, two things that Cole raps about in his verse.\n\nThe artwork displays the beginning of the verse. The date at the top, June 4, 2020, likely indicates the day the song was written. This date is several days after Cole was seen protesting racial injustice in his hometown, Fayetteville, NC.\n\nOn the morning after releasing this song, Cole acknowledged the overwhelming criticisms of his lyrics and essentially confirmed that Noname was who he was speaking about in the following thread of tweets:\n\n\"Morning. I stand behind every word of the song that dropped last night.\n\nRight or wrong I can\u2019t say, but I can say it was honest.\n\nSome assume to know who the song is about. That\u2019s fine with me, it\u2019s not my job to tell anybody what to think or feel about the work. I accept all conversation and criticisms. But\n\nLet me use this moment to say this\n\nFollow @noname. I love and honor her as a leader in these times. She has done and is doing the reading and the listening and the learning on the path that she truly believes is the correct one for our people. Meanwhile a nigga like me just be rapping.\n\nI haven\u2019t done a lot of reading and I don\u2019t feel well equipped as a leader in these times. But I do a lot of thinking. And I appreciate her and others like her because they challenge my beliefs and I feel that in these times that\u2019s important.\n\nWe may not agree with each other but we gotta be gentle with each other. \u270c\ud83c\udfff\"\n\nThe first half of the song seems to be a response to Noname, who, in a tweet on May 29, seemingly called out Cole for his social media silence amidst nationwide protests.\n\nIronically, Cole and Noname have collaborated once, on The Social Experiment\u2019s May 2015 song, \u201cWarm Enough.\u201d\n\n\u201cSnow on tha Bluff\u201d debuted at #59 on the Billboard Hot 100 during the week of June 27, 2020. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Snow+On+Tha+Bluff\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

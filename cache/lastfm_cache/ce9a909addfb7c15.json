@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:17.065895+00:00",
+  "elapsed": 0.177917,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:17.065895+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3027",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=CHIHIRO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=CHIHIRO",
+  "_decoded_content": {
+    "track": {
+      "name": "CHIHIRO",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/CHIHIRO",
+      "duration": "303000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1185922",
+      "playcount": "22047486",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "HIT ME HARD AND SOFT",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/HIT+ME+HARD+AND+SOFT",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e69971625c379772fb79213dccfa194f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e69971625c379772fb79213dccfa194f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e69971625c379772fb79213dccfa194f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e69971625c379772fb79213dccfa194f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "alt-pop",
+            "url": "https:\/\/www.last.fm\/tag\/alt-pop"
+          },
+          {
+            "name": "deep house",
+            "url": "https:\/\/www.last.fm\/tag\/deep+house"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "indietronica",
+            "url": "https:\/\/www.last.fm\/tag\/indietronica"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 May 2024, 11:05",
+        "summary": "\"CHIHIRO\" by Billie Eilish from her  third studio album HIT ME HARD AND SOFT, is a captivating and emotionally charged song. It is loosely inspired by the 2001 animated film \u201cSpirited Away\u201d, where the protagonist Chihiro navigates a magical world while facing her fears and discovering her strength. Billie Eilish uses this as a metaphor for self-discovery, personal challenges, and transformation.\n\nMusically, \u201cCHIHIRO\u201d is track that stands out for its atmospheric production and Eilish's haunting vocals. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/CHIHIRO\">Read more on Last.fm<\/a>.",
+        "content": "\"CHIHIRO\" by Billie Eilish from her  third studio album HIT ME HARD AND SOFT, is a captivating and emotionally charged song. It is loosely inspired by the 2001 animated film \u201cSpirited Away\u201d, where the protagonist Chihiro navigates a magical world while facing her fears and discovering her strength. Billie Eilish uses this as a metaphor for self-discovery, personal challenges, and transformation.\n\nMusically, \u201cCHIHIRO\u201d is track that stands out for its atmospheric production and Eilish's haunting vocals. The song builds tension through slow, moody instrumentation, creating an immersive experience that mirrors the dreamlike and sometimes eerie nature of the film. The music video for the song also takes heavy visual cues from \u201cSpirited Away\u201d, emphasizing themes of transition and growth.\n\nIt\u2019s a perfect example of how Eilish blends personal storytelling with broader cultural references, making it both relatable and visually compelling. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/CHIHIRO\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

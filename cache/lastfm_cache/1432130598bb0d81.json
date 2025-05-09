@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:33:45.315966+00:00",
+  "elapsed": 0.234846,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:45.315966+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "850",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=6LACK&format=json&method=track.getInfo&track=Know+My+Rights"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=6LACK&format=json&method=track.getInfo&track=Know+My+Rights",
+  "_decoded_content": {
+    "track": {
+      "name": "Know My Rights",
+      "url": "https:\/\/www.last.fm\/music\/6LACK\/_\/Know+My+Rights",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1678",
+      "playcount": "6389",
+      "artist": {
+        "name": "6LACK",
+        "url": "https:\/\/www.last.fm\/music\/6LACK"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Rap Hits 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Rap+Hits+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/486f726c4a08a43c529c34cfc28ee846.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/486f726c4a08a43c529c34cfc28ee846.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/486f726c4a08a43c529c34cfc28ee846.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/486f726c4a08a43c529c34cfc28ee846.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

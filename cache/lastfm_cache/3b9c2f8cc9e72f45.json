@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:37.438849+00:00",
+  "elapsed": 0.209148,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:37.438849+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2101",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Treat+People+With+Kindness"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Treat+People+With+Kindness",
+  "_decoded_content": {
+    "track": {
+      "name": "Treat People with Kindness",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Treat+People+with+Kindness",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "384095",
+      "playcount": "4208482",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "Funk Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Funk+Rock"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Dec 2021, 16:33",
+        "summary": "\"Treat People with Kindness\" is a song by British singer and songwriter Harry Styles, recorded for his second album  Fine Line. The song was originally released on the album on 13 December 2019 by Columbia and Erskine Records and features background vocals from the New York indie-pop band Lucius. The song was later released as Fine Line's sixth single on 1 January 2021 and promoted with a music video, directed by Gabe and Ben Turner, and featuring actress Phoebe Waller-Bridge. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Treat+People+with+Kindness\">Read more on Last.fm<\/a>.",
+        "content": "\"Treat People with Kindness\" is a song by British singer and songwriter Harry Styles, recorded for his second album  Fine Line. The song was originally released on the album on 13 December 2019 by Columbia and Erskine Records and features background vocals from the New York indie-pop band Lucius. The song was later released as Fine Line's sixth single on 1 January 2021 and promoted with a music video, directed by Gabe and Ben Turner, and featuring actress Phoebe Waller-Bridge. In an interview with Music Week, Styles credits a David Bowie interview for the inspiration behind the song, referring to it as a \"tribute\". <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Treat+People+with+Kindness\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

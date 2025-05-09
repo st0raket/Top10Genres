@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:43:53.483138+00:00",
+  "elapsed": 0.209996,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:53.483138+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1108",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kina&format=json&method=track.getInfo&track=Get+You+The+Moon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kina&format=json&method=track.getInfo&track=Get+You+The+Moon",
+  "_decoded_content": {
+    "track": {
+      "name": "Get You the Moon",
+      "url": "https:\/\/www.last.fm\/music\/Kina\/_\/Get+You+the+Moon",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "11831",
+      "playcount": "59910",
+      "artist": {
+        "name": "Kina",
+        "mbid": "e36cca60-86da-4bb0-a36c-17626341dc6c",
+        "url": "https:\/\/www.last.fm\/music\/Kina"
+      },
+      "album": {
+        "artist": "Kina",
+        "title": "Get You the Moon",
+        "url": "https:\/\/www.last.fm\/music\/Kina\/Get+You+the+Moon",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/97f3f50ff2a27de61a2ce6d2f80e9a4b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/97f3f50ff2a27de61a2ce6d2f80e9a4b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/97f3f50ff2a27de61a2ce6d2f80e9a4b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/97f3f50ff2a27de61a2ce6d2f80e9a4b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "lofi",
+            "url": "https:\/\/www.last.fm\/tag\/lofi"
+          },
+          {
+            "name": "lonely",
+            "url": "https:\/\/www.last.fm\/tag\/lonely"
+          },
+          {
+            "name": "meme music",
+            "url": "https:\/\/www.last.fm\/tag\/meme+music"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:37:13.343933+00:00",
+  "elapsed": 0.180963,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:13.343933+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1231",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Purple+Disco+Machine&format=json&method=track.getInfo&track=In+The+Dark"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Purple+Disco+Machine&format=json&method=track.getInfo&track=In+The+Dark",
+  "_decoded_content": {
+    "track": {
+      "name": "In The Dark",
+      "url": "https:\/\/www.last.fm\/music\/Purple+Disco+Machine\/_\/In+The+Dark",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "97736",
+      "playcount": "757649",
+      "artist": {
+        "name": "Purple Disco Machine",
+        "mbid": "dc71939a-416f-4804-b031-5749287943f9",
+        "url": "https:\/\/www.last.fm\/music\/Purple+Disco+Machine"
+      },
+      "album": {
+        "artist": "Purple Disco Machine",
+        "title": "Exotica (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Purple+Disco+Machine\/Exotica+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ef161d445ffb68ac76ff3eff92362a80.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ef161d445ffb68ac76ff3eff92362a80.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ef161d445ffb68ac76ff3eff92362a80.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ef161d445ffb68ac76ff3eff92362a80.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Outernatia Song Contest 98",
+            "url": "https:\/\/www.last.fm\/tag\/Outernatia+Song+Contest+98"
+          },
+          {
+            "name": "VRT Thuis",
+            "url": "https:\/\/www.last.fm\/tag\/VRT+Thuis"
+          },
+          {
+            "name": "thuis s27",
+            "url": "https:\/\/www.last.fm\/tag\/thuis+s27"
+          }
+        ]
+      }
+    }
+  }
+}

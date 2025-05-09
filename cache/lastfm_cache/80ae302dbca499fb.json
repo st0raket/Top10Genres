@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:51.901800+00:00",
+  "elapsed": 0.21796,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:51.901800+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2657",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=All+Mine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=All+Mine",
+  "_decoded_content": {
+    "track": {
+      "name": "All Mine",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/All+Mine",
+      "duration": "146000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "840668",
+      "playcount": "9892721",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "ye",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/ye",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 19:13",
+        "summary": "Opening with church-like organ music, \u201cAll Mine\u201d ironically deals with infidelity.\n\nTo \u201clet the genie out of the bottle\u201d means to allow something to happen that cannot then be stopped \u2013 like controlling one\u2019s desires while in a committed relationship. Ye goes on to list several high profile celebrities who have been caught out cheating and speculates about their motives.\n\nWhile this track was ultimately called \u201cAll Mine,\u201d Ye Tweeted <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/All+Mine\">Read more on Last.fm<\/a>.",
+        "content": "Opening with church-like organ music, \u201cAll Mine\u201d ironically deals with infidelity.\n\nTo \u201clet the genie out of the bottle\u201d means to allow something to happen that cannot then be stopped \u2013 like controlling one\u2019s desires while in a committed relationship. Ye goes on to list several high profile celebrities who have been caught out cheating and speculates about their motives.\n\nWhile this track was ultimately called \u201cAll Mine,\u201d Ye Tweeted after the release of the song that it was initially going to be called \u201cMedulla Oblongata\u201d \u2013 the component of the brain partially responsible for regulating respiration and circulation. Reference to this can still be found in the lyrics. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/All+Mine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

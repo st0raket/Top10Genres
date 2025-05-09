@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:16.511718+00:00",
+  "elapsed": 0.193828,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:16.511718+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2525",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=COMPLETE+MESS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=COMPLETE+MESS",
+  "_decoded_content": {
+    "track": {
+      "name": "Complete Mess",
+      "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Complete+Mess",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "163738",
+      "playcount": "2229793",
+      "artist": {
+        "name": "5 Seconds of Summer",
+        "mbid": "830e5c4e-6b7d-431d-86ab-00c751281dc5",
+        "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "seen live",
+            "url": "https:\/\/www.last.fm\/tag\/seen+live"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "australia",
+            "url": "https:\/\/www.last.fm\/tag\/australia"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Mar 2022, 01:36",
+        "summary": "\u201cComplete Mess\u201d follows 5 Seconds of Summer anniversary single \u201c2011\u201d and is the lead single of their fifth studio album, 5SOS5.\n\nAn informal announcement of the song was made on February 18th 2022, when the band sent a magazine to a fan and retweeted a tweet she made about the song\u2019s title and release date. However, the official announcement was made via via Instagram post a week later, on February 25th, alongside the official cover art of the song. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Complete+Mess\">Read more on Last.fm<\/a>.",
+        "content": "\u201cComplete Mess\u201d follows 5 Seconds of Summer anniversary single \u201c2011\u201d and is the lead single of their fifth studio album, 5SOS5.\n\nAn informal announcement of the song was made on February 18th 2022, when the band sent a magazine to a fan and retweeted a tweet she made about the song\u2019s title and release date. However, the official announcement was made via via Instagram post a week later, on February 25th, alongside the official cover art of the song.\n\n5 Seconds of Summer have been teasing the song for a while before its release. The first two snippets were via 5SOS' TikTok, on February 19th and February 20th. A few days later, they started posting the snippets on their Twitter. The first ones, on February 25th, 26th, 27th and 28th, were all instrumental. On March 1st, a day before the song\u2019s release, the band posted the last snippet, that revealed part of the lyrics for \u201cComplete Mess\u201d.\n\nOn March 2nd, the single was officially released, followed by its music video the same day. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Complete+Mess\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

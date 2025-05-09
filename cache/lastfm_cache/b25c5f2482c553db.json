@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:38:56.001305+00:00",
+  "elapsed": 0.260887,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:56.001305+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1223",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Brings&format=json&method=track.getInfo&track=Polka%2C+Polka%2C+Polka"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Brings&format=json&method=track.getInfo&track=Polka%2C+Polka%2C+Polka",
+  "_decoded_content": {
+    "track": {
+      "name": "Polka, Polka, Polka",
+      "mbid": "9cbdbad4-e451-4322-84f8-2488392596a8",
+      "url": "https:\/\/www.last.fm\/music\/Brings\/_\/Polka,+Polka,+Polka",
+      "duration": "279000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1114",
+      "playcount": "5534",
+      "artist": {
+        "name": "Brings",
+        "mbid": "355721b0-6ae9-4cf7-9e79-378802f48efb",
+        "url": "https:\/\/www.last.fm\/music\/Brings"
+      },
+      "album": {
+        "artist": "Brings",
+        "title": "14",
+        "mbid": "a439a574-7579-4f77-b33e-75ebfa0d2260",
+        "url": "https:\/\/www.last.fm\/music\/Brings\/14",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/790398344707e921cd5bd54f89bc0620.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/790398344707e921cd5bd54f89bc0620.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/790398344707e921cd5bd54f89bc0620.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/790398344707e921cd5bd54f89bc0620.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Deutschrock",
+            "url": "https:\/\/www.last.fm\/tag\/Deutschrock"
+          },
+          {
+            "name": "polka",
+            "url": "https:\/\/www.last.fm\/tag\/polka"
+          },
+          {
+            "name": "Koelsch",
+            "url": "https:\/\/www.last.fm\/tag\/Koelsch"
+          },
+          {
+            "name": "Brings",
+            "url": "https:\/\/www.last.fm\/tag\/Brings"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:38:53.806249+00:00",
+  "elapsed": 0.185813,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:53.806249+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2735",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=PRC"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=PRC",
+  "_decoded_content": {
+    "track": {
+      "name": "PRC",
+      "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/_\/PRC",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "130943",
+      "playcount": "1645830",
+      "artist": {
+        "name": "Peso Pluma",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma"
+      },
+      "album": {
+        "artist": "Peso Pluma",
+        "title": "PRC",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/PRC",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6aacf19f380a5606e5e9858619eb07cd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6aacf19f380a5606e5e9858619eb07cd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6aacf19f380a5606e5e9858619eb07cd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6aacf19f380a5606e5e9858619eb07cd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Peso Pluma",
+            "url": "https:\/\/www.last.fm\/tag\/Peso+Pluma"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Sep 2023, 18:21",
+        "summary": "La canci\u00f3n \"PRC\" de Peso Pluma y Natanael Cano trata de la vida de un traficante de drogas. El nombre de la canci\u00f3n \"PRC\" es una abreviatura a las siguientes palabras: \"Polvo\" que es Coca\u00edna, \"Ruedas\" se refiere a cualquier tipo de comprimido o pastilla, en este caso M-30 Fentanilo y por \u00faltimo \"Cristal\" que refiere Metanfetamina. La letra nos cuenta c\u00f3mo es la vida llena de lujos y excesos que el personaje obtiene por su oficio. Aunque la canci\u00f3n describe una vida de actividad ilegal <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/PRC\">Read more on Last.fm<\/a>.",
+        "content": "La canci\u00f3n \"PRC\" de Peso Pluma y Natanael Cano trata de la vida de un traficante de drogas. El nombre de la canci\u00f3n \"PRC\" es una abreviatura a las siguientes palabras: \"Polvo\" que es Coca\u00edna, \"Ruedas\" se refiere a cualquier tipo de comprimido o pastilla, en este caso M-30 Fentanilo y por \u00faltimo \"Cristal\" que refiere Metanfetamina. La letra nos cuenta c\u00f3mo es la vida llena de lujos y excesos que el personaje obtiene por su oficio. Aunque la canci\u00f3n describe una vida de actividad ilegal, hace hincapi\u00e9 en el disfrute y la falta de arrepentimiento de su estilo de vida. No cabe duda que es un estilo de vida problem\u00e1tico que, aunque conduce al dinero r\u00e1pido, est\u00e1 plagado de peligros e incertidumbre. En conclusi\u00f3n, \"PRC\" parece ser una celebraci\u00f3n de una vida de narcotr\u00e1fico, destacando la atenci\u00f3n al detalle y el cuidado que se pone en la fabricaci\u00f3n y el transporte de drogas, al tiempo que entatiza el disfrute y la falta de remordimiento que el personaje siente por sus acciones. <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/PRC\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

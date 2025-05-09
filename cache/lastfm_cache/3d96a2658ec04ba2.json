@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:14.890480+00:00",
+  "elapsed": 0.263108,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:14.890480+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2758",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NF&format=json&method=track.getInfo&track=When+I+Grow+Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NF&format=json&method=track.getInfo&track=When+I+Grow+Up",
+  "_decoded_content": {
+    "track": {
+      "name": "When I Grow Up",
+      "url": "https:\/\/www.last.fm\/music\/NF\/_\/When+I+Grow+Up",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "210828",
+      "playcount": "2585790",
+      "artist": {
+        "name": "NF",
+        "mbid": "adf056ea-8a89-4ac0-afba-c60d205f26d3",
+        "url": "https:\/\/www.last.fm\/music\/NF"
+      },
+      "album": {
+        "artist": "NF",
+        "title": "When I Grow Up",
+        "url": "https:\/\/www.last.fm\/music\/NF\/When+I+Grow+Up",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b2449c3b8b67af98452ce7abc83e5f4b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b2449c3b8b67af98452ce7abc83e5f4b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b2449c3b8b67af98452ce7abc83e5f4b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b2449c3b8b67af98452ce7abc83e5f4b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 May 2022, 18:41",
+        "summary": "\u201cWhen I Grow Up\u201d is the third single off of NF\u2019s 2019 album \"The Search\". On the track, NF shares when growing up, he aspired to be a rapper, rather than go to college or work a nine-to-five job. He also shares his motivation from doubters growing up who motivated him as an artist.\n\nThe music video was released with the release of the track, NF plays the role of many ordinary jobs including a janitor, a trashman, and a fast food worker, then finishes the video off with him pursuing his career of being a rapper. <a href=\"http:\/\/www.last.fm\/music\/NF\/_\/When+I+Grow+Up\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWhen I Grow Up\u201d is the third single off of NF\u2019s 2019 album \"The Search\". On the track, NF shares when growing up, he aspired to be a rapper, rather than go to college or work a nine-to-five job. He also shares his motivation from doubters growing up who motivated him as an artist.\n\nThe music video was released with the release of the track, NF plays the role of many ordinary jobs including a janitor, a trashman, and a fast food worker, then finishes the video off with him pursuing his career of being a rapper.\n\nOn June 26, 2019, NF posted a snippet of a new music video that would be releasing on June 27, 2019, at 12 PM EST.\n\n\u201cWhen I Grow Up\u201d was officially RIAA certified gold with 0.5 million units on January 16, 2020. <a href=\"http:\/\/www.last.fm\/music\/NF\/_\/When+I+Grow+Up\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

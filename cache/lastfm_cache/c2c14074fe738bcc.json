@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:38:48.705315+00:00",
+  "elapsed": 0.214283,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:48.705315+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "953",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aya+Nakamura&format=json&method=track.getInfo&track=Baby"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aya+Nakamura&format=json&method=track.getInfo&track=Baby",
+  "_decoded_content": {
+    "track": {
+      "name": "Baby",
+      "url": "https:\/\/www.last.fm\/music\/Aya+Nakamura\/_\/Baby",
+      "duration": "162000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "40846",
+      "playcount": "384279",
+      "artist": {
+        "name": "Aya Nakamura",
+        "url": "https:\/\/www.last.fm\/music\/Aya+Nakamura"
+      },
+      "album": {
+        "artist": "Aya Nakamura",
+        "title": "DNK",
+        "url": "https:\/\/www.last.fm\/music\/Aya+Nakamura\/DNK",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e4069a96312f65cc6d9375f528bc9c1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e4069a96312f65cc6d9375f528bc9c1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e4069a96312f65cc6d9375f528bc9c1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e4069a96312f65cc6d9375f528bc9c1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "french pop",
+            "url": "https:\/\/www.last.fm\/tag\/french+pop"
+          },
+          {
+            "name": "basshall",
+            "url": "https:\/\/www.last.fm\/tag\/basshall"
+          }
+        ]
+      }
+    }
+  }
+}

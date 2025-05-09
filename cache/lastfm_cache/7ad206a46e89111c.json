@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:33:59.959635+00:00",
+  "elapsed": 0.199363,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:59.959635+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1977",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Smile"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Smile",
+  "_decoded_content": {
+    "track": {
+      "name": "Smile",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Smile",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6978",
+      "playcount": "42420",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "\u0641\u0646\u0627\u0646\u0648\u0646 \u0645\u062a\u0639\u062f\u062f\u0648\u0646",
+        "title": "Worldwide Hits 9",
+        "url": "https:\/\/www.last.fm\/music\/%D9%81%D9%86%D8%A7%D9%86%D9%88%D9%86+%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D9%88%D9%86\/Worldwide+Hits+9",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "17 Mar 2022, 16:46",
+        "summary": "\u201cSmile\u201c tackles common Juice WRLD themes like relationships and the struggle with his inner demons, as well as declaring the happiness of his girl as his main goal.\n\nThe song, originally titled \u201cSad,\u201d leaked on July 15, 2018, with an open verse that The Weeknd later would fill. It also featured a different beat, produced by Juice\u2019s frequent producer Nick Mira. The beat was remade several times, but the released version is produced by Mira <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Smile\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSmile\u201c tackles common Juice WRLD themes like relationships and the struggle with his inner demons, as well as declaring the happiness of his girl as his main goal.\n\nThe song, originally titled \u201cSad,\u201d leaked on July 15, 2018, with an open verse that The Weeknd later would fill. It also featured a different beat, produced by Juice\u2019s frequent producer Nick Mira. The beat was remade several times, but the released version is produced by Mira, with assistance from another Internet Money member, Taz Taylor, and a first time Juice and Weeknd collaborator: Cxdy. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Smile\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

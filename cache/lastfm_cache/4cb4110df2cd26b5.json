@@ -1,0 +1,62 @@
+{
+  "created_at": "2025-05-03T14:32:02.599794+00:00",
+  "elapsed": 0.446725,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:02.599794+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1824",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Young+Thug&format=json&method=track.getInfo&track=Ecstasy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Young+Thug&format=json&method=track.getInfo&track=Ecstasy",
+  "_decoded_content": {
+    "track": {
+      "name": "Ecstasy",
+      "url": "https:\/\/www.last.fm\/music\/Young+Thug\/_\/Ecstasy",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "23724",
+      "playcount": "98474",
+      "artist": {
+        "name": "Young Thug",
+        "mbid": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+        "url": "https:\/\/www.last.fm\/music\/Young+Thug"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Young Thug",
+            "url": "https:\/\/www.last.fm\/tag\/Young+Thug"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Nov 2019, 06:04",
+        "summary": "The third track on So Much Fun, \u201cEcstasy,\u201d is filled with drug references and experiences including, molly, weed, codeine, and percocets.\n\nOver a hard hitting beat produced by DY Krazy and 12 Hunna, Thug raps about embracing the druggy lifestyle of hip-hop by consistently getting high and partying.\n\nOn September 2018, Thug was arrested on a number of drug possession-related charges after he was taken into custody for possession and intent to distribute meth, hydrocodone, and marijuana. <a href=\"http:\/\/www.last.fm\/music\/Young+Thug\/_\/Ecstasy\">Read more on Last.fm<\/a>.",
+        "content": "The third track on So Much Fun, \u201cEcstasy,\u201d is filled with drug references and experiences including, molly, weed, codeine, and percocets.\n\nOver a hard hitting beat produced by DY Krazy and 12 Hunna, Thug raps about embracing the druggy lifestyle of hip-hop by consistently getting high and partying.\n\nOn September 2018, Thug was arrested on a number of drug possession-related charges after he was taken into custody for possession and intent to distribute meth, hydrocodone, and marijuana. As Complex reports, other charges included possession of codeine, amphetamine and Alprazolam. <a href=\"http:\/\/www.last.fm\/music\/Young+Thug\/_\/Ecstasy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

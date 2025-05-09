@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:45.162576+00:00",
+  "elapsed": 0.182559,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:45.162148+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4906",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Se%C3%B1orita"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Se%C3%B1orita",
+  "_decoded_content": {
+    "track": {
+      "name": "Se\u00f1orita",
+      "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Se%C3%B1orita",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "763973",
+      "playcount": "8333159",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Number 1's",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Number+1%27s",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/46c1f3044b34fdd03cce803c45a4557c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/46c1f3044b34fdd03cce803c45a4557c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/46c1f3044b34fdd03cce803c45a4557c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/46c1f3044b34fdd03cce803c45a4557c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jul 2019, 22:06",
+        "summary": "\"Se\u00f1orita\" is a song by Canadian singer Shawn Mendes and Cuban-American singer Camila Cabello. It was released on June 21, 2019, through Island and Epic Records as the second single (seventh overall) from the deluxe edition of Mendes' self-titled third studio album and later included on Cabello's second studio album Romance. The song was written by Mendes, Cabello, Charli XCX, Ali Tamposi, Jack Patterson, and its producers Andrew Watt, Benny Blanco, and Cashmere Cat. <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Se%C3%B1orita\">Read more on Last.fm<\/a>.",
+        "content": "\"Se\u00f1orita\" is a song by Canadian singer Shawn Mendes and Cuban-American singer Camila Cabello. It was released on June 21, 2019, through Island and Epic Records as the second single (seventh overall) from the deluxe edition of Mendes' self-titled third studio album and later included on Cabello's second studio album Romance. The song was written by Mendes, Cabello, Charli XCX, Ali Tamposi, Jack Patterson, and its producers Andrew Watt, Benny Blanco, and Cashmere Cat. The song marks Mendes and Cabello's second collaboration, following \"I Know What You Did Last Summer\" from Mendes' debut album, Handwritten. \n\nThe song was originally conceived during a studio session between Charli XCX, Ali Tamposi, Jack Patterson of Clean Bandit, and Andrew Watt, the last of whom produced the song. Watt, prior to the studio session, created a guitar melody that he described as being reminiscent of Fleetwood Mac and Jos\u00e9 Feliciano. He played the guitar melody during the studio session where ideas for melodies and lyrics were created to accompany it. The melody and lyrics for the chorus of the song eventually formed, including what would become the opening line, \"I love it when you call me se\u00f1orita\".\n\nWatt sent the rough chorus of the song to Shawn Mendes, suggesting that the song be recorded as a duet, to which Mendes agreed and said that Camila Cabello would be \"the only person\" with whom he could do the song. Watt then sent the song to producers Benny Blanco and Cashmere Cat who liked it and began to work together on the production of the song, deciding to keep it simple to make room for the vocals.\n\nMendes and Cabello both made changes to the melody and lyrics to their liking. After the song's key changed and Cabello recorded some vocals, Watt flew to England and planned to record Mendes' vocals on a day off from his tour after his Manchester Arena show. However, Watt, to Mendes' amusement, accidentally blew the microphone by forgetting to change the conversion of power to 220V on the power box. This forced Watt to record Mendes' vocals at the Birmingham Arena, angering Mendes throughout the process because he wanted to preserve his voice for his then-upcoming shows at the O2 Arena.\n\nMendes and Cabello had worked together on writing lyrics through FaceTime until they met up at a studio a mere few weeks before the song was released. Cabello had been tweaking lyrics and recorded vocals multiple times. Cabello conceived the lyric, \"You say we're just friends but friends don't know the way you taste\", as the song was already in the process of being mixed, forcing Mendes to record new vocals and sing new harmonies. Their chemistry in the studio was lauded by producer Benny Blanco, who praised their talent and \"energy in the room\".\n\n\"Se\u00f1orita\" is a Latin pop song, written in the key of A minor, with a common time tempo of 117 BPM. <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Se%C3%B1orita\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

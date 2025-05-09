@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:12.543664+00:00",
+  "elapsed": 0.210851,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:12.543664+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3511",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Daddy+Yankee&format=json&method=track.getInfo&track=Gasolina"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Daddy+Yankee&format=json&method=track.getInfo&track=Gasolina",
+  "_decoded_content": {
+    "track": {
+      "name": "Gasolina",
+      "mbid": "f4992365-73ee-40fe-9502-5eb6e7b9d67c",
+      "url": "https:\/\/www.last.fm\/music\/Daddy+Yankee\/_\/Gasolina",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "895744",
+      "playcount": "5102191",
+      "artist": {
+        "name": "Daddy Yankee",
+        "mbid": "2f522f5c-111c-4ce8-8bd0-d82e97c227ad",
+        "url": "https:\/\/www.last.fm\/music\/Daddy+Yankee"
+      },
+      "album": {
+        "artist": "Daddy Yankee",
+        "title": "Barrio Fino",
+        "mbid": "0b0e84e9-a01f-41bc-bc5b-4d0322983076",
+        "url": "https:\/\/www.last.fm\/music\/Daddy+Yankee\/Barrio+Fino",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/149e5e9bd7c8723c65e744500c5eeed7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/149e5e9bd7c8723c65e744500c5eeed7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/149e5e9bd7c8723c65e744500c5eeed7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/149e5e9bd7c8723c65e744500c5eeed7.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "Daddy Yankee",
+            "url": "https:\/\/www.last.fm\/tag\/Daddy+Yankee"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2009, 13:28",
+        "summary": "\"Gasolina\" (English: Gasoline), is a reggaet\u00f3n song written by Daddy Yankee and Eddie Dee for Daddy Yankee's 2004 album Barrio Fino. It features Glory, who sings the line \"dame m\u00e1s gasolina\". The song was released as the album's lead single in late 2004 and became a reggaeton mega-hit, peaking inside the top ten on the majority of the charts it entered. In Australia and the United States, \"Gasolina\" was certified platinum, and it received various nominations for awards including, Record of the Year at the 2005 Latin Grammy Awards. <a href=\"http:\/\/www.last.fm\/music\/Daddy+Yankee\/_\/Gasolina\">Read more on Last.fm<\/a>.",
+        "content": "\"Gasolina\" (English: Gasoline), is a reggaet\u00f3n song written by Daddy Yankee and Eddie Dee for Daddy Yankee's 2004 album Barrio Fino. It features Glory, who sings the line \"dame m\u00e1s gasolina\". The song was released as the album's lead single in late 2004 and became a reggaeton mega-hit, peaking inside the top ten on the majority of the charts it entered. In Australia and the United States, \"Gasolina\" was certified platinum, and it received various nominations for awards including, Record of the Year at the 2005 Latin Grammy Awards.\n\nBackground\n\nBefore the release of Barrio Fino, Daddy Yankee was well known to reggaet\u00f3n fans. \"Gasolina,\" however became a worldwide hit, letting him gain popularity among Latino mainstream music fans as well, becoming a hit in Puerto Rico, the rest of Latin America and the Caribbean, the United States, Canada, Europe, the Arab World, the Philippines, India, China, Japan, Australia, and Oceania.\n\nGasolina is one of the songs attributed with opening the door for reggaet\u00f3n to become such a powerful force in the North American mainstream music scene. The song stayed true to reggaet\u00f3n\u2019s musical stylings of synthesized beats yet had a catchy enough chorus for a bilingual, multi-racial, and socio-economically diverse following to develop.\n <a href=\"http:\/\/www.last.fm\/music\/Daddy+Yankee\/_\/Gasolina\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

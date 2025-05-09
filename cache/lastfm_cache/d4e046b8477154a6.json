@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:37:32.848626+00:00",
+  "elapsed": 0.303902,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:32.848626+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1226",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=In+The+Stars"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benson+Boone&format=json&method=track.getInfo&track=In+The+Stars",
+  "_decoded_content": {
+    "track": {
+      "name": "In the Stars",
+      "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/_\/In+the+Stars",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "360416",
+      "playcount": "3690119",
+      "artist": {
+        "name": "Benson Boone",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone"
+      },
+      "album": {
+        "artist": "Benson Boone",
+        "title": "In the Stars",
+        "url": "https:\/\/www.last.fm\/music\/Benson+Boone\/In+the+Stars",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c769ad1280e558f34a044ac3b2c0a1f1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c769ad1280e558f34a044ac3b2c0a1f1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c769ad1280e558f34a044ac3b2c0a1f1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c769ad1280e558f34a044ac3b2c0a1f1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "a subtle use of vocal harmony",
+            "url": "https:\/\/www.last.fm\/tag\/a+subtle+use+of+vocal+harmony"
+          },
+          {
+            "name": "intricate melodic phrasing",
+            "url": "https:\/\/www.last.fm\/tag\/intricate+melodic+phrasing"
+          }
+        ]
+      }
+    }
+  }
+}

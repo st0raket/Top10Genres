@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:14.718770+00:00",
+  "elapsed": 0.211144,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:14.718770+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1871",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eden+Golan&format=json&method=track.getInfo&track=Hurricane"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eden+Golan&format=json&method=track.getInfo&track=Hurricane",
+  "_decoded_content": {
+    "track": {
+      "name": "Hurricane",
+      "url": "https:\/\/www.last.fm\/music\/Eden+Golan\/_\/Hurricane",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "33085",
+      "playcount": "395264",
+      "artist": {
+        "name": "Eden Golan",
+        "url": "https:\/\/www.last.fm\/music\/Eden+Golan"
+      },
+      "album": {
+        "artist": "Eden Golan",
+        "title": "Hurricane",
+        "url": "https:\/\/www.last.fm\/music\/Eden+Golan\/Hurricane",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/319ad4ba34158db731262e00ad384af9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/319ad4ba34158db731262e00ad384af9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/319ad4ba34158db731262e00ad384af9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/319ad4ba34158db731262e00ad384af9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "genocide",
+            "url": "https:\/\/www.last.fm\/tag\/genocide"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Mar 2024, 15:58",
+        "summary": "\"Hurricane\" sung by Eden Golan is the song that represented Israel in the song contest Eurovision 2024, coming 2nd in the televote and 5th overall.  It was released March 10th, 2024. <a href=\"http:\/\/www.last.fm\/music\/Eden+Golan\/_\/Hurricane\">Read more on Last.fm<\/a>.",
+        "content": "\"Hurricane\" sung by Eden Golan is the song that represented Israel in the song contest Eurovision 2024, coming 2nd in the televote and 5th overall.  It was released March 10th, 2024. <a href=\"http:\/\/www.last.fm\/music\/Eden+Golan\/_\/Hurricane\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

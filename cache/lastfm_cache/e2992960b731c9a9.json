@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:45:00.510250+00:00",
+  "elapsed": 0.288171,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:00.510250+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1150",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A+R+I+Z+O+N+A&format=json&method=track.getInfo&track=Oceans+Away"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A+R+I+Z+O+N+A&format=json&method=track.getInfo&track=Oceans+Away",
+  "_decoded_content": {
+    "track": {
+      "name": "Oceans Away",
+      "url": "https:\/\/www.last.fm\/music\/A+R+I+Z+O+N+A\/_\/Oceans+Away",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "124470",
+      "playcount": "763067",
+      "artist": {
+        "name": "A R I Z O N A",
+        "url": "https:\/\/www.last.fm\/music\/A+R+I+Z+O+N+A"
+      },
+      "album": {
+        "artist": "A R I Z O N A",
+        "title": "GALLERY",
+        "url": "https:\/\/www.last.fm\/music\/A+R+I+Z+O+N+A\/GALLERY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/369c8164e8e4d3a0a164c63e63fee84d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/369c8164e8e4d3a0a164c63e63fee84d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/369c8164e8e4d3a0a164c63e63fee84d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/369c8164e8e4d3a0a164c63e63fee84d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "pop dance",
+            "url": "https:\/\/www.last.fm\/tag\/pop+dance"
+          }
+        ]
+      }
+    }
+  }
+}

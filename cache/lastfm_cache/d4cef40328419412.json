@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:43:23.716782+00:00",
+  "elapsed": 0.239196,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:23.716782+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2896",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=Siempre+Pendientes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=Siempre+Pendientes",
+  "_decoded_content": {
+    "track": {
+      "name": "Siempre Pendientes",
+      "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Siempre+Pendientes",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "48795",
+      "playcount": "530465",
+      "artist": {
+        "name": "Peso Pluma",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma"
+      },
+      "album": {
+        "artist": "Peso Pluma",
+        "title": "Siempre Pendientes",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/Siempre+Pendientes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/34519a77e4dfb713fc5b5445c8622ad0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/34519a77e4dfb713fc5b5445c8622ad0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/34519a77e4dfb713fc5b5445c8622ad0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/34519a77e4dfb713fc5b5445c8622ad0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Corridos tumbados",
+            "url": "https:\/\/www.last.fm\/tag\/Corridos+tumbados"
+          },
+          {
+            "name": "corridos belicos",
+            "url": "https:\/\/www.last.fm\/tag\/corridos+belicos"
+          },
+          {
+            "name": "Peso Pluma",
+            "url": "https:\/\/www.last.fm\/tag\/Peso+Pluma"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Sep 2023, 00:51",
+        "summary": "La canci\u00f3n \"Siempre Pendientes\" de Luis R Conriquez y Peso Pluma parece tratar sobre el estilo de vida y la mentalidad de los miembros de los C\u00e1rtel de Sinaloa. La letra describe la vigilancia constante del personaje a los terrenos en su poder y est\u00e1 directamente dedicada a JGL (Joaqu\u00edn Guzm\u00e1n Loera) y su organizaci\u00f3n. Cuenta c\u00f3mo el personaje sale a las calles en autos de lujo con mucha seguridad \"cuidando la plaza\" junto al \"piyi\" que es su anillo de seguridad refiri\u00e9ndose al Nini 09 quien es jefe de seguridad de \"los chapitos\u201d. <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Siempre+Pendientes\">Read more on Last.fm<\/a>.",
+        "content": "La canci\u00f3n \"Siempre Pendientes\" de Luis R Conriquez y Peso Pluma parece tratar sobre el estilo de vida y la mentalidad de los miembros de los C\u00e1rtel de Sinaloa. La letra describe la vigilancia constante del personaje a los terrenos en su poder y est\u00e1 directamente dedicada a JGL (Joaqu\u00edn Guzm\u00e1n Loera) y su organizaci\u00f3n. Cuenta c\u00f3mo el personaje sale a las calles en autos de lujo con mucha seguridad \"cuidando la plaza\" junto al \"piyi\" que es su anillo de seguridad refiri\u00e9ndose al Nini 09 quien es jefe de seguridad de \"los chapitos\u201d. Menciona a Iv\u00e1n Archivaldo, hijo de JGL, y a \u201cel 27\u201d qui\u00e9n es Jorge Humberto Figueroa P\u00e9rez, un miembro de Los Ninis. En general describe c\u00f3mo es la vida de los integrantes de dicha organizaci\u00f3n delictiva, llena de excentricidades y aparente \u00e9xito. Por \u00faltimo deja ver c\u00f3mo es la corrupci\u00f3n en M\u00e9xico y su impunidad. <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Siempre+Pendientes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

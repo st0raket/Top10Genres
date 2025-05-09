@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:19.373859+00:00",
+  "elapsed": 0.250689,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:19.373859+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4171",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jennifer+Lopez&format=json&method=track.getInfo&track=Ni+T%C3%BA+Ni+Yo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jennifer+Lopez&format=json&method=track.getInfo&track=Ni+T%C3%BA+Ni+Yo",
+  "_decoded_content": {
+    "track": {
+      "name": "Ni T\u00fa Ni Yo",
+      "url": "https:\/\/www.last.fm\/music\/Jennifer+Lopez\/_\/Ni+T%C3%BA+Ni+Yo",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "25212",
+      "playcount": "127690",
+      "artist": {
+        "name": "Jennifer Lopez",
+        "mbid": "f0602f55-1770-483d-89bd-4bae0d0ac086",
+        "url": "https:\/\/www.last.fm\/music\/Jennifer+Lopez"
+      },
+      "album": {
+        "artist": "Jennifer Lopez",
+        "title": "Ni T\u00fa Ni Yo",
+        "url": "https:\/\/www.last.fm\/music\/Jennifer+Lopez\/Ni+T%C3%BA+Ni+Yo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d473353496ed1ec25a782febe4d261c3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d473353496ed1ec25a782febe4d261c3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d473353496ed1ec25a782febe4d261c3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d473353496ed1ec25a782febe4d261c3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "FLOP",
+            "url": "https:\/\/www.last.fm\/tag\/FLOP"
+          },
+          {
+            "name": "basura",
+            "url": "https:\/\/www.last.fm\/tag\/basura"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Sep 2017, 11:27",
+        "summary": "\"Ni T\u00fa Ni Yo\" (Spanish for \"Neither You nor I\") is a song recorded by American singer Jennifer Lopez, featuring Cuban reggaeton duo Gente de Zona. It was released digitally on July 4, 2017, by Nuyorican Productions and Sony Music Latin as the lead single from Lopez's upcoming ninth studio album Por Primera Vez.\n\nIn March 2016, it was confirmed by Billboard that Lopez had returned to Epic Records, having previously parted ways with the label in 2010. <a href=\"http:\/\/www.last.fm\/music\/Jennifer+Lopez\/_\/Ni+T%C3%BA+Ni+Yo\">Read more on Last.fm<\/a>.",
+        "content": "\"Ni T\u00fa Ni Yo\" (Spanish for \"Neither You nor I\") is a song recorded by American singer Jennifer Lopez, featuring Cuban reggaeton duo Gente de Zona. It was released digitally on July 4, 2017, by Nuyorican Productions and Sony Music Latin as the lead single from Lopez's upcoming ninth studio album Por Primera Vez.\n\nIn March 2016, it was confirmed by Billboard that Lopez had returned to Epic Records, having previously parted ways with the label in 2010. She signed a new long-term contract that saw her reunite with longtime mentor, L.A. Reid. In October 2016, Billboard magazine confirmed that Lopez is working on her second Spanish album, which is set to be released in September 2017 through Sony Music Latin. Her ex-husband Marc Anthony serves as executive producer for the album. Anthony described the album as \"some of the best work I've ever done and some of the best work that she's ever done\", and of their collaboration said: \"The fact that she put her career in my hands is a massive responsibility, but no one knows her like I do ... We've always been good friends from day one, you know.\" \"Ni T\u00fa Ni Yo\" serves as the album's first single. The single's cover art features Lopez posing in front of a sea, clothed in a 1960s-inspired yellow gown custom designed by Michael Costello. Katie Skinner of Billboard observed that the shot \"fits Lopez's glamorous style and personality perfectly.\"\n\n\"Ni T\u00fa Ni Yo\" was produced by Oscar Hernandez \"Oscarcito\" and Motiff. In English, the title translates to \"neither you nor I\". The track sees Lopez and Gente de Zona \"pronounce their love for one another over a joyful production\". Lopez commented that the song is \"really about when love takes you by surprise \u2014 'Ni T\u00fa Ni Yo,' 'Not You, Not Me' really expected this to happen, you know? That's what it's about, it's one of those things that when love comes, it just comes, it doesn't announce itself, and then it just takes over \u2014 ha! \u2014 you know what I mean? That's what the song is about, which is why I love it so much.\" She revealed that the song mirrored her own relationship with boyfriend Alex Rodriguez. <a href=\"http:\/\/www.last.fm\/music\/Jennifer+Lopez\/_\/Ni+T%C3%BA+Ni+Yo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

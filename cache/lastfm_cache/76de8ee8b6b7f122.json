@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:11.384020+00:00",
+  "elapsed": 0.307264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:11.384020+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1437",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Whitney+Houston&format=json&method=track.getInfo&track=Do+You+Hear+What+I+Hear"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Whitney+Houston&format=json&method=track.getInfo&track=Do+You+Hear+What+I+Hear",
+  "_decoded_content": {
+    "track": {
+      "name": "Do You Hear What I Hear",
+      "mbid": "8dfaf79f-f6c2-4577-9bf0-da1e387fb830",
+      "url": "https:\/\/www.last.fm\/music\/Whitney+Houston\/_\/Do+You+Hear+What+I+Hear",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "28784",
+      "playcount": "74375",
+      "artist": {
+        "name": "Whitney Houston",
+        "mbid": "0307edfc-437c-4b48-8700-80680e66a228",
+        "url": "https:\/\/www.last.fm\/music\/Whitney+Houston"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "A Very Special Christmas",
+        "mbid": "34586eb6-5c79-4a70-a837-1b122525f690",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/A+Very+Special+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3cb4377ff02c43ca4ce91b4bb8881544.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3cb4377ff02c43ca4ce91b4bb8881544.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3cb4377ff02c43ca4ce91b4bb8881544.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3cb4377ff02c43ca4ce91b4bb8881544.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "best christmas songs",
+            "url": "https:\/\/www.last.fm\/tag\/best+christmas+songs"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          }
+        ]
+      }
+    }
+  }
+}

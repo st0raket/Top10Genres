@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:26.895953+00:00",
+  "elapsed": 0.253514,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:26.895953+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3461",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Dear+Reader"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Dear+Reader",
+  "_decoded_content": {
+    "track": {
+      "name": "Dear Reader",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Dear+Reader",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "426984",
+      "playcount": "8831165",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Midnights (3am Edition) [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Midnights+(3am+Edition)+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/193b274b1f4d27fc86ff66123bad1f8d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "shit",
+            "url": "https:\/\/www.last.fm\/tag\/shit"
+          },
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "garbage",
+            "url": "https:\/\/www.last.fm\/tag\/garbage"
+          },
+          {
+            "name": "overrated",
+            "url": "https:\/\/www.last.fm\/tag\/overrated"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Oct 2022, 13:26",
+        "summary": "\"Dear Reader\" is a message to her listeners, encouraging them to take control of their lives and make their own choices, rather than relying on the advice of others. The lyrics suggest that the world can be a trap, and in order to break free, one must burn all their files, desert their past lives and find their own way. Swift advises against taking advice from someone who's falling apart, implying that relying on others can be harmful and that we should find our own guiding light. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Dear+Reader\">Read more on Last.fm<\/a>.",
+        "content": "\"Dear Reader\" is a message to her listeners, encouraging them to take control of their lives and make their own choices, rather than relying on the advice of others. The lyrics suggest that the world can be a trap, and in order to break free, one must burn all their files, desert their past lives and find their own way. Swift advises against taking advice from someone who's falling apart, implying that relying on others can be harmful and that we should find our own guiding light.\n\nThe song also touches upon the idea that everyone has secrets, and that these secrets can be the greatest luxury. Swift suggests that we should bend when we can, but snap when we have to, indicating that it's important to stand up for ourselves and not let others push us around. The bridge then takes a more personal turn, with Swift admitting to feeling lost and alone, despite her success. She shares her struggles with anxiety and loneliness, painting a picture of a cursed man seeking solace through alcohol and prayer.\n\nThe repeated chorus, \"Never take advice from someone who's falling apart\", serves as a warning against blindly following others, especially those who are themselves struggling. Despite her own struggles, Swift offers herself as a shining example of a guiding light, urging her listeners to find their own way and not rely on anyone else's advice. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Dear+Reader\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

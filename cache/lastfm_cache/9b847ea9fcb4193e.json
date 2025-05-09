@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:30:37.904665+00:00",
+  "elapsed": 0.236924,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:37.904665+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1266",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bobby+%22Boris%22+Pickett&format=json&method=track.getInfo&track=Monster+Mash+%28feat.+The+Crypt-Kickers%29"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bobby+%22Boris%22+Pickett&format=json&method=track.getInfo&track=Monster+Mash+%28feat.+The+Crypt-Kickers%29",
+  "_decoded_content": {
+    "track": {
+      "name": "Monster Mash (feat. the Crypt-Kickers)",
+      "url": "https:\/\/www.last.fm\/music\/Bobby+%27Boris%27+Pickett\/_\/Monster+Mash+(feat.+the+Crypt-Kickers)",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "201",
+      "playcount": "506",
+      "artist": {
+        "name": "Bobby 'Boris' Pickett",
+        "url": "https:\/\/www.last.fm\/music\/Bobby+%27Boris%27+Pickett"
+      },
+      "album": {
+        "artist": "Dr. Demento",
+        "title": "Dr. Demento Presents The Greatest Novelty CD of All Time",
+        "url": "https:\/\/www.last.fm\/music\/Dr.+Demento\/Dr.+Demento+Presents+The+Greatest+Novelty+CD+of+All+Time",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/14d9119bb852cfd418d759c8f262bdd8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/14d9119bb852cfd418d759c8f262bdd8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/14d9119bb852cfd418d759c8f262bdd8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/14d9119bb852cfd418d759c8f262bdd8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "streamable track wants",
+            "url": "https:\/\/www.last.fm\/tag\/streamable+track+wants"
+          },
+          {
+            "name": "the word monster",
+            "url": "https:\/\/www.last.fm\/tag\/the+word+monster"
+          },
+          {
+            "name": "the word mash",
+            "url": "https:\/\/www.last.fm\/tag\/the+word+mash"
+          }
+        ]
+      }
+    }
+  }
+}

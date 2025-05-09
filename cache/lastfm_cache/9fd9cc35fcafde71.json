@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:37.124894+00:00",
+  "elapsed": 0.18558,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:37.124340+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3340",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Fine+Line"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Fine+Line",
+  "_decoded_content": {
+    "track": {
+      "name": "Fine Line",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Fine+Line",
+      "duration": "377000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "745755",
+      "playcount": "12066674",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Fine Line",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Fine+Line",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Jan 2022, 20:19",
+        "summary": "Harry Styles closes his sophomore LP with its namesake, \u201cFine Line.\u201d In the track, Harry touched on the need for balance between the highs and lows of love (and life in general), both of which are featured in previous songs on the album.\n\nHarry elaborated on the song\u2019s significance to Capital FM:\n\n\"'It was always gonna be the last song on the album. It felt like it described to me the process of making it and how the album felt in terms of the different kinds of songs on it.'\" <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Fine+Line\">Read more on Last.fm<\/a>.",
+        "content": "Harry Styles closes his sophomore LP with its namesake, \u201cFine Line.\u201d In the track, Harry touched on the need for balance between the highs and lows of love (and life in general), both of which are featured in previous songs on the album.\n\nHarry elaborated on the song\u2019s significance to Capital FM:\n\n\"'It was always gonna be the last song on the album. It felt like it described to me the process of making it and how the album felt in terms of the different kinds of songs on it.'\"\n\nIn an interview with Zane Lowe, Harry touched on the extremity of the emotions he experienced while writing Fine Line:\n\n\"'What I hadn\u2019t really experienced before during the making of this record, the times when I felt good and happy were the happiest I\u2019ve ever felt in my life. And the times when I felt sad were the lowest that I\u2019ve ever felt in my life.'\"\n\nHarry\u2019s voice is accompanied by several instruments; horns, piano, guitars and strings to create a crescendo that concludes the album. Rolling Stone quoted Harry explaining the sonic choice, saying:\n\n\"'It started simple, but I wanted to have this big epic outro thing. And it just took shape as this thing where I thought, \u2018That\u2019s just like the music I want to make.\u2019 I love strings, I love horns, I love harmonies \u2014 so why don\u2019t we just put all of that in there?'\" <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Fine+Line\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

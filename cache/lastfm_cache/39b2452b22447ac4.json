@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:39:17.119109+00:00",
+  "elapsed": 0.203493,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:17.119109+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "879",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nines&format=json&method=track.getInfo&track=Tony+Soprano+2"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nines&format=json&method=track.getInfo&track=Tony+Soprano+2",
+  "_decoded_content": {
+    "track": {
+      "name": "Tony Soprano 2",
+      "url": "https:\/\/www.last.fm\/music\/Nines\/_\/Tony+Soprano+2",
+      "duration": "230000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "17423",
+      "playcount": "169339",
+      "artist": {
+        "name": "Nines",
+        "mbid": "d32c17bc-e621-4f22-a642-cd065fd2a598",
+        "url": "https:\/\/www.last.fm\/music\/Nines"
+      },
+      "album": {
+        "artist": "Nines",
+        "title": "Crop Circle 2",
+        "url": "https:\/\/www.last.fm\/music\/Nines\/Crop+Circle+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e3810d213b0dc67e9ac5d1177d9932a9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e3810d213b0dc67e9ac5d1177d9932a9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e3810d213b0dc67e9ac5d1177d9932a9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e3810d213b0dc67e9ac5d1177d9932a9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

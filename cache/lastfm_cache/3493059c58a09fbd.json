@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:01.523523+00:00",
+  "elapsed": 0.553818,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:01.523523+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2285",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Blem"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Blem",
+  "_decoded_content": {
+    "track": {
+      "name": "Blem",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Blem",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "243743",
+      "playcount": "1642929",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "More Life",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/More+Life",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "dancehall",
+            "url": "https:\/\/www.last.fm\/tag\/dancehall"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Oct 2022, 17:49",
+        "summary": "\u201cBlem\u201d is the seventh track on Drake\u2019s \u201dMore Life\u201d playlist. Continuing his Caribbean-pillaged flow from \u201cMadiba Riddim,\u201d Drake uses the situation of being \u201cblem,\u201d that is, high on drugs (marijuana in this case), to be fully sincere with the woman he\u2019s singing to.\n\nThe track interpolates \u201cAll Night Long (All Night)\u201d by Lionel Richie.\n\n\u201cPassa\u201c is Jamaican Patois for \u201cgossip\u201d. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Blem\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBlem\u201d is the seventh track on Drake\u2019s \u201dMore Life\u201d playlist. Continuing his Caribbean-pillaged flow from \u201cMadiba Riddim,\u201d Drake uses the situation of being \u201cblem,\u201d that is, high on drugs (marijuana in this case), to be fully sincere with the woman he\u2019s singing to.\n\nThe track interpolates \u201cAll Night Long (All Night)\u201d by Lionel Richie.\n\n\u201cPassa\u201c is Jamaican Patois for \u201cgossip\u201d. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Blem\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

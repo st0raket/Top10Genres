@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:44:39.166708+00:00",
+  "elapsed": 0.184029,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:39.166708+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2194",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=%24%24%24+-+with+Matt+Ox"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=%24%24%24+-+with+Matt+Ox",
+  "_decoded_content": {
+    "track": {
+      "name": "$$$ - with Matt Ox",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/$$$+-+with+Matt+Ox",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "238969",
+      "playcount": "1875473",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Like",
+            "url": "https:\/\/www.last.fm\/tag\/Like"
+          },
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          },
+          {
+            "name": "Matt Ox",
+            "url": "https:\/\/www.last.fm\/tag\/Matt+Ox"
+          },
+          {
+            "name": "Like Ooooh",
+            "url": "https:\/\/www.last.fm\/tag\/Like+Ooooh"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 17:32",
+        "summary": "XXXTENTACION and Philadelphia rapper, Matt Ox, link up on \u201c$$$\u201d to create their first collaboration together. This song consists of Matt bragging about how much money he has while X brags about the women he gets and how tough he is.\n\nIn an interview by Adam22 on the \u201cNo Jumper\u201d podcast, Adam22 asks Matt OX how the song came about. In the interview MATT OX reveals that XXXTentacion had reached out to him before the song was released and after talking for awhile he put X on the song originally as a feature <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/$$$+-+with+Matt+Ox\">Read more on Last.fm<\/a>.",
+        "content": "XXXTENTACION and Philadelphia rapper, Matt Ox, link up on \u201c$$$\u201d to create their first collaboration together. This song consists of Matt bragging about how much money he has while X brags about the women he gets and how tough he is.\n\nIn an interview by Adam22 on the \u201cNo Jumper\u201d podcast, Adam22 asks Matt OX how the song came about. In the interview MATT OX reveals that XXXTentacion had reached out to him before the song was released and after talking for awhile he put X on the song originally as a feature, but the song was later given to XXXTENTACION to put on his second studio album \u201c?\u201d which was released in March of 2018, and later went on to be a platinum record on August, 7th 2018, just one month after XXXTentacion\u2019s passing. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/$$$+-+with+Matt+Ox\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

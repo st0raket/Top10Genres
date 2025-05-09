@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:13.237161+00:00",
+  "elapsed": 0.219333,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:13.237161+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3688",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Anything+For+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Anything+For+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Anything for Love",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Anything+for+Love",
+      "duration": "141000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "174457",
+      "playcount": "1163131",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Radical Optimism",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Radical+Optimism",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "fuck people who hate this",
+            "url": "https:\/\/www.last.fm\/tag\/fuck+people+who+hate+this"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 May 2024, 15:27",
+        "summary": "\"Anything For Love\" is the ninth track from Dua Lipa's third studio album, Radical Optimism. It was released on May 3, 2024 through Warner Records.\n\n\u201cWe made this whole record in a room in London in a studio in Kensal Rise. And that became my home for a year and a half and I have this big thing about studios because I love a place that has windows and light. A lot of studios don\u2019t have that. That room has seen me through every season, has seen me through every emotion. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Anything+for+Love\">Read more on Last.fm<\/a>.",
+        "content": "\"Anything For Love\" is the ninth track from Dua Lipa's third studio album, Radical Optimism. It was released on May 3, 2024 through Warner Records.\n\n\u201cWe made this whole record in a room in London in a studio in Kensal Rise. And that became my home for a year and a half and I have this big thing about studios because I love a place that has windows and light. A lot of studios don\u2019t have that. That room has seen me through every season, has seen me through every emotion. I feel like my ideas can breathe in a room like that. And we were all together in the room, and engineer Jan, who\u2019d been there for the whole year and a half with us helping us like set the mics up and do everything, he\u2019s a super talented piano player. I asked him to play for us in that moment. I was like \u201cJan I think you should be a part of this track as well\u201d and he came and played. It was just beautiful to have the energy of all the people who have played a little role in making this record with me. It was really just me on an SM7 kind of mic in the room making \u201cAnything For Love\u201d.\n\n\u201cAnything For Love\u201d I guess is this idea that we live in such a fast world where it feels like things are easy to dispose of. So people don\u2019t really fight for things that they really care about or they\u2019re very quick to let go of things that are meaningful. And in that sense that\u2019s where I went in for \u201cAnything For Love\u201d. It\u2019s like remember the time when people really fought for something or love really meant something, and it wasn\u2019t just this throwaway thing? So that\u2019s really where that song stemmed from.\u201c \u2014 via Zach Sang Show <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Anything+for+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

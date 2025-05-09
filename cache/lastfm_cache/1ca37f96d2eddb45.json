@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:29:59.628573+00:00",
+  "elapsed": 0.198691,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:59.627939+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3492",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Carters&format=json&method=track.getInfo&track=SUMMER"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Carters&format=json&method=track.getInfo&track=SUMMER",
+  "_decoded_content": {
+    "track": {
+      "name": "Summer",
+      "url": "https:\/\/www.last.fm\/music\/The+Carters\/_\/Summer",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "190299",
+      "playcount": "1629666",
+      "artist": {
+        "name": "The Carters",
+        "mbid": "856cec57-ac22-493d-8d01-29236cbac55d",
+        "url": "https:\/\/www.last.fm\/music\/The+Carters"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "Neo Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo+Soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Jan 2022, 03:26",
+        "summary": "Interpolating JAY-Z\u2019s 2013 track \u201cBeach is Better (Interlude),\u201d Beyonc\u00e9 is added to the mix to give us sexy summer vibes with \u201cSUMMER\u201d\u2014 the first track of their surprise debut collaborative album, \"EVERYTHING IS LOVE\". The song features a heartfelt back-and-forth between Jay-Z and Beyonc\u00e9, each taking time to show their love to one another. The track is also 4 minutes and 44 seconds in length, referencing JAY-Z\u2019s solo album \"4:44\". <a href=\"http:\/\/www.last.fm\/music\/The+Carters\/_\/Summer\">Read more on Last.fm<\/a>.",
+        "content": "Interpolating JAY-Z\u2019s 2013 track \u201cBeach is Better (Interlude),\u201d Beyonc\u00e9 is added to the mix to give us sexy summer vibes with \u201cSUMMER\u201d\u2014 the first track of their surprise debut collaborative album, \"EVERYTHING IS LOVE\". The song features a heartfelt back-and-forth between Jay-Z and Beyonc\u00e9, each taking time to show their love to one another. The track is also 4 minutes and 44 seconds in length, referencing JAY-Z\u2019s solo album \"4:44\".\n\nFollowing its release, \u201cSUMMER\u201d debuted at #84 on the Billboard Hot 100 and at #42 on the Hot R&B\/Hip-Hop Songs chart.\n\nAbout the song\u2019s creation, producer duo Cool & Dre explained to Billboard:\n\nDre: \"For the \u201cSUMMER\u201d record, Cool had this music groove that he was working on and played it for me, and immediately I heard a melody, and it was definitely inspired by what we were seeing every day. There\u2019s a scene where Jay and Bey are on the beach filming each other on the sand and just enjoying the presence of each other, and we took what we saw and put it in the music. When they heard it, they took the idea and turned it into \u201cSUMMER.\u201d\"\n\nCool: \"It was really organic. It was just creating amazing music in a great environment. Just taking in all the vibes of where we were at and just riding off the highs. Me and Dre were in a special type of place.\"\n\nAccording\/ to Dre from the production duo Cool & Dre:\n\n\"When we played them \u201cSUMMER,\u201d we would tell Bey and Jay, \u201cIf you don\u2019t like the melody or the words, we\u2019ll change them. We want to do anything to be a part of this.\u201d They were like, \u201cNo, we love it, don\u2019t stop.\u201d That was the greatest thing they would tell me and Cool: not to stop\u2026 And on records like \u201cSUMMER,\u201d Beyonc\u00e9 would be like, \u201cI want to hear strings; I want to hear horns. Use my string section, use my horns \u2013 I got them all here.\u201d They really produced these records with us. That\u2019s why it says produced by Beyonc\u00e9 and JAY-Z and Cool and Dre. They definitely gave us direction. And when we were doing it right, they told us not to stop.\" <a href=\"http:\/\/www.last.fm\/music\/The+Carters\/_\/Summer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

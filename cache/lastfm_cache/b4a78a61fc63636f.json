@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:58.300099+00:00",
+  "elapsed": 0.247894,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:58.300099+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=Love+Is+All+We+Have+Left"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=Love+Is+All+We+Have+Left",
+  "_decoded_content": {
+    "track": {
+      "name": "Love Is All We Have Left",
+      "url": "https:\/\/www.last.fm\/music\/U2\/_\/Love+Is+All+We+Have+Left",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38447",
+      "playcount": "170631",
+      "artist": {
+        "name": "U2",
+        "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+        "url": "https:\/\/www.last.fm\/music\/U2"
+      },
+      "album": {
+        "artist": "U2",
+        "title": "Songs of Experience",
+        "url": "https:\/\/www.last.fm\/music\/U2\/Songs+of+Experience",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/335508718b7474047f24894115507ae1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/335508718b7474047f24894115507ae1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/335508718b7474047f24894115507ae1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/335508718b7474047f24894115507ae1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "U2",
+            "url": "https:\/\/www.last.fm\/tag\/U2"
+          },
+          {
+            "name": "bon jovi",
+            "url": "https:\/\/www.last.fm\/tag\/bon+jovi"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "created_at": "2025-05-03T14:31:40.576204+00:00",
+  "elapsed": 0.278181,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:40.576204+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "631",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luke+Combs&format=json&method=track.getInfo&track=Lovin%27+On+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luke+Combs&format=json&method=track.getInfo&track=Lovin%27+On+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Lovin' On You",
+      "url": "https:\/\/www.last.fm\/music\/Luke+Combs\/_\/Lovin%27+On+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "54510",
+      "playcount": "479852",
+      "artist": {
+        "name": "Luke Combs",
+        "url": "https:\/\/www.last.fm\/music\/Luke+Combs"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "contemporary country",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+country"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      }
+    }
+  }
+}

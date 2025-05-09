@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:08.736131+00:00",
+  "elapsed": 0.201722,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:08.736131+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2576",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=R.I.P.+SCREW"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=R.I.P.+SCREW",
+  "_decoded_content": {
+    "track": {
+      "name": "R.I.P. SCREW",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/R.I.P.+SCREW",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "394870",
+      "playcount": "4508613",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "album": {
+        "artist": "Travis Scott",
+        "title": "ASTROWORLD",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/ASTROWORLD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4386a469e620103f8436b3e969075959.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4386a469e620103f8436b3e969075959.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4386a469e620103f8436b3e969075959.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4386a469e620103f8436b3e969075959.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "Tribute",
+            "url": "https:\/\/www.last.fm\/tag\/Tribute"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Jun 2021, 07:55",
+        "summary": "\u201cR.I.P. SCREW\u201d is a heartfelt tribute to the late DJ Screw, a prominent figure in the Houston hip-hop scene credited to pioneering the \u2018chopped and screwed\u2019 genre which had a clear effect on Travis. The track literally \u2018take(s) it slowly\u2019 as a nod of respect, while touching on the pain and loss found in success.\n\nAlong with Screw, Scott additionally pays homage to Houston stars Big Moe, E.S.G., and Big Pokey, ending many of his lines with \u2018mane\u2019, much like the former\u2019s \u201cMaan!!\u201d. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/R.I.P.+SCREW\">Read more on Last.fm<\/a>.",
+        "content": "\u201cR.I.P. SCREW\u201d is a heartfelt tribute to the late DJ Screw, a prominent figure in the Houston hip-hop scene credited to pioneering the \u2018chopped and screwed\u2019 genre which had a clear effect on Travis. The track literally \u2018take(s) it slowly\u2019 as a nod of respect, while touching on the pain and loss found in success.\n\nAlong with Screw, Scott additionally pays homage to Houston stars Big Moe, E.S.G., and Big Pokey, ending many of his lines with \u2018mane\u2019, much like the former\u2019s \u201cMaan!!\u201d. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/R.I.P.+SCREW\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

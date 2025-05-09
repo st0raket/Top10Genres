@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:49.633375+00:00",
+  "elapsed": 0.191107,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:49.633375+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2650",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Over"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Over",
+  "_decoded_content": {
+    "track": {
+      "name": "Over",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Over",
+      "duration": "166000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "487476",
+      "playcount": "11304208",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "album": {
+        "artist": "Playboi Carti",
+        "title": "Whole Lotta Red",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/Whole+Lotta+Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 May 2021, 16:19",
+        "summary": "On \u201cOver,\u201d Playboi Carti reunites musically with Art Dealer for the first time since the two opened Carti\u2019s 2018 album Die Lit with the iconic \u201cLong Time (Intro)\u201d\u2014Art Dealer is also responsible for the cover art of Whole Lotta Red. The song features a similar synth-laden instrumental and finds Carti dealing with the crash of a relationship.\n\nFirst previewed on Instagram on November 25, 2020, \u201cOver\u201d was the third track to be teased by Carti in the days following the announcement that he had turned in Whole Lotta Red to his label <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Over\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cOver,\u201d Playboi Carti reunites musically with Art Dealer for the first time since the two opened Carti\u2019s 2018 album Die Lit with the iconic \u201cLong Time (Intro)\u201d\u2014Art Dealer is also responsible for the cover art of Whole Lotta Red. The song features a similar synth-laden instrumental and finds Carti dealing with the crash of a relationship.\n\nFirst previewed on Instagram on November 25, 2020, \u201cOver\u201d was the third track to be teased by Carti in the days following the announcement that he had turned in Whole Lotta Red to his label, following \u201cNew Tank\u201d and \u201cGo2DaMoon\u201d. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Over\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

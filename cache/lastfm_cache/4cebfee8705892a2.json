@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:03.503836+00:00",
+  "elapsed": 0.386294,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:03.503836+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2367",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Childish+Gambino&format=json&method=track.getInfo&track=Summertime+Magic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Childish+Gambino&format=json&method=track.getInfo&track=Summertime+Magic",
+  "_decoded_content": {
+    "track": {
+      "name": "Summertime Magic",
+      "url": "https:\/\/www.last.fm\/music\/Childish+Gambino\/_\/Summertime+Magic",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "355971",
+      "playcount": "2681205",
+      "artist": {
+        "name": "Childish Gambino",
+        "mbid": "7fb57fba-a6ef-44c2-abab-2fa3bdee607e",
+        "url": "https:\/\/www.last.fm\/music\/Childish+Gambino"
+      },
+      "album": {
+        "artist": "Childish Gambino",
+        "title": "Summertime Magic",
+        "url": "https:\/\/www.last.fm\/music\/Childish+Gambino\/Summertime+Magic",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/922be62ecd0d984fa88746bf9ee27744.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/922be62ecd0d984fa88746bf9ee27744.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/922be62ecd0d984fa88746bf9ee27744.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/922be62ecd0d984fa88746bf9ee27744.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jul 2023, 01:19",
+        "summary": "On July 11, 2018 Childish Gambino released a summer pack of two breezy seasonal songs that speak of the season ahead of his headline set at London's Lovebox festival. This dreamy ode to summer love was one of them.\n\nThis song was co-written and co-produced by Childish Gambino and his long-term collaborator Ludwig Goransson, the same creative team behind \"This Is America.\" <a href=\"http:\/\/www.last.fm\/music\/Childish+Gambino\/_\/Summertime+Magic\">Read more on Last.fm<\/a>.",
+        "content": "On July 11, 2018 Childish Gambino released a summer pack of two breezy seasonal songs that speak of the season ahead of his headline set at London's Lovebox festival. This dreamy ode to summer love was one of them.\n\nThis song was co-written and co-produced by Childish Gambino and his long-term collaborator Ludwig Goransson, the same creative team behind \"This Is America.\" <a href=\"http:\/\/www.last.fm\/music\/Childish+Gambino\/_\/Summertime+Magic\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

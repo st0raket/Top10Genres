@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:30:55.037037+00:00",
+  "elapsed": 0.214763,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:55.037037+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2442",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Chainsmokers&format=json&method=track.getInfo&track=Hope"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Chainsmokers&format=json&method=track.getInfo&track=Hope",
+  "_decoded_content": {
+    "track": {
+      "name": "Hope",
+      "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Hope",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "136431",
+      "playcount": "969481",
+      "artist": {
+        "name": "The Chainsmokers",
+        "mbid": "91a81925-92f9-4fc9-b897-93cf01226282",
+        "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "So Fresh: The Hits of Autumn 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/So+Fresh:+The+Hits+of+Autumn+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c653ffeb9ba7635b60a17734352bc12a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c653ffeb9ba7635b60a17734352bc12a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c653ffeb9ba7635b60a17734352bc12a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c653ffeb9ba7635b60a17734352bc12a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jul 2022, 17:15",
+        "summary": "\u201cHope\u201d is the tenth release off of The Chainsmokers' episodic second studio album \"Sick Boy\". The song was first teased on the duo\u2019s Instagram story on December 11th and was released later that week on the 14th.\n\nThe song showcases a new sound for the duo as they continue to experiment with new sounds. The song puts a focus on Oak\u2019s vocals, with a tropical house beat supplementing her voice. The song itself tells a story of a heartbroken lover, in a relationship that was bound to fail from the beginning. <a href=\"http:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Hope\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHope\u201d is the tenth release off of The Chainsmokers' episodic second studio album \"Sick Boy\". The song was first teased on the duo\u2019s Instagram story on December 11th and was released later that week on the 14th.\n\nThe song showcases a new sound for the duo as they continue to experiment with new sounds. The song puts a focus on Oak\u2019s vocals, with a tropical house beat supplementing her voice. The song itself tells a story of a heartbroken lover, in a relationship that was bound to fail from the beginning. <a href=\"http:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Hope\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

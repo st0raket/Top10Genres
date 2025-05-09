@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:52.121915+00:00",
+  "elapsed": 0.175764,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:52.121915+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2099",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Steve+Lacy&format=json&method=track.getInfo&track=Dark+Red"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Steve+Lacy&format=json&method=track.getInfo&track=Dark+Red",
+  "_decoded_content": {
+    "track": {
+      "name": "Dark Red",
+      "url": "https:\/\/www.last.fm\/music\/Steve+Lacy\/_\/Dark+Red",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1746622",
+      "playcount": "31493824",
+      "artist": {
+        "name": "Steve Lacy",
+        "mbid": "ca9766a0-1c30-43e6-a213-bac1334efc4a",
+        "url": "https:\/\/www.last.fm\/music\/Steve+Lacy"
+      },
+      "album": {
+        "artist": "Steve Lacy",
+        "title": "Steve Lacy's Demo",
+        "url": "https:\/\/www.last.fm\/music\/Steve+Lacy\/Steve+Lacy%27s+Demo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/06c9ee82c4cb73aceba1cea79312f4c6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/06c9ee82c4cb73aceba1cea79312f4c6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/06c9ee82c4cb73aceba1cea79312f4c6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/06c9ee82c4cb73aceba1cea79312f4c6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jan 2022, 00:23",
+        "summary": "Dark red lipstick is the shade that represents a girl\u2019s confidence and will to move on. Steve Lacy sees this as a bad sign and begs for her not to give up on them. He tries to see it from her perspective and offers that maybe she\u2019s fine and it\u2019s himself that\u2019s in the wrong. <a href=\"http:\/\/www.last.fm\/music\/Steve+Lacy\/_\/Dark+Red\">Read more on Last.fm<\/a>.",
+        "content": "Dark red lipstick is the shade that represents a girl\u2019s confidence and will to move on. Steve Lacy sees this as a bad sign and begs for her not to give up on them. He tries to see it from her perspective and offers that maybe she\u2019s fine and it\u2019s himself that\u2019s in the wrong. <a href=\"http:\/\/www.last.fm\/music\/Steve+Lacy\/_\/Dark+Red\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

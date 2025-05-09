@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:14.353956+00:00",
+  "elapsed": 0.220631,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:14.353956+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2303",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Halsey&format=json&method=track.getInfo&track=Lilith"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Halsey&format=json&method=track.getInfo&track=Lilith",
+  "_decoded_content": {
+    "track": {
+      "name": "Lilith",
+      "url": "https:\/\/www.last.fm\/music\/Halsey\/_\/Lilith",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "161876",
+      "playcount": "1751794",
+      "artist": {
+        "name": "Halsey",
+        "url": "https:\/\/www.last.fm\/music\/Halsey"
+      },
+      "album": {
+        "artist": "Halsey",
+        "title": "If I Can't Have Love, I Want Power",
+        "url": "https:\/\/www.last.fm\/music\/Halsey\/If+I+Can%27t+Have+Love,+I+Want+Power",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0366e861d7c0175592d39264f9bdf0b8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0366e861d7c0175592d39264f9bdf0b8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0366e861d7c0175592d39264f9bdf0b8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0366e861d7c0175592d39264f9bdf0b8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trip-hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip-hop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Dec 2021, 15:11",
+        "summary": "\u201cLilith\u201d is the fourth track on Halsey\u2019s 2021 album \u2018If I Can\u2019t Have Love, I Want Power.\u2019 In this track, Halsey sings about how her destructive behaviour tends to drive away everything she loves. They say that they have been down this path for so long that they does not know if turning back is even possible at this point. The track was produced by Atticus Ross and Trent Reznor of Nine Inch Nails. <a href=\"http:\/\/www.last.fm\/music\/Halsey\/_\/Lilith\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLilith\u201d is the fourth track on Halsey\u2019s 2021 album \u2018If I Can\u2019t Have Love, I Want Power.\u2019 In this track, Halsey sings about how her destructive behaviour tends to drive away everything she loves. They say that they have been down this path for so long that they does not know if turning back is even possible at this point. The track was produced by Atticus Ross and Trent Reznor of Nine Inch Nails. <a href=\"http:\/\/www.last.fm\/music\/Halsey\/_\/Lilith\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

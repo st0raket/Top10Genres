@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:09.878062+00:00",
+  "elapsed": 0.226986,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:09.878062+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2811",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pusha+T&format=json&method=track.getInfo&track=Diet+Coke"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pusha+T&format=json&method=track.getInfo&track=Diet+Coke",
+  "_decoded_content": {
+    "track": {
+      "name": "Diet Coke",
+      "url": "https:\/\/www.last.fm\/music\/Pusha+T\/_\/Diet+Coke",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "229755",
+      "playcount": "2479867",
+      "artist": {
+        "name": "Pusha T",
+        "mbid": "14ecd19f-7121-4192-8549-e5056241a42f",
+        "url": "https:\/\/www.last.fm\/music\/Pusha+T"
+      },
+      "album": {
+        "artist": "Pusha T",
+        "title": "Diet Coke - Single",
+        "url": "https:\/\/www.last.fm\/music\/Pusha+T\/Diet+Coke+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/59b354d64e358cb97bbe39ed95e43917.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/59b354d64e358cb97bbe39ed95e43917.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/59b354d64e358cb97bbe39ed95e43917.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/59b354d64e358cb97bbe39ed95e43917.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "chipmunk soul",
+            "url": "https:\/\/www.last.fm\/tag\/chipmunk+soul"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Feb 2022, 03:00",
+        "summary": "\"Diet Coke\u201d was the lead single for Pusha T\u2019s 2022 album \"It\u2019s Always Dry\". It was first previewed after a snippet surfaced of Push and Kanye West recording a music video. It was later confirmed that Ye was involved in the song after his girlfriend Julia Fox told Interview Magazine that she had gone to a music video shoot for the collaboration. Push later shared a snippet of the song at an afterparty for the KENZO fashion show in Paris, France. <a href=\"http:\/\/www.last.fm\/music\/Pusha+T\/_\/Diet+Coke\">Read more on Last.fm<\/a>.",
+        "content": "\"Diet Coke\u201d was the lead single for Pusha T\u2019s 2022 album \"It\u2019s Always Dry\". It was first previewed after a snippet surfaced of Push and Kanye West recording a music video. It was later confirmed that Ye was involved in the song after his girlfriend Julia Fox told Interview Magazine that she had gone to a music video shoot for the collaboration. Push later shared a snippet of the song at an afterparty for the KENZO fashion show in Paris, France.\n\nThe beat, originally intended to be an interlude for 88-Keys beat tape \"The Makings of Crack Cocaine\", was produced in 2004, around 18 years before \u201cDiet Coke\u201d was released.\n\nOn February 15, 2022, Pusha T posted a video of him and the attendees of the KENZO Paris show afterparty, listening to \u201cDiet Coke\u201d before the song released. <a href=\"http:\/\/www.last.fm\/music\/Pusha+T\/_\/Diet+Coke\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:59.245187+00:00",
+  "elapsed": 0.219006,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:59.244546+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2262",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Flights%2C+Not+Feelings"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Flights%2C+Not+Feelings",
+  "_decoded_content": {
+    "track": {
+      "name": "Flights, Not Feelings",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/Flights,+Not+Feelings",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "108030",
+      "playcount": "1138569",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "Whiplash - The 5th Mini Album",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/Whiplash+-+The+5th+Mini+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Oct 2024, 04:49",
+        "summary": "\"Flights, Not Feelings\" is a song recorded by the South Korean girl group aespa. It was released October 21st, 2024, as the third track of their fifth mini album, 'Whiplash', under SM Entertainment.\n\nDescribed as a R&B song with a vintage yet mysterious track sound and dreamy vocals. The lyrics is about letting go of negative feelings, living freely and enjoying life. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Flights,+Not+Feelings\">Read more on Last.fm<\/a>.",
+        "content": "\"Flights, Not Feelings\" is a song recorded by the South Korean girl group aespa. It was released October 21st, 2024, as the third track of their fifth mini album, 'Whiplash', under SM Entertainment.\n\nDescribed as a R&B song with a vintage yet mysterious track sound and dreamy vocals. The lyrics is about letting go of negative feelings, living freely and enjoying life. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Flights,+Not+Feelings\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

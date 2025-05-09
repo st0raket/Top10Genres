@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:27:59.379397+00:00",
+  "elapsed": 0.293818,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:59.379397+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2604",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Clean+Bandit&format=json&method=track.getInfo&track=Symphony"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Clean+Bandit&format=json&method=track.getInfo&track=Symphony",
+  "_decoded_content": {
+    "track": {
+      "name": "Symphony",
+      "url": "https:\/\/www.last.fm\/music\/Clean+Bandit\/_\/Symphony",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "67788",
+      "playcount": "367858",
+      "artist": {
+        "name": "Clean Bandit",
+        "mbid": "dacc2d64-7e59-42a8-87a9-10c53919aff2",
+        "url": "https:\/\/www.last.fm\/music\/Clean+Bandit"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music! 97",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music%21+97",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/eafff85c400e0c3a448ff120626732e2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/eafff85c400e0c3a448ff120626732e2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/eafff85c400e0c3a448ff120626732e2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/eafff85c400e0c3a448ff120626732e2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronica",
+            "url": "https:\/\/www.last.fm\/tag\/electronica"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "out music",
+            "url": "https:\/\/www.last.fm\/tag\/out+music"
+          },
+          {
+            "name": "zara larsson",
+            "url": "https:\/\/www.last.fm\/tag\/zara+larsson"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 May 2017, 13:17",
+        "summary": "Symphony is a dance-pop music created by British trio Clean Bandit and Swedish singer Zara Larsson.\n\nThe song explains how a man recovers from the death of his late boyfriend or husband (who died while riding a bicycle at the beginning of the music video).\n\nZara Larsson sings in perspective of the man's views, and what he feels before and after the loss of his companion.\n\nThrough the lyrics, the song explains that the man is obsessed with his late lover and how he feels incomplete without him.  <a href=\"http:\/\/www.last.fm\/music\/Clean+Bandit\/_\/Symphony\">Read more on Last.fm<\/a>.",
+        "content": "Symphony is a dance-pop music created by British trio Clean Bandit and Swedish singer Zara Larsson.\n\nThe song explains how a man recovers from the death of his late boyfriend or husband (who died while riding a bicycle at the beginning of the music video).\n\nZara Larsson sings in perspective of the man's views, and what he feels before and after the loss of his companion.\n\nThrough the lyrics, the song explains that the man is obsessed with his late lover and how he feels incomplete without him.  <a href=\"http:\/\/www.last.fm\/music\/Clean+Bandit\/_\/Symphony\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:09.279062+00:00",
+  "elapsed": 0.210009,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:09.279062+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3435",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Flo+Rida&format=json&method=track.getInfo&track=My+House"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Flo+Rida&format=json&method=track.getInfo&track=My+House",
+  "_decoded_content": {
+    "track": {
+      "name": "My House",
+      "url": "https:\/\/www.last.fm\/music\/Flo+Rida\/_\/My+House",
+      "duration": "192000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "540893",
+      "playcount": "3106496",
+      "artist": {
+        "name": "Flo Rida",
+        "mbid": "4593d49a-7f67-46ba-9ec0-126bd676286f",
+        "url": "https:\/\/www.last.fm\/music\/Flo+Rida"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "NRJ 300% Hits 2016",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/NRJ+300%25+Hits+2016",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2a3db341bf73d768b9584d3c6ed77753.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2a3db341bf73d768b9584d3c6ed77753.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2a3db341bf73d768b9584d3c6ed77753.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2a3db341bf73d768b9584d3c6ed77753.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2015",
+            "url": "https:\/\/www.last.fm\/tag\/2015"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Mar 2022, 15:16",
+        "summary": "\"My House\" is a song by American rapper Flo Rida from his 2015 EP of the same name. The song was released as the album's third official single on September 24, 2015, in the US. The song samples the drum break from \"Impeach the President\" by The Honey Drippers.\n\n\"My House\" debuted at number 96 on the Billboard Hot 100 in the issue dated November 28, 2015, before falling to 99 on the following week. The song then slowly gained momentum until a sharp increase in attention following Flo Rida's January 14 <a href=\"http:\/\/www.last.fm\/music\/Flo+Rida\/_\/My+House\">Read more on Last.fm<\/a>.",
+        "content": "\"My House\" is a song by American rapper Flo Rida from his 2015 EP of the same name. The song was released as the album's third official single on September 24, 2015, in the US. The song samples the drum break from \"Impeach the President\" by The Honey Drippers.\n\n\"My House\" debuted at number 96 on the Billboard Hot 100 in the issue dated November 28, 2015, before falling to 99 on the following week. The song then slowly gained momentum until a sharp increase in attention following Flo Rida's January 14, 2016 performance on The Tonight Show Starring Jimmy Fallon, a halftime performance at an NFL playoff game on January 16, and its appearance as WrestleMania 32's theme song on April 3, jumping places from 23 to 12 and becoming the track to gain the most digital sales in a week on the chart.\n\nSteep rises in performance continued as the song once again jumped to number five the following week with the issue dated February 9, 2016, becoming Flo Rida's seventh top 5 single in his native United States. The song has been certified quadruple Platinum in the US. The song sold 2,217,000 copies in the United States in 2016, making it the second best-selling song of the year, as well as the best-selling song of the first half of 2016. It was ranked at number 35 on Billboard's Decade-End Digital Songs chart. As of December 2016, it has sold a total of 2,732,000 downloads in the country. <a href=\"http:\/\/www.last.fm\/music\/Flo+Rida\/_\/My+House\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

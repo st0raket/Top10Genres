@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:32:46.224404+00:00",
+  "elapsed": 0.194178,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:46.224404+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "968",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HammAli&format=json&limit=1&method=track.search&track=%D0%9D%D0%B5+%D0%BB%D1%8E%D0%B1%D0%B8+%D0%BC%D0%B5%D0%BD%D1%8F"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HammAli&format=json&limit=1&method=track.search&track=%D0%9D%D0%B5+%D0%BB%D1%8E%D0%B1%D0%B8+%D0%BC%D0%B5%D0%BD%D1%8F",
+  "_decoded_content": {
+    "results": {
+      "opensearch:Query": {
+        "#text": "",
+        "role": "request",
+        "startPage": "1"
+      },
+      "opensearch:totalResults": "1",
+      "opensearch:startIndex": "0",
+      "opensearch:itemsPerPage": "1",
+      "trackmatches": {
+        "track": [
+          {
+            "name": "\u041d\u0435 \u041b\u044e\u0431\u0438 \u041c\u0435\u043d\u044f (& Navai) [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u0440\u044d\u043f]",
+            "artist": "HammAli",
+            "url": "https:\/\/www.last.fm\/music\/HammAli\/_\/%D0%9D%D0%B5+%D0%9B%D1%8E%D0%B1%D0%B8+%D0%9C%D0%B5%D0%BD%D1%8F+(&+Navai)+%5B%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D1%8D%D0%BF%5D",
+            "streamable": "FIXME",
+            "listeners": "1",
+            "image": [
+              {
+                "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "small"
+              },
+              {
+                "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "large"
+              },
+              {
+                "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "extralarge"
+              }
+            ],
+            "mbid": ""
+          }
+        ]
+      },
+      "@attr": {}
+    }
+  }
+}

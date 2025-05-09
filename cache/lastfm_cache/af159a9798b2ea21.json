@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:59.573314+00:00",
+  "elapsed": 0.186878,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:59.573314+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3169",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Steve+Lacy&format=json&method=track.getInfo&track=Bad+Habit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Steve+Lacy&format=json&method=track.getInfo&track=Bad+Habit",
+  "_decoded_content": {
+    "track": {
+      "name": "Bad Habit",
+      "url": "https:\/\/www.last.fm\/music\/Steve+Lacy\/_\/Bad+Habit",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1491136",
+      "playcount": "25886754",
+      "artist": {
+        "name": "Steve Lacy",
+        "mbid": "ca9766a0-1c30-43e6-a213-bac1334efc4a",
+        "url": "https:\/\/www.last.fm\/music\/Steve+Lacy"
+      },
+      "album": {
+        "artist": "Steve Lacy",
+        "title": "Gemini Rights",
+        "url": "https:\/\/www.last.fm\/music\/Steve+Lacy\/Gemini+Rights",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/12dcf1122cccf14bd8d943480d04cd58.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/12dcf1122cccf14bd8d943480d04cd58.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/12dcf1122cccf14bd8d943480d04cd58.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/12dcf1122cccf14bd8d943480d04cd58.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jul 2022, 12:09",
+        "summary": "\u201cBad Habit\u201d is the second single released for Steve Lacy\u2019s second album, Gemini Rights. It was released on June 29, 2022, alongside an official music video. The song is mainly about reflecting on an attraction to someone, and what it could have been if he had expressed how it felt to the person he is singing about.\n\n\u201cBad Habit\u201d debuted at #100 on the Billboard Hot 100 during the chart week ending of July 16, 2022. It\u2019s Steve Lacy\u2019s first entry on the chart. <a href=\"http:\/\/www.last.fm\/music\/Steve+Lacy\/_\/Bad+Habit\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBad Habit\u201d is the second single released for Steve Lacy\u2019s second album, Gemini Rights. It was released on June 29, 2022, alongside an official music video. The song is mainly about reflecting on an attraction to someone, and what it could have been if he had expressed how it felt to the person he is singing about.\n\n\u201cBad Habit\u201d debuted at #100 on the Billboard Hot 100 during the chart week ending of July 16, 2022. It\u2019s Steve Lacy\u2019s first entry on the chart. On the chart week ending of September 3, 2022, the song had reached the #1 position on three Billboard charts, the Hot Alternative Songs chart, the Hot Rock Songs chart & the Hot Rock & Alternative Songs as well as reaching the #1 position on the Hot R&B\/Hip-Hop Songs & the Hot R&B Songs charts the following chart week ending of September 10, 2022, becoming the first song to top both the Hot R&B\/Hip-Hop Songs and Hot Rock & Alternative Songs Charts, also reaching #2 on the Billboard Hot 100 that same chart week. It would stay at #2 for four weeks before reaching the #1 position on the Hot 100 on the chart week ending of October 8, 2022, becoming Lacy's first #1 on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Steve+Lacy\/_\/Bad+Habit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:40:17.726401+00:00",
+  "elapsed": 0.233354,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:17.726401+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "653",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD&format=json&method=track.getInfo&track=%D0%96%D1%8B+%D0%A8%D0%B8"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD&format=json&method=track.getInfo&track=%D0%96%D1%8B+%D0%A8%D0%B8",
+  "_decoded_content": {
+    "track": {
+      "name": "\u0416\u044b \u0428\u0438",
+      "url": "https:\/\/www.last.fm\/music\/%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD\/_\/%D0%96%D1%8B+%D0%A8%D0%B8",
+      "duration": "113000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4217",
+      "playcount": "26442",
+      "artist": {
+        "name": "\u041b\u0438\u0442\u0432\u0438\u043d",
+        "url": "https:\/\/www.last.fm\/music\/%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD"
+      },
+      "album": {
+        "artist": "\u041b\u0438\u0442\u0432\u0438\u043d",
+        "title": "\u0416\u044b \u0428\u0438 - Single",
+        "url": "https:\/\/www.last.fm\/music\/%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD\/%D0%96%D1%8B+%D0%A8%D0%B8+-+Single",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

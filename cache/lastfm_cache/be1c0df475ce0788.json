@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:38:05.468790+00:00",
+  "elapsed": 0.187263,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:05.468790+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2095",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Super+Freaky+Girl"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Super+Freaky+Girl",
+  "_decoded_content": {
+    "track": {
+      "name": "sUPeR fREAky gIrl",
+      "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/sUPeR+fREAky+gIrl",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "707834",
+      "playcount": "9454705",
+      "artist": {
+        "name": "Nicki Minaj",
+        "mbid": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Aug 2022, 21:38",
+        "summary": "\"Super Freaky Girl\" is a song that celebrates Minaj's sexual prowess. The lyrics describe her as a \"badass\" woman who is constantly being sought after. She is confident in her body and her skills, and implies that she is an experienced and passionate lover. The chorus reiterates \"He want a freak\" suggesting that her lover enjoys her adventurous and unpredictable bedroom antics. In short, the song is about Nicki's approval of the \"freaky\" things she does in the bedroom, and how she loves surprising her partner in ways that bring him pleasure. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/sUPeR+fREAky+gIrl\">Read more on Last.fm<\/a>.",
+        "content": "\"Super Freaky Girl\" is a song that celebrates Minaj's sexual prowess. The lyrics describe her as a \"badass\" woman who is constantly being sought after. She is confident in her body and her skills, and implies that she is an experienced and passionate lover. The chorus reiterates \"He want a freak\" suggesting that her lover enjoys her adventurous and unpredictable bedroom antics. In short, the song is about Nicki's approval of the \"freaky\" things she does in the bedroom, and how she loves surprising her partner in ways that bring him pleasure. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/sUPeR+fREAky+gIrl\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

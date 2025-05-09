@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:37.678621+00:00",
+  "elapsed": 0.186076,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:37.678621+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2966",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Lean+Wit+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Lean+Wit+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Lean Wit Me",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Lean+Wit+Me",
+      "duration": "175000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "534540",
+      "playcount": "9671261",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "100% Rap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/100%25+Rap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Dec 2019, 19:38",
+        "summary": "\u201cLean Wit Me\u201d is Juice WRLD\u2019s third official single, following \u201cAll Girls Are The Same\u201d and \u201cLucid Dreams.\u201d Similar to the previously mentioned songs, \u201cLean Wit Me\u201d is produced by Nick Mira. The song was released on May 22, 2018.\n\nThe song itself revolves around Juice WRLD\u2019s self-admitted struggle with his (ab)use of drugs and the consequences they\u2019re having on his life. Although he knows the substances really harm him, he cannot seem to quit and give up on getting high. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Lean+Wit+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLean Wit Me\u201d is Juice WRLD\u2019s third official single, following \u201cAll Girls Are The Same\u201d and \u201cLucid Dreams.\u201d Similar to the previously mentioned songs, \u201cLean Wit Me\u201d is produced by Nick Mira. The song was released on May 22, 2018.\n\nThe song itself revolves around Juice WRLD\u2019s self-admitted struggle with his (ab)use of drugs and the consequences they\u2019re having on his life. Although he knows the substances really harm him, he cannot seem to quit and give up on getting high.\n\nUnlike the previous two singles, \u201cLean Wit Me\u201d was released on streaming services on the same date as its release, being his first track to do so.\n\nThe official music video for this track released on August 2, 2018. The video featured Juice at an Alcoholics Anonymous (AA) meeting, an organization whose goal is to \u201cstay sober and help other alcoholics achieve sobriety.\u201d The AA setting is also similar to Eminem\u2019s \u201cWhen I\u2019m Gone\u201d music video. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Lean+Wit+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

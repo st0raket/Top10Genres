@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:35:07.668771+00:00",
+  "elapsed": 0.211517,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:07.668771+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "887",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jul&format=json&method=track.getInfo&track=%C3%87a+me+guintch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jul&format=json&method=track.getInfo&track=%C3%87a+me+guintch",
+  "_decoded_content": {
+    "track": {
+      "name": "\u00c7a me guintch",
+      "url": "https:\/\/www.last.fm\/music\/Jul\/_\/%C3%87a+me+guintch",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1860",
+      "playcount": "10791",
+      "artist": {
+        "name": "Jul",
+        "mbid": "8e6c44df-06fc-4852-83d0-ef0efed6630a",
+        "url": "https:\/\/www.last.fm\/music\/Jul"
+      },
+      "album": {
+        "artist": "Jul",
+        "title": "Album gratuit, vol. 6",
+        "url": "https:\/\/www.last.fm\/music\/Jul\/Album+gratuit,+vol.+6",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fe24613a0e77067c7b3a5507868a10bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fe24613a0e77067c7b3a5507868a10bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fe24613a0e77067c7b3a5507868a10bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fe24613a0e77067c7b3a5507868a10bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

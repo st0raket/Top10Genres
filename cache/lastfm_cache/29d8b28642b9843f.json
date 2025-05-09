@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:15.730175+00:00",
+  "elapsed": 0.200011,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:15.730175+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2347",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Central+Cee&format=json&method=track.getInfo&track=Obsessed+With+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Central+Cee&format=json&method=track.getInfo&track=Obsessed+With+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Obsessed With You",
+      "url": "https:\/\/www.last.fm\/music\/Central+Cee\/_\/Obsessed+With+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "257868",
+      "playcount": "3390296",
+      "artist": {
+        "name": "Central Cee",
+        "url": "https:\/\/www.last.fm\/music\/Central+Cee"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "UK rap",
+            "url": "https:\/\/www.last.fm\/tag\/UK+rap"
+          },
+          {
+            "name": "drill",
+            "url": "https:\/\/www.last.fm\/tag\/drill"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Jan 2022, 06:00",
+        "summary": "\"Obsessed With You\", is a song by Central Cee. The song was released on 10 September 2021 and served as the first single from his second mixtape, \"23\" (2022). The song samples London singer PinkPantheress\u2018 viral hit \"Just for me.\"\n\nThe song was previewed on Central Cee\u2019s TikTok on August 22nd, and became a viral hit, reaching 7 million views and 1.5 million likes in a day. The song was teased further when Cench and PinkPantheress were seen pictured together at a festival. <a href=\"http:\/\/www.last.fm\/music\/Central+Cee\/_\/Obsessed+With+You\">Read more on Last.fm<\/a>.",
+        "content": "\"Obsessed With You\", is a song by Central Cee. The song was released on 10 September 2021 and served as the first single from his second mixtape, \"23\" (2022). The song samples London singer PinkPantheress\u2018 viral hit \"Just for me.\"\n\nThe song was previewed on Central Cee\u2019s TikTok on August 22nd, and became a viral hit, reaching 7 million views and 1.5 million likes in a day. The song was teased further when Cench and PinkPantheress were seen pictured together at a festival. The single was later dropped as a surprise on the 10th of September 2021.\n\nThe visuals were captured in a vlog-type style and were released on the 28th of October. The video features social media personality and model Kenza Boutrif, popularly known as \"6kenza\", who also featured in Cee's previous music video for his song \"Commitment Issues.\"\n\nThe song was produced by Nastylgia, Mura Masa, and PinkPantheress. <a href=\"http:\/\/www.last.fm\/music\/Central+Cee\/_\/Obsessed+With+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

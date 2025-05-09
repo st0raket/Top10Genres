@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:41:39.986594+00:00",
+  "elapsed": 0.288652,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:39.986594+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2905",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Taste"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Taste",
+  "_decoded_content": {
+    "track": {
+      "name": "tAsTe",
+      "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/tAsTe",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1170770",
+      "playcount": "21343714",
+      "artist": {
+        "name": "Sabrina Carpenter",
+        "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "test",
+            "url": "https:\/\/www.last.fm\/tag\/test"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Aug 2024, 18:13",
+        "summary": "\u201cTaste\u201d is the first track off of Sabrina Carpenter\u2019s sixth studio album, Short n' Sweet, and was released as the highly anticipated third single with a music video featuring female actress Jenna Ortega on August 23, 2024, following hits \u201cEspresso\u201d & \u201cPlease Please Please\u201d.\n\nDisco-infused & irresistibly danceable to, \u201cTaste\u201d serves as the album\u2019s opener, layering risqu\u00e9 innuendos with revenge and betrayal, stating that even if he\u2019s cheating, she\u2019ll allow it as he\u2019s always got the taste of her on his lips. <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/tAsTe\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTaste\u201d is the first track off of Sabrina Carpenter\u2019s sixth studio album, Short n' Sweet, and was released as the highly anticipated third single with a music video featuring female actress Jenna Ortega on August 23, 2024, following hits \u201cEspresso\u201d & \u201cPlease Please Please\u201d.\n\nDisco-infused & irresistibly danceable to, \u201cTaste\u201d serves as the album\u2019s opener, layering risqu\u00e9 innuendos with revenge and betrayal, stating that even if he\u2019s cheating, she\u2019ll allow it as he\u2019s always got the taste of her on his lips.\n\nThe music video, much like the track, cheekily infers many dark satirical movies, such as \u2019Ginger Snaps\u2018, \u2019The Addams Family\u2019, & primarily \u2019Death Becomes Her\u2019, with Ortega playing Madeline, who\u2019s played by Meryl Streep, & Carpenter playing Helen, who\u2019s played by Goldie Hawn.\n\n\u201cSo, \u2018Taste\u2019 is one of my favorite songs off the album and it says a lot about me and a lot about other people. I think it\u2019s sort of poking fun of myself a little bit for my mistakes and also poking fun at the, kind of like, facepalm that is life and relationship and the, sort of, situations that it puts you in, um, and it\u2019s just making lighthearted fun at the whole concept of, you know, people that you\u2019ve been with moving on to other people, and, you know, I think it\u2019s a very human thing but it\u2019s certainly fun.\u201c \u2014 via Kiss 108 <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/tAsTe\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

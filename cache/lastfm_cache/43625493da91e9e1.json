@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:34:17.143999+00:00",
+  "elapsed": 0.213102,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:17.143999+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2281",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=No+Opp+Left+Behind"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=No+Opp+Left+Behind",
+  "_decoded_content": {
+    "track": {
+      "name": "No Opp Left Behind",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/No+Opp+Left+Behind",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "187677",
+      "playcount": "1497505",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Metro Boomin",
+            "url": "https:\/\/www.last.fm\/tag\/Metro+Boomin"
+          },
+          {
+            "name": "21 savage",
+            "url": "https:\/\/www.last.fm\/tag\/21+savage"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Mar 2024, 06:32",
+        "summary": "In the 13th track on their 2020 album Savage Mode II, 21 Savage and Metro Boomin speak about their policy when dealing with enemies.\n\n21 Savage starts the song by describing his unfortunate upbringing, which he then turns into a verse about his luxurious life in the present-day. 21 continues with this theme throughout the song, and uses the main chorus to explain how he\u2019s needed to show no mercy to his opposition to get where he is today.\n\nAt the end of the song <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/No+Opp+Left+Behind\">Read more on Last.fm<\/a>.",
+        "content": "In the 13th track on their 2020 album Savage Mode II, 21 Savage and Metro Boomin speak about their policy when dealing with enemies.\n\n21 Savage starts the song by describing his unfortunate upbringing, which he then turns into a verse about his luxurious life in the present-day. 21 continues with this theme throughout the song, and uses the main chorus to explain how he\u2019s needed to show no mercy to his opposition to get where he is today.\n\nAt the end of the song, actor Morgan Freeman\u2019s vocals reinforce the idea that 21 Savage seeks to rid himself of his opposition. Freeman explains to the listener that being surrounded with numerous enemies is detrimental to one\u2019s life and progression, so it is essential for individual success that everyone follows 21\u2019s example of eliminating all of your enemies. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/No+Opp+Left+Behind\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

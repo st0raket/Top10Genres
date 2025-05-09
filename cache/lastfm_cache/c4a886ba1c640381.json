@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:06.999683+00:00",
+  "elapsed": 0.259274,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:06.999683+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2737",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Perrie&format=json&method=track.getInfo&track=Forget+About+Us"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Perrie&format=json&method=track.getInfo&track=Forget+About+Us",
+  "_decoded_content": {
+    "track": {
+      "name": "Forget About Us",
+      "url": "https:\/\/www.last.fm\/music\/Perrie\/_\/Forget+About+Us",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "65671",
+      "playcount": "710755",
+      "artist": {
+        "name": "Perrie",
+        "url": "https:\/\/www.last.fm\/music\/Perrie"
+      },
+      "album": {
+        "artist": "Perrie",
+        "title": "Forget About Us",
+        "url": "https:\/\/www.last.fm\/music\/Perrie\/Forget+About+Us",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/07ff31042daa507f2dd2f3e5a6850cd6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/07ff31042daa507f2dd2f3e5a6850cd6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/07ff31042daa507f2dd2f3e5a6850cd6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/07ff31042daa507f2dd2f3e5a6850cd6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "female vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalist"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Aug 2024, 02:52",
+        "summary": "\u201cForget About Us\u201d is an uptempo, Pop-Rock influenced track about reminiscing a past relationship and the desire to hold onto the good memories. The song is Perrie\u2019s debut solo single after eleven years of being part of the UK\u2019s biggest girl group, Little Mix, which went into a hiatus in 2022. The track is also the lead single for her upcoming debut album.\n\nThe teasing for the record started in early 2024. In February, Perrie released \u201cIntro\u201d <a href=\"http:\/\/www.last.fm\/music\/Perrie\/_\/Forget+About+Us\">Read more on Last.fm<\/a>.",
+        "content": "\u201cForget About Us\u201d is an uptempo, Pop-Rock influenced track about reminiscing a past relationship and the desire to hold onto the good memories. The song is Perrie\u2019s debut solo single after eleven years of being part of the UK\u2019s biggest girl group, Little Mix, which went into a hiatus in 2022. The track is also the lead single for her upcoming debut album.\n\nThe teasing for the record started in early 2024. In February, Perrie released \u201cIntro\u201d, a forty-second song which features snippets of some of her album tracks, including \u201cForget About Us\u201d. It produced by 1204, as a nod to the releasing date for the single. A month later, a longer snippet was uploaded to TikTok and the cover art was reveiled. Fast foward to the ending week of March, Perrie finally announced the date. <a href=\"http:\/\/www.last.fm\/music\/Perrie\/_\/Forget+About+Us\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

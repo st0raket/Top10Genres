@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:52.098109+00:00",
+  "elapsed": 0.218881,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:52.098109+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4120",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=I+Have+Questions"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=I+Have+Questions",
+  "_decoded_content": {
+    "track": {
+      "name": "I Have Questions",
+      "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/_\/I+Have+Questions",
+      "duration": "221000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "166136",
+      "playcount": "1617134",
+      "artist": {
+        "name": "Camila Cabello",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello"
+      },
+      "album": {
+        "artist": "Camila Cabello",
+        "title": "Crying in the Club",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/Crying+in+the+Club",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9fa9f4259d61709e3a5f3ea83eb0710b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9fa9f4259d61709e3a5f3ea83eb0710b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9fa9f4259d61709e3a5f3ea83eb0710b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9fa9f4259d61709e3a5f3ea83eb0710b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "best of 2017",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+2017"
+          },
+          {
+            "name": "Camila Cabello",
+            "url": "https:\/\/www.last.fm\/tag\/Camila+Cabello"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2023, 22:28",
+        "summary": "\"I Have Questions\" is a song recorded by Cuban-American singer and songwriter Camila Cabello. It was first featured as an intro on the music video for her debut single \"Crying in the Club\", prior to its official release with a lyric video on May 22, 2017. It was intended to be on her debut self-titled album but was scrapped when the theme was altered. \n\nCabello wrote the song while she was still touring with her then-group Fifth Harmony. It was the first song she wrote for her debut album <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/I+Have+Questions\">Read more on Last.fm<\/a>.",
+        "content": "\"I Have Questions\" is a song recorded by Cuban-American singer and songwriter Camila Cabello. It was first featured as an intro on the music video for her debut single \"Crying in the Club\", prior to its official release with a lyric video on May 22, 2017. It was intended to be on her debut self-titled album but was scrapped when the theme was altered. \n\nCabello wrote the song while she was still touring with her then-group Fifth Harmony. It was the first song she wrote for her debut album, inspiring the direction of the project that was then called The Hurting. The Healing. The Loving. According to her, this was \"The Hurting\" part of the album. The song, however, was not included in the final standard track listing after the album's re-imagination. It is included in the Japan limited pressing of Cabello's debut studio album Camila (2018) as a bonus track, and is the B-side of the 7-inch single of her solo debut \"Crying in the Club\".\n\n\"I Have Questions\" has a dark, melancholic sound with themes of abandonment and the acknowledgement that a former companion was not who they appeared to be. Cabello has explained that the song is about a friendship that went awry, adding that she wrote it with one person in mind, but there are others to whom the song is directed. As the song title implies, the singer has many questions for the song's subject. Throughout the song, she expresses her confusion, looking for answers and explanations. As the song opens, she airs out her feelings in the first verse, over a soft cello line, \"Why did you leave me here to burn? \/ I'm way too young to be this hurt \/ I feel doomed in hotel rooms \/ Staring straight up at the wall \/ Counting wounds and I am trying to numb them all \/ Do you care? \/ Why don't you care?\" Singing the second verse, Cabello wonders how someone could cut her so deeply: \"Number one, tell me who you think you are \/ You got some nerve trying to tear my faith apart \/ Number two, why would you try and play me for a fool? \/ I should have never ever ever trusted you. <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/I+Have+Questions\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

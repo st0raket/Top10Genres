@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:18.153552+00:00",
+  "elapsed": 0.187692,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:18.153552+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3350",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nirvana&format=json&method=track.getInfo&track=Something+In+The+Way"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nirvana&format=json&method=track.getInfo&track=Something+In+The+Way",
+  "_decoded_content": {
+    "track": {
+      "name": "Something in the Way",
+      "mbid": "3057d132-cca3-4fed-913b-315e0e7a9c81",
+      "url": "https:\/\/www.last.fm\/music\/Nirvana\/_\/Something+in+the+Way",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1747888",
+      "playcount": "15067022",
+      "artist": {
+        "name": "Nirvana",
+        "mbid": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+        "url": "https:\/\/www.last.fm\/music\/Nirvana"
+      },
+      "album": {
+        "artist": "Nirvana",
+        "title": "MTV Unplugged in New York",
+        "mbid": "b527f0f7-7735-3c77-add1-09a9e4a20abb",
+        "url": "https:\/\/www.last.fm\/music\/Nirvana\/MTV+Unplugged+in+New+York",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8e4304de63b44d6ca8f9d3df2576ac8f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8e4304de63b44d6ca8f9d3df2576ac8f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8e4304de63b44d6ca8f9d3df2576ac8f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8e4304de63b44d6ca8f9d3df2576ac8f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Grunge",
+            "url": "https:\/\/www.last.fm\/tag\/Grunge"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "Nirvana",
+            "url": "https:\/\/www.last.fm\/tag\/Nirvana"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jun 2009, 23:25",
+        "summary": "\u201cSomething in the Way\u201d is the twelfth and final song on Nirvana\u2019s major label debut, Nevermind\u2014not including its hidden track, \u201cEndless, Nameless.\u201d While many fans believed that the lyrics were auto-biographical, concerning a stint of vagrancy in Kurt Cobain\u2019s life, this common misconception has been refuted by several sources. According to Michael Azerrad\u2019s September 1993 biography, Come As You Are, Cobain said the concept was supposed to be: <a href=\"http:\/\/www.last.fm\/music\/Nirvana\/_\/Something+in+the+Way\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSomething in the Way\u201d is the twelfth and final song on Nirvana\u2019s major label debut, Nevermind\u2014not including its hidden track, \u201cEndless, Nameless.\u201d While many fans believed that the lyrics were auto-biographical, concerning a stint of vagrancy in Kurt Cobain\u2019s life, this common misconception has been refuted by several sources. According to Michael Azerrad\u2019s September 1993 biography, Come As You Are, Cobain said the concept was supposed to be:\n\n\"\u2026like if I was living under the bridge and I was dying of A.I.D.S., if I was sick and I couldn\u2019t move and I was a total street person. That was kind of the fantasy of it.\"\n\nNonetheless, historians seem to agree that it was the Young Street Bridge which inspired this haunting composition, as Kurt would often hang out nearby and fish along the famous Wishkah River when he was a teenager. This location has become a sort of memorial for Nirvana fans and is commonly decorated with tributes to the late singer.\n\nDuring the week ending March 26, 2022, \u201cSomething in the Way\u201d debuted at #46 on the Hot 100 \u2014 over 30 years after its release. The song rose in popularity after appearing in the 2022 film The Batman. <a href=\"http:\/\/www.last.fm\/music\/Nirvana\/_\/Something+in+the+Way\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

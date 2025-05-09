@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:29.727522+00:00",
+  "elapsed": 0.545405,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:29.727522+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2673",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zara+Larsson&format=json&method=track.getInfo&track=Don%27t+Worry+Bout+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zara+Larsson&format=json&method=track.getInfo&track=Don%27t+Worry+Bout+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Don't Worry Bout Me",
+      "url": "https:\/\/www.last.fm\/music\/Zara+Larsson\/_\/Don%27t+Worry+Bout+Me",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "89668",
+      "playcount": "788816",
+      "artist": {
+        "name": "Zara Larsson",
+        "mbid": "134e6410-6954-45d1-bd4a-0f2d2ad5471d",
+        "url": "https:\/\/www.last.fm\/music\/Zara+Larsson"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Sommerhits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Sommerhits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e63891d272cadd3b462054e879700110.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e63891d272cadd3b462054e879700110.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e63891d272cadd3b462054e879700110.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e63891d272cadd3b462054e879700110.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "swedish",
+            "url": "https:\/\/www.last.fm\/tag\/swedish"
+          },
+          {
+            "name": "Tove Lo",
+            "url": "https:\/\/www.last.fm\/tag\/Tove+Lo"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Oct 2024, 16:36",
+        "summary": "\u201cDon\u2019t Worry Bout Me\u201d is the second single from Zara\u2019s third album, following \u201cRuin My Life\u201d. It was premiered live for the first time on September 11th, 2018 in a secret show she did in New York City. The single officially released March 28th, 2019.\n\nZara Larsson confirmed the next single on Twitter by saying:\n\nIt\u2019s very different from \u201cRuin My Life\u201d. It\u2019s \u201cRuin My Life\u201d part 2, in that it follows up the story. It\u2019s about not caring about your ex. The production is house dancehall like \u201cPassionfruit\u201d by Drake. <a href=\"http:\/\/www.last.fm\/music\/Zara+Larsson\/_\/Don%27t+Worry+Bout+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDon\u2019t Worry Bout Me\u201d is the second single from Zara\u2019s third album, following \u201cRuin My Life\u201d. It was premiered live for the first time on September 11th, 2018 in a secret show she did in New York City. The single officially released March 28th, 2019.\n\nZara Larsson confirmed the next single on Twitter by saying:\n\nIt\u2019s very different from \u201cRuin My Life\u201d. It\u2019s \u201cRuin My Life\u201d part 2, in that it follows up the story. It\u2019s about not caring about your ex. The production is house dancehall like \u201cPassionfruit\u201d by Drake. <a href=\"http:\/\/www.last.fm\/music\/Zara+Larsson\/_\/Don%27t+Worry+Bout+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

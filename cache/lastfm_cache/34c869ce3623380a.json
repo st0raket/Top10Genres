@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:57.198743+00:00",
+  "elapsed": 0.190771,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:57.198743+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2291",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Train&format=json&method=track.getInfo&track=Hey%2C+Soul+Sister"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Train&format=json&method=track.getInfo&track=Hey%2C+Soul+Sister",
+  "_decoded_content": {
+    "track": {
+      "name": "Hey, Soul Sister",
+      "mbid": "f939409f-c292-4a8f-ad18-3d8d4cc07376",
+      "url": "https:\/\/www.last.fm\/music\/Train\/_\/Hey,+Soul+Sister",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1481247",
+      "playcount": "10351151",
+      "artist": {
+        "name": "Train",
+        "mbid": "e273f427-3287-472d-84fe-1a9f2f91e5e2",
+        "url": "https:\/\/www.last.fm\/music\/Train"
+      },
+      "album": {
+        "artist": "Train",
+        "title": "Save Me, San Francisco",
+        "mbid": "33efa41a-5d7f-416a-ad6a-04aa1fca87ca",
+        "url": "https:\/\/www.last.fm\/music\/Train\/Save+Me,+San+Francisco",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bc8a9070b373e3602ae9124776683088.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bc8a9070b373e3602ae9124776683088.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bc8a9070b373e3602ae9124776683088.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bc8a9070b373e3602ae9124776683088.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "happy",
+            "url": "https:\/\/www.last.fm\/tag\/happy"
+          },
+          {
+            "name": "upbeat",
+            "url": "https:\/\/www.last.fm\/tag\/upbeat"
+          },
+          {
+            "name": "catchy",
+            "url": "https:\/\/www.last.fm\/tag\/catchy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Aug 2009, 19:40",
+        "summary": "First single off Train's 2009 album Save Me San Francisco. \n\nAccording to Billboard, the song is \u201cabout a woman who's got all the right moves.\u201d (Source Hey Soul Sister Songfacts)\n\n Written and produced by the Norwegians Espen Lind and Amund Bj\u00f8rklund who also wrote\/produced Beyonces monster hit \u201cIrreplaceable\u201d <a href=\"http:\/\/www.last.fm\/music\/Train\/_\/Hey,+Soul+Sister\">Read more on Last.fm<\/a>.",
+        "content": "First single off Train's 2009 album Save Me San Francisco. \n\nAccording to Billboard, the song is \u201cabout a woman who's got all the right moves.\u201d (Source Hey Soul Sister Songfacts)\n\n Written and produced by the Norwegians Espen Lind and Amund Bj\u00f8rklund who also wrote\/produced Beyonces monster hit \u201cIrreplaceable\u201d <a href=\"http:\/\/www.last.fm\/music\/Train\/_\/Hey,+Soul+Sister\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

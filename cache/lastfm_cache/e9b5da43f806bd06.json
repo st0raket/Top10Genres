@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:05.110624+00:00",
+  "elapsed": 0.384233,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:05.110624+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2674",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=London+Boy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=London+Boy",
+  "_decoded_content": {
+    "track": {
+      "name": "London Boy",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/London+Boy",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "585353",
+      "playcount": "10457782",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Lover (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Lover+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "britpop",
+            "url": "https:\/\/www.last.fm\/tag\/britpop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2021, 20:02",
+        "summary": "\"London Boy\" expresses Taylor's admiration for the English city of London and the people she has met there. She talks about appreciating the small details, such as the London accent, the Georgian architecture, and the sense of community. She also talks about the lifestyle of the people she has encountered: going out for tea, watching rugby with school friends, and spending time in the city's streets. The song is a celebration of what she loves about London \u2013 both its culture and its people. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/London+Boy\">Read more on Last.fm<\/a>.",
+        "content": "\"London Boy\" expresses Taylor's admiration for the English city of London and the people she has met there. She talks about appreciating the small details, such as the London accent, the Georgian architecture, and the sense of community. She also talks about the lifestyle of the people she has encountered: going out for tea, watching rugby with school friends, and spending time in the city's streets. The song is a celebration of what she loves about London \u2013 both its culture and its people. The chorus sums up her sentiment as she sings, \"You know I love a London boy\/Boy, I fancy you\". <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/London+Boy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

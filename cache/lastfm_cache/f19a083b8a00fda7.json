@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:51.143643+00:00",
+  "elapsed": 0.186341,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:51.143643+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2078",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=I+Hate+U"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=I+Hate+U",
+  "_decoded_content": {
+    "track": {
+      "name": "i hate u",
+      "url": "https:\/\/www.last.fm\/music\/SZA\/_\/i+hate+u",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "782122",
+      "playcount": "10397835",
+      "artist": {
+        "name": "SZA",
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "url": "https:\/\/www.last.fm\/music\/SZA"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "sza",
+            "url": "https:\/\/www.last.fm\/tag\/sza"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Dec 2021, 14:07",
+        "summary": "\"I Hate U\" is a song by American singer SZA. Originally released in August 2021 on her SoundCloud, along with two other songs (\"Joni\" and \"Nightbird\"), it eventually received a release on major platforms on December 3, 2021, after garnering popularity on the video-sharing app TikTok. A break-up song, it finds SZA detailing what went wrong in a past relationship, expressing resentment towards her ex, but acknowledging that she still misses them. \"I Hate U\" is an electro-R&B song with a \"crunching\" <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/i+hate+u\">Read more on Last.fm<\/a>.",
+        "content": "\"I Hate U\" is a song by American singer SZA. Originally released in August 2021 on her SoundCloud, along with two other songs (\"Joni\" and \"Nightbird\"), it eventually received a release on major platforms on December 3, 2021, after garnering popularity on the video-sharing app TikTok. A break-up song, it finds SZA detailing what went wrong in a past relationship, expressing resentment towards her ex, but acknowledging that she still misses them. \"I Hate U\" is an electro-R&B song with a \"crunching\", dark instrumental, containing a relaxed, \"ethereal\" chorus, and hip hop-influenced verses. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/i+hate+u\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

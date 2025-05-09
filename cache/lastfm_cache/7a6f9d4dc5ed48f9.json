@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:43:14.018547+00:00",
+  "elapsed": 0.20529,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:14.018547+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2639",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dominic+Fike&format=json&method=track.getInfo&track=Mona+Lisa"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dominic+Fike&format=json&method=track.getInfo&track=Mona+Lisa",
+  "_decoded_content": {
+    "track": {
+      "name": "Mona Lisa",
+      "url": "https:\/\/www.last.fm\/music\/Dominic+Fike\/_\/Mona+Lisa",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "228565",
+      "playcount": "1925004",
+      "artist": {
+        "name": "Dominic Fike",
+        "url": "https:\/\/www.last.fm\/music\/Dominic+Fike"
+      },
+      "album": {
+        "artist": "Dominic Fike",
+        "title": "Mona Lisa",
+        "url": "https:\/\/www.last.fm\/music\/Dominic+Fike\/Mona+Lisa",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5c11e31b14f5ef275ddb1726ca7d2e9f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5c11e31b14f5ef275ddb1726ca7d2e9f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5c11e31b14f5ef275ddb1726ca7d2e9f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5c11e31b14f5ef275ddb1726ca7d2e9f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "WSUM 91.7 FM Madison",
+            "url": "https:\/\/www.last.fm\/tag\/WSUM+91.7+FM+Madison"
+          },
+          {
+            "name": "Skipping Through Time",
+            "url": "https:\/\/www.last.fm\/tag\/Skipping+Through+Time"
+          },
+          {
+            "name": "DJ Dino ",
+            "url": "https:\/\/www.last.fm\/tag\/DJ+Dino+"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jul 2023, 15:18",
+        "summary": "\"Mona Lisa\" opens with the smooth intimacy of Fike's vocals, entwined with the strum of an acoustic guitar. As the song progresses, it settles into a head-nodding groove with Fike easing into a chill flow.\n\nFike wrote the song with the track's producers Kenny Beats, Beat Butcha, Stargate and Willy Will Yanez. They created it for Metro Boomin's soundtrack album for Spider-Man: Across the Spider-Verse. Originally part of the deluxe edition, plans shifted and the track was ultimately removed from the album <a href=\"http:\/\/www.last.fm\/music\/Dominic+Fike\/_\/Mona+Lisa\">Read more on Last.fm<\/a>.",
+        "content": "\"Mona Lisa\" opens with the smooth intimacy of Fike's vocals, entwined with the strum of an acoustic guitar. As the song progresses, it settles into a head-nodding groove with Fike easing into a chill flow.\n\nFike wrote the song with the track's producers Kenny Beats, Beat Butcha, Stargate and Willy Will Yanez. They created it for Metro Boomin's soundtrack album for Spider-Man: Across the Spider-Verse. Originally part of the deluxe edition, plans shifted and the track was ultimately removed from the album, taking on a new life as a standalone single. On June 2, 2023, the same day Metro's Boominati Worldwide label unleashed the soundtrack, \"Mona Lisa\" emerged as a non-album release. <a href=\"http:\/\/www.last.fm\/music\/Dominic+Fike\/_\/Mona+Lisa\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

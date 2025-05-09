@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:40:42.223022+00:00",
+  "elapsed": 0.244305,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:42.223022+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "834",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Milj%C3%B6&format=json&method=track.getInfo&track=Wolkeplatz"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Milj%C3%B6&format=json&method=track.getInfo&track=Wolkeplatz",
+  "_decoded_content": {
+    "track": {
+      "name": "Wolkeplatz",
+      "url": "https:\/\/www.last.fm\/music\/Milj%C3%B6\/_\/Wolkeplatz",
+      "duration": "249000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4600",
+      "playcount": "30838",
+      "artist": {
+        "name": "Milj\u00f6",
+        "url": "https:\/\/www.last.fm\/music\/Milj%C3%B6"
+      },
+      "album": {
+        "artist": "Milj\u00f6",
+        "title": "Wolkestadt",
+        "url": "https:\/\/www.last.fm\/music\/Milj%C3%B6\/Wolkestadt",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ceca9d104c5f5c8b5e19e156260fbc4d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ceca9d104c5f5c8b5e19e156260fbc4d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ceca9d104c5f5c8b5e19e156260fbc4d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ceca9d104c5f5c8b5e19e156260fbc4d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

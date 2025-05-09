@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:35:41.810615+00:00",
+  "elapsed": 0.201161,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:41.810615+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1549",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Baby&format=json&method=track.getInfo&track=Voice+of+the+Heroes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Baby&format=json&method=track.getInfo&track=Voice+of+the+Heroes",
+  "_decoded_content": {
+    "track": {
+      "name": "Voice of the Heroes",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Baby\/_\/Voice+of+the+Heroes",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "78258",
+      "playcount": "566946",
+      "artist": {
+        "name": "Lil Baby",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Baby"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "18 Sep 2021, 15:28",
+        "summary": "Lil Baby and Lil Durk open The Voice of the Heroes up with its title track, opening track, and lead single, \u201cVoice of the Heroes.\u201d The two artists rap about their respective upbringings and the obstacles that they had to overcome along with the problems that they faced. The song was released only two and a half hours after its announcement.\n\nThe official music video, directed by DAPS, was released along with the song on May 31, 2021. <a href=\"http:\/\/www.last.fm\/music\/Lil+Baby\/_\/Voice+of+the+Heroes\">Read more on Last.fm<\/a>.",
+        "content": "Lil Baby and Lil Durk open The Voice of the Heroes up with its title track, opening track, and lead single, \u201cVoice of the Heroes.\u201d The two artists rap about their respective upbringings and the obstacles that they had to overcome along with the problems that they faced. The song was released only two and a half hours after its announcement.\n\nThe official music video, directed by DAPS, was released along with the song on May 31, 2021. <a href=\"http:\/\/www.last.fm\/music\/Lil+Baby\/_\/Voice+of+the+Heroes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:58.346983+00:00",
+  "elapsed": 0.177339,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:58.346983+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3116",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Party+In+The+U.S.A."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Party+In+The+U.S.A.",
+  "_decoded_content": {
+    "track": {
+      "name": "Party in the U.S.A.",
+      "mbid": "c2656d9f-ed39-46a6-ae6c-9a1cadd48ebc",
+      "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Party+in+the+U.S.A.",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1845702",
+      "playcount": "13424889",
+      "artist": {
+        "name": "Miley Cyrus",
+        "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus"
+      },
+      "album": {
+        "artist": "Miley Cyrus",
+        "title": "The Time of Our Lives",
+        "mbid": "2b72990f-0c8d-4687-a33f-4a329672f85a",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/The+Time+of+Our+Lives",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e7130e203c9c62fc395efc909fe5f913.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e7130e203c9c62fc395efc909fe5f913.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e7130e203c9c62fc395efc909fe5f913.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e7130e203c9c62fc395efc909fe5f913.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Miley Cyrus",
+            "url": "https:\/\/www.last.fm\/tag\/Miley+Cyrus"
+          },
+          {
+            "name": "guilty pleasure",
+            "url": "https:\/\/www.last.fm\/tag\/guilty+pleasure"
+          },
+          {
+            "name": "party in the usa",
+            "url": "https:\/\/www.last.fm\/tag\/party+in+the+usa"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Sep 2009, 21:31",
+        "summary": "\u201cParty In The USA\u201c is the lead single off multi-platinum, American recording artist, Miley Cyrus\u2019 first EP, The Time Of Our Lives. \n\nThe song is one of the few DIAMOND CERTIFIED songs in the world. It was Cyrus\u2019 first Top 3 entry on the Billboard HOT 100 followed by dozens of others.\n\nThe EP was being sold exclusively at American Wal-Mart stores in conjunction with the teenage singer's Max Azria clothing line when it was released in 2009. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Party+in+the+U.S.A.\">Read more on Last.fm<\/a>.",
+        "content": "\u201cParty In The USA\u201c is the lead single off multi-platinum, American recording artist, Miley Cyrus\u2019 first EP, The Time Of Our Lives. \n\nThe song is one of the few DIAMOND CERTIFIED songs in the world. It was Cyrus\u2019 first Top 3 entry on the Billboard HOT 100 followed by dozens of others.\n\nThe EP was being sold exclusively at American Wal-Mart stores in conjunction with the teenage singer's Max Azria clothing line when it was released in 2009. The breezy summertime pop anthem features semi-autobiographical lyrics concerning Miley's move from Tennessee to Los Angeles.\n\nOver the years, the song became a staple in pop-culture and had often been petitioned to be replaced with the USA national anthem \u2018Star Flop Banner\u2019. Cyrus\u2019 received the diamond certification for the song in 2021 making her the first among her peers, Ariana Grande, Selena Gomez & Demi Lovato, to do so. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Party+in+the+U.S.A.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

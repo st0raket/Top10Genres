@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:39.984929+00:00",
+  "elapsed": 0.295577,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:39.984929+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1901",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Havana+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Havana+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Havana - Remix",
+      "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Havana+-+Remix",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "93290",
+      "playcount": "678751",
+      "artist": {
+        "name": "Camila Cabello",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello"
+      },
+      "album": {
+        "artist": "Camila Cabello",
+        "title": "Havana (Remix)",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/Havana+(Remix)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7583a7cd2957e38ebf4e1ef53aa89b9d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7583a7cd2957e38ebf4e1ef53aa89b9d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7583a7cd2957e38ebf4e1ef53aa89b9d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7583a7cd2957e38ebf4e1ef53aa89b9d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "Daddy Yankee",
+            "url": "https:\/\/www.last.fm\/tag\/Daddy+Yankee"
+          },
+          {
+            "name": "spanish",
+            "url": "https:\/\/www.last.fm\/tag\/spanish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Nov 2017, 12:32",
+        "summary": "After the success of her single 'Havana', Camila Cabello released a Spanish Remix of the track featuring Daddy Yankee based off the original English version but with new Spanish verses. <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Havana+-+Remix\">Read more on Last.fm<\/a>.",
+        "content": "After the success of her single 'Havana', Camila Cabello released a Spanish Remix of the track featuring Daddy Yankee based off the original English version but with new Spanish verses. <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Havana+-+Remix\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

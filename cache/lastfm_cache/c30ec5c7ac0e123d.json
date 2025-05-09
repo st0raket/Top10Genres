@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:20.844094+00:00",
+  "elapsed": 0.185258,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:20.844094+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2841",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Peep&format=json&method=track.getInfo&track=Falling+Down+-+Bonus+Track"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Peep&format=json&method=track.getInfo&track=Falling+Down+-+Bonus+Track",
+  "_decoded_content": {
+    "track": {
+      "name": "Falling Down - Bonus Track",
+      "url": "https:\/\/www.last.fm\/music\/LIL+PEEP\/_\/Falling+Down+-+Bonus+Track",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "830569",
+      "playcount": "11480359",
+      "artist": {
+        "name": "LIL PEEP",
+        "url": "https:\/\/www.last.fm\/music\/LIL+PEEP"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "emo rap",
+            "url": "https:\/\/www.last.fm\/tag\/emo+rap"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Apr 2021, 14:12",
+        "summary": "\u201cFalling Down\u201d is an alternate version of the song \u201cSunlight On Your Skin\u201d by Lil Peep and iLoveMakonnen. This version instead features XXXTENTACION and was made after Lil Peep\u2019s death. The song was released by the label, Columbia Records.\n\nFish Narc, a producer and friend of Peep from GOTHBOICLIQUE, opposed all efforts to release the song. He claimed that Peep was not supporting X due to the allegations against him, and suggested that Columbia Records was merely using Peep for financial gain. <a href=\"http:\/\/www.last.fm\/music\/LIL+PEEP\/_\/Falling+Down+-+Bonus+Track\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFalling Down\u201d is an alternate version of the song \u201cSunlight On Your Skin\u201d by Lil Peep and iLoveMakonnen. This version instead features XXXTENTACION and was made after Lil Peep\u2019s death. The song was released by the label, Columbia Records.\n\nFish Narc, a producer and friend of Peep from GOTHBOICLIQUE, opposed all efforts to release the song. He claimed that Peep was not supporting X due to the allegations against him, and suggested that Columbia Records was merely using Peep for financial gain.\n\nSmokeasac confirmed the song\u2019s release on his Instagram saying that \u201ca very special song is dropping by my best friend @lilpeep called \u201cfalling down\u201d featuring @xxxtentacion\u201d\n\nOnce the new version of the song was confirmed, many of Lil Peep\u2019s close friends, family members, and collaborators were outraged by the songs new feature. Lil Peep\u2019s mother stated in a comment replying to a fan that it wasn\u2019t her choice X got put onto the song, it was iLoveMakonnen\u2019s choice.\n\niLoveMakonnen, who was featured on the original version of the song, said on his Instagram that he was \u201chonored to have co-written this song that X was inspired to be a part of, shortly before he died\u201d.\n\nXXXTENTACION's mother hinted at the song's release the day before and announced that she and Peep's mother teamed up for the release. <a href=\"http:\/\/www.last.fm\/music\/LIL+PEEP\/_\/Falling+Down+-+Bonus+Track\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:18.747378+00:00",
+  "elapsed": 0.189626,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:18.747378+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2354",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sheck+Wes&format=json&method=track.getInfo&track=Mo+Bamba"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sheck+Wes&format=json&method=track.getInfo&track=Mo+Bamba",
+  "_decoded_content": {
+    "track": {
+      "name": "Mo Bamba",
+      "url": "https:\/\/www.last.fm\/music\/Sheck+Wes\/_\/Mo+Bamba",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "653341",
+      "playcount": "5552300",
+      "artist": {
+        "name": "Sheck Wes",
+        "url": "https:\/\/www.last.fm\/music\/Sheck+Wes"
+      },
+      "album": {
+        "artist": "Sheck Wes",
+        "title": "MO BAMBA",
+        "url": "https:\/\/www.last.fm\/music\/Sheck+Wes\/MO+BAMBA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/26e00f0e05b0203e48e92e791c867425.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/26e00f0e05b0203e48e92e791c867425.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/26e00f0e05b0203e48e92e791c867425.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/26e00f0e05b0203e48e92e791c867425.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hiphop",
+            "url": "https:\/\/www.last.fm\/tag\/hiphop"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Sep 2020, 21:49",
+        "summary": "Mo Bamba\" is a single by American rapper Sheck Wes. It was released on June 16, 2017, by Cactus Jack Records, GOOD Music and Interscope Records. It serves as a single from his debut studio album, Mudboy. The song was produced by 16yrold and record production duo Take a Daytrip. The song was a sleeper hit, going viral in mid-2018 and peaking at #6 on the Hot 100. The song was named after Sheck Wes' friend, basketball player Mohamed Bamba.\n <a href=\"http:\/\/www.last.fm\/music\/Sheck+Wes\/_\/Mo+Bamba\">Read more on Last.fm<\/a>.",
+        "content": "Mo Bamba\" is a single by American rapper Sheck Wes. It was released on June 16, 2017, by Cactus Jack Records, GOOD Music and Interscope Records. It serves as a single from his debut studio album, Mudboy. The song was produced by 16yrold and record production duo Take a Daytrip. The song was a sleeper hit, going viral in mid-2018 and peaking at #6 on the Hot 100. The song was named after Sheck Wes' friend, basketball player Mohamed Bamba.\n <a href=\"http:\/\/www.last.fm\/music\/Sheck+Wes\/_\/Mo+Bamba\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

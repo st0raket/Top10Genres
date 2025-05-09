@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:42:18.416786+00:00",
+  "elapsed": 0.201988,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:18.416786+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "935",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Baby&format=json&method=track.getInfo&track=Stiff+Gang"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Baby&format=json&method=track.getInfo&track=Stiff+Gang",
+  "_decoded_content": {
+    "track": {
+      "name": "Stiff Gang",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Baby\/_\/Stiff+Gang",
+      "duration": "171000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "36988",
+      "playcount": "137965",
+      "artist": {
+        "name": "Lil Baby",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Baby"
+      },
+      "album": {
+        "artist": "Lil Baby",
+        "title": "WHAM",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Baby\/WHAM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1294d31d40034b1f8fec37586aa6c438.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1294d31d40034b1f8fec37586aa6c438.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1294d31d40034b1f8fec37586aa6c438.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1294d31d40034b1f8fec37586aa6c438.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2025",
+            "url": "https:\/\/www.last.fm\/tag\/2025"
+          },
+          {
+            "name": "lil baby",
+            "url": "https:\/\/www.last.fm\/tag\/lil+baby"
+          }
+        ]
+      }
+    }
+  }
+}

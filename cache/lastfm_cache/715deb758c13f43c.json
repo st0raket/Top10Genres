@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:40:12.817707+00:00",
+  "elapsed": 0.176755,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:12.817707+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2499",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jung+Kook&format=json&method=track.getInfo&track=Standing+Next+to+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jung+Kook&format=json&method=track.getInfo&track=Standing+Next+to+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Standing Next To You",
+      "url": "https:\/\/www.last.fm\/music\/Jung+Kook\/_\/Standing+Next+To+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "540589",
+      "playcount": "148574110",
+      "artist": {
+        "name": "Jung Kook",
+        "url": "https:\/\/www.last.fm\/music\/Jung+Kook"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bots",
+            "url": "https:\/\/www.last.fm\/tag\/bots"
+          },
+          {
+            "name": "gay",
+            "url": "https:\/\/www.last.fm\/tag\/gay"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "stupid",
+            "url": "https:\/\/www.last.fm\/tag\/stupid"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Nov 2023, 07:14",
+        "summary": "In \u201cStanding Next to You,\u201d Jung Kook (\uc815\uad6d) adopts the grand \u201cus-against-the-world' mentality prevalent in many 2000s pop songs such as Westlife\u2019s \u201cYou Raise Me Up\u201d and Beyonce\u2019s \u201cHalo.\u201d These simple yet powerful emotions are laid on top of this dramatic, jazz-funk, disco-pop instrumental that compliments the romantic retro aesthetic of the song.\n\nThe song\u2019s lyrics express the strong feelings the narrator feels for a loved one from simply standing side-by-side with each other. <a href=\"http:\/\/www.last.fm\/music\/Jung+Kook\/_\/Standing+Next+To+You\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cStanding Next to You,\u201d Jung Kook (\uc815\uad6d) adopts the grand \u201cus-against-the-world' mentality prevalent in many 2000s pop songs such as Westlife\u2019s \u201cYou Raise Me Up\u201d and Beyonce\u2019s \u201cHalo.\u201d These simple yet powerful emotions are laid on top of this dramatic, jazz-funk, disco-pop instrumental that compliments the romantic retro aesthetic of the song.\n\nThe song\u2019s lyrics express the strong feelings the narrator feels for a loved one from simply standing side-by-side with each other. There are also small easter eggs in the lyrics that seem to reference Jung Kook\u2019s past solo songs and some past BTS projects.\n\nThe music video is a performance-dominated piece, with powerful and texture dynamic-heavy choreography that resembles the suave routines of the King of Pop, Michael Jackson. This strenuous choreography is performed throughout abandoned and warm-colored, usually golden-colored, scenery and sets.\n\nUkrainian model Pasha Harulia acts as Jung Kook\u2019s female love interest in the M\/V, adding some steamy tension to the video. <a href=\"http:\/\/www.last.fm\/music\/Jung+Kook\/_\/Standing+Next+To+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

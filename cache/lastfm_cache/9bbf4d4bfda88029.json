@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:48.771983+00:00",
+  "elapsed": 0.26071,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:48.771983+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3854",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pharrell+Williams&format=json&method=track.getInfo&track=Cash+In+Cash+Out"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pharrell+Williams&format=json&method=track.getInfo&track=Cash+In+Cash+Out",
+  "_decoded_content": {
+    "track": {
+      "name": "Cash In Cash Out",
+      "url": "https:\/\/www.last.fm\/music\/Pharrell+Williams\/_\/Cash+In+Cash+Out",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "479757",
+      "playcount": "5740694",
+      "artist": {
+        "name": "Pharrell Williams",
+        "mbid": "149f91ef-1287-46da-9a8e-87fee02f1471",
+        "url": "https:\/\/www.last.fm\/music\/Pharrell+Williams"
+      },
+      "album": {
+        "artist": "Pharrell Williams",
+        "title": "Cash In Cash Out",
+        "url": "https:\/\/www.last.fm\/music\/Pharrell+Williams\/Cash+In+Cash+Out",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a82520911013f1715a77233ef9017c40.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a82520911013f1715a77233ef9017c40.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a82520911013f1715a77233ef9017c40.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a82520911013f1715a77233ef9017c40.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Energetic",
+            "url": "https:\/\/www.last.fm\/tag\/Energetic"
+          },
+          {
+            "name": "hardcore hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hardcore+hip+hop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "Driving",
+            "url": "https:\/\/www.last.fm\/tag\/Driving"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Dec 2022, 08:23",
+        "summary": "\"Cash In Cash Out\" is a song produced by American musician Pharrell Williams, featuring vocals from Atlanta-based rapper 21 Savage and American rapper Tyler, the Creator. It was released as a single through Columbia Records on June 10, 2022. All three artists wrote the song together. Williams first teased the song on his TikTok account June 6, 2022. An accompanying music video was released on the same day the single was released, featuring a zoetrope-inspired CG animation style. <a href=\"http:\/\/www.last.fm\/music\/Pharrell+Williams\/_\/Cash+In+Cash+Out\">Read more on Last.fm<\/a>.",
+        "content": "\"Cash In Cash Out\" is a song produced by American musician Pharrell Williams, featuring vocals from Atlanta-based rapper 21 Savage and American rapper Tyler, the Creator. It was released as a single through Columbia Records on June 10, 2022. All three artists wrote the song together. Williams first teased the song on his TikTok account June 6, 2022. An accompanying music video was released on the same day the single was released, featuring a zoetrope-inspired CG animation style.\n\nTyler recorded his verse on \"Cash In Cash Out\" after Williams played him the song with 21 Savage's vocals on it. Tyler asked Williams to send him the instrumental version of the song and then sent him a voice recording of his verse. Williams was working on 21 Savage's upcoming third studio album, which the song was originally intended for, but Williams wanted to keep the song for himself. After a clip of Williams and 21 Savage working together on the song surfaced, Williams announced the song's title, cover art, and release date on May 31, 2022.\n\n\"Cash In Cash Out\" contains a stripped-back beat by Williams that consists of \"airtight snare drums, a blown-out 808, and vocal chirps\". 21 Savage raps about receiving a million dollars to show up to places and references the 2001 stoner comedy film How High in a metaphor. Tyler uses different flows when he starts rapping on the song. The song is overall \"dark and playful\" and Williams continues his \"streak of finding the beauty in opposites\". In the first verse, 21 Savage raps about his gratitude to collaborate with Williams: \"Pharrell made this so it's a million dollar beat\". In the second verse, Tyler raps about a past performance that had non-money issues that he dealt with. <a href=\"http:\/\/www.last.fm\/music\/Pharrell+Williams\/_\/Cash+In+Cash+Out\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

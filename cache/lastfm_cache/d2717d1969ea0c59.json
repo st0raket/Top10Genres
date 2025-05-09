@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:43.007948+00:00",
+  "elapsed": 0.332339,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:43.007948+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2980",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Toby+Keith&format=json&method=track.getInfo&track=As+Good+As+I+Once+Was"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Toby+Keith&format=json&method=track.getInfo&track=As+Good+As+I+Once+Was",
+  "_decoded_content": {
+    "track": {
+      "name": "As Good as I Once Was",
+      "mbid": "e33f2a21-f4e1-400a-bf62-20ac49aaef0c",
+      "url": "https:\/\/www.last.fm\/music\/Toby+Keith\/_\/As+Good+as+I+Once+Was",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "246942",
+      "playcount": "1079151",
+      "artist": {
+        "name": "Toby Keith",
+        "mbid": "2f951906-5629-4fef-a260-5033151c162a",
+        "url": "https:\/\/www.last.fm\/music\/Toby+Keith"
+      },
+      "album": {
+        "artist": "Toby Keith",
+        "title": "Honkytonk University",
+        "mbid": "9d697697-c4d1-4a65-b0a7-cd66313b92d5",
+        "url": "https:\/\/www.last.fm\/music\/Toby+Keith\/Honkytonk+University",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aebef6af54eefca5eb6939e71b01636e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aebef6af54eefca5eb6939e71b01636e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aebef6af54eefca5eb6939e71b01636e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aebef6af54eefca5eb6939e71b01636e.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "toby keith",
+            "url": "https:\/\/www.last.fm\/tag\/toby+keith"
+          },
+          {
+            "name": "drinking",
+            "url": "https:\/\/www.last.fm\/tag\/drinking"
+          },
+          {
+            "name": "american country",
+            "url": "https:\/\/www.last.fm\/tag\/american+country"
+          },
+          {
+            "name": "modern country",
+            "url": "https:\/\/www.last.fm\/tag\/modern+country"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Aug 2008, 05:45",
+        "summary": "\"As Good as I Once Was\" is a song co-written and recorded by American country music singer Toby Keith. It was released in May 2005 as the second single from Keith's album Honkytonk University. Keith wrote the song with Scotty Emerick. The song was named BMI's Song of the Year for 2006, becoming one of Keith's signature songs, as well as one of his most successful. After debuting at #37 on the U.S. Billboard Hot Country Singles & Tracks for the week of May 21, 2005, \"As Good as I Once Was\" reached #1 on the Billboard Hot Country Songs chart. <a href=\"http:\/\/www.last.fm\/music\/Toby+Keith\/_\/As+Good+as+I+Once+Was\">Read more on Last.fm<\/a>.",
+        "content": "\"As Good as I Once Was\" is a song co-written and recorded by American country music singer Toby Keith. It was released in May 2005 as the second single from Keith's album Honkytonk University. Keith wrote the song with Scotty Emerick. The song was named BMI's Song of the Year for 2006, becoming one of Keith's signature songs, as well as one of his most successful. After debuting at #37 on the U.S. Billboard Hot Country Singles & Tracks for the week of May 21, 2005, \"As Good as I Once Was\" reached #1 on the Billboard Hot Country Songs chart. This song and his 2003 single \"Beer For My Horses\" are both his longest-running #1 hits, each having spent six weeks at #1. <a href=\"http:\/\/www.last.fm\/music\/Toby+Keith\/_\/As+Good+as+I+Once+Was\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

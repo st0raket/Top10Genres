@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:10.714887+00:00",
+  "elapsed": 0.177882,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:10.714887+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2438",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Tortured+Poets+Department"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Tortured+Poets+Department",
+  "_decoded_content": {
+    "track": {
+      "name": "The Tortured Poets Department",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Tortured+Poets+Department",
+      "duration": "293000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "546562",
+      "playcount": "10181901",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "climate terrorist",
+            "url": "https:\/\/www.last.fm\/tag\/climate+terrorist"
+          },
+          {
+            "name": "\ud83d\udca9",
+            "url": "https:\/\/www.last.fm\/tag\/%F0%9F%92%A9"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Apr 2024, 22:35",
+        "summary": "An alleged meaning of the song is Taylor's disillusionment with one of her relationships. Clues in the lyrics suggest the song is about Matty Healy, lead singer of The 1975, whom she had a brief fling with in mid-2023. In the end, it seems Taylor feels like the relationship was foolish from the start, and she ultimately came out of it in a better situation than him <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Tortured+Poets+Department\">Read more on Last.fm<\/a>.",
+        "content": "An alleged meaning of the song is Taylor's disillusionment with one of her relationships. Clues in the lyrics suggest the song is about Matty Healy, lead singer of The 1975, whom she had a brief fling with in mid-2023. In the end, it seems Taylor feels like the relationship was foolish from the start, and she ultimately came out of it in a better situation than him <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Tortured+Poets+Department\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

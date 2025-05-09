@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:29.764686+00:00",
+  "elapsed": 0.176377,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:29.764686+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2541",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Take+Two"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Take+Two",
+  "_decoded_content": {
+    "track": {
+      "name": "Take Two",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Take+Two",
+      "duration": "229000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "254742",
+      "playcount": "49199730",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "album": {
+        "artist": "BTS",
+        "title": "Take Two",
+        "url": "https:\/\/www.last.fm\/music\/BTS\/Take+Two",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c04bc4ff7f927d3e2f719b646776a66b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c04bc4ff7f927d3e2f719b646776a66b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c04bc4ff7f927d3e2f719b646776a66b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c04bc4ff7f927d3e2f719b646776a66b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "ost",
+            "url": "https:\/\/www.last.fm\/tag\/ost"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jun 2023, 13:34",
+        "summary": "Track page: Take Two is a digital single released by the South Korean boy group BTS for their 10th year anniversary as part of their annual Festa celebrations. The acoustic pop song is dedicated to their fandom, ARMY, celebrating their decade of history.\n\n\u201cTake Two\u201d is a reference to takes in cinematography. Takes are usually defined by time, and therefore, the first ten years of their career is \u201ctake one.\u201d With the song, BTS are starting the second take of their career, and they are inviting their fans to join.\n\nBTS (\ubc29\ud0c4\uc18c\ub144\ub2e8) <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Take+Two\">Read more on Last.fm<\/a>.",
+        "content": "Track page: Take Two is a digital single released by the South Korean boy group BTS for their 10th year anniversary as part of their annual Festa celebrations. The acoustic pop song is dedicated to their fandom, ARMY, celebrating their decade of history.\n\n\u201cTake Two\u201d is a reference to takes in cinematography. Takes are usually defined by time, and therefore, the first ten years of their career is \u201ctake one.\u201d With the song, BTS are starting the second take of their career, and they are inviting their fans to join.\n\nBTS (\ubc29\ud0c4\uc18c\ub144\ub2e8) <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Take+Two\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

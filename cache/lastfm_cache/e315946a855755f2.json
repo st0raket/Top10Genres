@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:32:10.148921+00:00",
+  "elapsed": 0.179619,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:10.148921+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3505",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lizzo&format=json&method=track.getInfo&track=Good+as+Hell"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lizzo&format=json&method=track.getInfo&track=Good+as+Hell",
+  "_decoded_content": {
+    "track": {
+      "name": "Good As Hell",
+      "url": "https:\/\/www.last.fm\/music\/Lizzo\/_\/Good+As+Hell",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "464970",
+      "playcount": "3291500",
+      "artist": {
+        "name": "Lizzo",
+        "mbid": "50d06c43-5392-4393-ba2d-f091d8167227",
+        "url": "https:\/\/www.last.fm\/music\/Lizzo"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jul 2022, 17:01",
+        "summary": "\"Good as Hell\" is a single by rap artist Lizzo, included on the super deluxe edition of \"Cuz I Love You\" and the \"Barbershop: The Next Cut\" soundtrack. The song is an ode to self-love, produced by Ricky Reed, who is behind a ton of 2016\u2019s pop confections.\n\nLizzo described the process of making the song with Idolator:\n\n\"It came from Ricky Reed and I. We have such a great chemistry in the studio and I think we had maybe made one or two songs prior. <a href=\"http:\/\/www.last.fm\/music\/Lizzo\/_\/Good+As+Hell\">Read more on Last.fm<\/a>.",
+        "content": "\"Good as Hell\" is a single by rap artist Lizzo, included on the super deluxe edition of \"Cuz I Love You\" and the \"Barbershop: The Next Cut\" soundtrack. The song is an ode to self-love, produced by Ricky Reed, who is behind a ton of 2016\u2019s pop confections.\n\nLizzo described the process of making the song with Idolator:\n\n\"It came from Ricky Reed and I. We have such a great chemistry in the studio and I think we had maybe made one or two songs prior. We were still doing chemistry tests with each other. We were in the studio and he was playing this piano riff and he was like, \u201cHow does this make you feel?\u201d. I went through a lot of things in my head but it made me feel was like the hair toss emoji. You know, the pink sweater emoji girl with the hair. So I went from that hair toss, to checking my nails. It was a natural statement that came out my mouth. Ricky was like \u201cfeeling good as hell\u201d. We just rolled with that. After that everything just kind of came out so easily. That\u2019s when I think our chemistry was really sealed. I just felt like everything\u2019s going to be okay.\"\n\nIn 2018, NPR ranked this as the #44 greatest song by a female or nonbinary artist in the 21st century, saying:\n\n\"A self-care anthem for the ages, Lizzo\u2019s \u2018Good as Hell\u2019 probably would have sounded just as satisfying had it come out a year earlier \u2014 but damn if it wasn\u2019t the exact salve we all needed in 2016. As the presidential campaign bent reality and the national conversation turned toxic, Lizzo blasted through our speakers to remind us that turning inward and taking the time to treat yo' self isn\u2019t selfish: In this climate, it\u2019s survival, and something worth celebrating. Boss up, as Lizzo says, and change your life.\"\n\nDuring the week ending November 30, 2019, \u201cGood as Hell\u201d peaked at #3 on the Hot 100.\n\nAs of September 25, 2019, according to Billboard, \u201cGood As Hell\u201d has been certified Platinum.\n\nA total of two music videos for the song have been released. The first one was released in 2016, where the second music video was released on December 9, 2019. <a href=\"http:\/\/www.last.fm\/music\/Lizzo\/_\/Good+As+Hell\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

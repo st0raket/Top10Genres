@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:38:35.079993+00:00",
+  "elapsed": 0.193552,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:35.079993+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "443",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JONY&format=json&method=track.getInfo&track=%D0%9A%D0%B0%D0%BA+%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C+%D1%82%D0%B2%D0%BE%D1%8E+%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JONY&format=json&method=track.getInfo&track=%D0%9A%D0%B0%D0%BA+%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C+%D1%82%D0%B2%D0%BE%D1%8E+%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041a\u0430\u043a \u043b\u044e\u0431\u043e\u0432\u044c \u0442\u0432\u043e\u044e \u043f\u043e\u043d\u044f\u0442\u044c",
+      "url": "https:\/\/www.last.fm\/music\/Jony\/_\/%D0%9A%D0%B0%D0%BA+%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C+%D1%82%D0%B2%D0%BE%D1%8E+%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2",
+      "playcount": "10",
+      "artist": {
+        "name": "Jony",
+        "mbid": "afe5fb73-9453-4b9a-a963-73721ad1b184",
+        "url": "https:\/\/www.last.fm\/music\/Jony"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

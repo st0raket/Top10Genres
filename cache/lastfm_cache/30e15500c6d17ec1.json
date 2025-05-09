@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:35.056580+00:00",
+  "elapsed": 0.184389,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:35.056580+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2194",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lele+Pons&format=json&method=track.getInfo&track=Celoso"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lele+Pons&format=json&method=track.getInfo&track=Celoso",
+  "_decoded_content": {
+    "track": {
+      "name": "Celoso",
+      "url": "https:\/\/www.last.fm\/music\/Lele+Pons\/_\/Celoso",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "98794",
+      "playcount": "661598",
+      "artist": {
+        "name": "Lele Pons",
+        "url": "https:\/\/www.last.fm\/music\/Lele+Pons"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Kuduro Fiesta",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Kuduro+Fiesta",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/26b1174b36538ae10479e11885a08570.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/26b1174b36538ae10479e11885a08570.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/26b1174b36538ae10479e11885a08570.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/26b1174b36538ae10479e11885a08570.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "latina",
+            "url": "https:\/\/www.last.fm\/tag\/latina"
+          },
+          {
+            "name": "celoso",
+            "url": "https:\/\/www.last.fm\/tag\/celoso"
+          },
+          {
+            "name": "pisou na anitta",
+            "url": "https:\/\/www.last.fm\/tag\/pisou+na+anitta"
+          },
+          {
+            "name": "Lele Pons",
+            "url": "https:\/\/www.last.fm\/tag\/Lele+Pons"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Jan 2023, 07:54",
+        "summary": "\"Celoso\u201d is the first solo Spanish-language single by Venezuelan-American artist Lele Pons.\n \nThe song talks about the freedom imposed on her by a boy she is dating, this being a jealous man who calls her at dawn to find out who she is sleeping with or who she was dancing with, being an open relationship which does not require explanations. <a href=\"http:\/\/www.last.fm\/music\/Lele+Pons\/_\/Celoso\">Read more on Last.fm<\/a>.",
+        "content": "\"Celoso\u201d is the first solo Spanish-language single by Venezuelan-American artist Lele Pons.\n \nThe song talks about the freedom imposed on her by a boy she is dating, this being a jealous man who calls her at dawn to find out who she is sleeping with or who she was dancing with, being an open relationship which does not require explanations. <a href=\"http:\/\/www.last.fm\/music\/Lele+Pons\/_\/Celoso\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

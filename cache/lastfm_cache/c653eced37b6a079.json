@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:33:04.535526+00:00",
+  "elapsed": 0.266466,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:04.535526+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1199",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mabel&format=json&method=track.getInfo&track=Boyfriend"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mabel&format=json&method=track.getInfo&track=Boyfriend",
+  "_decoded_content": {
+    "track": {
+      "name": "Boyfriend",
+      "url": "https:\/\/www.last.fm\/music\/Mabel\/_\/Boyfriend",
+      "duration": "224000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "79801",
+      "playcount": "549586",
+      "artist": {
+        "name": "Mabel",
+        "mbid": "f6a9828c-7b52-41a1-b38a-426c28603555",
+        "url": "https:\/\/www.last.fm\/music\/Mabel"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Dance In the Rain",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Dance+In+the+Rain",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/350c280a72004be8a1f90bc067925311.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/350c280a72004be8a1f90bc067925311.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/350c280a72004be8a1f90bc067925311.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/350c280a72004be8a1f90bc067925311.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          },
+          {
+            "name": "kiki",
+            "url": "https:\/\/www.last.fm\/tag\/kiki"
+          },
+          {
+            "name": "hate at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/hate+at+first+listen"
+          }
+        ]
+      }
+    }
+  }
+}

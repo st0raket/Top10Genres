@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:24.936330+00:00",
+  "elapsed": 0.197251,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:24.935857+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1560",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rosa+Walton&format=json&method=track.getInfo&track=I+Really+Want+to+Stay+at+Your+House"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rosa+Walton&format=json&method=track.getInfo&track=I+Really+Want+to+Stay+at+Your+House",
+  "_decoded_content": {
+    "track": {
+      "name": "I REALLY WANT TO STAY AT YOUR HOUSE",
+      "url": "https:\/\/www.last.fm\/music\/Rosa+Walton\/_\/I+REALLY+WANT+TO+STAY+AT+YOUR+HOUSE",
+      "duration": "246000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "340275",
+      "playcount": "7774023",
+      "artist": {
+        "name": "Rosa Walton",
+        "url": "https:\/\/www.last.fm\/music\/Rosa+Walton"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Sep 2022, 05:23",
+        "summary": "The song was produced for the game Cyberpunk 2077 (2020) for the in-game radio. It was later featured heavily in the companion anime series Cyberpunk: Edgerunners (2022), owing its jump in popularity as of mid September 2022 to the release of said series. <a href=\"http:\/\/www.last.fm\/music\/Rosa+Walton\/_\/I+REALLY+WANT+TO+STAY+AT+YOUR+HOUSE\">Read more on Last.fm<\/a>.",
+        "content": "The song was produced for the game Cyberpunk 2077 (2020) for the in-game radio. It was later featured heavily in the companion anime series Cyberpunk: Edgerunners (2022), owing its jump in popularity as of mid September 2022 to the release of said series. <a href=\"http:\/\/www.last.fm\/music\/Rosa+Walton\/_\/I+REALLY+WANT+TO+STAY+AT+YOUR+HOUSE\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

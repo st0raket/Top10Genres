@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:51.781546+00:00",
+  "elapsed": 0.180295,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:51.781546+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2319",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=Mantra"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=Mantra",
+  "_decoded_content": {
+    "track": {
+      "name": "Mantra",
+      "url": "https:\/\/www.last.fm\/music\/Jennie\/_\/Mantra",
+      "duration": "136000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "409640",
+      "playcount": "9009803",
+      "artist": {
+        "name": "Jennie",
+        "mbid": "d32de3a1-01f0-430e-859a-72307724041c",
+        "url": "https:\/\/www.last.fm\/music\/Jennie"
+      },
+      "album": {
+        "artist": "Jennie",
+        "title": "Mantra",
+        "url": "https:\/\/www.last.fm\/music\/Jennie\/Mantra",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3c02d26ad6d9aaf4d16ea905622d7352.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3c02d26ad6d9aaf4d16ea905622d7352.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3c02d26ad6d9aaf4d16ea905622d7352.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3c02d26ad6d9aaf4d16ea905622d7352.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "MARCO",
+            "url": "https:\/\/www.last.fm\/tag\/MARCO"
+          },
+          {
+            "name": "electro",
+            "url": "https:\/\/www.last.fm\/tag\/electro"
+          },
+          {
+            "name": "atlanta bass",
+            "url": "https:\/\/www.last.fm\/tag\/atlanta+bass"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Oct 2024, 15:34",
+        "summary": "\u2018Mantra\u2019 is Jennie\u2019s first solo release since inking a deal with Columbia Records via her own company Oddatelier, which she founded last year after leaving YG Entertainment. Released October 11th, 2024, it marks Jennie\u2019s first solo project since her single \u201cYou & Me.\u201d\n\nIn the lead-up to the release, Jennie teased fans with captivating images and teaser videos, providing a glimpse into the track\u2019s sound. <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/Mantra\">Read more on Last.fm<\/a>.",
+        "content": "\u2018Mantra\u2019 is Jennie\u2019s first solo release since inking a deal with Columbia Records via her own company Oddatelier, which she founded last year after leaving YG Entertainment. Released October 11th, 2024, it marks Jennie\u2019s first solo project since her single \u201cYou & Me.\u201d\n\nIn the lead-up to the release, Jennie teased fans with captivating images and teaser videos, providing a glimpse into the track\u2019s sound. <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/Mantra\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

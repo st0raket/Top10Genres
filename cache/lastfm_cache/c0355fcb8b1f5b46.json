@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:08.105971+00:00",
+  "elapsed": 0.194835,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:08.105971+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3416",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=get+him+back%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=get+him+back%21",
+  "_decoded_content": {
+    "track": {
+      "name": "Get Him Back!",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/Get+Him+Back%21",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "799328",
+      "playcount": "15823537",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "rap rock",
+            "url": "https:\/\/www.last.fm\/tag\/rap+rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Sep 2023, 18:48",
+        "summary": "\"\u200bget him back!\" explores the conflicting emotions and desires that arise after a failed romantic relationship. The lyrics depict a past relationship with a guy who had some negative traits, such as an ego, a temper and a wandering eye. Despite these flaws, the protagonist acknowledges that he was fun to be with and provided exhilarating experiences like parties and outings.\n\nThe chorus reveals the protagonist's conflicting emotions. On one hand, she wants to make him jealous, make him feel bad, and seek revenge. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/Get+Him+Back%21\">Read more on Last.fm<\/a>.",
+        "content": "\"\u200bget him back!\" explores the conflicting emotions and desires that arise after a failed romantic relationship. The lyrics depict a past relationship with a guy who had some negative traits, such as an ego, a temper and a wandering eye. Despite these flaws, the protagonist acknowledges that he was fun to be with and provided exhilarating experiences like parties and outings.\n\nThe chorus reveals the protagonist's conflicting emotions. On one hand, she wants to make him jealous, make him feel bad, and seek revenge. The desire for revenge may stem from the hurt caused by the guy's actions, including making passes at her friends. However, on the other hand, she admits to missing him and feeling sad without him, leading to confusion about her true feelings.\n\nIn the second verse, the protagonist writes letters expressing her emotions but ultimately throws them away, possibly indicating a struggle to express herself fully or a fear of rejection. She also acknowledges that her friends were aware of the guy's problematic behavior, suggesting that their disapproval may have influenced her decisions. The protagonist also contemplates if she could fix him, perhaps wanting to believe that she has the power to change him.\n\nThe bridge introduces a more aggressive tone, with lyrics expressing a desire to harm the guy's property (e.g., keying his car) and break his heart in retaliation for the pain he caused. However, it also emphasizes the contradictory desire to mend his heart afterward, potentially revealing a longing for reconciliation or closure.\n\nThe recurring chorus highlights the protagonist's conflicting emotions once again, demonstrating her longing for revenge alongside her genuine sadness and yearning for the same person. The outro emphasizes the determination to \"get him back\", suggesting that the protagonist is determined to prove herself and make the guy regret losing her. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/Get+Him+Back%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

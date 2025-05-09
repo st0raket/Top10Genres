@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:42.183704+00:00",
+  "elapsed": 0.197053,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:42.183704+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2967",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=I+Drink+Wine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=I+Drink+Wine",
+  "_decoded_content": {
+    "track": {
+      "name": "I Drink Wine",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/I+Drink+Wine",
+      "duration": "311000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "326458",
+      "playcount": "2970313",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "30",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/30",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Dec 2021, 16:36",
+        "summary": "In her interview with Rolling Stone magazine, \u201cI Drink Wine\u201d was described by Adele as a song about shedding one\u2019s ego, complete with a bit of a Seventies Elton John and Bernie Taupin flair, sharing:\n\nI took everything so personally at that period of time in my life, so the lyric \u2018I hope I learn to get over myself\u2019 is like [me saying] \u2018Once I\u2019ve done that, then maybe I can let you love me.\n\nAdele also pulled a \u201cBarry Manilow trick,\u201d on the song where every chorus is sung differently. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/I+Drink+Wine\">Read more on Last.fm<\/a>.",
+        "content": "In her interview with Rolling Stone magazine, \u201cI Drink Wine\u201d was described by Adele as a song about shedding one\u2019s ego, complete with a bit of a Seventies Elton John and Bernie Taupin flair, sharing:\n\nI took everything so personally at that period of time in my life, so the lyric \u2018I hope I learn to get over myself\u2019 is like [me saying] \u2018Once I\u2019ve done that, then maybe I can let you love me.\n\nAdele also pulled a \u201cBarry Manilow trick,\u201d on the song where every chorus is sung differently. She put on different characters while recording the background vocals, too, to give it a sarcastic, Sixties vibe.\n\nIt made it less intimidating because some of the things I\u2019m talking about really hit home for a lot of people.\n\nThe track was debuted live ahead of the album release at Adele\u2019s CBS Special One Night Only performed in LA alongside other tracks from the album. Adkins also performed the song at the BRIT Awards, available on [https:\/\/youtu.be\/LwXQ7WUh-D0]YouTube. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/I+Drink+Wine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

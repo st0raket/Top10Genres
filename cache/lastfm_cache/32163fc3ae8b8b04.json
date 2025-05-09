@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:00.978173+00:00",
+  "elapsed": 0.196116,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:00.978173+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "8768",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Pogues&format=json&method=track.getInfo&track=Fairytale+of+New+York"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Pogues&format=json&method=track.getInfo&track=Fairytale+of+New+York",
+  "_decoded_content": {
+    "track": {
+      "name": "Fairytale Of New York",
+      "mbid": "14276137-1cb1-4ffd-946b-b006036c94b0",
+      "url": "https:\/\/www.last.fm\/music\/The+Pogues\/_\/Fairytale+Of+New+York",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "315628",
+      "playcount": "1483103",
+      "artist": {
+        "name": "The Pogues",
+        "mbid": "d41a6875-b626-4c0f-89a1-aecb643d29ff",
+        "url": "https:\/\/www.last.fm\/music\/The+Pogues"
+      },
+      "album": {
+        "artist": "The Who \/ The Kinks [The Kinks] \/ Television \/ Devo \/ The Pogues [The Pogues]",
+        "title": "2009-12-05: \u201cUnderneath The Covers\u201d Benefit , 40 Watt Club, Athens, GA, USA",
+        "mbid": "648622cf-a03e-4848-b437-0f394f3eb6d7",
+        "url": "https:\/\/www.last.fm\/music\/The+Who+%2F+The+Kinks+%5BThe+Kinks%5D+%2F+Television+%2F+Devo+%2F+The+Pogues+%5BThe+Pogues%5D\/2009-12-05:+%E2%80%9CUnderneath+The+Covers%E2%80%9D+Benefit+,+40+Watt+Club,+Athens,+GA,+USA",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "40"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "celtic",
+            "url": "https:\/\/www.last.fm\/tag\/celtic"
+          },
+          {
+            "name": "punk",
+            "url": "https:\/\/www.last.fm\/tag\/punk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Aug 2008, 02:11",
+        "summary": "Fairytale of New York\" is a Christmas song by Anglo-Irish folk-rock group The Pogues, and featuring the British singer Kirsty MacColl. The song is an Irish folk style ballad, written by Jem Finer and Shane MacGowan, and featured on The Pogues' album If I Should Fall from Grace with God. According to the Fairytale of New York Songfacts, this song was inspired by JP Donleavy's 1961 novel of the same title. The author told The Daily Mail: \"Technically <a href=\"http:\/\/www.last.fm\/music\/The+Pogues\/_\/Fairytale+Of+New+York\">Read more on Last.fm<\/a>.",
+        "content": "Fairytale of New York\" is a Christmas song by Anglo-Irish folk-rock group The Pogues, and featuring the British singer Kirsty MacColl. The song is an Irish folk style ballad, written by Jem Finer and Shane MacGowan, and featured on The Pogues' album If I Should Fall from Grace with God. According to the Fairytale of New York Songfacts, this song was inspired by JP Donleavy's 1961 novel of the same title. The author told The Daily Mail: \"Technically I could have taken legal action for piracy but as I know Shane MacGowan - I believe his father is a fan of my work - I decided not to bother.\"\n\nThe song features string arrangements by Fiachra Trench. It is frequently voted the Number One Best Christmas song of all time in various television, radio and magazine related polls in Ireland and the United Kingdom.\n\nThe song featured in the hit film P.S. I Love You.\n\n\"Fairytale of New York\" was released as a single in 1987 and reached #1 in the Irish charts and #2 in the British charts, over Christmas (the time of peak sales). The song has become a festive classic in the UK and Ireland over the years, and was voted the best Christmas song of all time three years running in 2004, 2005 and 2006 in polls by music channel VH1 UK, despite not achieving Christmas Number One when it was released. It was also voted as the 27th greatest song never to reach UK#1 in another VH1 poll, and also voted as the 84th greatest song of all time by BBC Radio 2 listeners in their \"Sold on Song\" top 100 poll.\n\nThe song takes the form of a drunken man's Christmas Eve reverie about holidays past while sleeping off a binge in a New York City drunk tank. After an inebriated old man also incarcerated in the jail cell sings a passage from the Irish drinking ballad \"The Rare Old Mountain Dew\", the drunken man (MacGowan) begins to dream about a failed relationship. The remainder of the song (which may be an internal monologue) takes the form of a call and response between two Irish immigrants, lovers or ex-lovers, their youthful hopes crushed by alcoholism and drug addiction, reminiscing and bickering on Christmas Eve in New York City. MacColl's melodious singing contrasts with the harshness of MacGowan's voice, and the lyrics are sometimes bittersweet -- sometimes plain bitter: \"Happy Christmas your arse\/ I pray God it's our last\". The lyric \"Sinatra was swinging\" is likely an allusion to Sinatra's \"New York, New York,\" which was very popular in Ireland at the time, a reference to the problem of emigration. Others have suggested it refers to an unspecified period after World War II; however, it is possible that the song is actually set in the early 1980s, when one of Sinatra's last chart hits, his 1980 recording of John Kander and Fred Ebb's theme from the movie New York, New York, was a fixture of New York City airwaves and a standard singalong record in the city's many neighborhood bars. The title, taken from author J. P. Donleavy's novel A Fairy Tale of New York, was chosen after the song had been written and recorded.\n\nTwice Shane and Kirsty sing, \"The boys of the NYPD choir still singing \"Galway Bay\". The New York Police Department does not have a choir, but it does have a Pipes and Drums unit that is featured in the video for the song. The NYPD Pipes and Drums did not know \"Galway Bay\" and so played a different song for the music video, and the editor put it in slow motion to fit the beat. The video featured Irish-American actor Matt Dillon as an NYPD patrolman who arrests the intoxicated MacGowan.\n\nMacColl was not originally intended to appear in the song. Instead, the female vocal was meant for the band's bassist, Cait O'Riordan. However, she left the band in 1986, before the song was completed. The Pogues were at the time being produced by Steve Lillywhite, MacColl's then-husband, who asked his wife to provide a guide vocal of the female part for a demo version of the song. The Pogues, however, liked MacColl's contribution so much that they asked her to sing the part on the actual recording.\n\nThe song was released in the United Kingdom in early December 1987, and swiftly became a hit. On December 17, 1987, the Pogues and MacColl performed the song on the BBC's popular television show Top of the Pops, and it was propelled to #2 on the UK charts. For the Top of the Pops appearance, the BBC insisted that MacColl's singing of \"arse\" be replaced with the less offensive \"ass\", although as she mimed the word MacColl slapped the relevant part of her body to make it clear what was meant.\n\nAlthough the song finished 1987 as the 48th best seller of the year despite only a single month's sales, it was denied the Christmas #1 spot by the Pet Shop Boys' cover of \"Always on My Mind\". MacGowan commented on this in his typically forthright manner: \"We were beaten by two queens and a drum machine.\"\n\nThe song was re-released by The Pogues in the UK in 1991 (reaching #36), and again in the UK and Ireland for Christmas 2005,[4] reaching #3 in the UK. All proceeds from the latter release were donated towards a mixture of homeless charities and \"Justice for Kirsty\", a campaign to find out the truth behind Kirsty MacColl's death in 2000. In December 2006 the song entered the UK Top 10 for the third time,[5] reaching #6 on that occasion, and returned yet again in December 2007, reaching #4. It has now made the Top 10 on four separate occasions including three times in successive years, a feat no other single can match. In December 2008 it entered the UK Top 40 for the sixth time, and reached #12.\n\nOn December 22, 2005, The Pogues performed the song on a Jonathan Ross Christmas special on BBC One in the UK, with the female vocals taken by singer Katie Melua. This was The Pogues' first television performance of the song since 1988.\n\nIn recent years, the song has featured in many UK-based surveys and polls, most notably topping the VH1 greatest Christmas song chart three years running, featuring at number 11 in Channel 4's 100 Greatest Christmas Moments, Number 27 on VH1's Greatest Songs Never to Make Number One, number 23 on VH1's greatest lyrics, Number 83 in Q Magazine's 100 Greatest Ever Songs, and number 84 on BBC Radio 2's top 100 greatest songs of all time poll. The Hits music channel rated \"Fairytale of New York\" number one in 'The Nation's Favourite Christmas Song' countdown. In December 2008 The Music Factory UK did a poll which found that the song was the favourite Christmas song.[6] It was voted the best song of the 80s by voters of The Radcliffe & Maconie show on BBC Radio 2 & BBC Four's Pop On Trial season in January 2008. <a href=\"http:\/\/www.last.fm\/music\/The+Pogues\/_\/Fairytale+Of+New+York\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

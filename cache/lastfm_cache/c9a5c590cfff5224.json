@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:21.125229+00:00",
+  "elapsed": 0.210488,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:21.125229+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3035",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jonas+Brothers&format=json&method=track.getInfo&track=Cool"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jonas+Brothers&format=json&method=track.getInfo&track=Cool",
+  "_decoded_content": {
+    "track": {
+      "name": "Cool",
+      "url": "https:\/\/www.last.fm\/music\/Jonas+Brothers\/_\/Cool",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "149714",
+      "playcount": "1007607",
+      "artist": {
+        "name": "Jonas Brothers",
+        "mbid": "6e019bc6-5c23-4935-94f0-4a896631d846",
+        "url": "https:\/\/www.last.fm\/music\/Jonas+Brothers"
+      },
+      "album": {
+        "artist": "Jonas Brothers",
+        "title": "Cool",
+        "url": "https:\/\/www.last.fm\/music\/Jonas+Brothers\/Cool",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3158a21ae4dab8b7dcc779fffeb1b45a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3158a21ae4dab8b7dcc779fffeb1b45a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3158a21ae4dab8b7dcc779fffeb1b45a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3158a21ae4dab8b7dcc779fffeb1b45a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Apr 2020, 04:35",
+        "summary": "\u201cCool\u201d is the second single released by the Jonas Brothers in 2019, after taking a six-year hiatus. The lyrics contain numerous references to the brothers' personal and professional achievements during their years apart. Reflecting on their individual success, they describe a shared sense of satisfaction and peace of mind.\n\nIn the brothers' track descriptions for Apple Music, Nick explained:\n\n\"This song came towards the end of the writing process. <a href=\"http:\/\/www.last.fm\/music\/Jonas+Brothers\/_\/Cool\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCool\u201d is the second single released by the Jonas Brothers in 2019, after taking a six-year hiatus. The lyrics contain numerous references to the brothers' personal and professional achievements during their years apart. Reflecting on their individual success, they describe a shared sense of satisfaction and peace of mind.\n\nIn the brothers' track descriptions for Apple Music, Nick explained:\n\n\"This song came towards the end of the writing process. We were trying to write a ballad, actually, but we ended up writing this instead because we all came to the studio feeling very cool that day. Feeling like a million bucks.\"\n\nThe music video for the track has a strong eighties aesthetic. According to a press release from the band, it\u2019s meant to evoke \u201c1984 Miami\u201d and \u201cchannel the spirit of timeless eighties MTV, in all its decadent glory.\u201d The video features multiple references to previous Jonas Brothers projects, most notably the video for their 2008 hit, \u201cBurnin' Up.\u201d\n\nThe track was first introduced to social media via Instagram. <a href=\"http:\/\/www.last.fm\/music\/Jonas+Brothers\/_\/Cool\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

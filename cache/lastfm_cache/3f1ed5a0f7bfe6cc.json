@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:34:29.379766+00:00",
+  "elapsed": 0.187273,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:29.379766+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1288",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TWICE&format=json&method=track.getInfo&track=I+CAN%27T+STOP+ME"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TWICE&format=json&method=track.getInfo&track=I+CAN%27T+STOP+ME",
+  "_decoded_content": {
+    "track": {
+      "name": "I Can't Stop Me",
+      "url": "https:\/\/www.last.fm\/music\/TWICE\/_\/I+Can%27t+Stop+Me",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "568983",
+      "playcount": "13147085",
+      "artist": {
+        "name": "TWICE",
+        "mbid": "d594ff3d-d3ca-4d2e-bb6a-a7dada9af0c5",
+        "url": "https:\/\/www.last.fm\/music\/TWICE"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "Retro",
+            "url": "https:\/\/www.last.fm\/tag\/Retro"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Oct 2020, 02:06",
+        "summary": "\"I CAN'T STOP ME\" is the title track off  TWICE's second studio album, Eyes wide open.\n\nThe music video was released on October 26, 2020, along with the album. <a href=\"http:\/\/www.last.fm\/music\/TWICE\/_\/I+Can%27t+Stop+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"I CAN'T STOP ME\" is the title track off  TWICE's second studio album, Eyes wide open.\n\nThe music video was released on October 26, 2020, along with the album. <a href=\"http:\/\/www.last.fm\/music\/TWICE\/_\/I+Can%27t+Stop+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:42.874735+00:00",
+  "elapsed": 0.20133,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:42.874735+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4397",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Boyfriends"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Boyfriends",
+  "_decoded_content": {
+    "track": {
+      "name": "Boyfriends",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Boyfriends",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "402903",
+      "playcount": "4741061",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Harry\u2019s House",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Harry%E2%80%99s+House",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 May 2022, 15:44",
+        "summary": "On \u201cBoyfriends,\u201d Harry Styles speaks about the way many boyfriends tend to mistreat their partners by mediating on a troubled relationship between two people. He told Zane Lowe of Apple Music that much of the song draws from the relationships he\u2019s seen his sister and friends in.\n\nStyles performed the song before its release during his first performance at the annual Coachella music festival on April 15, 2022.\n\nIn the interview with Zane Lowe on Apple Music, Harry talked about working on the song: <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Boyfriends\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cBoyfriends,\u201d Harry Styles speaks about the way many boyfriends tend to mistreat their partners by mediating on a troubled relationship between two people. He told Zane Lowe of Apple Music that much of the song draws from the relationships he\u2019s seen his sister and friends in.\n\nStyles performed the song before its release during his first performance at the annual Coachella music festival on April 15, 2022.\n\nIn the interview with Zane Lowe on Apple Music, Harry talked about working on the song:\n\n\"\u201cBoyfriends\u201d was written right at the end of \"Fine Line\". I fineshed the album and we touched on a last time, there was like an extra week growing to write some stuff [\u2026] we were recording \u201cLights Up\u201d [\u2026] and at the end of that session everyone left, and I started writing \u201cBoyfriends\u201d and it almost felt like \u201cOk, there\u2019s a version where we get this ready to put on [Fine Line]\u201d, and I think there was something about that just felt like \u201cIt\u2019s just gonna have its time, so like, let\u2019s not rush to get it done.\u201d And we did so many versions of it, you know, it was as like, vocal and acoustic, and then vocal and this with that, you know, electric guitar and then this and then that. [\u2026] We did the harmonies on everything [\u2026] and in the end it was like \u201cOk, we need, like, there\u2019s something that it has to be, to be what it should be\u201d and Ben Harper played on it, it\u2019s his hands playing that guitar. And it\u2019s like the guitar where he wrote his first three albums. And he\u2019d gifted it to his daughter, and had to ask for it back to borrow to play it on the [song], but he didn\u2019t tell her what it was for, so I believe now will be her finding out where he played it. But thank you for letting us borrow it. It was just like a singular moment I think for all us, we\u2019re such big fan of him as well and it just fell like a really special moment.\"\n\nIn the same interview, Harry told a little about the meaning of the song:\n\n\"I think the good part of [\u201cBoyfriends\u201d] is that it is everything. It\u2019s both acknowledging my own behavior. It\u2019s looking at behavior that I\u2019ve witnessed. I grew up with a sister, so it\u2019s watching her date people and watching friends date people, and people don\u2019t treat each other very nicely sometimes. It was one of those really quick, just say what you think of boyfriends.\" <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Boyfriends\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

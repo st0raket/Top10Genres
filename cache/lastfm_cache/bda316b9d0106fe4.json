@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:47.883472+00:00",
+  "elapsed": 0.179073,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:47.883472+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2206",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Nonsense"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sabrina+Carpenter&format=json&method=track.getInfo&track=Nonsense",
+  "_decoded_content": {
+    "track": {
+      "name": "Nonsense",
+      "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Nonsense",
+      "duration": "163000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1172715",
+      "playcount": "22628392",
+      "artist": {
+        "name": "Sabrina Carpenter",
+        "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter"
+      },
+      "album": {
+        "artist": "Sabrina Carpenter",
+        "title": "emails i can't send [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Sabrina+Carpenter\/emails+i+can%27t+send+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/67b457e6432139a78f2f97694e2b0264.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/67b457e6432139a78f2f97694e2b0264.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/67b457e6432139a78f2f97694e2b0264.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/67b457e6432139a78f2f97694e2b0264.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jul 2022, 23:11",
+        "summary": "\u201cNonsense\u201d is the ninth track on Sabrina Carpenter\u2019s fifth album \"emails i can\u2019t send\". Carpenter sings about a person who causes her so much anxiety that she loses control of her mouth and begins blabbering nonsense. She uses a fun selection of vocabulary to play on the nonsense theme. <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Nonsense\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNonsense\u201d is the ninth track on Sabrina Carpenter\u2019s fifth album \"emails i can\u2019t send\". Carpenter sings about a person who causes her so much anxiety that she loses control of her mouth and begins blabbering nonsense. She uses a fun selection of vocabulary to play on the nonsense theme. <a href=\"http:\/\/www.last.fm\/music\/Sabrina+Carpenter\/_\/Nonsense\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

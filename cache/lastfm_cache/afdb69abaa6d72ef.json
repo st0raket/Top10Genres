@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:24.543280+00:00",
+  "elapsed": 0.198108,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:24.543280+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2705",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Becky+G&format=json&method=track.getInfo&track=MAMIII"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Becky+G&format=json&method=track.getInfo&track=MAMIII",
+  "_decoded_content": {
+    "track": {
+      "name": "MAMIII",
+      "url": "https:\/\/www.last.fm\/music\/Becky+G\/_\/MAMIII",
+      "duration": "224000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "234410",
+      "playcount": "2095799",
+      "artist": {
+        "name": "Becky G",
+        "mbid": "eb90c8b8-d733-4c14-a293-105c3d1ba9b3",
+        "url": "https:\/\/www.last.fm\/music\/Becky+G"
+      },
+      "album": {
+        "artist": "Becky G",
+        "title": "MAMIII",
+        "url": "https:\/\/www.last.fm\/music\/Becky+G\/MAMIII",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4b71a0374be18bdc7c9e12b5cda65bd8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4b71a0374be18bdc7c9e12b5cda65bd8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4b71a0374be18bdc7c9e12b5cda65bd8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4b71a0374be18bdc7c9e12b5cda65bd8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2022, 03:43",
+        "summary": "\"Mamii\" (stylized in all caps) is a song by American singer Becky G and Colombian singer  Karol G. It was released through Kemosabe Records and RCA Records on 11 February 2022,  Becky G and Karol G wrote the song with Elena Rose and the  producer Ovy \" Ovy on the Drums\" The song marks the second collaboration with the two artists, following  Karol G And Mau y Ricky's song Mi Mala (Remix) and The first collaboration only between the two artists.\n\nThe song quickly became a hit on spotify and apple music <a href=\"http:\/\/www.last.fm\/music\/Becky+G\/_\/MAMIII\">Read more on Last.fm<\/a>.",
+        "content": "\"Mamii\" (stylized in all caps) is a song by American singer Becky G and Colombian singer  Karol G. It was released through Kemosabe Records and RCA Records on 11 February 2022,  Becky G and Karol G wrote the song with Elena Rose and the  producer Ovy \" Ovy on the Drums\" The song marks the second collaboration with the two artists, following  Karol G And Mau y Ricky's song Mi Mala (Remix) and The first collaboration only between the two artists.\n\nThe song quickly became a hit on spotify and apple music, \"MAMII'\" peaked at number one on in several Latin American countries, The song is among the first positions of the global charts of spotify, apple music and other platforms. <a href=\"http:\/\/www.last.fm\/music\/Becky+G\/_\/MAMIII\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

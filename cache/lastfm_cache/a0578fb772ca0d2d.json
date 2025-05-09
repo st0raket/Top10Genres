@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:05.583902+00:00",
+  "elapsed": 0.199471,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:05.583902+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2710",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Island"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Island",
+  "_decoded_content": {
+    "track": {
+      "name": "Island",
+      "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Island",
+      "duration": "239000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "145590",
+      "playcount": "1260423",
+      "artist": {
+        "name": "Miley Cyrus",
+        "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus"
+      },
+      "album": {
+        "artist": "Miley Cyrus",
+        "title": "Endless Summer Vacation",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/Endless+Summer+Vacation",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "urban",
+            "url": "https:\/\/www.last.fm\/tag\/urban"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Mar 2023, 01:12",
+        "summary": "On \u201cIsland\u201d, Cyrus goes through missing someone, and feeling lonely on her own little private island. Cyrus wonders if she\u2019s in paradise, or if she is just isolated. The song feels breezy, subtle, and soft.\n\nLyric\u2019s from the song were featured in the second and fourth of the Love From LA postcards Cyrus sent to her fans.\n\n\"When I came up with an idea for \u201cIsland,\u201d the idea was kind of everyone is still a stranger to me, but I\u2019m a stranger to no one. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Island\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cIsland\u201d, Cyrus goes through missing someone, and feeling lonely on her own little private island. Cyrus wonders if she\u2019s in paradise, or if she is just isolated. The song feels breezy, subtle, and soft.\n\nLyric\u2019s from the song were featured in the second and fourth of the Love From LA postcards Cyrus sent to her fans.\n\n\"When I came up with an idea for \u201cIsland,\u201d the idea was kind of everyone is still a stranger to me, but I\u2019m a stranger to no one. For me, I\u2019ve been able to create these paradises where I feel safe. But I was contemplating this life that I have for myself. Is it a paradise or is it a lonely island?\" \u2014via Backyard Sessions <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Island\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

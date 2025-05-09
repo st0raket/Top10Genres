@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:56.932315+00:00",
+  "elapsed": 0.223403,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:56.932315+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2510",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Habitual"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Habitual",
+  "_decoded_content": {
+    "track": {
+      "name": "Habitual",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Habitual",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "99663",
+      "playcount": "738588",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Justin Bieber",
+        "title": "Changes",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/Changes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "justin bieber",
+            "url": "https:\/\/www.last.fm\/tag\/justin+bieber"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          },
+          {
+            "name": " hip-hop",
+            "url": "https:\/\/www.last.fm\/tag\/+hip-hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2022, 06:05",
+        "summary": "\u201cHabitual\u201d was previewed on a speculated tracklist along with several other tracks in the singer\u2019s docu-series \u201cJustin Bieber: Seasons\u201d, which was officially released to YouTube on January 27, 2020.\n\n\u201cHabitual\u201d was first previewed in Justin Bieber\u2019s YouTube series Seasons episode 3\u2014the beat and song were originally for Poo Bear but later Bieber jumped on the track. Poo Bear\u2019s voice is still left on the track in the intro\/refrain and outro of the song. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Habitual\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHabitual\u201d was previewed on a speculated tracklist along with several other tracks in the singer\u2019s docu-series \u201cJustin Bieber: Seasons\u201d, which was officially released to YouTube on January 27, 2020.\n\n\u201cHabitual\u201d was first previewed in Justin Bieber\u2019s YouTube series Seasons episode 3\u2014the beat and song were originally for Poo Bear but later Bieber jumped on the track. Poo Bear\u2019s voice is still left on the track in the intro\/refrain and outro of the song. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Habitual\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

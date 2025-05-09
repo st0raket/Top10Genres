@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:30.081932+00:00",
+  "elapsed": 0.177412,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:30.081932+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2504",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Habits"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Habits",
+  "_decoded_content": {
+    "track": {
+      "name": "Habits",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Habits",
+      "duration": "298000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "174897",
+      "playcount": "819647",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "The Death of Slim Shady (Coup de Gr\u00e2ce)",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/The+Death+of+Slim+Shady+(Coup+de+Gr%C3%A2ce)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/912a3fbec6b2c7e8cf7223319940810f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/912a3fbec6b2c7e8cf7223319940810f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/912a3fbec6b2c7e8cf7223319940810f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/912a3fbec6b2c7e8cf7223319940810f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "white gold",
+            "url": "https:\/\/www.last.fm\/tag\/white+gold"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Aug 2024, 16:26",
+        "summary": "\u201cHabits\u201d is the second track on Eminem\u2019s highly anticipated album, The Death of Slim Shady (Coupe de Gr\u00e2ce), delving into Em\u2019s personal battle with addiction. Besides substance dependence, as the chorus implies, the \u201caddiction\u201d here could also represent a figurative hold that Eminem\u2019s alter ego, Slim Shady, has on him, even as he tries to move on (\u201cThought you got rid of my ass, huh?\u201d). The track features vocals from Eminem\u2019s past collaborator, White Gold. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Habits\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHabits\u201d is the second track on Eminem\u2019s highly anticipated album, The Death of Slim Shady (Coupe de Gr\u00e2ce), delving into Em\u2019s personal battle with addiction. Besides substance dependence, as the chorus implies, the \u201caddiction\u201d here could also represent a figurative hold that Eminem\u2019s alter ego, Slim Shady, has on him, even as he tries to move on (\u201cThought you got rid of my ass, huh?\u201d). The track features vocals from Eminem\u2019s past collaborator, White Gold. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Habits\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

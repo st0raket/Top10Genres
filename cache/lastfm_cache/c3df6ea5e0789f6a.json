@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:52.263438+00:00",
+  "elapsed": 0.252577,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:52.263438+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2856",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Yikes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Yikes",
+  "_decoded_content": {
+    "track": {
+      "name": "Yikes",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Yikes",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "556635",
+      "playcount": "6223003",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "ye",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/ye",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/51e9b77a991331b154d61d5749842fa1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 18:46",
+        "summary": "\u201cYikes\u201d is a song about drugs, specifically about addiction and intoxication.\n\nYe alludes to hallucinogens and prescription opioids, and describes the highs that these can induce as being menacing and frightening. He also references other famous artists like Prince and Michael Jackson who died of prescription drug overdoses, to highlight the perils of his own addiction.\n\nDrake has been revealed as a lyricist and composer on the song, responsible for creating the original hook. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Yikes\">Read more on Last.fm<\/a>.",
+        "content": "\u201cYikes\u201d is a song about drugs, specifically about addiction and intoxication.\n\nYe alludes to hallucinogens and prescription opioids, and describes the highs that these can induce as being menacing and frightening. He also references other famous artists like Prince and Michael Jackson who died of prescription drug overdoses, to highlight the perils of his own addiction.\n\nDrake has been revealed as a lyricist and composer on the song, responsible for creating the original hook. Kanye was previously credited on Drake\u2019s 2016 diss track \u201cTwo Birds, One Stone.\u201d The song took aim at Kid Cudi and Pusha T. The latter finally responded to Drake on \u201cInfrared,\u201d the closing track on his album DAYTONA. Drake took aim at both Pusha and Kanye on his response, \u201cDuppy Freestyle\u201d. Pusha later fired back at Drake with his vicious track, \u201cThe Story of Adidon.\u201d <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Yikes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

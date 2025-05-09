@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:13.419980+00:00",
+  "elapsed": 0.178719,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:13.419980+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3097",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Falling+Forever"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Falling+Forever",
+  "_decoded_content": {
+    "track": {
+      "name": "Falling Forever",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Falling+Forever",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "202321",
+      "playcount": "1919386",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Radical Optimism",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Radical+Optimism",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "drums",
+            "url": "https:\/\/www.last.fm\/tag\/drums"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2024, 18:37",
+        "summary": "\u201cFalling Forever\u201d is a lush, ethereal dance-pop ballad that explores the exhilarating yet terrifying experience of deep, unyielding love. Featured on Dua Lipa\u2019s third studio album, Radical Optimism, released in 2024, the song combines a house-influenced beat with a rich, atmospheric soundscape.\n\nThe lyrics poignantly question the longevity of a romantic experience, asking\n\n\"How long, how long \/ Can it just keep getting better? \/ Can we keep falling forever?\" <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Falling+Forever\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFalling Forever\u201d is a lush, ethereal dance-pop ballad that explores the exhilarating yet terrifying experience of deep, unyielding love. Featured on Dua Lipa\u2019s third studio album, Radical Optimism, released in 2024, the song combines a house-influenced beat with a rich, atmospheric soundscape.\n\nThe lyrics poignantly question the longevity of a romantic experience, asking\n\n\"How long, how long \/ Can it just keep getting better? \/ Can we keep falling forever?\"\n\nThese lines encapsulate the theme of the song\u2014 the desire to sustain the peak moments of a relationship indefinitely. Dua Lipa\u2019s emotive delivery enhances the introspective content, making the listener feel the depth of the commitment and the fear of its potential end.\n\nThe track is notable for its lyrical depth, exploring themes of permanence and the fleeting nature of passionate love, and is marked by its artistic execution, blending upbeat musical elements with reflective lyrics. This song reflects Lipa\u2019s growth as an artist, capturing the complexity of love\u2019s enduring impact. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Falling+Forever\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

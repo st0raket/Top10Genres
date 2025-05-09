@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:30:04.974691+00:00",
+  "elapsed": 0.207306,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:04.974691+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "995",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chance+the+Rapper&format=json&method=track.getInfo&track=Work+Out"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chance+the+Rapper&format=json&method=track.getInfo&track=Work+Out",
+  "_decoded_content": {
+    "track": {
+      "name": "Work Out",
+      "url": "https:\/\/www.last.fm\/music\/Chance+the+Rapper\/_\/Work+Out",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "49429",
+      "playcount": "306089",
+      "artist": {
+        "name": "Chance the Rapper",
+        "mbid": "373a4c98-a46b-48e4-86ec-f6ca65b4f438",
+        "url": "https:\/\/www.last.fm\/music\/Chance+the+Rapper"
+      },
+      "album": {
+        "artist": "Chance the Rapper",
+        "title": "Work Out",
+        "url": "https:\/\/www.last.fm\/music\/Chance+the+Rapper\/Work+Out",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/240798e64e3d0da6e456306bbd7632ee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/240798e64e3d0da6e456306bbd7632ee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/240798e64e3d0da6e456306bbd7632ee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/240798e64e3d0da6e456306bbd7632ee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "chance the rapper",
+            "url": "https:\/\/www.last.fm\/tag\/chance+the+rapper"
+          }
+        ]
+      }
+    }
+  }
+}

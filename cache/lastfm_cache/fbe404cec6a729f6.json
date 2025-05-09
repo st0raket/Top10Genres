@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:32:06.196178+00:00",
+  "elapsed": 0.216339,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:06.196178+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1642",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Tecca&format=json&method=track.getInfo&track=Shots"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Tecca&format=json&method=track.getInfo&track=Shots",
+  "_decoded_content": {
+    "track": {
+      "name": "Shots",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Tecca\/_\/Shots",
+      "duration": "109000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "187133",
+      "playcount": "1522437",
+      "artist": {
+        "name": "Lil Tecca",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Tecca"
+      },
+      "album": {
+        "artist": "Lil Tecca",
+        "title": "We Love You Tecca",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Tecca\/We+Love+You+Tecca",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/eb40f384b2c2239fabeffd727d0167ac.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/eb40f384b2c2239fabeffd727d0167ac.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/eb40f384b2c2239fabeffd727d0167ac.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/eb40f384b2c2239fabeffd727d0167ac.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "19 Apr 2021, 13:14",
+        "summary": "\u201cShots\u201d is the second song on Lil Tecca\u2019s debut mixtape, We Love You Tecca.\n\nOn the track, the teenage artist raps about the ways he stays strapped with his guns and what his friends do in order to protect him from enemies. <a href=\"http:\/\/www.last.fm\/music\/Lil+Tecca\/_\/Shots\">Read more on Last.fm<\/a>.",
+        "content": "\u201cShots\u201d is the second song on Lil Tecca\u2019s debut mixtape, We Love You Tecca.\n\nOn the track, the teenage artist raps about the ways he stays strapped with his guns and what his friends do in order to protect him from enemies. <a href=\"http:\/\/www.last.fm\/music\/Lil+Tecca\/_\/Shots\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

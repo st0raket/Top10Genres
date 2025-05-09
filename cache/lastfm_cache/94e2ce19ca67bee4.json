@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:20.135089+00:00",
+  "elapsed": 0.178303,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:20.135089+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2651",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gucci+Mane&format=json&method=track.getInfo&track=Wake+Up+in+the+Sky"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gucci+Mane&format=json&method=track.getInfo&track=Wake+Up+in+the+Sky",
+  "_decoded_content": {
+    "track": {
+      "name": "Wake Up in the Sky",
+      "url": "https:\/\/www.last.fm\/music\/Gucci+Mane\/_\/Wake+Up+in+the+Sky",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "768011",
+      "playcount": "6673521",
+      "artist": {
+        "name": "Gucci Mane",
+        "mbid": "36494952-f434-45d8-a958-8b4acdbcf8a8",
+        "url": "https:\/\/www.last.fm\/music\/Gucci+Mane"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "new years eve party 2023",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/new+years+eve+party+2023",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1c0db6067c182ce8560ea04180658b17.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1c0db6067c182ce8560ea04180658b17.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1c0db6067c182ce8560ea04180658b17.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1c0db6067c182ce8560ea04180658b17.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 May 2023, 21:58",
+        "summary": "\u201cWake Up in the Sky\u201d is the third single from Gucci Mane\u2019s album, Evil Genius. The song is an ode to the high life, with Gucci, Bruno, and Kodak discussing drugs, alcohol, and the finer things in life.\n\nThe song marks the second collaboration between Gucci Mane and Bruno Mars following Gucci\u2019s remix of Bruno\u2019s \u201cThat\u2019s What I Like.\u201d The song also marks Gucci\u2019s second collaboration with Kodak, following Kodak\u2019s \u201cVibin in This Bih.\u201d This song marks Bruno and Kodak\u2019s first collaboration. <a href=\"http:\/\/www.last.fm\/music\/Gucci+Mane\/_\/Wake+Up+in+the+Sky\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWake Up in the Sky\u201d is the third single from Gucci Mane\u2019s album, Evil Genius. The song is an ode to the high life, with Gucci, Bruno, and Kodak discussing drugs, alcohol, and the finer things in life.\n\nThe song marks the second collaboration between Gucci Mane and Bruno Mars following Gucci\u2019s remix of Bruno\u2019s \u201cThat\u2019s What I Like.\u201d The song also marks Gucci\u2019s second collaboration with Kodak, following Kodak\u2019s \u201cVibin in This Bih.\u201d This song marks Bruno and Kodak\u2019s first collaboration. <a href=\"http:\/\/www.last.fm\/music\/Gucci+Mane\/_\/Wake+Up+in+the+Sky\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

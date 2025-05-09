@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:19.953424+00:00",
+  "elapsed": 0.18783,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:19.953424+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2910",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=I%27m+Not+The+Only+One"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=I%27m+Not+The+Only+One",
+  "_decoded_content": {
+    "track": {
+      "name": "I'm Not the Only One",
+      "mbid": "bb76dcf3-9b37-4b75-98e5-5689e24d528f",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/_\/I%27m+Not+the+Only+One",
+      "duration": "239000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1099970",
+      "playcount": "9647511",
+      "artist": {
+        "name": "Sam Smith",
+        "mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith"
+      },
+      "album": {
+        "artist": "Sam Smith",
+        "title": "In the Lonely Hour",
+        "mbid": "e005fa83-f67d-475d-bc17-8a147de390de",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/In+the+Lonely+Hour",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8dbb9e6cbd36f7d39db4c067f6b3202b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8dbb9e6cbd36f7d39db4c067f6b3202b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8dbb9e6cbd36f7d39db4c067f6b3202b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8dbb9e6cbd36f7d39db4c067f6b3202b.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "melancholy",
+            "url": "https:\/\/www.last.fm\/tag\/melancholy"
+          },
+          {
+            "name": "2014",
+            "url": "https:\/\/www.last.fm\/tag\/2014"
+          },
+          {
+            "name": "songs to kill yourself to",
+            "url": "https:\/\/www.last.fm\/tag\/songs+to+kill+yourself+to"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jan 2014, 17:26",
+        "summary": "\"I'm Not the Only One\" explores the difficulty of a break-up and realizing that you are not always the only one who has been hurt in a romantic relationship. The lyrics chart the narrator's descent into despair and self-doubt as they become aware of how they were kept in the dark and had been lied to by their partner. The chorus repeats the idea that the narrator feels \"crazy\" and is not believed by their partner, only for them to reaffirm that they are not the only one who has been hurt by the lies and deceit. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/I%27m+Not+the+Only+One\">Read more on Last.fm<\/a>.",
+        "content": "\"I'm Not the Only One\" explores the difficulty of a break-up and realizing that you are not always the only one who has been hurt in a romantic relationship. The lyrics chart the narrator's descent into despair and self-doubt as they become aware of how they were kept in the dark and had been lied to by their partner. The chorus repeats the idea that the narrator feels \"crazy\" and is not believed by their partner, only for them to reaffirm that they are not the only one who has been hurt by the lies and deceit. The outro repeats that the narrator knows they are not alone in the hurt they have experienced and serves as an emotional climax to the song. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/I%27m+Not+the+Only+One\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

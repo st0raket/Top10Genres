@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:42.481313+00:00",
+  "elapsed": 0.188054,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:42.481313+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2335",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=To+Be+Loved"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=To+Be+Loved",
+  "_decoded_content": {
+    "track": {
+      "name": "To Be Loved",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/To+Be+Loved",
+      "duration": "30000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "233391",
+      "playcount": "1927984",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "30",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/30",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "epic",
+            "url": "https:\/\/www.last.fm\/tag\/epic"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "vocals",
+            "url": "https:\/\/www.last.fm\/tag\/vocals"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2022, 21:06",
+        "summary": "\u201cTo Be Loved\u201d is the penultimate track of 30. Instrumentally, the song is a simple, slow piano ballad with a BPM of 103.\n\nLyrically, the ballad piano track describes how the ups and downs of life appear and that it\u2019s time to take sacrifices in life for the things that are most important.\n\nAdele originally showed the song two days before the album\u2019s release, on November 17, 2021, in a video of the singer in her home. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/To+Be+Loved\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTo Be Loved\u201d is the penultimate track of 30. Instrumentally, the song is a simple, slow piano ballad with a BPM of 103.\n\nLyrically, the ballad piano track describes how the ups and downs of life appear and that it\u2019s time to take sacrifices in life for the things that are most important.\n\nAdele originally showed the song two days before the album\u2019s release, on November 17, 2021, in a video of the singer in her home. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/To+Be+Loved\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

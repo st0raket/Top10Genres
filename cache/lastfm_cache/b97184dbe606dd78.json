@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:36:58.853557+00:00",
+  "elapsed": 0.213952,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:58.853557+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "318",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ERNEST&format=json&method=track.getInfo&track=Flower+Shops"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ERNEST&format=json&method=track.getInfo&track=Flower+Shops",
+  "_decoded_content": {
+    "track": {
+      "name": "Flower Shops",
+      "url": "https:\/\/www.last.fm\/music\/Ernest\/_\/Flower+Shops",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "316",
+      "playcount": "800",
+      "artist": {
+        "name": "Ernest",
+        "mbid": "d26d9099-cb9f-49a6-b767-2519a6d09638",
+        "url": "https:\/\/www.last.fm\/music\/Ernest"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

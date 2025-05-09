@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:21.721025+00:00",
+  "elapsed": 0.188055,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:21.721025+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2861",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LINKIN+PARK&format=json&method=track.getInfo&track=Battle+Symphony"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LINKIN+PARK&format=json&method=track.getInfo&track=Battle+Symphony",
+  "_decoded_content": {
+    "track": {
+      "name": "Battle Symphony",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Battle+Symphony",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "182265",
+      "playcount": "1419337",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "One More Light",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/One+More+Light",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Nov 2017, 08:54",
+        "summary": "\"Battle Symphony\" is a promotional single by American rock band Linkin Park. The song was recorded by the band for their seventh studio album, titled One More Light. The song appears on the album as the fourth track. The song was written by Linkin Park members Brad Delson and Mike Shinoda. The song was released on March 16, 2017, but it was leaked some days before.\n\nThe title \"Battle Symphony\" was first seen in a picture posted on Joe Hahn's Instagram story on September 6 <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Battle+Symphony\">Read more on Last.fm<\/a>.",
+        "content": "\"Battle Symphony\" is a promotional single by American rock band Linkin Park. The song was recorded by the band for their seventh studio album, titled One More Light. The song appears on the album as the fourth track. The song was written by Linkin Park members Brad Delson and Mike Shinoda. The song was released on March 16, 2017, but it was leaked some days before.\n\nThe title \"Battle Symphony\" was first seen in a picture posted on Joe Hahn's Instagram story on September 6, 2016 of Brad playing acoustic guitar with the band's song board behind him he also copyrighted. The band premiered the lyrics on Genius.com. A few videos were posted on social media teasing the release of the single with few making of clips. Mike Shinoda also did a live stream on Instagram to discuss the single. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Battle+Symphony\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

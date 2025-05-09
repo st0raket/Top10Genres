@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:44:49.905341+00:00",
+  "elapsed": 0.218025,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:49.905341+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3133",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DRAM&format=json&method=track.getInfo&track=Broccoli"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DRAM&format=json&method=track.getInfo&track=Broccoli",
+  "_decoded_content": {
+    "track": {
+      "name": "Broccoli",
+      "url": "https:\/\/www.last.fm\/music\/Dram\/_\/Broccoli",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "195943",
+      "playcount": "1128498",
+      "artist": {
+        "name": "Dram",
+        "url": "https:\/\/www.last.fm\/music\/Dram"
+      },
+      "album": {
+        "artist": "Dram",
+        "title": "Big Baby Dram",
+        "url": "https:\/\/www.last.fm\/music\/Dram\/Big+Baby+Dram",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/558a6b40d9560ff58b0463e547f01d2c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/558a6b40d9560ff58b0463e547f01d2c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/558a6b40d9560ff58b0463e547f01d2c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/558a6b40d9560ff58b0463e547f01d2c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "lil yachty",
+            "url": "https:\/\/www.last.fm\/tag\/lil+yachty"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Nov 2022, 12:51",
+        "summary": "Virginia\u2019s own D.R.A.M. teams up with Atlanta-via-the-Internet sensation Lil Yachty for this upbeat ode to the lord of the vegetable kingdom: weed.\n\nThe duo flexed their viral muscle by releasing the single on SoundCloud originally, where it became a sleeper hit and migrated to the big streaming services.\n\nThis is actually neither the first nor only rap song named \u201cBroccoli.\u201d All-time Bay Area legend E-40 released his own song named for the cruciferous comestible way back in 1998. <a href=\"http:\/\/www.last.fm\/music\/Dram\/_\/Broccoli\">Read more on Last.fm<\/a>.",
+        "content": "Virginia\u2019s own D.R.A.M. teams up with Atlanta-via-the-Internet sensation Lil Yachty for this upbeat ode to the lord of the vegetable kingdom: weed.\n\nThe duo flexed their viral muscle by releasing the single on SoundCloud originally, where it became a sleeper hit and migrated to the big streaming services.\n\nThis is actually neither the first nor only rap song named \u201cBroccoli.\u201d All-time Bay Area legend E-40 released his own song named for the cruciferous comestible way back in 1998.\n\nOn June 21, 2016 the song debuted on the Billboard Hot 100 at number 87.\n\nThe video for the song was released on July 22, and features D.R.A.M and Yachty riding around on a piano and waving bits of actual broccoli in the air.\n\nD.R.A.M said in a verified Genius annotation:\n\n\"At first, it was the piano with the drum loop, we had the flute and when that went in, everyone started vibing. Yachty started on his verse and I didn\u2019t have any bars at first so I told him to go in. When he left, I didn\u2019t even have my verse, I just had the bridge.\nIt was just good timing. It turned into something more than I expected, to be honest, I thought it\u2019d be something dope for Soundcloud and just good for the culture. But the fact that it\u2019s bleeding into every facet of the musical charts, it\u2019s dope as hell.\" <a href=\"http:\/\/www.last.fm\/music\/Dram\/_\/Broccoli\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

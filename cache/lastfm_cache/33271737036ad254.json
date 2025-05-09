@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:43.658821+00:00",
+  "elapsed": 0.215936,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:43.658821+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1988",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=My+Choppa+Hate+Niggas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=My+Choppa+Hate+Niggas",
+  "_decoded_content": {
+    "track": {
+      "name": "My Choppa Hate Niggas",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/My+Choppa+Hate+Niggas",
+      "duration": "148000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "303152",
+      "playcount": "2836523",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "album": {
+        "artist": "21 Savage",
+        "title": "Without Warning",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage\/Without+Warning",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Horrorcore",
+            "url": "https:\/\/www.last.fm\/tag\/Horrorcore"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 23:53",
+        "summary": "On this track, 21 Savage refers to the violence in the streets caused by the gang wars, and his personal experiences as a former Blood.\n\nThis is the first track on the project where 21 raps by himself. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/My+Choppa+Hate+Niggas\">Read more on Last.fm<\/a>.",
+        "content": "On this track, 21 Savage refers to the violence in the streets caused by the gang wars, and his personal experiences as a former Blood.\n\nThis is the first track on the project where 21 raps by himself. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/My+Choppa+Hate+Niggas\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

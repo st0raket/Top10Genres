@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:31:10.435549+00:00",
+  "elapsed": 0.218014,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:10.435549+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1285",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aaron+Smith&format=json&method=track.getInfo&track=Dancin"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aaron+Smith&format=json&method=track.getInfo&track=Dancin",
+  "_decoded_content": {
+    "track": {
+      "name": "Dancin",
+      "mbid": "6710e9c6-7859-4e4f-90b1-9f012d355231",
+      "url": "https:\/\/www.last.fm\/music\/Aaron+Smith\/_\/Dancin",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "33282",
+      "playcount": "263872",
+      "artist": {
+        "name": "Aaron Smith",
+        "mbid": "4caea77b-cfcf-4eba-8c97-6ca137474d98",
+        "url": "https:\/\/www.last.fm\/music\/Aaron+Smith"
+      },
+      "album": {
+        "artist": "Aaron Smith",
+        "title": "Dancin (KRONO Remix)",
+        "mbid": "0ed28d32-bb85-41cd-aa5a-1d83764528d9",
+        "url": "https:\/\/www.last.fm\/music\/Aaron+Smith\/Dancin+(KRONO+Remix)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2fc8fb470117efa1ab34f30474b44412.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2fc8fb470117efa1ab34f30474b44412.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2fc8fb470117efa1ab34f30474b44412.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2fc8fb470117efa1ab34f30474b44412.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "Sugar Rush Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Sugar+Rush+Soundtrack"
+          }
+        ]
+      }
+    }
+  }
+}

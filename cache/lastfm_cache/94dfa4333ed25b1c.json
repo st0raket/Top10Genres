@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:33:26.093618+00:00",
+  "elapsed": 0.208109,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:26.093618+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2156",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=D4L"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=D4L",
+  "_decoded_content": {
+    "track": {
+      "name": "D4L",
+      "url": "https:\/\/www.last.fm\/music\/Future\/_\/D4L",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "177682",
+      "playcount": "1526187",
+      "artist": {
+        "name": "Future",
+        "mbid": "9f1195cf-9900-45db-bf9c-21c205672ae0",
+        "url": "https:\/\/www.last.fm\/music\/Future"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hype",
+            "url": "https:\/\/www.last.fm\/tag\/hype"
+          },
+          {
+            "name": "future",
+            "url": "https:\/\/www.last.fm\/tag\/future"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "Young Thug",
+            "url": "https:\/\/www.last.fm\/tag\/Young+Thug"
+          },
+          {
+            "name": "808 mafia",
+            "url": "https:\/\/www.last.fm\/tag\/808+mafia"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Aug 2022, 19:47",
+        "summary": "Drake reunites with Atlanta trap artists Future and Young Thug for a tribute to the Atlanta rap collective D4L, which consisted of members Fabo, Mook-B, Stoney, and Shawty Lo.\n\nThe song is a remix of Dreezy\u2019s and 2 Chainz\u2018 January 2018 track \u201c2nd to None\u201d\u2013which was also produced by Southside.\n\nThroughout the track, the trio represent their individual labels, Drake\u2019s October\u2019s Very Own (OVO), Future\u2019s FreeBandz Gang (FBG), and Thugger\u2019s Young Stoner Life Records (YSL) <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/D4L\">Read more on Last.fm<\/a>.",
+        "content": "Drake reunites with Atlanta trap artists Future and Young Thug for a tribute to the Atlanta rap collective D4L, which consisted of members Fabo, Mook-B, Stoney, and Shawty Lo.\n\nThe song is a remix of Dreezy\u2019s and 2 Chainz\u2018 January 2018 track \u201c2nd to None\u201d\u2013which was also produced by Southside.\n\nThroughout the track, the trio represent their individual labels, Drake\u2019s October\u2019s Very Own (OVO), Future\u2019s FreeBandz Gang (FBG), and Thugger\u2019s Young Stoner Life Records (YSL), brag about their high-class lifestyles, and interpolate Drizzy\u2019s iconic \u201cwhat\u2019s hannenin'?\u201d from his June 2010 single with Lil Wayne, \u201cMiss Me\u201d\u2014a line which was in turn borrowed from D4L\u2019s November 2005 song, \u201cI\u2019m Da Man.\u201d <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/D4L\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

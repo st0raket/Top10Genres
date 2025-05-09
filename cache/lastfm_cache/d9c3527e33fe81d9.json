@@ -1,0 +1,93 @@
+{
+  "created_at": "2025-05-03T14:32:57.208478+00:00",
+  "elapsed": 0.204902,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:57.208478+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2890",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=That%27s+What+Love+Is"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=That%27s+What+Love+Is",
+  "_decoded_content": {
+    "track": {
+      "name": "That's What Love Is",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/That%27s+What+Love+Is",
+      "duration": "165000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62371",
+      "playcount": "370664",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Justin Bieber",
+        "title": "Changes",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/Changes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ccc29b0726262cfe711f2c8219738a34.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2022, 06:11",
+        "summary": "\u201cThat\u2019s What Love Is\u201d is the fifteenth song on Justin Bieber\u2019s fifth studio album \"Changes\".\n\nOn the track, Bieber sings with a backing guitar instrumental about how much he admires the \u201cgreatness\u201d that comes with being in a relationship, and how he has learned from being in love.\n\nIn a Pitchfork review of \"Changes\", Jayson Greene called this song a highlight of the album:\n\n\u201cThat\u2019s What Love Is\u201d features nothing but an acoustic guitar, capo\u2019d high and twinkling like a music box. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/That%27s+What+Love+Is\">Read more on Last.fm<\/a>.",
+        "content": "\u201cThat\u2019s What Love Is\u201d is the fifteenth song on Justin Bieber\u2019s fifth studio album \"Changes\".\n\nOn the track, Bieber sings with a backing guitar instrumental about how much he admires the \u201cgreatness\u201d that comes with being in a relationship, and how he has learned from being in love.\n\nIn a Pitchfork review of \"Changes\", Jayson Greene called this song a highlight of the album:\n\n\u201cThat\u2019s What Love Is\u201d features nothing but an acoustic guitar, capo\u2019d high and twinkling like a music box. The words redefine \u201csweet nothings\u201d (\u201cDon\u2019t nobody else deserve my eyes,\u201d he avows) but they dissolve in the sunlight of Bieber\u2019s falsetto. The way he capers between chest and head voice is effortless and dazzling, like watching a figure skater land triple lutzes, one after the other. For exactly two minutes and forty-five seconds, the joy he takes in his talent is palpable. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/That%27s+What+Love+Is\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

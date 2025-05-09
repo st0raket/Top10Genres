@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:52.638630+00:00",
+  "elapsed": 0.187033,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:52.638630+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3030",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Grenade"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Grenade",
+  "_decoded_content": {
+    "track": {
+      "name": "Grenade",
+      "mbid": "d7a442fe-c87c-428f-adbf-1c0d3d88ae6a",
+      "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Grenade",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1516001",
+      "playcount": "12874362",
+      "artist": {
+        "name": "Bruno Mars",
+        "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars"
+      },
+      "album": {
+        "artist": "Bruno Mars",
+        "title": "Doo-Wops & Hooligans",
+        "mbid": "a854d4ac-66d2-4d6c-a225-7f22beb71472",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/Doo-Wops+&+Hooligans",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Bruno Mars",
+            "url": "https:\/\/www.last.fm\/tag\/Bruno+Mars"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "Grenade",
+            "url": "https:\/\/www.last.fm\/tag\/Grenade"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Oct 2010, 17:10",
+        "summary": "\"Grenade\" is a song by American singer and songwriter Bruno Mars from his debut studio album, Doo-Wops & Hooligans (2010). The pop and R&B ballad, was written and produced by The Smeezingtons (Mars, Phillip Lawrence, Ari Levine) with additional songwriting by Brody Brown, Claude Kelly, and Andrew Wyatt. The song was developed from an unreleased track with similar lyrical themes played by record producer Benny Blanco to Mars. \"Grenade\" was completely rearranged and re\u2011recorded two days before the album's release. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Grenade\">Read more on Last.fm<\/a>.",
+        "content": "\"Grenade\" is a song by American singer and songwriter Bruno Mars from his debut studio album, Doo-Wops & Hooligans (2010). The pop and R&B ballad, was written and produced by The Smeezingtons (Mars, Phillip Lawrence, Ari Levine) with additional songwriting by Brody Brown, Claude Kelly, and Andrew Wyatt. The song was developed from an unreleased track with similar lyrical themes played by record producer Benny Blanco to Mars. \"Grenade\" was completely rearranged and re\u2011recorded two days before the album's release. The lyrics carry a message of unrequited love and how Mars' heart was broken, despite his best efforts to show her his love. Elektra Records released the song as the second promotional single and as the second official single, to contemporary hit and rhythmic contemporary stations in the United States in October 2010. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Grenade\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

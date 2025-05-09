@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:32:43.601290+00:00",
+  "elapsed": 0.223992,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:43.601290+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "896",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Selena+Gomez&format=json&method=track.getInfo&track=A+Sweeter+Place"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Selena+Gomez&format=json&method=track.getInfo&track=A+Sweeter+Place",
+  "_decoded_content": {
+    "track": {
+      "name": "A Sweeter Place",
+      "url": "https:\/\/www.last.fm\/music\/Selena+Gomez\/_\/A+Sweeter+Place",
+      "duration": "263000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4966",
+      "playcount": "57047",
+      "artist": {
+        "name": "Selena Gomez",
+        "mbid": "e4bc69e2-a064-4f93-ada1-f7f209cc1cc3",
+        "url": "https:\/\/www.last.fm\/music\/Selena+Gomez"
+      },
+      "album": {
+        "artist": "Selena Gomez",
+        "title": "Rare",
+        "url": "https:\/\/www.last.fm\/music\/Selena+Gomez\/Rare",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

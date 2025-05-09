@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:27.937806+00:00",
+  "elapsed": 0.19298,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:27.937806+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2773",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Jumpsuit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Jumpsuit",
+  "_decoded_content": {
+    "track": {
+      "name": "Jumpsuit",
+      "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Jumpsuit",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "420183",
+      "playcount": "5177881",
+      "artist": {
+        "name": "Twenty One Pilots",
+        "mbid": "a6c6897a-7415-4f8d-b5a5-3a5e05f3be67",
+        "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2018, 17:56",
+        "summary": "\u201cJumpsuit\u201d is one of two singles released to promote Twenty One Pilots' fifth album, Trench; the other being \u201cNico And The Niners.\u201d The single was first scheduled to premiere in some radio stations in the US but was instead released 30 minutes before that on iTunes and YouTube respectively.\n\nThe song\u2019s music style is characterized by the contrast between its heavy rock feel and the generally restrained vocals. It also makes frequent use of voice modulation and other synthetic sounds. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Jumpsuit\">Read more on Last.fm<\/a>.",
+        "content": "\u201cJumpsuit\u201d is one of two singles released to promote Twenty One Pilots' fifth album, Trench; the other being \u201cNico And The Niners.\u201d The single was first scheduled to premiere in some radio stations in the US but was instead released 30 minutes before that on iTunes and YouTube respectively.\n\nThe song\u2019s music style is characterized by the contrast between its heavy rock feel and the generally restrained vocals. It also makes frequent use of voice modulation and other synthetic sounds.\n\nLyrically, the song makes reference to the disillusion to Dema (a fictional walled city) and the escape attempts of Clancy as described on the \u201cdmaorg\u201d website that accompanies this album. The song\u2019s title reference\u2019s a yellow jumpsuit that is used to avoid detection from the bishops that oversee Dema since the bishops are unable to see the color yellow. One such escape attempt is shown in the music video for the song.\n\nIn a greater sense, the city of Dema represents mental illness, and the bishops represent the demons that haunt Tyler. The jumpsuit is a symbolic means to suppress his negative thoughts. The color yellow symbolizes daylight, and the jumpsuit acts as a reminder that morning is coming and his demons will fade away. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Jumpsuit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

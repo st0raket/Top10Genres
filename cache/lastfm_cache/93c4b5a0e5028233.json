@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:30:12.400445+00:00",
+  "elapsed": 0.183143,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:12.400445+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3007",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=get+well+soon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=get+well+soon",
+  "_decoded_content": {
+    "track": {
+      "name": "Get Well Soon",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Get+Well+Soon",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "307990",
+      "playcount": "3836498",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "a perfect ending to a perfect album",
+            "url": "https:\/\/www.last.fm\/tag\/a+perfect+ending+to+a+perfect+album"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jun 2021, 17:51",
+        "summary": "\"get well soon\" serves as the final track for Ariana's album \"Sweetener\". The additional 40 seconds after the outro pays respect to the victims of the Manchester Arena bombing that happened during the Dangerous Woman Tour on May 22nd 2017, which killed 22 people. Ariana replied to a tweet on Twitter asking about the song's meaning: \"isss ab my anxiety. i felt like i was floating for like 3 months last year & not in a nice way. like i outside my body? was v scary and i couldn\u2019t breathe well. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Get+Well+Soon\">Read more on Last.fm<\/a>.",
+        "content": "\"get well soon\" serves as the final track for Ariana's album \"Sweetener\". The additional 40 seconds after the outro pays respect to the victims of the Manchester Arena bombing that happened during the Dangerous Woman Tour on May 22nd 2017, which killed 22 people. Ariana replied to a tweet on Twitter asking about the song's meaning: \"isss ab my anxiety. i felt like i was floating for like 3 months last year & not in a nice way. like i outside my body? was v scary and i couldn\u2019t breathe well. so it\u2019s ab that. & lots of voices in my head singin. i hope it comforts ppl who hear it pls\"\n\nOn a 2018 Beats 1  Interview, someone asked: Why was it called \"get well soon?\" Pharrell Williams (The Producer) commented: People who are often dealing with mental health issues don\u2019t signal loud enough for the world to understand that they\u2019re suffering. And also our hearing for people who are going through stuff like that needs work too; the way in which we listen and the way in which we acknowledge people. We need to pay attention to those signs and those signals.\nWhat I love about \u201cget well soon\u201d is this is Ari going through something not quite as severe but going through a situation where she was depressed \u2026 and she had the willingness to put that out there for the world and that\u2019s how we made \u201cget well soon\u201d because she was open and she trusted and she let me push.\nWe wanted this to be a hallmark card for that kind of situation. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Get+Well+Soon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

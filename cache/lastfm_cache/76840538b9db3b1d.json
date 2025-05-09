@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:19.114659+00:00",
+  "elapsed": 0.217193,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:19.114659+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5970",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AURORA&format=json&method=track.getInfo&track=Runaway"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AURORA&format=json&method=track.getInfo&track=Runaway",
+  "_decoded_content": {
+    "track": {
+      "name": "Runaway",
+      "url": "https:\/\/www.last.fm\/music\/Aurora\/_\/Runaway",
+      "duration": "251000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "819019",
+      "playcount": "8065068",
+      "artist": {
+        "name": "Aurora",
+        "url": "https:\/\/www.last.fm\/music\/Aurora"
+      },
+      "album": {
+        "artist": "Aurora",
+        "title": "All My Demons Greeting Me As A Friend (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Aurora\/All+My+Demons+Greeting+Me+As+A+Friend+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3b34f6f1b339e9857fb276c318cb8b05.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3b34f6f1b339e9857fb276c318cb8b05.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3b34f6f1b339e9857fb276c318cb8b05.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3b34f6f1b339e9857fb276c318cb8b05.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "norwegian",
+            "url": "https:\/\/www.last.fm\/tag\/norwegian"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "2015",
+            "url": "https:\/\/www.last.fm\/tag\/2015"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Mar 2021, 09:10",
+        "summary": "\"Runaway\" was released on February 9, 2015 on SoundCloud and on February 16, 2015 for digital download and streaming as the lead single from AURORA's debut extended play, Running With The Wolves, and from her debut album, All My Demons Greeting Me As A Friend. Its music video, directed by Kenny McCracken and shot during January 31 to February 2, 2015, in Bergen, Norway, was released on February 27, 2015, with a limited premiere on February 26.\n\nAURORA wrote the song when she was 11-12 years old for a school assignment <a href=\"http:\/\/www.last.fm\/music\/Aurora\/_\/Runaway\">Read more on Last.fm<\/a>.",
+        "content": "\"Runaway\" was released on February 9, 2015 on SoundCloud and on February 16, 2015 for digital download and streaming as the lead single from AURORA's debut extended play, Running With The Wolves, and from her debut album, All My Demons Greeting Me As A Friend. Its music video, directed by Kenny McCracken and shot during January 31 to February 2, 2015, in Bergen, Norway, was released on February 27, 2015, with a limited premiere on February 26.\n\nAURORA wrote the song when she was 11-12 years old for a school assignment, originally the chorus had the \"take me home\" line only once. The song was the first demo she recorded with co-writer and producer Magnus Skylstad. It was made available to listen online late 2013. The first known live performance of the song was on 2\/20\/2014 at Nabovarsel Minifestival. After signing a record deal, the song was recorded again in winter 2014 for AURORA's debut EP.\n\nLyrically, the song is about escapism and \"realising you want to get home again.\" AURORA expanded that \"home\" for her refers to \"where my parents are,\" which was something she reflected while touring. In an interview with The 405 she said: \"It's strange how this song fits my life better now that I could ever imagine when I wrote the song itself. It's about how important it is to have a soft place to fall\". According to AURORA, the lyrics \"came out of nowhere\" and the they became meaningful to her after she grew up. The singer has stated that \"Runaway\" is one of the few songs from her debut album to \"be about [her].\" The verses cover various topics like \"climbing trees, painting pictures, and dancing in the rain.\" At the chorus of the song she begs \"Take me home, home where I belong.\"\n\nUpon its release, \"Runaway\" was streamed over a million times in six weeks on the streaming platform Spotify. The song did not impact any record charts until it gained attention in 2021 with a trend on the video-sharing platform TikTok. The trend consisted of posing while using a filter that repeatedly changed to a \"starry sky\" background. AURORA herself later posted a video on TikTok using the filter. \"Runaway\" became AURORA's most successful single in her native Norway, charting at number 14. The song did not enter the US Billboard Hot 100, though it peaked at number one on the US Bubbling Under Hot 100 chart, spending 2 weeks in that position. In the UK it entered the Singles chart at 100 for the week March 26-April 1, 2021. Its current peak is 25 (as of May 19, 2021).  The song also charted in various countries, including Australia, France, Canada, Germany, and Ireland.\n\n\"Runaway\" was certified diamond in Brazil by Pro-M\u00fasica Brasil (PMB), platinum in Norway by the International Federation of the Phonographic Industry (IFPI Norway) and in the United Kingdom by the British Phonographic Industry (BPI), and gold in the United States by the Recording Industry Association of America (RIAA).\n\nDue to the popularity of \"Runaway\" in streaming services and its six-year anniversary in 2021, AURORA released a series of compilation EPs that contained her released songs at the time. The song was eventually included on the compilation EP FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST, released on 4 February. The same day, AURORA posted a YouTube video clip subtitled \"Tik Tok Fan Edition\", which included several clips that were published to TikTok.\n\n\u2022 Billie Eilish credits this song as one of the reasons she started working with music. Since then, AURORA and Eilish have met on two occasions, and both are fans of each other.\n\u2022 Before going viral, the song received praise from Katy Perry, tweeting that the song \"makes my \u2764\ufe0f a flutter\". Australian singer and songwriter Troye Sivan also commented about the song, saying it is \"100% my fave sic song at the minute.\"\n\u2022 AURORA was awarded a NOPA grant of kr 30,000 for this song in 2014. <a href=\"http:\/\/www.last.fm\/music\/Aurora\/_\/Runaway\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

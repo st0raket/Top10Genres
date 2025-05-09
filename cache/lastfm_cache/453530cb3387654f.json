@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:35:09.648000+00:00",
+  "elapsed": 0.216219,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:09.648000+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "970",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mary+Gu&format=json&method=track.getInfo&track=%D0%9A%D0%BE%D1%81%D0%B8%D1%87%D0%BA%D0%B8"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mary+Gu&format=json&method=track.getInfo&track=%D0%9A%D0%BE%D1%81%D0%B8%D1%87%D0%BA%D0%B8",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041a\u043e\u0441\u0438\u0447\u043a\u0438",
+      "url": "https:\/\/www.last.fm\/music\/Mary+Gu\/_\/%D0%9A%D0%BE%D1%81%D0%B8%D1%87%D0%BA%D0%B8",
+      "duration": "148000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "10494",
+      "playcount": "88382",
+      "artist": {
+        "name": "Mary Gu",
+        "url": "https:\/\/www.last.fm\/music\/Mary+Gu"
+      },
+      "album": {
+        "artist": "Mary Gu",
+        "title": "\u0445\u043e\u0440\u043e\u0448\u0435\u0435 \u0438 \u043f\u043b\u043e\u0445\u043e\u0435 - EP",
+        "url": "https:\/\/www.last.fm\/music\/Mary+Gu\/%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5+%D0%B8+%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B5+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5b2941d1efab67a653e8acd420b069c9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5b2941d1efab67a653e8acd420b069c9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5b2941d1efab67a653e8acd420b069c9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5b2941d1efab67a653e8acd420b069c9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

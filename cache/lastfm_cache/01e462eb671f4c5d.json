@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:35:46.542902+00:00",
+  "elapsed": 0.212647,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:46.542902+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "906",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Balvin&format=json&method=track.getInfo&track=Poblado"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Balvin&format=json&method=track.getInfo&track=Poblado",
+  "_decoded_content": {
+    "track": {
+      "name": "Poblado",
+      "url": "https:\/\/www.last.fm\/music\/J+Balvin\/_\/Poblado",
+      "duration": "391000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "641",
+      "playcount": "3148",
+      "artist": {
+        "name": "J Balvin",
+        "mbid": "5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+        "url": "https:\/\/www.last.fm\/music\/J+Balvin"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Perreo Viejo VS Nuevo",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Perreo+Viejo+VS+Nuevo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b8612eb8ee881061f8316de61728dbe3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b8612eb8ee881061f8316de61728dbe3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b8612eb8ee881061f8316de61728dbe3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b8612eb8ee881061f8316de61728dbe3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

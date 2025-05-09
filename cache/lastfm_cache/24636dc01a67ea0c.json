@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:52.782637+00:00",
+  "elapsed": 0.204129,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:52.782637+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2414",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=I%27m+Not+Here+To+Make+Friends"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=I%27m+Not+Here+To+Make+Friends",
+  "_decoded_content": {
+    "track": {
+      "name": "I'm Not Here to Make Friends",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/_\/I%27m+Not+Here+to+Make+Friends",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "159957",
+      "playcount": "1049960",
+      "artist": {
+        "name": "Sam Smith",
+        "mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith"
+      },
+      "album": {
+        "artist": "Sam Smith",
+        "title": "Gloria (Apple Music Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/Gloria+(Apple+Music+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/76041f72a2ffb5d26fd47350a7bc1906.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/76041f72a2ffb5d26fd47350a7bc1906.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/76041f72a2ffb5d26fd47350a7bc1906.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/76041f72a2ffb5d26fd47350a7bc1906.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 May 2023, 02:43",
+        "summary": "\"I'm Not Here to Make Friends\" is a song by English singer-songwriter Sam Smith. It was released on 27 January 2023 by Capitol Records as the fourth single from Smith's 2023 studio album, Gloria. The song was produced by Calvin Harris, StarGate, Jimmy Napes and Smith, and features vocals by RuPaul and Jessie Reyez. Smith previously collaborated with Harris and Reyez on \"Promises\" in 2018. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/I%27m+Not+Here+to+Make+Friends\">Read more on Last.fm<\/a>.",
+        "content": "\"I'm Not Here to Make Friends\" is a song by English singer-songwriter Sam Smith. It was released on 27 January 2023 by Capitol Records as the fourth single from Smith's 2023 studio album, Gloria. The song was produced by Calvin Harris, StarGate, Jimmy Napes and Smith, and features vocals by RuPaul and Jessie Reyez. Smith previously collaborated with Harris and Reyez on \"Promises\" in 2018. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/I%27m+Not+Here+to+Make+Friends\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

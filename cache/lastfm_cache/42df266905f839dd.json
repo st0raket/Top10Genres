@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:54.023794+00:00",
+  "elapsed": 0.209138,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:54.023794+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2909",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Logic&format=json&method=track.getInfo&track=Black+SpiderMan"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Logic&format=json&method=track.getInfo&track=Black+SpiderMan",
+  "_decoded_content": {
+    "track": {
+      "name": "Black SpiderMan",
+      "url": "https:\/\/www.last.fm\/music\/Logic\/_\/Black+SpiderMan",
+      "duration": "331000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "87056",
+      "playcount": "547247",
+      "artist": {
+        "name": "Logic",
+        "mbid": "b2f45ca6-2c92-438c-b037-ad4d8b92e90e",
+        "url": "https:\/\/www.last.fm\/music\/Logic"
+      },
+      "album": {
+        "artist": "Logic",
+        "title": "Everybody",
+        "url": "https:\/\/www.last.fm\/music\/Logic\/Everybody",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "corny",
+            "url": "https:\/\/www.last.fm\/tag\/corny"
+          },
+          {
+            "name": "logic",
+            "url": "https:\/\/www.last.fm\/tag\/logic"
+          },
+          {
+            "name": "makes me happy",
+            "url": "https:\/\/www.last.fm\/tag\/makes+me+happy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 05:47",
+        "summary": "\u201cBlack Spiderman\u201d is Logic\u2019s way of telling people to be themselves and be proud of it and also to respect other people\u2019s opinions.\n\nHe wants everyone to know that race, religion, color, creed, and sexual orientation shouldn\u2019t be able to separate us because we are all human.\n\nIn the liner notes for this song, Logic said:\n\n\"'This song is the celebration of unity and a world built upon division. People say things like I don\u2019t see color, I just see people. <a href=\"http:\/\/www.last.fm\/music\/Logic\/_\/Black+SpiderMan\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBlack Spiderman\u201d is Logic\u2019s way of telling people to be themselves and be proud of it and also to respect other people\u2019s opinions.\n\nHe wants everyone to know that race, religion, color, creed, and sexual orientation shouldn\u2019t be able to separate us because we are all human.\n\nIn the liner notes for this song, Logic said:\n\n\"'This song is the celebration of unity and a world built upon division. People say things like I don\u2019t see color, I just see people. To which I retour you should see color, you should see a black man, a white woman, a brown little girl or any other color of the rainbow.'\"\n\nThis track features vocals from Damien Lemar Hudson.\n\nLogic officially released this song on April 14th, 2017 as the second single from his third studio album \"Everybody\".\n\nThis song was first teased on December 1, 2016 via Logic\u2019s twitter. He also teased a part of it on his Instagram story. <a href=\"http:\/\/www.last.fm\/music\/Logic\/_\/Black+SpiderMan\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

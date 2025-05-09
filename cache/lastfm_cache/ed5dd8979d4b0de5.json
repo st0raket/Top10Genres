@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:40.474285+00:00",
+  "elapsed": 0.437298,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:40.474285+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3492",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=I+Almost+Do"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=I+Almost+Do",
+  "_decoded_content": {
+    "track": {
+      "name": "I Almost Do",
+      "mbid": "680a297b-1716-4c82-b60a-8a84bd628719",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Almost+Do",
+      "duration": "242000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "266243",
+      "playcount": "2419550",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Red",
+        "mbid": "90d96ad7-ca44-41f2-bc47-cbc9c762be3b",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "red",
+            "url": "https:\/\/www.last.fm\/tag\/red"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 May 2024, 06:00",
+        "summary": "\u201cI Almost Do,\u201d is a song that describes the internal conflict that goes on when reminiscing about a romance. Taylor commented on the song saying\u2014\n\n\u201cI Almost Do'\u201d is a song I wrote about the conflict that you feel when you want to take someone back, and you want to give it another try, but you know you can\u2019t. And you can\u2019t because you know it\u2019s hurt you so deeply that you know that you couldn\u2019t bear to go through that again. So you\u2019re <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Almost+Do\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI Almost Do,\u201d is a song that describes the internal conflict that goes on when reminiscing about a romance. Taylor commented on the song saying\u2014\n\n\u201cI Almost Do'\u201d is a song I wrote about the conflict that you feel when you want to take someone back, and you want to give it another try, but you know you can\u2019t. And you can\u2019t because you know it\u2019s hurt you so deeply that you know that you couldn\u2019t bear to go through that again. So you\u2019re sitting there and wondering where they are and hope that they think about you and that you\u2019re almost picking up the phone call, but you just can\u2019t. I think I needed to write this song in order to not call that person actually. I think that writing the song was what I did instead of picking up the phone.\n\nThe same relationship she wrote this song about left her so emotional that she suffered six months of writing block prior to being able to begin writing Red, as she mentioned to USA Today.\n\nThere\u2019s a kind of bad that gets so overpowering you can\u2019t even write about it. When you feel pain that is so far past dysfunctional, that leaves you with so many emotions that you can\u2019t filter them down to simple emotions to write about. That\u2019s when you know you really need to get out.\n\nThe hidden message written in the album for \u201cI Almost Do\u201d reads, \u201cWrote this instead of calling.\u201d <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Almost+Do\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

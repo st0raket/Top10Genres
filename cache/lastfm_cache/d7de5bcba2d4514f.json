@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:47.038688+00:00",
+  "elapsed": 0.225334,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:47.038688+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2245",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hwa+Sa&format=json&method=track.getInfo&track=Maria"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hwa+Sa&format=json&method=track.getInfo&track=Maria",
+  "_decoded_content": {
+    "track": {
+      "name": "Maria",
+      "url": "https:\/\/www.last.fm\/music\/Hwa+Sa\/_\/Maria",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "256655",
+      "playcount": "2817738",
+      "artist": {
+        "name": "Hwa Sa",
+        "url": "https:\/\/www.last.fm\/music\/Hwa+Sa"
+      },
+      "album": {
+        "artist": "Hwa Sa",
+        "title": "Mar\u00eda",
+        "url": "https:\/\/www.last.fm\/music\/Hwa+Sa\/Mar%C3%ADa",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7bdd143e05d008d995b82d3d894d2206.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7bdd143e05d008d995b82d3d894d2206.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7bdd143e05d008d995b82d3d894d2206.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7bdd143e05d008d995b82d3d894d2206.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Mar 2021, 06:04",
+        "summary": "\"Maria\" is the second song on Hwa Sa's debut EP Mar\u00eda. It was released as the EP's second single on June 29, 2020. The single debuted at number three on the Gaon Digital Chart, later peaking at number two, and at number six on the Billboard World Digital Song Sales chart. The music video, posted simultaneously to Mamamoo's YouTube channel and 1theK, has over 143 million views as of January 1, 2021.\n\n <a href=\"http:\/\/www.last.fm\/music\/Hwa+Sa\/_\/Maria\">Read more on Last.fm<\/a>.",
+        "content": "\"Maria\" is the second song on Hwa Sa's debut EP Mar\u00eda. It was released as the EP's second single on June 29, 2020. The single debuted at number three on the Gaon Digital Chart, later peaking at number two, and at number six on the Billboard World Digital Song Sales chart. The music video, posted simultaneously to Mamamoo's YouTube channel and 1theK, has over 143 million views as of January 1, 2021.\n\n <a href=\"http:\/\/www.last.fm\/music\/Hwa+Sa\/_\/Maria\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

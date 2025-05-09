@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:43:48.875285+00:00",
+  "elapsed": 0.207694,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:48.875285+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1078",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=AP+-+Music+from+the+film+Boogie"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=AP+-+Music+from+the+film+Boogie",
+  "_decoded_content": {
+    "track": {
+      "name": "AP - Music from the film Boogie",
+      "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/_\/AP+-+Music+from+the+film+Boogie",
+      "duration": "171000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "131073",
+      "playcount": "1126007",
+      "artist": {
+        "name": "Pop Smoke",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke"
+      },
+      "album": {
+        "artist": "Pop Smoke",
+        "title": "AP (Music from the film \"Boogie\") - Single",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/AP+(Music+from+the+film+%22Boogie%22)+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4eea3523f1bc0333c59eff3d61971580.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4eea3523f1bc0333c59eff3d61971580.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4eea3523f1bc0333c59eff3d61971580.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4eea3523f1bc0333c59eff3d61971580.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Pop Smoke",
+            "url": "https:\/\/www.last.fm\/tag\/Pop+Smoke"
+          },
+          {
+            "name": "AP SPICEY",
+            "url": "https:\/\/www.last.fm\/tag\/AP+SPICEY"
+          }
+        ]
+      }
+    }
+  }
+}

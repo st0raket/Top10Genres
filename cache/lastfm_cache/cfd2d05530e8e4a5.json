@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:20.981082+00:00",
+  "elapsed": 0.198723,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:20.981082+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1961",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Forever"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Forever",
+  "_decoded_content": {
+    "track": {
+      "name": "Forever",
+      "url": "https:\/\/www.last.fm\/music\/Exo\/_\/Forever",
+      "duration": "230000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "78474",
+      "playcount": "1071084",
+      "artist": {
+        "name": "Exo",
+        "mbid": "f2f9845c-6803-4451-a10e-9c6673608667",
+        "url": "https:\/\/www.last.fm\/music\/Exo"
+      },
+      "album": {
+        "artist": "EXO",
+        "title": "THE WAR - The 4th Album",
+        "url": "https:\/\/www.last.fm\/music\/EXO\/THE+WAR+-+The+4th+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3a0a3007eb7d385334b5cd167e4ec86b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3a0a3007eb7d385334b5cd167e4ec86b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3a0a3007eb7d385334b5cd167e4ec86b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3a0a3007eb7d385334b5cd167e4ec86b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "epic",
+            "url": "https:\/\/www.last.fm\/tag\/epic"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jul 2017, 11:27",
+        "summary": "Forever is a song recorded by South Korean boy group EXO. It is the fourth track in their fourth studio album, THE WAR.\n\nIt was written by kenzie, who also produced the song with Adrian Mckinnon and LDN Noise, who arranged the song. <a href=\"http:\/\/www.last.fm\/music\/Exo\/_\/Forever\">Read more on Last.fm<\/a>.",
+        "content": "Forever is a song recorded by South Korean boy group EXO. It is the fourth track in their fourth studio album, THE WAR.\n\nIt was written by kenzie, who also produced the song with Adrian Mckinnon and LDN Noise, who arranged the song. <a href=\"http:\/\/www.last.fm\/music\/Exo\/_\/Forever\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

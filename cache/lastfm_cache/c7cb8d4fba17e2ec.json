@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:13.080456+00:00",
+  "elapsed": 0.251753,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:13.080456+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4914",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Hurricane"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Hurricane",
+  "_decoded_content": {
+    "track": {
+      "name": "Hurricane",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Hurricane",
+      "duration": "243000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "822236",
+      "playcount": "12169702",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Donda",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Donda",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Sep 2021, 21:23",
+        "summary": "\"Hurricane\" is a song by American rapper Kanye West from his tenth studio album \"Donda\". The song features vocals from Canadian singer The Weeknd and American rapper Lil Baby. The song will be sent to American rhythmic contemporary radio stations on September 14, 2021 as the album's lead single. It was originally slated to be included on West's album Yandhi, which was eventually scrapped. The song achieved chart success in multiple countries, reaching the top-ten in Australia, Canada, Ireland, Norway, the United Kingdom and the United States. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Hurricane\">Read more on Last.fm<\/a>.",
+        "content": "\"Hurricane\" is a song by American rapper Kanye West from his tenth studio album \"Donda\". The song features vocals from Canadian singer The Weeknd and American rapper Lil Baby. The song will be sent to American rhythmic contemporary radio stations on September 14, 2021 as the album's lead single. It was originally slated to be included on West's album Yandhi, which was eventually scrapped. The song achieved chart success in multiple countries, reaching the top-ten in Australia, Canada, Ireland, Norway, the United Kingdom and the United States.\n\n\"Hurricane\" originated from the sessions for West's scrapped 2018 album \"Yandhi\" which would eventually be reworked heavily to become Jesus is King a year later. Two teaser videos posted to West's Instagram and Twitter in September 2018 previewed a version of the song which features a heavily auto-tuned West singing the chorus. The full song leaked in 2019 and has seen several versions containing verses from Ant Clemons, Big Sean, Ty Dolla $ign, Young Thug and 6ix9ine.\nOn July 18, 2020, West announced in a Twitter post that he would release a new album titled Donda on July 24, 2020, teasing a track listing with the track \"Hurricane\". On July 21, 2020, West made a tweet that said \"Lil Baby my favorite rapper but won't do a song wit me\". Lil Baby was flown out to Cody, Wyoming the same week to record for \"Donda\". In that session, Lil Baby recorded his verse for \"Hurricane\" with KayCyy recording a bridge for the track.\n\nThe song was first previewed officially on July 22, 2021, during a listening party at Mercedes Benz Stadium. The version played at the listening party featured a hook that was \"heavily autotuned\" and performed by West himself. In an interview published by GQ on August 2, the Weeknd stated that \"I'd love to work with Kanye again. Especially on production\". Shortly after, West teased on his Instagram page a photo of his call log which included \"Abel Weeknd\", leading to speculation that the Weeknd was going to be on \"Donda\". \"Hurricane\" was teased again on August 5, 2021 at the second listening party in Mercedes Benz Stadium with the Weeknd now performing the hook.\n\nAfter Donda failed to release on it's promised August 6 release date, \"Hurricane\" started appearing on Apple Music as the second track on the album. The track was released on August 8, 2021, on streaming services such as Yandex and Line Music for a short period of time before getting pulled.\n\nCo-production \u2013 Ojivolta\nAdditional production \u2013 Nascent\nMix engineering \u2013 Maurizio \"Irko\" Sera\nRecord engineering \u2013 Alejandro Rodriguez-Daws\u00f8n, Josh Berg, Mikalai Skrobat, Shin Kamiyama\nVocal editing \u2013 Louis Bell\nChoir arrangement \u2013 Jason White, Nikki Grier\nVocals \u2013 The Weeknd and Lil Baby\nAdditional vocals \u2013 KayCyy <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Hurricane\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

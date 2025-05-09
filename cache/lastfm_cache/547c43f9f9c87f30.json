@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:40:14.326613+00:00",
+  "elapsed": 0.197088,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:14.326613+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "597",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FRIENDLY+THUG+52+NGG&format=json&method=track.getInfo&track=Legit+Check"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FRIENDLY+THUG+52+NGG&format=json&method=track.getInfo&track=Legit+Check",
+  "_decoded_content": {
+    "track": {
+      "name": "Legit Check",
+      "url": "https:\/\/www.last.fm\/music\/FRIENDLY+THUG+52+NGG\/_\/Legit+Check",
+      "duration": "118000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7566",
+      "playcount": "97464",
+      "artist": {
+        "name": "FRIENDLY THUG 52 NGG",
+        "url": "https:\/\/www.last.fm\/music\/FRIENDLY+THUG+52+NGG"
+      },
+      "album": {
+        "artist": "FRIENDLY THUG 52 NGG",
+        "title": "Legit Check - Single",
+        "url": "https:\/\/www.last.fm\/music\/FRIENDLY+THUG+52+NGG\/Legit+Check+-+Single",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

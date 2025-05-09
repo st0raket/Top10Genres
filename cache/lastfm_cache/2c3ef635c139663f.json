@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:12.649147+00:00",
+  "elapsed": 0.202131,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:12.649147+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3368",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Treat+You+Better"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Treat+You+Better",
+  "_decoded_content": {
+    "track": {
+      "name": "Treat You Better",
+      "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Treat+You+Better",
+      "duration": "187000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "909346",
+      "playcount": "7486261",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes"
+      },
+      "album": {
+        "artist": "Shawn Mendes",
+        "title": "Illuminate (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/Illuminate+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ae06e2fcdfade4102007dcc5ffa9423d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "shawn mendes",
+            "url": "https:\/\/www.last.fm\/tag\/shawn+mendes"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jul 2016, 21:41",
+        "summary": "\u201cTreat You Better\u201d serves as the lead single for Shawn Mendes' second studio album. The single released on June 3, 2016. The song rocketed up the iTunes charts to number 3 within hours of release, in part, due to Shawn\u2019s #BetteroniTunes drive, encouraging fans to buy it directly from the Apple service.\n\nLyrically, Mendes sings to his romantic interest, promising to be a better boyfriend than the one she currently has. There was some speculation that this song was about Camila Cabello <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Treat+You+Better\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTreat You Better\u201d serves as the lead single for Shawn Mendes' second studio album. The single released on June 3, 2016. The song rocketed up the iTunes charts to number 3 within hours of release, in part, due to Shawn\u2019s #BetteroniTunes drive, encouraging fans to buy it directly from the Apple service.\n\nLyrically, Mendes sings to his romantic interest, promising to be a better boyfriend than the one she currently has. There was some speculation that this song was about Camila Cabello, the Fifth Harmony member who was rumored to have been dating Mendes in 2016. Both of them, however, insist that they\u2019re just friends.\n\nIn Seventeen, Mendes did talk about how he\u2019s matured since his last album, referencing a past relationship:\n\nI have songs about growing up, about ex-relationships\u2014ex-relationship, I should say. I haven\u2019t had relationships. A couple of songs about relationships with girls since fame.\n\nThis song\u2019s instrumentation is heavy on guitar. Teddy Geiger and Scott Harris helped pen the lyrics (they were behind two of the major hits on Mendes' previous album Handwritten). Gieger contributed to production alongside Dan Romer, a veteran in the music industry who\u2019s also worked with film, most notably scoring 2011\u2019s Beasts of the Southern Wild. <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Treat+You+Better\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

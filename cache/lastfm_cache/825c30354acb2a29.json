@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:37:45.970310+00:00",
+  "elapsed": 0.204571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:45.970310+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2018",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benzz&format=json&method=track.getInfo&track=Je+M%27appelle"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Benzz&format=json&method=track.getInfo&track=Je+M%27appelle",
+  "_decoded_content": {
+    "track": {
+      "name": "Je M'appelle",
+      "url": "https:\/\/www.last.fm\/music\/Benzz\/_\/Je+M%27appelle",
+      "duration": "139000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "115524",
+      "playcount": "1157617",
+      "artist": {
+        "name": "Benzz",
+        "url": "https:\/\/www.last.fm\/music\/Benzz"
+      },
+      "album": {
+        "artist": "Benzz",
+        "title": "Je M'appelle",
+        "url": "https:\/\/www.last.fm\/music\/Benzz\/Je+M%27appelle",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6604d5d4487fe5588bb94e41561a42ca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6604d5d4487fe5588bb94e41561a42ca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6604d5d4487fe5588bb94e41561a42ca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6604d5d4487fe5588bb94e41561a42ca.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "UK Drill",
+            "url": "https:\/\/www.last.fm\/tag\/UK+Drill"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 May 2022, 22:51",
+        "summary": "Benzz with a Moroccan background and was born in Whitechapel, London has teased many fans on social media. The rapper released a snippet of the song on TikTok in which went viral.\nBenzz released TikTok snippet of the track which made a lot attraction.\nAs the snippet was released, the song started getting many recognition from people all over the world reaching non-stop views and likes. <a href=\"http:\/\/www.last.fm\/music\/Benzz\/_\/Je+M%27appelle\">Read more on Last.fm<\/a>.",
+        "content": "Benzz with a Moroccan background and was born in Whitechapel, London has teased many fans on social media. The rapper released a snippet of the song on TikTok in which went viral.\nBenzz released TikTok snippet of the track which made a lot attraction.\nAs the snippet was released, the song started getting many recognition from people all over the world reaching non-stop views and likes. <a href=\"http:\/\/www.last.fm\/music\/Benzz\/_\/Je+M%27appelle\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

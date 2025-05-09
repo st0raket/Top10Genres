@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:15.782439+00:00",
+  "elapsed": 0.251017,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:15.780851+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2850",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Cranberries&format=json&method=track.getInfo&track=Linger"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Cranberries&format=json&method=track.getInfo&track=Linger",
+  "_decoded_content": {
+    "track": {
+      "name": "Linger",
+      "mbid": "8bb56929-df81-4474-b363-6e99732cd52b",
+      "url": "https:\/\/www.last.fm\/music\/The+Cranberries\/_\/Linger",
+      "duration": "270000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1972669",
+      "playcount": "23623773",
+      "artist": {
+        "name": "The Cranberries",
+        "mbid": "c98d40fd-f6cf-4b26-883e-eaa515ee2851",
+        "url": "https:\/\/www.last.fm\/music\/The+Cranberries"
+      },
+      "album": {
+        "artist": "The Cranberries",
+        "title": "Everybody Else Is Doing It, So Why Can't We?",
+        "mbid": "6e4bad0f-41e3-361d-b75a-3f63bc7176c6",
+        "url": "https:\/\/www.last.fm\/music\/The+Cranberries\/Everybody+Else+Is+Doing+It,+So+Why+Can%27t+We%3F",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Nov 2009, 04:12",
+        "summary": "\"Linger\" is a song composed by Irish musicians Dolores O'Riordan and Noel Hogan of the rock band The Cranberries. The song, which has an acoustic arrangement featuring a string section, became the band's first major hit, peaking at #3 in the Republic of Ireland, #8 in the US and #14 in the UK. In the documentary '99 Love Life & Rock 'n' Roll, O'Riordan says that the song is about her first serious kiss.\"Linger\" was listed as #86 on the VH1's 100 Greatest Songs of the 90s.  <a href=\"http:\/\/www.last.fm\/music\/The+Cranberries\/_\/Linger\">Read more on Last.fm<\/a>.",
+        "content": "\"Linger\" is a song composed by Irish musicians Dolores O'Riordan and Noel Hogan of the rock band The Cranberries. The song, which has an acoustic arrangement featuring a string section, became the band's first major hit, peaking at #3 in the Republic of Ireland, #8 in the US and #14 in the UK. In the documentary '99 Love Life & Rock 'n' Roll, O'Riordan says that the song is about her first serious kiss.\"Linger\" was listed as #86 on the VH1's 100 Greatest Songs of the 90s. \n\n\u201cLinger\u201d also appears in \u201cClick\u201d (2006), where, like O\u2019Riordan, the song is linked to Sandler\u2019s character\u2019s first kiss. <a href=\"http:\/\/www.last.fm\/music\/The+Cranberries\/_\/Linger\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

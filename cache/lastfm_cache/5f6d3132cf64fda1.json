@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:48.984262+00:00",
+  "elapsed": 0.195165,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:48.984262+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2489",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=EASY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=EASY",
+  "_decoded_content": {
+    "track": {
+      "name": "EASY",
+      "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/EASY",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "421981",
+      "playcount": "9151739",
+      "artist": {
+        "name": "LE SSERAFIM",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM"
+      },
+      "album": {
+        "artist": "LE SSERAFIM",
+        "title": "EASY",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/EASY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0e4cc9281dc52c0957416b3b64fb9d05.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0e4cc9281dc52c0957416b3b64fb9d05.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0e4cc9281dc52c0957416b3b64fb9d05.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0e4cc9281dc52c0957416b3b64fb9d05.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "easy",
+            "url": "https:\/\/www.last.fm\/tag\/easy"
+          },
+          {
+            "name": "LESSERAFIM",
+            "url": "https:\/\/www.last.fm\/tag\/LESSERAFIM"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Feb 2024, 23:18",
+        "summary": "\u201cEASY\u201d is the title track of K-pop girl group LE SSERAFIM\u2019s third mini album of the same name. It follows an unconventional take on the quintet\u2019s music style. Based on a trap genre, it incorporates catchy vocals of an R&B style with an addictive, fluid melody.\n\nThe lyrics deliver a meaning of how nothing is easy. However, they are willing to make everything easy. It continues the team narrative that has been going on since its debut.\n\nBefore its release <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/EASY\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEASY\u201d is the title track of K-pop girl group LE SSERAFIM\u2019s third mini album of the same name. It follows an unconventional take on the quintet\u2019s music style. Based on a trap genre, it incorporates catchy vocals of an R&B style with an addictive, fluid melody.\n\nThe lyrics deliver a meaning of how nothing is easy. However, they are willing to make everything easy. It continues the team narrative that has been going on since its debut.\n\nBefore its release, KBS had banned its music video from broadcast due to the \u201crisk of imitation\u201d as explained by the company. <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/EASY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

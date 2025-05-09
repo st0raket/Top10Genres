@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:55.462561+00:00",
+  "elapsed": 0.341975,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:55.462561+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2974",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Metallica&format=json&method=track.getInfo&track=Master+of+Puppets"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Metallica&format=json&method=track.getInfo&track=Master+of+Puppets",
+  "_decoded_content": {
+    "track": {
+      "name": "Master of Puppets",
+      "mbid": "d6082f3d-5f2f-4c13-81bb-41e59875550a",
+      "url": "https:\/\/www.last.fm\/music\/Metallica\/_\/Master+of+Puppets",
+      "duration": "493000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1384699",
+      "playcount": "13485566",
+      "artist": {
+        "name": "Metallica",
+        "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+        "url": "https:\/\/www.last.fm\/music\/Metallica"
+      },
+      "album": {
+        "artist": "Metallica",
+        "title": "Master of Puppets",
+        "mbid": "b30c90dd-83f1-4897-ae36-58fb3935e5ee",
+        "url": "https:\/\/www.last.fm\/music\/Metallica\/Master+of+Puppets",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/07f492a00c904cc6ccf868010be4d5a6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/07f492a00c904cc6ccf868010be4d5a6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/07f492a00c904cc6ccf868010be4d5a6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/07f492a00c904cc6ccf868010be4d5a6.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "thrash metal",
+            "url": "https:\/\/www.last.fm\/tag\/thrash+metal"
+          },
+          {
+            "name": "metal",
+            "url": "https:\/\/www.last.fm\/tag\/metal"
+          },
+          {
+            "name": "heavy metal",
+            "url": "https:\/\/www.last.fm\/tag\/heavy+metal"
+          },
+          {
+            "name": "metallica",
+            "url": "https:\/\/www.last.fm\/tag\/metallica"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Jul 2008, 03:01",
+        "summary": "\"Master of Puppets\" is the second song off Metallica's 1986 album \"Master of Puppets\".\n\nThe song, following the theme of control with the rest of the album, discusses drugs and their effects. Addiction, the master referenced in the title, narrates the song, testifying to the destruction that comes from being under the control of drugs. James Hetfield explained  the song \"deals pretty much with drugs. How things get switched around, instead of you controlling what you're taking and doing, it's drugs controlling you. <a href=\"http:\/\/www.last.fm\/music\/Metallica\/_\/Master+of+Puppets\">Read more on Last.fm<\/a>.",
+        "content": "\"Master of Puppets\" is the second song off Metallica's 1986 album \"Master of Puppets\".\n\nThe song, following the theme of control with the rest of the album, discusses drugs and their effects. Addiction, the master referenced in the title, narrates the song, testifying to the destruction that comes from being under the control of drugs. James Hetfield explained  the song \"deals pretty much with drugs. How things get switched around, instead of you controlling what you're taking and doing, it's drugs controlling you.\" Master of Puppets is also notable for its long instrumental section beginning about three and a half minutes into the song.\n\nThe song made an appearance on Stranger Things' season four finale episode on July 1, 2022. <a href=\"http:\/\/www.last.fm\/music\/Metallica\/_\/Master+of+Puppets\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

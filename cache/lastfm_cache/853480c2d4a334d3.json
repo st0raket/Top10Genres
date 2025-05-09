@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:17.362362+00:00",
+  "elapsed": 0.179702,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:17.362362+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1317",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=Rocket+Man"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=Rocket+Man",
+  "_decoded_content": {
+    "track": {
+      "name": "Rocket Man",
+      "mbid": "4c2a08bd-26df-4e68-835a-5bc8ff9bcf8a",
+      "url": "https:\/\/www.last.fm\/music\/Elton+John\/_\/Rocket+Man",
+      "duration": "303000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "172422",
+      "playcount": "972205",
+      "artist": {
+        "name": "Elton John",
+        "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John"
+      },
+      "album": {
+        "artist": "Elton John",
+        "title": "Greatest Hits",
+        "mbid": "de402eab-3c08-4962-b02f-0790d4f35a26",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John\/Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/eb83753661bd17605659bb919b6e69fa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/eb83753661bd17605659bb919b6e69fa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/eb83753661bd17605659bb919b6e69fa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/eb83753661bd17605659bb919b6e69fa.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "16"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          }
+        ]
+      }
+    }
+  }
+}

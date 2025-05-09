@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:29.712886+00:00",
+  "elapsed": 0.308568,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:29.712886+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2238",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SEVENTEEN&format=json&method=track.getInfo&track=Darl%2Bing"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SEVENTEEN&format=json&method=track.getInfo&track=Darl%2Bing",
+  "_decoded_content": {
+    "track": {
+      "name": "Darl+ing",
+      "url": "https:\/\/www.last.fm\/music\/Seventeen\/_\/Darl%252Bing",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "204709",
+      "playcount": "5677986",
+      "artist": {
+        "name": "Seventeen",
+        "mbid": "7d35e85a-8f73-4481-9c2b-24e142ed2307",
+        "url": "https:\/\/www.last.fm\/music\/Seventeen"
+      },
+      "album": {
+        "artist": "Seventeen",
+        "title": "Darl+ing",
+        "url": "https:\/\/www.last.fm\/music\/Seventeen\/Darl%252Bing",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5c5cedd985765f3025873593140a53a2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5c5cedd985765f3025873593140a53a2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5c5cedd985765f3025873593140a53a2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5c5cedd985765f3025873593140a53a2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "mingyu da nana",
+            "url": "https:\/\/www.last.fm\/tag\/mingyu+da+nana"
+          },
+          {
+            "name": "wonwoo da nana",
+            "url": "https:\/\/www.last.fm\/tag\/wonwoo+da+nana"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Apr 2022, 02:55",
+        "summary": "Darl+ing is a song recorded by South Korean boy group SEVENTEEN. It was released on April 15, 2022 as the lead single of their fourth full-length album, Face the Sun. The song's lyrics were written by member Woozi, BUMZU and Shannon, composed by Woozi, BUMZU and Hwang Hyun of MonoTree, with the latter two participating in the song's arrangement. <a href=\"http:\/\/www.last.fm\/music\/Seventeen\/_\/Darl%252Bing\">Read more on Last.fm<\/a>.",
+        "content": "Darl+ing is a song recorded by South Korean boy group SEVENTEEN. It was released on April 15, 2022 as the lead single of their fourth full-length album, Face the Sun. The song's lyrics were written by member Woozi, BUMZU and Shannon, composed by Woozi, BUMZU and Hwang Hyun of MonoTree, with the latter two participating in the song's arrangement. <a href=\"http:\/\/www.last.fm\/music\/Seventeen\/_\/Darl%252Bing\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:04.931285+00:00",
+  "elapsed": 0.218142,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:04.931285+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1278",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=I%E2%80%99ll+Make+It+Up+To+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=I%E2%80%99ll+Make+It+Up+To+You",
+  "_decoded_content": {
+    "track": {
+      "name": "I\u2019ll Make It Up To You",
+      "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/I%E2%80%99ll+Make+It+Up+To+You",
+      "duration": "262000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "112650",
+      "playcount": "685825",
+      "artist": {
+        "name": "Imagine Dragons",
+        "mbid": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+        "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Temones Romanticones",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Temones+Romanticones",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/079ae2acb986b0aa2087184d8bc757aa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/079ae2acb986b0aa2087184d8bc757aa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/079ae2acb986b0aa2087184d8bc757aa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/079ae2acb986b0aa2087184d8bc757aa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          }
+        ]
+      }
+    }
+  }
+}

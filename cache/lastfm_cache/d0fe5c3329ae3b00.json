@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:13.602950+00:00",
+  "elapsed": 0.186044,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:13.602950+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3177",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Maria"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Maria",
+  "_decoded_content": {
+    "track": {
+      "name": "Maria",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Maria",
+      "duration": "187000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "176658",
+      "playcount": "1413449",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Radical Optimism",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Radical+Optimism",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "guitars",
+            "url": "https:\/\/www.last.fm\/tag\/guitars"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2024, 03:27",
+        "summary": "In \u201cMaria,\u201d Dua interprets the failure of past relationships as appreciative experiences whose effects will carry into new ones. This appreciation is extended to the ex of her new partner \u2013 Maria \u2013 who through similar shortcomings has shaped the partner they are today.\n\nDua first spoke about the song in an interview on the Zach Sang Show weeks before its release. She reiterated the song\u2019s concept on Z100 New York.\n\n\"\u201cMaria\u201d is another interesting perspective of full personal maturing moment <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Maria\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cMaria,\u201d Dua interprets the failure of past relationships as appreciative experiences whose effects will carry into new ones. This appreciation is extended to the ex of her new partner \u2013 Maria \u2013 who through similar shortcomings has shaped the partner they are today.\n\nDua first spoke about the song in an interview on the Zach Sang Show weeks before its release. She reiterated the song\u2019s concept on Z100 New York.\n\n\"\u201cMaria\u201d is another interesting perspective of full personal maturing moment, because when you go through a breakup you\u2019re like all right that person\u2019s going to go and be so much better for someone else now. I feel like, whatever happened here, they\u2019ve learned and they\u2019re going to put it into action in the next relationship. I think everyone has done that for someone or someone has done that for them. With every relationship you grow and you become hopefully a better version of yourself from the experiences that you\u2019ve had. So \u201cMaria\u201d is really about being grateful to the ex and being like thank you for doing that, because we all grow, we all learn and now I have this person who\u2019s just like meant for me in this way.\" \u2014 via Zach Sang Show <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Maria\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

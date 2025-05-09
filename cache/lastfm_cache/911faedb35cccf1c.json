@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:32:01.847078+00:00",
+  "elapsed": 0.22262,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:01.847078+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "891",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Swae+Lee&format=json&method=track.getInfo&track=Won%27t+Be+Late"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Swae+Lee&format=json&method=track.getInfo&track=Won%27t+Be+Late",
+  "_decoded_content": {
+    "track": {
+      "name": "Won't Be Late",
+      "url": "https:\/\/www.last.fm\/music\/Swae+Lee\/_\/Won%27t+Be+Late",
+      "duration": "221000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1386",
+      "playcount": "5005",
+      "artist": {
+        "name": "Swae Lee",
+        "url": "https:\/\/www.last.fm\/music\/Swae+Lee"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "\u0646\u0633\u0645\u0629 \u0635\u064a\u0641",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/%D9%86%D8%B3%D9%85%D8%A9+%D8%B5%D9%8A%D9%81",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/097b0ed62b3e4969b20e3ed96fb82781.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/097b0ed62b3e4969b20e3ed96fb82781.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/097b0ed62b3e4969b20e3ed96fb82781.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/097b0ed62b3e4969b20e3ed96fb82781.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

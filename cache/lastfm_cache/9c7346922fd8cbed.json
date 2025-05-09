@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:23.063066+00:00",
+  "elapsed": 0.263023,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:23.063066+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3036",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Want+You+Back"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Want+You+Back",
+  "_decoded_content": {
+    "track": {
+      "name": "Want You Back",
+      "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Want+You+Back",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "240947",
+      "playcount": "2654896",
+      "artist": {
+        "name": "5 Seconds of Summer",
+        "mbid": "830e5c4e-6b7d-431d-86ab-00c751281dc5",
+        "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music! 99",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music%21+99",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6980ee235ef134938938a4b7e078dc17.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6980ee235ef134938938a4b7e078dc17.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6980ee235ef134938938a4b7e078dc17.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6980ee235ef134938938a4b7e078dc17.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Mar 2022, 03:09",
+        "summary": "The lead single from 5SOS' third album tells the story of a love that never truly ends. It sees someone remembering his lover and admitting that, regardless of their separation, his feelings towards them remain the same. The song slightly drifts from their pop-punk origins into a more pop\/electronic sound, as it swaps out distorted guitar sounds and breaking drums for catchier, cleaner melodies.\n\nTeasing began on February 16th, 2018, when the band tweeted a black and white video clip with the word \u201cBACK,\u201d and their website was blacked out. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Want+You+Back\">Read more on Last.fm<\/a>.",
+        "content": "The lead single from 5SOS' third album tells the story of a love that never truly ends. It sees someone remembering his lover and admitting that, regardless of their separation, his feelings towards them remain the same. The song slightly drifts from their pop-punk origins into a more pop\/electronic sound, as it swaps out distorted guitar sounds and breaking drums for catchier, cleaner melodies.\n\nTeasing began on February 16th, 2018, when the band tweeted a black and white video clip with the word \u201cBACK,\u201d and their website was blacked out. This track marks the band\u2019s return to music, dropping two years after their last album Sounds Good, Feels Good. Frontman Luke Hemmings takes the lead on this track with the other members provide backing vocals.\n\nIn April of 2018, the band released an acoustic version of \u201cWant You Back.\u201d <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Want+You+Back\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

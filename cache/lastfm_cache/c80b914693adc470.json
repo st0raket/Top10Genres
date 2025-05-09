@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:32:42.569827+00:00",
+  "elapsed": 0.303384,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:42.569827+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "903",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Fischer&format=json&method=track.getInfo&track=This+City"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Fischer&format=json&method=track.getInfo&track=This+City",
+  "_decoded_content": {
+    "track": {
+      "name": "This City",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Fischer\/_\/This+City",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "237590",
+      "playcount": "1743193",
+      "artist": {
+        "name": "Sam Fischer",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Fischer"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "So Fresh: The Hits of Autumn 2020",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/So+Fresh:+The+Hits+of+Autumn+2020",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/39ef9d1dfc08ac650f838038abde9bc1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/39ef9d1dfc08ac650f838038abde9bc1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/39ef9d1dfc08ac650f838038abde9bc1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/39ef9d1dfc08ac650f838038abde9bc1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

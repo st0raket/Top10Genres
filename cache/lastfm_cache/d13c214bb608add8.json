@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:55.048487+00:00",
+  "elapsed": 0.197922,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:55.048487+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4101",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=BLOOD."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=BLOOD.",
+  "_decoded_content": {
+    "track": {
+      "name": "BLOOD.",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/BLOOD.",
+      "duration": "119000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "680592",
+      "playcount": "4781612",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "DAMN. COLLECTORS EDITION.",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/DAMN.+COLLECTORS+EDITION.",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/60606c1fd036ad2583818cf2f4283e75.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "spoken word",
+            "url": "https:\/\/www.last.fm\/tag\/spoken+word"
+          },
+          {
+            "name": "kendrick lamar",
+            "url": "https:\/\/www.last.fm\/tag\/kendrick+lamar"
+          },
+          {
+            "name": "jazz poetry",
+            "url": "https:\/\/www.last.fm\/tag\/jazz+poetry"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Feb 2022, 03:12",
+        "summary": "On \u201cBLOOD.,\u201d Kendrick is shot by a blind lady he\u2019s trying to help. The blind woman can be thought of as representing consequences of the damnation referenced in the Book of Deuteronomy. The duality of obeying God and being blessed, or disobeying him and being damned\u2014giving into \u201cwickedness\u201d or admitting your \u201cweaknesses\u201d and submitting yourself to God\u2014play a major role throughout the album.\n\nThe outro is sampled from a clip of FOX News reporters criticizing Kendrick\u2019s \u201cAlright\u201d performance at the 2015 BET Awards. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/BLOOD.\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cBLOOD.,\u201d Kendrick is shot by a blind lady he\u2019s trying to help. The blind woman can be thought of as representing consequences of the damnation referenced in the Book of Deuteronomy. The duality of obeying God and being blessed, or disobeying him and being damned\u2014giving into \u201cwickedness\u201d or admitting your \u201cweaknesses\u201d and submitting yourself to God\u2014play a major role throughout the album.\n\nThe outro is sampled from a clip of FOX News reporters criticizing Kendrick\u2019s \u201cAlright\u201d performance at the 2015 BET Awards. Kendrick later responded to the criticism on TMZ Live, saying:\n\n\"How can you take a song that\u2019s about hope and turn it into hatred? The overall message is \u2018we\u2019re gonna be alright.\u2019 It\u2019s not the message of \u2018I wanna kill people.\u2019\"\n\nKendrick talked about the song in an interview with Zane Lowe at Coachella, and he kept the mystery behind the song secret:\n\n\"What I can I say about that, without saying about that. It is\u2026 one of the most interesting pieces on the record. Man, I don\u2019t even think I can find the wit\u2026 to tell you about that record, without telling you about that record. There\u2019s a new life, its a new life.\"\nLowe: Is it the beginning of the end or the end of the beginning?\nLamar: I can\u2019t tell you that. That\u2019s what I can\u2019t tell you. Come on now, that\u2019s the whole thing.\nLowe: I had to ask though.\nLamar: (laughs) I know. That\u2019s the whole thing.\n\n\"What I can I say about that, without saying about that. It is one of the most interesting pieces on the record. I don\u2019t even know if I can find the wit, the wit to tell you about it. The wit to tell you about the record without telling you about the record. There\u2019s a new life, its a new life.\" - via Beats1\n\n\u201cBLOOD.\u201d debuted at #54 on the Billboard Hot 100 during the week of May 6, 2017. It stayed on the chart for one week. \u201cBLOOD.\u201d was certified gold on May 25, 2018 by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/BLOOD.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

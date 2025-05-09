@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:52.280968+00:00",
+  "elapsed": 0.18294,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:52.280968+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2537",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=the+BLACK+seminole."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=the+BLACK+seminole.",
+  "_decoded_content": {
+    "track": {
+      "name": "the BLACK seminole.",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Yachty\/_\/the+BLACK+seminole.",
+      "duration": "411000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "313985",
+      "playcount": "2678882",
+      "artist": {
+        "name": "Lil Yachty",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Yachty"
+      },
+      "album": {
+        "artist": "Lil Yachty",
+        "title": "Let\u2019s Start Here.",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Yachty\/Let%E2%80%99s+Start+Here.",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/242e5e9da2779f9802644a6d85a58815.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/242e5e9da2779f9802644a6d85a58815.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/242e5e9da2779f9802644a6d85a58815.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/242e5e9da2779f9802644a6d85a58815.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Psychedelic Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Psychedelic+Rock"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "Progressive rock",
+            "url": "https:\/\/www.last.fm\/tag\/Progressive+rock"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jan 2023, 06:06",
+        "summary": "\u201cthe BLACK seminole.\u201d is our introduction to Lil Yachty\u2019s new alternative sound. It features psychedelic  instrumentation and prog-like crescendos which lead to a powerful guitar solo before a sonic break in climax. Throughout the track, Yachty talks about the Black Seminoles, which were Native American-Africans part of the Seminole people in Oklahoma and Florida. Yachty\u2019s inner soul is analyzed on a deeper level in the songs latter half as well. <a href=\"http:\/\/www.last.fm\/music\/Lil+Yachty\/_\/the+BLACK+seminole.\">Read more on Last.fm<\/a>.",
+        "content": "\u201cthe BLACK seminole.\u201d is our introduction to Lil Yachty\u2019s new alternative sound. It features psychedelic  instrumentation and prog-like crescendos which lead to a powerful guitar solo before a sonic break in climax. Throughout the track, Yachty talks about the Black Seminoles, which were Native American-Africans part of the Seminole people in Oklahoma and Florida. Yachty\u2019s inner soul is analyzed on a deeper level in the songs latter half as well. <a href=\"http:\/\/www.last.fm\/music\/Lil+Yachty\/_\/the+BLACK+seminole.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

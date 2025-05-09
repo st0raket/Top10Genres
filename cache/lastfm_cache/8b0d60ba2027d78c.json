@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:47.943936+00:00",
+  "elapsed": 0.234521,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:47.943260+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2446",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Migos&format=json&method=track.getInfo&track=MotorSport"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Migos&format=json&method=track.getInfo&track=MotorSport",
+  "_decoded_content": {
+    "track": {
+      "name": "MotorSport",
+      "url": "https:\/\/www.last.fm\/music\/Migos\/_\/MotorSport",
+      "duration": "306000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "378128",
+      "playcount": "2709367",
+      "artist": {
+        "name": "Migos",
+        "mbid": "0221734a-35a8-40f7-b5c5-2f61a200bc7c",
+        "url": "https:\/\/www.last.fm\/music\/Migos"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Indie Weekend",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Indie+Weekend",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cfcfd76e955f37587465f75b94d96d94.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cfcfd76e955f37587465f75b94d96d94.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cfcfd76e955f37587465f75b94d96d94.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cfcfd76e955f37587465f75b94d96d94.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "nicki minaj",
+            "url": "https:\/\/www.last.fm\/tag\/nicki+minaj"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Jan 2018, 04:39",
+        "summary": "\"MotorSport\" is a song recorded by American hip hop group Migos, with fellow American rappers Nicki Minaj and Cardi B. It was released on October 27, 2017, as the lead single from Migos' third studio album Culture II (2018). It was produced by Murda Beatz and Cubeatz. It reached number six on the US Billboard Hot 100, becoming Migos' second highest-charting song in the country behind \"Bad and Boujee\". \"Gasolina\" by Daddy Yankee is referenced in the song. <a href=\"http:\/\/www.last.fm\/music\/Migos\/_\/MotorSport\">Read more on Last.fm<\/a>.",
+        "content": "\"MotorSport\" is a song recorded by American hip hop group Migos, with fellow American rappers Nicki Minaj and Cardi B. It was released on October 27, 2017, as the lead single from Migos' third studio album Culture II (2018). It was produced by Murda Beatz and Cubeatz. It reached number six on the US Billboard Hot 100, becoming Migos' second highest-charting song in the country behind \"Bad and Boujee\". \"Gasolina\" by Daddy Yankee is referenced in the song. <a href=\"http:\/\/www.last.fm\/music\/Migos\/_\/MotorSport\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

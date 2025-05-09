@@ -1,0 +1,65 @@
+{
+  "created_at": "2025-05-03T14:29:35.091892+00:00",
+  "elapsed": 0.181766,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:35.091892+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "500",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HONNE&format=json&method=track.getInfo&track=Day+1+%E2%97%91"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HONNE&format=json&method=track.getInfo&track=Day+1+%E2%97%91",
+  "_decoded_content": {
+    "track": {
+      "name": "Day 1 \u25d1",
+      "url": "https:\/\/www.last.fm\/music\/Honne\/_\/Day+1+%E2%97%91",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "153214",
+      "playcount": "1188924",
+      "artist": {
+        "name": "Honne",
+        "mbid": "58b599cd-b1de-45e3-863a-3b54194a0f20",
+        "url": "https:\/\/www.last.fm\/music\/Honne"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      }
+    }
+  }
+}

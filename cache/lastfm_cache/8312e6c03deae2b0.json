@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:43.969565+00:00",
+  "elapsed": 0.206544,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:43.969565+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2660",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=FE%21N"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=FE%21N",
+  "_decoded_content": {
+    "track": {
+      "name": "FE!N",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/FE%21N",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "294681",
+      "playcount": "1587785",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "album": {
+        "artist": "Travis Scott",
+        "title": "UTOPIA",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/UTOPIA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Playboi Carti",
+            "url": "https:\/\/www.last.fm\/tag\/Playboi+Carti"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jul 2023, 01:05",
+        "summary": "\u201cFE!N\u201d reunites Playboi Carti and Travis Scott following 2018\u2019s \u201cLove Hurts\u201d. It is also one of Sheck Wes\u2018 only released performances, having not released an album as of the release of UTOPIA other than MUDBOY. The Circus Maximus movie version features a full verse from Sheck Wes, while the commercially released version features only Sheck Wes ad-libs.\n\nThe allegiance of the three rappers introduced a different soundscape from their other music. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/FE%21N\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFE!N\u201d reunites Playboi Carti and Travis Scott following 2018\u2019s \u201cLove Hurts\u201d. It is also one of Sheck Wes\u2018 only released performances, having not released an album as of the release of UTOPIA other than MUDBOY. The Circus Maximus movie version features a full verse from Sheck Wes, while the commercially released version features only Sheck Wes ad-libs.\n\nThe allegiance of the three rappers introduced a different soundscape from their other music. Travis Scott experiments with higher pitches of voice, whilst Playboi Carti does the opposite and adopts a deeper voice heard on many of his speculated third album, MUSIC\u2019s snippets. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/FE%21N\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

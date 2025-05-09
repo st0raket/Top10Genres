@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:39:35.286883+00:00",
+  "elapsed": 0.205596,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:35.286883+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1114",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Young+Thug&format=json&method=track.getInfo&track=Uncle+M"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Young+Thug&format=json&method=track.getInfo&track=Uncle+M",
+  "_decoded_content": {
+    "track": {
+      "name": "Uncle M",
+      "url": "https:\/\/www.last.fm\/music\/Young+Thug\/_\/Uncle+M",
+      "duration": "140000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "94969",
+      "playcount": "631355",
+      "artist": {
+        "name": "Young Thug",
+        "mbid": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+        "url": "https:\/\/www.last.fm\/music\/Young+Thug"
+      },
+      "album": {
+        "artist": "Young Thug",
+        "title": "BUSINESS IS BUSINESS",
+        "url": "https:\/\/www.last.fm\/music\/Young+Thug\/BUSINESS+IS+BUSINESS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c25b39b5d9ec8f57f60f6b1df1695a30.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c25b39b5d9ec8f57f60f6b1df1695a30.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c25b39b5d9ec8f57f60f6b1df1695a30.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c25b39b5d9ec8f57f60f6b1df1695a30.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Young Thug",
+            "url": "https:\/\/www.last.fm\/tag\/Young+Thug"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      }
+    }
+  }
+}

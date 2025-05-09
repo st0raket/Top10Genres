@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:34:10.463316+00:00",
+  "elapsed": 0.28938,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:10.463316+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "371",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=my+ex%27s+best+friend"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=my+ex%27s+best+friend",
+  "_decoded_content": {
+    "track": {
+      "name": "my ex's best friend",
+      "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/my+ex%27s+best+friend",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "11167",
+      "playcount": "77618",
+      "artist": {
+        "name": "Machine Gun Kelly",
+        "mbid": "f6af669a-56ea-448a-a044-de76181ada33",
+        "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

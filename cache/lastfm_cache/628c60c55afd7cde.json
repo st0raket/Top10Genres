@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:38:49.042527+00:00",
+  "elapsed": 0.218038,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:49.042527+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "872",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hamza&format=json&method=track.getInfo&track=Introduction"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hamza&format=json&method=track.getInfo&track=Introduction",
+  "_decoded_content": {
+    "track": {
+      "name": "Introduction",
+      "url": "https:\/\/www.last.fm\/music\/Hamza\/_\/Introduction",
+      "duration": "94000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "18224",
+      "playcount": "282386",
+      "artist": {
+        "name": "Hamza",
+        "mbid": "519cacf4-8d27-4071-8b01-0824fabcdfbb",
+        "url": "https:\/\/www.last.fm\/music\/Hamza"
+      },
+      "album": {
+        "artist": "Hamza",
+        "title": "Introduction",
+        "url": "https:\/\/www.last.fm\/music\/Hamza\/Introduction",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8b58e1e2de96596bf21b8533a3d05af5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8b58e1e2de96596bf21b8533a3d05af5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8b58e1e2de96596bf21b8533a3d05af5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8b58e1e2de96596bf21b8533a3d05af5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

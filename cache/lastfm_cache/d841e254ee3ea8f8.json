@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:05.703310+00:00",
+  "elapsed": 0.185409,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:05.703310+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2453",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=you+should+see+me+in+a+crown"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=you+should+see+me+in+a+crown",
+  "_decoded_content": {
+    "track": {
+      "name": "you should see me in a crown",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/you+should+see+me+in+a+crown",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "984979",
+      "playcount": "10227397",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Summer Dance Party (Clean)",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Summer+Dance+Party+(Clean)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/508ec2cda1c4e2d442f1923d141d9a14.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/508ec2cda1c4e2d442f1923d141d9a14.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/508ec2cda1c4e2d442f1923d141d9a14.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/508ec2cda1c4e2d442f1923d141d9a14.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Sep 2019, 12:02",
+        "summary": "\"you should see me in a crown\" is the lead single of American singer Billie Eilish's debut studio album \"When We All Fall Asleep, Where Do We Go?\" It was released on July 18, 2018, through Darkroom and Interscope Records. It was written by Eilish and her brother Finneas O'Connell, who also produced the track. The song received positive reviews and charted in countries including the US, Canada and Australia. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/you+should+see+me+in+a+crown\">Read more on Last.fm<\/a>.",
+        "content": "\"you should see me in a crown\" is the lead single of American singer Billie Eilish's debut studio album \"When We All Fall Asleep, Where Do We Go?\" It was released on July 18, 2018, through Darkroom and Interscope Records. It was written by Eilish and her brother Finneas O'Connell, who also produced the track. The song received positive reviews and charted in countries including the US, Canada and Australia. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/you+should+see+me+in+a+crown\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:38:37.823206+00:00",
+  "elapsed": 0.223701,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:37.823206+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4279",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RAYE&format=json&method=track.getInfo&track=Escapism."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RAYE&format=json&method=track.getInfo&track=Escapism.",
+  "_decoded_content": {
+    "track": {
+      "name": "Escapism.",
+      "url": "https:\/\/www.last.fm\/music\/Raye\/_\/Escapism.",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "760055",
+      "playcount": "9719554",
+      "artist": {
+        "name": "Raye",
+        "url": "https:\/\/www.last.fm\/music\/Raye"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "UK hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/UK+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Dec 2022, 21:23",
+        "summary": "\u201cEscapism.\u201c is a song by British singer-songwriter Raye featuring American rapper 070 Shake. It was released independently on October 12, 2022 as a single with \u201cThe Thrill Is Gone\u201c from Raye's debut studio album My 21st Century Blues. It was co-written by Raye, 070 Shake and Mike Sabath, with Sabath also producing the song.\n \n\u201cEscapism.\u201c is predominantly a hip-hop track combining elements of blues, rap and trap musical genres. The singer expressed \"it is a story about running away from everything as fast as you can. <a href=\"http:\/\/www.last.fm\/music\/Raye\/_\/Escapism.\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEscapism.\u201c is a song by British singer-songwriter Raye featuring American rapper 070 Shake. It was released independently on October 12, 2022 as a single with \u201cThe Thrill Is Gone\u201c from Raye's debut studio album My 21st Century Blues. It was co-written by Raye, 070 Shake and Mike Sabath, with Sabath also producing the song.\n \n\u201cEscapism.\u201c is predominantly a hip-hop track combining elements of blues, rap and trap musical genres. The singer expressed \"it is a story about running away from everything as fast as you can. The lyrics are about just leaving everyone on read, and going out on your own. It came from a messy time, but as humans, we just have to keep surviving!\"\n\nIn November 2022, \u201cEscapism.\u201c went viral on TikTok and charted internationally, reaching number one in Ireland and number two in the UK, Raye's highest-charting single of her career to date. Furthermore, the song became Raye's first-charting single on the US Billboard Hot 100 and has made top 20 appearances in Australia, New Zealand, Norway, Sweden and Switzerland. She has performed the song live on Later with Jools Holland.\n\nRaye told the Official Charts Company that she \"loves how rebellious\" \u201cEscapsim.\u201c is for disregarding \"the standard\" of \"pop music structure\", particularly being \"longer than three minutes and twenty seconds\". In an interview with Clash, Raye revealed that she wrote the song in a log cabin in Utah; \"Me and a friend hired a car, and drove up there, in the middle of winter, through the snow and everything! \u2018Escapism.\u2019 is a story about running away from everything as fast as you can. The lyrics are about just leaving everyone on read, and going out on your own. It came from a messy time, but as humans, we just have to keep surviving!\"\n\nThe music video was directed by Raye and Otis Dominique and was released on November 9, 2022. It reflects the song's lyrics, with Raye turning to \"partying, drinking and drugs to escape her emotions and numb her feelings\" after breaking up with her boyfriend. The video makes use of point-of-view cameras. In an interview with Shots, Raye mentioned \"we worked really hard to create an honest depiction of where I was at that time in my life. It was fun and wild. We shot it over a couple of days and wore point-of-view cameras during a wild night out at many different clubs. I pushed myself outside of my comfort zone and I ran 150 meters in 5-inch heels. We really took it there!\"\n\nOn October 15, 2022, Raye performed the song live for the first time on Later with Jools Holland. In December 2022, the singer released a live performance recorded at Metropolis Studios in London. She later made her U.S. TV debut, with 070 Shake, performing the song on The Late Show with Stephen Colbert, in February 16th, 2023. <a href=\"http:\/\/www.last.fm\/music\/Raye\/_\/Escapism.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

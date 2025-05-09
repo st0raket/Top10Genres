@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:46.642998+00:00",
+  "elapsed": 0.216589,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:46.642998+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2413",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=SIRENS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=SIRENS",
+  "_decoded_content": {
+    "track": {
+      "name": "SIRENS",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/SIRENS",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "473770",
+      "playcount": "5605549",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "album": {
+        "artist": "Travis Scott",
+        "title": "UTOPIA",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/UTOPIA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6644c67eaa3669676252d3190f9b019f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "experimental hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/experimental+hip+hop"
+          },
+          {
+            "name": "spoken word",
+            "url": "https:\/\/www.last.fm\/tag\/spoken+word"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Jul 2023, 08:27",
+        "summary": "\u201cSIRENS\u201d marks the sixth track on Travis Scott\u2019s long awaited fourth studio album UTOPIA. It was first revealed on July 22, 2023 at Travis' Rolling Loud set where it was displayed along with 4 other titles in the fictional Utopian language from Thomas More\u2019s 1516 book Utopia.\n\nThe song features upbeat production from Travis himself, MIKE DEAN and Jahaan Sweet and samples Nsunka Lwendo by Amanaz. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/SIRENS\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSIRENS\u201d marks the sixth track on Travis Scott\u2019s long awaited fourth studio album UTOPIA. It was first revealed on July 22, 2023 at Travis' Rolling Loud set where it was displayed along with 4 other titles in the fictional Utopian language from Thomas More\u2019s 1516 book Utopia.\n\nThe song features upbeat production from Travis himself, MIKE DEAN and Jahaan Sweet and samples Nsunka Lwendo by Amanaz. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/SIRENS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

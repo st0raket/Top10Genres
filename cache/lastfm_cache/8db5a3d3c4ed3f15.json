@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:13.399034+00:00",
+  "elapsed": 0.216237,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:13.399034+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2540",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Into+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Into+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Into It",
+      "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Into+It",
+      "duration": "175000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "110681",
+      "playcount": "1128707",
+      "artist": {
+        "name": "Camila Cabello",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello"
+      },
+      "album": {
+        "artist": "Camila Cabello",
+        "title": "Camila",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/Camila",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "catchy",
+            "url": "https:\/\/www.last.fm\/tag\/catchy"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "sober",
+            "url": "https:\/\/www.last.fm\/tag\/sober"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Feb 2018, 04:24",
+        "summary": "\u201cInto It\u201d is the tenth track of Camila Cabellos\u2019s album, Camila. She announced it during a livestream on Instagram, August 4th, 2017. The Sun\u2019s review described it as \u201cthe sexiest tune (of the album), with sharp and catchy production\u201d. Also, Official Charts considered it to be the \u201creal gem\u201d of the record.\n\n\"The track was something I forever working on. I just tried every single possibility\u2026 It (the album) ends with this new chapter <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Into+It\">Read more on Last.fm<\/a>.",
+        "content": "\u201cInto It\u201d is the tenth track of Camila Cabellos\u2019s album, Camila. She announced it during a livestream on Instagram, August 4th, 2017. The Sun\u2019s review described it as \u201cthe sexiest tune (of the album), with sharp and catchy production\u201d. Also, Official Charts considered it to be the \u201creal gem\u201d of the record.\n\n\"The track was something I forever working on. I just tried every single possibility\u2026 It (the album) ends with this new chapter, \u2018cause once you\u2019re done with all the stuff you\u2019re bummed out about, you have all this room to feel the more fun stuff.\" - Camila Cabello, for Beats1 <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Into+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

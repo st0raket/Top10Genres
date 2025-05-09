@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:32:45.686985+00:00",
+  "elapsed": 0.185254,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:45.686985+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1971",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=You+Gon%27+Learn"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=You+Gon%27+Learn",
+  "_decoded_content": {
+    "track": {
+      "name": "You Gon' Learn",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/You+Gon%27+Learn",
+      "duration": "234000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1321",
+      "playcount": "25713",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Music to Be Murdered By",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Music+to+Be+Murdered+By",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c405c91c09132a4f379f91924bb1609e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "24 Jun 2023, 15:06",
+        "summary": "On \u201cYou Gon' Learn,\u201d Eminem teams up with Royce da 5'9\" and White Gold to stress the importance of resilience and determination. Royce and Em present themselves as products of survival despite the calamitous trials and tribulations they\u2019ve been confronted with, while acknowledging the demons they\u2019ve battled on their respective journeys to stardom. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/You+Gon%27+Learn\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cYou Gon' Learn,\u201d Eminem teams up with Royce da 5'9\" and White Gold to stress the importance of resilience and determination. Royce and Em present themselves as products of survival despite the calamitous trials and tribulations they\u2019ve been confronted with, while acknowledging the demons they\u2019ve battled on their respective journeys to stardom. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/You+Gon%27+Learn\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

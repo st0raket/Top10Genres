@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:40:47.172939+00:00",
+  "elapsed": 0.209876,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:47.172939+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1168",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=soffie&format=json&method=track.getInfo&track=F%C3%BCr+immer+Fr%C3%BChling"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=soffie&format=json&method=track.getInfo&track=F%C3%BCr+immer+Fr%C3%BChling",
+  "_decoded_content": {
+    "track": {
+      "name": "F\u00fcr immer Fr\u00fchling",
+      "url": "https:\/\/www.last.fm\/music\/Soffie\/_\/F%C3%BCr+immer+Fr%C3%BChling",
+      "duration": "120000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "28713",
+      "playcount": "251185",
+      "artist": {
+        "name": "Soffie",
+        "url": "https:\/\/www.last.fm\/music\/Soffie"
+      },
+      "album": {
+        "artist": "Soffie",
+        "title": "F\u00fcr immer Fr\u00fchling",
+        "url": "https:\/\/www.last.fm\/music\/Soffie\/F%C3%BCr+immer+Fr%C3%BChling",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c82a7742f79bf11c2a855a0f2321a9ca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c82a7742f79bf11c2a855a0f2321a9ca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c82a7742f79bf11c2a855a0f2321a9ca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c82a7742f79bf11c2a855a0f2321a9ca.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "deutsch",
+            "url": "https:\/\/www.last.fm\/tag\/deutsch"
+          },
+          {
+            "name": "deutsch pop",
+            "url": "https:\/\/www.last.fm\/tag\/deutsch+pop"
+          }
+        ]
+      }
+    }
+  }
+}

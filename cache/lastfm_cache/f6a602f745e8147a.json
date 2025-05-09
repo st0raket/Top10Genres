@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:10.837229+00:00",
+  "elapsed": 0.189154,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:10.837229+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "7713",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gym+Class+Heroes&format=json&method=track.getInfo&track=Cupid%27s+Chokehold+%2F+Breakfast+In+America"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gym+Class+Heroes&format=json&method=track.getInfo&track=Cupid%27s+Chokehold+%2F+Breakfast+In+America",
+  "_decoded_content": {
+    "track": {
+      "name": "Cupid's Chokehold \/ Breakfast in America",
+      "mbid": "e374d9cc-00c0-4dd3-99e0-b9b7eaab268d",
+      "url": "https:\/\/www.last.fm\/music\/Gym+Class+Heroes\/_\/Cupid%27s+Chokehold+%2F+Breakfast+in+America",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "694918",
+      "playcount": "5485369",
+      "artist": {
+        "name": "Gym Class Heroes",
+        "mbid": "f4d4b515-0b74-423f-a161-db184330c37c",
+        "url": "https:\/\/www.last.fm\/music\/Gym+Class+Heroes"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "RNB PLATINUM",
+        "mbid": "8c240149-9795-4f3a-ba32-7e83fa4578b0",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/RNB+PLATINUM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/16ebb2044414481093e52b9bacc04d5f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/16ebb2044414481093e52b9bacc04d5f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/16ebb2044414481093e52b9bacc04d5f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/16ebb2044414481093e52b9bacc04d5f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Mar 2022, 15:17",
+        "summary": "\"Cupid's Chokehold\" is a song by American rap rock band Gym Class Heroes, featuring the vocals of Patrick Stump of Fall Out Boy. The song relies heavily on the music and chorus from Supertramp's hit song \"Breakfast in America\" written by Roger Hodgson. It peaked at number four on the Billboard Hot 100, number one on the Billboard Mainstream Top 40 radio chart, number three on the UK Singles Chart, and number three on the Canadian Hot 100.\n\nIt was <a href=\"http:\/\/www.last.fm\/music\/Gym+Class+Heroes\/_\/Cupid%27s+Chokehold+%2F+Breakfast+in+America\">Read more on Last.fm<\/a>.",
+        "content": "\"Cupid's Chokehold\" is a song by American rap rock band Gym Class Heroes, featuring the vocals of Patrick Stump of Fall Out Boy. The song relies heavily on the music and chorus from Supertramp's hit song \"Breakfast in America\" written by Roger Hodgson. It peaked at number four on the Billboard Hot 100, number one on the Billboard Mainstream Top 40 radio chart, number three on the UK Singles Chart, and number three on the Canadian Hot 100.\n\nIt was first released in 2005 on The Papercut Chronicles and re-recorded for their album As Cruel as School Children (which was re-released on November 4, 2006, with \"Cupid's Chokehold\" as an additional track). There are two music videos for this song, one for each version.\n\nThe second version includes female backing vocals, which are not included in version one. The second version of the video does contain the backing vocals of the first video. However, the female voice is integrated into the chorus behind Patrick Stump's vocals. The song has been featured on Discover and Download and Total Request Live.\n\nSeveral versions were produced. The most common one features a slow tempo and female backing vocals while the other one has a quicker tempo and Patrick Stump doing backing vocals, along with Rand Bellavia (of Ookla the Mok). The song won an ASCAP award on April 9, 2008, for being one of the most-played songs in the ASCAPs repertory from the end of 2006 through the end of 2007. As of September 2011, the song has sold 1,936,000 digital downloads.\n\nDrummer Matt McGinley said,\n\n\"That song was kind of an accident that it even happened. We wrote it in our old bass player's bedroom one afternoon, and it was really unintentional. We were just going to rehearse for our show. We didn't sit down and say, \"Okay, let's write a song.\" That song just sort of happened. Our friend Sie One had the Supertramp Breakfast in America record. And so he put that on and he would play that line, \"Take a look at my girlfriend, she's the only one I got.\" Then drop it, and we would try to keep playing. So we sort of wrote our own verses and our own bridge and stuff, and every time the chorus would come around we would just drop that as the chorus. So that song happened really, really quickly. And then we went and recorded it for under $300 in probably 3 or 4 hours.\"\n\nThe first version of the \"Cupid's Chokehold\" video directed by Andrew Paul Bowser for the album The Papercut Chronicles features MC Travis McCoy working at a toy factory. While working, he stumbles upon a \"prototype toy\" which turns out to be a life-size doll. The doll acts as McCoy's girlfriend in the video and fulfills his every wish.\n\nHowever, she eventually becomes tired of being exploited and expresses this in a humorous scene where the two are playing Scrabble (she spells out the words 'krush', 'kill', and 'destroy'). The doll then begins to malfunction, and McCoy has no choice but to destroy her. He pushes her off a bridge, and she appears to be dead.\n\nAt the end of the video, she is awakened by Patrick Stump, who also appears to be a robot. The two fall in love and walk down the road together.\n\nThe second version of \"Cupid's Chokehold\" is the official video directed by Alan Ferguson for the album As Cruel as School Children and is a more literal interpretation of the lyrics of the song. The second version is more widely recognized because music networks such as MTV and VH1 play this version instead of the original, and because the original does not appear on iTunes. The video begins with a dancing Cupid (portrayed by Princet\u00f3n), who shoots McCoy with a love arrow as he passes a girl, portrayed by actress and singer Porscha Coleman. Patrick Stump can be seen watching from behind a newspaper as this happens.\n\nThe two are madly in love at first, but as the video moves forward, the two begin fighting, and their relationship meets its end when McCoy's girlfriend walks in on him and his friends gambling. Cupid tries a second time to get McCoy into a relationship. This time, McCoy's girlfriend is more romantically involved with McCoy, but she becomes increasingly angry when he invites his friends to a party her parents are hosting. The relationship ends when McCoy comes home to find his girlfriend on top of a masked man in a compromising position. He proceeds to beat up the guy.\n\nMcCoy's final relationship is with one of his fans in the audience at one of the band's performances (played by McCoy's then-girlfriend, Katy Perry). Initially, she went up to him when they were at a bar. This time the relationship works out, and Cupid does not have to shoot McCoy with an arrow even though he is prepared to at first.\n\nHowever, Cupid himself gets shot with an arrow by a female Cupid, and the video closes with the two of them dancing together with McCoy & Perry watching from in front. (Cupid also dances several times before the ending). In this version of the music video, when McCoy and his friends are interrupting his girlfriend's party, McCoy raps a small part of \"Wejusfreestylin Pt. 2\" from The Papercut Chronicles.\n\nIn the UK, some music channels had a re-edited version of the video with the party scene cut to a minimum (The party scene ends with the girlfriend closing the door). \n\nMusically, this version has the word Girlfriend repeated constantly in the background not found in other versions of the song exclusive to the video. <a href=\"http:\/\/www.last.fm\/music\/Gym+Class+Heroes\/_\/Cupid%27s+Chokehold+%2F+Breakfast+in+America\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

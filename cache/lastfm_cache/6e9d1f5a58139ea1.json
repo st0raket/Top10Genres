@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:42.468614+00:00",
+  "elapsed": 0.19772,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:42.468104+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2688",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Blind"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Blind",
+  "_decoded_content": {
+    "track": {
+      "name": "Blind",
+      "url": "https:\/\/www.last.fm\/music\/SZA\/_\/Blind",
+      "duration": "150000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "794373",
+      "playcount": "10868692",
+      "artist": {
+        "name": "SZA",
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "url": "https:\/\/www.last.fm\/music\/SZA"
+      },
+      "album": {
+        "artist": "SZA",
+        "title": "SOS",
+        "url": "https:\/\/www.last.fm\/music\/SZA\/SOS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "chamber folk",
+            "url": "https:\/\/www.last.fm\/tag\/chamber+folk"
+          },
+          {
+            "name": "sza",
+            "url": "https:\/\/www.last.fm\/tag\/sza"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Dec 2022, 21:35",
+        "summary": "\"Blind\" is an ode to aging and its associated changes. The singer looks back on a past where people expected her to \"get ratchet\" and be wild, but now she finds herself stuck in a place of wanting more - needing something beyond the superficial lifestyle others glorify. She knows some of the love she's seeking is already inside of her, but she can't quite see it, as if she's \"blind\". She reflects on how confusing it is to be expected to fall in line with trends and relationships dictated by society and instead chooses to rely on herself. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Blind\">Read more on Last.fm<\/a>.",
+        "content": "\"Blind\" is an ode to aging and its associated changes. The singer looks back on a past where people expected her to \"get ratchet\" and be wild, but now she finds herself stuck in a place of wanting more - needing something beyond the superficial lifestyle others glorify. She knows some of the love she's seeking is already inside of her, but she can't quite see it, as if she's \"blind\". She reflects on how confusing it is to be expected to fall in line with trends and relationships dictated by society and instead chooses to rely on herself. In the face of insecurity and personal battles, she finds a strength in knowing that she has the power to create something better for herself. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Blind\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:01.222750+00:00",
+  "elapsed": 0.186405,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:01.221749+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3066",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Amy+Winehouse&format=json&method=track.getInfo&track=Back+To+Black"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Amy+Winehouse&format=json&method=track.getInfo&track=Back+To+Black",
+  "_decoded_content": {
+    "track": {
+      "name": "Back to Black",
+      "mbid": "b0adc7a8-0a90-4e09-8839-a66f315234a2",
+      "url": "https:\/\/www.last.fm\/music\/Amy+Winehouse\/_\/Back+to+Black",
+      "duration": "242000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2206007",
+      "playcount": "19509103",
+      "artist": {
+        "name": "Amy Winehouse",
+        "mbid": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+        "url": "https:\/\/www.last.fm\/music\/Amy+Winehouse"
+      },
+      "album": {
+        "artist": "Amy Winehouse",
+        "title": "Back to Black",
+        "mbid": "0b0ca6cc-f793-3dd8-9329-611a9fb08ae2",
+        "url": "https:\/\/www.last.fm\/music\/Amy+Winehouse\/Back+to+Black",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e8b279da10957d060253256c8302f8f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e8b279da10957d060253256c8302f8f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e8b279da10957d060253256c8302f8f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e8b279da10957d060253256c8302f8f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "Amy Winehouse",
+            "url": "https:\/\/www.last.fm\/tag\/Amy+Winehouse"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2009, 14:27",
+        "summary": "\"Back to Black\" is a reflective track about the break up of a relationship and the emotions that follow. The song focuses on the idea of going back to a previous state after a significant change, in this case, the end of a relationship. The protagonist is regretful and heartbroken that things have ended, but has accepted the situation and is now looking to the future. The lyrics describe how they love the person they were with, but also acknowledges that they are both going separate ways <a href=\"http:\/\/www.last.fm\/music\/Amy+Winehouse\/_\/Back+to+Black\">Read more on Last.fm<\/a>.",
+        "content": "\"Back to Black\" is a reflective track about the break up of a relationship and the emotions that follow. The song focuses on the idea of going back to a previous state after a significant change, in this case, the end of a relationship. The protagonist is regretful and heartbroken that things have ended, but has accepted the situation and is now looking to the future. The lyrics describe how they love the person they were with, but also acknowledges that they are both going separate ways, and they must go back to each other's \"same old safe bet\". The chorus sums up the idea of the song: \"We only said goodbye with words, I died a hundred times \/ You go back to her and I go back to\". The bridge \"Black, black, black, black \/ Black, black, black \/ I go back to \/ I go back to\" emphasizes this idea of a return to a \"safe\" place after the break-up. <a href=\"http:\/\/www.last.fm\/music\/Amy+Winehouse\/_\/Back+to+Black\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

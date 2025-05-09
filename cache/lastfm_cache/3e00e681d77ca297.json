@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:30.696644+00:00",
+  "elapsed": 0.325329,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:30.696644+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3903",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=Purple+lace+bra"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=Purple+lace+bra",
+  "_decoded_content": {
+    "track": {
+      "name": "purple lace bra",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/purple+lace+bra",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "204114",
+      "playcount": "2464585",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          },
+          {
+            "name": "fav",
+            "url": "https:\/\/www.last.fm\/tag\/fav"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          },
+          {
+            "name": "diet pepsi",
+            "url": "https:\/\/www.last.fm\/tag\/diet+pepsi"
+          },
+          {
+            "name": "rhodacore",
+            "url": "https:\/\/www.last.fm\/tag\/rhodacore"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Feb 2025, 20:40",
+        "summary": "Tate McRae wants to be heard on \u201cPurple lace bra,\u201d even if it means sexualizing herself to do so. To the average listener, the track may just be about another relationship, but if you take a closer look, \u201cPurple lace bra\u201d describes the media\u2019s misperception of Tate.\n\nIn collaboration with Amy Allen, Tate \u201cdances on the fine line of sensual but heartbreaking.\u201d\n\n\u201cWell, \u2018Purple lace bra,\u2019 I actually was on a, I had taken my first break of the year on tour <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/purple+lace+bra\">Read more on Last.fm<\/a>.",
+        "content": "Tate McRae wants to be heard on \u201cPurple lace bra,\u201d even if it means sexualizing herself to do so. To the average listener, the track may just be about another relationship, but if you take a closer look, \u201cPurple lace bra\u201d describes the media\u2019s misperception of Tate.\n\nIn collaboration with Amy Allen, Tate \u201cdances on the fine line of sensual but heartbreaking.\u201d\n\n\u201cWell, \u2018Purple lace bra,\u2019 I actually was on a, I had taken my first break of the year on tour, and I had written in my diary, I was sitting in front of the ocean, and I had written in my diary like, \u2018Would you hear me more if I acted like this? Would you hear me more if I was?\u2019 And I was like, \u2018What does that mean? What am I feeling right now?\u2019 And what I realized that I was feeling after being on tour all year and after seeing so many videos of my face and my body and just everything, I felt like my relationship with the media had been really fucked up in my brain, being like sometimes feeling like the most, you know, craziest clips would be of me dancing. And then you just see people put all their opinions on it. And then I\u2019d be like, Okay, but you\u2019re missing the point of the show or you\u2019re missing 95% of the show or you\u2019re missing the point of the song,\u2018 and I just sometimes felt like people weren\u2019t hearing me. And they were just like looking at me and making an assumption and they weren\u2019t hearing me. And then I feel like I released a music video and also just experienced for the first time me being like, 'Oh, this is, felt like just art to me,\u2019 I was looking at the camera shots and the lighting and the dancing and the feeling of it. And then you see another person who just, like, takes it in a completely different way as a girl. And I was just like, \u2018Oh, like, wow, I\u2019m really frustrated. Because I feel like I\u2019m getting nowhere with this, and no one\u2019s actually understanding what I\u2019m trying to say.\u2019 And so this song was kind of just, we kind of took it into a relationship, me and Amy Allen, of being like, \u2018Would you hear me more if I talked to you? We\u2019re having sex.\u2019 And it was a really interesting concept to tap into, to be like, \u2018I\u2019ve been giving you everything and I\u2019ve been telling you everything and you\u2019re still not hearing me, so how can I make it so you finally hear me?\u2019 So it was like, it\u2019s so funny because it\u2019s such a sensual song, but really, like, heartbreaking.\u201c\n\n\u2014via Track By Track <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/purple+lace+bra\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

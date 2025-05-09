@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:57.078325+00:00",
+  "elapsed": 0.20304,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:57.078325+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2187",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Clandestino"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Clandestino",
+  "_decoded_content": {
+    "track": {
+      "name": "Clandestino",
+      "url": "https:\/\/www.last.fm\/music\/Shakira\/_\/Clandestino",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "119633",
+      "playcount": "792846",
+      "artist": {
+        "name": "Shakira",
+        "mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+        "url": "https:\/\/www.last.fm\/music\/Shakira"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Bravo Hits, Vol. 102",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Bravo+Hits,+Vol.+102",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6c1ad83a1112fb2f8f444e28c578d566.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6c1ad83a1112fb2f8f444e28c578d566.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6c1ad83a1112fb2f8f444e28c578d566.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6c1ad83a1112fb2f8f444e28c578d566.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "Crap",
+            "url": "https:\/\/www.last.fm\/tag\/Crap"
+          },
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "basura",
+            "url": "https:\/\/www.last.fm\/tag\/basura"
+          },
+          {
+            "name": "0 of 10 stars",
+            "url": "https:\/\/www.last.fm\/tag\/0+of+10+stars"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Dec 2020, 17:09",
+        "summary": "\"Clandestino\" is a song by Shakira and Maluma. It was released on June 8, 2018 and marks their fourth collaboration following \"Chantaje\", \"Trap\", and the remix of \"La Bicicleta\". The song originated when Shakira and Maluma were in Barcelona together for a photo shoot for Billboard magazine in April of 2018. <a href=\"http:\/\/www.last.fm\/music\/Shakira\/_\/Clandestino\">Read more on Last.fm<\/a>.",
+        "content": "\"Clandestino\" is a song by Shakira and Maluma. It was released on June 8, 2018 and marks their fourth collaboration following \"Chantaje\", \"Trap\", and the remix of \"La Bicicleta\". The song originated when Shakira and Maluma were in Barcelona together for a photo shoot for Billboard magazine in April of 2018. <a href=\"http:\/\/www.last.fm\/music\/Shakira\/_\/Clandestino\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

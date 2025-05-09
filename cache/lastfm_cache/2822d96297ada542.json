@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:32:08.255446+00:00",
+  "elapsed": 0.179789,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:08.255446+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1162",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=OneRepublic&format=json&method=track.getInfo&track=Wanted"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=OneRepublic&format=json&method=track.getInfo&track=Wanted",
+  "_decoded_content": {
+    "track": {
+      "name": "Wanted",
+      "url": "https:\/\/www.last.fm\/music\/OneRepublic\/_\/Wanted",
+      "duration": "136000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "81557",
+      "playcount": "473732",
+      "artist": {
+        "name": "OneRepublic",
+        "mbid": "c33c2065-b1c3-4406-b066-d33a9e2ea71a",
+        "url": "https:\/\/www.last.fm\/music\/OneRepublic"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Ambiance T\u00e9l\u00e9travail",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Ambiance+T%C3%A9l%C3%A9travail",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1cbd2dad5afca72805635a555db2742d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1cbd2dad5afca72805635a555db2742d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1cbd2dad5afca72805635a555db2742d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1cbd2dad5afca72805635a555db2742d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "OneRepublic",
+            "url": "https:\/\/www.last.fm\/tag\/OneRepublic"
+          }
+        ]
+      }
+    }
+  }
+}

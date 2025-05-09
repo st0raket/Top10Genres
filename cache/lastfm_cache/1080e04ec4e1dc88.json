@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:45.800355+00:00",
+  "elapsed": 0.184993,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:45.800355+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2514",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Choker"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Choker",
+  "_decoded_content": {
+    "track": {
+      "name": "Choker",
+      "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Choker",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "210634",
+      "playcount": "2913895",
+      "artist": {
+        "name": "Twenty One Pilots",
+        "mbid": "a6c6897a-7415-4f8d-b5a5-3a5e05f3be67",
+        "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2021, 12:44",
+        "summary": "\u201cChoker,\u201d the second promotional single from Scaled and Icy, starts off with a despairing tone as Tyler takes on the mindset of a narrator lamenting his inability to be there for the people in his life due to \u201cchoking\u201d from his fears. As the song progresses, he experiences growth in character and ends on a positive note where he begins to look at his future with a hopeful attitude.\n\nMusically, \u201cChoker\u201d is reminiscent of twenty one pilots older style (e. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Choker\">Read more on Last.fm<\/a>.",
+        "content": "\u201cChoker,\u201d the second promotional single from Scaled and Icy, starts off with a despairing tone as Tyler takes on the mindset of a narrator lamenting his inability to be there for the people in his life due to \u201cchoking\u201d from his fears. As the song progresses, he experiences growth in character and ends on a positive note where he begins to look at his future with a hopeful attitude.\n\nMusically, \u201cChoker\u201d is reminiscent of twenty one pilots older style (e.g. 2009\u2019s \u201cAddict with a Pen\u201d) with its slow tempo, bright sound and the poetic rap included at the end.\n\nIts release was first teased on April 28, 2021 on the premium page live.twentyonepilots.com for fans who purchased tickets to the Scaled and Icy livestream concert. The official announcement of the single and it\u2019s accompanying music video was later made public the following morning via a teaser on Twitter. Fans who purchased tickets to the aforementioned livestream received access to behind-the-scenes content 30 minutes before the song and video\u2019s midnight release. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Choker\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:38:30.580733+00:00",
+  "elapsed": 0.262241,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:30.580733+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1169",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dinos&format=json&method=track.getInfo&track=Portes+Suicide"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dinos&format=json&method=track.getInfo&track=Portes+Suicide",
+  "_decoded_content": {
+    "track": {
+      "name": "Portes Suicide",
+      "url": "https:\/\/www.last.fm\/music\/Dinos\/_\/Portes+Suicide",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "8647",
+      "playcount": "72197",
+      "artist": {
+        "name": "Dinos",
+        "url": "https:\/\/www.last.fm\/music\/Dinos"
+      },
+      "album": {
+        "artist": "\u0641\u0646\u0627\u0646\u0648\u0646 \u0645\u062a\u0639\u062f\u062f\u0648\u0646",
+        "title": "HITS RAP HIVER 2023",
+        "url": "https:\/\/www.last.fm\/music\/%D9%81%D9%86%D8%A7%D9%86%D9%88%D9%86+%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D9%88%D9%86\/HITS+RAP+HIVER+2023",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "10 Dec 2022, 13:05",
+        "summary": "PORTES Suicides (feat Ninho) est la cinqui\u00e8me piste de l'album Hiver \u00e0 Paris de Dinos sorti en 2022 <a href=\"http:\/\/www.last.fm\/music\/Dinos\/_\/Portes+Suicide\">Read more on Last.fm<\/a>.",
+        "content": "PORTES Suicides (feat Ninho) est la cinqui\u00e8me piste de l'album Hiver \u00e0 Paris de Dinos sorti en 2022 <a href=\"http:\/\/www.last.fm\/music\/Dinos\/_\/Portes+Suicide\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

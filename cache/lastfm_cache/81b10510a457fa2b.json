@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:44:56.690010+00:00",
+  "elapsed": 0.293247,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:56.690010+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1148",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=Peek+A+Boo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=Peek+A+Boo",
+  "_decoded_content": {
+    "track": {
+      "name": "Peek A Boo",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Yachty\/_\/Peek+A+Boo",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "68520",
+      "playcount": "353846",
+      "artist": {
+        "name": "Lil Yachty",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Yachty"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Underground Rap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Underground+Rap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bc93b2a20315542c82222846d0b732e7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "hilarious",
+            "url": "https:\/\/www.last.fm\/tag\/hilarious"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      }
+    }
+  }
+}

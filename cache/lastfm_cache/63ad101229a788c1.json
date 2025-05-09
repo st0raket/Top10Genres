@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:30:49.682940+00:00",
+  "elapsed": 0.2266,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:49.682940+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1066",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Meek+Mill&format=json&method=track.getInfo&track=Oodles+O%27+Noodles+Babies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Meek+Mill&format=json&method=track.getInfo&track=Oodles+O%27+Noodles+Babies",
+  "_decoded_content": {
+    "track": {
+      "name": "Oodles O' Noodles Babies",
+      "url": "https:\/\/www.last.fm\/music\/Meek+Mill\/_\/Oodles+O%27+Noodles+Babies",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "34005",
+      "playcount": "196340",
+      "artist": {
+        "name": "Meek Mill",
+        "mbid": "31bcadcc-e1da-4cad-bec8-2f4f1d41b095",
+        "url": "https:\/\/www.last.fm\/music\/Meek+Mill"
+      },
+      "album": {
+        "artist": "Meek Mill",
+        "title": "Oodles O' Noodles Babies",
+        "url": "https:\/\/www.last.fm\/music\/Meek+Mill\/Oodles+O%27+Noodles+Babies",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a15dbc07c32120b7731d343417e864f4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a15dbc07c32120b7731d343417e864f4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a15dbc07c32120b7731d343417e864f4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a15dbc07c32120b7731d343417e864f4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "meek mill",
+            "url": "https:\/\/www.last.fm\/tag\/meek+mill"
+          }
+        ]
+      }
+    }
+  }
+}

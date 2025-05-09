@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:32:59.849582+00:00",
+  "elapsed": 0.234729,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:59.849582+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1217",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Get+Back"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Get+Back",
+  "_decoded_content": {
+    "track": {
+      "name": "Get Back",
+      "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/_\/Get+Back",
+      "duration": "108000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "294069",
+      "playcount": "3622874",
+      "artist": {
+        "name": "Pop Smoke",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke"
+      },
+      "album": {
+        "artist": "Pop Smoke",
+        "title": "Meet The Woo 2 (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/Meet+The+Woo+2+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4572f99221050c76b721a116f33eeedb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4572f99221050c76b721a116f33eeedb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4572f99221050c76b721a116f33eeedb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4572f99221050c76b721a116f33eeedb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Pop Smoke",
+            "url": "https:\/\/www.last.fm\/tag\/Pop+Smoke"
+          },
+          {
+            "name": "-1001686404118",
+            "url": "https:\/\/www.last.fm\/tag\/-1001686404118"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      }
+    }
+  }
+}

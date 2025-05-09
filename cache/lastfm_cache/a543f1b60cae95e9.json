@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:41:36.869969+00:00",
+  "elapsed": 0.20571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:36.869969+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4436",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kavinsky&format=json&method=track.getInfo&track=Nightcall"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kavinsky&format=json&method=track.getInfo&track=Nightcall",
+  "_decoded_content": {
+    "track": {
+      "name": "Nightcall",
+      "mbid": "071f35d6-e583-4efd-9270-e4ee2179850e",
+      "url": "https:\/\/www.last.fm\/music\/Kavinsky\/_\/Nightcall",
+      "duration": "257000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1037332",
+      "playcount": "11385570",
+      "artist": {
+        "name": "Kavinsky",
+        "mbid": "eb6de5f6-98f8-4b5a-bfdc-f87fa4936baa",
+        "url": "https:\/\/www.last.fm\/music\/Kavinsky"
+      },
+      "album": {
+        "artist": "Kavinsky",
+        "title": "Nightcall",
+        "mbid": "851588f7-9cdb-473f-96d0-21680c4a383c",
+        "url": "https:\/\/www.last.fm\/music\/Kavinsky\/Nightcall",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4c969f47a95544428bcc28fa172580f5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4c969f47a95544428bcc28fa172580f5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4c969f47a95544428bcc28fa172580f5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4c969f47a95544428bcc28fa172580f5.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          },
+          {
+            "name": "electro",
+            "url": "https:\/\/www.last.fm\/tag\/electro"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "drive",
+            "url": "https:\/\/www.last.fm\/tag\/drive"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2012, 03:16",
+        "summary": "\u201cNightcall\u201c is a song by French electro house artist Kavinsky, released as a single in 2010. It was produced with Daft Punk's Guy-Manuel de Homem-Christo and mixed by electronic artist SebastiAn. The song was performed live at the closing ceremony of the Paris Olympics in August 2024 and featured Belgian singer Ang\u00e8le on lead vocals as well as French band Phoenix.\n\nThe 2010 single features Lovefoxxx, lead singer of Brazilian band CSS, on vocals and includes remixes by Xavier de Rosnay, Jackson and His Computerband and Breakbot. <a href=\"http:\/\/www.last.fm\/music\/Kavinsky\/_\/Nightcall\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNightcall\u201c is a song by French electro house artist Kavinsky, released as a single in 2010. It was produced with Daft Punk's Guy-Manuel de Homem-Christo and mixed by electronic artist SebastiAn. The song was performed live at the closing ceremony of the Paris Olympics in August 2024 and featured Belgian singer Ang\u00e8le on lead vocals as well as French band Phoenix.\n\nThe 2010 single features Lovefoxxx, lead singer of Brazilian band CSS, on vocals and includes remixes by Xavier de Rosnay, Jackson and His Computerband and Breakbot. The track was used in the title sequence for the film Drive, directed by Nicolas Winding Refn and starring Ryan Gosling and Carey Mulligan. \"Nightcall\" was included on Kavinsky's debut studio album, OutRun.\n\nKavinsky performed the song with Ang\u00e8le and Phoenix at the 2024 Summer Olympics closing ceremony on 11 August 2024. A studio version of this cover was released on 20 September 2024.\n\n\"Nightcall\" plays in the background of a flashback scene in the film The Lincoln Lawyer. It also plays during the opening credits of the 2011 film Drive, and in scene 25 of Our RoboCop Remake, both directed by Nicolas Winding Refn. The song was used in a commercial for the Sony Xperia phone promoting its low-light camera features. The song is also featured in the CW show Riverdale in episode 99. In 2022 and 2023, it was used in a commercial for Volvo C40 Recharge.\n\nThe song was also used in the soundtrack for the film The Lincoln Lawyer, directed by Brad Furman and starring Matthew McConaughey. The song is sampled by Russian band Bi-2 in their lead single \u00ab \u0427\u0451\u0440\u043d\u043e\u0435 \u0441\u043e\u043b\u043d\u0446\u0435 \u00bb on their 2017 album \u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442 \u0441\u043e\u0431\u044b\u0442\u0438\u0439. It was sampled by Lupe Fiasco for his single \"American Terrorist III\", as well as by Vinny Cha$e & Kid Art for their 2012 song \"Drive\" as a bonus track on Golden Army. It was also sampled by Childish Gambino for his song \"R.I.P\" featuring Bun B on his mixtape, Royalty, and by Will Young for his 2012 song called \"Losing Myself\". \"Nightcall\" was covered by English band London Grammar for their debut album, If You Wait. It was also covered by former Bluetones frontman Mark Morriss on his second solo album, A Flash of Darkness, and by English shoegaze band My Vitriol. <a href=\"http:\/\/www.last.fm\/music\/Kavinsky\/_\/Nightcall\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

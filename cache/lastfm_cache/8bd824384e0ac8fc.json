@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:28:10.717485+00:00",
+  "elapsed": 0.239239,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:10.717485+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "912",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ozan+Do%C4%9Fulu&format=json&method=track.getInfo&track=Kul%C3%BCp"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ozan+Do%C4%9Fulu&format=json&method=track.getInfo&track=Kul%C3%BCp",
+  "_decoded_content": {
+    "track": {
+      "name": "Kul\u00fcp",
+      "url": "https:\/\/www.last.fm\/music\/Ozan+Do%C4%9Fulu\/_\/Kul%C3%BCp",
+      "duration": "230000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7082",
+      "playcount": "32695",
+      "artist": {
+        "name": "Ozan Do\u011fulu",
+        "mbid": "564f98ea-e77c-41a2-94fa-911164c177cd",
+        "url": "https:\/\/www.last.fm\/music\/Ozan+Do%C4%9Fulu"
+      },
+      "album": {
+        "artist": "Ozan Do\u011fulu",
+        "title": "130 BPM Forte",
+        "url": "https:\/\/www.last.fm\/music\/Ozan+Do%C4%9Fulu\/130+BPM+Forte",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b61c38b1118e06c9782276df5682e747.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b61c38b1118e06c9782276df5682e747.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b61c38b1118e06c9782276df5682e747.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b61c38b1118e06c9782276df5682e747.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:40:45.564816+00:00",
+  "elapsed": 1.84408,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:45.564816+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "339",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DIVINE&format=json&method=track.getInfo&track=Top+Class+%2F+Overseas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DIVINE&format=json&method=track.getInfo&track=Top+Class+%2F+Overseas",
+  "_decoded_content": {
+    "track": {
+      "name": "Top Class \/ Overseas",
+      "url": "https:\/\/www.last.fm\/music\/Divine\/_\/Top+Class+%2F+Overseas",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4877",
+      "playcount": "43004",
+      "artist": {
+        "name": "Divine",
+        "mbid": "ef86b665-5d05-4a4c-8db3-be6a92a9b51d",
+        "url": "https:\/\/www.last.fm\/music\/Divine"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

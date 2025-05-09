@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:42.685516+00:00",
+  "elapsed": 0.183664,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:42.685516+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3175",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cigarettes+After+Sex&format=json&method=track.getInfo&track=Apocalypse"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cigarettes+After+Sex&format=json&method=track.getInfo&track=Apocalypse",
+  "_decoded_content": {
+    "track": {
+      "name": "Apocalypse",
+      "url": "https:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/_\/Apocalypse",
+      "duration": "290000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1637356",
+      "playcount": "30916505",
+      "artist": {
+        "name": "Cigarettes After Sex",
+        "mbid": "34557d8f-ee4a-44ab-ae6e-49bb8ac604d0",
+        "url": "https:\/\/www.last.fm\/music\/Cigarettes+After+Sex"
+      },
+      "album": {
+        "artist": "Cigarettes After Sex",
+        "title": "Cigarettes After Sex",
+        "url": "https:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/Cigarettes+After+Sex",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5d53d7e6aad2f08c464e301d3bab6e96.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5d53d7e6aad2f08c464e301d3bab6e96.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5d53d7e6aad2f08c464e301d3bab6e96.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5d53d7e6aad2f08c464e301d3bab6e96.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Mar 2022, 04:59",
+        "summary": "In \u201cApocalypse,\u201d Greg acknowledges the pain his new lover has suffered in her past relationships. He\u2019s urging her to let go of heartbreak and the fear of feeling let down, and to embrace the highs and lows of this new relationship.\n\nGreg discussed the beauty and danger that comes with letting go of fear and fully indulging in any relationship on his 2017 interview Coup de Main:\n\n\u201cYou go into love, and you\u2019re pretty much going to get hurt at some point, it\u2019s just kind of the way it is. <a href=\"http:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/_\/Apocalypse\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cApocalypse,\u201d Greg acknowledges the pain his new lover has suffered in her past relationships. He\u2019s urging her to let go of heartbreak and the fear of feeling let down, and to embrace the highs and lows of this new relationship.\n\nGreg discussed the beauty and danger that comes with letting go of fear and fully indulging in any relationship on his 2017 interview Coup de Main:\n\n\u201cYou go into love, and you\u2019re pretty much going to get hurt at some point, it\u2019s just kind of the way it is. But if admitting that the person is worth it, that they\u2019re worth the pain, they\u2019re worth the trouble and it doesn\u2019t matter because you just want them, and anything else that comes after that is another side? I really believe in that.\u201c\n\n\"What the song is about is sort of vague and strange. It kinda involves some girls I dated in my hometown- based on how they were really imaginative and they wanted to travel and see the world but they were trapped in the city. They were sort of aimless as well. It\u2019s sort of a love letter to them.\" <a href=\"http:\/\/www.last.fm\/music\/Cigarettes+After+Sex\/_\/Apocalypse\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

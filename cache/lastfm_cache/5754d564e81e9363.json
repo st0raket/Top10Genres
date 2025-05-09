@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:53.178025+00:00",
+  "elapsed": 0.234184,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:53.178025+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3483",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=a+lot"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=a+lot",
+  "_decoded_content": {
+    "track": {
+      "name": "a lot",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/a+lot",
+      "duration": "290000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "845857",
+      "playcount": "12189130",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "album": {
+        "artist": "21 Savage",
+        "title": "i am > i was",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage\/i+am+%3E+i+was",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7ea88aad00e82f4927d1aea1e30922eb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7ea88aad00e82f4927d1aea1e30922eb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7ea88aad00e82f4927d1aea1e30922eb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7ea88aad00e82f4927d1aea1e30922eb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Mar 2021, 14:56",
+        "summary": "On the introspective introduction to his sophomore studio album, 21 Savage raps about having \u201ca lot\u201d of blessings and curses in his life. Savage also reflects on his tumultuous upbringing, his dangerous lifestyle, and the pain and loss he has suffered.\n\nSavage calls on J. Cole to assist him on the track. In his verse, Cole reflects on his career, comments on the state of the music industry, and offers advice to other artists and athletes.\n\nThe <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/a+lot\">Read more on Last.fm<\/a>.",
+        "content": "On the introspective introduction to his sophomore studio album, 21 Savage raps about having \u201ca lot\u201d of blessings and curses in his life. Savage also reflects on his tumultuous upbringing, his dangerous lifestyle, and the pain and loss he has suffered.\n\nSavage calls on J. Cole to assist him on the track. In his verse, Cole reflects on his career, comments on the state of the music industry, and offers advice to other artists and athletes.\n\nThe song reached heightened popularity about a month after its release when Savage was arrested by the U.S. Immigration and Customs Enforcement (ICE) during ATL\u2019s Super Bowl weekend. In the week leading up to his arrest, Savage unveiled an extended version of the track in which he criticizes the U.S.\u2019s immigration policies on the country\u2019s border with Mexico.\n\nThere are multiple variations of this track. The album\u2019s physical release contains a version of this song that completely excludes J. Cole, allotting 21 an additional verse. The version used in the song\u2019s music video includes all verses featured in both the original and physical.\n\n\u201ca lot\u201d debuted at #37 on the Billboard Hot 100 in the week of January 5, 2019, and peaked at #12 in the week of February 16, 2019.\n\n\u201ca lot\u201d samples \u201cI Love You,\u201d a 1971 song by American band East of Underground.\n\n\u201ca lot\u201d was certified 3x platinum by the RIAA on January 8, 2020 and won Best Rap Song at the 2020 GRAMMY Awards. The win marks Savage\u2019s first award from the Recording Academy. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/a+lot\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

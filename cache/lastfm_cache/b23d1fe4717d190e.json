@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:16.211202+00:00",
+  "elapsed": 0.207651,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:16.211202+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2021",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nemo&format=json&method=track.getInfo&track=The+Code"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nemo&format=json&method=track.getInfo&track=The+Code",
+  "_decoded_content": {
+    "track": {
+      "name": "The Code",
+      "url": "https:\/\/www.last.fm\/music\/Nemo\/_\/The+Code",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "139700",
+      "playcount": "2052124",
+      "artist": {
+        "name": "Nemo",
+        "mbid": "fca248b6-f001-4731-b825-bd10a8151eb2",
+        "url": "https:\/\/www.last.fm\/music\/Nemo"
+      },
+      "album": {
+        "artist": "Nemo",
+        "title": "The Code",
+        "url": "https:\/\/www.last.fm\/music\/Nemo\/The+Code",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c9ad50567e38097061e5fcb0d40bff02.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c9ad50567e38097061e5fcb0d40bff02.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c9ad50567e38097061e5fcb0d40bff02.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c9ad50567e38097061e5fcb0d40bff02.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Eurovision 2024",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Apr 2024, 04:08",
+        "summary": "Nemo represented Switzerland at the Eurovision Song Contest 2024 in Malm\u00f6, with their song \"The Code\". The song won the contest with 591 points.\n\n\"The Code\" is about Nemo discovering their non-binary gender identity, and coming to terms with it. <a href=\"http:\/\/www.last.fm\/music\/Nemo\/_\/The+Code\">Read more on Last.fm<\/a>.",
+        "content": "Nemo represented Switzerland at the Eurovision Song Contest 2024 in Malm\u00f6, with their song \"The Code\". The song won the contest with 591 points.\n\n\"The Code\" is about Nemo discovering their non-binary gender identity, and coming to terms with it. <a href=\"http:\/\/www.last.fm\/music\/Nemo\/_\/The+Code\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

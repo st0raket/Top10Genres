@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:36:36.238686+00:00",
+  "elapsed": 0.211078,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:36.238686+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "405",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oxxxymiron&format=json&method=track.getInfo&track=%D0%9A%D0%A2%D0%9E+%D0%A3%D0%91%D0%98%D0%9B+%D0%9C%D0%90%D0%A0%D0%9A%D0%90"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oxxxymiron&format=json&method=track.getInfo&track=%D0%9A%D0%A2%D0%9E+%D0%A3%D0%91%D0%98%D0%9B+%D0%9C%D0%90%D0%A0%D0%9A%D0%90",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041a\u0422\u041e \u0423\u0411\u0418\u041b \u041c\u0410\u0420\u041a\u0410",
+      "url": "https:\/\/www.last.fm\/music\/Oxxxymiron\/_\/%D0%9A%D0%A2%D0%9E+%D0%A3%D0%91%D0%98%D0%9B+%D0%9C%D0%90%D0%A0%D0%9A%D0%90",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "30",
+      "playcount": "408",
+      "artist": {
+        "name": "Oxxxymiron",
+        "mbid": "fb2a8279-79cf-4849-b692-1ce674709159",
+        "url": "https:\/\/www.last.fm\/music\/Oxxxymiron"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:01.106145+00:00",
+  "elapsed": 0.207155,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:01.106145+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "824",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bonez+MC&format=json&method=track.getInfo&track=Abziehen"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bonez+MC&format=json&method=track.getInfo&track=Abziehen",
+  "_decoded_content": {
+    "track": {
+      "name": "Abziehen",
+      "url": "https:\/\/www.last.fm\/music\/Bonez+MC\/_\/Abziehen",
+      "duration": "150000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9036",
+      "playcount": "93256",
+      "artist": {
+        "name": "Bonez MC",
+        "url": "https:\/\/www.last.fm\/music\/Bonez+MC"
+      },
+      "album": {
+        "artist": "Bonez MC",
+        "title": "Abziehen",
+        "url": "https:\/\/www.last.fm\/music\/Bonez+MC\/Abziehen",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b31d4f25a0fec1f3662ccd81ba142595.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b31d4f25a0fec1f3662ccd81ba142595.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b31d4f25a0fec1f3662ccd81ba142595.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b31d4f25a0fec1f3662ccd81ba142595.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

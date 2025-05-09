@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:44:49.811368+00:00",
+  "elapsed": 0.213295,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:49.811368+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "631",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=M%C3%98&format=json&method=track.getInfo&track=Nights+With+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=M%C3%98&format=json&method=track.getInfo&track=Nights+With+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Nights With You",
+      "url": "https:\/\/www.last.fm\/music\/M%C3%98\/_\/Nights+With+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "144850",
+      "playcount": "901170",
+      "artist": {
+        "name": "M\u00d8",
+        "mbid": "3ab2ee23-1c2f-458c-9c8c-ca4844729120",
+        "url": "https:\/\/www.last.fm\/music\/M%C3%98"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          }
+        ]
+      }
+    }
+  }
+}

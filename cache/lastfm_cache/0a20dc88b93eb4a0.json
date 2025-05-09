@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:13.528305+00:00",
+  "elapsed": 0.178526,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:13.528305+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2395",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Happy+For+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Happy+For+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Happy for You",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Happy+for+You",
+      "duration": "245000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "191942",
+      "playcount": "1649147",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Radical Optimism",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Radical+Optimism",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 May 2024, 14:51",
+        "summary": "\"Happy For You\" is the eleventh and final track from\u00a0Dua Lipa's third studio album,\u00a0Radical Optimism. It was released on May 3, 2024 through\u00a0Warner Records.\n\nIn an interview with The Wall Street Journal on September 25, 2021, Dua Lipa revealed that \"It's just been fun experimenting. I'm always going to make pop music, but it has its own unique sound, which is exciting & something that feels like a movement from Future Nostalgia\". <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Happy+for+You\">Read more on Last.fm<\/a>.",
+        "content": "\"Happy For You\" is the eleventh and final track from\u00a0Dua Lipa's third studio album,\u00a0Radical Optimism. It was released on May 3, 2024 through\u00a0Warner Records.\n\nIn an interview with The Wall Street Journal on September 25, 2021, Dua Lipa revealed that \"It's just been fun experimenting. I'm always going to make pop music, but it has its own unique sound, which is exciting & something that feels like a movement from Future Nostalgia\". <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Happy+for+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

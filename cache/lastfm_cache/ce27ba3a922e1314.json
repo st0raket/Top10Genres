@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:26.227963+00:00",
+  "elapsed": 0.207342,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:26.227963+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2178",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RIIZE&format=json&method=track.getInfo&track=Boom+Boom+Bass"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=RIIZE&format=json&method=track.getInfo&track=Boom+Boom+Bass",
+  "_decoded_content": {
+    "track": {
+      "name": "Boom Boom Bass",
+      "url": "https:\/\/www.last.fm\/music\/RIIZE\/_\/Boom+Boom+Bass",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "109731",
+      "playcount": "1459374",
+      "artist": {
+        "name": "RIIZE",
+        "url": "https:\/\/www.last.fm\/music\/RIIZE"
+      },
+      "album": {
+        "artist": "RIIZE",
+        "title": "RIIZING - The 1st Mini Album",
+        "url": "https:\/\/www.last.fm\/music\/RIIZE\/RIIZING+-+The+1st+Mini+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d08484aba77421d7233b5e90842e9805.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d08484aba77421d7233b5e90842e9805.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d08484aba77421d7233b5e90842e9805.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d08484aba77421d7233b5e90842e9805.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2024, 10:22",
+        "summary": "\"Boom Boom Bass\" is a song recorded by South Korean boy group RIIZE for their debut extended play, RIIZING. It was released alongside the EP as its third and final single. The track was written by Jamfactory's Gil Jeong-jin and ChaMane, composed by Peter Wallevik, Daniel Davidsen, Ben Samama and David Arkwright & arranged by PhD. <a href=\"http:\/\/www.last.fm\/music\/RIIZE\/_\/Boom+Boom+Bass\">Read more on Last.fm<\/a>.",
+        "content": "\"Boom Boom Bass\" is a song recorded by South Korean boy group RIIZE for their debut extended play, RIIZING. It was released alongside the EP as its third and final single. The track was written by Jamfactory's Gil Jeong-jin and ChaMane, composed by Peter Wallevik, Daniel Davidsen, Ben Samama and David Arkwright & arranged by PhD. <a href=\"http:\/\/www.last.fm\/music\/RIIZE\/_\/Boom+Boom+Bass\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

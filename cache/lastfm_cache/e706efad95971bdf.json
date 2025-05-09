@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:23.391179+00:00",
+  "elapsed": 0.198027,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:23.391179+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2558",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Salty+%26+Sweet"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Salty+%26+Sweet",
+  "_decoded_content": {
+    "track": {
+      "name": "Salty & Sweet",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/Salty+&+Sweet",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "159752",
+      "playcount": "2601100",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "MY WORLD",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/MY+WORLD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9f98a45f0e240638c7c5c7e57c7932e5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9f98a45f0e240638c7c5c7e57c7932e5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9f98a45f0e240638c7c5c7e57c7932e5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9f98a45f0e240638c7c5c7e57c7932e5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hyperpop",
+            "url": "https:\/\/www.last.fm\/tag\/hyperpop"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 May 2023, 04:38",
+        "summary": "\"Salty & Sweet\" is a song recorded by South Korean girl group aespa, released on May 8, 2023 along with its mini album, 'MY WORLD', being the third song for it.\n\n\"Salty & Sweet\" is a intense dance genre song, centered around rough synths and bass sounds and the playful vocal medley in the chorus is stated to be impressive. It was spoiled through a dance practice on February 16 for aespa's first concert and performed for the first time on February 25. \n\nDuring the 'MY WORLD' promotions, a track video for the song was released on May 4th. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Salty+&+Sweet\">Read more on Last.fm<\/a>.",
+        "content": "\"Salty & Sweet\" is a song recorded by South Korean girl group aespa, released on May 8, 2023 along with its mini album, 'MY WORLD', being the third song for it.\n\n\"Salty & Sweet\" is a intense dance genre song, centered around rough synths and bass sounds and the playful vocal medley in the chorus is stated to be impressive. It was spoiled through a dance practice on February 16 for aespa's first concert and performed for the first time on February 25. \n\nDuring the 'MY WORLD' promotions, a track video for the song was released on May 4th. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Salty+&+Sweet\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

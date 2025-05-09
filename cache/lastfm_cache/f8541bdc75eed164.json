@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:23.243992+00:00",
+  "elapsed": 0.19001,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:23.243992+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3435",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=In+My+Feelings"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=In+My+Feelings",
+  "_decoded_content": {
+    "track": {
+      "name": "In My Feelings",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/In+My+Feelings",
+      "duration": "239000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "514186",
+      "playcount": "6120321",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Lust for Life",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Lust+for+Life",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Dec 2021, 09:25",
+        "summary": "\"In My Feelings\" speaks to the rollercoaster of emotions that come with intense relationships, particularly those that are toxic. The lyrics showcase the highs and lows of being in love and in pain, while still advocating for self-empowerment and control.\n\nThe song is a reflection of the singer's emotional state. The lyrics describe a tumultuous relationship which is marked by her falling for another loser and feeling helpless as she cries while making good money. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/In+My+Feelings\">Read more on Last.fm<\/a>.",
+        "content": "\"In My Feelings\" speaks to the rollercoaster of emotions that come with intense relationships, particularly those that are toxic. The lyrics showcase the highs and lows of being in love and in pain, while still advocating for self-empowerment and control.\n\nThe song is a reflection of the singer's emotional state. The lyrics describe a tumultuous relationship which is marked by her falling for another loser and feeling helpless as she cries while making good money. The cigarette smoke could be symbolic of the toxic nature of the relationship, which has caused her to feel trapped and unable to escape. The singer expresses her frustration and hurt, as she is left feeling vulnerable and confused.\n\nThe lyrics also suggest a sense of empowerment as she takes control of her emotions and situation. She is laughing as she takes no prisoners and takes down names, all while crying and smoking. The line \"Who's doper than this bitch? Who's freer than me?\" demonstrates her confidence and self-assurance, while still acknowledging her feelings of vulnerability.\n\nThe bridge refers to the confusion and disorientation that comes with being in an emotionally intense situation. The singer feels like she is up against a wall, making no sense at all, and needs to leave. The repeated chorus reinforces her sense of being in her feelings - feeling so much, making no sense, and feeling crazy. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/In+My+Feelings\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

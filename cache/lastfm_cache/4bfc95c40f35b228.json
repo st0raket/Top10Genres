@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:51.619098+00:00",
+  "elapsed": 0.213392,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:51.619098+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3038",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=STAYC&format=json&method=track.getInfo&track=Bubble"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=STAYC&format=json&method=track.getInfo&track=Bubble",
+  "_decoded_content": {
+    "track": {
+      "name": "Bubble",
+      "url": "https:\/\/www.last.fm\/music\/STAYC\/_\/Bubble",
+      "duration": "178000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "139235",
+      "playcount": "2211732",
+      "artist": {
+        "name": "STAYC",
+        "url": "https:\/\/www.last.fm\/music\/STAYC"
+      },
+      "album": {
+        "artist": "STAYC",
+        "title": "TEENFRESH",
+        "url": "https:\/\/www.last.fm\/music\/STAYC\/TEENFRESH",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d2c00fd29eee364cf7b8cb4f6b5f8e18.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d2c00fd29eee364cf7b8cb4f6b5f8e18.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d2c00fd29eee364cf7b8cb4f6b5f8e18.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d2c00fd29eee364cf7b8cb4f6b5f8e18.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Aug 2023, 11:54",
+        "summary": "\u2018Bubble\u2019 is the title track and first track of STAYC\u2019s third mini album \u2018TEENFRESH\u2019 released on August 16th, 2023.\n\nProduced by Black Eyed Pilseung, STAYC brings back their signature sound in their new EP with the lead single \u2018Bubble\u2019, a perfect mix of bubblegum pop and teen crush, along with multiple pop-rock influences throughout the song, featuring hard hitting guitar riffs within and throughout verses.\n\nBehind the layers of perfectly constructed dreamy pop sounds, STAYC relays a powerful message. <a href=\"http:\/\/www.last.fm\/music\/STAYC\/_\/Bubble\">Read more on Last.fm<\/a>.",
+        "content": "\u2018Bubble\u2019 is the title track and first track of STAYC\u2019s third mini album \u2018TEENFRESH\u2019 released on August 16th, 2023.\n\nProduced by Black Eyed Pilseung, STAYC brings back their signature sound in their new EP with the lead single \u2018Bubble\u2019, a perfect mix of bubblegum pop and teen crush, along with multiple pop-rock influences throughout the song, featuring hard hitting guitar riffs within and throughout verses.\n\nBehind the layers of perfectly constructed dreamy pop sounds, STAYC relays a powerful message. Through the lyrics, the track explores themes of self-confidence. The members sing about ignoring judgement or unnecessary criticism from other people, and encourage listeners to ignore the mean things people may say, and to make sure other people\u2019s opinions don\u2019t hinder their own progress to happiness and success.\nBubbles are used in these lyrics as a metaphor for the rude things people may say, as bubbles quickly pop and disappear just as quick as they are formed.\n\n\u201cBut they're all bubbles that will disappear, don't let it get to you\u201d \u2014 SEEUN <a href=\"http:\/\/www.last.fm\/music\/STAYC\/_\/Bubble\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

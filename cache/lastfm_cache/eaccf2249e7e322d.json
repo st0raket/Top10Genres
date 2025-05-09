@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:35:56.288183+00:00",
+  "elapsed": 0.199433,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:56.288183+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2111",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Normani&format=json&method=track.getInfo&track=Wild+Side"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Normani&format=json&method=track.getInfo&track=Wild+Side",
+  "_decoded_content": {
+    "track": {
+      "name": "Wild Side",
+      "url": "https:\/\/www.last.fm\/music\/Normani\/_\/Wild+Side",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2302",
+      "playcount": "14509",
+      "artist": {
+        "name": "Normani",
+        "url": "https:\/\/www.last.fm\/music\/Normani"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "amazing",
+            "url": "https:\/\/www.last.fm\/tag\/amazing"
+          },
+          {
+            "name": "perfect",
+            "url": "https:\/\/www.last.fm\/tag\/perfect"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Aug 2023, 19:22",
+        "summary": "\"Wild Side\" is a song by Normani, featuring Cardi B. It was released through Keep Cool and RCA Records on July 16, 2021, as the lead single from Normani's upcoming untitled debut solo album. The song marks her first radio single since 2019's \"Motivation\". It was written by the two artists alongside Keynon Moore, Pardison Fontaine, Starrah, Dave Cappa, Jonah Christian, June Nawakii, Taylor Ross, and Tyler Rohn, and was produced by the latter six and Normani. <a href=\"http:\/\/www.last.fm\/music\/Normani\/_\/Wild+Side\">Read more on Last.fm<\/a>.",
+        "content": "\"Wild Side\" is a song by Normani, featuring Cardi B. It was released through Keep Cool and RCA Records on July 16, 2021, as the lead single from Normani's upcoming untitled debut solo album. The song marks her first radio single since 2019's \"Motivation\". It was written by the two artists alongside Keynon Moore, Pardison Fontaine, Starrah, Dave Cappa, Jonah Christian, June Nawakii, Taylor Ross, and Tyler Rohn, and was produced by the latter six and Normani.\n\nThe song was released alongside a video directed by Tanu Muino, who also directed Cardi B's \"Up\". The video was choreographed by Sean Bankhead; he also choreographed Normani's \"Motivation\". \"Wild Side\" contains an interpolation of the 1996 Aaliyah single \"One in a Million\". <a href=\"http:\/\/www.last.fm\/music\/Normani\/_\/Wild+Side\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

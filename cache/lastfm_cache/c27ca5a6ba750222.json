@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:03.500221+00:00",
+  "elapsed": 0.285874,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:03.500221+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2075",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=French+Montana&format=json&method=track.getInfo&track=Unforgettable"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=French+Montana&format=json&method=track.getInfo&track=Unforgettable",
+  "_decoded_content": {
+    "track": {
+      "name": "unforgettable",
+      "url": "https:\/\/www.last.fm\/music\/French+Montana\/_\/unforgettable",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "932045",
+      "playcount": "10137446",
+      "artist": {
+        "name": "French Montana",
+        "mbid": "45dc5f07-6609-4760-a933-8c9e0f858d05",
+        "url": "https:\/\/www.last.fm\/music\/French+Montana"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "dancehall",
+            "url": "https:\/\/www.last.fm\/tag\/dancehall"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Oct 2017, 04:51",
+        "summary": "\u201cUnforgettable\u201d is a song by Moroccian-American rapper French Montana of his second studio album, Jungle Rules, featuring fellow American rapper Swae Lee one half of American hip-hop duo Rae Sremmurd.\n\nFrench Montana originally dropped \"Unforgettable\" back on his 32nd birthday in November 2016 - at that point, it featured Jeremih and Rae Sremmurd's Swae Lee \u2013 but it was quickly removed from the internet. The final version was released on April 7, 2017 and cuts Jeremih's contribution, leaving only Swae Lee's vocals on the track. <a href=\"http:\/\/www.last.fm\/music\/French+Montana\/_\/unforgettable\">Read more on Last.fm<\/a>.",
+        "content": "\u201cUnforgettable\u201d is a song by Moroccian-American rapper French Montana of his second studio album, Jungle Rules, featuring fellow American rapper Swae Lee one half of American hip-hop duo Rae Sremmurd.\n\nFrench Montana originally dropped \"Unforgettable\" back on his 32nd birthday in November 2016 - at that point, it featured Jeremih and Rae Sremmurd's Swae Lee \u2013 but it was quickly removed from the internet. The final version was released on April 7, 2017 and cuts Jeremih's contribution, leaving only Swae Lee's vocals on the track. <a href=\"http:\/\/www.last.fm\/music\/French+Montana\/_\/unforgettable\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

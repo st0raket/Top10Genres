@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:32:48.510450+00:00",
+  "elapsed": 0.21115,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:48.510450+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3237",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ZICO&format=json&method=track.getInfo&track=Any+Song"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ZICO&format=json&method=track.getInfo&track=Any+Song",
+  "_decoded_content": {
+    "track": {
+      "name": "Any song",
+      "url": "https:\/\/www.last.fm\/music\/ZICO\/_\/Any+song",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "230902",
+      "playcount": "2258346",
+      "artist": {
+        "name": "ZICO",
+        "mbid": "f2215143-d7db-4cf0-9cd4-b0040eb63cbd",
+        "url": "https:\/\/www.last.fm\/music\/ZICO"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Pops In Seoul",
+            "url": "https:\/\/www.last.fm\/tag\/Pops+In+Seoul"
+          },
+          {
+            "name": "chill",
+            "url": "https:\/\/www.last.fm\/tag\/chill"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Mar 2021, 06:01",
+        "summary": "\"Any Song\" (Korean: \uc544\ubb34\ub178\ub798; RR: Amu norae; stylized in sentence case) is a song recorded by South Korean rapper Zico for his third extended play, Random Box (2020). The song was written and produced by Zico, with additional production from Poptime. It was released for digital download and streaming as a single on January 13, 2020, through KOZ Entertainment and Kakao M. Lyrically devoid of any characteristic message, the dancehall and hip hop song features an addictive chorus and sees Zico switching between rapping and singing. <a href=\"http:\/\/www.last.fm\/music\/ZICO\/_\/Any+song\">Read more on Last.fm<\/a>.",
+        "content": "\"Any Song\" (Korean: \uc544\ubb34\ub178\ub798; RR: Amu norae; stylized in sentence case) is a song recorded by South Korean rapper Zico for his third extended play, Random Box (2020). The song was written and produced by Zico, with additional production from Poptime. It was released for digital download and streaming as a single on January 13, 2020, through KOZ Entertainment and Kakao M. Lyrically devoid of any characteristic message, the dancehall and hip hop song features an addictive chorus and sees Zico switching between rapping and singing.\n\n\"Any Song\" was a commercial success in South Korea; it debuted atop the Gaon Digital Chart and remained the number one song for seven non-consecutive weeks, becoming the longest running chart topper on the chart. The song further charted at number one on the US Billboard K-pop Hot 100 and number four on the US World Digital Song Sales chart, in addition to charting within the top 10 in Malaysia and Singapore. \"Any Song\" was the most successful song of the first half of 2020 in South Korea and was certified platinum in the country by the Korea Music Content Association (KMCA). It received a nomination for Song of the Year at the 2020 Mnet Asian Music Awards.\n\nAn accompanying music video was uploaded to Kakao M's YouTube channel simultaneously with the single release, and features Zico hosting a house party for himself. Zico started a dance challenge on TikTok to promote the song. The challenge became viral after several South Korean celebrities responded to it. Zico first performed \"Any Song\" on You Hee-yeol's Sketchbook in March 2020. Although Zico did not promote the song on any South Korean weekly music program, it won first place on Inkigayo, Music Bank, and Show! Music Core. <a href=\"http:\/\/www.last.fm\/music\/ZICO\/_\/Any+song\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

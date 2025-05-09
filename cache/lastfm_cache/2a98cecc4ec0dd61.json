@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:40:16.132828+00:00",
+  "elapsed": 0.185497,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:16.132828+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2592",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Stories+About+My+Brother"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Stories+About+My+Brother",
+  "_decoded_content": {
+    "track": {
+      "name": "stories about my brother",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/stories+about+my+brother",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "148006",
+      "playcount": "1270726",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          },
+          {
+            "name": "jazz rap",
+            "url": "https:\/\/www.last.fm\/tag\/jazz+rap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Nov 2023, 03:16",
+        "summary": "On \u201cStories About My Brother,\u201d Drake celebrates the lives he and his brothers lead and does not shy away from flexing the fame and riches he and his accomplices have amassed. While he may get briefly lost in the lyrical bravado and boastful nature he is known for, he frequently refocuses the song on his brothers with the repeated lyrics,Let me tell you \u2018bout my brother, though and goes on to tell stories of the acts, accomplishments, and tribulations of his brothers. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/stories+about+my+brother\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cStories About My Brother,\u201d Drake celebrates the lives he and his brothers lead and does not shy away from flexing the fame and riches he and his accomplices have amassed. While he may get briefly lost in the lyrical bravado and boastful nature he is known for, he frequently refocuses the song on his brothers with the repeated lyrics,Let me tell you \u2018bout my brother, though and goes on to tell stories of the acts, accomplishments, and tribulations of his brothers. This song, like the rest of the six new tracks on For All The Dogs Scary Hours Edition, places a heavy emphasis on Drake\u2019s lyrical craftsmanship. This song marks the second collaboration between Drake and producer Conductor Williams, following their first collab earlier this year with \u201c8am in Charlotte\u201d on Drake\u2019s eighth studio album, For All The Dogs. In an Instagram post, Conductor Williams stated \u201cWorking with Drake allows me to be a bit more musical, and hunt for melodies that call and respond to each other. I am so thankful that we linked. The musical connection is natural.\u201d <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/stories+about+my+brother\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

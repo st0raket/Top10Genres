@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:46.274849+00:00",
+  "elapsed": 0.58162,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:46.274849+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2484",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Martin+Garrix&format=json&method=track.getInfo&track=In+the+Name+of+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Martin+Garrix&format=json&method=track.getInfo&track=In+the+Name+of+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "In the Name of Love",
+      "url": "https:\/\/www.last.fm\/music\/Martin+Garrix\/_\/In+the+Name+of+Love",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "623302",
+      "playcount": "4532933",
+      "artist": {
+        "name": "Martin Garrix",
+        "mbid": "3e1f2ee4-16be-4406-bf18-6173840cf2b1",
+        "url": "https:\/\/www.last.fm\/music\/Martin+Garrix"
+      },
+      "album": {
+        "artist": "Martin Garrix",
+        "title": "In the Name of Love",
+        "url": "https:\/\/www.last.fm\/music\/Martin+Garrix\/In+the+Name+of+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4b46fa76a3a87ceb62a67530811bf8b8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4b46fa76a3a87ceb62a67530811bf8b8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4b46fa76a3a87ceb62a67530811bf8b8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4b46fa76a3a87ceb62a67530811bf8b8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "future bass",
+            "url": "https:\/\/www.last.fm\/tag\/future+bass"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Feb 2017, 09:30",
+        "summary": "\"In the Name of Love\" is a song recorded by Dutch DJ and record producer Martin Garrix and American singer and songwriter Bebe Rexha. The song's production was handled by Martin Garrix, Matt Rad, Steve James and Simon Says. It was released on iTunes and streaming services after he premiered the song at Ultra Music Festival 2016. \n\nA remix EP was released on 11 November 2016, consisting of three remixes featuring DallasK, The Him and Snavs. <a href=\"http:\/\/www.last.fm\/music\/Martin+Garrix\/_\/In+the+Name+of+Love\">Read more on Last.fm<\/a>.",
+        "content": "\"In the Name of Love\" is a song recorded by Dutch DJ and record producer Martin Garrix and American singer and songwriter Bebe Rexha. The song's production was handled by Martin Garrix, Matt Rad, Steve James and Simon Says. It was released on iTunes and streaming services after he premiered the song at Ultra Music Festival 2016. \n\nA remix EP was released on 11 November 2016, consisting of three remixes featuring DallasK, The Him and Snavs. <a href=\"http:\/\/www.last.fm\/music\/Martin+Garrix\/_\/In+the+Name+of+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

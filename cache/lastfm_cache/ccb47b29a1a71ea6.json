@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:02.971635+00:00",
+  "elapsed": 0.252571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:02.971635+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3810",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jason+Aldean&format=json&method=track.getInfo&track=If+I+Didn%27t+Love+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jason+Aldean&format=json&method=track.getInfo&track=If+I+Didn%27t+Love+You",
+  "_decoded_content": {
+    "track": {
+      "name": "If I Didn't Love You",
+      "url": "https:\/\/www.last.fm\/music\/Jason+Aldean\/_\/If+I+Didn%27t+Love+You",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "29179",
+      "playcount": "191677",
+      "artist": {
+        "name": "Jason Aldean",
+        "mbid": "f24df11a-7e35-4979-a4db-a3b2a170ce27",
+        "url": "https:\/\/www.last.fm\/music\/Jason+Aldean"
+      },
+      "album": {
+        "artist": "Carrie Underwood",
+        "title": "If I Didn't Love You - Single",
+        "url": "https:\/\/www.last.fm\/music\/Carrie+Underwood\/If+I+Didn%27t+Love+You+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9a1b1dceb216595bb418d2c321d99bf8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9a1b1dceb216595bb418d2c321d99bf8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9a1b1dceb216595bb418d2c321d99bf8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9a1b1dceb216595bb418d2c321d99bf8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "duet",
+            "url": "https:\/\/www.last.fm\/tag\/duet"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Aug 2022, 15:31",
+        "summary": "\"If I Didn't Love You\" is a song recorded by country music singer-songwriters Jason Aldean and Carrie Underwood, released on July 23, 2021, as the first single from the first half of Macon on Aldean's tenth studio album Macon, Georgia, of which the first half, Macon was released on November 12, 2021. It was written by Tully Kennedy, John Morgan, Kurt Allison, and Lydia Vaughan.\n\nIn the United States, \"If I Didn't Love You\" debuted at #20 on the Billboard Country Airplay chart. <a href=\"http:\/\/www.last.fm\/music\/Jason+Aldean\/_\/If+I+Didn%27t+Love+You\">Read more on Last.fm<\/a>.",
+        "content": "\"If I Didn't Love You\" is a song recorded by country music singer-songwriters Jason Aldean and Carrie Underwood, released on July 23, 2021, as the first single from the first half of Macon on Aldean's tenth studio album Macon, Georgia, of which the first half, Macon was released on November 12, 2021. It was written by Tully Kennedy, John Morgan, Kurt Allison, and Lydia Vaughan.\n\nIn the United States, \"If I Didn't Love You\" debuted at #20 on the Billboard Country Airplay chart. The song also debuted at #2 on the Hot Country Songs chart, becoming the highest debut for a duet between a solo male and female artist. It sold 29,500 downloads in its first week and drew 9 million streams during the tracking period and debuted at #15 on the Billboard Hot 100 chart. On the chart dated October 30, 2021, the song rose to #1 on the Country Airplay chart, becoming Aldean's 24th #1 single on that chart, and Underwood's 16th, as well as her first since \"Church Bells\" in July 2016. It extended Underwood's record as the female artist with the most #1  hits on Country Airplay chart. The song spent a second week at #1 on the Mediabase\/Country Aircheck Singles chart and Billboard\u2019s Country Airplay chart. On the Country Airplay chart dated November 13, 2021, the song fell to #2, while Walker Hayes's \"Fancy Like\" replaced it at the top. The following week, it returned to #1 for a third and final week.\n\nThe song received a nomination for Best Country Duo\/Group Performance at the 64th Annual Grammy Awards. The song was nominated for three categories at the Academy for Country Music Awards 2022 for Musical Event of the Year, Video of The Year and Single of The Year, winning the latter. <a href=\"http:\/\/www.last.fm\/music\/Jason+Aldean\/_\/If+I+Didn%27t+Love+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

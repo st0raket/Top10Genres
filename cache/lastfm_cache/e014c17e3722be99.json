@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:37:59.086798+00:00",
+  "elapsed": 0.22493,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:59.086798+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "831",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=Ame+Sansan"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=Ame+Sansan",
+  "_decoded_content": {
+    "track": {
+      "name": "Ame Sansan",
+      "url": "https:\/\/www.last.fm\/music\/King+Gnu\/_\/Ame+Sansan",
+      "duration": "295000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2159",
+      "playcount": "9292",
+      "artist": {
+        "name": "King Gnu",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu"
+      },
+      "album": {
+        "artist": "King Gnu",
+        "title": "Ame Sansan",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu\/Ame+Sansan",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d69e7f8801692bc6c7476cd680985aff.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d69e7f8801692bc6c7476cd680985aff.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d69e7f8801692bc6c7476cd680985aff.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d69e7f8801692bc6c7476cd680985aff.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:34:21.586916+00:00",
+  "elapsed": 0.221659,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:21.586916+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1154",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wes+Nelson&format=json&method=track.getInfo&track=See+Nobody"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wes+Nelson&format=json&method=track.getInfo&track=See+Nobody",
+  "_decoded_content": {
+    "track": {
+      "name": "See Nobody",
+      "url": "https:\/\/www.last.fm\/music\/Wes+Nelson\/_\/See+Nobody",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "27860",
+      "playcount": "204266",
+      "artist": {
+        "name": "Wes Nelson",
+        "url": "https:\/\/www.last.fm\/music\/Wes+Nelson"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Latest Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Latest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c08c6f2342a2a9a62ae102830e15d0a3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c08c6f2342a2a9a62ae102830e15d0a3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c08c6f2342a2a9a62ae102830e15d0a3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c08c6f2342a2a9a62ae102830e15d0a3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Grime",
+            "url": "https:\/\/www.last.fm\/tag\/Grime"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "concrete jungle",
+            "url": "https:\/\/www.last.fm\/tag\/concrete+jungle"
+          },
+          {
+            "name": "egotism",
+            "url": "https:\/\/www.last.fm\/tag\/egotism"
+          }
+        ]
+      }
+    }
+  }
+}

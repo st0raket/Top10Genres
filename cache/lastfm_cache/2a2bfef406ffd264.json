@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:14.013442+00:00",
+  "elapsed": 0.18156,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:14.013442+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3324",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=euphoria"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=euphoria",
+  "_decoded_content": {
+    "track": {
+      "name": "euphoria",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/euphoria",
+      "duration": "385000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "916005",
+      "playcount": "12101590",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "euphoria",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/euphoria",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b2946e7a8ca6279fd346cc4f6ae95087.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b2946e7a8ca6279fd346cc4f6ae95087.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b2946e7a8ca6279fd346cc4f6ae95087.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b2946e7a8ca6279fd346cc4f6ae95087.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Diss",
+            "url": "https:\/\/www.last.fm\/tag\/Diss"
+          },
+          {
+            "name": "diss track",
+            "url": "https:\/\/www.last.fm\/tag\/diss+track"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Apr 2024, 17:20",
+        "summary": "\u201cEuphoria\u201c is the response by Kendrick Lamar to Drake's \"Push Ups\" and \"Taylor Made Freestyle\", which itself is a response to Future and Metro Boomin's track featuring Kendrick Lamar \"Like That\". The single was surprise-dropped on YouTube on April 30, 2024, with the streaming release following mere hours later.\n\nMade of three distinct song sections in which Lamar targets Drake, his public perception, and his many celebrity associates, the track <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/euphoria\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEuphoria\u201c is the response by Kendrick Lamar to Drake's \"Push Ups\" and \"Taylor Made Freestyle\", which itself is a response to Future and Metro Boomin's track featuring Kendrick Lamar \"Like That\". The single was surprise-dropped on YouTube on April 30, 2024, with the streaming release following mere hours later.\n\nMade of three distinct song sections in which Lamar targets Drake, his public perception, and his many celebrity associates, the track playfully references Drake\u2019s biracialism and place within both \u201cBlack culture\u201d and the music industry at large.\n\nThe accompanying artwork depicts a definition of \u201ceuphoria\u201d with two example sentences, originating from the online dictionary Merriam-Webster; this caused euphoria to be the most searched word on their website upon the single\u2019s release. The second example sentence in the artwork references the fact that the song was released on a Tuesday. It\u2019s also likely that the song\u2019s title refers to HBO\u2019s Euphoria, the popular teen drama on which Drake is an executive producer.\n\nThe song was produced by Cardo, \u200bKyuro, Sounwave, Johnny Juliano & Yung Exclusive. Cardo notably has produced some of Drake's biggest songs, such as God's Plan, Wants and Needs (feat. Lil Baby), and Laugh Now Cry Later (feat. Lil Durk). <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/euphoria\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:24.936330+00:00",
+  "elapsed": 0.219369,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:24.936330+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2584",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Neighbourhood&format=json&method=track.getInfo&track=Daddy+Issues"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Neighbourhood&format=json&method=track.getInfo&track=Daddy+Issues",
+  "_decoded_content": {
+    "track": {
+      "name": "Daddy Issues",
+      "url": "https:\/\/www.last.fm\/music\/The+Neighbourhood\/_\/Daddy+Issues",
+      "duration": "260000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1502719",
+      "playcount": "23611956",
+      "artist": {
+        "name": "The Neighbourhood",
+        "mbid": "97b8d224-5660-419c-8dff-4b3bf0c33983",
+        "url": "https:\/\/www.last.fm\/music\/The+Neighbourhood"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "TikTok Throwbacks",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/TikTok+Throwbacks",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/60e0cf6f59e73199bb55bae5b8c4af2f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/60e0cf6f59e73199bb55bae5b8c4af2f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/60e0cf6f59e73199bb55bae5b8c4af2f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/60e0cf6f59e73199bb55bae5b8c4af2f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "spoken",
+            "url": "https:\/\/www.last.fm\/tag\/spoken"
+          },
+          {
+            "name": "Moderate",
+            "url": "https:\/\/www.last.fm\/tag\/Moderate"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Jan 2022, 06:56",
+        "summary": "\u201cDaddy Issues\u201d peers into the relationship between frontman Jesse Rutherford and his late father.\n\nLyrical content from \u201c1 of Those Weaks,\u201d \u201cR.I.P. 2 My Youth,\u201d and \u201cGreetings From Califournia,\u201d as well as a tweet Rutherford made in 2014, mention the passing of his father.\n\nAlthough the song refers to his father several times, it should still be known that he talks about the effects of growing up without a father specifically for younger contemporary women. <a href=\"http:\/\/www.last.fm\/music\/The+Neighbourhood\/_\/Daddy+Issues\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDaddy Issues\u201d peers into the relationship between frontman Jesse Rutherford and his late father.\n\nLyrical content from \u201c1 of Those Weaks,\u201d \u201cR.I.P. 2 My Youth,\u201d and \u201cGreetings From Califournia,\u201d as well as a tweet Rutherford made in 2014, mention the passing of his father.\n\nAlthough the song refers to his father several times, it should still be known that he talks about the effects of growing up without a father specifically for younger contemporary women. <a href=\"http:\/\/www.last.fm\/music\/The+Neighbourhood\/_\/Daddy+Issues\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

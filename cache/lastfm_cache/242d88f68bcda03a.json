@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:42.975664+00:00",
+  "elapsed": 0.230474,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:42.975664+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1354",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Toby+Keith&format=json&method=track.getInfo&track=I+Love+This+Bar"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Toby+Keith&format=json&method=track.getInfo&track=I+Love+This+Bar",
+  "_decoded_content": {
+    "track": {
+      "name": "I Love This Bar",
+      "mbid": "0f6a9d7b-1a4a-4c51-8ab7-50b39d2c5f4e",
+      "url": "https:\/\/www.last.fm\/music\/Toby+Keith\/_\/I+Love+This+Bar",
+      "duration": "335000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "204582",
+      "playcount": "742288",
+      "artist": {
+        "name": "Toby Keith",
+        "mbid": "2f951906-5629-4fef-a260-5033151c162a",
+        "url": "https:\/\/www.last.fm\/music\/Toby+Keith"
+      },
+      "album": {
+        "artist": "Toby Keith",
+        "title": "Shock'n Y'All",
+        "mbid": "99dccf04-5813-493a-9277-ec4df7b0ef09",
+        "url": "https:\/\/www.last.fm\/music\/Toby+Keith\/Shock%27n+Y%27All",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2eff62e0d924c7040b5c76b9615e13ee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2eff62e0d924c7040b5c76b9615e13ee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2eff62e0d924c7040b5c76b9615e13ee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2eff62e0d924c7040b5c76b9615e13ee.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "toby keith",
+            "url": "https:\/\/www.last.fm\/tag\/toby+keith"
+          },
+          {
+            "name": "i love this bar",
+            "url": "https:\/\/www.last.fm\/tag\/i+love+this+bar"
+          },
+          {
+            "name": "new country",
+            "url": "https:\/\/www.last.fm\/tag\/new+country"
+          },
+          {
+            "name": "drinking",
+            "url": "https:\/\/www.last.fm\/tag\/drinking"
+          }
+        ]
+      }
+    }
+  }
+}

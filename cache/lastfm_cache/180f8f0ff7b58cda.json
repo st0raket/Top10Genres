@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:43:26.855346+00:00",
+  "elapsed": 0.217569,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:26.855346+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2212",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lu%C3%ADsa+Sonza&format=json&method=track.getInfo&track=CACHORRINHAS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lu%C3%ADsa+Sonza&format=json&method=track.getInfo&track=CACHORRINHAS",
+  "_decoded_content": {
+    "track": {
+      "name": "CACHORRINHAS",
+      "url": "https:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/_\/CACHORRINHAS",
+      "duration": "134000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "143711",
+      "playcount": "2293672",
+      "artist": {
+        "name": "Lu\u00edsa Sonza",
+        "url": "https:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza"
+      },
+      "album": {
+        "artist": "Lu\u00edsa Sonza",
+        "title": "CACHORRINHAS",
+        "url": "https:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/CACHORRINHAS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/746f99d7da82cf634813633c6d6025b3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/746f99d7da82cf634813633c6d6025b3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/746f99d7da82cf634813633c6d6025b3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/746f99d7da82cf634813633c6d6025b3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "E",
+            "url": "https:\/\/www.last.fm\/tag\/E"
+          },
+          {
+            "name": "pop trap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+trap"
+          },
+          {
+            "name": "DOCE 22",
+            "url": "https:\/\/www.last.fm\/tag\/DOCE+22"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jul 2022, 16:01",
+        "summary": "\"Cachorrinhas\" (stylized in all caps) is a song by Brazilian singer-songwriter Lu\u00edsa Sonza. It was released as a single on July 18, 2022 through Sony Music Brasil, being her first release on the label. The corresponding music video was directed by Fernando Nogari and recorded on film, which the artist described as \"one of the greatest music videos of her entire career\". <a href=\"http:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/_\/CACHORRINHAS\">Read more on Last.fm<\/a>.",
+        "content": "\"Cachorrinhas\" (stylized in all caps) is a song by Brazilian singer-songwriter Lu\u00edsa Sonza. It was released as a single on July 18, 2022 through Sony Music Brasil, being her first release on the label. The corresponding music video was directed by Fernando Nogari and recorded on film, which the artist described as \"one of the greatest music videos of her entire career\". <a href=\"http:\/\/www.last.fm\/music\/Lu%C3%ADsa+Sonza\/_\/CACHORRINHAS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

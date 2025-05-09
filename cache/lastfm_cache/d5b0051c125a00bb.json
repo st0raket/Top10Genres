@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:30:14.287819+00:00",
+  "elapsed": 0.211691,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:14.287819+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1063",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=1AM&format=json&method=track.getInfo&track=I+Am"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=1AM&format=json&method=track.getInfo&track=I+Am",
+  "_decoded_content": {
+    "track": {
+      "name": "I Am",
+      "url": "https:\/\/www.last.fm\/music\/1AM\/_\/I+Am",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1209",
+      "playcount": "20638",
+      "artist": {
+        "name": "1AM",
+        "mbid": "af254e41-5f39-4062-84c0-73734a5e25b6",
+        "url": "https:\/\/www.last.fm\/music\/1AM"
+      },
+      "album": {
+        "artist": "PRODUCE 48",
+        "title": "Produce 48 - 30 Girls 6 Concepts",
+        "url": "https:\/\/www.last.fm\/music\/PRODUCE+48\/Produce+48+-+30+Girls+6+Concepts",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/89d0febfd85b8c46e355140b410eaf90.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/89d0febfd85b8c46e355140b410eaf90.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/89d0febfd85b8c46e355140b410eaf90.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/89d0febfd85b8c46e355140b410eaf90.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          }
+        ]
+      }
+    }
+  }
+}

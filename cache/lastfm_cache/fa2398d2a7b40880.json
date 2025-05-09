@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:09.252071+00:00",
+  "elapsed": 0.274139,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:09.252071+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3686",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Cassandra"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Cassandra",
+  "_decoded_content": {
+    "track": {
+      "name": "Cassandra",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Cassandra",
+      "duration": "245000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "327015",
+      "playcount": "5057730",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT:+THE+ANTHOLOGY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "chatgpt",
+            "url": "https:\/\/www.last.fm\/tag\/chatgpt"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Dec 2024, 17:20",
+        "summary": "In \u2018Cassandra,\u2019 Taylor Swift explores themes of betrayal, disbelief, and isolation, using the story of Cassandra of Troy, a princess and prophetess cursed by her ex-lover Apollo, to always deliver true prophecy but never be believed. Cassandra told of the imminent ruin of the city of Troy but, due to Apollo\u2019s curse, she was not believed \u2013 in the same way nobody heeded Taylor\u2019s true warnings. She recounts being in her new house, filled with daydreams <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Cassandra\">Read more on Last.fm<\/a>.",
+        "content": "In \u2018Cassandra,\u2019 Taylor Swift explores themes of betrayal, disbelief, and isolation, using the story of Cassandra of Troy, a princess and prophetess cursed by her ex-lover Apollo, to always deliver true prophecy but never be believed. Cassandra told of the imminent ruin of the city of Troy but, due to Apollo\u2019s curse, she was not believed \u2013 in the same way nobody heeded Taylor\u2019s true warnings. She recounts being in her new house, filled with daydreams, but everything changes when she receives a call, recalling, \u2018That\u2019s where I was when I got the call.\u2019 Swift portrays the chaos of being ignored and silenced, singing, \u2018When the first stone\u2019s thrown, they\u2019re screaming, in the streets, there\u2019s a raging riot.\u2019 Despite her warnings and fears, she\u2019s met with disbelief and hostility, lamenting, \u2018So, they killed Cassandra first 'cause she feared the worst and tried to tell the town.\u2019 Swift reflects on the toll of being unheard, wondering, \u2018So, they set my life in flames, I regret to say, do you believe me now?\u2019 She delves into the pain of betrayal, realizing, \u2018Blood\u2019s thick but nothing like a paywall, but they never spared a prayer for my soul.\u2019 The song concludes with a haunting reminder of the silence that follows truth, singing, \u2018When the truth comes out, it\u2019s quiet, it\u2019s so quiet.\u2019 Through vivid imagery and emotional depth, Swift captures the struggle of speaking out against injustice and the loneliness of being disregarded, in the same way that Cassandra was disbelieved when she spoke out about the imminent ruin of the city. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Cassandra\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

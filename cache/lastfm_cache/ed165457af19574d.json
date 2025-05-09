@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:51.744452+00:00",
+  "elapsed": 0.207387,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:51.744452+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1821",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Steve+Aoki&format=json&method=track.getInfo&track=Just+Hold+On"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Steve+Aoki&format=json&method=track.getInfo&track=Just+Hold+On",
+  "_decoded_content": {
+    "track": {
+      "name": "Just Hold On",
+      "url": "https:\/\/www.last.fm\/music\/Steve+Aoki\/_\/Just+Hold+On",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "224248",
+      "playcount": "1741491",
+      "artist": {
+        "name": "Steve Aoki",
+        "mbid": "a39acc4a-985e-4173-a9ed-f325f2d3bc1c",
+        "url": "https:\/\/www.last.fm\/music\/Steve+Aoki"
+      },
+      "album": {
+        "artist": "Steve Aoki",
+        "title": "Just Hold On",
+        "url": "https:\/\/www.last.fm\/music\/Steve+Aoki\/Just+Hold+On",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/af497c50089fd5de125147a3792e9956.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/af497c50089fd5de125147a3792e9956.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/af497c50089fd5de125147a3792e9956.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/af497c50089fd5de125147a3792e9956.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "louis tomlinson",
+            "url": "https:\/\/www.last.fm\/tag\/louis+tomlinson"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Dec 2016, 12:34",
+        "summary": "Steve Aoki Just Hold On is a collaboration with One Direction star Louis Tomlinson. \"Just Hold On\" was released on December 10th, 2016. <a href=\"http:\/\/www.last.fm\/music\/Steve+Aoki\/_\/Just+Hold+On\">Read more on Last.fm<\/a>.",
+        "content": "Steve Aoki Just Hold On is a collaboration with One Direction star Louis Tomlinson. \"Just Hold On\" was released on December 10th, 2016. <a href=\"http:\/\/www.last.fm\/music\/Steve+Aoki\/_\/Just+Hold+On\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:41.314665+00:00",
+  "elapsed": 0.380342,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:41.314665+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2441",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=P%21nk&format=json&method=track.getInfo&track=Beautiful+Trauma"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=P%21nk&format=json&method=track.getInfo&track=Beautiful+Trauma",
+  "_decoded_content": {
+    "track": {
+      "name": "Beautiful Trauma",
+      "url": "https:\/\/www.last.fm\/music\/P%21nk\/_\/Beautiful+Trauma",
+      "duration": "251000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "131198",
+      "playcount": "1102988",
+      "artist": {
+        "name": "P!nk",
+        "mbid": "f4d5cc07-3bc9-4836-9b15-88a08359bc63",
+        "url": "https:\/\/www.last.fm\/music\/P%21nk"
+      },
+      "album": {
+        "artist": "P!nk",
+        "title": "Beautiful Trauma",
+        "url": "https:\/\/www.last.fm\/music\/P%21nk\/Beautiful+Trauma",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1a30e25e207cbf7b0769945030b5edb9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1a30e25e207cbf7b0769945030b5edb9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1a30e25e207cbf7b0769945030b5edb9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1a30e25e207cbf7b0769945030b5edb9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Jul 2022, 15:35",
+        "summary": "\u201cBeautiful Trauma\u201d is the title track from P!nk\u2019s album Beautiful Trauma, with the song being released on September 28th 2017. The song was written by P!nk and Jack Antonoff. The song was chosen as the official second single off the album, with the song being sent to radio on November 21st, 2017.\n\nShe told fans on Twitter that she named the album after this song because \u201clife is f*cking traumatic. But it\u2019s also incredibly beautiful\u2026\u201d <a href=\"http:\/\/www.last.fm\/music\/P%21nk\/_\/Beautiful+Trauma\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBeautiful Trauma\u201d is the title track from P!nk\u2019s album Beautiful Trauma, with the song being released on September 28th 2017. The song was written by P!nk and Jack Antonoff. The song was chosen as the official second single off the album, with the song being sent to radio on November 21st, 2017.\n\nShe told fans on Twitter that she named the album after this song because \u201clife is f*cking traumatic. But it\u2019s also incredibly beautiful\u2026\u201d <a href=\"http:\/\/www.last.fm\/music\/P%21nk\/_\/Beautiful+Trauma\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

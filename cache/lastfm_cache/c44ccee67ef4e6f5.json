@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:35:32.806911+00:00",
+  "elapsed": 0.718628,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:32.806911+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1006",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E5%A4%89%E6%85%8B%E7%B4%B3%E5%A3%AB%E3%82%AF%E3%83%A9%E3%83%96&format=json&method=track.getInfo&track=YOKAZE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E5%A4%89%E6%85%8B%E7%B4%B3%E5%A3%AB%E3%82%AF%E3%83%A9%E3%83%96&format=json&method=track.getInfo&track=YOKAZE",
+  "_decoded_content": {
+    "track": {
+      "name": "YOKAZE",
+      "url": "https:\/\/www.last.fm\/music\/%E5%A4%89%E6%85%8B%E7%B4%B3%E5%A3%AB%E3%82%AF%E3%83%A9%E3%83%96\/_\/YOKAZE",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1651",
+      "playcount": "14292",
+      "artist": {
+        "name": "\u5909\u614b\u7d33\u58eb\u30af\u30e9\u30d6",
+        "url": "https:\/\/www.last.fm\/music\/%E5%A4%89%E6%85%8B%E7%B4%B3%E5%A3%AB%E3%82%AF%E3%83%A9%E3%83%96"
+      },
+      "album": {
+        "artist": "\u5909\u614b\u7d33\u58eb\u30af\u30e9\u30d6",
+        "title": "ZURUMUKE",
+        "url": "https:\/\/www.last.fm\/music\/%E5%A4%89%E6%85%8B%E7%B4%B3%E5%A3%AB%E3%82%AF%E3%83%A9%E3%83%96\/ZURUMUKE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aa150c3d67f4f67027a0b3c0312f3b94.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aa150c3d67f4f67027a0b3c0312f3b94.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aa150c3d67f4f67027a0b3c0312f3b94.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aa150c3d67f4f67027a0b3c0312f3b94.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

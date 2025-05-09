@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:53.652463+00:00",
+  "elapsed": 0.211282,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:53.652463+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2602",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kylie+Minogue&format=json&method=track.getInfo&track=Tension"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kylie+Minogue&format=json&method=track.getInfo&track=Tension",
+  "_decoded_content": {
+    "track": {
+      "name": "Tension",
+      "url": "https:\/\/www.last.fm\/music\/Kylie+Minogue\/_\/Tension",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "119223",
+      "playcount": "1820104",
+      "artist": {
+        "name": "Kylie Minogue",
+        "mbid": "2fddb92d-24b2-46a5-bf28-3aed46f4684c",
+        "url": "https:\/\/www.last.fm\/music\/Kylie+Minogue"
+      },
+      "album": {
+        "artist": "Kylie Minogue",
+        "title": "Tension (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Kylie+Minogue\/Tension+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c5b117281e9cb7bfcca9b06070347093.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c5b117281e9cb7bfcca9b06070347093.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c5b117281e9cb7bfcca9b06070347093.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c5b117281e9cb7bfcca9b06070347093.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "diva house",
+            "url": "https:\/\/www.last.fm\/tag\/diva+house"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Aug 2023, 15:56",
+        "summary": "\"Tension\" is the second single from  Kylie Minogue's sixteenth studio album, Tension.\n\n\"Tension\" stands out as a musical highlight on the album, demonstrating Kylie Minogue's exceptional ability to blend compelling melodies with thought-provoking and sensual lyrics. The tune evokes a sense of anticipation and interest, echoing the emotion suggested by its title. Kylie's remarkable vocal prowess brings the complexities of the song's narrative to life, producing a multi-dimensional auditory experience for her audience. <a href=\"http:\/\/www.last.fm\/music\/Kylie+Minogue\/_\/Tension\">Read more on Last.fm<\/a>.",
+        "content": "\"Tension\" is the second single from  Kylie Minogue's sixteenth studio album, Tension.\n\n\"Tension\" stands out as a musical highlight on the album, demonstrating Kylie Minogue's exceptional ability to blend compelling melodies with thought-provoking and sensual lyrics. The tune evokes a sense of anticipation and interest, echoing the emotion suggested by its title. Kylie's remarkable vocal prowess brings the complexities of the song's narrative to life, producing a multi-dimensional auditory experience for her audience. <a href=\"http:\/\/www.last.fm\/music\/Kylie+Minogue\/_\/Tension\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

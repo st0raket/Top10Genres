@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:11.626490+00:00",
+  "elapsed": 0.182986,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:11.626490+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4527",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lizzo&format=json&method=track.getInfo&track=Juice"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lizzo&format=json&method=track.getInfo&track=Juice",
+  "_decoded_content": {
+    "track": {
+      "name": "Juice",
+      "url": "https:\/\/www.last.fm\/music\/Lizzo\/_\/Juice",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "582079",
+      "playcount": "5936192",
+      "artist": {
+        "name": "Lizzo",
+        "mbid": "50d06c43-5392-4393-ba2d-f091d8167227",
+        "url": "https:\/\/www.last.fm\/music\/Lizzo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Songs to Make You Feel Good",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Songs+to+Make+You+Feel+Good",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ebee7784f84161995f5283ec9382c660.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ebee7784f84161995f5283ec9382c660.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ebee7784f84161995f5283ec9382c660.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ebee7784f84161995f5283ec9382c660.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Nov 2019, 12:14",
+        "summary": "\"Juice\" is a song recorded by American singer and rapper Lizzo. It was released on January 4, 2019, by Atlantic Records as the lead single from her third and debut major-label studio album \"Cuz I Love You\". The single was written by Lizzo, Theron Thomas, Sam Sumser, Sean Small and Ricky Reed; the latter also handled the song's production. Musically, it is a retro-inspired funk and funk-pop song that is based on a throwback groove. Lyrically, the song discusses self-love, and has been described as a self-esteem anthem. <a href=\"http:\/\/www.last.fm\/music\/Lizzo\/_\/Juice\">Read more on Last.fm<\/a>.",
+        "content": "\"Juice\" is a song recorded by American singer and rapper Lizzo. It was released on January 4, 2019, by Atlantic Records as the lead single from her third and debut major-label studio album \"Cuz I Love You\". The single was written by Lizzo, Theron Thomas, Sam Sumser, Sean Small and Ricky Reed; the latter also handled the song's production. Musically, it is a retro-inspired funk and funk-pop song that is based on a throwback groove. Lyrically, the song discusses self-love, and has been described as a self-esteem anthem.\n\nThe song received widespread acclaim from critics, some of whom referred to the song as Lizzo's best. Commercially, the single entered component R&B charts in the United States, while also reaching the top twenty in Scotland. The track is certified Double Platinum in the US and Gold or Platinum in five additional countries. A music video was released alongside the single, which contains several 1980s pop culture references. To promote the single, Lizzo performed the song on several shows, including The Ellen DeGeneres Show, The Today Show, Jimmy Kimmel Live! and The Tonight Show Starring Jimmy Fallon.\n\nThe song is one of the tracks on the American version of Now That's What I Call Music! 71, released on August 2, 2019. In September 2019, the song spawned an internet meme after Polygon writer Jeff Ramos cut a trailer for House House's Untitled Goose Game using the song as its anthem. The song was also featured in the official trailer for the 2021 film Tom & Jerry.\n\nThe music video for \"Juice\" was released the same day as the single. The video, directed by Quinn Wilson, features the singer in an '80s-style workout program, late-night talk show, and selling products on an infomercial. It also contains references to Soul Glo commercials and a reference to ASMR YouTuber Spirit Payton.Taylor Bryant of Nylon magazine described the video as \"just as fun as the song\".\n\nA second music video premiered on the WOWPresents YouTube channel on April 17, 2019. The video features Lizzo with RuPaul's Drag Race alumni A'keria C. Davenport, Silky Nutmeg Ganache, Soju, Mayhem Miller, Asia O'Hara, Mariah Paris Balenciaga, Detox Icunt, Morgan McMichaels and Sonique. The video was directed by Pete Williams.\n\nOn October 18, 2019, singer CeCe Peniston accused Lizzo of plagiarizing the song's \"Yeah-yeah\" ad-lib from her 1990s single \"Finally\". Lizzo's lawyer rejected the claim, describing it as \"opportunistic\" and \"specious\". <a href=\"http:\/\/www.last.fm\/music\/Lizzo\/_\/Juice\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

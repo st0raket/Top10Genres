@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:31:21.839096+00:00",
+  "elapsed": 0.199434,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:21.839096+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2555",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Paradise"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Paradise",
+  "_decoded_content": {
+    "track": {
+      "name": "Paradise",
+      "url": "https:\/\/www.last.fm\/music\/Khalid\/_\/Paradise",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "70903",
+      "playcount": "446053",
+      "artist": {
+        "name": "Khalid",
+        "mbid": "c6bfb05d-f570-46c8-98e1-e25441189770",
+        "url": "https:\/\/www.last.fm\/music\/Khalid"
+      },
+      "album": {
+        "artist": "Khalid",
+        "title": "Free Spirit",
+        "url": "https:\/\/www.last.fm\/music\/Khalid\/Free+Spirit",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/20536b4149df70b97dca0e6374a608a3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001747063611",
+            "url": "https:\/\/www.last.fm\/tag\/-1001747063611"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Mar 2022, 00:56",
+        "summary": "\"Paradise\" is the eighth track on Khalid\u2019s sophomore album \"Free Spirit\".\n\nThe song explains how Khalid and his lover\u2019s \u201cFree Spirit\u201d attitude is effecting their relationship. They pray to repent from their wickedness only to fall back into their old ways. But their love will make it through the hard times.\n\n\"I feel like having enough songs for people to see different sides of me as an artist. I could\u2019ve gone forever\u2014there were like 30 more songs. <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/Paradise\">Read more on Last.fm<\/a>.",
+        "content": "\"Paradise\" is the eighth track on Khalid\u2019s sophomore album \"Free Spirit\".\n\nThe song explains how Khalid and his lover\u2019s \u201cFree Spirit\u201d attitude is effecting their relationship. They pray to repent from their wickedness only to fall back into their old ways. But their love will make it through the hard times.\n\n\"I feel like having enough songs for people to see different sides of me as an artist. I could\u2019ve gone forever\u2014there were like 30 more songs. Although there were some that didn\u2019t make the album, that doesn\u2019t mean those won\u2019t have a life. I could hit up some of my favorite artists and be like, \u2018Yo, do you want to turn this into a collab and you want to hop on it?'\u201d\n\u2014 Khalid for Apple Music <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/Paradise\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

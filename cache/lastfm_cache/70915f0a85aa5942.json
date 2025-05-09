@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:44:00.218792+00:00",
+  "elapsed": 0.184747,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:00.218792+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "694",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=In+Your+Eyes+%28with+Doja+Cat%29+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=In+Your+Eyes+%28with+Doja+Cat%29+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "In Your Eyes (with Doja Cat) - Remix",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/In+Your+Eyes+(with+Doja+Cat)+-+Remix",
+      "duration": "237000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "246061",
+      "playcount": "2160449",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "doja cat",
+            "url": "https:\/\/www.last.fm\/tag\/doja+cat"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      }
+    }
+  }
+}

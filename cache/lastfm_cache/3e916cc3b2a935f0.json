@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:35:38.685501+00:00",
+  "elapsed": 0.220819,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:38.677871+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Easy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Easy",
+  "_decoded_content": {
+    "track": {
+      "name": "Easy",
+      "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Easy",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "161571",
+      "playcount": "3573547",
+      "artist": {
+        "name": "STRAY KIDS",
+        "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jan 2021, 04:52",
+        "summary": "This is a b-side track by Stray Kids, an 8 membered JYP boy group. It was released in their first full length album GO LIVE, released on June 17th 2020. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Easy\">Read more on Last.fm<\/a>.",
+        "content": "This is a b-side track by Stray Kids, an 8 membered JYP boy group. It was released in their first full length album GO LIVE, released on June 17th 2020. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Easy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

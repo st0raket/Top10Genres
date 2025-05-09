@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:28.308187+00:00",
+  "elapsed": 0.183152,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:28.308187+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5881",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Glass+Animals&format=json&method=track.getInfo&track=Heat+Waves"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Glass+Animals&format=json&method=track.getInfo&track=Heat+Waves",
+  "_decoded_content": {
+    "track": {
+      "name": "Heat Waves",
+      "url": "https:\/\/www.last.fm\/music\/Glass+Animals\/_\/Heat+Waves",
+      "duration": "238000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1267511",
+      "playcount": "19759335",
+      "artist": {
+        "name": "Glass Animals",
+        "mbid": "20395131-fbde-43ce-b141-b700cfdae99c",
+        "url": "https:\/\/www.last.fm\/music\/Glass+Animals"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Chilled Acoustic",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Chilled+Acoustic",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9d56fd128fdbe708802a8bd3015b9a24.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9d56fd128fdbe708802a8bd3015b9a24.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9d56fd128fdbe708802a8bd3015b9a24.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9d56fd128fdbe708802a8bd3015b9a24.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Oct 2022, 03:18",
+        "summary": "\u201cHeat Waves\u201d is the fourth single from UK band Glass Animals' third studio album \"Dreamland\". The song features a melancholy tone but maintains high energy through its instrumental, with Dave speaking on remaining strong through vulnerable moments in your life and embracing your vulnerability.\n\nThe band first teased the track along their 2020 D\u00e9j\u00e0 Vu Tour, as seen on the setlist for the Toronto show on the tour. Dave then teased the song\u2019s release and chorus lyrics on the band\u2019s subreddit on June 26, 2020. <a href=\"http:\/\/www.last.fm\/music\/Glass+Animals\/_\/Heat+Waves\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHeat Waves\u201d is the fourth single from UK band Glass Animals' third studio album \"Dreamland\". The song features a melancholy tone but maintains high energy through its instrumental, with Dave speaking on remaining strong through vulnerable moments in your life and embracing your vulnerability.\n\nThe band first teased the track along their 2020 D\u00e9j\u00e0 Vu Tour, as seen on the setlist for the Toronto show on the tour. Dave then teased the song\u2019s release and chorus lyrics on the band\u2019s subreddit on June 26, 2020. It was later premiered as Annie Mac\u2019s Hottest Record in the World on BBC Radio 1 on June 29, 2020.\n\nAfter the song released, Dave published a note to fans on Twitter:\n\n\"HEAT WAVES IS OUT NOW. it\u2019s about realising you can\u2019t make everyone happy. and realising it\u2019s ok to be defeated by something. we are often expected to \u2018be strong\u2019 and to swallow our sadness. failing to do that is seen as weakness. so we try to cover up our feelings and hide inside of TV shows or video games or drink or drugs. but being vulnerable should be a positive thing. there was a review in a big publication we got early on that said i was \u2018too effeminate\u2019 because of the way I sang and that that was weak and gross. its 2020. there\u2019s no space for that sh*t anymore. the music video is out too. it\u2019s meant to reference the sentiments in the song\u2026about being defeated and unable to save something\u2026but tweaked the context a little. I\u2019ll do another post about it tomorrow explaining more. i hope you like the song, its a special one to me.\"\n\nHe expanded on the meaning in the Apple Music Editor\u2019s Notes:\n\n\"It began with a personal experience that everyone has had: A friend starts dating someone and slowly, they change the way they dress. And then the way they talk. And then everything. Eventually it gets to the point where you\u2019re like, \u2018Who is that? Where did my friend go?\u2019 Well, this song is about realizing that it\u2019s happened to you, that it\u2019s you that\u2019s changed. You\u2019ve become someone that you aren\u2019t. I was trying to figure out whether it\u2019s a good thing or a bad thing, but ultimately I think it\u2019s about hitting a wall\u2014a point where you can\u2019t change anymore or you\u2019ll lose the foundation of who you are. You\u2019ll become an attachment for this other person. It\u2019s happened to me and I\u2019ve seen it happen to so many friends. And there\u2019s a moment when you see your reflection and you\u2019re like, \u2018Oh, fuck.\u2019 All of the lyrics play into that\u2014mirages, hallucinations, things like that.\"\n\nHe revealed more about the video\u2019s meaning on YouTube:\n\n\"this video is a love letter to live music and the culture and togetherness surrounding it. It was filmed at the peak of the lockdown in my neighbourhood in East London by the lovely people who live around me, just using their phones. These are people who are usually out at shows, in galleries, going to cinemas etc. These venues are left empty now, and many of them will not survive. The song is about loss and longing, and ultimately realizing you are unable to save something\u2026and this video is about that but for art, being together, and human contact. Huge love and thank you\u2019s to everyone who got involved and helped out. When everyone was leaning out of their windows filming, I felt that same sense of togetherness and spine-tingling energy that happened at live shows. It made the coldness of performing to an empty room with the band stuck on screens feel even more heart-breaking\"\n\nIt was certified platinum on April 28, 2021 making it their second song to do so. During the week ending March 12 , 2022, the song peaked at #1 on the Hot 100. It is the band\u2019s first song to appear on the chart and their first to place in the top 5. <a href=\"http:\/\/www.last.fm\/music\/Glass+Animals\/_\/Heat+Waves\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

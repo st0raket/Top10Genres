@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:49.046714+00:00",
+  "elapsed": 0.231301,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:49.046714+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "8587",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=John+Lennon&format=json&method=track.getInfo&track=Happy+Xmas+%28War+Is+Over%29+-+Remastered+2010"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=John+Lennon&format=json&method=track.getInfo&track=Happy+Xmas+%28War+Is+Over%29+-+Remastered+2010",
+  "_decoded_content": {
+    "track": {
+      "name": "Happy Xmas (War Is Over) - Remastered 2010",
+      "url": "https:\/\/www.last.fm\/music\/John+Lennon\/_\/Happy+Xmas+(War+Is+Over)+-+Remastered+2010",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "616493",
+      "playcount": "2855194",
+      "artist": {
+        "name": "John Lennon",
+        "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "url": "https:\/\/www.last.fm\/music\/John+Lennon"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Julemusik 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Julemusik+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c47a275f1a9309a8def61d57cf0d079b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "classics",
+            "url": "https:\/\/www.last.fm\/tag\/classics"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Dec 2022, 01:52",
+        "summary": "\"Happy Xmas (War Is Over)\" is a Christmas song by John Lennon, Yoko Ono and the Plastic Ono Band. It was recorded at Record Plant Studios in New York City in late October 1971, with the help of producer Phil Spector. It features soaring, heavily echoed vocals, and a sing-along chorus. The children singing in the background were from the Harlem Community Choir and are credited on the song's single.\n\nAlthough the song is a protest song about the Vietnam War, it has become a Christmas standard and has appeared on several Christmas albums. <a href=\"http:\/\/www.last.fm\/music\/John+Lennon\/_\/Happy+Xmas+(War+Is+Over)+-+Remastered+2010\">Read more on Last.fm<\/a>.",
+        "content": "\"Happy Xmas (War Is Over)\" is a Christmas song by John Lennon, Yoko Ono and the Plastic Ono Band. It was recorded at Record Plant Studios in New York City in late October 1971, with the help of producer Phil Spector. It features soaring, heavily echoed vocals, and a sing-along chorus. The children singing in the background were from the Harlem Community Choir and are credited on the song's single.\n\nAlthough the song is a protest song about the Vietnam War, it has become a Christmas standard and has appeared on several Christmas albums.\n\nThe lyric is based on a campaign in late 1969 by John Lennon and his wife, Yoko Ono, who rented billboards and posters in eleven cities around the world that read: \"WAR IS OVER! (If You Want It) Happy Christmas from John and Yoko\". The cities included New York, Los Angeles, Toronto, Rome, Athens, Amsterdam, Berlin, Paris, London, Tokyo and Hong Kong. At the time the US was deeply entrenched in the unpopular Vietnam War. The line \"War is over, if you want it, war is over, now!\", as sung by the background vocals, was taken directly from the billboards.\n\nThe song's melody and chord structure has been compared to that of the folk standard known as \"Stewball\". It is possible that \"Happy Christmas\" was merely a re-write of the traditional standard.\n\nThe record starts with a barely-audible whisper of Christmas greetings to their children: Yoko whispers \"Happy Christmas, Kyoko\", then John whispers \"Happy Christmas, Julian\". The lyric sheet from the 1982 release The John Lennon Collection erroneously gives this introduction as \"Happy Christmas, Yoko. Happy Christmas, John\".\n\nThe single was released in the US on 6 December 1971, but never charted on the Billboard Hot 100 charts; the UK release was delayed until the following November due to a publishing dispute. Upon release, it reached #4 in the UK Singles Chart. The song was re-released in the UK on 20 December 1980 shortly after John Lennon's death on 8 December 1980, peaking at Number 3.\n\nMusicians on the original recording were:\n\n* Vocals: John Lennon, Yoko Ono and the Harlem Community Choir\n* Guitar and bass guitar: Hugh McCracken, Chris Osborn, Teddy Irwin, Stuart Scharf\n* Keyboards, chimes and glockenspiel: Nicky Hopkins\n* Drums and sleigh bells: Jim Keltner\n\nKlaus Voormann was supposed to play bass guitar on the song but was unable to attend the session when his plane was delayed. One of the four guitarists played the bass part but it is unknown which one.\n\n* In 1990 this song was covered by the Welsh band The Alarm, using the title \"Happy Christmas (War Is Over)\" on the album Standards.\n* The song has been covered by The Used, The Polyphonic Spree, An Angle, and David Bazan.\n* Jimmy Buffett covered the song on his 1996 album Christmas Island.\n* An instrumental version of the song was recorded by Tomoyasu Hotei and appears on the first Merry Axemas instrumental guitar Christmas album, organized by Steve Vai and released in 1997.\n* Rebecca St. James recorded it on her Christmas album in 1997, with two major fundamental changes.\no The Australian spells out the entire word \"Christmas\".\no \"War is Over\" entirely omitted, as is the related anti-war chant from the song. She has read letters from United States soldiers on Fox News Channel and has made pro-military videos saluting both American and her native Australian troops for some of her songs.\n* C\u00e9line Dion covered the song on her 1998 album These Are Special Times.\n* Melissa Etheridge recorded a live version.\n* A darkwave cover was recorded by The Cr\u00fcxshadows and released on a 1999 Christmas compilation by Projekt Records.\n* Quo Vadis recorded a cover of the song with heavily-altered lyrics entitled \"So This Is Christmas (War Is Over)\" for the 2000 French Canadian Christmas album Noel dans la Rue.\n* Delta Goodrem recorded her own version as a B-side for her single \"Predictable\", where she changed the lyrics \"war is over\" to \"let the war be over\".\n* Shinedown has a single of the song on iTunes.\n* Beatallica covered the song on their 2009 Winter Plunderband release (November 17).\n* Sarah McLachlan led off her 2006 Christmas album Wintersong with a cover of this song.\n* Street Drum Corps, along with Bert McCracken recorded a cover available on the Christmas album The Taste of Christmas that was also released as a single.\n* The Fray released a cover of the song on iTunes on 12 December 2006, recorded just nine days earlier at The Palms. The Fray's version reached #50 on the Billboard Hot 100, the first time the song appeared on the US charts.\n* The Moody Blues performed the song on their Christmas album December.\n* Tarja Turunen covered the song on her 2006 album Henk\u00e4ys Ikuisuudesta.\n* Les Fradkin has a version on his holiday release from 2006, Spirit of Christmas.\n* In 2007, Angelique Kidjo covered the song for the CD Instant Karma: The Amnesty International Campaign to Save Darfur.\n* Maroon 5 recorded a cover version in 2007 as part of Instant Karma: The Amnesty International Campaign to Save Darfur.\n* Acceptance has also recorded a cover of the song.\n* Shock Treatment and Trance Airwave covered the song for the 2006 compilation S.K.Y. Presents Christmas Trance.\n* Tokyo Rose has also recorded a cover.\n* 'N Sync recorded a cover version for one of their albums.\n* Sarah Brightman recorded her own version as a bonus track for her album A Winter Symphony.\n* Thrice has recorded a version of the song.\n* Rin' released a cover version on their Christmas album, performing on traditional Japanese instruments.\n* REO Speedwagon covered the song for their 2009 release Not So Silent Night\u2026Christmas with REO Speedwagon.\" All royalties from the song benefit the John Lennon Foundation.\n* Helix recorded the song for their 2008 CD A Heavy Mental Christmas.\n* Neil Diamond recorded a version of this song on The Christmas Album.\n* Overboard recorded an a cappella version featuring a children's choir from Marblehead, MA for their 2008 album, Tidings.\n* Diana Ross recorded the song for her 1994 album A Very Special Season.\n* The Polyphonic Spree did a orchestral-type cover, available on several websites as a free MP3 download, recorded December 16, 2007 in Dallas, TX at a live concert (\"The Polyphonic Spree's Holiday Extravaganza\"). <a href=\"http:\/\/www.last.fm\/music\/John+Lennon\/_\/Happy+Xmas+(War+Is+Over)+-+Remastered+2010\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:13.289047+00:00",
+  "elapsed": 0.234512,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:13.289047+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2112",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Jesus+Lord+pt+2"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Jesus+Lord+pt+2",
+  "_decoded_content": {
+    "track": {
+      "name": "Jesus Lord pt 2",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Jesus+Lord+pt+2",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "236324",
+      "playcount": "1148969",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "spoken word",
+            "url": "https:\/\/www.last.fm\/tag\/spoken+word"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Dec 2021, 22:21",
+        "summary": "Pt.2 is an alternate version of  \"Jesus Lord\" that contains the original 8 minute track bolstered by three additional verses The Lox members Sheek Louch, Jadakiss, and Styles P. It was the 27th and final track on the original release of DONDA, but was moved up to track #20 on the deluxe version of the album. At 11:31 (12:06 for the deluxe version), it is the second-longest official release in Ye's extensive catalog, after \"Last Call\" from The College Dropout.  <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Jesus+Lord+pt+2\">Read more on Last.fm<\/a>.",
+        "content": "Pt.2 is an alternate version of  \"Jesus Lord\" that contains the original 8 minute track bolstered by three additional verses The Lox members Sheek Louch, Jadakiss, and Styles P. It was the 27th and final track on the original release of DONDA, but was moved up to track #20 on the deluxe version of the album. At 11:31 (12:06 for the deluxe version), it is the second-longest official release in Ye's extensive catalog, after \"Last Call\" from The College Dropout. \n\nThis was the version of the track played at the second listening party in Atlanta. The 8-minute version of \"Jesus Lord\" debuted at the listening party in Chicago. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Jesus+Lord+pt+2\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

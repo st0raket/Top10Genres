@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:57.754375+00:00",
+  "elapsed": 0.208279,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:57.754375+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2579",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Niall+Horan&format=json&method=track.getInfo&track=Heaven"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Niall+Horan&format=json&method=track.getInfo&track=Heaven",
+  "_decoded_content": {
+    "track": {
+      "name": "Heaven",
+      "url": "https:\/\/www.last.fm\/music\/Niall+Horan\/_\/Heaven",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "313905",
+      "playcount": "3763455",
+      "artist": {
+        "name": "Niall Horan",
+        "url": "https:\/\/www.last.fm\/music\/Niall+Horan"
+      },
+      "album": {
+        "artist": "Niall Horan",
+        "title": "Heaven",
+        "url": "https:\/\/www.last.fm\/music\/Niall+Horan\/Heaven",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2f6471c9917d1a6e48a5adf6f1ae13a0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2f6471c9917d1a6e48a5adf6f1ae13a0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2f6471c9917d1a6e48a5adf6f1ae13a0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2f6471c9917d1a6e48a5adf6f1ae13a0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Aug 2023, 17:39",
+        "summary": "\"Heaven\" is a song by Irish singer Niall Horan, released through Capitol Records as the lead single from his third studio album The Show on 17 February 2023.\n\nIn an interview with Rolling Stone, Horan shared, \"There's so much pressure for people to hit certain milestones by a certain age \u2013 you get married at this age, buy a house at that age, have kids at some other age [...] But I've never conformed to those ideas, and so I wanted to write about how we all should just focus on enjoying our lives and doing what feels right <a href=\"http:\/\/www.last.fm\/music\/Niall+Horan\/_\/Heaven\">Read more on Last.fm<\/a>.",
+        "content": "\"Heaven\" is a song by Irish singer Niall Horan, released through Capitol Records as the lead single from his third studio album The Show on 17 February 2023.\n\nIn an interview with Rolling Stone, Horan shared, \"There's so much pressure for people to hit certain milestones by a certain age \u2013 you get married at this age, buy a house at that age, have kids at some other age [...] But I've never conformed to those ideas, and so I wanted to write about how we all should just focus on enjoying our lives and doing what feels right, instead of worrying about what might be expected of us.\" <a href=\"http:\/\/www.last.fm\/music\/Niall+Horan\/_\/Heaven\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

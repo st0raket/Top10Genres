@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:44.176618+00:00",
+  "elapsed": 0.258322,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:44.176618+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2652",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Flipp+Dinero&format=json&method=track.getInfo&track=Leave+Me+Alone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Flipp+Dinero&format=json&method=track.getInfo&track=Leave+Me+Alone",
+  "_decoded_content": {
+    "track": {
+      "name": "Leave Me Alone",
+      "url": "https:\/\/www.last.fm\/music\/Flipp+Dinero\/_\/Leave+Me+Alone",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "340948",
+      "playcount": "2997022",
+      "artist": {
+        "name": "Flipp Dinero",
+        "url": "https:\/\/www.last.fm\/music\/Flipp+Dinero"
+      },
+      "album": {
+        "artist": "DJ Rectangle",
+        "title": "Vinyl Combat 6",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Rectangle\/Vinyl+Combat+6",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad41db75744333645aef2f61f7560f90.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad41db75744333645aef2f61f7560f90.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad41db75744333645aef2f61f7560f90.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad41db75744333645aef2f61f7560f90.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001747063611",
+            "url": "https:\/\/www.last.fm\/tag\/-1001747063611"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Mar 2023, 09:42",
+        "summary": "Flipp Dinero\u2019s, \u201cLeave Me Alone\u201d, attracted many listeners after NBA Championship winning, Golden State Warriors forward, Jordan Bell, featured this song on his Instagram story. Drake also co-signed this song along with other music such as Tupac\u2019s All Eyez On Me, to show what music influenced his new album \u2018Scorpion\u2019. This co-sign was posted on his Instagram story. Odell Beckham Jr. also danced to the song in a public video. Flipp Dinero asked him to be in the music video for the track <a href=\"http:\/\/www.last.fm\/music\/Flipp+Dinero\/_\/Leave+Me+Alone\">Read more on Last.fm<\/a>.",
+        "content": "Flipp Dinero\u2019s, \u201cLeave Me Alone\u201d, attracted many listeners after NBA Championship winning, Golden State Warriors forward, Jordan Bell, featured this song on his Instagram story. Drake also co-signed this song along with other music such as Tupac\u2019s All Eyez On Me, to show what music influenced his new album \u2018Scorpion\u2019. This co-sign was posted on his Instagram story. Odell Beckham Jr. also danced to the song in a public video. Flipp Dinero asked him to be in the music video for the track, but OBJ must have not been able to since he can not be seen in the music video. <a href=\"http:\/\/www.last.fm\/music\/Flipp+Dinero\/_\/Leave+Me+Alone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

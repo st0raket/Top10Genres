@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:37.307430+00:00",
+  "elapsed": 0.365358,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:37.307430+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2609",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Go+Go"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Go+Go",
+  "_decoded_content": {
+    "track": {
+      "name": "Go Go",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Go+Go",
+      "duration": "235000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "395057",
+      "playcount": "8046212",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "album": {
+        "artist": "BTS",
+        "title": "LOVE YOURSELF \u627f 'Her'",
+        "url": "https:\/\/www.last.fm\/music\/BTS\/LOVE+YOURSELF+%E6%89%BF+%27Her%27",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fac6de5d84939bd32422547cacb123fe.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fac6de5d84939bd32422547cacb123fe.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fac6de5d84939bd32422547cacb123fe.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fac6de5d84939bd32422547cacb123fe.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "fun",
+            "url": "https:\/\/www.last.fm\/tag\/fun"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Feb 2020, 06:35",
+        "summary": "It's the 8th track of the mini-album Love Yourself \u627f 'Her'. \"Rather than worry, go\" is the direct translation of the song's Korean name, where the group addressed the younger generation's mentality about spending money as if there's no tomorrow.\n\n\"We wanted to say something about it and emphasize to the world that it\u2019s not their choice, but brutal reality that forces people to live and spend as if there\u2019s no future\" said the leader of the group, RM, about the song's meaning. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Go+Go\">Read more on Last.fm<\/a>.",
+        "content": "It's the 8th track of the mini-album Love Yourself \u627f 'Her'. \"Rather than worry, go\" is the direct translation of the song's Korean name, where the group addressed the younger generation's mentality about spending money as if there's no tomorrow.\n\n\"We wanted to say something about it and emphasize to the world that it\u2019s not their choice, but brutal reality that forces people to live and spend as if there\u2019s no future\" said the leader of the group, RM, about the song's meaning.\n\nThe song is also the fourth track of the compilation album Love Yourself \u7d50 'Answer' and has a Japanese version featured in the album Face Yourself. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Go+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

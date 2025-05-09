@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:51.680121+00:00",
+  "elapsed": 0.1875,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:51.680121+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2636",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alessia+Cara&format=json&method=track.getInfo&track=Scars+To+Your+Beautiful"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alessia+Cara&format=json&method=track.getInfo&track=Scars+To+Your+Beautiful",
+  "_decoded_content": {
+    "track": {
+      "name": "Scars To Your Beautiful",
+      "url": "https:\/\/www.last.fm\/music\/Alessia+Cara\/_\/Scars+To+Your+Beautiful",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "588530",
+      "playcount": "4214703",
+      "artist": {
+        "name": "Alessia Cara",
+        "url": "https:\/\/www.last.fm\/music\/Alessia+Cara"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "<3",
+            "url": "https:\/\/www.last.fm\/tag\/%3C3"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Aug 2022, 11:11",
+        "summary": "\u201cScars To Your Beautiful\u201c is a song by Alessia Cara which serves as the third single from her debut album Know-It-All.\n\nCara first performed the song at TEDxTeen 2015, and later released it as part of Know-It-All. On July 26, 2016, the song was serviced to Top 40 radio.\n\nIn an interview with Idolator, Cara explained the meaning behind the track.\n\n\u201cBasically, that song is about body image. It\u2019s directed at women, but I think men can relate to it as well. <a href=\"http:\/\/www.last.fm\/music\/Alessia+Cara\/_\/Scars+To+Your+Beautiful\">Read more on Last.fm<\/a>.",
+        "content": "\u201cScars To Your Beautiful\u201c is a song by Alessia Cara which serves as the third single from her debut album Know-It-All.\n\nCara first performed the song at TEDxTeen 2015, and later released it as part of Know-It-All. On July 26, 2016, the song was serviced to Top 40 radio.\n\nIn an interview with Idolator, Cara explained the meaning behind the track.\n\n\u201cBasically, that song is about body image. It\u2019s directed at women, but I think men can relate to it as well. It\u2019s just a song about these things that certain women go through on a daily basis in order to feel loved or in order to love themselves. I think that\u2019s such a thing that goes on in today\u2019s world. These weird things are instilled in us. You know? That tell us that we\u2019re not good enough or that there\u2019s only one kind of beauty. This song basically is contradicting that idea. It\u2019s saying, \u201cWell, if the world doesn\u2019t like how you look then they should change. They should change their perspective. You don\u2019t have to change yourself.\u201d I mean, I thought that that was important, you know, just to put out next. Especially because I think that\u2019s kind of the direction we\u2019re going in, you know, with Here\u201c <a href=\"http:\/\/www.last.fm\/music\/Alessia+Cara\/_\/Scars+To+Your+Beautiful\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

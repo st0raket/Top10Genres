@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:52.746255+00:00",
+  "elapsed": 0.200273,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:52.746255+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1931",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Iggy+Azalea&format=json&method=track.getInfo&track=Switch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Iggy+Azalea&format=json&method=track.getInfo&track=Switch",
+  "_decoded_content": {
+    "track": {
+      "name": "swItCH",
+      "url": "https:\/\/www.last.fm\/music\/Iggy+Azalea\/_\/swItCH",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "103879",
+      "playcount": "1072300",
+      "artist": {
+        "name": "Iggy Azalea",
+        "mbid": "3a052c99-8c18-484a-8beb-9873b4fb3106",
+        "url": "https:\/\/www.last.fm\/music\/Iggy+Azalea"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Anitta",
+            "url": "https:\/\/www.last.fm\/tag\/Anitta"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Masterpiece",
+            "url": "https:\/\/www.last.fm\/tag\/Masterpiece"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Aug 2017, 02:46",
+        "summary": "\"Switch\" is a song recorded by Australian rapper Iggy Azalea featuring Brazilian singer Anitta, from her upcoming second studio album, Digital Distortion. It was released on 19 May 2017, by Def Jam as the third single from the album. \"Switch\" was written by Azalea with Maurice \"Verse\" Simmonds. It was produced by The Family and Eric Weaver. \"Switch\" is a pop song, with a tropical vibe and Latin flavor, having in its instrumentation bass, plucky strings, bongos, and hand claps. <a href=\"http:\/\/www.last.fm\/music\/Iggy+Azalea\/_\/swItCH\">Read more on Last.fm<\/a>.",
+        "content": "\"Switch\" is a song recorded by Australian rapper Iggy Azalea featuring Brazilian singer Anitta, from her upcoming second studio album, Digital Distortion. It was released on 19 May 2017, by Def Jam as the third single from the album. \"Switch\" was written by Azalea with Maurice \"Verse\" Simmonds. It was produced by The Family and Eric Weaver. \"Switch\" is a pop song, with a tropical vibe and Latin flavor, having in its instrumentation bass, plucky strings, bongos, and hand claps. <a href=\"http:\/\/www.last.fm\/music\/Iggy+Azalea\/_\/swItCH\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

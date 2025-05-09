@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:06.688495+00:00",
+  "elapsed": 0.190804,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:06.688495+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3130",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Chainsmokers&format=json&method=track.getInfo&track=Roses"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Chainsmokers&format=json&method=track.getInfo&track=Roses",
+  "_decoded_content": {
+    "track": {
+      "name": "Roses",
+      "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Roses",
+      "duration": "226000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "572048",
+      "playcount": "4338635",
+      "artist": {
+        "name": "The Chainsmokers",
+        "mbid": "91a81925-92f9-4fc9-b897-93cf01226282",
+        "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers"
+      },
+      "album": {
+        "artist": "The Chainsmokers",
+        "title": "Roses",
+        "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers\/Roses",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/94919f8c2b2799d9d051a7c97999e32d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/94919f8c2b2799d9d051a7c97999e32d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/94919f8c2b2799d9d051a7c97999e32d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/94919f8c2b2799d9d051a7c97999e32d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "future bass",
+            "url": "https:\/\/www.last.fm\/tag\/future+bass"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "2015",
+            "url": "https:\/\/www.last.fm\/tag\/2015"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 May 2022, 16:42",
+        "summary": "\u201cRoses,\u201d featuring vocals by ROZES, is the third original song released in 2015 by The Chainsmokers, following \u201cLet You Go\u201d and \u201cGood Intentions\u201d.\n\nIn an interview with BreatheHeavy, Alex and Drew of The Chainsmokers said the lighter production was a natural move:\n\n\"This song represents an inherent change in the right direction not the beginning, but the end of that transition \u2013 almost like we have finally come full circle to a place <a href=\"http:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Roses\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRoses,\u201d featuring vocals by ROZES, is the third original song released in 2015 by The Chainsmokers, following \u201cLet You Go\u201d and \u201cGood Intentions\u201d.\n\nIn an interview with BreatheHeavy, Alex and Drew of The Chainsmokers said the lighter production was a natural move:\n\n\"This song represents an inherent change in the right direction not the beginning, but the end of that transition \u2013 almost like we have finally come full circle to a place musically we are finally completely happy with a song \u2026 That is not just a reflection us personally but also a reflection of us currently. That isn\u2019t to say we won\u2019t continue to evolve and take chances and the music will all sound the same, but this to us felt as natural as drinking the bottle of Patron every show. \"Roses\" is us, through and through.\"\n\nIt peaked at #6 on the Hot 100, becoming their highest charting hit until their #3 hit \u201cDon\u2019t Let Me Down.\u201d It outpaced \u201c#SELFIE\u201d, which peaked out at #16.\n\nThis is Andrew Taggart\u2019s first time providing vocals to one of The Chainsmokers' songs. He provides backing vocals to the chorus. <a href=\"http:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Roses\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

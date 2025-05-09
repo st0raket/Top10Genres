@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:43:08.999890+00:00",
+  "elapsed": 0.194507,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:08.999890+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1545",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=James+Arthur&format=json&method=track.getInfo&track=Car%27s+Outside"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=James+Arthur&format=json&method=track.getInfo&track=Car%27s+Outside",
+  "_decoded_content": {
+    "track": {
+      "name": "Car's Outside",
+      "url": "https:\/\/www.last.fm\/music\/James+Arthur\/_\/Car%27s+Outside",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "304150",
+      "playcount": "3109588",
+      "artist": {
+        "name": "James Arthur",
+        "mbid": "56f62fe8-d3a0-46e0-b5df-a64a8b4b4274",
+        "url": "https:\/\/www.last.fm\/music\/James+Arthur"
+      },
+      "album": {
+        "artist": "James Arthur",
+        "title": "You",
+        "url": "https:\/\/www.last.fm\/music\/James+Arthur\/You",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/28ed01e8e4dcc822f61c18cdb1399f27.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/28ed01e8e4dcc822f61c18cdb1399f27.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/28ed01e8e4dcc822f61c18cdb1399f27.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/28ed01e8e4dcc822f61c18cdb1399f27.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "10 Jun 2023, 03:34",
+        "summary": "\u201cCar\u2019s Outside\u201d is the fifth song on James Arthur\u2019s 2019 album, You. According to Arthur, \u201cThis song\u2019s about always leaving home.\u201d <a href=\"http:\/\/www.last.fm\/music\/James+Arthur\/_\/Car%27s+Outside\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCar\u2019s Outside\u201d is the fifth song on James Arthur\u2019s 2019 album, You. According to Arthur, \u201cThis song\u2019s about always leaving home.\u201d <a href=\"http:\/\/www.last.fm\/music\/James+Arthur\/_\/Car%27s+Outside\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

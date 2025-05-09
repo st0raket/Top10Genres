@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:34:03.395873+00:00",
+  "elapsed": 0.251112,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:03.395873+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "808",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jamule&format=json&method=track.getInfo&track=13"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jamule&format=json&method=track.getInfo&track=13",
+  "_decoded_content": {
+    "track": {
+      "name": "13",
+      "url": "https:\/\/www.last.fm\/music\/Jamule\/_\/13",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6996",
+      "playcount": "61716",
+      "artist": {
+        "name": "Jamule",
+        "url": "https:\/\/www.last.fm\/music\/Jamule"
+      },
+      "album": {
+        "artist": "Chilla",
+        "title": "13 - Single",
+        "url": "https:\/\/www.last.fm\/music\/Chilla\/13+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8e5d77954def495c2d88225354f265d5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8e5d77954def495c2d88225354f265d5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8e5d77954def495c2d88225354f265d5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8e5d77954def495c2d88225354f265d5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

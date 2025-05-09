@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:45:05.181019+00:00",
+  "elapsed": 0.223443,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:05.181019+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1214",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zara+Larsson&format=json&method=track.getInfo&track=So+Good"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zara+Larsson&format=json&method=track.getInfo&track=So+Good",
+  "_decoded_content": {
+    "track": {
+      "name": "So Good",
+      "url": "https:\/\/www.last.fm\/music\/Zara+Larsson\/_\/So+Good",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "50461",
+      "playcount": "247216",
+      "artist": {
+        "name": "Zara Larsson",
+        "mbid": "134e6410-6954-45d1-bd4a-0f2d2ad5471d",
+        "url": "https:\/\/www.last.fm\/music\/Zara+Larsson"
+      },
+      "album": {
+        "artist": "Zara Larsson",
+        "title": "Spotify Singles",
+        "url": "https:\/\/www.last.fm\/music\/Zara+Larsson\/Spotify+Singles",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/26866b3af909a398be5885f2f0f6edee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/26866b3af909a398be5885f2f0f6edee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/26866b3af909a398be5885f2f0f6edee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/26866b3af909a398be5885f2f0f6edee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Ariana Grande",
+            "url": "https:\/\/www.last.fm\/tag\/Ariana+Grande"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          }
+        ]
+      }
+    }
+  }
+}

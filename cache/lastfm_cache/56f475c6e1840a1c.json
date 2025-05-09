@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:30.216591+00:00",
+  "elapsed": 0.174586,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:30.216591+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3006",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Natasha+Bedingfield&format=json&method=track.getInfo&track=Unwritten"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Natasha+Bedingfield&format=json&method=track.getInfo&track=Unwritten",
+  "_decoded_content": {
+    "track": {
+      "name": "Unwritten",
+      "mbid": "9a9b6a47-2302-455c-88c8-d005530c12fc",
+      "url": "https:\/\/www.last.fm\/music\/Natasha+Bedingfield\/_\/Unwritten",
+      "duration": "258000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1437526",
+      "playcount": "11786895",
+      "artist": {
+        "name": "Natasha Bedingfield",
+        "mbid": "8b477559-946e-4ef2-9fe1-446cff8fdd79",
+        "url": "https:\/\/www.last.fm\/music\/Natasha+Bedingfield"
+      },
+      "album": {
+        "artist": "Natasha Bedingfield",
+        "title": "Unwritten",
+        "mbid": "4171f403-9dd7-4340-a583-fbc92d4e06f6",
+        "url": "https:\/\/www.last.fm\/music\/Natasha+Bedingfield\/Unwritten",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8444c39c5728abd260684cbcef4edb04.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8444c39c5728abd260684cbcef4edb04.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8444c39c5728abd260684cbcef4edb04.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8444c39c5728abd260684cbcef4edb04.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Natasha Bedingfield",
+            "url": "https:\/\/www.last.fm\/tag\/Natasha+Bedingfield"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Aug 2008, 06:23",
+        "summary": "\u201cUnwritten\u201d is the fourth track on Natasha Bedingfield\u2019s debut studio album of the same name. Released as the album\u2019s third UK single in November of 2004 and second US single in September of 2005, the song was generally well received and peaked at number five for two weeks in the US.\n\nIn 2006, the song became the opening theme of the MTV series The Hills). Bedingfield also recorded a slow, acoustic version of the song to be featured in the show\u2019s final episode. <a href=\"http:\/\/www.last.fm\/music\/Natasha+Bedingfield\/_\/Unwritten\">Read more on Last.fm<\/a>.",
+        "content": "\u201cUnwritten\u201d is the fourth track on Natasha Bedingfield\u2019s debut studio album of the same name. Released as the album\u2019s third UK single in November of 2004 and second US single in September of 2005, the song was generally well received and peaked at number five for two weeks in the US.\n\nIn 2006, the song became the opening theme of the MTV series The Hills). Bedingfield also recorded a slow, acoustic version of the song to be featured in the show\u2019s final episode.\n\n\u201cUnwritten\u201d has been featured in such movies as: Ice Princess, The Sisterhood of the Traveling Pants, The Da Vinci Code, Because I Said So, and Anyone But You.\n\nAccording to the Unwritten Songfacts, Bedingfield wrote this for her brother on his birthday as a birthday gift because she was short on cash. <a href=\"http:\/\/www.last.fm\/music\/Natasha+Bedingfield\/_\/Unwritten\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

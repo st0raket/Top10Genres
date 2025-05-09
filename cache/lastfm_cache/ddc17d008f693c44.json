@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:39:28.274426+00:00",
+  "elapsed": 0.181629,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:28.274426+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2955",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=bread+%26+butter"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=bread+%26+butter",
+  "_decoded_content": {
+    "track": {
+      "name": "bread & butter",
+      "url": "https:\/\/www.last.fm\/music\/Gunna\/_\/bread+&+butter",
+      "duration": "226000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "123685",
+      "playcount": "873401",
+      "artist": {
+        "name": "Gunna",
+        "url": "https:\/\/www.last.fm\/music\/Gunna"
+      },
+      "album": {
+        "artist": "Gunna",
+        "title": "a Gift & a Curse",
+        "url": "https:\/\/www.last.fm\/music\/Gunna\/a+Gift+&+a+Curse",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/668aedd783a87c9cbd4eca09c68e379e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/668aedd783a87c9cbd4eca09c68e379e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/668aedd783a87c9cbd4eca09c68e379e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/668aedd783a87c9cbd4eca09c68e379e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "food",
+            "url": "https:\/\/www.last.fm\/tag\/food"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Dec 2023, 17:55",
+        "summary": "\u201cbread & butter\u201d marks Gunna\u2019s first release following his December 2022 release after he plead guilty to one count of racketeering charges.\n\nThroughout the track, Gunna speaks on several people in the rap industry such as Young Thug, Lil Durk, Lil Baby, and Pierre \u201cP\u201d Thomas, the founder of Quality Control Music.\n\nGunna tackled the public response following his taking a plea deal in the YSL RICO case where several rappers decided to distance <a href=\"http:\/\/www.last.fm\/music\/Gunna\/_\/bread+&+butter\">Read more on Last.fm<\/a>.",
+        "content": "\u201cbread & butter\u201d marks Gunna\u2019s first release following his December 2022 release after he plead guilty to one count of racketeering charges.\n\nThroughout the track, Gunna speaks on several people in the rap industry such as Young Thug, Lil Durk, Lil Baby, and Pierre \u201cP\u201d Thomas, the founder of Quality Control Music.\n\nGunna tackled the public response following his taking a plea deal in the YSL RICO case where several rappers decided to distance themselves from the Atlanta rapper in order to maintain their solidity towards Young Thug and YSL.\n\nRapping in a slow and smooth cadence over a guitar beat, Gunna also claimed he was tricked by the district attorney into taking the plea and that it was by mistake.\n\nThe official music video directed by LEFF sees Gunna in a black-and-white setting \u2014 possibly referring to a deeper meaning behind it as a black-and-white situation one where things are easy to decide right and wrong. This can play into the track\u2019s title as one\u2019s \u201cbread and butter\u201d is a phrase to refer to one\u2019s source of income, suggesting that due to taking a plea, the industry is attempting to make it harder for him to earn a livelihood. <a href=\"http:\/\/www.last.fm\/music\/Gunna\/_\/bread+&+butter\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:23.019512+00:00",
+  "elapsed": 0.180081,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:23.019512+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2695",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Cherry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Cherry",
+  "_decoded_content": {
+    "track": {
+      "name": "Cherry",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Cherry",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "791736",
+      "playcount": "13394120",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Lust for Life",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Lust+for+Life",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9e9ddd9e9270cd400fcf60ab3d9fb1cc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "alternative pop",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Mar 2018, 09:01",
+        "summary": "\"Cherry\" speaks of extreme devotion in love. Through metaphors of nature, Lana conveys how her love is all-encompassing, that it is so powerful that it can take away fear, overcome danger, and wreak havoc. The chorus reflects this sentiment by saying that she falls to pieces when she is with her loved one and that her life experiences, be it the rose garden, cherries and wine, black beaches and celluloid scenes, are all ruined because of the overwhelming emotion of love. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Cherry\">Read more on Last.fm<\/a>.",
+        "content": "\"Cherry\" speaks of extreme devotion in love. Through metaphors of nature, Lana conveys how her love is all-encompassing, that it is so powerful that it can take away fear, overcome danger, and wreak havoc. The chorus reflects this sentiment by saying that she falls to pieces when she is with her loved one and that her life experiences, be it the rose garden, cherries and wine, black beaches and celluloid scenes, are all ruined because of the overwhelming emotion of love. Ultimately, the song shows how when someone is deeply devoted to someone else, their life experiences and memories are tainted in one way or another, even if it is something beautiful. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Cherry\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

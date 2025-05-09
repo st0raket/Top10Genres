@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:32:07.368162+00:00",
+  "elapsed": 0.218805,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:07.368162+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2034",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Tecca&format=json&method=track.getInfo&track=Out+of+Luck"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Tecca&format=json&method=track.getInfo&track=Out+of+Luck",
+  "_decoded_content": {
+    "track": {
+      "name": "Out Of Luck",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Tecca\/_\/Out+Of+Luck",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "95547",
+      "playcount": "889911",
+      "artist": {
+        "name": "Lil Tecca",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Tecca"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "02 May 2021, 22:25",
+        "summary": "On \u201cOut of Luck,\u201d Lil Tecca addresses his come-up in the music industry alongside the various negatives that come with his stardom. While specifically covering people changing their opinions on Tecca due to his newfound fame, the topics covered in the track are reminiscent to an Instagram livestream where he divulged his disdain with his recent come-up; following the success of his chart-smashing hit, \u201cRansom.\u201d\n\nPrior to the official release of the track <a href=\"http:\/\/www.last.fm\/music\/Lil+Tecca\/_\/Out+Of+Luck\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cOut of Luck,\u201d Lil Tecca addresses his come-up in the music industry alongside the various negatives that come with his stardom. While specifically covering people changing their opinions on Tecca due to his newfound fame, the topics covered in the track are reminiscent to an Instagram livestream where he divulged his disdain with his recent come-up; following the success of his chart-smashing hit, \u201cRansom.\u201d\n\nPrior to the official release of the track, Tecca teased the track in an Instagram livestream, showcasing the majority of the track. He also teased a line of the chorus on Twitter pre-release.\n\nOn the same day of release\u2013August 30th, 2019\u2013an official music video released onto the Lyrical Lemonade YouTube channel, directed by Cole Bennett. Tecca and Cole have both worked together in the past, most notably in the music video for \u201cRansom,\u201d which currently sits at over 200 million views on YouTube. <a href=\"http:\/\/www.last.fm\/music\/Lil+Tecca\/_\/Out+Of+Luck\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

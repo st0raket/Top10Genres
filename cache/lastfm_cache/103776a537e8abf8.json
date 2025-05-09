@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:31:24.465458+00:00",
+  "elapsed": 0.18867,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:24.465458+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2450",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=HOME"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=HOME",
+  "_decoded_content": {
+    "track": {
+      "name": "Home",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Home",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "433386",
+      "playcount": "15024527",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "home",
+            "url": "https:\/\/www.last.fm\/tag\/home"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Sep 2024, 15:53",
+        "summary": "\"HOME\" is a song by\u00a0BTS. It was released on April 12, 2019, and appears as the fifth track in their sixth mini album MAP OF THE SOUL : PERSONA.\n\n\"HOME\" is a pop and R&B track with lyrics that talk about how although they have become successful and are now able to afford the things that they wanted before success, they find themselves unsatisfied with the luxuries. \n\nIn the song, JIMIN sings, \"\u201cThe more I fill up the emptier I get \/ The more I\u2019m with people the more I feel alone. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Home\">Read more on Last.fm<\/a>.",
+        "content": "\"HOME\" is a song by\u00a0BTS. It was released on April 12, 2019, and appears as the fifth track in their sixth mini album MAP OF THE SOUL : PERSONA.\n\n\"HOME\" is a pop and R&B track with lyrics that talk about how although they have become successful and are now able to afford the things that they wanted before success, they find themselves unsatisfied with the luxuries. \n\nIn the song, JIMIN sings, \"\u201cThe more I fill up the emptier I get \/ The more I\u2019m with people the more I feel alone.\u201d By the end of the song, they come into the presence of their lover and find comfort at last. The song links to their prior song Magic Shop from LOVE YOURSELF \u8f49 'Tear' mirroring lines such as \u201cyou got me \/ I got you\u201d and \u201cso show me \/ I\u2019ll show you\u201d.\nDuring a press conference, j-hope expanded on the meaning of the song, saying, \"The song talks about the \u2018home\u2019, which is where the fans are and where our hearts are, where we want to come back to when things are hard and we feel lonely. We get strength from the people who love us and wait for us\". <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Home\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

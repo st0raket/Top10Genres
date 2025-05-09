@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:39:39.909777+00:00",
+  "elapsed": 0.407651,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:39.909777+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2702",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NMIXX&format=json&method=track.getInfo&track=Roller+Coaster"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NMIXX&format=json&method=track.getInfo&track=Roller+Coaster",
+  "_decoded_content": {
+    "track": {
+      "name": "Roller Coaster",
+      "url": "https:\/\/www.last.fm\/music\/NMixx\/_\/Roller+Coaster",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "184329",
+      "playcount": "3379326",
+      "artist": {
+        "name": "NMixx",
+        "url": "https:\/\/www.last.fm\/music\/NMixx"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "deep house",
+            "url": "https:\/\/www.last.fm\/tag\/deep+house"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Jul 2023, 01:09",
+        "summary": "\"Roller Coaster\" is a song by South Korean girl group NMIXX, released on July 3, 2023, as a pre-release single for their third single album, A Midsummer NMIXX's Dream. \n\nThe track is characterized as an urban house song with a dreamy pre-chorus, composed by Justin Reinstein, Suhyppy, and Anna Timgren, with lyrics penned by Seo Ji-eum. \n\nLyrically, \"Roller Coaster\" uses the metaphor of a roller coaster to depict the unpredictable and exhilarating emotions associated with first love, capturing the highs and lows of such experiences.  <a href=\"http:\/\/www.last.fm\/music\/NMixx\/_\/Roller+Coaster\">Read more on Last.fm<\/a>.",
+        "content": "\"Roller Coaster\" is a song by South Korean girl group NMIXX, released on July 3, 2023, as a pre-release single for their third single album, A Midsummer NMIXX's Dream. \n\nThe track is characterized as an urban house song with a dreamy pre-chorus, composed by Justin Reinstein, Suhyppy, and Anna Timgren, with lyrics penned by Seo Ji-eum. \n\nLyrically, \"Roller Coaster\" uses the metaphor of a roller coaster to depict the unpredictable and exhilarating emotions associated with first love, capturing the highs and lows of such experiences. \n\nUpon its release, the song received positive feedback for its catchy pop hooks and suitability to the group's vocals, with some reviewers noting its potential for longevity in listeners' playlists. \n\nIn terms of chart performance, \"Roller Coaster\" peaked at number 100 on South Korea's Circle Digital Chart during the 28th week of 2023. \n\nThe music video for \"Roller Coaster\" features vibrant and youthful visuals that align with the song's themes of youthful excitement and the thrill of new experiences.\n\nNMIXX, under JYP Entertainment, continues to showcase their versatility and growth as artists with \"Roller Coaster,\" further solidifying their presence in the K-pop industry. <a href=\"http:\/\/www.last.fm\/music\/NMixx\/_\/Roller+Coaster\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

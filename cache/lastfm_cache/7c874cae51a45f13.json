@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:53.816619+00:00",
+  "elapsed": 0.181476,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:53.816619+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1756",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Invincible"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Invincible",
+  "_decoded_content": {
+    "track": {
+      "name": "Invincible",
+      "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/_\/Invincible",
+      "duration": "127000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "363499",
+      "playcount": "4758317",
+      "artist": {
+        "name": "Pop Smoke",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hot Topics",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hot+Topics",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3972930c35b52665a88537a1584bae65.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3972930c35b52665a88537a1584bae65.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3972930c35b52665a88537a1584bae65.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3972930c35b52665a88537a1584bae65.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Pop Smoke",
+            "url": "https:\/\/www.last.fm\/tag\/Pop+Smoke"
+          },
+          {
+            "name": "-1001747063611",
+            "url": "https:\/\/www.last.fm\/tag\/-1001747063611"
+          },
+          {
+            "name": "-1001190477876",
+            "url": "https:\/\/www.last.fm\/tag\/-1001190477876"
+          },
+          {
+            "name": "-1001686404118",
+            "url": "https:\/\/www.last.fm\/tag\/-1001686404118"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 May 2021, 14:32",
+        "summary": "The first track of Pop Smoke's debut album, \"Meet the Woo 2\".\n\nThe song was produced by Yoz Beatz. <a href=\"http:\/\/www.last.fm\/music\/Pop+Smoke\/_\/Invincible\">Read more on Last.fm<\/a>.",
+        "content": "The first track of Pop Smoke's debut album, \"Meet the Woo 2\".\n\nThe song was produced by Yoz Beatz. <a href=\"http:\/\/www.last.fm\/music\/Pop+Smoke\/_\/Invincible\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:40:56.820578+00:00",
+  "elapsed": 0.35802,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:56.814719+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "953",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Creepy+Nuts&format=json&method=track.getInfo&track=%E4%BA%8C%E5%BA%A6%E5%AF%9D"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Creepy+Nuts&format=json&method=track.getInfo&track=%E4%BA%8C%E5%BA%A6%E5%AF%9D",
+  "_decoded_content": {
+    "track": {
+      "name": "\u4e8c\u5ea6\u5bdd",
+      "url": "https:\/\/www.last.fm\/music\/Creepy+Nuts\/_\/%E4%BA%8C%E5%BA%A6%E5%AF%9D",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "25409",
+      "playcount": "151894",
+      "artist": {
+        "name": "Creepy Nuts",
+        "url": "https:\/\/www.last.fm\/music\/Creepy+Nuts"
+      },
+      "album": {
+        "artist": "Creepy Nuts",
+        "title": "\u4e8c\u5ea6\u5bdd",
+        "url": "https:\/\/www.last.fm\/music\/Creepy+Nuts\/%E4%BA%8C%E5%BA%A6%E5%AF%9D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/deffcf95a1a6610090e34e9e7007a26f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/deffcf95a1a6610090e34e9e7007a26f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/deffcf95a1a6610090e34e9e7007a26f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/deffcf95a1a6610090e34e9e7007a26f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      }
+    }
+  }
+}

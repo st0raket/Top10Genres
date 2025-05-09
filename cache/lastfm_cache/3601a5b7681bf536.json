@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:33.542793+00:00",
+  "elapsed": 0.190812,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:33.542793+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2487",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Call+Out+My+Name"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Call+Out+My+Name",
+  "_decoded_content": {
+    "track": {
+      "name": "Call Out My Name",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Call+Out+My+Name",
+      "duration": "228000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1276678",
+      "playcount": "16542195",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "My Dear Melancholy,",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/My+Dear+Melancholy,",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6498660830a525a64f6a78bf94a2ec58.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6498660830a525a64f6a78bf94a2ec58.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6498660830a525a64f6a78bf94a2ec58.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6498660830a525a64f6a78bf94a2ec58.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Nov 2019, 06:01",
+        "summary": "Sampling his Oscar-nominated \u201cEarned It\u201d over a slow piano-driven beat from producer Frank Dukes (who collaborated with The Weeknd on his previous effort Starboy), Abel details his struggles to let go of a past relationship.\n\nAbel explains that, although he is aware that his last lover didn\u2019t put as much effort into the relationship as he did (\u201cwasted my time\u201d), he still wishes deep down that she would need him as much as he still needs her. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Call+Out+My+Name\">Read more on Last.fm<\/a>.",
+        "content": "Sampling his Oscar-nominated \u201cEarned It\u201d over a slow piano-driven beat from producer Frank Dukes (who collaborated with The Weeknd on his previous effort Starboy), Abel details his struggles to let go of a past relationship.\n\nAbel explains that, although he is aware that his last lover didn\u2019t put as much effort into the relationship as he did (\u201cwasted my time\u201d), he still wishes deep down that she would need him as much as he still needs her. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Call+Out+My+Name\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

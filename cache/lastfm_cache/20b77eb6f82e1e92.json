@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:01.920156+00:00",
+  "elapsed": 0.175656,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:01.920156+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3250",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beach+Weather&format=json&method=track.getInfo&track=Sex%2C+Drugs%2C+Etc."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beach+Weather&format=json&method=track.getInfo&track=Sex%2C+Drugs%2C+Etc.",
+  "_decoded_content": {
+    "track": {
+      "name": "Sex, Drugs, Etc.",
+      "url": "https:\/\/www.last.fm\/music\/Beach+Weather\/_\/Sex,+Drugs,+Etc.",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1008810",
+      "playcount": "14206069",
+      "artist": {
+        "name": "Beach Weather",
+        "url": "https:\/\/www.last.fm\/music\/Beach+Weather"
+      },
+      "album": {
+        "artist": "Beach Weather",
+        "title": "Chit Chat",
+        "url": "https:\/\/www.last.fm\/music\/Beach+Weather\/Chit+Chat",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9978aa28acac60f367192ce5b08ec8a2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9978aa28acac60f367192ce5b08ec8a2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9978aa28acac60f367192ce5b08ec8a2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9978aa28acac60f367192ce5b08ec8a2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "cool",
+            "url": "https:\/\/www.last.fm\/tag\/cool"
+          },
+          {
+            "name": "vocal harmonies",
+            "url": "https:\/\/www.last.fm\/tag\/vocal+harmonies"
+          },
+          {
+            "name": "extensive vamping",
+            "url": "https:\/\/www.last.fm\/tag\/extensive+vamping"
+          },
+          {
+            "name": "a distinctive male lead vocal",
+            "url": "https:\/\/www.last.fm\/tag\/a+distinctive+male+lead+vocal"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Nov 2022, 00:20",
+        "summary": "Beach Weather recorded \"Sex, Drugs, Etc.\" for their sophomore EP, \"Chit Chat\". The song is an antisocial anthem for people who prefer the quiet life to the sex, drugs and rock 'n' roll lifestyle.\n\nA \"wallflower\" is a person who sits by the wall during a dance. Because of shyness, they prefer to stay by the side and blend in with the scenery. Here, Santino is inviting his fellow wallflowers to hang out with him. Rather than indulging in \"Sex, Drugs, Etc,\" they will stick to a \"low key vibe.\" <a href=\"http:\/\/www.last.fm\/music\/Beach+Weather\/_\/Sex,+Drugs,+Etc.\">Read more on Last.fm<\/a>.",
+        "content": "Beach Weather recorded \"Sex, Drugs, Etc.\" for their sophomore EP, \"Chit Chat\". The song is an antisocial anthem for people who prefer the quiet life to the sex, drugs and rock 'n' roll lifestyle.\n\nA \"wallflower\" is a person who sits by the wall during a dance. Because of shyness, they prefer to stay by the side and blend in with the scenery. Here, Santino is inviting his fellow wallflowers to hang out with him. Rather than indulging in \"Sex, Drugs, Etc,\" they will stick to a \"low key vibe.\"\nBeach Weather wrote the song in a friend's shed in Phoenix. It \"felt a bit secluded from the world both emotionally and physically,\" the band's Sean Silverman told Apple Music. \"We love taking melancholic themes and pairing them with swirling choruses - something you can sing along to but then realize there's this darker personal undercurrent happening.\"\n\nSix years after Beach Weather dropped the song, it found new life on social media. The fresh interest in \"Sex, Drugs, Etc.\" caused it to enter the charts in a number of countries. It climbed to the top of Billboard's Alternative Airplay chart dated October 29, 2022. <a href=\"http:\/\/www.last.fm\/music\/Beach+Weather\/_\/Sex,+Drugs,+Etc.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

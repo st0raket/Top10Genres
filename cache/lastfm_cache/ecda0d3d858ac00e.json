@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:29:20.884289+00:00",
+  "elapsed": 0.211766,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:20.884289+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "916",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=The+Ways"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=The+Ways",
+  "_decoded_content": {
+    "track": {
+      "name": "The Ways",
+      "url": "https:\/\/www.last.fm\/music\/Khalid\/_\/The+Ways",
+      "duration": "238000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6879",
+      "playcount": "29444",
+      "artist": {
+        "name": "Khalid",
+        "mbid": "c6bfb05d-f570-46c8-98e1-e25441189770",
+        "url": "https:\/\/www.last.fm\/music\/Khalid"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "It was beauty we were makin",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/It+was+beauty+we+were+makin",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5175d83ddbe84399a6a331318b8a419b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5175d83ddbe84399a6a331318b8a419b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5175d83ddbe84399a6a331318b8a419b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5175d83ddbe84399a6a331318b8a419b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:55.844126+00:00",
+  "elapsed": 0.278845,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:55.844126+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2273",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Free+Smoke"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Free+Smoke",
+  "_decoded_content": {
+    "track": {
+      "name": "Free Smoke",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Free+Smoke",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "271348",
+      "playcount": "2116496",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "More Life",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/More+Life",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/434a922ecca5474f1f9d6bbcc3a1050c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "hum",
+            "url": "https:\/\/www.last.fm\/tag\/hum"
+          },
+          {
+            "name": "Hip-Hip",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hip"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Mar 2017, 21:00",
+        "summary": "\"Free Smoke\" is the intro to Drake's 2017 playlist \"More Life\" By October Firm. \n\nCredits Via: www.thefader.com\nWritten by Hiatus Kaiyote, Danny Brown, Bryan Antoine, Tony Yayo, Allen Ritter, Boi-1da, & Drake \nProduced by Allen Ritter & Boi-1da \nAdditional Music: Akira Woodgrain \nBackground Vocals: Baka Not Nice \nRecording Engineer: Noel Cadastre \nMixed by Noel \"Gadget\" Campbell <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Free+Smoke\">Read more on Last.fm<\/a>.",
+        "content": "\"Free Smoke\" is the intro to Drake's 2017 playlist \"More Life\" By October Firm. \n\nCredits Via: www.thefader.com\nWritten by Hiatus Kaiyote, Danny Brown, Bryan Antoine, Tony Yayo, Allen Ritter, Boi-1da, & Drake \nProduced by Allen Ritter & Boi-1da \nAdditional Music: Akira Woodgrain \nBackground Vocals: Baka Not Nice \nRecording Engineer: Noel Cadastre \nMixed by Noel \"Gadget\" Campbell <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Free+Smoke\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

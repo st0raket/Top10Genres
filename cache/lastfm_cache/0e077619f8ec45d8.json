@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:30:57.772190+00:00",
+  "elapsed": 0.184824,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:57.772190+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "988",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Prince+Karma&format=json&method=track.getInfo&track=Later+Bitches"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Prince+Karma&format=json&method=track.getInfo&track=Later+Bitches",
+  "_decoded_content": {
+    "track": {
+      "name": "Later Bitches",
+      "url": "https:\/\/www.last.fm\/music\/The+Prince+Karma\/_\/Later+Bitches",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "76937",
+      "playcount": "574123",
+      "artist": {
+        "name": "The Prince Karma",
+        "url": "https:\/\/www.last.fm\/music\/The+Prince+Karma"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "La chanson de l'ann\u00e9e 2018 Vol.2",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/La+chanson+de+l%27ann%C3%A9e+2018+Vol.2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b02dbd06c54a7e8308c3cd31d65a8c9b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b02dbd06c54a7e8308c3cd31d65a8c9b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b02dbd06c54a7e8308c3cd31d65a8c9b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b02dbd06c54a7e8308c3cd31d65a8c9b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "diplein",
+            "url": "https:\/\/www.last.fm\/tag\/diplein"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:35:11.084274+00:00",
+  "elapsed": 0.184886,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:11.084274+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "977",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=As+I+Am"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=As+I+Am",
+  "_decoded_content": {
+    "track": {
+      "name": "As I Am",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/As+I+Am",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "51773",
+      "playcount": "212168",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Afternoon tea",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Afternoon+tea",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7f75ac6dcd9288997cb18c50ab06a99c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7f75ac6dcd9288997cb18c50ab06a99c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7f75ac6dcd9288997cb18c50ab06a99c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7f75ac6dcd9288997cb18c50ab06a99c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          }
+        ]
+      }
+    }
+  }
+}

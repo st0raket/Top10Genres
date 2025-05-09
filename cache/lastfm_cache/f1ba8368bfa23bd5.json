@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:43:08.091757+00:00",
+  "elapsed": 0.208269,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:08.091757+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "839",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=juan+karlos&format=json&method=track.getInfo&track=ERE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=juan+karlos&format=json&method=track.getInfo&track=ERE",
+  "_decoded_content": {
+    "track": {
+      "name": "ERE",
+      "url": "https:\/\/www.last.fm\/music\/Juan+Karlos\/_\/ERE",
+      "duration": "284000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "52185",
+      "playcount": "882375",
+      "artist": {
+        "name": "Juan Karlos",
+        "url": "https:\/\/www.last.fm\/music\/Juan+Karlos"
+      },
+      "album": {
+        "artist": "juan karlos",
+        "title": "ERE - Single",
+        "url": "https:\/\/www.last.fm\/music\/juan+karlos\/ERE+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1a478876dd4261c0f82f3405bb52dbb7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1a478876dd4261c0f82f3405bb52dbb7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1a478876dd4261c0f82f3405bb52dbb7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1a478876dd4261c0f82f3405bb52dbb7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:30:35.230188+00:00",
+  "elapsed": 0.400515,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:35.228865+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "996",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Salem%27s+Interlude"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Salem%27s+Interlude",
+  "_decoded_content": {
+    "track": {
+      "name": "Salem's Interlude",
+      "url": "https:\/\/www.last.fm\/music\/Khalid\/_\/Salem%27s+Interlude",
+      "duration": "81000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "40991",
+      "playcount": "176937",
+      "artist": {
+        "name": "Khalid",
+        "mbid": "c6bfb05d-f570-46c8-98e1-e25441189770",
+        "url": "https:\/\/www.last.fm\/music\/Khalid"
+      },
+      "album": {
+        "artist": "Khalid",
+        "title": "Suncity",
+        "url": "https:\/\/www.last.fm\/music\/Khalid\/Suncity",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c1547cc767ce9fab715d911820997eac.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c1547cc767ce9fab715d911820997eac.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c1547cc767ce9fab715d911820997eac.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c1547cc767ce9fab715d911820997eac.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      }
+    }
+  }
+}

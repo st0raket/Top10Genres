@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:41:27.801506+00:00",
+  "elapsed": 0.179224,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:27.801506+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2344",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KISS+OF+LIFE&format=json&method=track.getInfo&track=Sticky"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KISS+OF+LIFE&format=json&method=track.getInfo&track=Sticky",
+  "_decoded_content": {
+    "track": {
+      "name": "Sticky",
+      "url": "https:\/\/www.last.fm\/music\/Kiss+Of+Life\/_\/Sticky",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "290094",
+      "playcount": "4981109",
+      "artist": {
+        "name": "Kiss Of Life",
+        "mbid": "c0b630b0-7ada-4350-8cb4-ed9b95ae4d03",
+        "url": "https:\/\/www.last.fm\/music\/Kiss+Of+Life"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Dec 2024, 13:37",
+        "summary": "\"Sticky\" is the second digital single by South Korean girl group KISS OF LIFE, released on July 1, 2024, through S2 Entertainment. \n\nThe song showcases an Afrobeat rhythm, marking a stylistic shift from the group's earlier hip-hop and retro-inspired tracks. \n\nLyrically, \"Sticky\" delves into themes of possessive love and the fears associated with it, with the members expressing concerns about being abandoned while conveying deep affection for their partner.  <a href=\"http:\/\/www.last.fm\/music\/Kiss+Of+Life\/_\/Sticky\">Read more on Last.fm<\/a>.",
+        "content": "\"Sticky\" is the second digital single by South Korean girl group KISS OF LIFE, released on July 1, 2024, through S2 Entertainment. \n\nThe song showcases an Afrobeat rhythm, marking a stylistic shift from the group's earlier hip-hop and retro-inspired tracks. \n\nLyrically, \"Sticky\" delves into themes of possessive love and the fears associated with it, with the members expressing concerns about being abandoned while conveying deep affection for their partner. \n\nThe track has been praised for its suitability as a summer anthem, featuring flowy, melodic elements that align with the season's vibe. \n\nUpon release, \"Sticky\" achieved significant chart success, reaching number 3 on South Korea's Circle Digital Chart and number 87 on the Billboard Global 200. \n\nThe accompanying music video, released simultaneously, features vibrant and refreshing visuals that complement the song's upbeat nature. <a href=\"http:\/\/www.last.fm\/music\/Kiss+Of+Life\/_\/Sticky\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

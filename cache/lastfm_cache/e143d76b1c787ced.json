@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:09.711269+00:00",
+  "elapsed": 0.181235,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:09.711269+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2950",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FIFTY+FIFTY&format=json&method=track.getInfo&track=Cupid"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FIFTY+FIFTY&format=json&method=track.getInfo&track=Cupid",
+  "_decoded_content": {
+    "track": {
+      "name": "Cupid",
+      "url": "https:\/\/www.last.fm\/music\/Fifty+Fifty\/_\/Cupid",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "440739",
+      "playcount": "5667360",
+      "artist": {
+        "name": "Fifty Fifty",
+        "mbid": "be1088c7-16ca-4549-94d9-22063ecae779",
+        "url": "https:\/\/www.last.fm\/music\/Fifty+Fifty"
+      },
+      "album": {
+        "artist": "Fifty Fifty",
+        "title": "The Beginning: Cupid",
+        "url": "https:\/\/www.last.fm\/music\/Fifty+Fifty\/The+Beginning:+Cupid",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3be392093ae2785d0123665241047b03.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3be392093ae2785d0123665241047b03.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3be392093ae2785d0123665241047b03.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3be392093ae2785d0123665241047b03.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "synth funk",
+            "url": "https:\/\/www.last.fm\/tag\/synth+funk"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Mar 2023, 05:33",
+        "summary": "\u2018Cupid\u2019 is the title track of their 1st Single, The Beginning: Cupid that shows the growth process and the beginning of the four girls.\n\n\u2018Cupid\u2019 is a retro-style melody reminiscent of a chanson and a faint voice that signals the beginning of the song. In addition, based on minimal disco beats and funky baselines, the song guides the world with Cupid one step at a time through the harmony of subtle vocals and pads.\n\nThe song shows a cheerful and humorous side through a refreshing synth and melodic piano melody. <a href=\"http:\/\/www.last.fm\/music\/Fifty+Fifty\/_\/Cupid\">Read more on Last.fm<\/a>.",
+        "content": "\u2018Cupid\u2019 is the title track of their 1st Single, The Beginning: Cupid that shows the growth process and the beginning of the four girls.\n\n\u2018Cupid\u2019 is a retro-style melody reminiscent of a chanson and a faint voice that signals the beginning of the song. In addition, based on minimal disco beats and funky baselines, the song guides the world with Cupid one step at a time through the harmony of subtle vocals and pads.\n\nThe song shows a cheerful and humorous side through a refreshing synth and melodic piano melody. Sweet vocals show off their loveliness to the fullest, and the tapping rap part adds a rich taste to the song.\n\nDuring the tracking week ending April 1, 2023, the song debuted at #100 on the Billboard Hot 100 chart. During the tracking week ending April 8, 2023, the song reached a new peak of #94\n\nThe song marked their first appearance on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Fifty+Fifty\/_\/Cupid\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:20.170217+00:00",
+  "elapsed": 0.216468,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:20.170217+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1972",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROSAL%C3%8DA&format=json&method=track.getInfo&track=HENTAI"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROSAL%C3%8DA&format=json&method=track.getInfo&track=HENTAI",
+  "_decoded_content": {
+    "track": {
+      "name": "HENTAI",
+      "url": "https:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/HENTAI",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "290332",
+      "playcount": "4047937",
+      "artist": {
+        "name": "Rosal\u00eda",
+        "mbid": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+        "url": "https:\/\/www.last.fm\/music\/Rosal%C3%ADa"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "post-cringe",
+            "url": "https:\/\/www.last.fm\/tag\/post-cringe"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Mar 2022, 01:47",
+        "summary": "\"Hentai\" (stylized in all caps) is the fourth single from Rosal\u00eda's third studio album, Motomami.\n\nThe song is a \"delicate\" piano ballad with pulsing electronic beats that explores the pleasures of sexual intercourse and female sexuality.\n\nThe song was previously teased on TikTok and highly criticized because of its lyrics due to it being named about a subgenre of the Japanese genres of manga and anime, characterized by overtly sexualized characters.\n\nIt was released on March 16, 2022. <a href=\"http:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/HENTAI\">Read more on Last.fm<\/a>.",
+        "content": "\"Hentai\" (stylized in all caps) is the fourth single from Rosal\u00eda's third studio album, Motomami.\n\nThe song is a \"delicate\" piano ballad with pulsing electronic beats that explores the pleasures of sexual intercourse and female sexuality.\n\nThe song was previously teased on TikTok and highly criticized because of its lyrics due to it being named about a subgenre of the Japanese genres of manga and anime, characterized by overtly sexualized characters.\n\nIt was released on March 16, 2022. <a href=\"http:\/\/www.last.fm\/music\/Rosal%C3%ADa\/_\/HENTAI\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

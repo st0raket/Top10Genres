@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:25.638153+00:00",
+  "elapsed": 0.19908,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:25.638153+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2715",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Wayne&format=json&method=track.getInfo&track=Uproar"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Wayne&format=json&method=track.getInfo&track=Uproar",
+  "_decoded_content": {
+    "track": {
+      "name": "Uproar",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Wayne\/_\/Uproar",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "165059",
+      "playcount": "1193737",
+      "artist": {
+        "name": "Lil Wayne",
+        "mbid": "ac9a487a-d9d2-4f27-bb23-0f4686488345",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Wayne"
+      },
+      "album": {
+        "artist": "Lil Wayne",
+        "title": "Tha Carter V",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Wayne\/Tha+Carter+V",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/44fce74936bf975d782c8b3dc1b749df.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/44fce74936bf975d782c8b3dc1b749df.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/44fce74936bf975d782c8b3dc1b749df.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/44fce74936bf975d782c8b3dc1b749df.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "bounce",
+            "url": "https:\/\/www.last.fm\/tag\/bounce"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Dec 2019, 09:20",
+        "summary": "\"Uproar\" is a song by American rapper Lil Wayne. The song features vocals and production from American record producer Swizz Beatz. Young Money Entertainment, Republic Records and Universal Music Group released it to rhythmic radio on October 5, 2018, as the lead single from Wayne's twelfth studio album, Tha Carter V.\n\nOn this song, Lil Wayne warns his enemies to stop playing with him before he causes an \u201cUproar.\u201d\n\nThe instrumental, produced by Swizz Beatz and Avenue <a href=\"http:\/\/www.last.fm\/music\/Lil+Wayne\/_\/Uproar\">Read more on Last.fm<\/a>.",
+        "content": "\"Uproar\" is a song by American rapper Lil Wayne. The song features vocals and production from American record producer Swizz Beatz. Young Money Entertainment, Republic Records and Universal Music Group released it to rhythmic radio on October 5, 2018, as the lead single from Wayne's twelfth studio album, Tha Carter V.\n\nOn this song, Lil Wayne warns his enemies to stop playing with him before he causes an \u201cUproar.\u201d\n\nThe instrumental, produced by Swizz Beatz and Avenue, is a recreation of G-Dep\u2019s 2001 single \u201cSpecial Delivery,\u201d which Wayne previously remixed on the Dedication 4 track \u201cGreen Ranger.\u201d Ironically, on that remix, Wayne stated that he didn\u2019t even like this beat. <a href=\"http:\/\/www.last.fm\/music\/Lil+Wayne\/_\/Uproar\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

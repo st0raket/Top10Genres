@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:41.154039+00:00",
+  "elapsed": 0.179816,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:41.154039+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3015",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Lucky+One"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Lucky+One",
+  "_decoded_content": {
+    "track": {
+      "name": "The Lucky One",
+      "mbid": "af5314f6-2fab-4529-9cdf-ff6ffb04e8be",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Lucky+One",
+      "duration": "240000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "240799",
+      "playcount": "2038118",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Red",
+        "mbid": "90d96ad7-ca44-41f2-bc47-cbc9c762be3b",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad99371a89ed925f63ee3737b4bf9908.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "13"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Sep 2022, 08:34",
+        "summary": "The song is about a star who had it all- and who was also exposed to all, the tabloids, lights, and cameras. After her secrets were being leaked all over the world she was done, she moved away to a life of solitude and nobody knew where she had gone.\n\nSwift reportedly wrote this song in Australia, and although she doesn\u2019t say who the song is about (she set a rule against this herself), the song is rumored to be about Joni Mitchell and Kim Wilde <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Lucky+One\">Read more on Last.fm<\/a>.",
+        "content": "The song is about a star who had it all- and who was also exposed to all, the tabloids, lights, and cameras. After her secrets were being leaked all over the world she was done, she moved away to a life of solitude and nobody knew where she had gone.\n\nSwift reportedly wrote this song in Australia, and although she doesn\u2019t say who the song is about (she set a rule against this herself), the song is rumored to be about Joni Mitchell and Kim Wilde, the lyrics: \u201cThey say you bought a bunch of land somewhere, chose the rose garden over Madison Square.\u201d could possibly be referencing how Wilde left her career to become a landscape gardener. The main melody is also sampled from Wilde\u2019s \u201cFour Letter Word\u201d\n\nThe song ends with Taylor understanding why the star chose that path, and how Taylor feels that she\u2019s becoming the \u201cThe Lucky One\u201d. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Lucky+One\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:58.764710+00:00",
+  "elapsed": 0.202433,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:58.764710+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2598",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Needed+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Needed+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Needed Me",
+      "url": "https:\/\/www.last.fm\/music\/Rihanna\/_\/Needed+Me",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1196596",
+      "playcount": "13322342",
+      "artist": {
+        "name": "Rihanna",
+        "mbid": "db36a76f-4cdf-43ac-8cd0-5e48092d2bae",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna"
+      },
+      "album": {
+        "artist": "Rihanna",
+        "title": "Anti",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna\/Anti",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/766005131fc4319104d97f07680949d7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/766005131fc4319104d97f07680949d7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/766005131fc4319104d97f07680949d7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/766005131fc4319104d97f07680949d7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "urban",
+            "url": "https:\/\/www.last.fm\/tag\/urban"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jul 2016, 05:07",
+        "summary": "\"Needed Me\" discuss romantic rejection with some critics identifying a feminist overtone. The song contains a downtempo and loose production with synthetic and elements of electro bubble. It peaked at #7 on the Billboard Hot 100, becoming Rihanna's 29th top 10 single on the chart.\n\nServing as a follow-up single from ANTI together with \"Kiss It Better\", the song received favorable reviews, with some music critics deeming it \"a female anthem\".\n\nIt was written by Rihanna <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Needed+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"Needed Me\" discuss romantic rejection with some critics identifying a feminist overtone. The song contains a downtempo and loose production with synthetic and elements of electro bubble. It peaked at #7 on the Billboard Hot 100, becoming Rihanna's 29th top 10 single on the chart.\n\nServing as a follow-up single from ANTI together with \"Kiss It Better\", the song received favorable reviews, with some music critics deeming it \"a female anthem\".\n\nIt was written by Rihanna, Brittany Hazard, Charles Hinshaw and Derrus Rachel together with its producer DJ Mustard and its co-producers Twice as Nice and Frank Dukes. <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Needed+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

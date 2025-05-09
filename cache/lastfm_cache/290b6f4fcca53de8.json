@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:36:58.183341+00:00",
+  "elapsed": 0.305659,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:58.183341+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1467",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=%E9%80%86%E5%A4%A2"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=King+Gnu&format=json&method=track.getInfo&track=%E9%80%86%E5%A4%A2",
+  "_decoded_content": {
+    "track": {
+      "name": "\u9006\u5922",
+      "url": "https:\/\/www.last.fm\/music\/King+Gnu\/_\/%E9%80%86%E5%A4%A2",
+      "duration": "300000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "63113",
+      "playcount": "682129",
+      "artist": {
+        "name": "King Gnu",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu"
+      },
+      "album": {
+        "artist": "King Gnu",
+        "title": "\u9006\u5922",
+        "url": "https:\/\/www.last.fm\/music\/King+Gnu\/%E9%80%86%E5%A4%A2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/de6e6557ebfd048551caa279a21d14c9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/de6e6557ebfd048551caa279a21d14c9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/de6e6557ebfd048551caa279a21d14c9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/de6e6557ebfd048551caa279a21d14c9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "anime",
+            "url": "https:\/\/www.last.fm\/tag\/anime"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "Jujutsu Kaisen 0",
+            "url": "https:\/\/www.last.fm\/tag\/Jujutsu+Kaisen+0"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Mar 2022, 22:45",
+        "summary": "End credits song to \"Jujutsu Kaisen 0\" <a href=\"http:\/\/www.last.fm\/music\/King+Gnu\/_\/%E9%80%86%E5%A4%A2\">Read more on Last.fm<\/a>.",
+        "content": "End credits song to \"Jujutsu Kaisen 0\" <a href=\"http:\/\/www.last.fm\/music\/King+Gnu\/_\/%E9%80%86%E5%A4%A2\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

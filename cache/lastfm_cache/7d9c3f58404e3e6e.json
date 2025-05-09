@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:04.313021+00:00",
+  "elapsed": 0.2091,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:04.313021+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3897",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Red+Ruby+Da+Sleeze"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Red+Ruby+Da+Sleeze",
+  "_decoded_content": {
+    "track": {
+      "name": "Red Ruby Da Sleeze",
+      "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Red+Ruby+Da+Sleeze",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "306974",
+      "playcount": "4444556",
+      "artist": {
+        "name": "Nicki Minaj",
+        "mbid": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj"
+      },
+      "album": {
+        "artist": "Nicki Minaj",
+        "title": "Red Ruby Da Sleeze",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/Red+Ruby+Da+Sleeze",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a4a1d1ef6c8e644679ae6762207241a7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a4a1d1ef6c8e644679ae6762207241a7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a4a1d1ef6c8e644679ae6762207241a7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a4a1d1ef6c8e644679ae6762207241a7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "dancehall",
+            "url": "https:\/\/www.last.fm\/tag\/dancehall"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Mar 2023, 06:14",
+        "summary": "\"Red Ruby da Sleeze\" is a bold and explicit song that showcases the rapper's confidence and dominance. With sharp metaphors and clever wordplay, Nicki asserts herself as a force to be reckoned with in the rap industry.\n\nThe song begins with Nicki flaunting her wealth and status by referencing her expensive possessions, such as her Red Ruby Da Sleeze jewelry, and making a subtle nod to her Chinese heritage. She then calls out those who imitate her, \"these wannabe Chun-Lis\", asserting that there is no one like her. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Red+Ruby+Da+Sleeze\">Read more on Last.fm<\/a>.",
+        "content": "\"Red Ruby da Sleeze\" is a bold and explicit song that showcases the rapper's confidence and dominance. With sharp metaphors and clever wordplay, Nicki asserts herself as a force to be reckoned with in the rap industry.\n\nThe song begins with Nicki flaunting her wealth and status by referencing her expensive possessions, such as her Red Ruby Da Sleeze jewelry, and making a subtle nod to her Chinese heritage. She then calls out those who imitate her, \"these wannabe Chun-Lis\", asserting that there is no one like her. Nicki even mentions being married to a \"shooter\" as a way to show her power and intimidate anyone who dares to cross her.\n\nThe chorus emphasizes Nicki's confidence and fearlessness, as she boasts about her toughness and ready to defend herself at any moment. The lines \"bad gyal don't run from nobody\" and \"boy haffi dead if he ever diss me\" show that Nicki will not back down from anyone who tries to disrespect her.\n\nThe second verse of the song continues with Nicki flexing her wealth and power, as well as calling out those who try to copy her style. She mentions the importance of being careful in the streets and keeps a plethora of guns for protection.\n\nThe bridge expresses Nicki's desire to keep her enemies close and be aware of anyone who may try to harm her. She can sense that there are people out there who don't like her and are waiting for her downfall, but she won't let them take her throne.\n\nOverall, \"Red Ruby da Sleeze\" reveals Nicki Minaj's confidence and dominance within the rap industry. She asserts herself as a powerful and unstoppable force, showcasing her wealth, power and expertise. The song urges listeners to not mess with her or face the consequences.\n\nThe song samples \"Never Leave You (Uh Oooh, Uh Oooh)\" by Lumidee. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Red+Ruby+Da+Sleeze\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

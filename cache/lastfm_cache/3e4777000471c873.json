@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:31:09.419349+00:00",
+  "elapsed": 0.22356,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:09.419349+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "964",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Offset&format=json&method=track.getInfo&track=Lick"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Offset&format=json&method=track.getInfo&track=Lick",
+  "_decoded_content": {
+    "track": {
+      "name": "Lick",
+      "url": "https:\/\/www.last.fm\/music\/Offset\/_\/Lick",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "63303",
+      "playcount": "473926",
+      "artist": {
+        "name": "Offset",
+        "mbid": "c0c401e0-eb84-4266-9ccb-9160988e7a8e",
+        "url": "https:\/\/www.last.fm\/music\/Offset"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "What's the Motive",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/What%27s+the+Motive",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a323eacc1987f9d1ade841a9ff503374.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a323eacc1987f9d1ade841a9ff503374.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a323eacc1987f9d1ade841a9ff503374.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a323eacc1987f9d1ade841a9ff503374.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      }
+    }
+  }
+}

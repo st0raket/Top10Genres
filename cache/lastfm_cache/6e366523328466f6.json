@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:55.220487+00:00",
+  "elapsed": 0.17589,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:55.220487+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3305",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=WALK+THE+MOON&format=json&method=track.getInfo&track=Shut+Up+and+Dance"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=WALK+THE+MOON&format=json&method=track.getInfo&track=Shut+Up+and+Dance",
+  "_decoded_content": {
+    "track": {
+      "name": "Shut Up and Dance",
+      "mbid": "9656e1b2-87c1-4208-8a33-fa814961fc9e",
+      "url": "https:\/\/www.last.fm\/music\/Walk+the+Moon\/_\/Shut+Up+and+Dance",
+      "duration": "197000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1165455",
+      "playcount": "10086405",
+      "artist": {
+        "name": "Walk the Moon",
+        "mbid": "d4aad415-9cd0-4845-9b05-0416fdcc9fc4",
+        "url": "https:\/\/www.last.fm\/music\/Walk+the+Moon"
+      },
+      "album": {
+        "artist": "Walk the Moon",
+        "title": "Talking Is Hard",
+        "mbid": "8d3f896d-43c2-4bec-b3bc-c876b6dffdd5",
+        "url": "https:\/\/www.last.fm\/music\/Walk+the+Moon\/Talking+Is+Hard",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7fee8351f9424cb78d67ac5af0a75b52.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7fee8351f9424cb78d67ac5af0a75b52.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7fee8351f9424cb78d67ac5af0a75b52.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7fee8351f9424cb78d67ac5af0a75b52.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Mar 2018, 22:52",
+        "summary": "\"Shut Up and Dance\" (stylized as \"SHUT UP + DANCE\") is a song by American rock band Walk the Moon for their second studio album Talking Is Hard (released in 2014). The song was written by band members and songwriters Ben Berger and Ryan McMahon. The song is based on an experience frontman Nicholas Petricca had at a Los Angeles nightclub. His girlfriend invited him to dance, inspiring the title. Petricca envisioned the song as an anthem for letting go of frustration and having fun. <a href=\"http:\/\/www.last.fm\/music\/Walk+the+Moon\/_\/Shut+Up+and+Dance\">Read more on Last.fm<\/a>.",
+        "content": "\"Shut Up and Dance\" (stylized as \"SHUT UP + DANCE\") is a song by American rock band Walk the Moon for their second studio album Talking Is Hard (released in 2014). The song was written by band members and songwriters Ben Berger and Ryan McMahon. The song is based on an experience frontman Nicholas Petricca had at a Los Angeles nightclub. His girlfriend invited him to dance, inspiring the title. Petricca envisioned the song as an anthem for letting go of frustration and having fun. The song was digitally released on September 10, 2014, as the lead single from the album Talking Is Hard .\n\nThe song became the band's biggest hit single to date, peaking at number four on the US Billboard Hot 100 and becoming a number-one hit on the magazine's Alternative Songs chart and the Hot Adult Contemporary chart. Outside the United States, the song topped the charts in Poland, peaked within the top ten of the charts in Australia, Canada, Germany, Israel, the Republic of Ireland, and the United Kingdom, the top twenty of the charts in New Zealand and Sweden and the top thirty of the charts in the Netherlands.  <a href=\"http:\/\/www.last.fm\/music\/Walk+the+Moon\/_\/Shut+Up+and+Dance\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:35:16.844147+00:00",
+  "elapsed": 0.22035,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:16.844147+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "894",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rod+Wave&format=json&method=track.getInfo&track=Tombstone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rod+Wave&format=json&method=track.getInfo&track=Tombstone",
+  "_decoded_content": {
+    "track": {
+      "name": "Tombstone",
+      "url": "https:\/\/www.last.fm\/music\/Rod+Wave\/_\/Tombstone",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "72245",
+      "playcount": "845653",
+      "artist": {
+        "name": "Rod Wave",
+        "url": "https:\/\/www.last.fm\/music\/Rod+Wave"
+      },
+      "album": {
+        "artist": "Rod Wave",
+        "title": "SOULFLY (DELUXE)",
+        "url": "https:\/\/www.last.fm\/music\/Rod+Wave\/SOULFLY+(DELUXE)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6eda1b476f4be8ffd4003129b5be0565.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6eda1b476f4be8ffd4003129b5be0565.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6eda1b476f4be8ffd4003129b5be0565.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6eda1b476f4be8ffd4003129b5be0565.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      }
+    }
+  }
+}

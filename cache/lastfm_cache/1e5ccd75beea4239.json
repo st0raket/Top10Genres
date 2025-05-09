@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:31.913690+00:00",
+  "elapsed": 0.18082,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:31.913690+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3594",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=good+4+u"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=good+4+u",
+  "_decoded_content": {
+    "track": {
+      "name": "good 4 u",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/good+4+u",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1509402",
+      "playcount": "30617511",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best of Today",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+of+Today",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/40ba65a15db9623cd460ad4a6ea9728a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/40ba65a15db9623cd460ad4a6ea9728a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/40ba65a15db9623cd460ad4a6ea9728a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/40ba65a15db9623cd460ad4a6ea9728a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop punk",
+            "url": "https:\/\/www.last.fm\/tag\/pop+punk"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "punk",
+            "url": "https:\/\/www.last.fm\/tag\/punk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 May 2021, 16:45",
+        "summary": "\"good 4 u\" is a song Olivia Rodrigo released on May 14, 2021 through Geffen and Interscope Records. It is the third single from Rodrigo's debut studio album, SOUR (2021). The song was announced on May 10th via Rodrigo's social media. It was written by Rodrigo and Dan Nigro, and was produced by the latter and Alexander 23.\n\nA song blending pop-punk, pop-rock, grunge, and teen pop, \"good 4 u\" is set to electric guitars and drums, with lyrics addressing a former lover who moved on very quickly after a breakup. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/good+4+u\">Read more on Last.fm<\/a>.",
+        "content": "\"good 4 u\" is a song Olivia Rodrigo released on May 14, 2021 through Geffen and Interscope Records. It is the third single from Rodrigo's debut studio album, SOUR (2021). The song was announced on May 10th via Rodrigo's social media. It was written by Rodrigo and Dan Nigro, and was produced by the latter and Alexander 23.\n\nA song blending pop-punk, pop-rock, grunge, and teen pop, \"good 4 u\" is set to electric guitars and drums, with lyrics addressing a former lover who moved on very quickly after a breakup. The accompanying music video features Rodrigo as a cheerleader setting out for revenge, visually alluding to the 1990s and 2000s' cult classic films Audition, The Princess Diaries, and Jennifer's Body.\n\nThe single reached number one in Australia, Austria, Canada, Czech Republic, Denmark, Germany, Ireland, New Zealand, Norway, Portugal, Singapore, Slovakia, Switzerland, the United Kingdom, and the United States; it was the second chart-topping single from SOUR in many of those countries, following Rodrigo's debut single \"Drivers License\" (2021). SOUR gained the distinction of being the first debut album in history to spawn two number-one debuts on the US Billboard Hot 100. \"good 4 u\" peaked within the top 10, top 20 and top 40 of various other territories.\n\nRodrigo performed \"good 4 u\" on Saturday Night Live, alongside \"drivers license\" on May 16th, 2021.\n\nParamore's member Hayley Williams and former guitarist Josh Farro were credited as the songwriters later due to claims of plagiarism with Paramore's song \"Misery Business\". <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/good+4+u\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

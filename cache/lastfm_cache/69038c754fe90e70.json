@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:49.163473+00:00",
+  "elapsed": 0.172947,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:49.163473+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2955",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Flowers"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Flowers",
+  "_decoded_content": {
+    "track": {
+      "name": "Flowers",
+      "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Flowers",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1012902",
+      "playcount": "13520821",
+      "artist": {
+        "name": "Miley Cyrus",
+        "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus"
+      },
+      "album": {
+        "artist": "Miley Cyrus",
+        "title": "Flowers",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/Flowers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d0c2c98a6a2e3e3ca2ca647e70fbf5b7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d0c2c98a6a2e3e3ca2ca647e70fbf5b7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d0c2c98a6a2e3e3ca2ca647e70fbf5b7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d0c2c98a6a2e3e3ca2ca647e70fbf5b7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "soft rock",
+            "url": "https:\/\/www.last.fm\/tag\/soft+rock"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2023, 01:37",
+        "summary": "\u201cFlowers\u201d is the two-time, Grammy-winning lead single from Miley Cyrus' eighth studio album Endless Summer Vacation. The song is about her past relationship with ex-husband Liam Hemsworth, releasing the track on his birthday, with lyrics implying she doesn\u2019t need him to fulfill her happiness.\n\nCyrus first teased the new era with cryptic posters around the world that featured lyrics and a release date. Fans were skeptical about it, until she later dropped the first teaser on New Year\u2019s Eve <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Flowers\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFlowers\u201d is the two-time, Grammy-winning lead single from Miley Cyrus' eighth studio album Endless Summer Vacation. The song is about her past relationship with ex-husband Liam Hemsworth, releasing the track on his birthday, with lyrics implying she doesn\u2019t need him to fulfill her happiness.\n\nCyrus first teased the new era with cryptic posters around the world that featured lyrics and a release date. Fans were skeptical about it, until she later dropped the first teaser on New Year\u2019s Eve, along with announcing the single\u2019s title and release date. Minutes later, a second teaser was released. A music video for the single was accompanied with the single\u2019s release.\n\nThe song heavily interpolates and draws upon the themes of Bruno Mars' 2012 song  When I Was Your Man, and can be seen in some regards as a spiritual successor and a \"response\" to Mars' song from the perspective of the other party in a failed relationship. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Flowers\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

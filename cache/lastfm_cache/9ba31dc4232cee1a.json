@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:15.557044+00:00",
+  "elapsed": 0.231764,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:15.557044+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3194",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Summer+Walker&format=json&method=track.getInfo&track=Playing+Games"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Summer+Walker&format=json&method=track.getInfo&track=Playing+Games",
+  "_decoded_content": {
+    "track": {
+      "name": "Playing Games",
+      "url": "https:\/\/www.last.fm\/music\/Summer+Walker\/_\/Playing+Games",
+      "duration": "141000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "195273",
+      "playcount": "1432736",
+      "artist": {
+        "name": "Summer Walker",
+        "url": "https:\/\/www.last.fm\/music\/Summer+Walker"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Trap R&B",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Trap+R&B",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1a1f2c4f8841ab6bbd7477333d8212e9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1a1f2c4f8841ab6bbd7477333d8212e9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1a1f2c4f8841ab6bbd7477333d8212e9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1a1f2c4f8841ab6bbd7477333d8212e9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "alexcore",
+            "url": "https:\/\/www.last.fm\/tag\/alexcore"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 May 2022, 22:58",
+        "summary": "\u201cPlaying Games\u201d is a song by American singer Summer Walker. It was released as the lead single from their debut studio album Over It on August 23, 2019.\n\nLyrically, the song depicts Walker \u201caddressing the lame dudes that continue to take their passion for granted\u201d while not acknowledging \u201ctheir relationship on Instagram\u201d. The chorus is a full interpolation of the 1999 Destiny's Child single \u201cSay My Name\u201d.\n\nOn October 4, 2019, the extended version with Bryson Tiller was released alongside Over It as well as the music video. <a href=\"http:\/\/www.last.fm\/music\/Summer+Walker\/_\/Playing+Games\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPlaying Games\u201d is a song by American singer Summer Walker. It was released as the lead single from their debut studio album Over It on August 23, 2019.\n\nLyrically, the song depicts Walker \u201caddressing the lame dudes that continue to take their passion for granted\u201d while not acknowledging \u201ctheir relationship on Instagram\u201d. The chorus is a full interpolation of the 1999 Destiny's Child single \u201cSay My Name\u201d.\n\nOn October 4, 2019, the extended version with Bryson Tiller was released alongside Over It as well as the music video. Despite the video featuring vocals from Tiller, he does not appear in the clip. The video features shots of Walker sitting and lying on a bed surrounded by bright city lights in the backdrop. During the video, Walker has one man tied up and hanging from the ceiling while another one is seen being confined to a chair. Being fed-up with lies, Walker goes on to ignore a man bringing them flowers and apologizing.\n\n\u201cPlaying Games\u201d eventually peaked at number sixteen Billboard Hot 100 and was nominated for \u201cFavorite Soul\/R&B Song\u201d at the AMAs but lost to \u201cHeartless\u201d by The Weeknd. <a href=\"http:\/\/www.last.fm\/music\/Summer+Walker\/_\/Playing+Games\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

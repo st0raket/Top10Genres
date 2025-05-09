@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:36:52.126642+00:00",
+  "elapsed": 0.220442,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:52.126642+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2508",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Eminem+Speaks"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Eminem+Speaks",
+  "_decoded_content": {
+    "track": {
+      "name": "Eminem Speaks",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Eminem+Speaks",
+      "duration": "133000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "77948",
+      "playcount": "354431",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "Fighting Demons",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/Fighting+Demons",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Oct 2022, 19:35",
+        "summary": "\u201cEminem Speaks\u201d is taken from Eminem\u2019s 2012 documentary How To Make Money Selling Drugs, which sees him discuss his own drug abuse and addiction throughout his career, as well as his subsequent rehabilitation.\n\nEminem was a huge influence on Juice WRLD\u2014which Genius showcases in a December 2018 video\u2014and is also seen in a January 2019 video, where he freestyles over Eminem\u2019s beats for over an hour as part of TimWestwoodTV.\n\nThe excerpt may serve to encourage those experiencing drug-related issues to seek out the required help <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Eminem+Speaks\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEminem Speaks\u201d is taken from Eminem\u2019s 2012 documentary How To Make Money Selling Drugs, which sees him discuss his own drug abuse and addiction throughout his career, as well as his subsequent rehabilitation.\n\nEminem was a huge influence on Juice WRLD\u2014which Genius showcases in a December 2018 video\u2014and is also seen in a January 2019 video, where he freestyles over Eminem\u2019s beats for over an hour as part of TimWestwoodTV.\n\nThe excerpt may serve to encourage those experiencing drug-related issues to seek out the required help, and understand the long-term impacts of addiction, in the hope of preventing untimely deaths \u2013 like that of Jarad\u2019s in December 2019. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Eminem+Speaks\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

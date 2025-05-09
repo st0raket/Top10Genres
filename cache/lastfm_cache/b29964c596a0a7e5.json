@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:11.384020+00:00",
+  "elapsed": 0.314321,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:11.384020+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2118",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Ronettes&format=json&method=track.getInfo&track=Sleigh+Ride"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Ronettes&format=json&method=track.getInfo&track=Sleigh+Ride",
+  "_decoded_content": {
+    "track": {
+      "name": "Sleigh Ride",
+      "mbid": "9abaaa73-fa68-4e03-9edc-d1992d9825d4",
+      "url": "https:\/\/www.last.fm\/music\/The+Ronettes\/_\/Sleigh+Ride",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "892724",
+      "playcount": "3634682",
+      "artist": {
+        "name": "The Ronettes",
+        "mbid": "393e5448-896f-43e9-b80b-4ee58e1e71a4",
+        "url": "https:\/\/www.last.fm\/music\/The+Ronettes"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "A Christmas Gift for You From Phil Spector",
+        "mbid": "95ae5e81-a492-4772-884a-d582a0a41934",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/A+Christmas+Gift+for+You+From+Phil+Spector",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1ab7e7130eb76820fe48a13062ac070b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1ab7e7130eb76820fe48a13062ac070b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1ab7e7130eb76820fe48a13062ac070b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1ab7e7130eb76820fe48a13062ac070b.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "60s",
+            "url": "https:\/\/www.last.fm\/tag\/60s"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Dec 2022, 13:01",
+        "summary": "The Ronettes recorded a cover of \"Sleigh Ride\" in 1963 for Phil Spector's A Christmas Gift for You, which was commercially successful in the United States and featured in various media. <a href=\"http:\/\/www.last.fm\/music\/The+Ronettes\/_\/Sleigh+Ride\">Read more on Last.fm<\/a>.",
+        "content": "The Ronettes recorded a cover of \"Sleigh Ride\" in 1963 for Phil Spector's A Christmas Gift for You, which was commercially successful in the United States and featured in various media. <a href=\"http:\/\/www.last.fm\/music\/The+Ronettes\/_\/Sleigh+Ride\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

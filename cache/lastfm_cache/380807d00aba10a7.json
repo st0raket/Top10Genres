@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:23.400687+00:00",
+  "elapsed": 0.259792,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:23.400687+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2093",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=I+Ain%E2%80%99t+Quite+Where+I+Think+I+Am"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=I+Ain%E2%80%99t+Quite+Where+I+Think+I+Am",
+  "_decoded_content": {
+    "track": {
+      "name": "I Ain\u2019t Quite Where I Think I Am",
+      "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/I+Ain%E2%80%99t+Quite+Where+I+Think+I+Am",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "304555",
+      "playcount": "1929211",
+      "artist": {
+        "name": "Arctic Monkeys",
+        "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys"
+      },
+      "album": {
+        "artist": "Arctic Monkeys",
+        "title": "The Car",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/The+Car",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "chamber pop",
+            "url": "https:\/\/www.last.fm\/tag\/chamber+pop"
+          },
+          {
+            "name": "baroque pop",
+            "url": "https:\/\/www.last.fm\/tag\/baroque+pop"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "art rock",
+            "url": "https:\/\/www.last.fm\/tag\/art+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Oct 2022, 22:57",
+        "summary": "\u2018I Ain\u2019t Quite Where I Think I Am\u2019 is the third single from Arctic Monkey\u2019s seventh album The Car, released on the 18th of October 2022 (three days before the album\u2019s release). <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/I+Ain%E2%80%99t+Quite+Where+I+Think+I+Am\">Read more on Last.fm<\/a>.",
+        "content": "\u2018I Ain\u2019t Quite Where I Think I Am\u2019 is the third single from Arctic Monkey\u2019s seventh album The Car, released on the 18th of October 2022 (three days before the album\u2019s release). <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/I+Ain%E2%80%99t+Quite+Where+I+Think+I+Am\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

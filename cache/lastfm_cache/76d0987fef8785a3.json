@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:18.411420+00:00",
+  "elapsed": 0.338699,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:18.411420+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2034",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Troye+Sivan&format=json&method=track.getInfo&track=Take+Yourself+Home"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Troye+Sivan&format=json&method=track.getInfo&track=Take+Yourself+Home",
+  "_decoded_content": {
+    "track": {
+      "name": "Take Yourself Home",
+      "url": "https:\/\/www.last.fm\/music\/Troye+Sivan\/_\/Take+Yourself+Home",
+      "duration": "249000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "206177",
+      "playcount": "2393136",
+      "artist": {
+        "name": "Troye Sivan",
+        "mbid": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
+        "url": "https:\/\/www.last.fm\/music\/Troye+Sivan"
+      },
+      "album": {
+        "artist": "Troye Sivan",
+        "title": "In A Dream (2020)",
+        "url": "https:\/\/www.last.fm\/music\/Troye+Sivan\/In+A+Dream+(2020)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b4bfd7f4202acf30305f7edb53ffc179.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b4bfd7f4202acf30305f7edb53ffc179.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b4bfd7f4202acf30305f7edb53ffc179.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b4bfd7f4202acf30305f7edb53ffc179.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Apr 2020, 19:15",
+        "summary": "\"Take Yourself Home\" is a song by Australian singer and songwriter Troye Sivan. The song was released via EMI Music Australia on 1 April 2020, as the lead single from his upcoming fourth EP \"In a Dream\" <a href=\"http:\/\/www.last.fm\/music\/Troye+Sivan\/_\/Take+Yourself+Home\">Read more on Last.fm<\/a>.",
+        "content": "\"Take Yourself Home\" is a song by Australian singer and songwriter Troye Sivan. The song was released via EMI Music Australia on 1 April 2020, as the lead single from his upcoming fourth EP \"In a Dream\" <a href=\"http:\/\/www.last.fm\/music\/Troye+Sivan\/_\/Take+Yourself+Home\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

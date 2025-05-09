@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:15.253418+00:00",
+  "elapsed": 0.182262,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:15.253418+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2108",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Superman"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Superman",
+  "_decoded_content": {
+    "track": {
+      "name": "Superman",
+      "mbid": "c966edc2-9e89-426f-84fe-cea42e6f672d",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Superman",
+      "duration": "288000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1017840",
+      "playcount": "8039947",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "The Anger Management Tour Live",
+        "mbid": "218c0d18-d620-4f76-ba6e-a906c460594a",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/The+Anger+Management+Tour+Live",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d9a15b02797e8d0132aa7be288649133.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d9a15b02797e8d0132aa7be288649133.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d9a15b02797e8d0132aa7be288649133.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d9a15b02797e8d0132aa7be288649133.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "15"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Superman",
+            "url": "https:\/\/www.last.fm\/tag\/Superman"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Feb 2009, 19:06",
+        "summary": "Superman is a song by the rapper Eminem featuring Dina Rae, released in 2003 as a single in the U.S. only, peaking at #15 on the Billboard Hot 100. It was from his worldwide hit album, The Eminem Show, which was released in 2002.  <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Superman\">Read more on Last.fm<\/a>.",
+        "content": "Superman is a song by the rapper Eminem featuring Dina Rae, released in 2003 as a single in the U.S. only, peaking at #15 on the Billboard Hot 100. It was from his worldwide hit album, The Eminem Show, which was released in 2002.  <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Superman\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

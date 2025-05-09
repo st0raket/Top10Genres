@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:56.322529+00:00",
+  "elapsed": 0.228647,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:56.322529+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "919",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Freeze+Corleone&format=json&method=track.getInfo&track=Am%C3%A9rique+du+sud"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Freeze+Corleone&format=json&method=track.getInfo&track=Am%C3%A9rique+du+sud",
+  "_decoded_content": {
+    "track": {
+      "name": "Am\u00e9rique du sud",
+      "url": "https:\/\/www.last.fm\/music\/Freeze+Corleone\/_\/Am%C3%A9rique+du+sud",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "13445",
+      "playcount": "115004",
+      "artist": {
+        "name": "Freeze Corleone",
+        "url": "https:\/\/www.last.fm\/music\/Freeze+Corleone"
+      },
+      "album": {
+        "artist": "Freeze Corleone",
+        "title": "Am\u00e9rique du sud - Single",
+        "url": "https:\/\/www.last.fm\/music\/Freeze+Corleone\/Am%C3%A9rique+du+sud+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/acd7059be756a134aeabd296f7260c2e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/acd7059be756a134aeabd296f7260c2e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/acd7059be756a134aeabd296f7260c2e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/acd7059be756a134aeabd296f7260c2e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

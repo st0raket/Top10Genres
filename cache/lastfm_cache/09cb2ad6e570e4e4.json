@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:06.635793+00:00",
+  "elapsed": 0.184211,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:06.635793+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2579",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=We+Still+Don%27t+Trust+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=We+Still+Don%27t+Trust+You",
+  "_decoded_content": {
+    "track": {
+      "name": "WE STILL DON'T TRUST YOU",
+      "url": "https:\/\/www.last.fm\/music\/Future\/_\/WE+STILL+DON%27T+TRUST+YOU",
+      "duration": "252000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "357203",
+      "playcount": "3722215",
+      "artist": {
+        "name": "Future",
+        "mbid": "9f1195cf-9900-45db-bf9c-21c205672ae0",
+        "url": "https:\/\/www.last.fm\/music\/Future"
+      },
+      "album": {
+        "artist": "Future",
+        "title": "WE STILL DON'T TRUST YOU",
+        "url": "https:\/\/www.last.fm\/music\/Future\/WE+STILL+DON%27T+TRUST+YOU",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6a3dd879bb20457745a12ac0872c8821.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6a3dd879bb20457745a12ac0872c8821.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6a3dd879bb20457745a12ac0872c8821.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6a3dd879bb20457745a12ac0872c8821.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "future",
+            "url": "https:\/\/www.last.fm\/tag\/future"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "Metro Boomin",
+            "url": "https:\/\/www.last.fm\/tag\/Metro+Boomin"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Aug 2024, 19:12",
+        "summary": "\"We Still Don't Trust You\" is a song by American rapper Future, American record producer Metro Boomin, and Canadian singer-songwriter The Weeknd. It was sent to Italian radio airplay as the lead single from Future and Metro Boomin's collaborative studio album of the same name, a week after its release on April 19, 2024. Its official music video was released six days earlier, which was a day after its parent album was released, and stars Canadian fashion model Winnie Harlow. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/WE+STILL+DON%27T+TRUST+YOU\">Read more on Last.fm<\/a>.",
+        "content": "\"We Still Don't Trust You\" is a song by American rapper Future, American record producer Metro Boomin, and Canadian singer-songwriter The Weeknd. It was sent to Italian radio airplay as the lead single from Future and Metro Boomin's collaborative studio album of the same name, a week after its release on April 19, 2024. Its official music video was released six days earlier, which was a day after its parent album was released, and stars Canadian fashion model Winnie Harlow. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/WE+STILL+DON%27T+TRUST+YOU\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

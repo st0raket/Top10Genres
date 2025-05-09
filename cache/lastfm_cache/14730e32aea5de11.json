@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:34:00.677395+00:00",
+  "elapsed": 0.218191,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:00.677395+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1085",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB&format=json&method=track.getInfo&track=Lemon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB&format=json&method=track.getInfo&track=Lemon",
+  "_decoded_content": {
+    "track": {
+      "name": "Lemon",
+      "url": "https:\/\/www.last.fm\/music\/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB\/_\/Lemon",
+      "duration": "255000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "26765",
+      "playcount": "402069",
+      "artist": {
+        "name": "\u7c73\u6d25\u7384\u5e2b",
+        "mbid": "09d4a85c-4916-4b4e-bc96-c4cfcf371046",
+        "url": "https:\/\/www.last.fm\/music\/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB"
+      },
+      "album": {
+        "artist": "\u7c73\u6d25\u7384\u5e2b",
+        "title": "Lemon - Single",
+        "url": "https:\/\/www.last.fm\/music\/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB\/Lemon+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4aa284cca0fe05a5cf1ecedc97a9bb85.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4aa284cca0fe05a5cf1ecedc97a9bb85.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4aa284cca0fe05a5cf1ecedc97a9bb85.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4aa284cca0fe05a5cf1ecedc97a9bb85.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          }
+        ]
+      }
+    }
+  }
+}

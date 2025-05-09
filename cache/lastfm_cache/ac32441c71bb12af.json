@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:02.534342+00:00",
+  "elapsed": 0.189495,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:02.534342+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3419",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Father+Stretch+My+Hands+Pt.+1"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Father+Stretch+My+Hands+Pt.+1",
+  "_decoded_content": {
+    "track": {
+      "name": "Father Stretch My Hands Pt. 1",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Father+Stretch+My+Hands+Pt.+1",
+      "duration": "135000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1477463",
+      "playcount": "30176622",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "The Life of Pablo",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/The+Life+of+Pablo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8c6af1315c66631bad022085c7992b34.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8c6af1315c66631bad022085c7992b34.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8c6af1315c66631bad022085c7992b34.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8c6af1315c66631bad022085c7992b34.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 19:15",
+        "summary": "On \u201cFather Stretch My Hands, Pt. 1,\u201d Kanye reflects on an argument he had with a girl he loves. By the end of the verse, he realizes nothing else matters but waking up next to her every morning.\n\nStretching one\u2019s hands out is a common image of prayer and supplication. As in the opening sample, Kanye is expressing a desire to submit to God\u2019s will despite his own pride.\n\nThis song is one of the songs that popularized Metro\u2019s tag.\n\n\"What has Chance the Rapper, who is a credited writer, said about the song?\" <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Father+Stretch+My+Hands+Pt.+1\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cFather Stretch My Hands, Pt. 1,\u201d Kanye reflects on an argument he had with a girl he loves. By the end of the verse, he realizes nothing else matters but waking up next to her every morning.\n\nStretching one\u2019s hands out is a common image of prayer and supplication. As in the opening sample, Kanye is expressing a desire to submit to God\u2019s will despite his own pride.\n\nThis song is one of the songs that popularized Metro\u2019s tag.\n\n\"What has Chance the Rapper, who is a credited writer, said about the song?\"\n\nIn an interview with Complex, Chance was asked if he wrote the \u201cbleached asshole\u201d line. After replying that he hadn\u2019t written the line, Chance said the following:\n\n\"\u2018Ye is a comedian in a lot of ways. He writes stuff that is painfully funny and painfully true. And that\u2019s why you respect comedy and that\u2019s why you respect his work. His best lines are lines that are just funny, whether it\u2019s, like, a word being mispronounced, or a weird take on something that a lot of people wouldn\u2019t necessarily say out loud\u2014not making light of [it], but in a clever way exposing something that\u2019s socially wrong, you know?'\"\n\n\u201cFather Stretch My Hands, Pt. 1\u201d was certified 3x platinum by the RIAA on September 23rd, 2020. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Father+Stretch+My+Hands+Pt.+1\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

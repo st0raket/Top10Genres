@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:05.162258+00:00",
+  "elapsed": 0.181274,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:05.162258+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1987",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=Whatever+It+Takes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=Whatever+It+Takes",
+  "_decoded_content": {
+    "track": {
+      "name": "whAtEveR it tAkes",
+      "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/whAtEveR+it+tAkes",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "603575",
+      "playcount": "6027117",
+      "artist": {
+        "name": "Imagine Dragons",
+        "mbid": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+        "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 May 2017, 11:57",
+        "summary": "\"Whatever It Takes\" is a song by American pop rock band Imagine Dragons. The song was released on May 9, 2017, as a promotional single through Kidinakorner and Interscope. It later became the third single from the band's third studio album, Evolve, on October 6, 2017. It was also the official theme song for WWE's PPV event Battleground, in addition to its inclusion in the video game Madden NFL 18. The song was sent to US contemporary hit radio on February 13, 2018. <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/whAtEveR+it+tAkes\">Read more on Last.fm<\/a>.",
+        "content": "\"Whatever It Takes\" is a song by American pop rock band Imagine Dragons. The song was released on May 9, 2017, as a promotional single through Kidinakorner and Interscope. It later became the third single from the band's third studio album, Evolve, on October 6, 2017. It was also the official theme song for WWE's PPV event Battleground, in addition to its inclusion in the video game Madden NFL 18. The song was sent to US contemporary hit radio on February 13, 2018. <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/whAtEveR+it+tAkes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

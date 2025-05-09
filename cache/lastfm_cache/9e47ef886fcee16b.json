@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:33.177367+00:00",
+  "elapsed": 0.258536,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:33.177367+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2914",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Demi+Lovato&format=json&method=track.getInfo&track=Tell+Me+You+Love+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Demi+Lovato&format=json&method=track.getInfo&track=Tell+Me+You+Love+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Tell Me You Love Me",
+      "url": "https:\/\/www.last.fm\/music\/Demi+Lovato\/_\/Tell+Me+You+Love+Me",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "209134",
+      "playcount": "2404981",
+      "artist": {
+        "name": "Demi Lovato",
+        "mbid": "faf4cefb-036c-4c88-b93a-5b03dd0a0e6b",
+        "url": "https:\/\/www.last.fm\/music\/Demi+Lovato"
+      },
+      "album": {
+        "artist": "Demi Lovato",
+        "title": "Tell Me You Love Me",
+        "url": "https:\/\/www.last.fm\/music\/Demi+Lovato\/Tell+Me+You+Love+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c6715c95b696f50e19f5077b82bcddf5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c6715c95b696f50e19f5077b82bcddf5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c6715c95b696f50e19f5077b82bcddf5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c6715c95b696f50e19f5077b82bcddf5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "hino",
+            "url": "https:\/\/www.last.fm\/tag\/hino"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Dec 2017, 04:04",
+        "summary": "\"Tell Me You Love Me\" is a song by American singer and songwriter Demi Lovato. It was written by Kirby Lauryen, Stint and John Hill, with production handled by the latter two. It was initially released through Hollywood, Island and Safehouse Records on August 23, 2017, as the first promotional single from Lovato's sixth studio album of the same name (2017). It was released as the second single from the album on November 14, 2017.\nThe music video begins with Jesse Williams proposing to Demi Lovato <a href=\"http:\/\/www.last.fm\/music\/Demi+Lovato\/_\/Tell+Me+You+Love+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"Tell Me You Love Me\" is a song by American singer and songwriter Demi Lovato. It was written by Kirby Lauryen, Stint and John Hill, with production handled by the latter two. It was initially released through Hollywood, Island and Safehouse Records on August 23, 2017, as the first promotional single from Lovato's sixth studio album of the same name (2017). It was released as the second single from the album on November 14, 2017.\nThe music video begins with Jesse Williams proposing to Demi Lovato, and Lovato showing off their ring to their friend, Marissa, via a Google Duo call. Things get heated when both get jealous and start questioning each other over their \"friends\", although seemingly making up after. The music starts on their wedding day when Williams rejects Lovato and leaves them in tears. <a href=\"http:\/\/www.last.fm\/music\/Demi+Lovato\/_\/Tell+Me+You+Love+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

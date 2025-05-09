@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:22.084343+00:00",
+  "elapsed": 0.187109,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:22.084343+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4295",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=K%C3%A4%C3%A4rij%C3%A4&format=json&method=track.getInfo&track=Cha+Cha+Cha"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=K%C3%A4%C3%A4rij%C3%A4&format=json&method=track.getInfo&track=Cha+Cha+Cha",
+  "_decoded_content": {
+    "track": {
+      "name": "Cha Cha Cha",
+      "url": "https:\/\/www.last.fm\/music\/K%C3%A4%C3%A4rij%C3%A4\/_\/Cha+Cha+Cha",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "189819",
+      "playcount": "4156156",
+      "artist": {
+        "name": "K\u00e4\u00e4rij\u00e4",
+        "url": "https:\/\/www.last.fm\/music\/K%C3%A4%C3%A4rij%C3%A4"
+      },
+      "album": {
+        "artist": "K\u00e4\u00e4rij\u00e4",
+        "title": "Cha Cha Cha - Single",
+        "url": "https:\/\/www.last.fm\/music\/K%C3%A4%C3%A4rij%C3%A4\/Cha+Cha+Cha+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/48053f2ba056b2f90a349f8a35a4d139.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/48053f2ba056b2f90a349f8a35a4d139.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/48053f2ba056b2f90a349f8a35a4d139.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/48053f2ba056b2f90a349f8a35a4d139.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "Eurovision 2023",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+2023"
+          },
+          {
+            "name": "finnish",
+            "url": "https:\/\/www.last.fm\/tag\/finnish"
+          },
+          {
+            "name": "industrial metal",
+            "url": "https:\/\/www.last.fm\/tag\/industrial+metal"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Apr 2023, 04:35",
+        "summary": "\"Cha Cha Cha\" is a song by Finnish rapper and singer K\u00e4\u00e4rij\u00e4, released on 17 January 2023. The song represented Finland in the Eurovision Song Contest 2023 after winning Uuden Musiikin Kilpailu 2023, the Finnish national selection for that year's Eurovision Song Contest.\n\nUuden Musiikin Kilpailu 2023 was the twelfth edition of Uuden Musiikin Kilpailu (UMK), the music competition that selects Finland's entries for the Eurovision Song Contest. The competition consisted of a final on 25 February 2023, where seven entries competed. <a href=\"http:\/\/www.last.fm\/music\/K%C3%A4%C3%A4rij%C3%A4\/_\/Cha+Cha+Cha\">Read more on Last.fm<\/a>.",
+        "content": "\"Cha Cha Cha\" is a song by Finnish rapper and singer K\u00e4\u00e4rij\u00e4, released on 17 January 2023. The song represented Finland in the Eurovision Song Contest 2023 after winning Uuden Musiikin Kilpailu 2023, the Finnish national selection for that year's Eurovision Song Contest.\n\nUuden Musiikin Kilpailu 2023 was the twelfth edition of Uuden Musiikin Kilpailu (UMK), the music competition that selects Finland's entries for the Eurovision Song Contest. The competition consisted of a final on 25 February 2023, where seven entries competed. The winner was selected by a combination of public votes (75%) and seven international jury groups from Australia, Germany, Poland, Spain, Sweden, Ukraine, and the United Kingdom (25%). The viewers had a total of 882 points to award, while the juries had a total of 294 points to grant. Each jury group distributed their points as follows: 2, 4, 6, 8, 10, and 12 points. The viewer vote was based on the percentage of votes each song achieved through telephone, SMS, and app voting.\n\n\"Cha Cha Cha\" was drawn to perform third in the final. In the days leading up to the final, the song was considered a heavy favorite to win the contest, winning polls on various Eurovision fansites. During the voting in the final, it was revealed that the song had received 72 jury points and 467 televoting points, earning a total of 539 points, winning by a margin of 387 points. As a result of its win, the song is scheduled to represent Finland in the Eurovision Song Contest 2023.\n\nWhen asked why he believed he won, K\u00e4\u00e4rij\u00e4 stated that the uniqueness of the song and the performance may have assisted in winning by a wide margin, saying \"UMK has never seen a song or performance like this before... you can go far even if you are not the most skilled singer or rapper.\"\n\nFinland was placed into the first semi-final, held on 9 May 2023, and performed last in the show. The song qualified for the final held on 13 May 2023, winning the semi-final with 177 points. In the grand final, the song won the public vote with 376 points but came second overall with 526 points. <a href=\"http:\/\/www.last.fm\/music\/K%C3%A4%C3%A4rij%C3%A4\/_\/Cha+Cha+Cha\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

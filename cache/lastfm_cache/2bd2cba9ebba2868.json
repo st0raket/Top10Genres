@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:02.978933+00:00",
+  "elapsed": 0.23459,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:02.978933+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3116",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=Overdrive"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=Overdrive",
+  "_decoded_content": {
+    "track": {
+      "name": "Overdrive",
+      "url": "https:\/\/www.last.fm\/music\/Conan+Gray\/_\/Overdrive",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "358592",
+      "playcount": "3753161",
+      "artist": {
+        "name": "Conan Gray",
+        "url": "https:\/\/www.last.fm\/music\/Conan+Gray"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Fall Love Songs",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Fall+Love+Songs",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/40126e338455e316646e88acd052b49c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/40126e338455e316646e88acd052b49c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/40126e338455e316646e88acd052b49c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/40126e338455e316646e88acd052b49c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "seen live",
+            "url": "https:\/\/www.last.fm\/tag\/seen+live"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2022, 21:12",
+        "summary": "\u201cOverdrive\u201d was found on the music streaming application Trebel by fans in July 2020, 7 months before the song\u2019s release.\n\nOn February 11th, 2021, Conan uploaded an unknown countdown to his website, and a link to pre-save unknown music. The next day, he released a teaser on his social media accounts for a new song coming the next week.\n\nThe song\u2019s name was revealed in another teaser two days before its release.\n\nLyrically, the song is about living in the moment, and experiencing love without any worries about what will happen next. <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/Overdrive\">Read more on Last.fm<\/a>.",
+        "content": "\u201cOverdrive\u201d was found on the music streaming application Trebel by fans in July 2020, 7 months before the song\u2019s release.\n\nOn February 11th, 2021, Conan uploaded an unknown countdown to his website, and a link to pre-save unknown music. The next day, he released a teaser on his social media accounts for a new song coming the next week.\n\nThe song\u2019s name was revealed in another teaser two days before its release.\n\nLyrically, the song is about living in the moment, and experiencing love without any worries about what will happen next.\n\n\"I wrote \u201cOverdrive\u201d to escape reality. I\u2019ve spent the entire past year moping around alone in my house. I wanted to make something to get me to dance, something to belt in the shower. Every time I\u2019d turn it on to tweak the production or change the lyrics, I\u2019d end up singing along and forgetting why I was so stressed. That\u2019s exactly what I hope this song is for people who listen: a moment of reckless abandon and catharsis in a world filled with inhibition.\" - via Apple Music <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/Overdrive\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

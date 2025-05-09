@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:30:16.252033+00:00",
+  "elapsed": 0.214205,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:16.252033+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "949",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AAA&format=json&method=track.getInfo&track=DEJAVU"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AAA&format=json&method=track.getInfo&track=DEJAVU",
+  "_decoded_content": {
+    "track": {
+      "name": "DEJAVU",
+      "url": "https:\/\/www.last.fm\/music\/AAA\/_\/DEJAVU",
+      "duration": "301000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1989",
+      "playcount": "11480",
+      "artist": {
+        "name": "AAA",
+        "mbid": "5d6047a8-f601-4157-a1ee-b8b87b162489",
+        "url": "https:\/\/www.last.fm\/music\/AAA"
+      },
+      "album": {
+        "artist": "AAA",
+        "title": "AAA DOME TOUR 2019 +PLUS SET LIST",
+        "url": "https:\/\/www.last.fm\/music\/AAA\/AAA+DOME+TOUR+2019+%252BPLUS+SET+LIST",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/07b6bbecbf77515f2b01362854f89b25.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/07b6bbecbf77515f2b01362854f89b25.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/07b6bbecbf77515f2b01362854f89b25.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/07b6bbecbf77515f2b01362854f89b25.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          }
+        ]
+      }
+    }
+  }
+}

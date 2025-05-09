@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:37:20.450890+00:00",
+  "elapsed": 0.190434,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:20.450890+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3181",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=MANIAC"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=MANIAC",
+  "_decoded_content": {
+    "track": {
+      "name": "MANIAC",
+      "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/MANIAC",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "345136",
+      "playcount": "9265961",
+      "artist": {
+        "name": "STRAY KIDS",
+        "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "midtempo bass",
+            "url": "https:\/\/www.last.fm\/tag\/midtempo+bass"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jan 2023, 03:16",
+        "summary": "\"Maniac\" is a song recorded by South Korean boy band Stray Kids. It was released as the second track of their sixth Korean extended play (EP), Oddinary, and serves as its lead single on March 18, 2022, through JYP Entertainment and Republic Records. \"Maniac\" is a trap, electropop song about \"odd\" people who break the \"ordinary\" social norms set by the world, referred to Frankenstein's monster.\n\nIt is described as a Middle Eastern-influenced \"powerful\" trap, electropop song, with bass-synth drop, bird-chirping, and drill sounds. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/MANIAC\">Read more on Last.fm<\/a>.",
+        "content": "\"Maniac\" is a song recorded by South Korean boy band Stray Kids. It was released as the second track of their sixth Korean extended play (EP), Oddinary, and serves as its lead single on March 18, 2022, through JYP Entertainment and Republic Records. \"Maniac\" is a trap, electropop song about \"odd\" people who break the \"ordinary\" social norms set by the world, referred to Frankenstein's monster.\n\nIt is described as a Middle Eastern-influenced \"powerful\" trap, electropop song, with bass-synth drop, bird-chirping, and drill sounds. It was composed in the key of C\u266f major, 120 beats per minute with a running time of three minutes and two seconds. The song was written by Stray Kids' in-house production team 3Racha, consisting of Bang Chan, Changbin, and Han, and co-composed with Versachoi, who also handle in arrangement with Bang Chan. It is 3Racha and Versachoi's second collaboration on the Stray Kids' lead single after \"God's Menu\" from Go Live (2020). Lyrically, \"Maniac\" supports the thematic of Oddinary, expressing the story of \"odd\" people who break the \"ordinary\" social norms and expectations set by society, comparing them with Frankenstein's monster having a few screws loose.\n\nCommercially, \"Maniac\" peaked at number 29 on the South Korea's Gaon Digital Chart, and made its first appearance on the US Billboard Bubbling Under Hot 100 at number 19, as well as in Australia, Canada, Portugal, and the United Kingdom. The song also debuted atop World Digital Song Sales, which is the second song after \"Mixtape: Oh\". It took two wins from the music programs: Show Champion, and Music Bank, and was nominated for Best K-Pop Video at 2022 MTV Video Music Awards. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/MANIAC\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

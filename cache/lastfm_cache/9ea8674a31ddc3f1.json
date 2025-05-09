@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:13.414471+00:00",
+  "elapsed": 0.190022,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:13.414471+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1932",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROS%C3%89&format=json&method=track.getInfo&track=gameboy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ROS%C3%89&format=json&method=track.getInfo&track=gameboy",
+  "_decoded_content": {
+    "track": {
+      "name": "gAMeBoY",
+      "url": "https:\/\/www.last.fm\/music\/Ros%C3%A9\/_\/gAMeBoY",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "153016",
+      "playcount": "1863104",
+      "artist": {
+        "name": "Ros\u00e9",
+        "url": "https:\/\/www.last.fm\/music\/Ros%C3%A9"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "gay",
+            "url": "https:\/\/www.last.fm\/tag\/gay"
+          },
+          {
+            "name": "gameboy",
+            "url": "https:\/\/www.last.fm\/tag\/gameboy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Dec 2024, 06:57",
+        "summary": "\u201cgameboy\u201d is the seventh track from ROS\u00c9\u2019s debut album, rosie. The lyrics continue from the album\u2019s third track, \u201ctwo years,\u201d which reflects on ROS\u00c9\u2019s struggle to move on from her ex, even after two years. She reveals that her inability to move on is that the boy who appeared to be a good guy only wanted to play with her feelings using the metaphor of a \u201cgame boy.\u201d\n\n\u201cgameboy\u201d was first teased during an Instagram live session ROS\u00c9 did with her producer <a href=\"http:\/\/www.last.fm\/music\/Ros%C3%A9\/_\/gAMeBoY\">Read more on Last.fm<\/a>.",
+        "content": "\u201cgameboy\u201d is the seventh track from ROS\u00c9\u2019s debut album, rosie. The lyrics continue from the album\u2019s third track, \u201ctwo years,\u201d which reflects on ROS\u00c9\u2019s struggle to move on from her ex, even after two years. She reveals that her inability to move on is that the boy who appeared to be a good guy only wanted to play with her feelings using the metaphor of a \u201cgame boy.\u201d\n\n\u201cgameboy\u201d was first teased during an Instagram live session ROS\u00c9 did with her producer, Teddy Park, co-founder and producer of her label in South Korea, THEBLACKLABEL. <a href=\"http:\/\/www.last.fm\/music\/Ros%C3%A9\/_\/gAMeBoY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

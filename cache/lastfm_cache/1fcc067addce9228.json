@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:27:56.955854+00:00",
+  "elapsed": 0.180524,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:56.955854+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2662",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alan+Walker&format=json&method=track.getInfo&track=Faded"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alan+Walker&format=json&method=track.getInfo&track=Faded",
+  "_decoded_content": {
+    "track": {
+      "name": "Faded",
+      "url": "https:\/\/www.last.fm\/music\/Alan+Walker\/_\/Faded",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "696309",
+      "playcount": "6315861",
+      "artist": {
+        "name": "Alan Walker",
+        "url": "https:\/\/www.last.fm\/music\/Alan+Walker"
+      },
+      "album": {
+        "artist": "Alan Walker",
+        "title": "Faded",
+        "url": "https:\/\/www.last.fm\/music\/Alan+Walker\/Faded",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ed23f05a0cd03adece8f20ff689d546d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ed23f05a0cd03adece8f20ff689d546d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ed23f05a0cd03adece8f20ff689d546d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ed23f05a0cd03adece8f20ff689d546d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "norwegian",
+            "url": "https:\/\/www.last.fm\/tag\/norwegian"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jan 2016, 08:28",
+        "summary": "\"Faded\" is a 2015 song by Norwegian EDM artist Alan Walker originating from Bergen, Norway. The song features the vocals of the female singer Iselin Solheim.\n\nWalker had launched it originally as an instrumental he titled \"Fade\" in 2014, and seeing its appeal, he revamped it with added lyrics and seeking a vocalized version of \"Fade\" performed by Solheim and the song retitled as \"Faded\".\n\n\"Faded\" became a great commercial success in December 2015 <a href=\"http:\/\/www.last.fm\/music\/Alan+Walker\/_\/Faded\">Read more on Last.fm<\/a>.",
+        "content": "\"Faded\" is a 2015 song by Norwegian EDM artist Alan Walker originating from Bergen, Norway. The song features the vocals of the female singer Iselin Solheim.\n\nWalker had launched it originally as an instrumental he titled \"Fade\" in 2014, and seeing its appeal, he revamped it with added lyrics and seeking a vocalized version of \"Fade\" performed by Solheim and the song retitled as \"Faded\".\n\n\"Faded\" became a great commercial success in December 2015 and January 2016 topping both the Norwegian VG-lista and the Swedish Sverigetopplistan Singles Charts and making it to number 2 on the Finnish Charts. It also charted on the Danish Hitlisten Singles Chart Top 10 as well as charting in Germany, Italy, the Netherlands and Ireland. <a href=\"http:\/\/www.last.fm\/music\/Alan+Walker\/_\/Faded\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

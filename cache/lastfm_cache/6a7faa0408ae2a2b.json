@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:30:43.778511+00:00",
+  "elapsed": 0.210086,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:43.778511+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1831",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Toxic+Waste"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Toxic+Waste",
+  "_decoded_content": {
+    "track": {
+      "name": "Toxic Waste",
+      "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Toxic+Waste",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "71261",
+      "playcount": "606214",
+      "artist": {
+        "name": "Trippie Redd",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd"
+      },
+      "album": {
+        "artist": "Trippie Redd",
+        "title": "A Love Letter to You 3",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/A+Love+Letter+to+You+3",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c39a2a791e8aa10f38a56959413705c8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c39a2a791e8aa10f38a56959413705c8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c39a2a791e8aa10f38a56959413705c8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c39a2a791e8aa10f38a56959413705c8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jul 2023, 13:01",
+        "summary": "\u201cToxic Waste\u201d serves as the 3rd track on Trippies third mixtape, \u2018A Love Letter to You 3\u2019 The track explores toxic relationships in which Trippie is submissive or intentionally puts himself in bad situations. The track is produced by Diplo and King Henry. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Toxic+Waste\">Read more on Last.fm<\/a>.",
+        "content": "\u201cToxic Waste\u201d serves as the 3rd track on Trippies third mixtape, \u2018A Love Letter to You 3\u2019 The track explores toxic relationships in which Trippie is submissive or intentionally puts himself in bad situations. The track is produced by Diplo and King Henry. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Toxic+Waste\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

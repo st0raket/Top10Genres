@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:38.305230+00:00",
+  "elapsed": 0.193378,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:38.305230+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1975",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=MUNYUN"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=MUNYUN",
+  "_decoded_content": {
+    "track": {
+      "name": "mUnYuN",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/mUnYuN",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "317213",
+      "playcount": "1698178",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "tread",
+            "url": "https:\/\/www.last.fm\/tag\/tread"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Apr 2025, 13:40",
+        "summary": "\u201cMUNYUN\u201d is the 12th track on Playboi Carti\u2019s long anticipated album MUSIC. The song sees Carti explore the themes of excess, hedonism, and the pursuit of wealth, reflecting Playboi Carti\u2019s rise to fame and his obsession with a lavish lifestyle.\n\nThe beat is heavy, bouncy, and chaotic, with deep 808s, glitchy synths, and an eerie vibe. It\u2019s energetic and perfect for a mosh pit.\n\nThe word \u201cMunyun\u201d is a slang term for money. Additionally, it acts as an easier word for the deaf to lipread opposed to \u201cmoney\u201d. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/mUnYuN\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMUNYUN\u201d is the 12th track on Playboi Carti\u2019s long anticipated album MUSIC. The song sees Carti explore the themes of excess, hedonism, and the pursuit of wealth, reflecting Playboi Carti\u2019s rise to fame and his obsession with a lavish lifestyle.\n\nThe beat is heavy, bouncy, and chaotic, with deep 808s, glitchy synths, and an eerie vibe. It\u2019s energetic and perfect for a mosh pit.\n\nThe word \u201cMunyun\u201d is a slang term for money. Additionally, it acts as an easier word for the deaf to lipread opposed to \u201cmoney\u201d. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/mUnYuN\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

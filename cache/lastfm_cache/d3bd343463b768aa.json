@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:04.170327+00:00",
+  "elapsed": 0.18406,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:04.170327+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4368",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tame+Impala&format=json&method=track.getInfo&track=Borderline"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tame+Impala&format=json&method=track.getInfo&track=Borderline",
+  "_decoded_content": {
+    "track": {
+      "name": "Borderline",
+      "url": "https:\/\/www.last.fm\/music\/Tame+Impala\/_\/Borderline",
+      "duration": "237000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1454655",
+      "playcount": "20834733",
+      "artist": {
+        "name": "Tame Impala",
+        "mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+        "url": "https:\/\/www.last.fm\/music\/Tame+Impala"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Apero Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Apero+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e641817db81cc43a83e9da9128bce694.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e641817db81cc43a83e9da9128bce694.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e641817db81cc43a83e9da9128bce694.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e641817db81cc43a83e9da9128bce694.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          },
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jan 2022, 18:54",
+        "summary": "\"Borderline\" is a song by the Australian psychedelic music project Tame Impala. It is the third track on the 2020 studio album \"The Slow Rush\", and was released as a single on April 12, 2019 through Modular Recordings. The song was written by Kevin Parker, who performed all instruments and vocals. The song was influenced by yacht rock and disco, and the lyrics explore nihilism and insecurity. It was debuted during the band's performance on Saturday <a href=\"http:\/\/www.last.fm\/music\/Tame+Impala\/_\/Borderline\">Read more on Last.fm<\/a>.",
+        "content": "\"Borderline\" is a song by the Australian psychedelic music project Tame Impala. It is the third track on the 2020 studio album \"The Slow Rush\", and was released as a single on April 12, 2019 through Modular Recordings. The song was written by Kevin Parker, who performed all instruments and vocals. The song was influenced by yacht rock and disco, and the lyrics explore nihilism and insecurity. It was debuted during the band's performance on Saturday Night Live on March30; Parker ad-libbed much of the initial lyrics since he had not yet finalized them.\n\nThe single release in 2019 predated any details about \"The Slow Rush\", which was delayed until 2020. Parker reworked the song for its inclusion on the album, making musical and lyrical changes. He revealed that he altered the song for the album mainly because he realized the bassline was not prominent enough. After releasing the album, the previously released single version of \"Borderline\" was removed from all streaming services.\n\nAfter spending extensive time working on Tame Impala's third album \"Currents\", Kevin Parker decided to shift away from being a perfectionist towards more spontaneity, adding that he \"finds something that sounds good I should just do it and not think about it\". \"Borderline\" was released as a single in 2019 but was reworked and re-released for multiple reasons. For one, Parker said he had accidentally made the bassline too quiet, and also wanted to change a few other elements of the song, as he had been pressured to release it prematurely. He elaborated: \"The way I describe it is the way it sounds now is the way I was hearing it when I released it the first time. So for me, the drums sounded just heaps more hard-hitting. And it was just things that I could hear in the song that I didn't realize no one else could, for example, the bassline, which was just kind of an example of lack of perspective when you're working on a song, or anything that anyone's working on ever. You lose perspective when you're working on it, which is good, too, it's kind of beautiful that you have no idea what you're doing.\"\n\nIn a mention of the band's Saturday Night Live performance, \"Music Feeds\" called the song a \"groovy, toe-tapping lounge chiller\". Triple J ranked it 18th in the Triple J Hottest 100 of 2019. <a href=\"http:\/\/www.last.fm\/music\/Tame+Impala\/_\/Borderline\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

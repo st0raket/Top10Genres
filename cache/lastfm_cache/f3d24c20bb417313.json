@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:33:18.743219+00:00",
+  "elapsed": 0.252488,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:18.743219+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1258",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Black+Eyed+Peas&format=json&method=track.getInfo&track=MAMACITA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Black+Eyed+Peas&format=json&method=track.getInfo&track=MAMACITA",
+  "_decoded_content": {
+    "track": {
+      "name": "Mamacita",
+      "url": "https:\/\/www.last.fm\/music\/Black+Eyed+Peas\/_\/Mamacita",
+      "duration": "251000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "156203",
+      "playcount": "936070",
+      "artist": {
+        "name": "Black Eyed Peas",
+        "mbid": "d5be5333-4171-427e-8e12-732087c6b78e",
+        "url": "https:\/\/www.last.fm\/music\/Black+Eyed+Peas"
+      },
+      "album": {
+        "artist": "Black Eyed Peas",
+        "title": "MAMACITA \u2013 The Remixes",
+        "url": "https:\/\/www.last.fm\/music\/Black+Eyed+Peas\/MAMACITA+%E2%80%93+The+Remixes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/93cc85e6a6674ae671eb88d76f69dbe6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/93cc85e6a6674ae671eb88d76f69dbe6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/93cc85e6a6674ae671eb88d76f69dbe6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/93cc85e6a6674ae671eb88d76f69dbe6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "latino",
+            "url": "https:\/\/www.last.fm\/tag\/latino"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          },
+          {
+            "name": "extensive vamping",
+            "url": "https:\/\/www.last.fm\/tag\/extensive+vamping"
+          }
+        ]
+      }
+    }
+  }
+}

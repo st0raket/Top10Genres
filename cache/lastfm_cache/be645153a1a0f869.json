@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:05.172665+00:00",
+  "elapsed": 0.202975,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:05.172665+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2565",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=G-Eazy&format=json&method=track.getInfo&track=Me%2C+Myself+%26+I"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=G-Eazy&format=json&method=track.getInfo&track=Me%2C+Myself+%26+I",
+  "_decoded_content": {
+    "track": {
+      "name": "Me, Myself & I",
+      "url": "https:\/\/www.last.fm\/music\/G-Eazy\/_\/Me,+Myself+&+I",
+      "duration": "251000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "617251",
+      "playcount": "4725359",
+      "artist": {
+        "name": "G-Eazy",
+        "mbid": "db48610c-6d8f-4d10-90ca-c4d14bb1a8b1",
+        "url": "https:\/\/www.last.fm\/music\/G-Eazy"
+      },
+      "album": {
+        "artist": "G-Eazy",
+        "title": "When It's Dark Out",
+        "url": "https:\/\/www.last.fm\/music\/G-Eazy\/When+It%27s+Dark+Out",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ebc3b9936ed9ee798f76ab61fff77c5b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ebc3b9936ed9ee798f76ab61fff77c5b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ebc3b9936ed9ee798f76ab61fff77c5b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ebc3b9936ed9ee798f76ab61fff77c5b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "bebe rexha",
+            "url": "https:\/\/www.last.fm\/tag\/bebe+rexha"
+          },
+          {
+            "name": "memories",
+            "url": "https:\/\/www.last.fm\/tag\/memories"
+          },
+          {
+            "name": "Driving",
+            "url": "https:\/\/www.last.fm\/tag\/Driving"
+          },
+          {
+            "name": "club",
+            "url": "https:\/\/www.last.fm\/tag\/club"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2016, 07:01",
+        "summary": "\"Me, Myself & I\" is a song by American singers G-Eazy and Bebe Rexha. It was released on October 14, 2015, as the first single for his second studio album When It's Dark Out. \"Me, Myself & I\" was written by Bebe Rexha, G-Eazy, Lauren Christy, TMS and Michael Keenan. The song was originally produced by Bebe Rexha & TMS and re-produced by Michael Keenan, with additional production by Christoph Andersson and G-Eazy.\nIt is so far his highest charting single, peaking at number 7 on the US Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/G-Eazy\/_\/Me,+Myself+&+I\">Read more on Last.fm<\/a>.",
+        "content": "\"Me, Myself & I\" is a song by American singers G-Eazy and Bebe Rexha. It was released on October 14, 2015, as the first single for his second studio album When It's Dark Out. \"Me, Myself & I\" was written by Bebe Rexha, G-Eazy, Lauren Christy, TMS and Michael Keenan. The song was originally produced by Bebe Rexha & TMS and re-produced by Michael Keenan, with additional production by Christoph Andersson and G-Eazy.\nIt is so far his highest charting single, peaking at number 7 on the US Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/G-Eazy\/_\/Me,+Myself+&+I\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

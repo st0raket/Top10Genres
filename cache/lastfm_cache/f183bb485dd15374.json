@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:22.950406+00:00",
+  "elapsed": 0.212444,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:22.950406+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2866",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Water"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Water",
+  "_decoded_content": {
+    "track": {
+      "name": "Water",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Water",
+      "duration": "406000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "265467",
+      "playcount": "1671705",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "JESUS IS KING",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/JESUS+IS+KING",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d7bbfb513c8486d7e9c8caa47e6922e2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d7bbfb513c8486d7e9c8caa47e6922e2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d7bbfb513c8486d7e9c8caa47e6922e2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d7bbfb513c8486d7e9c8caa47e6922e2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "gospel",
+            "url": "https:\/\/www.last.fm\/tag\/gospel"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "Ant Clemons",
+            "url": "https:\/\/www.last.fm\/tag\/Ant+Clemons"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 May 2021, 01:40",
+        "summary": "On \u201cWater,\u201d Kanye West enlists the help of frequent collaborator Ant Clemons to discuss themes of purity, using water as a metaphor. In Judeo-Christian faiths, water plays a vital role in the ritual of Baptism, a rite that is symbolic of rebirth. The song\u2019s theme bears similarities to those presented in his June 2018 collaborative project with Kid Cudi, titled KIDS SEE GHOSTS, such as the track \u201cReborn.\u201d\n\nKanye and Ant have collaborated on several occasions prior to this song, namely on Ye\u2019s June 2018 track \u201cAll Mine. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Water\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cWater,\u201d Kanye West enlists the help of frequent collaborator Ant Clemons to discuss themes of purity, using water as a metaphor. In Judeo-Christian faiths, water plays a vital role in the ritual of Baptism, a rite that is symbolic of rebirth. The song\u2019s theme bears similarities to those presented in his June 2018 collaborative project with Kid Cudi, titled KIDS SEE GHOSTS, such as the track \u201cReborn.\u201d\n\nKanye and Ant have collaborated on several occasions prior to this song, namely on Ye\u2019s June 2018 track \u201cAll Mine.\u201d On the morning of Easter 2019, they debuted the song live at his Sunday Service Coachella event, with assistance from Ty Dolla $ign and the Sunday Service choir.\n\nDuring the week ending November 9, 2019, \u201cWater\u201d debuted and peaked at #51 on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Water\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

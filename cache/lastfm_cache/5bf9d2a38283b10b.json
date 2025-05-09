@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:42.643540+00:00",
+  "elapsed": 0.194857,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:42.643540+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "836",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ski+Aggu&format=json&method=track.getInfo&track=mietfrei"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ski+Aggu&format=json&method=track.getInfo&track=mietfrei",
+  "_decoded_content": {
+    "track": {
+      "name": "mietfrei",
+      "url": "https:\/\/www.last.fm\/music\/Ski+Aggu\/_\/mietfrei",
+      "duration": "141000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "48681",
+      "playcount": "600346",
+      "artist": {
+        "name": "Ski Aggu",
+        "url": "https:\/\/www.last.fm\/music\/Ski+Aggu"
+      },
+      "album": {
+        "artist": "Ski Aggu",
+        "title": "Theater\u2605",
+        "url": "https:\/\/www.last.fm\/music\/Ski+Aggu\/Theater%E2%98%85",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/87c9ee12c0792b0d42ef3416e9d16d17.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/87c9ee12c0792b0d42ef3416e9d16d17.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/87c9ee12c0792b0d42ef3416e9d16d17.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/87c9ee12c0792b0d42ef3416e9d16d17.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

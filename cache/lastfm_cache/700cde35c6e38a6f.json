@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:30:28.488084+00:00",
+  "elapsed": 0.231728,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:28.488084+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1691",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Koba+laD&format=json&method=track.getInfo&track=La+C"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Koba+laD&format=json&method=track.getInfo&track=La+C",
+  "_decoded_content": {
+    "track": {
+      "name": "La C",
+      "url": "https:\/\/www.last.fm\/music\/Koba+LaD\/_\/La+C",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9654",
+      "playcount": "87956",
+      "artist": {
+        "name": "Koba LaD",
+        "url": "https:\/\/www.last.fm\/music\/Koba+LaD"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Tubes Viral 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Tubes+Viral+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8482d4d8cc8b37f6c7f932e187008683.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8482d4d8cc8b37f6c7f932e187008683.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8482d4d8cc8b37f6c7f932e187008683.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8482d4d8cc8b37f6c7f932e187008683.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "02 Nov 2022, 00:42",
+        "summary": "La C is about Koba LaD expressing his past of selling drugs and paying homage to his day ones. La C was his breakout hit in 2018. While rapping this song he states how if he doesn\u2019t break through the rap scene in 3 months he will go back to selling drugs. <a href=\"http:\/\/www.last.fm\/music\/Koba+LaD\/_\/La+C\">Read more on Last.fm<\/a>.",
+        "content": "La C is about Koba LaD expressing his past of selling drugs and paying homage to his day ones. La C was his breakout hit in 2018. While rapping this song he states how if he doesn\u2019t break through the rap scene in 3 months he will go back to selling drugs. <a href=\"http:\/\/www.last.fm\/music\/Koba+LaD\/_\/La+C\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

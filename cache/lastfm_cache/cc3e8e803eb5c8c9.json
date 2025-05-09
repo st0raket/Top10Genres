@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:28:13.271486+00:00",
+  "elapsed": 0.88824,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:13.271486+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1024",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Perro+Fiel"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Perro+Fiel",
+  "_decoded_content": {
+    "track": {
+      "name": "Perro Fiel",
+      "url": "https:\/\/www.last.fm\/music\/Shakira\/_\/Perro+Fiel",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38200",
+      "playcount": "228517",
+      "artist": {
+        "name": "Shakira",
+        "mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+        "url": "https:\/\/www.last.fm\/music\/Shakira"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "NRJ Winter Hits 2018",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/NRJ+Winter+Hits+2018",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bacb7a732028921fbd525f61cfb8522e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bacb7a732028921fbd525f61cfb8522e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bacb7a732028921fbd525f61cfb8522e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bacb7a732028921fbd525f61cfb8522e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          }
+        ]
+      }
+    }
+  }
+}

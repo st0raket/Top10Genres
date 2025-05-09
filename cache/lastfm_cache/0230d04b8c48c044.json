@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:37.759447+00:00",
+  "elapsed": 0.176452,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:37.759447+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2798",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=MAFIA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=MAFIA",
+  "_decoded_content": {
+    "track": {
+      "name": "MAFIA",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/MAFIA",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "318559",
+      "playcount": "5184805",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "album": {
+        "artist": "Travis Scott",
+        "title": "ESCAPE PLAN \/ MAFIA",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/ESCAPE+PLAN+%2F+MAFIA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ce5f862b7c0146a83ca54687ec988864.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ce5f862b7c0146a83ca54687ec988864.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ce5f862b7c0146a83ca54687ec988864.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ce5f862b7c0146a83ca54687ec988864.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Jun 2022, 09:32",
+        "summary": "\u201cMAFIA\u201d is the Side B to the double-single released by Houston rapper Travis Scott, ESCAPE PLAN \/ MAFIA. At the time this was presumed to be promotion for his fourth studio album, UTOPIA, however, during Scott's first live performance of UTOPIA at CIRCUS MAXIMUS he mentioned deciding between \u201cMAFIA\u201d and \u201cI KNOW ?\u201d for the final album tracklist - the latter being chosen in the end.\n\nWith an uncredited feature from J. Cole, Travis goes on a bragging spree <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/MAFIA\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMAFIA\u201d is the Side B to the double-single released by Houston rapper Travis Scott, ESCAPE PLAN \/ MAFIA. At the time this was presumed to be promotion for his fourth studio album, UTOPIA, however, during Scott's first live performance of UTOPIA at CIRCUS MAXIMUS he mentioned deciding between \u201cMAFIA\u201d and \u201cI KNOW ?\u201d for the final album tracklist - the latter being chosen in the end.\n\nWith an uncredited feature from J. Cole, Travis goes on a bragging spree, shouting out his record label, Cactus Jack, and the business moves he has been making over the past three years in the process.\n\nThe beat is aptly and meticulously produced consisting of a possessive effect and an eerie dark vibe to it, a theme consistent with Scott's fourth studio album UTOPIA. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/MAFIA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

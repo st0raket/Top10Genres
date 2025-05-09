@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:13.445757+00:00",
+  "elapsed": 0.254884,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:13.445757+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3309",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Jonah"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Jonah",
+  "_decoded_content": {
+    "track": {
+      "name": "Jonah",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Jonah",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "427053",
+      "playcount": "3501142",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Donda",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Donda",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "LIL DURK",
+            "url": "https:\/\/www.last.fm\/tag\/LIL+DURK"
+          },
+          {
+            "name": "VORY",
+            "url": "https:\/\/www.last.fm\/tag\/VORY"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Feb 2022, 05:04",
+        "summary": "\u201cJonah\u201d is a tribute to Jonah Ware, an independent recording artist from Louisville, Kentucky who was shot and killed on August 8, 2020.\n\nThe track features Houston singer Vory and Chicago rapper Lil Durk, marking their first collaborations with Kanye, along with background vocals from Kanye\u2019s frequent collaborator Ty Dolla $ign.\n\nThe song\u2019s melancholy chorus sees Vory lamenting feelings of isolation and loneliness, expressing despair in fighting his metaphorical \u201cdemons\u201d without the support of his significant other. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Jonah\">Read more on Last.fm<\/a>.",
+        "content": "\u201cJonah\u201d is a tribute to Jonah Ware, an independent recording artist from Louisville, Kentucky who was shot and killed on August 8, 2020.\n\nThe track features Houston singer Vory and Chicago rapper Lil Durk, marking their first collaborations with Kanye, along with background vocals from Kanye\u2019s frequent collaborator Ty Dolla $ign.\n\nThe song\u2019s melancholy chorus sees Vory lamenting feelings of isolation and loneliness, expressing despair in fighting his metaphorical \u201cdemons\u201d without the support of his significant other. This mirrors the betrayal, and resulting pain and trauma, that Kanye experienced during his divorce from Kim Kardashian, which he expressed on the song \u201cNever Abandon Your Family\u201d.\n\nA snippet of the song surfaced on December 5, 2020, as a solo Vory song. The song was later given to Kanye for \"Donda\" and played at the Atlanta listening party on July 22, 2021, with a Lil Durk feature and no Kanye vocals.\n\nIn October 2020, Kanye and Durk sparked collaboration rumours after being spotted together in Atlanta. Following this, in January 2021, Durk paid homage to Kanye in the music video for the song \u201cKanye Krazy,\u201d which featured the Chicago native recreating some of Kanye\u2019s most iconic moments. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Jonah\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

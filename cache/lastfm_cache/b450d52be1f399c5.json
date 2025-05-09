@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:39.138103+00:00",
+  "elapsed": 0.345369,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:39.138103+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1832",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=FEARLESS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LE+SSERAFIM&format=json&method=track.getInfo&track=FEARLESS",
+  "_decoded_content": {
+    "track": {
+      "name": "FEARLESS",
+      "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/FEARLESS",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "383784",
+      "playcount": "9911361",
+      "artist": {
+        "name": "LE SSERAFIM",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM"
+      },
+      "album": {
+        "artist": "LE SSERAFIM",
+        "title": "FEARLESS",
+        "url": "https:\/\/www.last.fm\/music\/LE+SSERAFIM\/FEARLESS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e9241af49d5f63f63cf1b000a4276f46.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e9241af49d5f63f63cf1b000a4276f46.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e9241af49d5f63f63cf1b000a4276f46.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e9241af49d5f63f63cf1b000a4276f46.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2022, 17:10",
+        "summary": "\"Fearless\"  (stylized in all caps) is the debut single of LE SSERAFIM. The track is a funk and alternative pop song with lyrics about \"moving forward without being shaken by the past\". <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/FEARLESS\">Read more on Last.fm<\/a>.",
+        "content": "\"Fearless\"  (stylized in all caps) is the debut single of LE SSERAFIM. The track is a funk and alternative pop song with lyrics about \"moving forward without being shaken by the past\". <a href=\"http:\/\/www.last.fm\/music\/LE+SSERAFIM\/_\/FEARLESS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

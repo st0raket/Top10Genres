@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:01.964648+00:00",
+  "elapsed": 0.576313,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:01.964648+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2597",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Swan+Song"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Swan+Song",
+  "_decoded_content": {
+    "track": {
+      "name": "Swan Song",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Swan+Song",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "25833",
+      "playcount": "112301",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "The Dome Summer 2019",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/The+Dome+Summer+2019",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fa24ae511bc428f05aa930078da3fe42.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fa24ae511bc428f05aa930078da3fe42.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fa24ae511bc428f05aa930078da3fe42.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fa24ae511bc428f05aa930078da3fe42.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "movie song",
+            "url": "https:\/\/www.last.fm\/tag\/movie+song"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jul 2023, 22:30",
+        "summary": "\"Swan Song\" is a song by English-Albanian singer Dua Lipa for the soundtrack of 2019 film Alita: Battle Angel. The singer co-wrote the song with Justin Tranter, Kennedi Lykken, Mattias Larsson, Robin Fredriksson and Tom Holkenborg, while the production was handled by Mattman & Robin. Holkenborg also composed the soundtrack and orchestrations he created for it are used in the song. Announced in December 2018, the song was released for digital download and streaming on 24 January 2019 through Warner Bros. Records as the soundtrack's lead single. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Swan+Song\">Read more on Last.fm<\/a>.",
+        "content": "\"Swan Song\" is a song by English-Albanian singer Dua Lipa for the soundtrack of 2019 film Alita: Battle Angel. The singer co-wrote the song with Justin Tranter, Kennedi Lykken, Mattias Larsson, Robin Fredriksson and Tom Holkenborg, while the production was handled by Mattman & Robin. Holkenborg also composed the soundtrack and orchestrations he created for it are used in the song. Announced in December 2018, the song was released for digital download and streaming on 24 January 2019 through Warner Bros. Records as the soundtrack's lead single. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Swan+Song\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

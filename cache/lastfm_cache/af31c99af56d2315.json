@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:07.771621+00:00",
+  "elapsed": 0.188608,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:07.771621+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6400",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Panic%21+At+the+Disco&format=json&method=track.getInfo&track=High+Hopes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Panic%21+At+the+Disco&format=json&method=track.getInfo&track=High+Hopes",
+  "_decoded_content": {
+    "track": {
+      "name": "High Hopes",
+      "url": "https:\/\/www.last.fm\/music\/Panic%21+at+the+Disco\/_\/High+Hopes",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "790735",
+      "playcount": "7780612",
+      "artist": {
+        "name": "Panic! at the Disco",
+        "mbid": "b9472588-93f3-4922-a1a2-74082cdf9ce8",
+        "url": "https:\/\/www.last.fm\/music\/Panic%21+at+the+Disco"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Just Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Just+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Sep 2018, 22:16",
+        "summary": "\"High Hopes\" is the second single from Panic! at the Disco's sixth studio album Pray for the Wicked. It became the band's highest charting song in the US, reaching #4 and surpassing \"I Write Sins Not Tragedies\", which peaked at #7 in 2006. It also broke the record for most weeks atop the Hot Rock Songs chart, at 65 weeks. As of 2022, \"High Hopes\" has been certified 5x Platinum in the US.\n\n\"High Hopes\" was written and produced by Jake Sinclair and Jonas Jeberg <a href=\"http:\/\/www.last.fm\/music\/Panic%21+at+the+Disco\/_\/High+Hopes\">Read more on Last.fm<\/a>.",
+        "content": "\"High Hopes\" is the second single from Panic! at the Disco's sixth studio album Pray for the Wicked. It became the band's highest charting song in the US, reaching #4 and surpassing \"I Write Sins Not Tragedies\", which peaked at #7 in 2006. It also broke the record for most weeks atop the Hot Rock Songs chart, at 65 weeks. As of 2022, \"High Hopes\" has been certified 5x Platinum in the US.\n\n\"High Hopes\" was written and produced by Jake Sinclair and Jonas Jeberg, and co-written by Brendon Urie, Jenny Owen Youngs, Lauren Pritchard, Sam Hollander, William Lobban-Bean, Taylor Parks, and Ilsey Juber; with additional production by Jonny Coffer. Jeberg, Parks, Juber, and Lobban-Bean began writing the song at a BMI writing camp in Aspen, Colorado in 2015. When the four of them had arrived an hour early, they decided to go into a hot tub together outside. Jeberg has said of the song's conception: \"I was sitting in the hot tub, singing bass notes. We didn't have any instruments because we were in the hot tub. I was singing bass notes and directing chords in that way, and we were brainstorming different lyrics.\" Eventually, they set up a portable recording studio and began recording a demo version with a beat, horns, and vocals. Initially, the song's hook was conceived as a rap song, and they began sending it to different artists who all declined. In 2016, Panic! at the Disco's management company said the band wanted to record the song for their next studio album. In early 2018, lead singer Brendon Urie co-wrote the verses for \"High Hopes,\" before Sinclair and Jeberg (later, Coffer) were brought in to finish the production.\n\nThe audio track was uploaded to Panic! at the Disco's official YouTube channel on the same day of its release on May 23, 2018. An official music video for the song was uploaded on August 27, 2018. As of November 2022, the music video has surpassed 700 million views.\n\nThe video features lead vocalist Brendon Urie walking through LA as people bump into him. Eventually, he sizes up a skyscraper with a glass exterior. Determined, he presses a foot to the glass, flips horizontally, and begins walking up the outside of the wall. People flock to the base of the building, recording Urie and watching with awe. He waves to the people below and inside the building, and finally gets to the roof as the crowd below applauds. As the sun sets, he joins the rest of the band on the roof and continues to sing the final chorus of the song.\n\nIn August 2019, the song became one of the few songs to spend a full year on the chart when it logged its 52nd week on the chart. Also in the United States, it reached number one on the Radio Songs airplay chart, marking its first leader there. Worldwide, the song has charted highly, reaching number seven in Australia and number twelve in the United Kingdom, also becoming their highest-charting song in those countries. Also, \"High Hopes\" is the fourth song to top the Pop Songs, Adult Pop Songs, and Alternative Songs charts simultaneously since the Adult Pop Songs chart began on Billboard in March 1996, the Pop Songs chart began in October 1992 and the Alternative Songs chart began in September 1988. Also, with 14 weeks on top of Radio Songs, \"High Hopes\" tied Alicia Keys' \"No One\" and Celine Dion's \"Because You Loved Me\" for the fifth longest-leading number-one on the Radio Songs chart, which began in 1990.\n\nWith 15 weeks on top of Adult Pop Songs, \"High Hopes\" became the longest-leading No. 1 on the Adult Pop Songs chart of the 2010s, which began on Billboard's pages in March 1996. \"High Hopes\" also has the distinction of being the first Panic! at the Disco song to register on the Billboard Adult Contemporary chart, where it peaked at number eight. In June 2019, \"High Hopes\" broke the record for most weeks at No. 1 on Billboard's Hot Rock Songs chart, logging 34 consecutive weeks at the top. On the chart dated January 18, 2020, \"High Hopes\" set a new record on Billboard's Hot Rock Songs chart, logging its 52nd week at the top - an entire year. It went on to spend a total of 65 weeks atop the chart, eventually dethroned by Twenty One Pilots' \"Level of Concern\", another release from Fueled by Ramen label, on April 25, 2020. It was ranked number-one on the 2019 Year-End Rock Songs chart. <a href=\"http:\/\/www.last.fm\/music\/Panic%21+at+the+Disco\/_\/High+Hopes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:36:31.107726+00:00",
+  "elapsed": 0.204673,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:31.107726+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "954",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Snake&format=json&method=track.getInfo&track=SG"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DJ+Snake&format=json&method=track.getInfo&track=SG",
+  "_decoded_content": {
+    "track": {
+      "name": "SG",
+      "url": "https:\/\/www.last.fm\/music\/DJ+Snake\/_\/SG",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4202",
+      "playcount": "25460",
+      "artist": {
+        "name": "DJ Snake",
+        "mbid": "31445b1e-96f3-4c7f-84ec-dd02e647e690",
+        "url": "https:\/\/www.last.fm\/music\/DJ+Snake"
+      },
+      "album": {
+        "artist": "\u0641\u0646\u0627\u0646\u0648\u0646 \u0645\u062a\u0639\u062f\u062f\u0648\u0646",
+        "title": "Gym Booster",
+        "url": "https:\/\/www.last.fm\/music\/%D9%81%D9%86%D8%A7%D9%86%D9%88%D9%86+%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D9%88%D9%86\/Gym+Booster",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/357ae7338c2ac98e0548f3c9223e76c1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/357ae7338c2ac98e0548f3c9223e76c1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/357ae7338c2ac98e0548f3c9223e76c1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/357ae7338c2ac98e0548f3c9223e76c1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

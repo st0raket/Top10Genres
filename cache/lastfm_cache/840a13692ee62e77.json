@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:38:11.086512+00:00",
+  "elapsed": 0.226118,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:11.086512+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1153",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Forget+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Forget+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Forget Me",
+      "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Forget+Me",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "195329",
+      "playcount": "1744360",
+      "artist": {
+        "name": "Lewis Capaldi",
+        "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi"
+      },
+      "album": {
+        "artist": "Lewis Capaldi",
+        "title": "Forget Me",
+        "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi\/Forget+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ff32a83c3faf844b66f4789f3ad0d9e0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ff32a83c3faf844b66f4789f3ad0d9e0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ff32a83c3faf844b66f4789f3ad0d9e0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ff32a83c3faf844b66f4789f3ad0d9e0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "uk number one",
+            "url": "https:\/\/www.last.fm\/tag\/uk+number+one"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          }
+        ]
+      }
+    }
+  }
+}

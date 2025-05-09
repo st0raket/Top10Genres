@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:41:35.231159+00:00",
+  "elapsed": 0.196767,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:35.231159+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2496",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=SLIDE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=SLIDE",
+  "_decoded_content": {
+    "track": {
+      "name": "Slide",
+      "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/_\/Slide",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "252077",
+      "playcount": "1464663",
+      "artist": {
+        "name": "\u00a5$",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "drone",
+            "url": "https:\/\/www.last.fm\/tag\/drone"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "uk bass",
+            "url": "https:\/\/www.last.fm\/tag\/uk+bass"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Aug 2024, 04:06",
+        "summary": "\u201cSlide\u201d was first previewed by Ty Dolla $ign at Le Baroque in Geneva, Switzerland on September 30, 2023. The song, with updated production, was then previewed twice by Fred again.. on November 4, 2023, at a DJ set in Los Angeles. He spoke on his involvement in the song;\n\n\"This is madness for me, I made this with my brother Ty a few months ago\"\n\nThe song was performed in full at the \u201cVultures Rave\u201d in Miami on December 12, 2023, and used in an advertisement for the YZY PODS on December 28, 2023. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/Slide\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSlide\u201d was first previewed by Ty Dolla $ign at Le Baroque in Geneva, Switzerland on September 30, 2023. The song, with updated production, was then previewed twice by Fred again.. on November 4, 2023, at a DJ set in Los Angeles. He spoke on his involvement in the song;\n\n\"This is madness for me, I made this with my brother Ty a few months ago\"\n\nThe song was performed in full at the \u201cVultures Rave\u201d in Miami on December 12, 2023, and used in an advertisement for the YZY PODS on December 28, 2023. A feature from James Blake was revealed on February 2, 2024, when North West was spotted sporting a shirt with an early tracklist for VULTURES 1. The song was played again on March 11, 2024, at a Vultures listening party in Arizona. An early version of the song dated to December 14, 2023 titled \u201cSlidin\u201d surfaced on July 7, 2024. The song has since been renamed to \u201cSlide\u201d and recieved a James Blake feature.\n\nThe song was officially released on the Yeezy website on August 2nd, followed shortly after by a release on TIDAL and other streaming services. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/Slide\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

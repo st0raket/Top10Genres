@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:41:14.693389+00:00",
+  "elapsed": 0.25859,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:14.693389+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2848",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ECLIPSE&format=json&method=track.getInfo&track=Sudden+Shower"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ECLIPSE&format=json&method=track.getInfo&track=Sudden+Shower",
+  "_decoded_content": {
+    "track": {
+      "name": "Sudden Shower",
+      "url": "https:\/\/www.last.fm\/music\/Eclipse\/_\/Sudden+Shower",
+      "duration": "233000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "55361",
+      "playcount": "970044",
+      "artist": {
+        "name": "Eclipse",
+        "mbid": "f9a7c5cc-4d72-4cde-a2cf-3655f155fd2c",
+        "url": "https:\/\/www.last.fm\/music\/Eclipse"
+      },
+      "album": {
+        "artist": "Eclipse",
+        "title": "Lovely Runner, Pt. 1 (Original Soundtrack)",
+        "url": "https:\/\/www.last.fm\/music\/Eclipse\/Lovely+Runner,+Pt.+1+(Original+Soundtrack)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1b834fc95278015f02d21408b825aad4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1b834fc95278015f02d21408b825aad4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1b834fc95278015f02d21408b825aad4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1b834fc95278015f02d21408b825aad4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "sunjaewroteforlily",
+            "url": "https:\/\/www.last.fm\/tag\/sunjaewroteforlily"
+          },
+          {
+            "name": "my scribbled",
+            "url": "https:\/\/www.last.fm\/tag\/my+scribbled"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Sep 2024, 12:42",
+        "summary": "\"\uc18c\ub098\uae30\" (Sudden Shower) is the first part of the official television soundtrack for the 2024 South Korean tvN television series Lovely Runner, performed by the drama's lead actor Byeon Woo-seok, acting in the drama and song as Ryu Sun-jae, the vocalist of the fictional group ECLIPSE, released on April 8, 2024, the same day as the first episode airing.\n\nIt's one of the most successful original soundtracks from a Korean drama in the past decade <a href=\"http:\/\/www.last.fm\/music\/Eclipse\/_\/Sudden+Shower\">Read more on Last.fm<\/a>.",
+        "content": "\"\uc18c\ub098\uae30\" (Sudden Shower) is the first part of the official television soundtrack for the 2024 South Korean tvN television series Lovely Runner, performed by the drama's lead actor Byeon Woo-seok, acting in the drama and song as Ryu Sun-jae, the vocalist of the fictional group ECLIPSE, released on April 8, 2024, the same day as the first episode airing.\n\nIt's one of the most successful original soundtracks from a Korean drama in the past decade, going viral on TikTok along with the television show, and peaking at #1 on the iTunes chart, #3 on the MelOn Daily Chart, #4 on the Circle Digital 200 chart, #4 on the Genie charts, #5 on Bugs charts, #8 on FLO charts, , #6 on Apple Music, #10 on the YouTube chart, #17 on the radio charts, and #26 on the Spotify South Korea chart.\n\nThe song also debuted on the Billboard Global 200 at #199, and riser to No. 76 on Global Excl. U.S. chart. It is still charting on most charts as of Autumn 2024. <a href=\"http:\/\/www.last.fm\/music\/Eclipse\/_\/Sudden+Shower\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

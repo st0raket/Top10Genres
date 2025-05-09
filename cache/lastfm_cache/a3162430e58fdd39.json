@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:46.394096+00:00",
+  "elapsed": 0.23784,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:46.394096+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3014",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXID&format=json&method=track.getInfo&track=I+Love+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXID&format=json&method=track.getInfo&track=I+Love+You",
+  "_decoded_content": {
+    "track": {
+      "name": "I Love You",
+      "url": "https:\/\/www.last.fm\/music\/EXID\/_\/I+Love+You",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "151034",
+      "playcount": "1699469",
+      "artist": {
+        "name": "EXID",
+        "mbid": "62cc95e0-86de-46e0-925a-353e330cf4e4",
+        "url": "https:\/\/www.last.fm\/music\/EXID"
+      },
+      "album": {
+        "artist": "EXID",
+        "title": "I Love You - Single",
+        "url": "https:\/\/www.last.fm\/music\/EXID\/I+Love+You+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/93da46c2ceccec3647436cc51391b08d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/93da46c2ceccec3647436cc51391b08d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/93da46c2ceccec3647436cc51391b08d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/93da46c2ceccec3647436cc51391b08d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "girl group",
+            "url": "https:\/\/www.last.fm\/tag\/girl+group"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Sep 2024, 15:24",
+        "summary": "\"I Love You\" is a 2018 Single by EXID, It was released as a single on November 21, 2018, by Banana Culture and distributed by Sony Music. A music video for the song was also released on November 21. It was Included as a Bonus Track on their Debut Japanese Album \"Trouble\".\n\n This marks the return of member Solji after a hiatus from the group due to health issues. I Love You\" debuted at number 61 on the Gaon Digital Chart and at number 7 on the Gaon Album Chart, for the week ending November 24, 2018. <a href=\"http:\/\/www.last.fm\/music\/EXID\/_\/I+Love+You\">Read more on Last.fm<\/a>.",
+        "content": "\"I Love You\" is a 2018 Single by EXID, It was released as a single on November 21, 2018, by Banana Culture and distributed by Sony Music. A music video for the song was also released on November 21. It was Included as a Bonus Track on their Debut Japanese Album \"Trouble\".\n\n This marks the return of member Solji after a hiatus from the group due to health issues. I Love You\" debuted at number 61 on the Gaon Digital Chart and at number 7 on the Gaon Album Chart, for the week ending November 24, 2018. It also debuted at number 65 on Billboard Korea's Kpop Hot 100 for the week of November 25.  In its second week, the song peaked at number 29 on Gaon and at number 21 on the Hot 100.\n\nThe song also entered Billboard's World Digital Songs Sales chart at number 5, earning the group's first Top 5 on the chart, with 1,000 downloads sold in the week ending November 22.\n\nThe physical copy of the single was the 25th best-selling album of November 2018, with 14,777 copies sold. <a href=\"http:\/\/www.last.fm\/music\/EXID\/_\/I+Love+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

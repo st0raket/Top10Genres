@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:00.349555+00:00",
+  "elapsed": 0.218174,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:00.349555+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2631",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=PROTECTOR"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=PROTECTOR",
+  "_decoded_content": {
+    "track": {
+      "name": "PROTECTOR",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PROTECTOR",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "263267",
+      "playcount": "1667649",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "COWBOY CARTER",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/COWBOY+CARTER",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d02aeea86757347aa3b1fc3f67f52f44.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d02aeea86757347aa3b1fc3f67f52f44.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d02aeea86757347aa3b1fc3f67f52f44.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d02aeea86757347aa3b1fc3f67f52f44.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "country soul",
+            "url": "https:\/\/www.last.fm\/tag\/country+soul"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Apr 2024, 03:32",
+        "summary": "\u201c\u200bPROTECTOR\u201d is the fourth track from \u200bBeyonc\u00e9\u2019s album, COWBOY CARTER, featuring a cameo by her daughter Rumi Carter.\n\nThe song is an ode to motherhood, with Beyonc\u00e9\u2019s lyrics expressing a deep and lasting love for her children. Rumi\u2019s voice adds intimacy to the track, as Beyonc\u00e9 promises to guide and support her children on their lives. This song is a beautiful tribute to the bond between a mother and her children, demonstrating Beyonc\u00e9\u2019s versatility as an artist and her ability to express powerful emotions through music. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PROTECTOR\">Read more on Last.fm<\/a>.",
+        "content": "\u201c\u200bPROTECTOR\u201d is the fourth track from \u200bBeyonc\u00e9\u2019s album, COWBOY CARTER, featuring a cameo by her daughter Rumi Carter.\n\nThe song is an ode to motherhood, with Beyonc\u00e9\u2019s lyrics expressing a deep and lasting love for her children. Rumi\u2019s voice adds intimacy to the track, as Beyonc\u00e9 promises to guide and support her children on their lives. This song is a beautiful tribute to the bond between a mother and her children, demonstrating Beyonc\u00e9\u2019s versatility as an artist and her ability to express powerful emotions through music. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PROTECTOR\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

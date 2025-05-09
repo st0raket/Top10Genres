@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:20.479309+00:00",
+  "elapsed": 0.188718,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:20.479309+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1750",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PinkPantheress&format=json&method=track.getInfo&track=Boy%27s+a+Liar"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PinkPantheress&format=json&method=track.getInfo&track=Boy%27s+a+Liar",
+  "_decoded_content": {
+    "track": {
+      "name": "Boy's a Liar",
+      "url": "https:\/\/www.last.fm\/music\/pinkpantheress\/_\/Boy%27s+a+Liar",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "632857",
+      "playcount": "5522347",
+      "artist": {
+        "name": "pinkpantheress",
+        "url": "https:\/\/www.last.fm\/music\/pinkpantheress"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "bitpop",
+            "url": "https:\/\/www.last.fm\/tag\/bitpop"
+          },
+          {
+            "name": "baltimore club",
+            "url": "https:\/\/www.last.fm\/tag\/baltimore+club"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Nov 2022, 13:40",
+        "summary": "\u201cBoy\u2019s a liar\u201d is the second single for the next project by the UK artist PinkPantheress, where she talks about her emotions with a guy who\u2019s playing with her feelings. As many of the songs made by her, this track had a snippet of a sped up version, going viral in a few days. Four days before the official release, she posted this \u201cdemo\u201d of the song creating hype around it. <a href=\"http:\/\/www.last.fm\/music\/pinkpantheress\/_\/Boy%27s+a+Liar\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBoy\u2019s a liar\u201d is the second single for the next project by the UK artist PinkPantheress, where she talks about her emotions with a guy who\u2019s playing with her feelings. As many of the songs made by her, this track had a snippet of a sped up version, going viral in a few days. Four days before the official release, she posted this \u201cdemo\u201d of the song creating hype around it. <a href=\"http:\/\/www.last.fm\/music\/pinkpantheress\/_\/Boy%27s+a+Liar\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

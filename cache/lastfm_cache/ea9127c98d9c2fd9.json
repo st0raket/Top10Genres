@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:41:25.291673+00:00",
+  "elapsed": 0.18944,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:25.291673+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1739",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mustard&format=json&method=track.getInfo&track=Parking+Lot"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mustard&format=json&method=track.getInfo&track=Parking+Lot",
+  "_decoded_content": {
+    "track": {
+      "name": "Parking Lot",
+      "url": "https:\/\/www.last.fm\/music\/Mustard\/_\/Parking+Lot",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "315481",
+      "playcount": "2747374",
+      "artist": {
+        "name": "Mustard",
+        "mbid": "827e33c4-8265-4245-8edc-8465888db3b8",
+        "url": "https:\/\/www.last.fm\/music\/Mustard"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hard",
+            "url": "https:\/\/www.last.fm\/tag\/Hard"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "new age",
+            "url": "https:\/\/www.last.fm\/tag\/new+age"
+          },
+          {
+            "name": "sex",
+            "url": "https:\/\/www.last.fm\/tag\/sex"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2024, 02:41",
+        "summary": "Parking Lot marks the second collaboration between DJ Mustard and Travis Scott. The duo first collaborated on their 2016 hit single \"Whole Lotta Lovin'\".\n\n \"Parking Lot\" is the first single released for DJ Mustard\u2019s upcoming album \"FAITH OF A MUSTARD SEED\". The song explores themes of sex and cars while also referencing Travis' roots back in his hometown of Missouri City, Texas. <a href=\"http:\/\/www.last.fm\/music\/Mustard\/_\/Parking+Lot\">Read more on Last.fm<\/a>.",
+        "content": "Parking Lot marks the second collaboration between DJ Mustard and Travis Scott. The duo first collaborated on their 2016 hit single \"Whole Lotta Lovin'\".\n\n \"Parking Lot\" is the first single released for DJ Mustard\u2019s upcoming album \"FAITH OF A MUSTARD SEED\". The song explores themes of sex and cars while also referencing Travis' roots back in his hometown of Missouri City, Texas. <a href=\"http:\/\/www.last.fm\/music\/Mustard\/_\/Parking+Lot\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

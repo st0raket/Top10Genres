@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:25.251274+00:00",
+  "elapsed": 0.203202,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:25.251274+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2049",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rex+Orange+County&format=json&method=track.getInfo&track=THE+SHADE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rex+Orange+County&format=json&method=track.getInfo&track=THE+SHADE",
+  "_decoded_content": {
+    "track": {
+      "name": "The shade",
+      "url": "https:\/\/www.last.fm\/music\/Rex+Orange+County\/_\/The+shade",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "412970",
+      "playcount": "4482888",
+      "artist": {
+        "name": "Rex Orange County",
+        "url": "https:\/\/www.last.fm\/music\/Rex+Orange+County"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "fip",
+            "url": "https:\/\/www.last.fm\/tag\/fip"
+          },
+          {
+            "name": "love love",
+            "url": "https:\/\/www.last.fm\/tag\/love+love"
+          },
+          {
+            "name": "ziontwan",
+            "url": "https:\/\/www.last.fm\/tag\/ziontwan"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Mar 2022, 22:00",
+        "summary": "\u201cTHE SHADE\u201d is the eighth song on Rex Orange County's fourth studio album, WHO CARES? The track sees him reminisce about his regrets with a past lover.\n\nDuring an April 2021 Instagram live commemorating the four-year anniversary of his album \"Apricot Princess\", Rex performed the song for fans, announcing that the new album had been finished.\n\nBefore the formal announcement of the album, fans gave this song potential titles such as \u201cAnybody Else,\u201d \u201cAmsterdam\u201d and \u201cStuck To Your Side\u201d until the official title was revealed. <a href=\"http:\/\/www.last.fm\/music\/Rex+Orange+County\/_\/The+shade\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTHE SHADE\u201d is the eighth song on Rex Orange County's fourth studio album, WHO CARES? The track sees him reminisce about his regrets with a past lover.\n\nDuring an April 2021 Instagram live commemorating the four-year anniversary of his album \"Apricot Princess\", Rex performed the song for fans, announcing that the new album had been finished.\n\nBefore the formal announcement of the album, fans gave this song potential titles such as \u201cAnybody Else,\u201d \u201cAmsterdam\u201d and \u201cStuck To Your Side\u201d until the official title was revealed. <a href=\"http:\/\/www.last.fm\/music\/Rex+Orange+County\/_\/The+shade\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

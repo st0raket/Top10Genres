@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:41:56.267056+00:00",
+  "elapsed": 0.208299,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:56.267056+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2975",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=One+Direction&format=json&method=track.getInfo&track=What+Makes+You+Beautiful"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=One+Direction&format=json&method=track.getInfo&track=What+Makes+You+Beautiful",
+  "_decoded_content": {
+    "track": {
+      "name": "What Makes You Beautiful",
+      "mbid": "c5f82668-51e6-4d8e-b5fa-b98637590af8",
+      "url": "https:\/\/www.last.fm\/music\/One+Direction\/_\/What+Makes+You+Beautiful",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1375851",
+      "playcount": "10980980",
+      "artist": {
+        "name": "One Direction",
+        "mbid": "3fedf601-0039-4ba4-af53-7b6d1ff5b69a",
+        "url": "https:\/\/www.last.fm\/music\/One+Direction"
+      },
+      "album": {
+        "artist": "One Direction",
+        "title": "Up All Night",
+        "mbid": "04155f9c-2a8a-437b-bf38-42a2705763a7",
+        "url": "https:\/\/www.last.fm\/music\/One+Direction\/Up+All+Night",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/72be72f5d593a9b02f30700fd5079005.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/72be72f5d593a9b02f30700fd5079005.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/72be72f5d593a9b02f30700fd5079005.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/72be72f5d593a9b02f30700fd5079005.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "one direction",
+            "url": "https:\/\/www.last.fm\/tag\/one+direction"
+          },
+          {
+            "name": "catchy",
+            "url": "https:\/\/www.last.fm\/tag\/catchy"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "cutieee",
+            "url": "https:\/\/www.last.fm\/tag\/cutieee"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Sep 2012, 20:46",
+        "summary": "\u201cWhat Makes You Beautiful\u201d is One Direction\u2019s debut single, released from their first album Up All Night. Lyrically, the song is about a boy trying to boost his partners' self-esteem by proclaiming his love to them. According to Savan Kotecha, who helped write the song, says it was written for his wife.\n\nA music video was released on August 19, 2011, almost a month before the song was released as a single. The track also features a B-side, \u201cNa Na Na\u201d, which was also included on some special editions of Up All Night. <a href=\"http:\/\/www.last.fm\/music\/One+Direction\/_\/What+Makes+You+Beautiful\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWhat Makes You Beautiful\u201d is One Direction\u2019s debut single, released from their first album Up All Night. Lyrically, the song is about a boy trying to boost his partners' self-esteem by proclaiming his love to them. According to Savan Kotecha, who helped write the song, says it was written for his wife.\n\nA music video was released on August 19, 2011, almost a month before the song was released as a single. The track also features a B-side, \u201cNa Na Na\u201d, which was also included on some special editions of Up All Night.\n\nThe song was extremely successful, topping the charts in the UK, Ireland, Scotland, and Mexico. It also went top ten in Australia, New Zealand, Canada, Japan, and the US. <a href=\"http:\/\/www.last.fm\/music\/One+Direction\/_\/What+Makes+You+Beautiful\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

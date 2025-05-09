@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:12.813214+00:00",
+  "elapsed": 0.280219,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:12.813214+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2770",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lola+Young&format=json&method=track.getInfo&track=Messy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lola+Young&format=json&method=track.getInfo&track=Messy",
+  "_decoded_content": {
+    "track": {
+      "name": "Messy",
+      "url": "https:\/\/www.last.fm\/music\/Lola+Young\/_\/Messy",
+      "duration": "284000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "607308",
+      "playcount": "5742250",
+      "artist": {
+        "name": "Lola Young",
+        "url": "https:\/\/www.last.fm\/music\/Lola+Young"
+      },
+      "album": {
+        "artist": "Lola Young",
+        "title": "This Wasn\u2019t Meant For You Anyway",
+        "url": "https:\/\/www.last.fm\/music\/Lola+Young\/This+Wasn%E2%80%99t+Meant+For+You+Anyway",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/018d453f380d513034924ca9bb60abad.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/018d453f380d513034924ca9bb60abad.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/018d453f380d513034924ca9bb60abad.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/018d453f380d513034924ca9bb60abad.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          },
+          {
+            "name": "Post-punk revival",
+            "url": "https:\/\/www.last.fm\/tag\/Post-punk+revival"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jan 2025, 11:05",
+        "summary": "Lola Young's \"Messy\" is a raw, unapologetic anthem that dismantles societal double standards and embraces the chaos of imperfection. With piercing honesty, the song challenges the relentless demand to strike an impossible balance\u2014clean enough to be accepted but messy enough to seem real. Its emotional resonance has sparked a viral TikTok movement, particularly among mothers, who use the track to highlight the contradictory judgments they face, from being criticized for working too much to being shamed for staying at home. <a href=\"http:\/\/www.last.fm\/music\/Lola+Young\/_\/Messy\">Read more on Last.fm<\/a>.",
+        "content": "Lola Young's \"Messy\" is a raw, unapologetic anthem that dismantles societal double standards and embraces the chaos of imperfection. With piercing honesty, the song challenges the relentless demand to strike an impossible balance\u2014clean enough to be accepted but messy enough to seem real. Its emotional resonance has sparked a viral TikTok movement, particularly among mothers, who use the track to highlight the contradictory judgments they face, from being criticized for working too much to being shamed for staying at home. \"Messy\" transcends music, becoming a rallying cry for self-acceptance and a defiant celebration of authenticity in a world obsessed with perfection. <a href=\"http:\/\/www.last.fm\/music\/Lola+Young\/_\/Messy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

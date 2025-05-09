@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:36:34.791486+00:00",
+  "elapsed": 0.216142,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:34.791486+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "936",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Apache+207&format=json&method=track.getInfo&track=Thunfisch+%26+Weinbrand"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Apache+207&format=json&method=track.getInfo&track=Thunfisch+%26+Weinbrand",
+  "_decoded_content": {
+    "track": {
+      "name": "Thunfisch & Weinbrand",
+      "url": "https:\/\/www.last.fm\/music\/Apache+207\/_\/Thunfisch+&+Weinbrand",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7880",
+      "playcount": "71554",
+      "artist": {
+        "name": "Apache 207",
+        "url": "https:\/\/www.last.fm\/music\/Apache+207"
+      },
+      "album": {
+        "artist": "Apache 207",
+        "title": "Kapitel III Thunfisch & Weinbrand (2sad2disco)",
+        "url": "https:\/\/www.last.fm\/music\/Apache+207\/Kapitel+III+Thunfisch+&+Weinbrand+(2sad2disco)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fc1ada8dffb8cd6e533d106c26778896.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fc1ada8dffb8cd6e533d106c26778896.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fc1ada8dffb8cd6e533d106c26778896.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fc1ada8dffb8cd6e533d106c26778896.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:37:36.250058+00:00",
+  "elapsed": 0.203108,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:36.250058+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2393",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Andrea"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Andrea",
+  "_decoded_content": {
+    "track": {
+      "name": "Andrea",
+      "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Andrea",
+      "duration": "339000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "199723",
+      "playcount": "2466387",
+      "artist": {
+        "name": "Bad Bunny",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny"
+      },
+      "album": {
+        "artist": "Bad Bunny",
+        "title": "Un Verano Sin Ti",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/Un+Verano+Sin+Ti",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "afrobeat",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeat"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Dec 2024, 01:24",
+        "summary": "Con casi 6 minutos de duraci\u00f3n, \u201cAndrea\u201d es la canci\u00f3n m\u00e1s larga de Un Verano Sin Ti, siendo tambi\u00e9n una de las pocas colaboraciones del disco, incluyendo al d\u00fao Buscabulla.\n\nAunque se rumore\u00f3 que la canci\u00f3n estaba inspirada en el feminicidio de Andrea Ruiz Costa, que caus\u00f3 conmoci\u00f3n debido a que ella hab\u00eda solicitado hasta en tres ocasiones ayuda jur\u00eddica (la cual le fue denegada) y porque su agresor mantuvo su r\u00e9cord criminal limpio tras el feminicidio <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Andrea\">Read more on Last.fm<\/a>.",
+        "content": "Con casi 6 minutos de duraci\u00f3n, \u201cAndrea\u201d es la canci\u00f3n m\u00e1s larga de Un Verano Sin Ti, siendo tambi\u00e9n una de las pocas colaboraciones del disco, incluyendo al d\u00fao Buscabulla.\n\nAunque se rumore\u00f3 que la canci\u00f3n estaba inspirada en el feminicidio de Andrea Ruiz Costa, que caus\u00f3 conmoci\u00f3n debido a que ella hab\u00eda solicitado hasta en tres ocasiones ayuda jur\u00eddica (la cual le fue denegada) y porque su agresor mantuvo su r\u00e9cord criminal limpio tras el feminicidio, Bad Bunny indico que este no es el caso en una entrevista reciente con Chente, sino que en realidad podr\u00eda ser cualquier mujer. <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Andrea\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:13.937377+00:00",
+  "elapsed": 0.530093,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:13.937377+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3137",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Keep+My+Spirit+Alive"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Keep+My+Spirit+Alive",
+  "_decoded_content": {
+    "track": {
+      "name": "Keep My Spirit Alive",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Keep+My+Spirit+Alive",
+      "duration": "221000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "382661",
+      "playcount": "3250463",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Donda",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Donda",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Feb 2022, 20:38",
+        "summary": "\u201cKeep My Spirit Alive\u201d recruits Westside Gunn and Conway The Machine (AKA Hall \u2018N\u2019 Nash) of Griselda Records, and features a small cameo in the third verse by Royce da 5'9\". This cut is about each rapper reflecting on their pasts and keeping their faith in God intact through their best and worst. This song was first made public through the Las Vegas listening party of Donda that occurred on July 18th, 2021. The official version of Conway\u2019s verse is noticeably shorter than Gunn\u2019s and Kanye\u2019s. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Keep+My+Spirit+Alive\">Read more on Last.fm<\/a>.",
+        "content": "\u201cKeep My Spirit Alive\u201d recruits Westside Gunn and Conway The Machine (AKA Hall \u2018N\u2019 Nash) of Griselda Records, and features a small cameo in the third verse by Royce da 5'9\". This cut is about each rapper reflecting on their pasts and keeping their faith in God intact through their best and worst. This song was first made public through the Las Vegas listening party of Donda that occurred on July 18th, 2021. The official version of Conway\u2019s verse is noticeably shorter than Gunn\u2019s and Kanye\u2019s.\n\nThe original release of the song featured KayCyy on the chorus. He was removed from the song (except his opening \u201cooh\u201d) upon Donda\u2019s 28 September 2021 update and replaced with West\u2019s vocals singing a slightly changed chorus (along with Chris Brown on \u201cNew Again\u201d). Unlike Brown, the reasoning for this is unknown. KayCyy retains a writing credit (Brown\u2019s credit is struck from the record).\n\nOn the deluxe version of Donda, KayCyy\u2019s version of the chorus was added back in \u201cKeep My Spirit Alive pt 2\u201d. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Keep+My+Spirit+Alive\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

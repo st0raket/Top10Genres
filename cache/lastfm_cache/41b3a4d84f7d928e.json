@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:42:08.024644+00:00",
+  "elapsed": 0.220704,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:08.024644+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1309",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FRUITS+ZIPPER&format=json&method=track.getInfo&track=%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E4%B8%80%E7%95%AA%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FRUITS+ZIPPER&format=json&method=track.getInfo&track=%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E4%B8%80%E7%95%AA%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D",
+  "_decoded_content": {
+    "track": {
+      "name": "\u308f\u305f\u3057\u306e\u4e00\u756a\u304b\u308f\u3044\u3044\u3068\u3053\u308d",
+      "url": "https:\/\/www.last.fm\/music\/FRUITS+ZIPPER\/_\/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E4%B8%80%E7%95%AA%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D",
+      "duration": "260000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9867",
+      "playcount": "80905",
+      "artist": {
+        "name": "FRUITS ZIPPER",
+        "url": "https:\/\/www.last.fm\/music\/FRUITS+ZIPPER"
+      },
+      "album": {
+        "artist": "FRUITS ZIPPER",
+        "title": "\u308f\u305f\u3057\u306e\u4e00\u756a\u304b\u308f\u3044\u3044\u3068\u3053\u308d - Single",
+        "url": "https:\/\/www.last.fm\/music\/FRUITS+ZIPPER\/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E4%B8%80%E7%95%AA%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3127a7c007bcdf486f56b00b309db79c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3127a7c007bcdf486f56b00b309db79c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3127a7c007bcdf486f56b00b309db79c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3127a7c007bcdf486f56b00b309db79c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "idol",
+            "url": "https:\/\/www.last.fm\/tag\/idol"
+          },
+          {
+            "name": "reiwa",
+            "url": "https:\/\/www.last.fm\/tag\/reiwa"
+          }
+        ]
+      }
+    }
+  }
+}

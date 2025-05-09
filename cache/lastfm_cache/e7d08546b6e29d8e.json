@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:46.991184+00:00",
+  "elapsed": 0.184572,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:46.991184+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2419",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ella+Mai&format=json&method=track.getInfo&track=Boo%27d+Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ella+Mai&format=json&method=track.getInfo&track=Boo%27d+Up",
+  "_decoded_content": {
+    "track": {
+      "name": "Boo'd Up",
+      "url": "https:\/\/www.last.fm\/music\/Ella+Mai\/_\/Boo%27d+Up",
+      "duration": "256000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "255577",
+      "playcount": "1834835",
+      "artist": {
+        "name": "Ella Mai",
+        "url": "https:\/\/www.last.fm\/music\/Ella+Mai"
+      },
+      "album": {
+        "artist": "Ella Mai",
+        "title": "READY",
+        "url": "https:\/\/www.last.fm\/music\/Ella+Mai\/READY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/923ed69794348734b559eddf462c9741.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/923ed69794348734b559eddf462c9741.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/923ed69794348734b559eddf462c9741.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/923ed69794348734b559eddf462c9741.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "r and b",
+            "url": "https:\/\/www.last.fm\/tag\/r+and+b"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Dec 2018, 21:04",
+        "summary": "\"Boo'd Up\" is the debut commercial single by English singer Ella Mai from her third extended play, Ready. Serving as the lead single for the EP, the song peaked number five on the Billboard Hot 100 in the United States.[2] The song was written by Mai, Joelle James, Dijon \"DJ Mustard\" McFarlane and Larrance Dopson of 1500 or Nothin', and produced by the latter two. It became the recipient of two Grammy Award nominations for Best R&B Song and Song of the Year at the 61st Grammy Awards. <a href=\"http:\/\/www.last.fm\/music\/Ella+Mai\/_\/Boo%27d+Up\">Read more on Last.fm<\/a>.",
+        "content": "\"Boo'd Up\" is the debut commercial single by English singer Ella Mai from her third extended play, Ready. Serving as the lead single for the EP, the song peaked number five on the Billboard Hot 100 in the United States.[2] The song was written by Mai, Joelle James, Dijon \"DJ Mustard\" McFarlane and Larrance Dopson of 1500 or Nothin', and produced by the latter two. It became the recipient of two Grammy Award nominations for Best R&B Song and Song of the Year at the 61st Grammy Awards. <a href=\"http:\/\/www.last.fm\/music\/Ella+Mai\/_\/Boo%27d+Up\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

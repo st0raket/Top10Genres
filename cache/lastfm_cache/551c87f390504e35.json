@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:22.485963+00:00",
+  "elapsed": 0.217289,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:22.485963+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1481",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=god+save+me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Machine+Gun+Kelly&format=json&method=track.getInfo&track=god+save+me",
+  "_decoded_content": {
+    "track": {
+      "name": "God Save Me",
+      "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/God+Save+Me",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "44408",
+      "playcount": "479412",
+      "artist": {
+        "name": "Machine Gun Kelly",
+        "mbid": "f6af669a-56ea-448a-a044-de76181ada33",
+        "url": "https:\/\/www.last.fm\/music\/Machine+Gun+Kelly"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop punk",
+            "url": "https:\/\/www.last.fm\/tag\/pop+punk"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Mar 2023, 10:51",
+        "summary": "\u201cgod save me\u201d is the second song on the MGK\u2019s second pop-punk centered album, Mainstream Sellout\n\nThe song talks about Baker\u2019s mental problems, suicide attempts\/contemplation, and all the struggles that come with fame. <a href=\"http:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/God+Save+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cgod save me\u201d is the second song on the MGK\u2019s second pop-punk centered album, Mainstream Sellout\n\nThe song talks about Baker\u2019s mental problems, suicide attempts\/contemplation, and all the struggles that come with fame. <a href=\"http:\/\/www.last.fm\/music\/Machine+Gun+Kelly\/_\/God+Save+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

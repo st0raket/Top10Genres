@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:33:32.804644+00:00",
+  "elapsed": 0.237906,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:32.804106+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1077",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Migos&format=json&method=track.getInfo&track=Racks+2+Skinny"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Migos&format=json&method=track.getInfo&track=Racks+2+Skinny",
+  "_decoded_content": {
+    "track": {
+      "name": "Racks 2 Skinny",
+      "url": "https:\/\/www.last.fm\/music\/Migos\/_\/Racks+2+Skinny",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "76022",
+      "playcount": "470947",
+      "artist": {
+        "name": "Migos",
+        "mbid": "0221734a-35a8-40f7-b5c5-2f61a200bc7c",
+        "url": "https:\/\/www.last.fm\/music\/Migos"
+      },
+      "album": {
+        "artist": "Migos",
+        "title": "Racks 2 Skinny",
+        "url": "https:\/\/www.last.fm\/music\/Migos\/Racks+2+Skinny",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6a29b4d2369d42745645493893899188.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6a29b4d2369d42745645493893899188.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6a29b4d2369d42745645493893899188.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6a29b4d2369d42745645493893899188.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001272436819",
+            "url": "https:\/\/www.last.fm\/tag\/-1001272436819"
+          }
+        ]
+      }
+    }
+  }
+}

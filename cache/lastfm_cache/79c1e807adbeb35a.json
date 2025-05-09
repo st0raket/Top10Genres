@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:47.007604+00:00",
+  "elapsed": 0.203782,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:47.007604+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2540",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mabel&format=json&method=track.getInfo&track=Let+Them+Know"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mabel&format=json&method=track.getInfo&track=Let+Them+Know",
+  "_decoded_content": {
+    "track": {
+      "name": "Let Them Know",
+      "url": "https:\/\/www.last.fm\/music\/Mabel\/_\/Let+Them+Know",
+      "duration": "148000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "73913",
+      "playcount": "944589",
+      "artist": {
+        "name": "Mabel",
+        "mbid": "f6a9828c-7b52-41a1-b38a-426c28603555",
+        "url": "https:\/\/www.last.fm\/music\/Mabel"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Dance Club 2021.02",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Dance+Club+2021.02",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bf87e0d4bcb5906ad5036977fedf5b26.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bf87e0d4bcb5906ad5036977fedf5b26.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bf87e0d4bcb5906ad5036977fedf5b26.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bf87e0d4bcb5906ad5036977fedf5b26.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jan 2023, 18:29",
+        "summary": "\u201cLet Them Know\u201d is the lead single for Mabel\u2019s sophomore album \"About Last Night\u2026.\" \n\nOn May 11, 2021, Mabel started teasing the track on social media platforms like TikTok and Instagram.\n\nOn May 25, 2021, she posted a video of the choreography for the song on Instagram.\n\nThe song was officially released on June 18, 2021, alongside a music video directed by Isaac Rentz. In the same video, she teased the album\u2019s title About Last Night\u2026 and the second single \u201cGood Luck\u201d <a href=\"http:\/\/www.last.fm\/music\/Mabel\/_\/Let+Them+Know\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLet Them Know\u201d is the lead single for Mabel\u2019s sophomore album \"About Last Night\u2026.\" \n\nOn May 11, 2021, Mabel started teasing the track on social media platforms like TikTok and Instagram.\n\nOn May 25, 2021, she posted a video of the choreography for the song on Instagram.\n\nThe song was officially released on June 18, 2021, alongside a music video directed by Isaac Rentz. In the same video, she teased the album\u2019s title About Last Night\u2026 and the second single \u201cGood Luck\u201d <a href=\"http:\/\/www.last.fm\/music\/Mabel\/_\/Let+Them+Know\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

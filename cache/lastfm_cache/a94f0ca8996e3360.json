@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:41:53.393859+00:00",
+  "elapsed": 0.205377,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:53.393859+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "532",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Werenoi&format=json&method=track.getInfo&track=P%C3%A9tunias"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Werenoi&format=json&method=track.getInfo&track=P%C3%A9tunias",
+  "_decoded_content": {
+    "track": {
+      "name": "P\u00e9tunias",
+      "url": "https:\/\/www.last.fm\/music\/WeRenoi\/_\/P%C3%A9tunias",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "8925",
+      "playcount": "88976",
+      "artist": {
+        "name": "WeRenoi",
+        "url": "https:\/\/www.last.fm\/music\/WeRenoi"
+      },
+      "album": {
+        "artist": "WeRenoi",
+        "title": "P\u00e9tunias - Single",
+        "url": "https:\/\/www.last.fm\/music\/WeRenoi\/P%C3%A9tunias+-+Single",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

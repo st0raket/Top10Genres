@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:40.518871+00:00",
+  "elapsed": 0.186232,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:40.518871+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2817",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charlie+Puth&format=json&method=track.getInfo&track=How+Long"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charlie+Puth&format=json&method=track.getInfo&track=How+Long",
+  "_decoded_content": {
+    "track": {
+      "name": "How Long",
+      "url": "https:\/\/www.last.fm\/music\/Charlie+Puth\/_\/How+Long",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "424374",
+      "playcount": "3443466",
+      "artist": {
+        "name": "Charlie Puth",
+        "mbid": "525f1f1c-03f0-4bc8-8dfd-e7521f87631b",
+        "url": "https:\/\/www.last.fm\/music\/Charlie+Puth"
+      },
+      "album": {
+        "artist": "Charlie Puth",
+        "title": "Voicenotes",
+        "url": "https:\/\/www.last.fm\/music\/Charlie+Puth\/Voicenotes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/548ddc92a61f79f77e832ad3d66d110f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/548ddc92a61f79f77e832ad3d66d110f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/548ddc92a61f79f77e832ad3d66d110f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/548ddc92a61f79f77e832ad3d66d110f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Apr 2020, 04:51",
+        "summary": "\u201cHow Long,\u201d the second single from Charlie\u2019s sophomore album \"Voicenotes\", sees Charlie apologizing to a girl for being unfaithful. Charlie teased the track on social media in the week leading up to its release, and posted a video of the voice note behind the track the night before it came out.\n\nIn an interview with Ryan Seacrest released the day after this song dropped, Charlie discussed the similarities between this track and his previous single, \u201cAttention\u201d: <a href=\"http:\/\/www.last.fm\/music\/Charlie+Puth\/_\/How+Long\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHow Long,\u201d the second single from Charlie\u2019s sophomore album \"Voicenotes\", sees Charlie apologizing to a girl for being unfaithful. Charlie teased the track on social media in the week leading up to its release, and posted a video of the voice note behind the track the night before it came out.\n\nIn an interview with Ryan Seacrest released the day after this song dropped, Charlie discussed the similarities between this track and his previous single, \u201cAttention\u201d:\n\nWith the theme of \u2018Attention\u2019 kinda being a \u2018bass\u2019 song, I didn\u2019t want it to be, like, a ripoff of \u2018Attention,\u2019 but lyrically, the song is like part two of \u2018Attention,\u2019 as far as the story goes. I\u2019ll leave that up to interpretation.\n\nAs of the week of Feb. 2, 2018, \u201cHow Long\u201d peaked at #21 on Billboard\u2019s Hot 100 chart. <a href=\"http:\/\/www.last.fm\/music\/Charlie+Puth\/_\/How+Long\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "created_at": "2025-05-03T14:34:36.885641+00:00",
+  "elapsed": 0.212243,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:36.885641+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1120",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pink+Sweat%24&format=json&method=track.getInfo&track=At+My+Worst"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pink+Sweat%24&format=json&method=track.getInfo&track=At+My+Worst",
+  "_decoded_content": {
+    "track": {
+      "name": "At My Worst",
+      "url": "https:\/\/www.last.fm\/music\/Pink+Sweat$\/_\/At+My+Worst",
+      "duration": "170000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "288167",
+      "playcount": "2787931",
+      "artist": {
+        "name": "Pink Sweat$",
+        "url": "https:\/\/www.last.fm\/music\/Pink+Sweat$"
+      },
+      "album": {
+        "artist": "Pink Sweat$",
+        "title": "At My Worst (Nikhita Gandhi Remix)",
+        "url": "https:\/\/www.last.fm\/music\/Pink+Sweat$\/At+My+Worst+(Nikhita+Gandhi+Remix)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/22e4ab81fc4ac0338ac3d9c12faa4f73.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/22e4ab81fc4ac0338ac3d9c12faa4f73.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/22e4ab81fc4ac0338ac3d9c12faa4f73.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/22e4ab81fc4ac0338ac3d9c12faa4f73.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      }
+    }
+  }
+}

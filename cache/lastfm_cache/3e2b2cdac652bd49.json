@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:58.576322+00:00",
+  "elapsed": 0.279678,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:58.576322+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3189",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nas&format=json&method=track.getInfo&track=Not+For+Radio"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nas&format=json&method=track.getInfo&track=Not+For+Radio",
+  "_decoded_content": {
+    "track": {
+      "name": "Not For Radio",
+      "url": "https:\/\/www.last.fm\/music\/Nas\/_\/Not+For+Radio",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62277",
+      "playcount": "284511",
+      "artist": {
+        "name": "Nas",
+        "mbid": "cfbc0924-0035-4d6c-8197-f024653af823",
+        "url": "https:\/\/www.last.fm\/music\/Nas"
+      },
+      "album": {
+        "artist": "Nas",
+        "title": "NASIR",
+        "url": "https:\/\/www.last.fm\/music\/Nas\/NASIR",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "personal favourites",
+            "url": "https:\/\/www.last.fm\/tag\/personal+favourites"
+          },
+          {
+            "name": "Nas",
+            "url": "https:\/\/www.last.fm\/tag\/Nas"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 17:15",
+        "summary": "\u201cNot For Radio\u201d, the opener to Nas' twelfth studio album, is a gritty, political statement, mapping out the different racial and financial issues Nas faced after entering the industry. The many cultural nods include references to slavery, religion, and politics.\n\nThis track also features the mysterious 070 Shake, who has appeared many different times throughout Kanye\u2019s executively produced G.O.O.D. Music Rollout.\n\nThe track also features Puff Daddy\/Diddy. <a href=\"http:\/\/www.last.fm\/music\/Nas\/_\/Not+For+Radio\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNot For Radio\u201d, the opener to Nas' twelfth studio album, is a gritty, political statement, mapping out the different racial and financial issues Nas faced after entering the industry. The many cultural nods include references to slavery, religion, and politics.\n\nThis track also features the mysterious 070 Shake, who has appeared many different times throughout Kanye\u2019s executively produced G.O.O.D. Music Rollout.\n\nThe track also features Puff Daddy\/Diddy. This marks the third collaboration between the two. The first being the well-known track \u201cHate Me Now\u201d and \u201cEverything I Love\u201d. In fact, Kanye also produced the latter track.\n\nThe sampled choir\/orchestra track is the \u201cHymn to Red October\u201d from the 1990 motion picture of the Tom Clancy novel \u201cThe Hunt for Red October\u201d.\n\nOn June 11th 2018, Kanye published a tweet showing the definitions of the 7 deadly sins from Urban Dictonary. Each one of the 7 songs on the album is based on one of the 7 deadly sins, with \u201cNot For Radio\u201d corresponding to pride \u2013 being too self-satisfied, where he boasts about Black pride the whole song. Nas later concludes that being overzealous and prideful can lead into irrational behavior. <a href=\"http:\/\/www.last.fm\/music\/Nas\/_\/Not+For+Radio\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

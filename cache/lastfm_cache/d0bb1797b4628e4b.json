@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:49.913543+00:00",
+  "elapsed": 0.179893,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:49.913543+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2735",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Stop+Breathing"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=Stop+Breathing",
+  "_decoded_content": {
+    "track": {
+      "name": "Stop Breathing",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Stop+Breathing",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "612269",
+      "playcount": "12468232",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "album": {
+        "artist": "Playboi Carti",
+        "title": "Whole Lotta Red",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/Whole+Lotta+Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "tread",
+            "url": "https:\/\/www.last.fm\/tag\/tread"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 May 2021, 13:33",
+        "summary": "\u201cStop Breathing\u201d is a high-energy punk-rap homage to Gucci Mane\u2019s \u201cShirt Off,\u201d an ode to Carti\u2019s gang members, as well as a brutal diss track aimed at incarcerated ATL rapper Ola Runt and his Henchmen gang. The Henchmen killed a close friend of Carti\u2019s named Bigg Sosa, which is what prompted Carti to channel his anger into this diss.\n\nOn this track, Carti alleges that he had his gang shank Ola Runt in prison, and also claims the Henchmen\u2019s hang-out spot, Front Street in Atlanta. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Stop+Breathing\">Read more on Last.fm<\/a>.",
+        "content": "\u201cStop Breathing\u201d is a high-energy punk-rap homage to Gucci Mane\u2019s \u201cShirt Off,\u201d an ode to Carti\u2019s gang members, as well as a brutal diss track aimed at incarcerated ATL rapper Ola Runt and his Henchmen gang. The Henchmen killed a close friend of Carti\u2019s named Bigg Sosa, which is what prompted Carti to channel his anger into this diss.\n\nOn this track, Carti alleges that he had his gang shank Ola Runt in prison, and also claims the Henchmen\u2019s hang-out spot, Front Street in Atlanta.\n\nOla has since responded on Instagram, saying \u201cDiss songs don\u2019t bring back dead niggas.\u201d Henchmen member Woo da Savage also responded, claiming that Carti had never even been to Front Street. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/Stop+Breathing\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

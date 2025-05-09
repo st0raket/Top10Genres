@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:01.988703+00:00",
+  "elapsed": 0.308047,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:01.988703+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3635",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Getting+Older"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Getting+Older",
+  "_decoded_content": {
+    "track": {
+      "name": "Getting Older",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Getting+Older",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "662134",
+      "playcount": "7846760",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Indie Memories",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Indie+Memories",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/323a42a286293f4c6f99937a02fc3fcf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/323a42a286293f4c6f99937a02fc3fcf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/323a42a286293f4c6f99937a02fc3fcf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/323a42a286293f4c6f99937a02fc3fcf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "Jazz-Pop",
+            "url": "https:\/\/www.last.fm\/tag\/Jazz-Pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jul 2021, 05:49",
+        "summary": "\"Getting Older\" is a contemplative song that delves into the complexities of growing up and the associated struggles. Released as part of Billie Eilish's discography, the song explores a range of challenges that accompany the journey into adulthood. One of the central themes is the pressure to perform, addressing the expectations and societal norms that often weigh on individuals as they transition into more mature phases of life.\n\nThe lyrics of \"Getting Older\" also touch upon the difficulty of healing from past traumas <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Getting+Older\">Read more on Last.fm<\/a>.",
+        "content": "\"Getting Older\" is a contemplative song that delves into the complexities of growing up and the associated struggles. Released as part of Billie Eilish's discography, the song explores a range of challenges that accompany the journey into adulthood. One of the central themes is the pressure to perform, addressing the expectations and societal norms that often weigh on individuals as they transition into more mature phases of life.\n\nThe lyrics of \"Getting Older\" also touch upon the difficulty of healing from past traumas, highlighting the emotional baggage that individuals carry with them as they navigate the complexities of adulthood. The song provides a raw and honest portrayal of the internal battles faced by young people, emphasizing the importance of addressing and overcoming past wounds.\n\nAnother aspect explored in the song is the fear of becoming bored with life, a sentiment that resonates with the existential concerns many individuals grapple with during the process of maturation. \"Getting Older\" captures the essence of the uncertainty and apprehension that can accompany the prospect of facing a future that may not unfold as expected.\n\nThrough its introspective lyrics and contemplative tone, \"Getting Older\" emerges as a poignant reflection on the challenges inherent in the transition to adulthood. Billie Eilish's ability to convey these complex emotions contributes to the song's relatability, making it a resonant piece for listeners navigating their own paths through the complexities of growing up. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Getting+Older\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:37:12.333489+00:00",
+  "elapsed": 0.200259,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:12.333489+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yeat&format=json&method=track.getInfo&track=Poppin"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Yeat&format=json&method=track.getInfo&track=Poppin",
+  "_decoded_content": {
+    "track": {
+      "name": "Poppin",
+      "url": "https:\/\/www.last.fm\/music\/yeat\/_\/Poppin",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "373852",
+      "playcount": "6576491",
+      "artist": {
+        "name": "yeat",
+        "url": "https:\/\/www.last.fm\/music\/yeat"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Oct 2022, 21:21",
+        "summary": "\u201cPoppin\u201d comes up with a BenjiCold produced beat with a hard bass on it. The song was previewed as \u201cLove And Drugs\u201d before real name was known. This serves as the introduction track to Yeat\u2019s debut major-label album, 2 Aliv\u00eb.\n\nOn February 11, the Lyrical Lemonade video for \u201cStill Countin\u201d included a beat switch with \u201cPoppin\u201d towards the end.\n\nOn March 16, 2022, the music video for Poppin was released to Lyrical Lemonade. This version <a href=\"http:\/\/www.last.fm\/music\/yeat\/_\/Poppin\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPoppin\u201d comes up with a BenjiCold produced beat with a hard bass on it. The song was previewed as \u201cLove And Drugs\u201d before real name was known. This serves as the introduction track to Yeat\u2019s debut major-label album, 2 Aliv\u00eb.\n\nOn February 11, the Lyrical Lemonade video for \u201cStill Countin\u201d included a beat switch with \u201cPoppin\u201d towards the end.\n\nOn March 16, 2022, the music video for Poppin was released to Lyrical Lemonade. This version did not have the same footage or similarity to the other version of the video from the \u201cStill countin\u201d music video.\n\nCole Bennett, the director behind Lyrical Lemonade also spoke in an interview with Our Generation Music about an original version of Poppin that was allegedly around five minutes long, but was condensed due to the short listen-span of most viewers. <a href=\"http:\/\/www.last.fm\/music\/yeat\/_\/Poppin\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

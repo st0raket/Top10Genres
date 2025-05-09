@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:43.349474+00:00",
+  "elapsed": 0.178811,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:43.349474+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4017",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Matilda"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Matilda",
+  "_decoded_content": {
+    "track": {
+      "name": "Matilda",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Matilda",
+      "duration": "245000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "769996",
+      "playcount": "12701015",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Harry\u2019s House",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Harry%E2%80%99s+House",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bf3167bc606c5c4798f829bd67539637.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "folk pop",
+            "url": "https:\/\/www.last.fm\/tag\/folk+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 May 2022, 16:42",
+        "summary": "\u201cMatilda\u201d is the seventh track off \"Harry\u2019s House\", the third studio album by Harry Styles.\n\nIn the song, Harry somberly sings to somebody whose family did not treat her well. He takes inspiration from the Roald Dahl book Matilda and\/or its movie adaptation of the same name, about a girl with telekinesis who was mistreated by her principal and parents. Though Roald Dahl\u2019s character Matilda is gendered as female, Styles purposefully does not assign a label to the person he sings to. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Matilda\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMatilda\u201d is the seventh track off \"Harry\u2019s House\", the third studio album by Harry Styles.\n\nIn the song, Harry somberly sings to somebody whose family did not treat her well. He takes inspiration from the Roald Dahl book Matilda and\/or its movie adaptation of the same name, about a girl with telekinesis who was mistreated by her principal and parents. Though Roald Dahl\u2019s character Matilda is gendered as female, Styles purposefully does not assign a label to the person he sings to. The song asserts a common theme in the album that home is not a place, but a state of mind. Styles does this by showing how Matilda\u2019s house was not a home to her.\n\n\"I had an experience with someone where, in getting to know them better, they revealed some stuff to me that was very much like, \u2018Oh, that\u2019s not normal, like I think you should maybe get some help or something.\u2019 This song was inspired by that experience and person, who I kind of disguised as Matilda from the Roald Dahl book. I played it to a couple of friends and all of them cried. So I was like, \u2018Okay, I think this is something to pay attention to.\u2019 It\u2019s a weird one, because with something like this, it\u2019s like, \u2018I want to give you something, I want to support you in some way, but it\u2019s not necessarily my place to make it about me because it\u2019s not my experience.\u2019 Sometimes it\u2019s just about listening. I hope that\u2019s what I did here. If nothing else, it just says, \u2018I was listening to you.\u2019\"\n\n\"I think \u201cMatilda\u201d is kind of self-explanatory [\u2026] I like that it was this personal story to me about someone else, being able to say, \u201cThis thing is more important than me just making music about myself, because I think it could mean more to you and a lot more people\u201d [\u2026] I played it for a couple of friends, and all of them cried. I was, like, \u201cOkay, this is something to pay attention to.\u201d But I haven\u2019t played it to the person who it\u2019s about, and they don\u2019t know it\u2019s about them.\"\n\n- via Apple Music <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Matilda\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

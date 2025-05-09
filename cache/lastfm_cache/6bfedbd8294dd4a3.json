@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:38:52.604792+00:00",
+  "elapsed": 0.211894,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:52.604792+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "934",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SODA+LUV&format=json&method=track.getInfo&track=%D0%AF%D0%9B%D0%A0%D0%A1"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SODA+LUV&format=json&method=track.getInfo&track=%D0%AF%D0%9B%D0%A0%D0%A1",
+  "_decoded_content": {
+    "track": {
+      "name": "\u042f\u041b\u0420\u0421",
+      "url": "https:\/\/www.last.fm\/music\/SODA+LUV\/_\/%D0%AF%D0%9B%D0%A0%D0%A1",
+      "duration": "130000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2590",
+      "playcount": "22111",
+      "artist": {
+        "name": "SODA LUV",
+        "url": "https:\/\/www.last.fm\/music\/SODA+LUV"
+      },
+      "album": {
+        "artist": "SODA LUV",
+        "title": "\u041d\u0418\u0427\u0415\u0413\u041e \u041b\u0418\u0427\u041d\u041e\u0413\u041e 2",
+        "url": "https:\/\/www.last.fm\/music\/SODA+LUV\/%D0%9D%D0%98%D0%A7%D0%95%D0%93%D0%9E+%D0%9B%D0%98%D0%A7%D0%9D%D0%9E%D0%93%D0%9E+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/63ae7af4d2fa88fcc6b9a17a895125ed.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/63ae7af4d2fa88fcc6b9a17a895125ed.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/63ae7af4d2fa88fcc6b9a17a895125ed.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/63ae7af4d2fa88fcc6b9a17a895125ed.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

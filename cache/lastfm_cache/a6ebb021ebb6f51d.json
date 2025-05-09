@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:30:10.109713+00:00",
+  "elapsed": 0.210283,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:10.109713+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1013",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maluma&format=json&method=track.getInfo&track=Mala+M%C3%ADa"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maluma&format=json&method=track.getInfo&track=Mala+M%C3%ADa",
+  "_decoded_content": {
+    "track": {
+      "name": "Mala M\u00eda",
+      "url": "https:\/\/www.last.fm\/music\/Maluma\/_\/Mala+M%C3%ADa",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "64335",
+      "playcount": "387281",
+      "artist": {
+        "name": "Maluma",
+        "mbid": "e8979f75-9110-4df8-ac70-898898d080d1",
+        "url": "https:\/\/www.last.fm\/music\/Maluma"
+      },
+      "album": {
+        "artist": "Maluma",
+        "title": "Mala M\u00eda - Single",
+        "url": "https:\/\/www.last.fm\/music\/Maluma\/Mala+M%C3%ADa+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fbba8f99a7b73f920aa810e9bad602bc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fbba8f99a7b73f920aa810e9bad602bc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fbba8f99a7b73f920aa810e9bad602bc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fbba8f99a7b73f920aa810e9bad602bc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "2018 single",
+            "url": "https:\/\/www.last.fm\/tag\/2018+single"
+          }
+        ]
+      }
+    }
+  }
+}

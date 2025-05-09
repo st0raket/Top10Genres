@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:03.257355+00:00",
+  "elapsed": 0.186595,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:03.257355+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2465",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bob+Marley+%26+The+Wailers&format=json&method=track.getInfo&track=Could+You+Be+Loved"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bob+Marley+%26+The+Wailers&format=json&method=track.getInfo&track=Could+You+Be+Loved",
+  "_decoded_content": {
+    "track": {
+      "name": "Could You Be Loved",
+      "mbid": "624049bf-73f5-48b5-a0c7-d00ef7e5db76",
+      "url": "https:\/\/www.last.fm\/music\/Bob+Marley+&+The+Wailers\/_\/Could+You+Be+Loved",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1180319",
+      "playcount": "7674974",
+      "artist": {
+        "name": "Bob Marley & The Wailers",
+        "mbid": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+        "url": "https:\/\/www.last.fm\/music\/Bob+Marley+&+The+Wailers"
+      },
+      "album": {
+        "artist": "Bob Marley & The Wailers",
+        "title": "Legend",
+        "mbid": "4ccca10d-45dd-31f7-8d34-ff97d09f8a2b",
+        "url": "https:\/\/www.last.fm\/music\/Bob+Marley+&+The+Wailers\/Legend",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/06e6ef0df1724b3acb7f396d239e197e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/06e6ef0df1724b3acb7f396d239e197e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/06e6ef0df1724b3acb7f396d239e197e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/06e6ef0df1724b3acb7f396d239e197e.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "reggae",
+            "url": "https:\/\/www.last.fm\/tag\/reggae"
+          },
+          {
+            "name": "Bob Marley",
+            "url": "https:\/\/www.last.fm\/tag\/Bob+Marley"
+          },
+          {
+            "name": "roots reggae",
+            "url": "https:\/\/www.last.fm\/tag\/roots+reggae"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "jamaican",
+            "url": "https:\/\/www.last.fm\/tag\/jamaican"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Oct 2013, 17:50",
+        "summary": "\u201cCould You Be Loved\u201d is a song by reggae group Bob Marley & the Wailers. It was released in 1980 on their last album Uprising. \n\nThe song was written in 1979 on an airplane while The Wailers were experimenting on guitar. The song is considered by many reggae fans to be disco influenced, and by extension influencing the dancehall genre <a href=\"http:\/\/www.last.fm\/music\/Bob+Marley+&+The+Wailers\/_\/Could+You+Be+Loved\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCould You Be Loved\u201d is a song by reggae group Bob Marley & the Wailers. It was released in 1980 on their last album Uprising. \n\nThe song was written in 1979 on an airplane while The Wailers were experimenting on guitar. The song is considered by many reggae fans to be disco influenced, and by extension influencing the dancehall genre <a href=\"http:\/\/www.last.fm\/music\/Bob+Marley+&+The+Wailers\/_\/Could+You+Be+Loved\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

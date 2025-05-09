@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:42:36.188996+00:00",
+  "elapsed": 0.179671,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:36.188996+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "957",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=WizTheMc&format=json&method=track.getInfo&track=Show+Me+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=WizTheMc&format=json&method=track.getInfo&track=Show+Me+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Show Me Love",
+      "url": "https:\/\/www.last.fm\/music\/WizTheMc\/_\/Show+Me+Love",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "127858",
+      "playcount": "716099",
+      "artist": {
+        "name": "WizTheMc",
+        "url": "https:\/\/www.last.fm\/music\/WizTheMc"
+      },
+      "album": {
+        "artist": "WizTheMc & bees & honey",
+        "title": "Show Me Love - Single",
+        "url": "https:\/\/www.last.fm\/music\/WizTheMc+&+bees+&+honey\/Show+Me+Love+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a2f2d6ec048d42b03abdab11f95ebb8a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a2f2d6ec048d42b03abdab11f95ebb8a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a2f2d6ec048d42b03abdab11f95ebb8a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a2f2d6ec048d42b03abdab11f95ebb8a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Chill House",
+            "url": "https:\/\/www.last.fm\/tag\/Chill+House"
+          }
+        ]
+      }
+    }
+  }
+}

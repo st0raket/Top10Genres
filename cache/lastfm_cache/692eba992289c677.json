@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:42.644809+00:00",
+  "elapsed": 0.183443,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:42.644809+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2772",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burna+Boy&format=json&method=track.getInfo&track=Last+Last"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burna+Boy&format=json&method=track.getInfo&track=Last+Last",
+  "_decoded_content": {
+    "track": {
+      "name": "Last Last",
+      "url": "https:\/\/www.last.fm\/music\/Burna+Boy\/_\/Last+Last",
+      "duration": "172000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "198212",
+      "playcount": "1978291",
+      "artist": {
+        "name": "Burna Boy",
+        "url": "https:\/\/www.last.fm\/music\/Burna+Boy"
+      },
+      "album": {
+        "artist": "Burna Boy",
+        "title": "Last Last",
+        "url": "https:\/\/www.last.fm\/music\/Burna+Boy\/Last+Last",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ebb6dfef8ef2b06856d928586d576311.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ebb6dfef8ef2b06856d928586d576311.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ebb6dfef8ef2b06856d928586d576311.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ebb6dfef8ef2b06856d928586d576311.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "afro-fusion",
+            "url": "https:\/\/www.last.fm\/tag\/afro-fusion"
+          },
+          {
+            "name": "afrobeats",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeats"
+          },
+          {
+            "name": "toni braxton sample",
+            "url": "https:\/\/www.last.fm\/tag\/toni+braxton+sample"
+          },
+          {
+            "name": "burna boy",
+            "url": "https:\/\/www.last.fm\/tag\/burna+boy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Aug 2022, 10:37",
+        "summary": "\"Last Last\" is a song by Nigerian singer Burna Boy. It was released through Atlantic Records on 13 May 2022 as the first single from his sixth studio album, Love, Damini. The song samples American singer Toni Braxton's 2000 single, \"He Wasn't Man Enough\", for which its writers LaShawn Daniels, Harvey Mason Jr., and brothers Fred Jerkins III and Darkchild are credited on \"Last Last\". Burna Boy co-wrote the song with producers Off & Out (brothers Mikael and Samuel Haataja), Chopstix, MdS, and Ruuben. <a href=\"http:\/\/www.last.fm\/music\/Burna+Boy\/_\/Last+Last\">Read more on Last.fm<\/a>.",
+        "content": "\"Last Last\" is a song by Nigerian singer Burna Boy. It was released through Atlantic Records on 13 May 2022 as the first single from his sixth studio album, Love, Damini. The song samples American singer Toni Braxton's 2000 single, \"He Wasn't Man Enough\", for which its writers LaShawn Daniels, Harvey Mason Jr., and brothers Fred Jerkins III and Darkchild are credited on \"Last Last\". Burna Boy co-wrote the song with producers Off & Out (brothers Mikael and Samuel Haataja), Chopstix, MdS, and Ruuben. Burna Boy notably performed the song at the 2022 Billboard Music Awards two days after its release.\n\nThe official music video for \"Last Last\", directed by Burna Boy himself, was released alongside the song on 13 May 2022. <a href=\"http:\/\/www.last.fm\/music\/Burna+Boy\/_\/Last+Last\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

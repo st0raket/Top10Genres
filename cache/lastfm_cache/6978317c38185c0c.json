@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:29:59.321740+00:00",
+  "elapsed": 0.193791,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:59.321740+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2034",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Carters&format=json&method=track.getInfo&track=BOSS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Carters&format=json&method=track.getInfo&track=BOSS",
+  "_decoded_content": {
+    "track": {
+      "name": "Boss",
+      "url": "https:\/\/www.last.fm\/music\/The+Carters\/_\/Boss",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "132493",
+      "playcount": "979438",
+      "artist": {
+        "name": "The Carters",
+        "mbid": "856cec57-ac22-493d-8d01-29236cbac55d",
+        "url": "https:\/\/www.last.fm\/music\/The+Carters"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "ty dolla sign",
+            "url": "https:\/\/www.last.fm\/tag\/ty+dolla+sign"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Dec 2021, 15:06",
+        "summary": "\"Boss\" is a song by American Hip-Hop\/R&B duo The Carters (Beyonc\u00e9 & JAY-Z), from their debut album EVERYTHING IS LOVE where it's the third track on the album.  \nOn the Billboard Hot 100 charts \"Boss\" debuted and peaked at 77 and was ultimately certified Gold by the Recording Industry Association of America (RIAA).\nDuring this braggadocious banger Jay-Z and Beyonce boast about how their successful careers in the music industry has enabled them to take total of their lives. The power couple are top dogs and responsible to no one else. <a href=\"http:\/\/www.last.fm\/music\/The+Carters\/_\/Boss\">Read more on Last.fm<\/a>.",
+        "content": "\"Boss\" is a song by American Hip-Hop\/R&B duo The Carters (Beyonc\u00e9 & JAY-Z), from their debut album EVERYTHING IS LOVE where it's the third track on the album.  \nOn the Billboard Hot 100 charts \"Boss\" debuted and peaked at 77 and was ultimately certified Gold by the Recording Industry Association of America (RIAA).\nDuring this braggadocious banger Jay-Z and Beyonce boast about how their successful careers in the music industry has enabled them to take total of their lives. The power couple are top dogs and responsible to no one else. <a href=\"http:\/\/www.last.fm\/music\/The+Carters\/_\/Boss\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:50.163515+00:00",
+  "elapsed": 0.215655,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:50.163515+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2300",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Intro"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Intro",
+  "_decoded_content": {
+    "track": {
+      "name": "Intro",
+      "mbid": "70407848-29ff-44ee-ae0d-2833a1bd3ed0",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Intro",
+      "duration": "69000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "262043",
+      "playcount": "2163844",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "Comeback Season",
+        "mbid": "15ec940e-39e8-4948-9a7d-a82e2661431b",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/Comeback+Season",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/61e55e4e59be46e2c6c4fb56beb9b945.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/61e55e4e59be46e2c6c4fb56beb9b945.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/61e55e4e59be46e2c6c4fb56beb9b945.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/61e55e4e59be46e2c6c4fb56beb9b945.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "ambient",
+            "url": "https:\/\/www.last.fm\/tag\/ambient"
+          },
+          {
+            "name": "intro",
+            "url": "https:\/\/www.last.fm\/tag\/intro"
+          },
+          {
+            "name": "cool jazz",
+            "url": "https:\/\/www.last.fm\/tag\/cool+jazz"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2022, 19:42",
+        "summary": "\u201cIntro\u201d is the opening track to Drake\u2019s seventh studio album, \u201cHonestly, Nevermind\u201d.\n\nIt encloses an instrumental track with an ambient and luxurious sound produced by Kid Masterpiece, who previously worked with Drake on \u201cN 2 Deep,\u201d from the recent Certified Lover Boy, that ironically was released nine months before this very album. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Intro\">Read more on Last.fm<\/a>.",
+        "content": "\u201cIntro\u201d is the opening track to Drake\u2019s seventh studio album, \u201cHonestly, Nevermind\u201d.\n\nIt encloses an instrumental track with an ambient and luxurious sound produced by Kid Masterpiece, who previously worked with Drake on \u201cN 2 Deep,\u201d from the recent Certified Lover Boy, that ironically was released nine months before this very album. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Intro\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

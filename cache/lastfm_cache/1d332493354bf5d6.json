@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:34:03.241101+00:00",
+  "elapsed": 0.229017,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:03.241101+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1018",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JONY&format=json&method=track.getInfo&track=%D0%9C%D0%B8%D1%80+%D1%81%D0%BE%D1%88%D1%91%D0%BB+%D1%81+%D1%83%D0%BC%D0%B0"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JONY&format=json&method=track.getInfo&track=%D0%9C%D0%B8%D1%80+%D1%81%D0%BE%D1%88%D1%91%D0%BB+%D1%81+%D1%83%D0%BC%D0%B0",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041c\u0438\u0440 \u0441\u043e\u0448\u0451\u043b \u0441 \u0443\u043c\u0430",
+      "url": "https:\/\/www.last.fm\/music\/Jony\/_\/%D0%9C%D0%B8%D1%80+%D1%81%D0%BE%D1%88%D1%91%D0%BB+%D1%81+%D1%83%D0%BC%D0%B0",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "8243",
+      "playcount": "63973",
+      "artist": {
+        "name": "Jony",
+        "mbid": "afe5fb73-9453-4b9a-a963-73721ad1b184",
+        "url": "https:\/\/www.last.fm\/music\/Jony"
+      },
+      "album": {
+        "artist": "Jony",
+        "title": "\u041d\u0435\u0431\u0435\u0441\u043d\u044b\u0435 \u0440\u043e\u0437\u044b",
+        "url": "https:\/\/www.last.fm\/music\/Jony\/%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D1%8B%D0%B5+%D1%80%D0%BE%D0%B7%D1%8B",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c842eb98c2f66b30181df050c731f7d4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c842eb98c2f66b30181df050c731f7d4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c842eb98c2f66b30181df050c731f7d4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c842eb98c2f66b30181df050c731f7d4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

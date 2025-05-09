@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:39.971922+00:00",
+  "elapsed": 0.277802,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:39.971922+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3125",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=6ix9ine&format=json&method=track.getInfo&track=GUMMO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=6ix9ine&format=json&method=track.getInfo&track=GUMMO",
+  "_decoded_content": {
+    "track": {
+      "name": "GUMMO",
+      "url": "https:\/\/www.last.fm\/music\/6ix9ine\/_\/GUMMO",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "212541",
+      "playcount": "1521957",
+      "artist": {
+        "name": "6ix9ine",
+        "url": "https:\/\/www.last.fm\/music\/6ix9ine"
+      },
+      "album": {
+        "artist": "6ix9ine",
+        "title": "GUMMO",
+        "url": "https:\/\/www.last.fm\/music\/6ix9ine\/GUMMO",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6e21a4442527cb012885aa9992b6387b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6e21a4442527cb012885aa9992b6387b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6e21a4442527cb012885aa9992b6387b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6e21a4442527cb012885aa9992b6387b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Dead Can Dance",
+            "url": "https:\/\/www.last.fm\/tag\/Dead+Can+Dance"
+          },
+          {
+            "name": "6ix9ine",
+            "url": "https:\/\/www.last.fm\/tag\/6ix9ine"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jan 2023, 04:11",
+        "summary": "\u201cGUMMO\u201d was the track that introduced Tekashi 6ix9ine to a mainstream rap audience for the first time and \u201cchanged [his] life\u201d.\n\nThe song\u2019s title is meant to draw a comparison between the way the characters in the film of the same name spend their time wandering an Ohio wasteland, to the way 6ix9ine wanders the decrepit streets of Brooklyn.\n\nThe song\u2019s instrumental was sent to 6ix9ine by Trippie Redd before their falling out over Tekashi\u2019s 2015 charge of use of a minor in a sexual performance. <a href=\"http:\/\/www.last.fm\/music\/6ix9ine\/_\/GUMMO\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGUMMO\u201d was the track that introduced Tekashi 6ix9ine to a mainstream rap audience for the first time and \u201cchanged [his] life\u201d.\n\nThe song\u2019s title is meant to draw a comparison between the way the characters in the film of the same name spend their time wandering an Ohio wasteland, to the way 6ix9ine wanders the decrepit streets of Brooklyn.\n\nThe song\u2019s instrumental was sent to 6ix9ine by Trippie Redd before their falling out over Tekashi\u2019s 2015 charge of use of a minor in a sexual performance. Pi'erre had no idea that his beat was being used by Tekashi, and only found out once the song\u2019s music video was already released on YouTube.\n\nPi'erre publicly objected to being associated with the song, citing 6ix9ine\u2019s previously mentioned child sex charges, and has since asserted that he will never work with Trippie Redd or 6ix9ine ever again.\n\nFor a long time, \u201cGUMMO\u201d was Tekashi\u2019s most viewed and streamed song. It reached over 300 million views on YouTube, and garnered over 100 million streams on SoundCloud, which lead to the track reaching the top spot on its streaming charts for all of December 2017 and January 2018. <a href=\"http:\/\/www.last.fm\/music\/6ix9ine\/_\/GUMMO\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

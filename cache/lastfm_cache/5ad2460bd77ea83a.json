@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:11.923298+00:00",
+  "elapsed": 0.183337,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:11.923298+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3396",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Breaking+Up+Slowly"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Breaking+Up+Slowly",
+  "_decoded_content": {
+    "track": {
+      "name": "Breaking Up Slowly",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Breaking+Up+Slowly",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "252303",
+      "playcount": "4257721",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Chemtrails Over the Country Club",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Chemtrails+Over+the+Country+Club",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/21143ab102d80288ecbd55a92a0f3fb0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "americana",
+            "url": "https:\/\/www.last.fm\/tag\/americana"
+          },
+          {
+            "name": "soft rock",
+            "url": "https:\/\/www.last.fm\/tag\/soft+rock"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jun 2021, 01:04",
+        "summary": "\"Breaking Up Slowly\" explores the difficult decision of ending a relationship that you still love. The chorus establishes that breaking up slowly is a difficult process and can make the person who is ending the relationship feel lonely, even though it is the right thing to do. The verses delve into the anxieties and uncertainties that come with this decision.\n\nIn the first verse, Nikki questions whether these are her good years and whether everyone has good years in their life. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Breaking+Up+Slowly\">Read more on Last.fm<\/a>.",
+        "content": "\"Breaking Up Slowly\" explores the difficult decision of ending a relationship that you still love. The chorus establishes that breaking up slowly is a difficult process and can make the person who is ending the relationship feel lonely, even though it is the right thing to do. The verses delve into the anxieties and uncertainties that come with this decision.\n\nIn the first verse, Nikki questions whether these are her good years and whether everyone has good years in their life. She expresses fear of living a life full of regret and not wanting to turn out like Tammy Wynette, a reference to the country music singer who had a tumultuous personal life.\n\nLana's verse explores the idea of a potential breakup, referencing a person named George getting arrested and leading to the possibility of ending the relationship after the song. She wonders if her partner will still love her after she's gone or if he saw the breakup coming all along.\n\nOverall, the song portrays the complexities of relationships and the challenges of making difficult decisions, despite still having love and affection for the other person. It emphasizes the importance of doing what is right for oneself, even if it is not easy.\n\nThe song features American singer Nikki Lane. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Breaking+Up+Slowly\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

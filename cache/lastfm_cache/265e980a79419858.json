@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:39:00.295664+00:00",
+  "elapsed": 0.197389,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:00.295664+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2039",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KAROL+G&format=json&method=track.getInfo&track=TQG"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KAROL+G&format=json&method=track.getInfo&track=TQG",
+  "_decoded_content": {
+    "track": {
+      "name": "TQG",
+      "url": "https:\/\/www.last.fm\/music\/Karol+G\/_\/TQG",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "345716",
+      "playcount": "3800472",
+      "artist": {
+        "name": "Karol G",
+        "url": "https:\/\/www.last.fm\/music\/Karol+G"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "Shakira",
+            "url": "https:\/\/www.last.fm\/tag\/Shakira"
+          },
+          {
+            "name": "spanish",
+            "url": "https:\/\/www.last.fm\/tag\/spanish"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Mar 2023, 02:04",
+        "summary": "\"TQG\" (acronym for \"Te Qued\u00f3 Grande\") is a song by Colombian singer-songwriters Karol G and Shakira. The song was released on February 24, 2023, through Universal Music Latino, as the fifth single from Karol G's fourth studio album, Ma\u00f1ana Ser\u00e1 Bonito.\n\nFirst rumors of a Karol G and Shakira collaboration started circulating in January 2023. On February 14, Shakhia wished Karol G a happy birthday on social media similar to how she did for her previous collaboration with Bizarrap for volume 53 of his music sessions. <a href=\"http:\/\/www.last.fm\/music\/Karol+G\/_\/TQG\">Read more on Last.fm<\/a>.",
+        "content": "\"TQG\" (acronym for \"Te Qued\u00f3 Grande\") is a song by Colombian singer-songwriters Karol G and Shakira. The song was released on February 24, 2023, through Universal Music Latino, as the fifth single from Karol G's fourth studio album, Ma\u00f1ana Ser\u00e1 Bonito.\n\nFirst rumors of a Karol G and Shakira collaboration started circulating in January 2023. On February 14, Shakhia wished Karol G a happy birthday on social media similar to how she did for her previous collaboration with Bizarrap for volume 53 of his music sessions. The song was reported to contain messages to their ex-boyfriends, Anuel AA and Gerard Piqu\u00e9. <a href=\"http:\/\/www.last.fm\/music\/Karol+G\/_\/TQG\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

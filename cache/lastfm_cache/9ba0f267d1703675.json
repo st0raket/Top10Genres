@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:50.971325+00:00",
+  "elapsed": 0.207182,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:50.971325+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "867",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burna+Boy&format=json&method=track.getInfo&track=On+Form"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burna+Boy&format=json&method=track.getInfo&track=On+Form",
+  "_decoded_content": {
+    "track": {
+      "name": "On Form",
+      "url": "https:\/\/www.last.fm\/music\/Burna+Boy\/_\/On+Form",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "18717",
+      "playcount": "123641",
+      "artist": {
+        "name": "Burna Boy",
+        "url": "https:\/\/www.last.fm\/music\/Burna+Boy"
+      },
+      "album": {
+        "artist": "Burna Boy",
+        "title": "I Told Them... [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Burna+Boy\/I+Told+Them...+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6b3e7a0106b38c2e16293c9110096090.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6b3e7a0106b38c2e16293c9110096090.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6b3e7a0106b38c2e16293c9110096090.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6b3e7a0106b38c2e16293c9110096090.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

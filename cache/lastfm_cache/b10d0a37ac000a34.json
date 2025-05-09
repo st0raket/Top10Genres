@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:47.913791+00:00",
+  "elapsed": 0.413809,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:47.913791+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1677",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Katy+Perry&format=json&method=track.getInfo&track=Cozy+Little+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Katy+Perry&format=json&method=track.getInfo&track=Cozy+Little+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Cozy Little Christmas",
+      "url": "https:\/\/www.last.fm\/music\/Katy+Perry\/_\/Cozy+Little+Christmas",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "214994",
+      "playcount": "1123196",
+      "artist": {
+        "name": "Katy Perry",
+        "mbid": "122d63fc-8671-43e4-9752-34e846d62a9c",
+        "url": "https:\/\/www.last.fm\/music\/Katy+Perry"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "The Best Christmas Album in the World...Ever!",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/The+Best+Christmas+Album+in+the+World...Ever%21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7d4304be5f1c0723f41ca9265dd9fcde.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7d4304be5f1c0723f41ca9265dd9fcde.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7d4304be5f1c0723f41ca9265dd9fcde.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7d4304be5f1c0723f41ca9265dd9fcde.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "katy perry",
+            "url": "https:\/\/www.last.fm\/tag\/katy+perry"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Nov 2018, 19:52",
+        "summary": " <a href=\"http:\/\/www.last.fm\/music\/Katy+Perry\/_\/Cozy+Little+Christmas\">Read more on Last.fm<\/a>.",
+        "content": " <a href=\"http:\/\/www.last.fm\/music\/Katy+Perry\/_\/Cozy+Little+Christmas\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

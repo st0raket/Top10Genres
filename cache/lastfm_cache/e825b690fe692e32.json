@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:28.966361+00:00",
+  "elapsed": 0.262613,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:28.966361+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6312",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JIN&format=json&method=track.getInfo&track=The+Astronaut"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JIN&format=json&method=track.getInfo&track=The+Astronaut",
+  "_decoded_content": {
+    "track": {
+      "name": "The Astronaut",
+      "url": "https:\/\/www.last.fm\/music\/Jin\/_\/The+Astronaut",
+      "duration": "282000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "257907",
+      "playcount": "90667084",
+      "artist": {
+        "name": "Jin",
+        "mbid": "bd9e7f29-d80b-443d-9ce0-6153b8179022",
+        "url": "https:\/\/www.last.fm\/music\/Jin"
+      },
+      "album": {
+        "artist": "Jin",
+        "title": "The Astronaut",
+        "url": "https:\/\/www.last.fm\/music\/Jin\/The+Astronaut",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0fe6ceb1724e7c44f483413b011b391e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0fe6ceb1724e7c44f483413b011b391e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0fe6ceb1724e7c44f483413b011b391e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0fe6ceb1724e7c44f483413b011b391e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "jin",
+            "url": "https:\/\/www.last.fm\/tag\/jin"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "my love",
+            "url": "https:\/\/www.last.fm\/tag\/my+love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Oct 2022, 15:37",
+        "summary": "\"The Astronaut\" is a song by South Korean singer Jin of BTS released on October 28, 2022, as his debut solo single. The song features writing credits by British rock band Coldplay, who previously collaborated with BTS on \"My Universe\", and Norwegian DJ Kygo, who produced the track with Bill Rahko.\n\nDescribed as \"a gift to fans\", it was released ahead of Jin's enlistment, which is set to occur shortly afterwards. The single is available digitally and in CD format. <a href=\"http:\/\/www.last.fm\/music\/Jin\/_\/The+Astronaut\">Read more on Last.fm<\/a>.",
+        "content": "\"The Astronaut\" is a song by South Korean singer Jin of BTS released on October 28, 2022, as his debut solo single. The song features writing credits by British rock band Coldplay, who previously collaborated with BTS on \"My Universe\", and Norwegian DJ Kygo, who produced the track with Bill Rahko.\n\nDescribed as \"a gift to fans\", it was released ahead of Jin's enlistment, which is set to occur shortly afterwards. The single is available digitally and in CD format.\n\nOn October 15, 2022, during BTS' Yet to Come in Busan free concert, Jin revealed that he would be the next band member after J-Hope, to release an official solo work. Addressing the audience, he said \"It's not a huge album or anything, it's just a single. I was able to work together with someone that I'd always really liked, so I'll be releasing a new song.\" The following day, Big Hit Music posted a notice confirming BTS would be moving ahead with plans to fulfill their mandatory military service and that Jin would be the first member to enlist following the completion of promotions for his solo release. Several articles subsequently published by Korean news media reported that the song was gifted to Jin by Coldplay and would be released at the end of the month, despite Big Hit not having provided any details about the single at the time. Initial statements from the label in response to all the speculation neither confirmed nor denied the reports, with the company only saying that details would be provided at a later date\u2014it eventually confirmed the month-end date to Newsen and YTN.\n\nBig Hit officially announced the single via Weverse on October 18, and said it is meant to be a \"gift\" to Jin's fans, ARMY. A promotion schedule outlining the rollout for the single, titled \"The Astronaut\", was published later that same day. Image previews of the physical single's contents, posted by the label shortly before the preorder period began, appeared to \"leak\" credited personnel on the track, including Max Martin, Kygo, Chris Martin, Moses Martin, and James Keys. The single's official poster, shared the next day, confirmed that the song was a collaboration between Jin and Coldplay\u2014both artists were listed as co-writers on the graphic. The first of three sets of concept photos was released on October 23. Titled \"Outlander\", the images showed Jin \"standing amid green shrubbery\" surrounded by planet-shaped props while \"holding a large Jupiter-like sphere\" then \"posing against a starry blue background\". The second set of concept photos\u2014titled \"Lunar Eclipse\"\u2014was posted the next day and featured Jin styled with his hair brushed back, in all black, wearing a leather jacket and \"classic white Converse hi-tops\", which Uproxx described as \"giv[ing] off a simple, modern look to your ordinary greaser.\" A music video teaser followed on October 26.\n\n\"The Astronaut\" is available digitally and as a CD single. Two versions of the CD were released. Both include a photobook, lyric card, postcard, stickers, a photo card, and a poster. A Target-exclusive edition was also released. The pre-order period for the CD opened on October 19.\n\nA 2-minute-long Logo Trailer was released on YouTube the day of the single's official announcement. The clip features a tiny astronaut exiting the hatch of an A-shaped space station high in orbit above the Earth. He slowly drifts into the \"dark expanse of space\" then travels \"through a meteor shower, past moons and planets, satellites and asteroid fields\"\u2014at one point a dog resembling Jin's late pet Jjangu is also seen on a meteroid\u2014at increasing velocities, before coming upon an \"otherworldly source of light\" which then completely envelops him in a bright purple haze. A stylized logo of the song's title appears onscreen and the clip ends.\n\nPer the single's promotion schedule, a music video teaser was released on October 26. The 38-second-long short clip shows Jin staring off into the distance while sitting atop a hill overlooking a barren landscape. A helmet is seen on the ground next to him. The camera angle changes to reveal a giant, crashed flying saucer burning on the plane before him. Chris Martin makes a brief cameo in one scene, as a television newscaster who announces the sighting of the light beam. A lyric video released on October 30. <a href=\"http:\/\/www.last.fm\/music\/Jin\/_\/The+Astronaut\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

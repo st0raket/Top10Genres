@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:41:30.741325+00:00",
+  "elapsed": 0.244246,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:30.741325+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1004",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kapo&format=json&method=track.getInfo&track=Ohnana"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kapo&format=json&method=track.getInfo&track=Ohnana",
+  "_decoded_content": {
+    "track": {
+      "name": "Ohnana",
+      "url": "https:\/\/www.last.fm\/music\/Kapo\/_\/Ohnana",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "54008",
+      "playcount": "296839",
+      "artist": {
+        "name": "Kapo",
+        "url": "https:\/\/www.last.fm\/music\/Kapo"
+      },
+      "album": {
+        "artist": "Kapo",
+        "title": "Ohnana - Single",
+        "url": "https:\/\/www.last.fm\/music\/Kapo\/Ohnana+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a605266a850a394047f7d125eb9b2c9f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a605266a850a394047f7d125eb9b2c9f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a605266a850a394047f7d125eb9b2c9f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a605266a850a394047f7d125eb9b2c9f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "Colombia",
+            "url": "https:\/\/www.last.fm\/tag\/Colombia"
+          },
+          {
+            "name": "Urbano Latino",
+            "url": "https:\/\/www.last.fm\/tag\/Urbano+Latino"
+          }
+        ]
+      }
+    }
+  }
+}

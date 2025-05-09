@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:01.113545+00:00",
+  "elapsed": 0.210726,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:01.113545+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2833",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Cure&format=json&method=track.getInfo&track=Alone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Cure&format=json&method=track.getInfo&track=Alone",
+  "_decoded_content": {
+    "track": {
+      "name": "Alone",
+      "url": "https:\/\/www.last.fm\/music\/The+Cure\/_\/Alone",
+      "duration": "415000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "175851",
+      "playcount": "743393",
+      "artist": {
+        "name": "The Cure",
+        "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+        "url": "https:\/\/www.last.fm\/music\/The+Cure"
+      },
+      "album": {
+        "artist": "The Cure",
+        "title": "2022-11-06: Arena de Gen\u00e8ve, Geneva, Switzerland",
+        "url": "https:\/\/www.last.fm\/music\/The+Cure\/2022-11-06:+Arena+de+Gen%C3%A8ve,+Geneva,+Switzerland",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8e24f0a06e27ebe6271b381ec24f50ed.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8e24f0a06e27ebe6271b381ec24f50ed.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8e24f0a06e27ebe6271b381ec24f50ed.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8e24f0a06e27ebe6271b381ec24f50ed.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Gothic Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Gothic+Rock"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "ethereal wave",
+            "url": "https:\/\/www.last.fm\/tag\/ethereal+wave"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "post-punk",
+            "url": "https:\/\/www.last.fm\/tag\/post-punk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Sep 2024, 12:00",
+        "summary": "\"Alone\" is a song by English rock band the Cure. Released on 26 September 2024, it was the first new studio recording from the band in 16 years. \"Alone\" is the lead single from the band's record Songs of a Lost World (2024).\nRobert Smith explained \"It's the track that unlocked the record; as soon as we had that piece of music recorded I knew it was the opening song, and I felt the whole album come into focus,\" and further stated that \"I had been struggling to find the right opening line for the right opening song for a while <a href=\"http:\/\/www.last.fm\/music\/The+Cure\/_\/Alone\">Read more on Last.fm<\/a>.",
+        "content": "\"Alone\" is a song by English rock band the Cure. Released on 26 September 2024, it was the first new studio recording from the band in 16 years. \"Alone\" is the lead single from the band's record Songs of a Lost World (2024).\nRobert Smith explained \"It's the track that unlocked the record; as soon as we had that piece of music recorded I knew it was the opening song, and I felt the whole album come into focus,\" and further stated that \"I had been struggling to find the right opening line for the right opening song for a while, working with the simple idea of 'being alone', always in the back of my mind this nagging feeling that I already knew what the opening line should be.\"[ <a href=\"http:\/\/www.last.fm\/music\/The+Cure\/_\/Alone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

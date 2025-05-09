@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:34:30.503704+00:00",
+  "elapsed": 0.20199,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:30.503704+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "883",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NAV&format=json&method=track.getInfo&track=Don%27t+Need+Friends"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NAV&format=json&method=track.getInfo&track=Don%27t+Need+Friends",
+  "_decoded_content": {
+    "track": {
+      "name": "Don't Need Friends",
+      "url": "https:\/\/www.last.fm\/music\/NAV\/_\/Don%27t+Need+Friends",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "835",
+      "playcount": "4435",
+      "artist": {
+        "name": "NAV",
+        "mbid": "8cc34dfe-aa43-4245-bc3b-8b09bc76df65",
+        "url": "https:\/\/www.last.fm\/music\/NAV"
+      },
+      "album": {
+        "artist": "NAV",
+        "title": "Emergency Tsunami",
+        "url": "https:\/\/www.last.fm\/music\/NAV\/Emergency+Tsunami",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e758821a7b8c0a8fcdc651415d5aca06.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e758821a7b8c0a8fcdc651415d5aca06.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e758821a7b8c0a8fcdc651415d5aca06.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e758821a7b8c0a8fcdc651415d5aca06.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

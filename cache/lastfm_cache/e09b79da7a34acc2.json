@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:27:56.683890+00:00",
+  "elapsed": 1.031736,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:56.683890+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2894",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alan+Walker&format=json&method=track.getInfo&track=Alone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alan+Walker&format=json&method=track.getInfo&track=Alone",
+  "_decoded_content": {
+    "track": {
+      "name": "Alone",
+      "url": "https:\/\/www.last.fm\/music\/Alan+Walker\/_\/Alone",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "298587",
+      "playcount": "2310681",
+      "artist": {
+        "name": "Alan Walker",
+        "url": "https:\/\/www.last.fm\/music\/Alan+Walker"
+      },
+      "album": {
+        "artist": "Alan Walker",
+        "title": "Alone",
+        "url": "https:\/\/www.last.fm\/music\/Alan+Walker\/Alone",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/913313c540b713755a222464599583b6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/913313c540b713755a222464599583b6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/913313c540b713755a222464599583b6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/913313c540b713755a222464599583b6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "norwegian",
+            "url": "https:\/\/www.last.fm\/tag\/norwegian"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Nov 2023, 23:22",
+        "summary": "\"Alone\" is a song by Norwegian record producer and DJ Alan Walker, which incorporates uncredited vocals provided by Swedish singer Noonie Bao. It was released commercially for digital download on 2 December 2016. \n\nFollowing the release of \"Alone\", two sequels to the song were released: \"Alone, Pt. II\" (2019), which features American singer Ava Max and \"Better Off (Alone, Pt. III)\" (2023), which is a collaboration with Dutch electronic music group Dash Berlin and British YouTuber Vikram Barn, better known as Vikkstar. <a href=\"http:\/\/www.last.fm\/music\/Alan+Walker\/_\/Alone\">Read more on Last.fm<\/a>.",
+        "content": "\"Alone\" is a song by Norwegian record producer and DJ Alan Walker, which incorporates uncredited vocals provided by Swedish singer Noonie Bao. It was released commercially for digital download on 2 December 2016. \n\nFollowing the release of \"Alone\", two sequels to the song were released: \"Alone, Pt. II\" (2019), which features American singer Ava Max and \"Better Off (Alone, Pt. III)\" (2023), which is a collaboration with Dutch electronic music group Dash Berlin and British YouTuber Vikram Barn, better known as Vikkstar.\n\nIn a press release on 2 December, Walker stated: \"For me, Alone is about cohesion. A song that praises the feeling and comfort of solidarity. When I started making music it was never about to be any (particular), but about creating something for others who could enjoy it with me. What I have experienced by making music and sharing it with (others) are stunning.\" <a href=\"http:\/\/www.last.fm\/music\/Alan+Walker\/_\/Alone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

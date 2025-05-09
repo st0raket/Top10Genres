@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:08.703043+00:00",
+  "elapsed": 0.20468,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:08.703043+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1998",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Myself"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Myself",
+  "_decoded_content": {
+    "track": {
+      "name": "Myself",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Myself",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "194049",
+      "playcount": "1470032",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Post Malone",
+        "title": "Hollywood's Bleeding",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone\/Hollywood%27s+Bleeding",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Nov 2020, 18:27",
+        "summary": "\u201cMyself\u201d is a calm Post Malone track which reflects on his journey to stardom. A strong, catchy drumbeat dominates the track, as Post looks back on the realities of his success, which includes touring the world and spending excess amounts of money. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Myself\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMyself\u201d is a calm Post Malone track which reflects on his journey to stardom. A strong, catchy drumbeat dominates the track, as Post looks back on the realities of his success, which includes touring the world and spending excess amounts of money. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Myself\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

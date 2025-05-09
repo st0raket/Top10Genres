@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:34.683442+00:00",
+  "elapsed": 0.221784,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:34.683442+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1375",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=Enemy+-+From+the+series+Arcane+League+of+Legends"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=Enemy+-+From+the+series+Arcane+League+of+Legends",
+  "_decoded_content": {
+    "track": {
+      "name": "Enemy - from the series Arcane League of Legends",
+      "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/Enemy+-+from+the+series+Arcane+League+of+Legends",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "275377",
+      "playcount": "2632919",
+      "artist": {
+        "name": "Imagine Dragons",
+        "mbid": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+        "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "not indie",
+            "url": "https:\/\/www.last.fm\/tag\/not+indie"
+          },
+          {
+            "name": "corny",
+            "url": "https:\/\/www.last.fm\/tag\/corny"
+          },
+          {
+            "name": "shit",
+            "url": "https:\/\/www.last.fm\/tag\/shit"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Nov 2021, 12:15",
+        "summary": "Imagine Dragons released a solo version of \"Enemy\", which features a new bridge. It's also the radio edit of the song. <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/Enemy+-+from+the+series+Arcane+League+of+Legends\">Read more on Last.fm<\/a>.",
+        "content": "Imagine Dragons released a solo version of \"Enemy\", which features a new bridge. It's also the radio edit of the song. <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/Enemy+-+from+the+series+Arcane+League+of+Legends\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

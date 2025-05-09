@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:28:46.658790+00:00",
+  "elapsed": 0.208165,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:46.658790+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2045",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=Run+Up+the+Racks"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=Run+Up+the+Racks",
+  "_decoded_content": {
+    "track": {
+      "name": "Run Up the Racks",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/Run+Up+the+Racks",
+      "duration": "189000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "113032",
+      "playcount": "713642",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "album": {
+        "artist": "21 Savage",
+        "title": "Without Warning",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage\/Without+Warning",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/abcd3cac41c44f779f28ec745ed0e147.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          },
+          {
+            "name": "horror synth",
+            "url": "https:\/\/www.last.fm\/tag\/horror+synth"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 23:56",
+        "summary": "\u201cRun Up the racks\u201d is 21 Savage\u2019s way of showing that he has become more successful and mentions things that comes along with it. He also tells us about his life before he became famous where killing, fear and criminal activities were present. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/Run+Up+the+Racks\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRun Up the racks\u201d is 21 Savage\u2019s way of showing that he has become more successful and mentions things that comes along with it. He also tells us about his life before he became famous where killing, fear and criminal activities were present. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/Run+Up+the+Racks\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

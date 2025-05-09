@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:30:31.354781+00:00",
+  "elapsed": 0.536318,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:31.354781+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1770",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=BIGGEST+ALLEY+OOP"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=BIGGEST+ALLEY+OOP",
+  "_decoded_content": {
+    "track": {
+      "name": "BIGGEST ALLEY OOP",
+      "url": "https:\/\/www.last.fm\/music\/Quavo\/_\/BIGGEST+ALLEY+OOP",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "50597",
+      "playcount": "323727",
+      "artist": {
+        "name": "Quavo",
+        "url": "https:\/\/www.last.fm\/music\/Quavo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Back to Rap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Back+to+Rap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0e5fef3225ddbb33800cd95a107a17fd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0e5fef3225ddbb33800cd95a107a17fd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0e5fef3225ddbb33800cd95a107a17fd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0e5fef3225ddbb33800cd95a107a17fd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 21:21",
+        "summary": "\u201cBIGGEST ALLEY OOP\u201d is the intro to Quavo\u2019s debut solo album. In his interview with Angie Martinez, Quavo described his three promotional singles as an \u201calley-oop for the biggest slam dunk in the game,\u201d which was a subtle reference to this song. <a href=\"http:\/\/www.last.fm\/music\/Quavo\/_\/BIGGEST+ALLEY+OOP\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBIGGEST ALLEY OOP\u201d is the intro to Quavo\u2019s debut solo album. In his interview with Angie Martinez, Quavo described his three promotional singles as an \u201calley-oop for the biggest slam dunk in the game,\u201d which was a subtle reference to this song. <a href=\"http:\/\/www.last.fm\/music\/Quavo\/_\/BIGGEST+ALLEY+OOP\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

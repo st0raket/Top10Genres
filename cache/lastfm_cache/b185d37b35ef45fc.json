@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:29:01.373986+00:00",
+  "elapsed": 0.210559,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:01.373986+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "814",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ufo361&format=json&method=track.getInfo&track=1+Schuss"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ufo361&format=json&method=track.getInfo&track=1+Schuss",
+  "_decoded_content": {
+    "track": {
+      "name": "1 Schuss",
+      "url": "https:\/\/www.last.fm\/music\/Ufo361\/_\/1+Schuss",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4739",
+      "playcount": "31827",
+      "artist": {
+        "name": "Ufo361",
+        "url": "https:\/\/www.last.fm\/music\/Ufo361"
+      },
+      "album": {
+        "artist": "Ufo361",
+        "title": "1 Schuss",
+        "url": "https:\/\/www.last.fm\/music\/Ufo361\/1+Schuss",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f6c5c26367ca0b89564dd2b3820fb6e6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f6c5c26367ca0b89564dd2b3820fb6e6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f6c5c26367ca0b89564dd2b3820fb6e6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f6c5c26367ca0b89564dd2b3820fb6e6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

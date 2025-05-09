@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:24.452381+00:00",
+  "elapsed": 0.201887,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:24.452381+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2550",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Mourning"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Mourning",
+  "_decoded_content": {
+    "track": {
+      "name": "Mourning",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Mourning",
+      "duration": "147000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "236044",
+      "playcount": "2465645",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Post Malone",
+        "title": "Mourning",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone\/Mourning",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/65513c8fdd95b7b33d3c357dad36f4b3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/65513c8fdd95b7b33d3c357dad36f4b3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/65513c8fdd95b7b33d3c357dad36f4b3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/65513c8fdd95b7b33d3c357dad36f4b3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "post malone",
+            "url": "https:\/\/www.last.fm\/tag\/post+malone"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 May 2023, 06:12",
+        "summary": "\u201cMourning\u201d finds Post Malone surrounded by fake friends who only want to leach off his status and wealth. It dives into themes of alcoholism, while also dealing with the consequences of addiction. The song was released on May 19, 2023, as the second single from his fifth studio album, Austin.\n\nPost Malone first announced the song via his social media on May 16, 2023, along with the album\u2019s title. A day later, on May 17, he shared a new snippet of the song including some scenes from the official music video. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Mourning\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMourning\u201d finds Post Malone surrounded by fake friends who only want to leach off his status and wealth. It dives into themes of alcoholism, while also dealing with the consequences of addiction. The song was released on May 19, 2023, as the second single from his fifth studio album, Austin.\n\nPost Malone first announced the song via his social media on May 16, 2023, along with the album\u2019s title. A day later, on May 17, he shared a new snippet of the song including some scenes from the official music video. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Mourning\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

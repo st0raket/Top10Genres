@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:33:48.265810+00:00",
+  "elapsed": 0.217738,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:48.265810+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2529",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Gangstas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=Gangstas",
+  "_decoded_content": {
+    "track": {
+      "name": "GANGSTAS",
+      "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/_\/GANGSTAS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "198554",
+      "playcount": "2099158",
+      "artist": {
+        "name": "Pop Smoke",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Pop Smoke",
+            "url": "https:\/\/www.last.fm\/tag\/Pop+Smoke"
+          },
+          {
+            "name": "-1001408237435",
+            "url": "https:\/\/www.last.fm\/tag\/-1001408237435"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 22:46",
+        "summary": "On \u201cGangstas,\u201d Pop Smoke affirms his authenticity in the streets, rapping about his deadly crew from New York and staying strapped in case someone messes with him. The song appears to take shots at fellow New York rapper 6ix9ine, who\u2019s known for his \u201crainbow-colored hair\u201d and \u201cloud\u201d rapping as Pop notes in the song\u2019s intro.\n\nIn an August 2019 interview with Real 92.3, Pop commented on 6ix9ine\u2019s street cred and how he was pushed by other people into portraying someone he wasn\u2019t: <a href=\"http:\/\/www.last.fm\/music\/Pop+Smoke\/_\/GANGSTAS\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cGangstas,\u201d Pop Smoke affirms his authenticity in the streets, rapping about his deadly crew from New York and staying strapped in case someone messes with him. The song appears to take shots at fellow New York rapper 6ix9ine, who\u2019s known for his \u201crainbow-colored hair\u201d and \u201cloud\u201d rapping as Pop notes in the song\u2019s intro.\n\nIn an August 2019 interview with Real 92.3, Pop commented on 6ix9ine\u2019s street cred and how he was pushed by other people into portraying someone he wasn\u2019t:\n\n\"He was doing his thing. Niggas can\u2019t take that away from the homie. I don\u2019t think he was a real street nigga, you feel me? And I feel like that\u2019s where people fucked up by portraying, making him portray that shit. He\u2019s not a street nigga. I think he was trying to portray something he really didn\u2019t understand.\"\n\nAdditionally, in February 2020, Pop Smoke took jabs at 6ix9ine on social media while promoting his then-upcoming mixtape, Meet The Woo 2, where he claimed he didn\u2019t \u201cneed rainbow hair\u201d to sell records.\n\nThe song was leaked on June 29, 2020, four days before its official release. <a href=\"http:\/\/www.last.fm\/music\/Pop+Smoke\/_\/GANGSTAS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

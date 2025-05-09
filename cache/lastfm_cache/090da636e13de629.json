@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:32.917455+00:00",
+  "elapsed": 0.202795,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:32.917455+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2593",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trevor+Daniel&format=json&method=track.getInfo&track=Falling"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trevor+Daniel&format=json&method=track.getInfo&track=Falling",
+  "_decoded_content": {
+    "track": {
+      "name": "Falling",
+      "url": "https:\/\/www.last.fm\/music\/Trevor+Daniel\/_\/Falling",
+      "duration": "154000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "556633",
+      "playcount": "5408905",
+      "artist": {
+        "name": "Trevor Daniel",
+        "url": "https:\/\/www.last.fm\/music\/Trevor+Daniel"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Game Music",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Game+Music",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6fa4ca1d5cfcaab8dd8be56f5371a215.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6fa4ca1d5cfcaab8dd8be56f5371a215.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6fa4ca1d5cfcaab8dd8be56f5371a215.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6fa4ca1d5cfcaab8dd8be56f5371a215.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "trevor daniel",
+            "url": "https:\/\/www.last.fm\/tag\/trevor+daniel"
+          },
+          {
+            "name": "10s",
+            "url": "https:\/\/www.last.fm\/tag\/10s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Jun 2020, 06:54",
+        "summary": "\"Falling\" is a song by American singer Trevor Daniel, released as the lead single from his debut EP \"Homesick\" and his debut studio album \"Nicotine\", by Alamo Records, Internet Money Records, and Interscope Records on October 5, 2018. The song was produced by KC Supreme, Taz Taylor and Charlie Handsome. \n\nA year later, the song started gaining popularity on short-form mobile videos platform TikTok and subsequently was added on various Spotify playlists and Viral Charts. <a href=\"http:\/\/www.last.fm\/music\/Trevor+Daniel\/_\/Falling\">Read more on Last.fm<\/a>.",
+        "content": "\"Falling\" is a song by American singer Trevor Daniel, released as the lead single from his debut EP \"Homesick\" and his debut studio album \"Nicotine\", by Alamo Records, Internet Money Records, and Interscope Records on October 5, 2018. The song was produced by KC Supreme, Taz Taylor and Charlie Handsome. \n\nA year later, the song started gaining popularity on short-form mobile videos platform TikTok and subsequently was added on various Spotify playlists and Viral Charts. It is his first charting single on the US Billboard Hot 100, peaking so far at number 17. \n\nOn January 15, 2020, a music video was released. <a href=\"http:\/\/www.last.fm\/music\/Trevor+Daniel\/_\/Falling\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

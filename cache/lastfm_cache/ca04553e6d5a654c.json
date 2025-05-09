@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:34:59.144934+00:00",
+  "elapsed": 0.230325,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:59.144934+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "925",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Digga+D&format=json&method=track.getInfo&track=Bringing+It+Back"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Digga+D&format=json&method=track.getInfo&track=Bringing+It+Back",
+  "_decoded_content": {
+    "track": {
+      "name": "Bringing It Back",
+      "url": "https:\/\/www.last.fm\/music\/Digga+D\/_\/Bringing+It+Back",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "57430",
+      "playcount": "535423",
+      "artist": {
+        "name": "Digga D",
+        "url": "https:\/\/www.last.fm\/music\/Digga+D"
+      },
+      "album": {
+        "artist": "Digga D",
+        "title": "Bringing It Back - Single",
+        "url": "https:\/\/www.last.fm\/music\/Digga+D\/Bringing+It+Back+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f03649958a13a28f4ffbd2ed7fee6df9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f03649958a13a28f4ffbd2ed7fee6df9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f03649958a13a28f4ffbd2ed7fee6df9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f03649958a13a28f4ffbd2ed7fee6df9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "ukrap",
+            "url": "https:\/\/www.last.fm\/tag\/ukrap"
+          }
+        ]
+      }
+    }
+  }
+}

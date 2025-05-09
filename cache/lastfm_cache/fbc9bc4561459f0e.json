@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:38:03.212422+00:00",
+  "elapsed": 0.217968,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:03.212422+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1011",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Feid&format=json&method=track.getInfo&track=Si+Te+La+Encuentras+Por+Ah%C3%AD"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Feid&format=json&method=track.getInfo&track=Si+Te+La+Encuentras+Por+Ah%C3%AD",
+  "_decoded_content": {
+    "track": {
+      "name": "Si te la encuentras por ah\u00ed",
+      "url": "https:\/\/www.last.fm\/music\/Feid\/_\/Si+te+la+encuentras+por+ah%C3%AD",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62985",
+      "playcount": "755164",
+      "artist": {
+        "name": "Feid",
+        "url": "https:\/\/www.last.fm\/music\/Feid"
+      },
+      "album": {
+        "artist": "Feid",
+        "title": "Si Te La Encuentras Por Ah\u00ed",
+        "url": "https:\/\/www.last.fm\/music\/Feid\/Si+Te+La+Encuentras+Por+Ah%C3%AD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c8d535ec2f6e4caee652ff5e56f1d4c3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c8d535ec2f6e4caee652ff5e56f1d4c3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c8d535ec2f6e4caee652ff5e56f1d4c3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c8d535ec2f6e4caee652ff5e56f1d4c3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          }
+        ]
+      }
+    }
+  }
+}

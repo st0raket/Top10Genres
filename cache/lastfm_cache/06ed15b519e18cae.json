@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:18.873039+00:00",
+  "elapsed": 0.179808,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:18.873039+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2740",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NewJeans&format=json&method=track.getInfo&track=How+Sweet"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NewJeans&format=json&method=track.getInfo&track=How+Sweet",
+  "_decoded_content": {
+    "track": {
+      "name": "How Sweet",
+      "url": "https:\/\/www.last.fm\/music\/NewJeans\/_\/How+Sweet",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "409478",
+      "playcount": "8622838",
+      "artist": {
+        "name": "NewJeans",
+        "url": "https:\/\/www.last.fm\/music\/NewJeans"
+      },
+      "album": {
+        "artist": "NewJeans",
+        "title": "How Sweet",
+        "url": "https:\/\/www.last.fm\/music\/NewJeans\/How+Sweet",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1cd4bd9756bbad93661cb4d7d646c42b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1cd4bd9756bbad93661cb4d7d646c42b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1cd4bd9756bbad93661cb4d7d646c42b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1cd4bd9756bbad93661cb4d7d646c42b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "miami bass",
+            "url": "https:\/\/www.last.fm\/tag\/miami+bass"
+          },
+          {
+            "name": "newjeans",
+            "url": "https:\/\/www.last.fm\/tag\/newjeans"
+          },
+          {
+            "name": "acheimagra",
+            "url": "https:\/\/www.last.fm\/tag\/acheimagra"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jun 2024, 11:25",
+        "summary": "\"How Sweet\" is a song recorded by the South Korean girl group NewJeans. It was released on May 24, 2024, as the title track from their single album of the same name, \"How Sweet,\" under ADOR. The song features a blend of Miami bass with addictive electro beats, creating a sound that is both nostalgic and contemporary. The lyrics delve into themes of liberation and self-discovery, highlighting the bittersweet taste of independence and the realization of one's worth after a breakup. <a href=\"http:\/\/www.last.fm\/music\/NewJeans\/_\/How+Sweet\">Read more on Last.fm<\/a>.",
+        "content": "\"How Sweet\" is a song recorded by the South Korean girl group NewJeans. It was released on May 24, 2024, as the title track from their single album of the same name, \"How Sweet,\" under ADOR. The song features a blend of Miami bass with addictive electro beats, creating a sound that is both nostalgic and contemporary. The lyrics delve into themes of liberation and self-discovery, highlighting the bittersweet taste of independence and the realization of one's worth after a breakup. The track's vibrant production and introspective lyrics capture the essence of moving on and finding strength in the face of change. \"How Sweet\" has been acclaimed for its catchy hooks and evocative storytelling, further establishing NewJeans' distinctive style in the K-pop industry. <a href=\"http:\/\/www.last.fm\/music\/NewJeans\/_\/How+Sweet\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

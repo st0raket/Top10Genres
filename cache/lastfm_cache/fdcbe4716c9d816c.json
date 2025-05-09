@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:34:28.871231+00:00",
+  "elapsed": 0.260963,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:28.871231+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "843",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ninho&format=json&method=track.getInfo&track=Mac+11"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ninho&format=json&method=track.getInfo&track=Mac+11",
+  "_decoded_content": {
+    "track": {
+      "name": "Mac 11",
+      "url": "https:\/\/www.last.fm\/music\/Ninho\/_\/Mac+11",
+      "duration": "163000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2888",
+      "playcount": "22826",
+      "artist": {
+        "name": "Ninho",
+        "url": "https:\/\/www.last.fm\/music\/Ninho"
+      },
+      "album": {
+        "artist": "Ninho",
+        "title": "M.I.L.S 3 (R\u00e9\u00e9dition)",
+        "url": "https:\/\/www.last.fm\/music\/Ninho\/M.I.L.S+3+(R%C3%A9%C3%A9dition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/37a1775b87db76bac3fdecd7d48a084d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/37a1775b87db76bac3fdecd7d48a084d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/37a1775b87db76bac3fdecd7d48a084d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/37a1775b87db76bac3fdecd7d48a084d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

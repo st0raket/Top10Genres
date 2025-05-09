@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:10.961412+00:00",
+  "elapsed": 0.27144,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:10.961412+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3156",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Slade&format=json&method=track.getInfo&track=Merry+Xmas+Everybody"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Slade&format=json&method=track.getInfo&track=Merry+Xmas+Everybody",
+  "_decoded_content": {
+    "track": {
+      "name": "Merry Xmas Everybody",
+      "mbid": "cd5c49a3-33bb-4ec0-9763-d62a1c6fbb1c",
+      "url": "https:\/\/www.last.fm\/music\/Slade\/_\/Merry+Xmas+Everybody",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "358975",
+      "playcount": "1460590",
+      "artist": {
+        "name": "Slade",
+        "mbid": "2e700147-56a3-416b-a95d-381ea42f947f",
+        "url": "https:\/\/www.last.fm\/music\/Slade"
+      },
+      "album": {
+        "artist": "Slade",
+        "title": "Wall Of Hits",
+        "mbid": "5a8b8fdc-d619-3138-ac6b-28bdcff38bac",
+        "url": "https:\/\/www.last.fm\/music\/Slade\/Wall+Of+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/beccf0e08bb00dc6ffcd5145b2a4f53a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/beccf0e08bb00dc6ffcd5145b2a4f53a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/beccf0e08bb00dc6ffcd5145b2a4f53a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/beccf0e08bb00dc6ffcd5145b2a4f53a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "20"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "glam rock",
+            "url": "https:\/\/www.last.fm\/tag\/glam+rock"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Dec 2009, 09:33",
+        "summary": "\"Merry Xmas Everybody\" is a song by the English glam rock band Slade. Written by guitarist Noddy Holder and bassist Jim Lea, and produced by Chas Chandler, it was the band's sixth number-one single in the UK. It held the UK Christmas Number One slot in December 1973, beating another Christmas-themed song, Wizzard's \"I Wish It Could Be Christmas Everyday\", which reached fourth place. By mid-January it was still at number one; it stayed in the UK Singles Chart well into February 1974. <a href=\"http:\/\/www.last.fm\/music\/Slade\/_\/Merry+Xmas+Everybody\">Read more on Last.fm<\/a>.",
+        "content": "\"Merry Xmas Everybody\" is a song by the English glam rock band Slade. Written by guitarist Noddy Holder and bassist Jim Lea, and produced by Chas Chandler, it was the band's sixth number-one single in the UK. It held the UK Christmas Number One slot in December 1973, beating another Christmas-themed song, Wizzard's \"I Wish It Could Be Christmas Everyday\", which reached fourth place. By mid-January it was still at number one; it stayed in the UK Singles Chart well into February 1974.\n\nBased on melodies from discarded songs written six years before, \"Merry Xmas Everybody\" was Slade's best-selling single, released at the peak of their popularity, and sold over a million copies upon its first release. It is Slade's last number-one single, but by far their most successful. It has been released during every decade since 1973, and has been covered by numerous artists, ensuring it remains popular. In a 2007 poll, \"Merry Xmas Everybody\" was voted the UK's most popular Christmas song.\n <a href=\"http:\/\/www.last.fm\/music\/Slade\/_\/Merry+Xmas+Everybody\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:51.118618+00:00",
+  "elapsed": 0.185671,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:51.110710+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3104",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ava+Max&format=json&method=track.getInfo&track=My+Head+%26+My+Heart"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ava+Max&format=json&method=track.getInfo&track=My+Head+%26+My+Heart",
+  "_decoded_content": {
+    "track": {
+      "name": "My Head & My Heart",
+      "url": "https:\/\/www.last.fm\/music\/Ava+Max\/_\/My+Head+&+My+Heart",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "300242",
+      "playcount": "3413437",
+      "artist": {
+        "name": "Ava Max",
+        "url": "https:\/\/www.last.fm\/music\/Ava+Max"
+      },
+      "album": {
+        "artist": "Ava Max",
+        "title": "My Head & My Heart (Acoustic)",
+        "url": "https:\/\/www.last.fm\/music\/Ava+Max\/My+Head+&+My+Heart+(Acoustic)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8c0a9e3e1cd7bf68aa9a74269a49cfe5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8c0a9e3e1cd7bf68aa9a74269a49cfe5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8c0a9e3e1cd7bf68aa9a74269a49cfe5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8c0a9e3e1cd7bf68aa9a74269a49cfe5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Mar 2021, 03:37",
+        "summary": "\"My Head & My Heart\" is the eighth single from Ava Max\u2019s debut studio album, Heaven & Hell. The song was digitally released 19 November 2020 through Atlantic Records. It is a dance-pop anthem that interpolates the 2000s song \"Around the World (La La La La La)\" by ATC, which is a cover of the 1998 composition \"Pesenka\" by Ruki Vverh!.\n\nIt was included on the digital reissue of Max's debut studio album Heaven & Hell (2020). The pop and dance song was written by Max <a href=\"http:\/\/www.last.fm\/music\/Ava+Max\/_\/My+Head+&+My+Heart\">Read more on Last.fm<\/a>.",
+        "content": "\"My Head & My Heart\" is the eighth single from Ava Max\u2019s debut studio album, Heaven & Hell. The song was digitally released 19 November 2020 through Atlantic Records. It is a dance-pop anthem that interpolates the 2000s song \"Around the World (La La La La La)\" by ATC, which is a cover of the 1998 composition \"Pesenka\" by Ruki Vverh!.\n\nIt was included on the digital reissue of Max's debut studio album Heaven & Hell (2020). The pop and dance song was written by Max, Madison Love, Aleksey Potekhin, Sergey Zhukov, Tia Scola, Earwulf, and Cirkut, with production handled by the latter two producers and Jonas Blue. The track was sent to US Contemporary Hit Radio on January 26, 2021.\n\n\"My Head & My Heart\" was an international commercial success, reaching #1 in Croatia, Germany, and Hungary and charting within the top 10 in over 10 other countries. The track was featured on numerous year end charts across the world, notably featured on Hungary's list for three years straight (2020, 2021, 2022). In the US, it peaked at #45 on the US Billboard Hot 100 and is certified Platinum. <a href=\"http:\/\/www.last.fm\/music\/Ava+Max\/_\/My+Head+&+My+Heart\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

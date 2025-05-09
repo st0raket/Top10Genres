@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:07.701066+00:00",
+  "elapsed": 0.29346,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:07.701066+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2753",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=The+Cure"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=The+Cure",
+  "_decoded_content": {
+    "track": {
+      "name": "The Cure",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/The+Cure",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "319542",
+      "playcount": "4137371",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "The Cure",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/The+Cure",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b0d59b7aac176382af8dfc88ce5e9993.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b0d59b7aac176382af8dfc88ce5e9993.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b0d59b7aac176382af8dfc88ce5e9993.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b0d59b7aac176382af8dfc88ce5e9993.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Lady Gaga",
+            "url": "https:\/\/www.last.fm\/tag\/Lady+Gaga"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "tropical house",
+            "url": "https:\/\/www.last.fm\/tag\/tropical+house"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Apr 2017, 10:24",
+        "summary": "\"The Cure\" is a song recorded by American singer and songwriter Lady Gaga. She co-wrote the song with Paul Blair, Nick Monson, Lukas Nelson, and Mark Nilan with Detroit City, Gaga, and Monson co-producing the song. The song originated from a positive vibe between the collaborators, created as a response to atrocity happening around the world. It was developed in Los Angeles where Gaga and her team were working on some other music before the singer became busy acting in the film A Star Is Born. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/The+Cure\">Read more on Last.fm<\/a>.",
+        "content": "\"The Cure\" is a song recorded by American singer and songwriter Lady Gaga. She co-wrote the song with Paul Blair, Nick Monson, Lukas Nelson, and Mark Nilan with Detroit City, Gaga, and Monson co-producing the song. The song originated from a positive vibe between the collaborators, created as a response to atrocity happening around the world. It was developed in Los Angeles where Gaga and her team were working on some other music before the singer became busy acting in the film A Star Is Born. Consisting of finger snap and an electronic dance beat, \"The Cure\" is composed around an R&B sound. Lyrically, it talks about the healing effects of love, with the singer advocating herself as the one administering the cure. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/The+Cure\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

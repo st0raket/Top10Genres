@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:28:52.994083+00:00",
+  "elapsed": 0.215765,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:52.994083+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "952",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%81%A1%E3%82%83%E3%82%93%E3%81%BF%E3%81%AA&format=json&method=track.getInfo&track=CHOCOLATE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%81%A1%E3%82%83%E3%82%93%E3%81%BF%E3%81%AA&format=json&method=track.getInfo&track=CHOCOLATE",
+  "_decoded_content": {
+    "track": {
+      "name": "CHOCOLATE",
+      "url": "https:\/\/www.last.fm\/music\/%E3%81%A1%E3%82%83%E3%82%93%E3%81%BF%E3%81%AA\/_\/CHOCOLATE",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1268",
+      "playcount": "9708",
+      "artist": {
+        "name": "\u3061\u3083\u3093\u307f\u306a",
+        "url": "https:\/\/www.last.fm\/music\/%E3%81%A1%E3%82%83%E3%82%93%E3%81%BF%E3%81%AA"
+      },
+      "album": {
+        "artist": "\u3061\u3083\u3093\u307f\u306a",
+        "title": "CHOCOLATE",
+        "url": "https:\/\/www.last.fm\/music\/%E3%81%A1%E3%82%83%E3%82%93%E3%81%BF%E3%81%AA\/CHOCOLATE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c9042a2d27e400c2186aae6bb4d81883.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c9042a2d27e400c2186aae6bb4d81883.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c9042a2d27e400c2186aae6bb4d81883.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c9042a2d27e400c2186aae6bb4d81883.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

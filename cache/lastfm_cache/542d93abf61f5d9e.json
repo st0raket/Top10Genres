@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:15.388793+00:00",
+  "elapsed": 0.210677,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:15.388793+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1607",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ABBA&format=json&method=track.getInfo&track=I+Still+Have+Faith+In+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ABBA&format=json&method=track.getInfo&track=I+Still+Have+Faith+In+You",
+  "_decoded_content": {
+    "track": {
+      "name": "I Still Have Faith In You",
+      "url": "https:\/\/www.last.fm\/music\/ABBA\/_\/I+Still+Have+Faith+In+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "160752",
+      "playcount": "631311",
+      "artist": {
+        "name": "ABBA",
+        "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+        "url": "https:\/\/www.last.fm\/music\/ABBA"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "swedish",
+            "url": "https:\/\/www.last.fm\/tag\/swedish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Apr 2018, 12:21",
+        "summary": "On April 27th, 2018, ABBA announced on their official Instagram feed that they had recently gone back into the recording studio and recorded 2 new songs. They announced the name of one song, \"I Still Have Faith In You\", which will be performed by their own personalized avatars and broadcast in December 2018.  <a href=\"http:\/\/www.last.fm\/music\/ABBA\/_\/I+Still+Have+Faith+In+You\">Read more on Last.fm<\/a>.",
+        "content": "On April 27th, 2018, ABBA announced on their official Instagram feed that they had recently gone back into the recording studio and recorded 2 new songs. They announced the name of one song, \"I Still Have Faith In You\", which will be performed by their own personalized avatars and broadcast in December 2018.  <a href=\"http:\/\/www.last.fm\/music\/ABBA\/_\/I+Still+Have+Faith+In+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

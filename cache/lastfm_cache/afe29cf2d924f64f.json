@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:28:10.941620+00:00",
+  "elapsed": 0.192106,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:10.941620+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2394",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PRODUCE+101&format=json&method=track.getInfo&track=Hands+On+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PRODUCE+101&format=json&method=track.getInfo&track=Hands+On+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Hands on me",
+      "url": "https:\/\/www.last.fm\/music\/PRODUCE+101\/_\/Hands+on+me",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "11043",
+      "playcount": "107990",
+      "artist": {
+        "name": "PRODUCE 101",
+        "url": "https:\/\/www.last.fm\/music\/PRODUCE+101"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "harvey mason jr",
+            "url": "https:\/\/www.last.fm\/tag\/harvey+mason+jr"
+          },
+          {
+            "name": "why is no one tagging this it's awesome",
+            "url": "https:\/\/www.last.fm\/tag\/why+is+no+one+tagging+this+it%27s+awesome"
+          },
+          {
+            "name": "so take my haaaands let's daaaance",
+            "url": "https:\/\/www.last.fm\/tag\/so+take+my+haaaands+let%27s+daaaance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2017, 17:41",
+        "summary": "Hands on Me is a song recorded by the trainees of PRODUCE 101 Season 2. It is one of the songs performed by the trainees for their debut evaluation on the show's final episode. It is the first track on the album PRODUCE 101 - FINAL. The trainees who recorded the song were C9 Entertainment's Bae Jin-young, Fantagio Entertainment's Ong Seong-woo, individual trainee Kim Jae-hwan, MMO Entertainment's Kang Daniel and Yoon Ji-sung, Pledis Entertainment's Hwang Min-hyun, Starship Entertainment's Jung Se-woon, Cre. <a href=\"http:\/\/www.last.fm\/music\/PRODUCE+101\/_\/Hands+on+me\">Read more on Last.fm<\/a>.",
+        "content": "Hands on Me is a song recorded by the trainees of PRODUCE 101 Season 2. It is one of the songs performed by the trainees for their debut evaluation on the show's final episode. It is the first track on the album PRODUCE 101 - FINAL. The trainees who recorded the song were C9 Entertainment's Bae Jin-young, Fantagio Entertainment's Ong Seong-woo, individual trainee Kim Jae-hwan, MMO Entertainment's Kang Daniel and Yoon Ji-sung, Pledis Entertainment's Hwang Min-hyun, Starship Entertainment's Jung Se-woon, Cre.Ker Entertainment's Joo Hak-nyeon, Brand New Music's Park Woo-jin, and Maroo Entertainment's Park Ji-hoon.\n\nThe song was written by Seo Ji-eum and Lee Seu-ran, and composed and arranged by Harvey Mason Jr., DEEZ, Kevin Randolph, Michael Wyckoff, Patrick 'J. Que' Smith, Dewayne Whitmore, and Britt Burton. <a href=\"http:\/\/www.last.fm\/music\/PRODUCE+101\/_\/Hands+on+me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

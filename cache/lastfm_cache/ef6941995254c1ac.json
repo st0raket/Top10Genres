@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:27:56.673816+00:00",
+  "elapsed": 1.024129,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:56.673816+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1970",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Mob&format=json&method=track.getInfo&track=RAF"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A%24AP+Mob&format=json&method=track.getInfo&track=RAF",
+  "_decoded_content": {
+    "track": {
+      "name": "Raf",
+      "url": "https:\/\/www.last.fm\/music\/A$AP+Mob\/_\/Raf",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "92245",
+      "playcount": "779695",
+      "artist": {
+        "name": "A$AP Mob",
+        "mbid": "938bbcc7-3c04-4209-85fb-fa8b3dcd2672",
+        "url": "https:\/\/www.last.fm\/music\/A$AP+Mob"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Frank Ocean",
+            "url": "https:\/\/www.last.fm\/tag\/Frank+Ocean"
+          },
+          {
+            "name": "ASAP Rocky",
+            "url": "https:\/\/www.last.fm\/tag\/ASAP+Rocky"
+          },
+          {
+            "name": "Playboi Carti",
+            "url": "https:\/\/www.last.fm\/tag\/Playboi+Carti"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Feb 2018, 04:32",
+        "summary": "There are officially three versions of this song to date. Two versions were released May 15th, 2017 on blonded RADIO, each with a different verse from Frank Ocean. This is the third version for the album, which includes both verses, extending the track past the run-times of the first two original versions.\n\n\u201cRAF\u201d (released as a single via streaming)\n\u201cRAF (Version 2)\u201d (never released with a CDQ)\n\u201cRAF (Album Version)\u201d (this version)\n\nThis song was also featured in Madden NFL 18.  <a href=\"http:\/\/www.last.fm\/music\/A$AP+Mob\/_\/Raf\">Read more on Last.fm<\/a>.",
+        "content": "There are officially three versions of this song to date. Two versions were released May 15th, 2017 on blonded RADIO, each with a different verse from Frank Ocean. This is the third version for the album, which includes both verses, extending the track past the run-times of the first two original versions.\n\n\u201cRAF\u201d (released as a single via streaming)\n\u201cRAF (Version 2)\u201d (never released with a CDQ)\n\u201cRAF (Album Version)\u201d (this version)\n\nThis song was also featured in Madden NFL 18.  <a href=\"http:\/\/www.last.fm\/music\/A$AP+Mob\/_\/Raf\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

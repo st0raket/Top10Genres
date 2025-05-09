@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:40.651174+00:00",
+  "elapsed": 0.230682,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:40.651174+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2907",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mabel&format=json&method=track.getInfo&track=Mad+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mabel&format=json&method=track.getInfo&track=Mad+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Mad Love",
+      "url": "https:\/\/www.last.fm\/music\/Mabel\/_\/Mad+Love",
+      "duration": "169000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "153463",
+      "playcount": "1213575",
+      "artist": {
+        "name": "Mabel",
+        "mbid": "f6a9828c-7b52-41a1-b38a-426c28603555",
+        "url": "https:\/\/www.last.fm\/music\/Mabel"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Study Pop",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Study+Pop",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/665590846c1aceb764b03384fba3eaa4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/665590846c1aceb764b03384fba3eaa4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/665590846c1aceb764b03384fba3eaa4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/665590846c1aceb764b03384fba3eaa4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          },
+          {
+            "name": "female vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalist"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Mar 2025, 04:34",
+        "summary": "\u201cMad Love\u201d is the second single off Mabel\u2019s album, High Expectations. It talks about a sexual relationship between two people.\n\nOn her YouTube channel, the singer talked about the creative process behind the song-writing in the studio session after the set of artists had written the previous single:\n\nI just wanna write something positive that had attitude, but still was sending quite a simple message of just how good it feels when you like somebody and they like you, and sometimes it doesn\u2019t have to be more complicated than that. <a href=\"http:\/\/www.last.fm\/music\/Mabel\/_\/Mad+Love\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMad Love\u201d is the second single off Mabel\u2019s album, High Expectations. It talks about a sexual relationship between two people.\n\nOn her YouTube channel, the singer talked about the creative process behind the song-writing in the studio session after the set of artists had written the previous single:\n\nI just wanna write something positive that had attitude, but still was sending quite a simple message of just how good it feels when you like somebody and they like you, and sometimes it doesn\u2019t have to be more complicated than that. And we just were trying to think what\u2019s the easiest, simplest [\u2026] way we can put this without it being boring, \u2018cause sometimes my problem is that I over-think the lyrics, so \u201cMad Love\u201d for me was a challenge, because sometimes, actually, striping it back can be harder. <a href=\"http:\/\/www.last.fm\/music\/Mabel\/_\/Mad+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

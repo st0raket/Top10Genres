@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:14.574575+00:00",
+  "elapsed": 0.27914,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:14.574575+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3573",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Diplomatic+Immunity"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Diplomatic+Immunity",
+  "_decoded_content": {
+    "track": {
+      "name": "Diplomatic Immunity",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Diplomatic+Immunity",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "97685",
+      "playcount": "588807",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "Scary Hours",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/Scary+Hours",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3db7c5937887fe0ab5cfc9cc464d927c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3db7c5937887fe0ab5cfc9cc464d927c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3db7c5937887fe0ab5cfc9cc464d927c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3db7c5937887fe0ab5cfc9cc464d927c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Jan 2018, 16:23",
+        "summary": "\u201cDiplomatic Immunity\" is Drake\u2019s resurgence from a small hiatus from the limelight. By comparing immunity from diplomacy to his own immunity in the rap game, Drake shows why he\u2019s untouchable.\n\nThe song title may also be a nod to The Diplomats' album under the same name.\n\nNFL Giant\u2019s defensive back Landon Collins first previewed a then-untitled snippet on his Instagram story on September 24, 2017, sparking rumors of a new Drake song in the works. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Diplomatic+Immunity\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDiplomatic Immunity\" is Drake\u2019s resurgence from a small hiatus from the limelight. By comparing immunity from diplomacy to his own immunity in the rap game, Drake shows why he\u2019s untouchable.\n\nThe song title may also be a nod to The Diplomats' album under the same name.\n\nNFL Giant\u2019s defensive back Landon Collins first previewed a then-untitled snippet on his Instagram story on September 24, 2017, sparking rumors of a new Drake song in the works.\n\nThe song was later confirmed to be called \u201cDiplomatic Immunity\u201d in an Instagram post from Drake, and multiple snippets on New Year\u2019s Eve, 2017.\n\nAccording to Songfacts, Boi-1da detailed to Billboard the recording of \u201cDiplomatic Immunity\u201d:\n\n\"I was really inspired and ended up playing it for him. And when Drake hears something he likes, he gets on it and it\u2019s actually what he did.\u201c Boi-1da created the beat from a sample sent by producer Nick Brongers, who\u2019s known for his cinematic arrangements. Once I heard that part right there, I was like, \u2018Yeah, that sounds like magic to me. It sounds like you\u2019re on a yacht or something, sailing, over a luxurious dinner.\u201d I basically arranged the beat for the sample to drop first. Then the drums come in, and then near the end of the beat, the bassline comes in after. Just to always be climatic, and something always has to happen. I learned that from being in a lot of beat battles. You just have to give people climactic moments of beats. Every four bars I try to add something new or take something out. As simple as it is, it works and it was very effective.\" <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Diplomatic+Immunity\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

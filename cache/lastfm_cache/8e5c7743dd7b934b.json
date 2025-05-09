@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:30:21.037533+00:00",
+  "elapsed": 0.182099,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:21.037533+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2159",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SUNMI&format=json&method=track.getInfo&track=Siren"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SUNMI&format=json&method=track.getInfo&track=Siren",
+  "_decoded_content": {
+    "track": {
+      "name": "Siren",
+      "url": "https:\/\/www.last.fm\/music\/SunMi\/_\/Siren",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "172669",
+      "playcount": "2241346",
+      "artist": {
+        "name": "SunMi",
+        "mbid": "716a8be4-6f58-4e64-a1e6-fb3017f21bf6",
+        "url": "https:\/\/www.last.fm\/music\/SunMi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "GET AWAY OUT OF MY FACE",
+            "url": "https:\/\/www.last.fm\/tag\/GET+AWAY+OUT+OF+MY+FACE"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Retro",
+            "url": "https:\/\/www.last.fm\/tag\/Retro"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Dec 2021, 05:39",
+        "summary": "\"Siren\" (Korean: \uc0ac\uc774\ub80c) is a song recorded by South Korean singer Sunmi for her second EP, Warning. Sunmi produced the song with Frants, and it was released on September 4, 2018, by Makeus Entertainment as the lead single from the EP. \"Siren\" is a pop track, in which Sunmi sings lyrics about a lover whose image of her doesn't fit with reality, resulting in her ending the relationship.\n\nThe song marks the final release of Sunmi's warning-themed trilogy that started with \"Gashina\" and continued with \"Heroine\". <a href=\"http:\/\/www.last.fm\/music\/SunMi\/_\/Siren\">Read more on Last.fm<\/a>.",
+        "content": "\"Siren\" (Korean: \uc0ac\uc774\ub80c) is a song recorded by South Korean singer Sunmi for her second EP, Warning. Sunmi produced the song with Frants, and it was released on September 4, 2018, by Makeus Entertainment as the lead single from the EP. \"Siren\" is a pop track, in which Sunmi sings lyrics about a lover whose image of her doesn't fit with reality, resulting in her ending the relationship.\n\nThe song marks the final release of Sunmi's warning-themed trilogy that started with \"Gashina\" and continued with \"Heroine\". It topped all major charts in South Korea and debuted and peaked at number 1 on the Gaon Digital Chart, becoming Sunmi's second number-one single in South Korea. <a href=\"http:\/\/www.last.fm\/music\/SunMi\/_\/Siren\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

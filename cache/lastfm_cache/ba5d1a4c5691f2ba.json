@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:17.084165+00:00",
+  "elapsed": 0.205984,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:17.084165+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1402",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tony+Bennett&format=json&method=track.getInfo&track=My+Favourite+Things"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tony+Bennett&format=json&method=track.getInfo&track=My+Favourite+Things",
+  "_decoded_content": {
+    "track": {
+      "name": "My Favourite Things",
+      "mbid": "b135499c-5a65-4bfc-bc67-3328058ea3a8",
+      "url": "https:\/\/www.last.fm\/music\/Tony+Bennett\/_\/My+Favourite+Things",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "114147",
+      "playcount": "250135",
+      "artist": {
+        "name": "Tony Bennett",
+        "mbid": "8be0594f-8c13-46bb-ab06-f93ffba5c776",
+        "url": "https:\/\/www.last.fm\/music\/Tony+Bennett"
+      },
+      "album": {
+        "artist": "Tony Bennett",
+        "title": "Snowfall - The Tony Bennett Christmas Album",
+        "mbid": "87516390-3c35-4323-9fb9-69d37712b5c3",
+        "url": "https:\/\/www.last.fm\/music\/Tony+Bennett\/Snowfall+-+The+Tony+Bennett+Christmas+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e4dedaf9a4b764c34df08e4a6afa45b0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e4dedaf9a4b764c34df08e4a6afa45b0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e4dedaf9a4b764c34df08e4a6afa45b0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e4dedaf9a4b764c34df08e4a6afa45b0.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "swing",
+            "url": "https:\/\/www.last.fm\/tag\/swing"
+          },
+          {
+            "name": "easy listening",
+            "url": "https:\/\/www.last.fm\/tag\/easy+listening"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          }
+        ]
+      }
+    }
+  }
+}

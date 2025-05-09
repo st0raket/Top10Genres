@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:33.171432+00:00",
+  "elapsed": 0.282796,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:33.171432+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3102",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Polo+G&format=json&method=track.getInfo&track=21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Polo+G&format=json&method=track.getInfo&track=21",
+  "_decoded_content": {
+    "track": {
+      "name": "21",
+      "url": "https:\/\/www.last.fm\/music\/Polo+G\/_\/21",
+      "duration": "163000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "293420",
+      "playcount": "4443402",
+      "artist": {
+        "name": "Polo G",
+        "url": "https:\/\/www.last.fm\/music\/Polo+G"
+      },
+      "album": {
+        "artist": "Polo G",
+        "title": "The Goat",
+        "url": "https:\/\/www.last.fm\/music\/Polo+G\/The+Goat",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7d5b1aca1bc85a44b30f05dfac6dfe43.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7d5b1aca1bc85a44b30f05dfac6dfe43.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7d5b1aca1bc85a44b30f05dfac6dfe43.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7d5b1aca1bc85a44b30f05dfac6dfe43.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 00:02",
+        "summary": "On \u201c21,\u201c Polo G raps a quick-moving track about his fame-based lifestyle on his 21st birthday. Polo drops references to weaponry and expensive items to boast about his status in life.\n\nAdditionally, he pays homage to late rapper and friend Juice WRLD\u2014who also appears on \u201cFlex\u201d from THE GOAT\u2014within the track, expressing his dislike for drugs and addiction.\n\nOn January 12, 2020, six days after Polo\u2019s 21st birthday, an extended snippet leaked on YouTube and Soundcloud. <a href=\"http:\/\/www.last.fm\/music\/Polo+G\/_\/21\">Read more on Last.fm<\/a>.",
+        "content": "On \u201c21,\u201c Polo G raps a quick-moving track about his fame-based lifestyle on his 21st birthday. Polo drops references to weaponry and expensive items to boast about his status in life.\n\nAdditionally, he pays homage to late rapper and friend Juice WRLD\u2014who also appears on \u201cFlex\u201d from THE GOAT\u2014within the track, expressing his dislike for drugs and addiction.\n\nOn January 12, 2020, six days after Polo\u2019s 21st birthday, an extended snippet leaked on YouTube and Soundcloud.\n\nOn May 15, 2020, founder of Lyrical Lemonade and one of the most famous video producers in the music industry, Cole Bennett, teased that he was working on a project with Polo G. This would be their first collaboration together.\n\nOn June 13, 2020, Cole Bennett further teased the project by posting \u201c21 video?\u201d captioned on a picture of him and Polo G.\n\nTwo days later, on June 15, 2020, the official Lyrical Lemonade music video was released. Directed by Cole Bennett, the video, which is a true one-shot film with no cuts, finds Polo G dodging bullets and being chased down by a masked intruder. It also features multiple Juice WRLD references as a tribute to the late rapper. <a href=\"http:\/\/www.last.fm\/music\/Polo+G\/_\/21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

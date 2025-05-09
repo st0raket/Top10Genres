@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:53.380654+00:00",
+  "elapsed": 0.192212,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:53.380654+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2526",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Ever+Since+New+York"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Ever+Since+New+York",
+  "_decoded_content": {
+    "track": {
+      "name": "eVeR sinCE nEw yORK",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/eVeR+sinCE+nEw+yORK",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "373698",
+      "playcount": "4517505",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Feb 2022, 17:35",
+        "summary": "\u201cEver Since New York\u201d is the second song to have been performed off of Harry Styles' self-titled debut solo album. It is a slow folk-style song, which adds to the already eclectic range of genres making up the rest of the album. The song details a strong sadness seemingly about a disconnection and an inability to move forward with someone Harry cares deeply about.\n\nIn a private show, he detailed that he wrote the song about bad news he got about a family member when he was in a hotel in Brooklyn, New York. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/eVeR+sinCE+nEw+yORK\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEver Since New York\u201d is the second song to have been performed off of Harry Styles' self-titled debut solo album. It is a slow folk-style song, which adds to the already eclectic range of genres making up the rest of the album. The song details a strong sadness seemingly about a disconnection and an inability to move forward with someone Harry cares deeply about.\n\nIn a private show, he detailed that he wrote the song about bad news he got about a family member when he was in a hotel in Brooklyn, New York. It\u2019s heavily believed to be about Harry\u2019s late stepfather Robin Twist, and the series of agonizing events following his cancer diagnosis.\n\n\u201cEver Since New York\u201d was first performed on\nthe April 15, 2017, episode of Saturday Night Live along with the previously released \u201cSign of the Times\u201d and officially released with the rest of the Harry Styles on May 12, 2017.\n\nThe opening guitar chords of \u201cEver Since New York\u201d are reminiscent of the opening to Filter\u2019s 1999 \u201cTake a Picture.\u201d <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/eVeR+sinCE+nEw+yORK\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

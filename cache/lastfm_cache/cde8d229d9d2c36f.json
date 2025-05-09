@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:43.607038+00:00",
+  "elapsed": 0.206042,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:43.607038+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1182",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kygo&format=json&method=track.getInfo&track=Kids+in+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kygo&format=json&method=track.getInfo&track=Kids+in+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Kids In Love",
+      "url": "https:\/\/www.last.fm\/music\/Kygo\/_\/Kids+In+Love",
+      "duration": "262000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "33678",
+      "playcount": "117342",
+      "artist": {
+        "name": "Kygo",
+        "mbid": "ba0e7638-0cd6-4ff4-8987-c3e224d22c23",
+        "url": "https:\/\/www.last.fm\/music\/Kygo"
+      },
+      "album": {
+        "artist": "Kygo",
+        "title": "Kids in Love",
+        "url": "https:\/\/www.last.fm\/music\/Kygo\/Kids+in+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8c3ef4c2e4fdfe66239e53cc89ac0171.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8c3ef4c2e4fdfe66239e53cc89ac0171.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8c3ef4c2e4fdfe66239e53cc89ac0171.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8c3ef4c2e4fdfe66239e53cc89ac0171.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "tropical house",
+            "url": "https:\/\/www.last.fm\/tag\/tropical+house"
+          },
+          {
+            "name": "Kygo",
+            "url": "https:\/\/www.last.fm\/tag\/Kygo"
+          },
+          {
+            "name": "the night game",
+            "url": "https:\/\/www.last.fm\/tag\/the+night+game"
+          }
+        ]
+      }
+    }
+  }
+}

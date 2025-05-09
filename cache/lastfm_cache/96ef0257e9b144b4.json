@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:32.466083+00:00",
+  "elapsed": 0.1918,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:32.466083+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2210",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Before+You+Go"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Before+You+Go",
+  "_decoded_content": {
+    "track": {
+      "name": "Before You Go",
+      "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Before+You+Go",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "613467",
+      "playcount": "6179639",
+      "artist": {
+        "name": "Lewis Capaldi",
+        "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Massive Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Massive+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/890c0c67f08e0ea3f29fc0fd29ee6037.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Nov 2023, 21:41",
+        "summary": "\u201cBefore You Go\u201d is about the aftermath of someone close committing suicide, including feeling like you are responsible for their death. Throughout the track, Lewis repeatedly questions whether he could have done something to prevent it.\n\nLewis teased the track by posting a snippet on his social media accounts one day before its release. <a href=\"http:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Before+You+Go\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBefore You Go\u201d is about the aftermath of someone close committing suicide, including feeling like you are responsible for their death. Throughout the track, Lewis repeatedly questions whether he could have done something to prevent it.\n\nLewis teased the track by posting a snippet on his social media accounts one day before its release. <a href=\"http:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Before+You+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

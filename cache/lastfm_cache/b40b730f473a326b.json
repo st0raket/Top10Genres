@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:59.597608+00:00",
+  "elapsed": 0.208313,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:59.597608+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2099",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=XO+Tour+Llif3"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=XO+Tour+Llif3",
+  "_decoded_content": {
+    "track": {
+      "name": "XO TOUR Llif3",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/XO+TOUR+Llif3",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1221422",
+      "playcount": "19425809",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "emo rap",
+            "url": "https:\/\/www.last.fm\/tag\/emo+rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "Lil Uzi Vert",
+            "url": "https:\/\/www.last.fm\/tag\/Lil+Uzi+Vert"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Mar 2017, 04:03",
+        "summary": "\u201cXO Tour Llif3\u201d is a chronicle of Uzi\u2019s relationship issues with ex-girlfriend, Brittany Byrd, and substance abuse. It\u2019s delivered over bassy and upbeat production but addresses topics like suicide and betrayal. Ultimately, it\u2019s a narrative mixed with strong emotional dialogue, outlining a big fight between them and their girlfriend.\n\nLUV premiered the track in London while opening for The Weeknd\u2019s Starboy: Legend of the Fall 2017 world tour, following the song\u2019s leak. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/XO+TOUR+Llif3\">Read more on Last.fm<\/a>.",
+        "content": "\u201cXO Tour Llif3\u201d is a chronicle of Uzi\u2019s relationship issues with ex-girlfriend, Brittany Byrd, and substance abuse. It\u2019s delivered over bassy and upbeat production but addresses topics like suicide and betrayal. Ultimately, it\u2019s a narrative mixed with strong emotional dialogue, outlining a big fight between them and their girlfriend.\n\nLUV premiered the track in London while opening for The Weeknd\u2019s Starboy: Legend of the Fall 2017 world tour, following the song\u2019s leak. The title pays homage to The Weeknd\u2019s label XO, in light of the performance.\n\nThe song was certified 11x Multi-Platinum by the RIAA on December 7, 2022. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/XO+TOUR+Llif3\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

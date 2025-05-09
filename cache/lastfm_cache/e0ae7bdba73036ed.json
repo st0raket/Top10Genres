@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:08.708024+00:00",
+  "elapsed": 0.183034,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:08.708024+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2157",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=Hold+Me+Closer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=Hold+Me+Closer",
+  "_decoded_content": {
+    "track": {
+      "name": "Hold Me Closer",
+      "url": "https:\/\/www.last.fm\/music\/Elton+John\/_\/Hold+Me+Closer",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "322184",
+      "playcount": "2330361",
+      "artist": {
+        "name": "Elton John",
+        "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John"
+      },
+      "album": {
+        "artist": "Elton John",
+        "title": "Hold Me Closer",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John\/Hold+Me+Closer",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/96801445d852d8126ac1cf48cf79da50.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/96801445d852d8126ac1cf48cf79da50.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/96801445d852d8126ac1cf48cf79da50.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/96801445d852d8126ac1cf48cf79da50.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Britney Spears",
+            "url": "https:\/\/www.last.fm\/tag\/Britney+Spears"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Aug 2022, 01:47",
+        "summary": "\"Hold Me Closer\" is a song by English singer Elton John and American singer Britney Spears. It was released as a single on August 26, 2022, through EMI and Mercury. The song combines elements from John's songs \"Tiny Dancer\" (1971), \"The One\" (1992), and \"Don't Go Breaking My Heart\" (1976). <a href=\"http:\/\/www.last.fm\/music\/Elton+John\/_\/Hold+Me+Closer\">Read more on Last.fm<\/a>.",
+        "content": "\"Hold Me Closer\" is a song by English singer Elton John and American singer Britney Spears. It was released as a single on August 26, 2022, through EMI and Mercury. The song combines elements from John's songs \"Tiny Dancer\" (1971), \"The One\" (1992), and \"Don't Go Breaking My Heart\" (1976). <a href=\"http:\/\/www.last.fm\/music\/Elton+John\/_\/Hold+Me+Closer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:50.775768+00:00",
+  "elapsed": 0.201281,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:50.775768+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1029",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ella+Fitzgerald&format=json&method=track.getInfo&track=Frosty+The+Snowman"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ella+Fitzgerald&format=json&method=track.getInfo&track=Frosty+The+Snowman",
+  "_decoded_content": {
+    "track": {
+      "name": "Frosty The Snowman",
+      "mbid": "a42d8f69-5d7b-4fd8-a93c-8d78a806564a",
+      "url": "https:\/\/www.last.fm\/music\/Ella+Fitzgerald\/_\/Frosty+The+Snowman",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "370193",
+      "playcount": "996035",
+      "artist": {
+        "name": "Ella Fitzgerald",
+        "mbid": "54799c0e-eb45-4eea-996d-c4d71a63c499",
+        "url": "https:\/\/www.last.fm\/music\/Ella+Fitzgerald"
+      },
+      "album": {
+        "artist": "Ella Fitzgerald",
+        "title": "Christmas Collection",
+        "mbid": "aa51a804-2545-42a9-bf38-6559363ee6c3",
+        "url": "https:\/\/www.last.fm\/music\/Ella+Fitzgerald\/Christmas+Collection",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "swing",
+            "url": "https:\/\/www.last.fm\/tag\/swing"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:29.292942+00:00",
+  "elapsed": 0.184989,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:29.292942+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2239",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Taking+A+Walk"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Taking+A+Walk",
+  "_decoded_content": {
+    "track": {
+      "name": "Taking A Walk",
+      "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Taking+A+Walk",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "509410",
+      "playcount": "7585168",
+      "artist": {
+        "name": "Trippie Redd",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2021, 18:25",
+        "summary": "Trippie Redd takes a juxtapositional approach on \u201cTaking A Walk\u201d, the title coupled with the airy instrumental creates a light-hearted and happy ambiance. Despite this, Trippie is actually referencing death, which contrasts the happy sounding beat.\n\nWhile he initially posted a snippet of this song in December of 2017, it was deleted and re-uploaded in early March 2018.\n\nOn April 4, 2018, Trippie posted a second snippet on his Instagram story. Here <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Taking+A+Walk\">Read more on Last.fm<\/a>.",
+        "content": "Trippie Redd takes a juxtapositional approach on \u201cTaking A Walk\u201d, the title coupled with the airy instrumental creates a light-hearted and happy ambiance. Despite this, Trippie is actually referencing death, which contrasts the happy sounding beat.\n\nWhile he initially posted a snippet of this song in December of 2017, it was deleted and re-uploaded in early March 2018.\n\nOn April 4, 2018, Trippie posted a second snippet on his Instagram story. Here, he appeared in the studio with Nebu Kiniza, thus raising speculation over a potential feature. Despite this, there was no feature on the finished song.\n\nTrippie released the song on August 6, 2018, as part of the pre-release for his first studio album, LIFE\u2019S A TRIP, which was later released on August 10 of the same year.\n\nOn October 8th, 2020, it was certified platinum by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Taking+A+Walk\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

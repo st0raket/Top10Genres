@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:40:35.648417+00:00",
+  "elapsed": 0.201117,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:35.648417+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1994",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NMIXX&format=json&method=track.getInfo&track=DASH"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NMIXX&format=json&method=track.getInfo&track=DASH",
+  "_decoded_content": {
+    "track": {
+      "name": "DASH",
+      "url": "https:\/\/www.last.fm\/music\/NMixx\/_\/DASH",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "206495",
+      "playcount": "4017913",
+      "artist": {
+        "name": "NMixx",
+        "url": "https:\/\/www.last.fm\/music\/NMixx"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "mixxpop",
+            "url": "https:\/\/www.last.fm\/tag\/mixxpop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jul 2024, 22:21",
+        "summary": "\"Dash\" is a song by South Korean girl group Nmixx for their second extended play Fe3O4: Break. It was released as the EP's lead single by JYP Entertainment and Republic Records on January 15, 2024.\n\nOn November 28, 2023, JYP Entertainment announced Nmixx would be releasing their second EP titled Fe3O4: Break on January 15, 2024. On January 6, 2024, \"Dash\" was announced as the lead track of the album with the release of the track listing, followed by the release of a teaser for its music video on January 13. <a href=\"http:\/\/www.last.fm\/music\/NMixx\/_\/DASH\">Read more on Last.fm<\/a>.",
+        "content": "\"Dash\" is a song by South Korean girl group Nmixx for their second extended play Fe3O4: Break. It was released as the EP's lead single by JYP Entertainment and Republic Records on January 15, 2024.\n\nOn November 28, 2023, JYP Entertainment announced Nmixx would be releasing their second EP titled Fe3O4: Break on January 15, 2024. On January 6, 2024, \"Dash\" was announced as the lead track of the album with the release of the track listing, followed by the release of a teaser for its music video on January 13. The song along with its music video and the album was released two days later on January 15. <a href=\"http:\/\/www.last.fm\/music\/NMixx\/_\/DASH\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

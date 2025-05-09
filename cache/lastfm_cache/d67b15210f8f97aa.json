@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:54.533884+00:00",
+  "elapsed": 0.196496,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:54.533884+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4453",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Motley+Crew"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Motley+Crew",
+  "_decoded_content": {
+    "track": {
+      "name": "Motley Crew",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Motley+Crew",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "350804",
+      "playcount": "3558681",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "The Dome, Vol. 99",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/The+Dome,+Vol.+99",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e0412d55c9c2754e9a048151cade051c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e0412d55c9c2754e9a048151cade051c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e0412d55c9c2754e9a048151cade051c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e0412d55c9c2754e9a048151cade051c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "electronica influences",
+            "url": "https:\/\/www.last.fm\/tag\/electronica+influences"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Apr 2022, 03:54",
+        "summary": "\"Motley Crew\" is a song by American rapper and singer Post Malone, released on July 9, 2021, through Republic Records. The song marked his first solo release in almost two years.\n\nPost Malone's manager Dre London previewed \"Motley Crew\" on July 4, 2021, to celebrate American Independence Day, and Post's birthday.\n\nThe video was shot at Auto Club Speedway in Fontana, California, and thus features a racing motif with cameo appearances by NASCAR drivers Denny Hamlin and Bubba Wallace. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Motley+Crew\">Read more on Last.fm<\/a>.",
+        "content": "\"Motley Crew\" is a song by American rapper and singer Post Malone, released on July 9, 2021, through Republic Records. The song marked his first solo release in almost two years.\n\nPost Malone's manager Dre London previewed \"Motley Crew\" on July 4, 2021, to celebrate American Independence Day, and Post's birthday.\n\nThe video was shot at Auto Club Speedway in Fontana, California, and thus features a racing motif with cameo appearances by NASCAR drivers Denny Hamlin and Bubba Wallace. The video also features drummer Tommy Lee, who drives Malone around the track in a custom convertible. Lee's band, M\u00f6tley Cr\u00fce, serve as the song's titular inspiration. The video also features cameos from Malone's previous collaborators, including Saint Jhn, Tyla Yaweh, Tyga, Ty Dolla $ign, Big Sean, and French Montana. Rapper Pressa, singer BabySantana, and Malone's manager Dre London all make appearances as well. The video was directed by Cole Bennett.\n\nThe song was originally teased on June 30, 2021.\n\nA motley crew is a mixed group that is comprised of unexpected people. As such, the track mainly focuses on Post\u2019s lifestyle of partying and luxurious living with his \u2018motley crew\u2019 of friends. This is only accentuated in the Lyrical Lemonade music video, which is comprised of a handful of musicians, ranging from rapper French Montana to (M\u00f6tley Cr\u00fce\u2019s) drummer Tommy Lee, who Post and Tyla Yaweh named a song after.\n\nStylistically, this song is a return to the Post Malone of old, with a closer resemblance to rap instead of the primarily pop-driven Hollywood\u2019s Bleeding. With a spooky melody floating in the background and a more bass-heavy instrumental that differs from recent releases, he still manages to showcase his easily identifiable voice.\n\n\"What I remember most about making this song is that night in the studio. I was home thinking about people getting back in the mosh pits and partying again.\" - via Apple Music\n\nTommy Lee, who Tyla Yaweh and Post Malone named a song after and collaborated with in 2020, announced in an Instagram Story on June 30, 2021, the title of the song and that he would be in the music video. A snippet from the music video shoot leaked online on July 2, 2021. Post Malone finally teased the song and its music video on social media on July 7, 2021.\n\nDuring the week ending July 24, 2021, \u201cMotley Crew\u201d debuted and peaked at #13 on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Motley+Crew\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

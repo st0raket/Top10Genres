@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:32.240001+00:00",
+  "elapsed": 0.431765,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:32.240001+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2738",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=should%27ve+wore+a+bonnet"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=should%27ve+wore+a+bonnet",
+  "_decoded_content": {
+    "track": {
+      "name": "should've wore a bonnet",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/should%27ve+wore+a+bonnet",
+      "duration": "186000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "264202",
+      "playcount": "1953170",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "album": {
+        "artist": "21 Savage",
+        "title": "american dream",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage\/american+dream",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jan 2024, 11:35",
+        "summary": "The track \u201cshould\u2019ve wore a bonnet\u201d marks the first collaboration between Brent Faiyaz and 21 Savage and is the 12th track on 21 Savage\u2019s third studio album american dream.\n\nThe song explores themes of love, desire, and the complexities of relationships. The title refers to a common protective hair accessory, suggesting the importance of being prepared for the unexpected and possible break-ups in a relationship.\n\nThe song samples K-CI Hailey on Mary J. Blige\u2019s 1992 \u201cI Don\u2019t Want To Do Anything.\u201d <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/should%27ve+wore+a+bonnet\">Read more on Last.fm<\/a>.",
+        "content": "The track \u201cshould\u2019ve wore a bonnet\u201d marks the first collaboration between Brent Faiyaz and 21 Savage and is the 12th track on 21 Savage\u2019s third studio album american dream.\n\nThe song explores themes of love, desire, and the complexities of relationships. The title refers to a common protective hair accessory, suggesting the importance of being prepared for the unexpected and possible break-ups in a relationship.\n\nThe song samples K-CI Hailey on Mary J. Blige\u2019s 1992 \u201cI Don\u2019t Want To Do Anything.\u201d\n\nBrent\u2019s feature was teased a day before the album\u2019s release on January 11, 2024 via 21 Savage\u2019s Instagram. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/should%27ve+wore+a+bonnet\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

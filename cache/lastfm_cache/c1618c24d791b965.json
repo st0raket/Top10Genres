@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:49.944265+00:00",
+  "elapsed": 0.202883,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:49.944265+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2262",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Major+Lazer&format=json&method=track.getInfo&track=Light+It+Up+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Major+Lazer&format=json&method=track.getInfo&track=Light+It+Up+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Light It Up - Remix",
+      "url": "https:\/\/www.last.fm\/music\/Major+Lazer\/_\/Light+It+Up+-+Remix",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "85079",
+      "playcount": "490568",
+      "artist": {
+        "name": "Major Lazer",
+        "mbid": "75be165a-ad83-4d12-bd28-f589a15c479f",
+        "url": "https:\/\/www.last.fm\/music\/Major+Lazer"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "moombahton",
+            "url": "https:\/\/www.last.fm\/tag\/moombahton"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Feb 2017, 18:12",
+        "summary": "\"Light It Up\" is a song by American electronic music project Major Lazer, featuring vocals from Jamaican singer Nyla, which appears on Major Lazer's third studio album Peace Is the Mission. A remixed version of the song, to which additional vocals from British-Ghanaian Fuse ODG were added, was included on a re-released version of Peace Is the Mission and released as the album's fourth single overall on November 5, 2015.\nIt reached the top of one of the Belgian Dance charts as well as the UK Indie charts. <a href=\"http:\/\/www.last.fm\/music\/Major+Lazer\/_\/Light+It+Up+-+Remix\">Read more on Last.fm<\/a>.",
+        "content": "\"Light It Up\" is a song by American electronic music project Major Lazer, featuring vocals from Jamaican singer Nyla, which appears on Major Lazer's third studio album Peace Is the Mission. A remixed version of the song, to which additional vocals from British-Ghanaian Fuse ODG were added, was included on a re-released version of Peace Is the Mission and released as the album's fourth single overall on November 5, 2015.\nIt reached the top of one of the Belgian Dance charts as well as the UK Indie charts. In addition to this it reached the top ten in numerous countries including Austria, Finland, Germany, Netherlands, Norway, Sweden and the UK. It is currently (as of March 2016) certified Gold and Silver in Italy and the UK respectively. <a href=\"http:\/\/www.last.fm\/music\/Major+Lazer\/_\/Light+It+Up+-+Remix\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

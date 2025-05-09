@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:31:11.900317+00:00",
+  "elapsed": 0.210264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:11.900317+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "941",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=benny+blanco&format=json&method=track.getInfo&track=I+Can%27t+Get+Enough"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=benny+blanco&format=json&method=track.getInfo&track=I+Can%27t+Get+Enough",
+  "_decoded_content": {
+    "track": {
+      "name": "I Can't Get Enough",
+      "url": "https:\/\/www.last.fm\/music\/Benny+Blanco\/_\/I+Can%27t+Get+Enough",
+      "duration": "158000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "10015",
+      "playcount": "46100",
+      "artist": {
+        "name": "Benny Blanco",
+        "mbid": "80fe825a-8327-4d99-aca1-67e13e85a0ae",
+        "url": "https:\/\/www.last.fm\/music\/Benny+Blanco"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Farsangi Party 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Farsangi+Party+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d1c909b34ad95a2e82fcd156b5a5d783.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d1c909b34ad95a2e82fcd156b5a5d783.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d1c909b34ad95a2e82fcd156b5a5d783.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d1c909b34ad95a2e82fcd156b5a5d783.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

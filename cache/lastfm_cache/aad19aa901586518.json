@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:41:31.994030+00:00",
+  "elapsed": 0.42981,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:31.994030+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1124",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jimin&format=json&method=track.getInfo&track=Closer+Than+This"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jimin&format=json&method=track.getInfo&track=Closer+Than+This",
+  "_decoded_content": {
+    "track": {
+      "name": "Closer Than This",
+      "url": "https:\/\/www.last.fm\/music\/jimin\/_\/Closer+Than+This",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "156019",
+      "playcount": "32561350",
+      "artist": {
+        "name": "jimin",
+        "url": "https:\/\/www.last.fm\/music\/jimin"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "gift",
+            "url": "https:\/\/www.last.fm\/tag\/gift"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "gay",
+            "url": "https:\/\/www.last.fm\/tag\/gay"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Dec 2023, 06:50",
+        "summary": "\"Closer Than This\" is a fan letter to ARMY, with its lyrics conveying Jimin\u2019s love and affection for his fans. <a href=\"http:\/\/www.last.fm\/music\/jimin\/_\/Closer+Than+This\">Read more on Last.fm<\/a>.",
+        "content": "\"Closer Than This\" is a fan letter to ARMY, with its lyrics conveying Jimin\u2019s love and affection for his fans. <a href=\"http:\/\/www.last.fm\/music\/jimin\/_\/Closer+Than+This\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

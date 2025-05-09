@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:27.092176+00:00",
+  "elapsed": 0.201756,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:27.092176+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1524",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=Hard+Work+Pays+Off"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Future&format=json&method=track.getInfo&track=Hard+Work+Pays+Off",
+  "_decoded_content": {
+    "track": {
+      "name": "Hard Work Pays Off",
+      "url": "https:\/\/www.last.fm\/music\/Future\/_\/Hard+Work+Pays+Off",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "158529",
+      "playcount": "1836564",
+      "artist": {
+        "name": "Future",
+        "mbid": "9f1195cf-9900-45db-bf9c-21c205672ae0",
+        "url": "https:\/\/www.last.fm\/music\/Future"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "future",
+            "url": "https:\/\/www.last.fm\/tag\/future"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Feb 2023, 22:07",
+        "summary": "Marking the last track of WRLD ON DRUGS, \u201cHard Work Pays Off\u201d brings a melodic and optimistic sound while Juice WRLD and Future vocalize about their success in the music industry. In typical Juice and Future fashions, they make mention of weapons and designer clothing. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/Hard+Work+Pays+Off\">Read more on Last.fm<\/a>.",
+        "content": "Marking the last track of WRLD ON DRUGS, \u201cHard Work Pays Off\u201d brings a melodic and optimistic sound while Juice WRLD and Future vocalize about their success in the music industry. In typical Juice and Future fashions, they make mention of weapons and designer clothing. <a href=\"http:\/\/www.last.fm\/music\/Future\/_\/Hard+Work+Pays+Off\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

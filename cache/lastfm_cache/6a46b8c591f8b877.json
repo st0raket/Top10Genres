@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:37:08.317886+00:00",
+  "elapsed": 0.2833,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:08.317886+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "850",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vald&format=json&method=track.getInfo&track=La+faux+le+fer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vald&format=json&method=track.getInfo&track=La+faux+le+fer",
+  "_decoded_content": {
+    "track": {
+      "name": "La faux le fer",
+      "url": "https:\/\/www.last.fm\/music\/Vald\/_\/La+faux+le+fer",
+      "duration": "146000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "11688",
+      "playcount": "151071",
+      "artist": {
+        "name": "Vald",
+        "mbid": "062ab94e-b7a5-47a9-b3f4-cc1750c3f859",
+        "url": "https:\/\/www.last.fm\/music\/Vald"
+      },
+      "album": {
+        "artist": "Vald",
+        "title": "V",
+        "url": "https:\/\/www.last.fm\/music\/Vald\/V",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b23ec6584c4c4c5be4b1532b8370dfc7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b23ec6584c4c4c5be4b1532b8370dfc7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b23ec6584c4c4c5be4b1532b8370dfc7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b23ec6584c4c4c5be4b1532b8370dfc7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

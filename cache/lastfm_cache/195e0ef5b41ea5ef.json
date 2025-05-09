@@ -1,0 +1,85 @@
+{
+  "created_at": "2025-05-03T14:36:16.832863+00:00",
+  "elapsed": 0.430135,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:16.832863+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1061",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Balvin&format=json&method=track.getInfo&track=La+Venganza"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Balvin&format=json&method=track.getInfo&track=La+Venganza",
+  "_decoded_content": {
+    "track": {
+      "name": "La Venganza",
+      "mbid": "55edaaf4-d3d8-48db-b492-37132af9c85e",
+      "url": "https:\/\/www.last.fm\/music\/J+Balvin\/_\/La+Venganza",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "25254",
+      "playcount": "146639",
+      "artist": {
+        "name": "J Balvin",
+        "mbid": "5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+        "url": "https:\/\/www.last.fm\/music\/J+Balvin"
+      },
+      "album": {
+        "artist": "J Balvin",
+        "title": "La Familia",
+        "mbid": "28a16fdd-292d-4b89-a6ef-75375a07ed8e",
+        "url": "https:\/\/www.last.fm\/music\/J+Balvin\/La+Familia",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3efd9f80128f453dc55c69310ebd8a89.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3efd9f80128f453dc55c69310ebd8a89.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3efd9f80128f453dc55c69310ebd8a89.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3efd9f80128f453dc55c69310ebd8a89.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          }
+        ]
+      }
+    }
+  }
+}

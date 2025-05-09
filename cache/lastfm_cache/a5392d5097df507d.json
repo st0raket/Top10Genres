@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:45:02.223002+00:00",
+  "elapsed": 0.385492,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:02.223002+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Hypnotised"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Hypnotised",
+  "_decoded_content": {
+    "track": {
+      "name": "Hypnotised",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Hypnotised",
+      "duration": "355000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "56170",
+      "playcount": "295605",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "Hypnotised",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/Hypnotised",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2e86b01939b594670f814d922a8787dc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2e86b01939b594670f814d922a8787dc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2e86b01939b594670f814d922a8787dc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2e86b01939b594670f814d922a8787dc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "epic",
+            "url": "https:\/\/www.last.fm\/tag\/epic"
+          },
+          {
+            "name": "Coldplay",
+            "url": "https:\/\/www.last.fm\/tag\/Coldplay"
+          },
+          {
+            "name": "chris martin",
+            "url": "https:\/\/www.last.fm\/tag\/chris+martin"
+          },
+          {
+            "name": "2017 single",
+            "url": "https:\/\/www.last.fm\/tag\/2017+single"
+          }
+        ]
+      }
+    }
+  }
+}

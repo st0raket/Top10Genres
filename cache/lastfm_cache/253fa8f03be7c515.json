@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:04.619828+00:00",
+  "elapsed": 0.182536,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:04.619828+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2849",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=False+God"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=False+God",
+  "_decoded_content": {
+    "track": {
+      "name": "False God",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/False+God",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "587767",
+      "playcount": "13347020",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Lover (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Lover+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "saxophone",
+            "url": "https:\/\/www.last.fm\/tag\/saxophone"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Dec 2019, 05:47",
+        "summary": "\"False God\" appears to be a song about a tumultuous relationship that still manages to endure. The lyrics suggest that the speaker and their partner have been warned about the difficulties they would face, but they remain committed regardless of the challenges. The phrase \"false god\" appears to be a metaphor for the relationship itself, as the speaker acknowledges that it may not be perfect or even entirely based in reality but that they still consider it worthy of worship and devotion. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/False+God\">Read more on Last.fm<\/a>.",
+        "content": "\"False God\" appears to be a song about a tumultuous relationship that still manages to endure. The lyrics suggest that the speaker and their partner have been warned about the difficulties they would face, but they remain committed regardless of the challenges. The phrase \"false god\" appears to be a metaphor for the relationship itself, as the speaker acknowledges that it may not be perfect or even entirely based in reality but that they still consider it worthy of worship and devotion. The lines \"Religion's in your lips\" and \"The altar is my hips\" suggest that the physical connection between the speaker and their partner is a primary source of their devotion. The overall message of the song may be that love is worth pursuing even if it is not always easy or rational. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/False+God\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

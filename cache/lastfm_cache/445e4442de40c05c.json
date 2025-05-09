@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:39:47.395400+00:00",
+  "elapsed": 0.284961,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:47.395400+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2550",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ITZY&format=json&method=track.getInfo&track=CAKE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ITZY&format=json&method=track.getInfo&track=CAKE",
+  "_decoded_content": {
+    "track": {
+      "name": "CAKE",
+      "url": "https:\/\/www.last.fm\/music\/Itzy\/_\/CAKE",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "188641",
+      "playcount": "2819824",
+      "artist": {
+        "name": "Itzy",
+        "url": "https:\/\/www.last.fm\/music\/Itzy"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2023, 22:50",
+        "summary": "\u2018CAKE\u2018 is the lead single and second track of ITZY\u2019s seventh extended play KILL MY DOUBT, released on July 31st, 2023.\n\nThe song was written and composed by duo Black Eyed Pilseung, with Jeon Goon participating in the lyrics writing, FLYT participating in the composition and arrangement, and the duo's Rado participating in the arrangement.\n\nThe track has been described as an energetic pop song with hip hop characterized by energetic brass and drum sounds <a href=\"http:\/\/www.last.fm\/music\/Itzy\/_\/CAKE\">Read more on Last.fm<\/a>.",
+        "content": "\u2018CAKE\u2018 is the lead single and second track of ITZY\u2019s seventh extended play KILL MY DOUBT, released on July 31st, 2023.\n\nThe song was written and composed by duo Black Eyed Pilseung, with Jeon Goon participating in the lyrics writing, FLYT participating in the composition and arrangement, and the duo's Rado participating in the arrangement.\n\nThe track has been described as an energetic pop song with hip hop characterized by energetic brass and drum sounds, with lyrics carrying the message of \"easily forgetting all your problems, like a piece of cake\". ITZY\u2019s leader, Yeji, explained that the song is \u201ca summer score filled with the girl group's energetic vibe\". Yuna noted that \"the core essence of the track is the summer-themed melody that's guaranteed to fight off the heatwave\". The song was composed in the key of G major, with a tempo of 103 beats per minute.\n\nThe song received its first and only music show win on August 11th, 2023, on Music Bank. The song was nominated for the \u2018Best Music \u2014 Fall\u2019 award at The Fact Music Awards.\n\nThe song peaked at #22 on the Gaon Digital 200 in South Korea, and debuted at number 194 on the Billboard Global 200 chart on September 2, 2023. <a href=\"http:\/\/www.last.fm\/music\/Itzy\/_\/CAKE\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

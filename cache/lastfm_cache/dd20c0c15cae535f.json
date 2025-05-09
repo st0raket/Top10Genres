@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:43:55.249347+00:00",
+  "elapsed": 0.180406,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:55.249347+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3057",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joji&format=json&method=track.getInfo&track=Run"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joji&format=json&method=track.getInfo&track=Run",
+  "_decoded_content": {
+    "track": {
+      "name": "Run",
+      "url": "https:\/\/www.last.fm\/music\/Joji\/_\/Run",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "587980",
+      "playcount": "9304479",
+      "artist": {
+        "name": "Joji",
+        "url": "https:\/\/www.last.fm\/music\/Joji"
+      },
+      "album": {
+        "artist": "Joji",
+        "title": "Nectar [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Joji\/Nectar+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e218eb50abb7637aab45d160ed02b5d0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e218eb50abb7637aab45d160ed02b5d0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e218eb50abb7637aab45d160ed02b5d0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e218eb50abb7637aab45d160ed02b5d0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "Psychedelic Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Psychedelic+Rock"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2020, 06:06",
+        "summary": "\u201cRun\u201d is the second single released by Japanese singer Joji after his debut album \"BALLADS 1\", and was the second single released off of his sophomore studio album \"Nectar\".\n\nLike the rest of Joji\u2019s discography, the lyrical content of \u201cRun\u201d has a distinct melancholy tone. The track features Joji in disarray over his feelings for someone who is now in a new relationship. He feels as if he has no choice but to just \u201crun\u201d from his feelings <a href=\"http:\/\/www.last.fm\/music\/Joji\/_\/Run\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRun\u201d is the second single released by Japanese singer Joji after his debut album \"BALLADS 1\", and was the second single released off of his sophomore studio album \"Nectar\".\n\nLike the rest of Joji\u2019s discography, the lyrical content of \u201cRun\u201d has a distinct melancholy tone. The track features Joji in disarray over his feelings for someone who is now in a new relationship. He feels as if he has no choice but to just \u201crun\u201d from his feelings, which is represented in the track\u2019s accompanying music video, which was unveiled 10 hours after the song\u2019s release on February 6, 2020.\n\nJoji consistently uses sad themes in his music, best exemplified by his debut album, BALLADS 1. This song serves perhaps as a change of pace for Joji, as the prestigious producer Justin Parker, known for working with the likes of Rihanna and Lana Del Rey, is enlisted to collaborate with him for the first time.\n\nThis track was first teased on January 27, 2020, with a tweet from Joji featuring a short video of lava flowing \u2014 Joji later revealed the release date and cover artwork and confirmed track\u2019s title with another tweet. <a href=\"http:\/\/www.last.fm\/music\/Joji\/_\/Run\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

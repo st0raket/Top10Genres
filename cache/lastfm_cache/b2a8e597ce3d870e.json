@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:28:12.973569+00:00",
+  "elapsed": 0.214294,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:12.973569+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1151",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Starley&format=json&method=track.getInfo&track=Call+On+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Starley&format=json&method=track.getInfo&track=Call+On+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Call On Me",
+      "url": "https:\/\/www.last.fm\/music\/Starley\/_\/Call+On+Me",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "54153",
+      "playcount": "250716",
+      "artist": {
+        "name": "Starley",
+        "url": "https:\/\/www.last.fm\/music\/Starley"
+      },
+      "album": {
+        "artist": "Starley",
+        "title": "Call On Me (Remixes)",
+        "url": "https:\/\/www.last.fm\/music\/Starley\/Call+On+Me+(Remixes)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f25293fec6a49ac2700db8a934bb949a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f25293fec6a49ac2700db8a934bb949a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f25293fec6a49ac2700db8a934bb949a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f25293fec6a49ac2700db8a934bb949a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:30.023196+00:00",
+  "elapsed": 0.204475,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:30.023196+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2332",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ang%C3%A8le&format=json&method=track.getInfo&track=Jalousie"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ang%C3%A8le&format=json&method=track.getInfo&track=Jalousie",
+  "_decoded_content": {
+    "track": {
+      "name": "Jalousie",
+      "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Jalousie",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "58463",
+      "playcount": "489840",
+      "artist": {
+        "name": "Ang\u00e8le",
+        "mbid": "f1a50113-12c6-4a5e-94ba-d73bd6ad47be",
+        "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le"
+      },
+      "album": {
+        "artist": "Ang\u00e8le",
+        "title": "Brol, la suite",
+        "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le\/Brol,+la+suite",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/db0e72f02799222f9829dd95c1ebfa38.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/db0e72f02799222f9829dd95c1ebfa38.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/db0e72f02799222f9829dd95c1ebfa38.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/db0e72f02799222f9829dd95c1ebfa38.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "french pop",
+            "url": "https:\/\/www.last.fm\/tag\/french+pop"
+          },
+          {
+            "name": "belgian pop",
+            "url": "https:\/\/www.last.fm\/tag\/belgian+pop"
+          },
+          {
+            "name": "french",
+            "url": "https:\/\/www.last.fm\/tag\/french"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "Belgium",
+            "url": "https:\/\/www.last.fm\/tag\/Belgium"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Oct 2018, 19:30",
+        "summary": "\"Jealousy\" is the fourth released track from Brol, Ang\u00e8le's first album.\nIt's also the first track released since the announcement of the tracklist and it appears two weeks before the release of the album.\nAnnounced on September 17, 2018 on social networks, the track evokes love, a recurring theme in Angele's songs.\nThe music video was co-produced by the singer's boyfriend, L\u00e9o Walk. <a href=\"http:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Jalousie\">Read more on Last.fm<\/a>.",
+        "content": "\"Jealousy\" is the fourth released track from Brol, Ang\u00e8le's first album.\nIt's also the first track released since the announcement of the tracklist and it appears two weeks before the release of the album.\nAnnounced on September 17, 2018 on social networks, the track evokes love, a recurring theme in Angele's songs.\nThe music video was co-produced by the singer's boyfriend, L\u00e9o Walk. <a href=\"http:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Jalousie\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

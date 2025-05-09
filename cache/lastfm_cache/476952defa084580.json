@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:28:19.299657+00:00",
+  "elapsed": 0.187321,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:19.299657+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2171",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=New+Rules"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=New+Rules",
+  "_decoded_content": {
+    "track": {
+      "name": "New Rules",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/New+Rules",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1073825",
+      "playcount": "11175245",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Dua Lipa (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Dua+Lipa+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b678140a31be9e7b83f650b98c5abc5b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b678140a31be9e7b83f650b98c5abc5b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b678140a31be9e7b83f650b98c5abc5b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b678140a31be9e7b83f650b98c5abc5b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jul 2017, 13:25",
+        "summary": "\"New Rules\" is a song by English singer Dua Lipa from her self-titled debut studio album. The song was written by Caroline Ailin, Emily Warren and Ian Kirkpatrick, and produced by the latter. It was released to contemporary hit radio in the United Kingdom on 15 July 2017 as the album's seventh single. The song's music video was released on 7 July. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/New+Rules\">Read more on Last.fm<\/a>.",
+        "content": "\"New Rules\" is a song by English singer Dua Lipa from her self-titled debut studio album. The song was written by Caroline Ailin, Emily Warren and Ian Kirkpatrick, and produced by the latter. It was released to contemporary hit radio in the United Kingdom on 15 July 2017 as the album's seventh single. The song's music video was released on 7 July. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/New+Rules\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:13.942872+00:00",
+  "elapsed": 0.427121,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:13.942872+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3173",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Moon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Moon",
+  "_decoded_content": {
+    "track": {
+      "name": "Moon",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Moon",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "786075",
+      "playcount": "12292777",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Donda",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Donda",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/32f2b94ebebb2742709006790b9209b9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "kid cudi",
+            "url": "https:\/\/www.last.fm\/tag\/kid+cudi"
+          },
+          {
+            "name": "don toliver",
+            "url": "https:\/\/www.last.fm\/tag\/don+toliver"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Feb 2022, 20:34",
+        "summary": "The mellow and calming sound of \u201cMoon\u201d evolved majorly throughout the course of its existence, originally acting as an interlude with a repetitive chorus sung by Don Toliver. \u201cMoon\u201d originally premiered as the eighth track at the Donda album listening party on July 23, 2021, in Atlanta, Georgia at the Mercedes-Benz Stadium.\n\nOnly two weeks later, on August 5, 2021, at the second listening party, \u201cMoon\u201d was played as the second track. This <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Moon\">Read more on Last.fm<\/a>.",
+        "content": "The mellow and calming sound of \u201cMoon\u201d evolved majorly throughout the course of its existence, originally acting as an interlude with a repetitive chorus sung by Don Toliver. \u201cMoon\u201d originally premiered as the eighth track at the Donda album listening party on July 23, 2021, in Atlanta, Georgia at the Mercedes-Benz Stadium.\n\nOnly two weeks later, on August 5, 2021, at the second listening party, \u201cMoon\u201d was played as the second track. This enhanced version shortened Toliver\u2019s chorus and then featured Kanye along with his long-time collaborator and friend, Kid Cudi. With this second version, Cudi contributed a verse along with ad-libs in a revised, second chorus which featured new lyrics and vocal parts thanks to Kanye West.\n\nTo the surprise of many, on August 26, at the controversial third and final listening event, \u201cMoon\u201d was played as the twelfth track, excerpting Kid Cudi and Kanye\u2019s contributions. The stripped-down track only featured Toliver\u2019s looped vocals, with some background vocals provided by the Sunday Service Choir.\n\nWhen the album released on August 29, 2021, \u201cMoon\u201d was restored to its second version containing all the original features. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Moon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

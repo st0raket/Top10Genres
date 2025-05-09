@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:21.548693+00:00",
+  "elapsed": 0.303126,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:21.548693+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2005",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Forever+%26+Always"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Forever+%26+Always",
+  "_decoded_content": {
+    "track": {
+      "name": "Forever & Always",
+      "mbid": "0bc0ebeb-ff98-4be1-a2c5-4b47893e9ffa",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Forever+&+Always",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "308887",
+      "playcount": "2326977",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Fearless",
+        "mbid": "6caf2472-3922-403e-90bf-19a45d98d065",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Fearless",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Mar 2009, 22:14",
+        "summary": "\"Forever & Always\" is  the 11th track on Taylor Swift's second album \"Fearless\".\nThe song is about when Joe Jonas broke up with Taylor. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Forever+&+Always\">Read more on Last.fm<\/a>.",
+        "content": "\"Forever & Always\" is  the 11th track on Taylor Swift's second album \"Fearless\".\nThe song is about when Joe Jonas broke up with Taylor. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Forever+&+Always\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

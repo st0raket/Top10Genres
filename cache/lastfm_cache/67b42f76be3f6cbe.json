@@ -1,0 +1,93 @@
+{
+  "created_at": "2025-05-03T14:44:54.314427+00:00",
+  "elapsed": 0.223225,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:54.314427+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2597",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Logic&format=json&method=track.getInfo&track=Take+It+Back"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Logic&format=json&method=track.getInfo&track=Take+It+Back",
+  "_decoded_content": {
+    "track": {
+      "name": "Take It Back",
+      "url": "https:\/\/www.last.fm\/music\/Logic\/_\/Take+It+Back",
+      "duration": "400000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "58862",
+      "playcount": "277632",
+      "artist": {
+        "name": "Logic",
+        "mbid": "b2f45ca6-2c92-438c-b037-ad4d8b92e90e",
+        "url": "https:\/\/www.last.fm\/music\/Logic"
+      },
+      "album": {
+        "artist": "Logic",
+        "title": "Everybody",
+        "url": "https:\/\/www.last.fm\/music\/Logic\/Everybody",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8899266798b2676226e2f7a3182a6146.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "east coast hip-hop",
+            "url": "https:\/\/www.last.fm\/tag\/east+coast+hip-hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jan 2022, 22:59",
+        "summary": "On \u201cTake It Back\u201d Logic speaks mainly about his life experiences. He explains his childhood and how it made him become the person he is today.\n\nDespite being subjected to racism and growing up in a negative environment, Logic persevered and carried his own to make it this far in life.\n\nLogic also wants peace between all people and nothing else. At the end of the speech on this track, he says:\n\n\"You can believe you\u2019re superior. Fine. Just stop killing each other.\" <a href=\"http:\/\/www.last.fm\/music\/Logic\/_\/Take+It+Back\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cTake It Back\u201d Logic speaks mainly about his life experiences. He explains his childhood and how it made him become the person he is today.\n\nDespite being subjected to racism and growing up in a negative environment, Logic persevered and carried his own to make it this far in life.\n\nLogic also wants peace between all people and nothing else. At the end of the speech on this track, he says:\n\n\"You can believe you\u2019re superior. Fine. Just stop killing each other.\"\n\nThis song was initially teased on Logic\u2019s Instagram story and then later teased on the album trailer and Bradley Martyn\u2019s YouTube channel soon after.\n\nLogic also mentioned how this track wasn\u2019t supposed to have a verse via Twitter. <a href=\"http:\/\/www.last.fm\/music\/Logic\/_\/Take+It+Back\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

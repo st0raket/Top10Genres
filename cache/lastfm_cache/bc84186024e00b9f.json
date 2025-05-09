@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:14.325238+00:00",
+  "elapsed": 0.460633,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:14.325238+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2983",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Pretty+Please"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Pretty+Please",
+  "_decoded_content": {
+    "track": {
+      "name": "Pretty Please",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Pretty+Please",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "523771",
+      "playcount": "7289502",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Pretty Please",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Pretty+Please",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/acb10b893a04480ee33aba1f20a4c7a2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/acb10b893a04480ee33aba1f20a4c7a2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/acb10b893a04480ee33aba1f20a4c7a2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/acb10b893a04480ee33aba1f20a4c7a2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jul 2021, 13:22",
+        "summary": "\u201cPretty Please\u201d is a groovy mid-tempo track, which features a prominent baseline throughout the song. Lyrically, the song is about needing romantic attention from your significant other. Lipa and her writing team based the lyrics of the song on it\u2019s title.\n\n\"This is the first moment you really get to take a breather on the record, especially after \u201cLevitating,\u201d which is so full on. It sounds cool and chill, but it\u2019s about the opposite. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Pretty+Please\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPretty Please\u201d is a groovy mid-tempo track, which features a prominent baseline throughout the song. Lyrically, the song is about needing romantic attention from your significant other. Lipa and her writing team based the lyrics of the song on it\u2019s title.\n\n\"This is the first moment you really get to take a breather on the record, especially after \u201cLevitating,\u201d which is so full on. It sounds cool and chill, but it\u2019s about the opposite. I like playing with sounds and concepts in that way. The song is about promising someone\u2014or yourself\u2014that you\u2019re going to be really chill in the early stages of the relationship, but then realising that \u201cYeah, that\u2019s just not me.\u201d The lyrics that opens it is \u201cSomewhere in the middle \/ I think I lied a little.\u201d It kind of sums it up.\"\n\n- via Apple Music\n\nWhen asked to describe each album track on \"Future Nostalgia\" during an interview with The Official Big Top 40 on February 9, 2020, Dua said:\n\n\"It\u2019s a chill song, but the meaning behind it is not so chill.\" <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Pretty+Please\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:33.703641+00:00",
+  "elapsed": 0.42121,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:33.703641+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2165",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Queens+of+the+Stone+Age&format=json&method=track.getInfo&track=The+Way+You+Used+to+Do"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Queens+of+the+Stone+Age&format=json&method=track.getInfo&track=The+Way+You+Used+to+Do",
+  "_decoded_content": {
+    "track": {
+      "name": "The Way You Used To Do",
+      "url": "https:\/\/www.last.fm\/music\/Queens+of+the+Stone+Age\/_\/The+Way+You+Used+To+Do",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "290211",
+      "playcount": "2208346",
+      "artist": {
+        "name": "Queens of the Stone Age",
+        "mbid": "7dc8f5bd-9d0b-4087-9f73-dc164950bbd8",
+        "url": "https:\/\/www.last.fm\/music\/Queens+of+the+Stone+Age"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Stoner Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Stoner+Rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Feb 2019, 08:36",
+        "summary": "\"The Way You Used to Do\" is the second track, as well the first single for American rock band Queens of the Stone Age's sixth full-length studio album Villains. All music was composed by Queens of the Stone Age, while the lyrics were written by Josh Homme.\n\nIt was released on June 15th, 2017 through Matador Records following a teaser trailer taking on the form of a comedy skit featuring the band performing a polygraph test with comedian Liam Lynch a day earlier, along with the announcement of a world tour that same year. <a href=\"http:\/\/www.last.fm\/music\/Queens+of+the+Stone+Age\/_\/The+Way+You+Used+To+Do\">Read more on Last.fm<\/a>.",
+        "content": "\"The Way You Used to Do\" is the second track, as well the first single for American rock band Queens of the Stone Age's sixth full-length studio album Villains. All music was composed by Queens of the Stone Age, while the lyrics were written by Josh Homme.\n\nIt was released on June 15th, 2017 through Matador Records following a teaser trailer taking on the form of a comedy skit featuring the band performing a polygraph test with comedian Liam Lynch a day earlier, along with the announcement of a world tour that same year. <a href=\"http:\/\/www.last.fm\/music\/Queens+of+the+Stone+Age\/_\/The+Way+You+Used+To+Do\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

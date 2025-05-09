@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:39:43.338297+00:00",
+  "elapsed": 0.246933,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:43.338297+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1943",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AYLIVA&format=json&method=track.getInfo&track=Wei%C3%9Fes+Haus"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AYLIVA&format=json&method=track.getInfo&track=Wei%C3%9Fes+Haus",
+  "_decoded_content": {
+    "track": {
+      "name": "Wei\u00dfes Haus",
+      "url": "https:\/\/www.last.fm\/music\/AYLIVA\/_\/Wei%C3%9Fes+Haus",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "18122",
+      "playcount": "206706",
+      "artist": {
+        "name": "AYLIVA",
+        "url": "https:\/\/www.last.fm\/music\/AYLIVA"
+      },
+      "album": {
+        "artist": "AYLIVA",
+        "title": "Wei\u00dfes Haus",
+        "url": "https:\/\/www.last.fm\/music\/AYLIVA\/Wei%C3%9Fes+Haus",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1b195160237cbf7443dcd6f9fd74c9c2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1b195160237cbf7443dcd6f9fd74c9c2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1b195160237cbf7443dcd6f9fd74c9c2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1b195160237cbf7443dcd6f9fd74c9c2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "13 Dec 2023, 12:47",
+        "summary": "\u201cWei\u00dfes Haus\u201d is a song by German singer AYLIVA. The song was released on March 31, 2023, and is part of her album \u201cWei\u00dfes Haus\u201d. The song is a melancholic love ballad that expresses deep longing, unfulfilled love, and the desire to make the loved one happy. The song\u2019s title, \u201cWei\u00dfes Haus\u201d, is a metaphor for a safe and happy relationship or a space of love. <a href=\"http:\/\/www.last.fm\/music\/AYLIVA\/_\/Wei%C3%9Fes+Haus\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWei\u00dfes Haus\u201d is a song by German singer AYLIVA. The song was released on March 31, 2023, and is part of her album \u201cWei\u00dfes Haus\u201d. The song is a melancholic love ballad that expresses deep longing, unfulfilled love, and the desire to make the loved one happy. The song\u2019s title, \u201cWei\u00dfes Haus\u201d, is a metaphor for a safe and happy relationship or a space of love. <a href=\"http:\/\/www.last.fm\/music\/AYLIVA\/_\/Wei%C3%9Fes+Haus\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

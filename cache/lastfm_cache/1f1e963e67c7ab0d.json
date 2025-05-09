@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:05.779873+00:00",
+  "elapsed": 0.208898,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:05.779873+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2153",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Lust+For+Life"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Lust+For+Life",
+  "_decoded_content": {
+    "track": {
+      "name": "Lust for Life",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Lust+for+Life",
+      "duration": "176000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "132435",
+      "playcount": "739712",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "So Far Gone",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/So+Far+Gone",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/304e6995dd50bc5956633ee69a77542e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/304e6995dd50bc5956633ee69a77542e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/304e6995dd50bc5956633ee69a77542e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/304e6995dd50bc5956633ee69a77542e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "toronto",
+            "url": "https:\/\/www.last.fm\/tag\/toronto"
+          },
+          {
+            "name": "2009",
+            "url": "https:\/\/www.last.fm\/tag\/2009"
+          },
+          {
+            "name": "canada",
+            "url": "https:\/\/www.last.fm\/tag\/canada"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Nov 2022, 12:51",
+        "summary": "On \u201cLust for Life,\u201d Drake raps about his newfound fame and how people around him act differently.\n\nThe title Lust for Life was first used for Irving Stone\u2019s 1934 biographical novel about Vincent Van Gogh. It has also been used to name songs and albums by Iggy Pop, Lana Del Rey, Childish Gambino, Girls and Heavenly. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Lust+for+Life\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cLust for Life,\u201d Drake raps about his newfound fame and how people around him act differently.\n\nThe title Lust for Life was first used for Irving Stone\u2019s 1934 biographical novel about Vincent Van Gogh. It has also been used to name songs and albums by Iggy Pop, Lana Del Rey, Childish Gambino, Girls and Heavenly. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Lust+for+Life\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:30.074110+00:00",
+  "elapsed": 0.26035,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:30.074110+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2716",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ang%C3%A8le&format=json&method=track.getInfo&track=Balance+ton+quoi"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ang%C3%A8le&format=json&method=track.getInfo&track=Balance+ton+quoi",
+  "_decoded_content": {
+    "track": {
+      "name": "Balance ton quoi",
+      "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Balance+ton+quoi",
+      "duration": "189000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "154919",
+      "playcount": "1452886",
+      "artist": {
+        "name": "Ang\u00e8le",
+        "mbid": "f1a50113-12c6-4a5e-94ba-d73bd6ad47be",
+        "url": "https:\/\/www.last.fm\/music\/Ang%C3%A8le"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "La Nouvelle Chanson fran\u00e7aise",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/La+Nouvelle+Chanson+fran%C3%A7aise",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6038f09504ea286b6a7ca6f834d0e158.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6038f09504ea286b6a7ca6f834d0e158.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6038f09504ea286b6a7ca6f834d0e158.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6038f09504ea286b6a7ca6f834d0e158.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "french",
+            "url": "https:\/\/www.last.fm\/tag\/french"
+          },
+          {
+            "name": "french pop",
+            "url": "https:\/\/www.last.fm\/tag\/french+pop"
+          },
+          {
+            "name": "Belgium",
+            "url": "https:\/\/www.last.fm\/tag\/Belgium"
+          },
+          {
+            "name": "france",
+            "url": "https:\/\/www.last.fm\/tag\/france"
+          },
+          {
+            "name": "belgian",
+            "url": "https:\/\/www.last.fm\/tag\/belgian"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Oct 2018, 19:26",
+        "summary": "Ang\u00e8le refers to the movement of testimonials against sexual harassment widely disseminated on social networks. \"Balance ton porc\" appeared in the fall of 2017 after serious accusations of rape and sexual assault on famous film producer, Harvey Weinstein.\nThis movement allowed women to speak concerning the sexual aggressions they faced alone and in silence.\nIn Balance ton quoi, the singer speaks directly to men who participate in street harassment, the commoditization of misogyny and the degradation of women's image. <a href=\"http:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Balance+ton+quoi\">Read more on Last.fm<\/a>.",
+        "content": "Ang\u00e8le refers to the movement of testimonials against sexual harassment widely disseminated on social networks. \"Balance ton porc\" appeared in the fall of 2017 after serious accusations of rape and sexual assault on famous film producer, Harvey Weinstein.\nThis movement allowed women to speak concerning the sexual aggressions they faced alone and in silence.\nIn Balance ton quoi, the singer speaks directly to men who participate in street harassment, the commoditization of misogyny and the degradation of women's image. Balance ton quoi meaning, 'Denounce Your What'. <a href=\"http:\/\/www.last.fm\/music\/Ang%C3%A8le\/_\/Balance+ton+quoi\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

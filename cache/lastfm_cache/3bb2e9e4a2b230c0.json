@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:37:03.261712+00:00",
+  "elapsed": 0.215431,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:03.261712+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "348",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FEDUK&format=json&method=track.getInfo&track=%D0%A2%D0%B0%D0%BD%D1%86%D1%8B+%D0%BD%D0%B0+%D0%BA%D1%83%D1%85%D0%BD%D0%B5"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=FEDUK&format=json&method=track.getInfo&track=%D0%A2%D0%B0%D0%BD%D1%86%D1%8B+%D0%BD%D0%B0+%D0%BA%D1%83%D1%85%D0%BD%D0%B5",
+  "_decoded_content": {
+    "track": {
+      "name": "\u0422\u0430\u043d\u0446\u044b \u043d\u0430 \u043a\u0443\u0445\u043d\u0435",
+      "url": "https:\/\/www.last.fm\/music\/Feduk\/_\/%D0%A2%D0%B0%D0%BD%D1%86%D1%8B+%D0%BD%D0%B0+%D0%BA%D1%83%D1%85%D0%BD%D0%B5",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2355",
+      "playcount": "11630",
+      "artist": {
+        "name": "Feduk",
+        "url": "https:\/\/www.last.fm\/music\/Feduk"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

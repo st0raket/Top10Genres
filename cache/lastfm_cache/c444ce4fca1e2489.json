@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:42:17.151269+00:00",
+  "elapsed": 0.190433,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:17.151269+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1096",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=yung+kai&format=json&method=track.getInfo&track=blue"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=yung+kai&format=json&method=track.getInfo&track=blue",
+  "_decoded_content": {
+    "track": {
+      "name": "blue",
+      "url": "https:\/\/www.last.fm\/music\/yung+kai\/_\/blue",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "199486",
+      "playcount": "2794640",
+      "artist": {
+        "name": "yung kai",
+        "url": "https:\/\/www.last.fm\/music\/yung+kai"
+      },
+      "album": {
+        "artist": "yung kai",
+        "title": "blue",
+        "url": "https:\/\/www.last.fm\/music\/yung+kai\/blue",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2397ff47cea2c965598a601688029aaa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2397ff47cea2c965598a601688029aaa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2397ff47cea2c965598a601688029aaa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2397ff47cea2c965598a601688029aaa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "nice",
+            "url": "https:\/\/www.last.fm\/tag\/nice"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          }
+        ]
+      }
+    }
+  }
+}

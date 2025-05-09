@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:22.687990+00:00",
+  "elapsed": 0.18862,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:22.687990+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2113",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rita+Ora&format=json&method=track.getInfo&track=Let+You+Love+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rita+Ora&format=json&method=track.getInfo&track=Let+You+Love+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Let You Love Me",
+      "url": "https:\/\/www.last.fm\/music\/Rita+Ora\/_\/Let+You+Love+Me",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "224563",
+      "playcount": "2215930",
+      "artist": {
+        "name": "Rita Ora",
+        "mbid": "c9dd033c-0270-463c-b3ec-f4b7712486fe",
+        "url": "https:\/\/www.last.fm\/music\/Rita+Ora"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Clubfete 2019 (63 Club Dance & Party Hits) [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Clubfete+2019+(63+Club+Dance+&+Party+Hits)+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f77854d392bba53fddf8ba34319c51d2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f77854d392bba53fddf8ba34319c51d2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f77854d392bba53fddf8ba34319c51d2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f77854d392bba53fddf8ba34319c51d2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Sep 2018, 14:15",
+        "summary": "\"Let You Love Me\" is a song by British singer Rita Ora, released as the fourth single from her upcoming second studio album, Phoenix. It was released on 21 September 2018 by Atlantic Records. The music video was released on the same day.  <a href=\"http:\/\/www.last.fm\/music\/Rita+Ora\/_\/Let+You+Love+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"Let You Love Me\" is a song by British singer Rita Ora, released as the fourth single from her upcoming second studio album, Phoenix. It was released on 21 September 2018 by Atlantic Records. The music video was released on the same day.  <a href=\"http:\/\/www.last.fm\/music\/Rita+Ora\/_\/Let+You+Love+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

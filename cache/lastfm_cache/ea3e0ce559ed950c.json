@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:17.478796+00:00",
+  "elapsed": 0.171046,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:17.478796+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3619",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=exes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=exes",
+  "_decoded_content": {
+    "track": {
+      "name": "exes",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/exes",
+      "duration": "159000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "548016",
+      "playcount": "8928663",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "album": {
+        "artist": "Tate McRae",
+        "title": "exes",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/exes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/80bc090b83d3a627d808a01836d45476.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/80bc090b83d3a627d808a01836d45476.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/80bc090b83d3a627d808a01836d45476.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/80bc090b83d3a627d808a01836d45476.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "female vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalist"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Jan 2024, 20:24",
+        "summary": "The song \"exes\" by Tate McRae explores the complex dynamics of past romantic relationships and the impact they have on the singer.\n\nIn the pre-chorus, the line \"Let's just say, it is what it is and was what it was\" suggests that the singer has come to accept the reality of their past relationships, acknowledging that they cannot change what has already happened.\n\nThe chorus expresses a mix of emotions towards the singer's exes. The repeated phrase \"Kisses to my exes\" can be seen as a sarcastic or bitter expression <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/exes\">Read more on Last.fm<\/a>.",
+        "content": "The song \"exes\" by Tate McRae explores the complex dynamics of past romantic relationships and the impact they have on the singer.\n\nIn the pre-chorus, the line \"Let's just say, it is what it is and was what it was\" suggests that the singer has come to accept the reality of their past relationships, acknowledging that they cannot change what has already happened.\n\nThe chorus expresses a mix of emotions towards the singer's exes. The repeated phrase \"Kisses to my exes\" can be seen as a sarcastic or bitter expression, as it is followed by the statement that they \"don't give a shit\" about the singer. This implies a lack of reciprocated feelings or indifference from these past partners.\n\nThe chorus also mentions the next ones who think they can't live without the singer, highlighting a pattern of relationships where the partners become heavily dependent on the singer. However, despite the breakups and promises to never call again, the singer still keeps their number and a necklace, symbolizing a lingering connection or attachment.\n\nThe post-chorus adds another layer to the song's meaning. The singer apologizes for their actions, expressing remorse for the pain caused to those who loved them. The line \"Change my mind up like it's origami\" suggests that the singer easily changes their feelings or decisions, possibly playing with the emotions of their partners.\n\nOverall, \"exes\" delves into the complicated nature of past relationships and the different emotions experienced by the singer. It explores themes of indifference, dependency, and the consequences of the singer's actions on those who loved them. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/exes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

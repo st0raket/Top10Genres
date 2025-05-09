@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:58.601055+00:00",
+  "elapsed": 0.333821,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:58.601055+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1654",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Lingo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Lingo",
+  "_decoded_content": {
+    "track": {
+      "name": "Lingo",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/Lingo",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "117299",
+      "playcount": "1267887",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "Girls",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/Girls",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f222ebe3a68120ada7f5753a0d2ad2ab.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f222ebe3a68120ada7f5753a0d2ad2ab.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f222ebe3a68120ada7f5753a0d2ad2ab.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f222ebe3a68120ada7f5753a0d2ad2ab.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "country if it slayed",
+            "url": "https:\/\/www.last.fm\/tag\/country+if+it+slayed"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "winter",
+            "url": "https:\/\/www.last.fm\/tag\/winter"
+          },
+          {
+            "name": "excellent",
+            "url": "https:\/\/www.last.fm\/tag\/excellent"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jul 2022, 19:56",
+        "summary": "\"Lingo\" is the third track from \"Girls - The 2nd Mini Album \", second mini album by the group Aespa. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Lingo\">Read more on Last.fm<\/a>.",
+        "content": "\"Lingo\" is the third track from \"Girls - The 2nd Mini Album \", second mini album by the group Aespa. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Lingo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

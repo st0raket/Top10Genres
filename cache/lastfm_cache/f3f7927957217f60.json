@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:58.678196+00:00",
+  "elapsed": 0.216215,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:58.678196+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4573",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ed+Sheeran&format=json&method=track.getInfo&track=Eraser"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ed+Sheeran&format=json&method=track.getInfo&track=Eraser",
+  "_decoded_content": {
+    "track": {
+      "name": "Eraser",
+      "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/Eraser",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "163987",
+      "playcount": "955972",
+      "artist": {
+        "name": "Ed Sheeran",
+        "mbid": "b8a7c51f-362c-4dcb-a259-bc6e0095f0a6",
+        "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran"
+      },
+      "album": {
+        "artist": "Ed Sheeran",
+        "title": "\u00f7 (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Ed+Sheeran\/%C3%B7+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5c808e167d1af3d4c89e711e3baaf8ab.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "Ed Sheeran",
+            "url": "https:\/\/www.last.fm\/tag\/Ed+Sheeran"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 May 2024, 01:10",
+        "summary": "\"Eraser\" is a song by English singer-songwriter Ed Sheeran from his third studio album, \u00f7. Serving as the opening track of the album, it was written and produced by Sheeran and Johnny McDaid. After the album's release, it charted at number 14 on the UK Singles Chart.\n\nThe song was written by Sheeran with Johnny McDaid in the treehouse he built in his garden. They first recorded a riff on his guitar on the McDaid's iPhone before he went to bed, while McDaid stayed up all night to produce the beat for the riff. <a href=\"http:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/Eraser\">Read more on Last.fm<\/a>.",
+        "content": "\"Eraser\" is a song by English singer-songwriter Ed Sheeran from his third studio album, \u00f7. Serving as the opening track of the album, it was written and produced by Sheeran and Johnny McDaid. After the album's release, it charted at number 14 on the UK Singles Chart.\n\nThe song was written by Sheeran with Johnny McDaid in the treehouse he built in his garden. They first recorded a riff on his guitar on the McDaid's iPhone before he went to bed, while McDaid stayed up all night to produce the beat for the riff. Speaking about the song to Zane Lowe on his Beats 1 show, Sheeran said: \"The original first line of it was what is now the bridge 'Welcome to the new show' and I was just sitting there and I was like this doesn't hit anywhere here ... And then so I just said: 'Johnny can you bugger off for a bit and let me just see what I can do' and just write loads of bars, and that came like within five seconds, and 'Oh wow! something is happening.' Johnny came back half an hour later and we recorded the song.\"\n\nSheeran also said: \"I wanted to casually move into a stadium zone without making twelve 'Castle on the Hill's. I wanted to make songs that sounded big but weren't necessarily just euphoric stadium anthems.\"\n\nThe song reveals personal details about his life, and Sheeran said it is an opportunity to vent on things that had happened in his life in the previous five years that he had not talked about. It mentions the envy felt by friends and family on his success. Sheeran said: \"Friends and family are meant to be the ones who are there for you, 90% of the time they are, but every now and then there is the odd comment that just like sinks your soul.\" On money, he said: \"Money is the weirdest thing ... That's kinda the only thing that changed in my life drastically, but the way people treat you because of it, and they think you are going to change because of it, and they treat you differently, inevitably you change your opinion to them because they are treating you differently. It's a really weird thing. I try to stay exactly the same as I was before.\" The line \"but I hope that Damien's proud\" is a reference to Damien Rice, regarded by Sheeran as an influence on his music. Rice is also referenced in another song of Sheeran's, \"You Need Me, I Don't Need You\". The line \"Relationships, and hearts you fixed, they break as well\" is likely to reference him getting Jesy Nelson and former tour support Jake Roche engaged only for them to split 4 months before the album was released. <a href=\"http:\/\/www.last.fm\/music\/Ed+Sheeran\/_\/Eraser\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

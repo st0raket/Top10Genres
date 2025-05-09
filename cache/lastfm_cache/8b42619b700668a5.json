@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:08.825669+00:00",
+  "elapsed": 0.183239,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:08.825669+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2607",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lukas+Graham&format=json&method=track.getInfo&track=7+Years"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lukas+Graham&format=json&method=track.getInfo&track=7+Years",
+  "_decoded_content": {
+    "track": {
+      "name": "7 Years",
+      "url": "https:\/\/www.last.fm\/music\/Lukas+Graham\/_\/7+Years",
+      "duration": "237000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "732253",
+      "playcount": "5959560",
+      "artist": {
+        "name": "Lukas Graham",
+        "mbid": "124cec07-44f1-4a99-9aaa-96a5bb9ec0bd",
+        "url": "https:\/\/www.last.fm\/music\/Lukas+Graham"
+      },
+      "album": {
+        "artist": "Lukas Graham",
+        "title": "Lukas Graham (Blue Album)",
+        "url": "https:\/\/www.last.fm\/music\/Lukas+Graham\/Lukas+Graham+(Blue+Album)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c1ccdb565cb8a9a5ba6271706157d01d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c1ccdb565cb8a9a5ba6271706157d01d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c1ccdb565cb8a9a5ba6271706157d01d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c1ccdb565cb8a9a5ba6271706157d01d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Worst Song Ever",
+            "url": "https:\/\/www.last.fm\/tag\/Worst+Song+Ever"
+          },
+          {
+            "name": "fucking horrible",
+            "url": "https:\/\/www.last.fm\/tag\/fucking+horrible"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "danish",
+            "url": "https:\/\/www.last.fm\/tag\/danish"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Feb 2017, 19:37",
+        "summary": "\"7 Years\" is a song by Danish soul-pop band Lukas Graham, released as the third single off their second studio album, Lukas Graham (Blue Album), on 18 September 2015. The song topped the charts in Denmark, Sweden, Italy, Austria, Australia, New Zealand, Ireland, the UK, and Canada, while reaching number two in the United States and the top ten in several other European countries.\n\n\"7 Years\" was nominated for three Grammy Awards: Record of the Year, Song of the Year, and Best Pop Duo\/Group Performance. <a href=\"http:\/\/www.last.fm\/music\/Lukas+Graham\/_\/7+Years\">Read more on Last.fm<\/a>.",
+        "content": "\"7 Years\" is a song by Danish soul-pop band Lukas Graham, released as the third single off their second studio album, Lukas Graham (Blue Album), on 18 September 2015. The song topped the charts in Denmark, Sweden, Italy, Austria, Australia, New Zealand, Ireland, the UK, and Canada, while reaching number two in the United States and the top ten in several other European countries.\n\n\"7 Years\" was nominated for three Grammy Awards: Record of the Year, Song of the Year, and Best Pop Duo\/Group Performance. <a href=\"http:\/\/www.last.fm\/music\/Lukas+Graham\/_\/7+Years\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

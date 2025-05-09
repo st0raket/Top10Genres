@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:43:28.138000+00:00",
+  "elapsed": 0.212923,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:28.138000+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4361",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sebastian+Yatra&format=json&method=track.getInfo&track=Tacones+Rojos"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sebastian+Yatra&format=json&method=track.getInfo&track=Tacones+Rojos",
+  "_decoded_content": {
+    "track": {
+      "name": "Tacones Rojos",
+      "url": "https:\/\/www.last.fm\/music\/Sebastian+Yatra\/_\/Tacones+Rojos",
+      "duration": "189000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "118092",
+      "playcount": "1230381",
+      "artist": {
+        "name": "Sebastian Yatra",
+        "url": "https:\/\/www.last.fm\/music\/Sebastian+Yatra"
+      },
+      "album": {
+        "artist": "Sebastian Yatra",
+        "title": "Tacones Rojos",
+        "url": "https:\/\/www.last.fm\/music\/Sebastian+Yatra\/Tacones+Rojos",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7bbbc8054963bf1dededdb6620c1d7aa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7bbbc8054963bf1dededdb6620c1d7aa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7bbbc8054963bf1dededdb6620c1d7aa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7bbbc8054963bf1dededdb6620c1d7aa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          },
+          {
+            "name": "personal favourites",
+            "url": "https:\/\/www.last.fm\/tag\/personal+favourites"
+          },
+          {
+            "name": "Pop Latino",
+            "url": "https:\/\/www.last.fm\/tag\/Pop+Latino"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Jan 2024, 14:07",
+        "summary": "\"Tacones Rojos\" (English: \"Red High Heels\") is a song co-written and performed by Colombian singer Sebasti\u00e1n Yatra released as the eighth single from his third studio album Dharma (2022), published through the Universal Music Latino label on 22 October 2021.\n\nThe single has managed to enter the top ten of the charts in most Spanish-speaking countries such as Argentina, Chile, Colombia, Ecuador, Spain, Mexico, Uruguay and among others. It is one of the best commercially performing tracks from the singer's album <a href=\"http:\/\/www.last.fm\/music\/Sebastian+Yatra\/_\/Tacones+Rojos\">Read more on Last.fm<\/a>.",
+        "content": "\"Tacones Rojos\" (English: \"Red High Heels\") is a song co-written and performed by Colombian singer Sebasti\u00e1n Yatra released as the eighth single from his third studio album Dharma (2022), published through the Universal Music Latino label on 22 October 2021.\n\nThe single has managed to enter the top ten of the charts in most Spanish-speaking countries such as Argentina, Chile, Colombia, Ecuador, Spain, Mexico, Uruguay and among others. It is one of the best commercially performing tracks from the singer's album, behind only \"Runaway\" and \"Pareja del A\u00f1o\".\n\nIn addition to being a success on radio stations in countries like Spain, where it topped the radio list or in countries like Colombia, Ecuador or Chile where it also topped the charts. On the Monitor Latino charts in Latin America, it topped the charts.\n\nRegarding the certifications, in Spain it received the double platinum certification for sales equivalent to 120,000 units.\n\nThe song released a bilingual duet remix with American singer John Legend released on 23 March 2022 as a single.\n\nYatra co-wrote the song with Juanjo Monserrat, Lofty and Manuel Lara Pablo with the intention of including it on the album. It was released as a single on 22 October 2021 along with the music video. In the historical sheets of Spotify of the song Yatra recounts the following:\n\n\"It's about that person who brings me happiness, my piece of sunshine, the apple of my eye. Like a ray of light coming through my window, I like it because it's good and sometimes bad too.\n\nThe song deals with Sebasti\u00e1n Yatra's point of view about a girl who dances with red heels, while he describes what he feels with her and for her with a happy background and warm melodies belonging to the pop genre in Spanish \"La que me hace sufrir pero no paro de amar\", as he says in the bridge of the song.\n\nMusically, \"Tacones Rojos\" is a latin pop song that mixes reggaeton. Lyrically, the song talks about a girl who dances with red heels, while describing what she feels with her and for her with a happy background and warm melodies belonging to the pop genre in Spanish. The lyrics includes, \"Mi pedazo de sol \/ La ni\u00f1a de mis ojos \/ Tiene una colecci\u00f3n, de corazones rotos \/ M\u00ed pedazo de sol \/ La ni\u00f1a de mis ojos \/ La que baila reguet\u00f3n, con tacones rojos\". <a href=\"http:\/\/www.last.fm\/music\/Sebastian+Yatra\/_\/Tacones+Rojos\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

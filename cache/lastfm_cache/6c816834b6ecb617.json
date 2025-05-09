@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:16.139731+00:00",
+  "elapsed": 0.372711,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:16.139731+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1951",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chl%C3%B6e&format=json&method=track.getInfo&track=Have+Mercy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chl%C3%B6e&format=json&method=track.getInfo&track=Have+Mercy",
+  "_decoded_content": {
+    "track": {
+      "name": "Have Mercy",
+      "url": "https:\/\/www.last.fm\/music\/Chl%C3%B6e\/_\/Have+Mercy",
+      "duration": "148000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "325545",
+      "playcount": "5024046",
+      "artist": {
+        "name": "Chl\u00f6e",
+        "url": "https:\/\/www.last.fm\/music\/Chl%C3%B6e"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "MuchDance 2022",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/MuchDance+2022",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ce8034259808e682dcb09db43ec92535.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ce8034259808e682dcb09db43ec92535.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ce8034259808e682dcb09db43ec92535.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ce8034259808e682dcb09db43ec92535.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Sep 2021, 18:35",
+        "summary": "\u201cHave Mercy\u201d is a song by Chl\u00f6e (Chloe Bailey), known better as one half of the iconic singing sister duo, Chloe x Halle. This is her solo debut single and it was released on September 10th, 2021 alongside its music video. <a href=\"http:\/\/www.last.fm\/music\/Chl%C3%B6e\/_\/Have+Mercy\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHave Mercy\u201d is a song by Chl\u00f6e (Chloe Bailey), known better as one half of the iconic singing sister duo, Chloe x Halle. This is her solo debut single and it was released on September 10th, 2021 alongside its music video. <a href=\"http:\/\/www.last.fm\/music\/Chl%C3%B6e\/_\/Have+Mercy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

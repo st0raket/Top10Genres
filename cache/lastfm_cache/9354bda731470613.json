@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:58.496334+00:00",
+  "elapsed": 0.24051,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:58.496334+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5138",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jung+Kook&format=json&method=track.getInfo&track=Never+Let+Go"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jung+Kook&format=json&method=track.getInfo&track=Never+Let+Go",
+  "_decoded_content": {
+    "track": {
+      "name": "Never Let Go",
+      "url": "https:\/\/www.last.fm\/music\/Jung+Kook\/_\/Never+Let+Go",
+      "duration": "166000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "175901",
+      "playcount": "38212753",
+      "artist": {
+        "name": "Jung Kook",
+        "url": "https:\/\/www.last.fm\/music\/Jung+Kook"
+      },
+      "album": {
+        "artist": "Jung Kook",
+        "title": "Never Let Go",
+        "url": "https:\/\/www.last.fm\/music\/Jung+Kook\/Never+Let+Go",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4c196dc62cf40e532782dd22841a9360.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4c196dc62cf40e532782dd22841a9360.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4c196dc62cf40e532782dd22841a9360.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4c196dc62cf40e532782dd22841a9360.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "Go",
+            "url": "https:\/\/www.last.fm\/tag\/Go"
+          },
+          {
+            "name": "jungkook",
+            "url": "https:\/\/www.last.fm\/tag\/jungkook"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2024, 02:41",
+        "summary": "\"Never Let Go\" is a song recorded by South Korean artist Jung Kook, a member of the globally renowned boy group BTS. It was released on June 7, 2024, by Big Hit Music and HYBE Labels as a digital single. The release coincided with the BTS Festa event, a celebration by BTS to commemorate their debut anniversary with their fanbase, ARMY. The BTS Festa is a special annual event that typically includes the release of new photos, humorous profiles, video content, exclusive songs, radio programs, and more. <a href=\"http:\/\/www.last.fm\/music\/Jung+Kook\/_\/Never+Let+Go\">Read more on Last.fm<\/a>.",
+        "content": "\"Never Let Go\" is a song recorded by South Korean artist Jung Kook, a member of the globally renowned boy group BTS. It was released on June 7, 2024, by Big Hit Music and HYBE Labels as a digital single. The release coincided with the BTS Festa event, a celebration by BTS to commemorate their debut anniversary with their fanbase, ARMY. The BTS Festa is a special annual event that typically includes the release of new photos, humorous profiles, video content, exclusive songs, radio programs, and more. The event lasts between 8 to 18 days, starting from either March 31 or from June 1 to 4.\n\nThe song \"Never Let Go\" was written by Anton Martin Mendo, Bak, Jess Bluu, Jung Kook, Melanie Joy Fontana, Michel \"Lindgren\" Schulz, Sim Fane, and Tobias Dekker. It was produced by Bak, Sim Fane, Star Boy, and Outtatown. Musically, the track is characterized by its house rhythm, featuring a blend of minimalistic yet catchy synthesizers and refreshing instrumentation. The song\u2019s production style creates a dynamic and engaging soundscape, making it a standout track in Jung Kook's solo discography. \n\nLyrically, \"Never Let Go\" is a heartfelt fan song dedicated to ARMY. The lyrics encapsulate Jung Kook's emotions and his sincere message to the fans who have supported BTS throughout their journey. The song's vibrant rhythm and Jung Kook's warm vocal delivery enhance the emotional resonance of the lyrics, creating a lively and uplifting atmosphere. This blend of heartfelt sentiment and infectious beat exemplifies the special connection between Jung Kook and his fans, making the song particularly poignant and memorable.\n\nAs part of the BTS Festa, the release of \"Never Let Go\" was accompanied by various celebratory activities, including the release of new visual content and special broadcasts. This annual celebration not only marks BTS's debut anniversary but also strengthens the bond between the group and their fanbase. The inclusion of the song in this event underscores its significance, highlighting Jung Kook's gratitude and affection towards ARMY. The festivities surrounding the release further amplified the song\u2019s impact, making it a central piece of the celebrations.\n\nUpon its release, \"Never Let Go\" quickly gained attention and acclaim from fans and music critics alike. Its infectious rhythm and heartfelt message resonated with listeners, leading to widespread praise for Jung Kook's expressive vocals and the song\u2019s compelling production. The song's ability to evoke emotions and create a sense of connection with ARMY has been particularly noted, reinforcing Jung Kook's position as a solo artist with a distinct voice and vision.\n\nOverall, \"Never Let Go\" stands as a testament to Jung Kook's artistic growth and his deep connection with his fans. The song\u2019s release as part of the BTS Festa not only celebrates the group\u2019s journey but also highlights Jung Kook's personal message to ARMY. With its vibrant sound and sincere lyrics, \"Never Let Go\" is a memorable addition to Jung Kook's repertoire, further solidifying his place in the music industry and his special relationship with his global fanbase. <a href=\"http:\/\/www.last.fm\/music\/Jung+Kook\/_\/Never+Let+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

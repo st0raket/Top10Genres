@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:00.532693+00:00",
+  "elapsed": 0.201407,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:00.532693+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2821",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vicetone&format=json&method=track.getInfo&track=Astronomia"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vicetone&format=json&method=track.getInfo&track=Astronomia",
+  "_decoded_content": {
+    "track": {
+      "name": "Astronomia",
+      "url": "https:\/\/www.last.fm\/music\/Vicetone\/_\/Astronomia",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "151757",
+      "playcount": "953570",
+      "artist": {
+        "name": "Vicetone",
+        "mbid": "cc91bb2e-7330-4f9e-ae04-4f78f49e3155",
+        "url": "https:\/\/www.last.fm\/music\/Vicetone"
+      },
+      "album": {
+        "artist": "Vicetone",
+        "title": "Astronomia - single",
+        "url": "https:\/\/www.last.fm\/music\/Vicetone\/Astronomia+-+single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e08a903d77db9e1b177a9e9668cd6a86.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e08a903d77db9e1b177a9e9668cd6a86.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e08a903d77db9e1b177a9e9668cd6a86.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e08a903d77db9e1b177a9e9668cd6a86.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "meme",
+            "url": "https:\/\/www.last.fm\/tag\/meme"
+          },
+          {
+            "name": "electro house",
+            "url": "https:\/\/www.last.fm\/tag\/electro+house"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jun 2023, 04:50",
+        "summary": "\"Astronomia\" is a house song by Dutch electronic music duo Vicetone and Russian DJ and record producer Tony Igy, created as a remix of Igy's 2010 song with the same name. It was released on July 9, 2014.\n\nThe original Astronomia song was released in Russia in 2010. Vicetone created a remix of the original song in 2014 and sent it to Tony Igy, who liked it. Igy's label did not approve of the remix, so the remix was released for free online.\n\nIn 2020 <a href=\"http:\/\/www.last.fm\/music\/Vicetone\/_\/Astronomia\">Read more on Last.fm<\/a>.",
+        "content": "\"Astronomia\" is a house song by Dutch electronic music duo Vicetone and Russian DJ and record producer Tony Igy, created as a remix of Igy's 2010 song with the same name. It was released on July 9, 2014.\n\nThe original Astronomia song was released in Russia in 2010. Vicetone created a remix of the original song in 2014 and sent it to Tony Igy, who liked it. Igy's label did not approve of the remix, so the remix was released for free online.\n\nIn 2020, amidst the COVID-19 pandemic, the song became the subject of the \"Coffin Dance\" internet meme, which involves the remix playing over a group of Ghanaian men dancing while carrying a coffin. This was a common funeral tradition in Ghana and parts of Africa with the idea of sending off deceased loved ones in style, rather than in the usual manner of mourning a loss. <a href=\"http:\/\/www.last.fm\/music\/Vicetone\/_\/Astronomia\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

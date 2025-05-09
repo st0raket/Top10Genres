@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:44:14.833493+00:00",
+  "elapsed": 0.209715,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:14.833493+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "671",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wisin+%26+Yandel&format=json&method=track.getInfo&track=Aullando"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wisin+%26+Yandel&format=json&method=track.getInfo&track=Aullando",
+  "_decoded_content": {
+    "track": {
+      "name": "Aullando",
+      "url": "https:\/\/www.last.fm\/music\/Wisin+&+Yandel\/_\/Aullando",
+      "duration": "226000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "40851",
+      "playcount": "234501",
+      "artist": {
+        "name": "Wisin & Yandel",
+        "mbid": "3deeb747-c228-4d33-9892-f0aa081783c3",
+        "url": "https:\/\/www.last.fm\/music\/Wisin+&+Yandel"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Mastermix Classic Cuts, Volume 164 Reggaeton Party",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Mastermix+Classic+Cuts,+Volume+164+Reggaeton+Party",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

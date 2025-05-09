@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:27.247173+00:00",
+  "elapsed": 0.205314,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:27.247173+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3553",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Coloratura"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Coloratura",
+  "_decoded_content": {
+    "track": {
+      "name": "Coloratura",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Coloratura",
+      "duration": "618000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "124971",
+      "playcount": "767146",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "Music of the Spheres",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/Music+of+the+Spheres",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fce31d4841bc76861f5ff024281c61d6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fce31d4841bc76861f5ff024281c61d6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fce31d4841bc76861f5ff024281c61d6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fce31d4841bc76861f5ff024281c61d6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Progressive rock",
+            "url": "https:\/\/www.last.fm\/tag\/Progressive+rock"
+          },
+          {
+            "name": "piano rock",
+            "url": "https:\/\/www.last.fm\/tag\/piano+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2022, 11:11",
+        "summary": "\"Coloratura\" is a song by Coldplay from their ninth studio album, Music of the Spheres. It is the twelfth and final track on the album and was released as its first promotional single on 23 July 2021, accompanied by an official lyric video. It is currently the longest original song ever released by the band, running at 10 minutes and 18 seconds. On the concept of the record, the track represents Coloratura, the twelfth celestial object on the The Spheres solar system. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Coloratura\">Read more on Last.fm<\/a>.",
+        "content": "\"Coloratura\" is a song by Coldplay from their ninth studio album, Music of the Spheres. It is the twelfth and final track on the album and was released as its first promotional single on 23 July 2021, accompanied by an official lyric video. It is currently the longest original song ever released by the band, running at 10 minutes and 18 seconds. On the concept of the record, the track represents Coloratura, the twelfth celestial object on the The Spheres solar system.\n\n\"Coloratura\" received widespread critical acclaim, largely for its lengthy, unconventional structure, production and experimentation. A live studio version of the song was released on Coldplay's fifteenth EP, Infinity Station Sessions.\n\nMatt Doria from NME praised the track for \u201cechoing the rhapsodic prog-rock vibes of Pink Floyd's The Dark Side of the Moon\u201d and also noted how it marks \u201can ambitious step into uncharted territory for Coldplay, though not eschewing too far from [their] standard fare\u201d. Writing for Rolling Stone, Daniel Kreps described the song as a \u201cmulti-suite voyage into the cosmos, with Chris Martin namechecking celestial bodies [...] along his journey to the stars\u201d. Ahad Sanwari from V magazine mentioned that \u201conly Coldplay, in this day and age, would think 'let's make a track that's over ten minutes long', and still, somehow [...] be able to pull it off\u201d. He also praised the band by noting that \u201c[they] clearly mastered the art of creating a specific atmosphere and mood throughout their music\u201d. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Coloratura\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

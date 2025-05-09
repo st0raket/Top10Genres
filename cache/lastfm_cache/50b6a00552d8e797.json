@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:32:39.892555+00:00",
+  "elapsed": 0.204426,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:39.892555+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2505",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BENEE&format=json&method=track.getInfo&track=Glitter"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BENEE&format=json&method=track.getInfo&track=Glitter",
+  "_decoded_content": {
+    "track": {
+      "name": "Glitter",
+      "url": "https:\/\/www.last.fm\/music\/benee\/_\/Glitter",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "228614",
+      "playcount": "1815320",
+      "artist": {
+        "name": "benee",
+        "url": "https:\/\/www.last.fm\/music\/benee"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "New Zealand",
+            "url": "https:\/\/www.last.fm\/tag\/New+Zealand"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Kiwi",
+            "url": "https:\/\/www.last.fm\/tag\/Kiwi"
+          },
+          {
+            "name": "aotearoa",
+            "url": "https:\/\/www.last.fm\/tag\/aotearoa"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Mar 2022, 00:55",
+        "summary": "\"Glitter\" is a song by New Zealand musician BENEE. It was released as a single on July 3, 2019 as the fourth and final single from BENEE's debut extended play \"FIRE ON MARZZ\". The song peaked at number 7 on the New Zealand singles chart and has been certified gold.\n\n\u201cGlitter\u201d was premiered on Australian radio station triple j just hours before BENEE's debut EP was available on streaming services. In the announcement post for the premier, BENEE posted a snippet of the chorus to her various social media accounts. <a href=\"http:\/\/www.last.fm\/music\/benee\/_\/Glitter\">Read more on Last.fm<\/a>.",
+        "content": "\"Glitter\" is a song by New Zealand musician BENEE. It was released as a single on July 3, 2019 as the fourth and final single from BENEE's debut extended play \"FIRE ON MARZZ\". The song peaked at number 7 on the New Zealand singles chart and has been certified gold.\n\n\u201cGlitter\u201d was premiered on Australian radio station triple j just hours before BENEE's debut EP was available on streaming services. In the announcement post for the premier, BENEE posted a snippet of the chorus to her various social media accounts.\n\nBENEE explained to Oyster Magazine:\n\n'I love working in the studio at Golden Age\u2026 The fella behind the production of my tracks, Josh Fountain, has decorated the studio with a number of weird ornaments. At the end of last year, I was planning my Laneway outfit and found the coolest tinsel ever! This later inspired a song \u201cGlitter\u201d coming out on my EP\u2026\"\n\nThe singer says the song\u2019s about a night in an Auckland gay club when a rando dude dumped a bottle of glitter on her head. \u2013 (taken from the description of BENEE\u2019s Vevo acoustic performance video) <a href=\"http:\/\/www.last.fm\/music\/benee\/_\/Glitter\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

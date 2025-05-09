@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:43.100482+00:00",
+  "elapsed": 0.187503,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:43.100482+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3957",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Toby+Keith&format=json&method=track.getInfo&track=Should%27ve+Been+a+Cowboy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Toby+Keith&format=json&method=track.getInfo&track=Should%27ve+Been+a+Cowboy",
+  "_decoded_content": {
+    "track": {
+      "name": "Should've Been A Cowboy",
+      "mbid": "a7b3a10b-59e9-4851-9e23-e76be8fdce0a",
+      "url": "https:\/\/www.last.fm\/music\/Toby+Keith\/_\/Should%27ve+Been+A+Cowboy",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "249778",
+      "playcount": "1215338",
+      "artist": {
+        "name": "Toby Keith",
+        "mbid": "2f951906-5629-4fef-a260-5033151c162a",
+        "url": "https:\/\/www.last.fm\/music\/Toby+Keith"
+      },
+      "album": {
+        "artist": "Toby Keith",
+        "title": "Toby Keith",
+        "mbid": "18cfbd07-cc89-3cad-bb71-369e074b5ca6",
+        "url": "https:\/\/www.last.fm\/music\/Toby+Keith\/Toby+Keith",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "toby keith",
+            "url": "https:\/\/www.last.fm\/tag\/toby+keith"
+          },
+          {
+            "name": "90s country",
+            "url": "https:\/\/www.last.fm\/tag\/90s+country"
+          },
+          {
+            "name": "Toby Kieth",
+            "url": "https:\/\/www.last.fm\/tag\/Toby+Kieth"
+          },
+          {
+            "name": "cowboy",
+            "url": "https:\/\/www.last.fm\/tag\/cowboy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Jun 2021, 06:45",
+        "summary": "\"Should've Been a Cowboy\" is a song written and recorded by country music artist Toby Keith. It was released on February 12, 1993, as his debut single and the first from his self-titled debut album. On June 5, 1993, the song reached #1 on the US Billboard Hot Country Songs and the Canadian RPM Country Tracks charts. It also peaked at #93 on the Billboard Hot 100, making it a minor crossover hit.\n\nThe song is a staple following sporting events at Oklahoma State University (home of the Cowboys) <a href=\"http:\/\/www.last.fm\/music\/Toby+Keith\/_\/Should%27ve+Been+A+Cowboy\">Read more on Last.fm<\/a>.",
+        "content": "\"Should've Been a Cowboy\" is a song written and recorded by country music artist Toby Keith. It was released on February 12, 1993, as his debut single and the first from his self-titled debut album. On June 5, 1993, the song reached #1 on the US Billboard Hot Country Songs and the Canadian RPM Country Tracks charts. It also peaked at #93 on the Billboard Hot 100, making it a minor crossover hit.\n\nThe song is a staple following sporting events at Oklahoma State University (home of the Cowboys), often played over the venue's PA system several times in succession as fans emptied the stadium or arena.\n\nAmerican Aquarium covered the song on their 2021 album Slappers, Bangers, and Certified Twangers: Vol 1.\n\nThe song was inspired by an incident Keith experienced at a bar in the early 90s. According to Keith:\n\n\u201cThis highway patrolman who I had met on the trip, his name was John, he jumps up. He was probably 45 or 50 back then, and he runs over to this 25-year-old cowgirl. He was going to show that he could bust a move. She turns him down. He comes over, and said, \u2018She says she doesn\u2019t dance.\u2019 About 15 minutes later, a young cowboy comes in \u2014 and off they go on the dance floor. Everybody was making fun of him, and one of the guys said, \u2018John, I guess you should have been a cowboy.\u2019 \u201d \n\nThe lyrics romanticize the cowboy lifestyle through references to old Westerns. The first verse references Gunsmoke, in which cowboy hero Marshal Dillon never settled down with his love interest Miss Kitty. The second verse tells of his own adventures if the narrator were a cowboy: having \"a sidekick with a funny name\" (possibly a reference to sidekicks like Tonto or Gordito), travelling west to California (including the historical quote \"Go West, young man\"), hunting down Western outlaw Jesse James, joining up with the Texas Rangers, and so on. The chorus refers to famous singing cowboys Gene Autry and Roy Rogers, and lists common patterns depicted in Westerns such as six-shooters (revolvers) and cattle drives. <a href=\"http:\/\/www.last.fm\/music\/Toby+Keith\/_\/Should%27ve+Been+A+Cowboy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

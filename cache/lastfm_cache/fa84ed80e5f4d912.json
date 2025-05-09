@@ -1,0 +1,87 @@
+{
+  "created_at": "2025-05-03T14:27:58.221257+00:00",
+  "elapsed": 0.21953,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:58.221257+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1049",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burak+Yeter&format=json&method=track.getInfo&track=Tuesday"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Burak+Yeter&format=json&method=track.getInfo&track=Tuesday",
+  "_decoded_content": {
+    "track": {
+      "name": "Tuesday",
+      "url": "https:\/\/www.last.fm\/music\/Burak+Yeter\/_\/Tuesday",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "35199",
+      "playcount": "203978",
+      "artist": {
+        "name": "Burak Yeter",
+        "url": "https:\/\/www.last.fm\/music\/Burak+Yeter"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Bravo Hits, Vol. 95",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Bravo+Hits,+Vol.+95",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b0eb42c97450bd6d904e38f68ac79da3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b0eb42c97450bd6d904e38f68ac79da3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b0eb42c97450bd6d904e38f68ac79da3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b0eb42c97450bd6d904e38f68ac79da3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "ilovemakonnen",
+            "url": "https:\/\/www.last.fm\/tag\/ilovemakonnen"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+genre,ma_window,mae,rmse,mape,model_name_extracted,source_file,best_params,sarima_order
+african_music,,372099.9429438511,447472.4919757032,5.961754132660091,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,,
+alternative,4.0,1731158.0994527563,3255601.0138044786,17.688958237300405,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 20.0, 'seasonality_mode': 'additive'}","(1, 1, 1),(1, 0, 0, 52)"
+asian_music,4.0,1578074.2796862917,1611741.333540585,25.323722266335945,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.1, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'multiplicative'}","(1, 1, 1),(0, 0, 0, 52)"
+blues,,4972639.5625,5816114.385277269,58.27198226283132,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+bollywood,,1806201.625,1847735.0924384089,24.918686050207324,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+brazilian_music,,1199970.3987892924,1630092.0164928534,15.73076090888208,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+chill_out_trip-hop_lounge,,501013.125,594175.8784320515,10.772257738923408,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+classical,,5898803.925145834,15575256.71638694,22.809543416060773,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+contemporary_randb,,1609232.989651719,2368742.2322384515,33.11548684796466,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+dance,4.0,933508.5172400008,1451123.812243653,11.204475923928394,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'multiplicative'}","(0, 1, 1),(1, 0, 0, 52)"
+dancehall_ragga,,883155.625,896805.8638060275,22.53814870696968,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+disco,,571324.75,689097.6710815383,12.594612412010305,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+dubstep,,715687.9964030972,836732.8369584628,8.1825386760811,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,,
+electro,4.0,1180813.36465786,1738333.2458219756,12.168453157755064,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 1.0, 'seasonality_mode': 'additive'}","(0, 1, 0),(0, 0, 0, 52)"
+film_scores,,1148971.8190952449,1299585.42812316,9.68678760316563,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,,
+films_games,4.0,1148971.8190952449,1299585.42812316,9.68678760316563,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'additive'}","(0, 1, 1),(1, 0, 0, 52)"
+folk,,2486332.8661173373,3017573.166084376,33.44881647906944,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+hard_rock,,468125.1428571429,568207.974506317,4.332068451851493,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+indie_pop,,3691135.380662148,5567988.151920588,52.93808120139036,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+indie_pop_folk,,4296583.544157161,6798716.690966985,60.587804174175886,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+indie_rock,,2855341.346289528,3564195.2441498777,43.37269544533572,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+indie_rock_rock_pop,,630846.0894189294,662398.1221324246,11.484038989025365,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+international_pop,,264846.3176126112,395629.7450825464,1.483971598700089,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,,
+jazz,,5699688.75,6869176.571539489,40.24372552881823,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+latin_music,4.0,1142013.5819362062,2250603.625927628,15.195336477074836,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 10.0, 'seasonality_mode': 'additive'}","(1, 1, 1),(0, 0, 0, 52)"
+metal,,468890.625,557044.4596568347,4.918872626872039,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+musicals,,3584696.9421347314,3985317.218403444,71.05433868676066,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+pop,4.0,2664135.342135676,5667084.261256061,15.89539204161568,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 0.1, 'seasonality_mode': 'additive'}","(1, 1, 1),(1, 0, 0, 52)"
+randb,4.0,843370.3379664153,1348620.6590766157,9.393718764323038,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}","(2, 1, 1),(0, 0, 0, 52)"
+rap_hip_hop,4.0,1484065.2700949209,3766466.1835732106,13.232373394126082,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.5, 'seasonality_prior_scale': 0.1, 'seasonality_mode': 'additive'}","(1, 1, 1),(0, 0, 0, 52)"
+reggae,,2137568.8461198504,3448315.385162855,33.90032607401874,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+rock,4.0,393643.4781419304,669614.7076993951,1.2008603766453048,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,"{'changepoint_prior_scale': 0.01, 'seasonality_prior_scale': 20.0, 'seasonality_mode': 'additive'}","(1, 1, 1),(1, 0, 1, 52)"
+rock_and_roll_rockabilly,,356608.75290860306,472700.8160386309,3.770209016345942,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+singer_and_songwriter,,252824.5299370026,323296.5268031803,4.2248727580936265,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,,
+soul_and_funk,,1693171.284892256,2709820.731904432,36.83551902774913,LightGBM,genre_LGBM_tuned_ts_cv_metrics_songs6064_iter10.csv,,
+techno_house,,599747.2020845236,729922.6769934234,6.943634381714501,RandomForest,genre_RF_tscv_tuned_metrics_songs200_iter10.csv,,

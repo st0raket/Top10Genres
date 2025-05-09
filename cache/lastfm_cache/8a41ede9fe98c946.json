@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:33:16.110786+00:00",
+  "elapsed": 0.197579,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:16.110786+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1685",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bill+Withers&format=json&method=track.getInfo&track=Lovely+Day"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bill+Withers&format=json&method=track.getInfo&track=Lovely+Day",
+  "_decoded_content": {
+    "track": {
+      "name": "Lovely Day",
+      "mbid": "6ea4a8b4-9dfa-453a-a2d4-6a8f56acd5dc",
+      "url": "https:\/\/www.last.fm\/music\/Bill+Withers\/_\/Lovely+Day",
+      "duration": "251000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "989625",
+      "playcount": "6308606",
+      "artist": {
+        "name": "Bill Withers",
+        "mbid": "fd1a2d9d-9bb6-44de-83a3-41560658aba9",
+        "url": "https:\/\/www.last.fm\/music\/Bill+Withers"
+      },
+      "album": {
+        "artist": "Bill Withers",
+        "title": "Lean on Me: The Best of Bill Withers",
+        "mbid": "cb91b04a-eded-4606-938c-9672642df7be",
+        "url": "https:\/\/www.last.fm\/music\/Bill+Withers\/Lean+on+Me:+The+Best+of+Bill+Withers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2a59efb29034070cbae4689369a79c74.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2a59efb29034070cbae4689369a79c74.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2a59efb29034070cbae4689369a79c74.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2a59efb29034070cbae4689369a79c74.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "happy",
+            "url": "https:\/\/www.last.fm\/tag\/happy"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Dec 2008, 16:06",
+        "summary": " <a href=\"http:\/\/www.last.fm\/music\/Bill+Withers\/_\/Lovely+Day\">Read more on Last.fm<\/a>.",
+        "content": " <a href=\"http:\/\/www.last.fm\/music\/Bill+Withers\/_\/Lovely+Day\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

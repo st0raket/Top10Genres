@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-05-03T14:42:25.295189+00:00",
+  "elapsed": 0.223436,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:25.295189+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1010",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB&format=json&method=track.getInfo&track=Plazma"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB&format=json&method=track.getInfo&track=Plazma",
+  "_decoded_content": {
+    "track": {
+      "name": "Plazma",
+      "url": "https:\/\/www.last.fm\/music\/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB\/_\/Plazma",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3066",
+      "playcount": "38527",
+      "artist": {
+        "name": "\u7c73\u6d25\u7384\u5e2b",
+        "mbid": "09d4a85c-4916-4b4e-bc96-c4cfcf371046",
+        "url": "https:\/\/www.last.fm\/music\/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB"
+      },
+      "album": {
+        "artist": "\u7c73\u6d25\u7384\u5e2b",
+        "title": "Plazma",
+        "url": "https:\/\/www.last.fm\/music\/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB\/Plazma",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/926cf9887255fd758c38ecba42d02f9d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/926cf9887255fd758c38ecba42d02f9d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/926cf9887255fd758c38ecba42d02f9d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/926cf9887255fd758c38ecba42d02f9d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "gundam",
+            "url": "https:\/\/www.last.fm\/tag\/gundam"
+          }
+        ]
+      }
+    }
+  }
+}

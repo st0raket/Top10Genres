@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:04.944779+00:00",
+  "elapsed": 0.208042,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:04.944779+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5551",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Take+My+Breath"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Take+My+Breath",
+  "_decoded_content": {
+    "track": {
+      "name": "Take My Breath",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Take+My+Breath",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "741271",
+      "playcount": "9229032",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hit Connection Best of 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hit+Connection+Best+of+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ffc21a80b18197fd68ded4d03688c8eb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ffc21a80b18197fd68ded4d03688c8eb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ffc21a80b18197fd68ded4d03688c8eb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ffc21a80b18197fd68ded4d03688c8eb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "nu-disco",
+            "url": "https:\/\/www.last.fm\/tag\/nu-disco"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Aug 2021, 21:49",
+        "summary": "\"Take My Breath\" is a song by Canadian singer The Weeknd. It was released on August 6, 2021, as the lead single from his fifth studio album Dawn FM. A portion of the song's instrumental was first teased by The Weeknd on social media platforms on August 2, 2021.\n\nA disco, dance-pop, funk, and synth-wave track with psychedelic elements, \"Take My Breath\" was met with widespread critical acclaim for the Weeknd's vocals and its production, which was influenced by the beats and synthesizers of the 1980s. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Take+My+Breath\">Read more on Last.fm<\/a>.",
+        "content": "\"Take My Breath\" is a song by Canadian singer The Weeknd. It was released on August 6, 2021, as the lead single from his fifth studio album Dawn FM. A portion of the song's instrumental was first teased by The Weeknd on social media platforms on August 2, 2021.\n\nA disco, dance-pop, funk, and synth-wave track with psychedelic elements, \"Take My Breath\" was met with widespread critical acclaim for the Weeknd's vocals and its production, which was influenced by the beats and synthesizers of the 1980s. The song debuted at number six on the US Billboard Hot 100, marking The Weeknd's thirteenth top 10 entry.\n\nThe single and radio version of the song runs for a duration of three minutes and forty seconds, while the extended version has a length of five minutes and fifty-one seconds. Also, the album version of the song runs for a duration of five minutes and thirty-nine seconds, which segues from the preceding track \"How Do I Make You Love Me?\". It was written in the key of C minor with a tempo of 121 beats per minute. Lyrically, the song details an entanglement in a romantic relationship that ultimately leads to autoerotic asphyxiation.\n\nThe Weeknd first teased that he was working on a new album in September 2020, via an interview with Rolling Stone in which he stated \"I might have another album ready to go by the time this quarantine is over\". Later on, during the 2021 Billboard Music Awards in May, he went on to state in his acceptance speech \"I just want to say the After Hours are done and The Dawn is coming.\" Throughout June and July, The Weeknd continued to mention his then-upcoming project under the tentative title \"The Dawn\" by revealing a new transitional look. He also released the singles \"You Right\" with Doja Cat and \"Better Believe\" with Belly and Young Thug during that period.\n\nOn August 2, 2021, a snippet of \"Take My Breath\" with a visual of a sunrise titled \"The Dawn Is Coming\" and a GQ cover story was released in anticipation of new music. The title of the single and its release date of August 6 was confirmed later that day through a promotional video for the 2020 Summer Olympics, which featured hurdlers Sydney McLaughlin and Dalilah Muhammad, middle-distance runner Athing Mu, and sprinter Gabrielle Thomas.\n\nThe music video for \"Take My Breath\" was first teased by the Weeknd on social media via self-released images of the visual during the week leading up to the release of the single. Directed by Cliqua, it originally was supposed to play before IMAX showings of The Suicide Squad, but was reportedly pulled due to epilepsy concerns in regards to the pervasive strobe lighting in the video. The video was released alongside the song on August 6, 2021.\n\nThe video starts with The Weeknd walking outside overlooking a sunrise, before entering a nightclub with pulsating strobe lights. Upon entering the club, he meets his love interest, played by actress and stuntwoman Shaina West. The two dance together and exchange breaths through an oxygen tank, before The Weeknd's breath is literally taken away as he gets strangled by West's braids. The video ends with The Weeknd regaining his breath and consciousness as he is seen lying down on the club floor with a snippet of \"Sacrifice\" playing in the background. As of early 2022, the video has over 100 million views on YouTube.\n\n\"Take My Breath\" was used as the theme song for WWE's 2021 pay-per-view Crown Jewel. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Take+My+Breath\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

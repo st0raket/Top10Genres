@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:38.474438+00:00",
+  "elapsed": 0.198042,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:38.474438+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3181",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Venom+-+Music+From+The+Motion+Picture"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Venom+-+Music+From+The+Motion+Picture",
+  "_decoded_content": {
+    "track": {
+      "name": "Venom - Music From The Motion Picture",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Venom+-+Music+From+The+Motion+Picture",
+      "duration": "264000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "384429",
+      "playcount": "3355321",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Venom (Music From The Motion Picture)",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Venom+(Music+From+The+Motion+Picture)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7f39d2af5649d9f74e4e8850bdde9c79.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7f39d2af5649d9f74e4e8850bdde9c79.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7f39d2af5649d9f74e4e8850bdde9c79.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7f39d2af5649d9f74e4e8850bdde9c79.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "movie",
+            "url": "https:\/\/www.last.fm\/tag\/movie"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jun 2021, 11:23",
+        "summary": "\"Venom \u2013 Music from the Motion Picture\", more commonly known as simply \"Venom\", is a song by American rapper Eminem, written for the soundtrack of the 2018 film of the same name and featured in his album Kamikaze. It was released as a digital single on September 21, 2018. Following the album's release, the track entered the charts in several countries, hitting the top 50 in the United States, Canada and Australia. On August 30, 2018, Eminem posted a 15-seconds teaser showing Venom's title with the \"E\" turning to the \"backwards \u018e\"  <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Venom+-+Music+From+The+Motion+Picture\">Read more on Last.fm<\/a>.",
+        "content": "\"Venom \u2013 Music from the Motion Picture\", more commonly known as simply \"Venom\", is a song by American rapper Eminem, written for the soundtrack of the 2018 film of the same name and featured in his album Kamikaze. It was released as a digital single on September 21, 2018. Following the album's release, the track entered the charts in several countries, hitting the top 50 in the United States, Canada and Australia. On August 30, 2018, Eminem posted a 15-seconds teaser showing Venom's title with the \"E\" turning to the \"backwards \u018e\" , used as Eminem's emblem and that he was going to feature Thusho (aka TheeBrain) from South Africa. Seven hours later, on August 31, 2018, Eminem's previously unannounced album Kamikaze was released, and \"Venom\" appeared as its final track. On September 21, 2018, the track was released as a separate digital single on streaming services.The song includes multiple references to the Venom film and to its character Eddie Brock. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Venom+-+Music+From+The+Motion+Picture\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

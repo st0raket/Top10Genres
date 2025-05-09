@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:40:44.886491+00:00",
+  "elapsed": 0.233522,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:44.886491+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Burn"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Burn",
+  "_decoded_content": {
+    "track": {
+      "name": "Burn",
+      "mbid": "b9fcfba7-9f2f-47ac-94fb-5133dfe5104c",
+      "url": "https:\/\/www.last.fm\/music\/Usher\/_\/Burn",
+      "duration": "256000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "551658",
+      "playcount": "2279627",
+      "artist": {
+        "name": "Usher",
+        "mbid": "3414d446-735a-443c-931f-10634f57e5b9",
+        "url": "https:\/\/www.last.fm\/music\/Usher"
+      },
+      "album": {
+        "artist": "Usher",
+        "title": "The Singles Collection",
+        "mbid": "16784ba0-5dfb-4c7a-884e-07f1ef457c23",
+        "url": "https:\/\/www.last.fm\/music\/Usher\/The+Singles+Collection",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "13"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Usher",
+            "url": "https:\/\/www.last.fm\/tag\/Usher"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Dec 2008, 16:42",
+        "summary": "\u201cBurn\u201d is a song by American R&B singer Usher, released as the second single from his album, Confessions. Lyrically, the song is about breakup in a relationship.\n\n\u201cBurn\u201d reached the top spot on various charts around the world, including the United States, United Kingdom, and New Zealand. <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/Burn\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBurn\u201d is a song by American R&B singer Usher, released as the second single from his album, Confessions. Lyrically, the song is about breakup in a relationship.\n\n\u201cBurn\u201d reached the top spot on various charts around the world, including the United States, United Kingdom, and New Zealand. <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/Burn\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

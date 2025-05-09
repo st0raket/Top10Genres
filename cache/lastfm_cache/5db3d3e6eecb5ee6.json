@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:29:08.645485+00:00",
+  "elapsed": 0.348183,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:08.644184+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1297",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Meghan+Trainor&format=json&method=track.getInfo&track=I%27ll+Be+Home"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Meghan+Trainor&format=json&method=track.getInfo&track=I%27ll+Be+Home",
+  "_decoded_content": {
+    "track": {
+      "name": "I'll Be Home",
+      "mbid": "79662b65-8bb0-445e-86f3-e9cc17fded5d",
+      "url": "https:\/\/www.last.fm\/music\/Meghan+Trainor\/_\/I%27ll+Be+Home",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "261501",
+      "playcount": "811412",
+      "artist": {
+        "name": "Meghan Trainor",
+        "mbid": "b2029169-2574-4305-820f-252a5fde3697",
+        "url": "https:\/\/www.last.fm\/music\/Meghan+Trainor"
+      },
+      "album": {
+        "artist": "Meghan Trainor",
+        "title": "I'll Be Home",
+        "url": "https:\/\/www.last.fm\/music\/Meghan+Trainor\/I%27ll+Be+Home",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/37e7717b17263743879b839a2a7310a5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/37e7717b17263743879b839a2a7310a5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/37e7717b17263743879b839a2a7310a5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/37e7717b17263743879b839a2a7310a5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          }
+        ]
+      }
+    }
+  }
+}

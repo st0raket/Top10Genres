@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:26.792467+00:00",
+  "elapsed": 0.1993,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:26.790807+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1985",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Easy+On+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=Easy+On+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Easy On ME",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/Easy+On+ME",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "926852",
+      "playcount": "10563302",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Adele",
+            "url": "https:\/\/www.last.fm\/tag\/Adele"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Oct 2021, 20:52",
+        "summary": "\"Easy on Me\" is a plea to take it easy with someone who hasn't had the same chance to make their own decisions or experience the world. The lyrics imply that the singer was unable to explore the world around them due to their circumstances and had to go with the choices that were made for them. The singer is asking for the other person to not be too hard on them and to accept that they were still learning. The bridge hints at how the singer has had good intentions and hopeful outcomes <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Easy+On+ME\">Read more on Last.fm<\/a>.",
+        "content": "\"Easy on Me\" is a plea to take it easy with someone who hasn't had the same chance to make their own decisions or experience the world. The lyrics imply that the singer was unable to explore the world around them due to their circumstances and had to go with the choices that were made for them. The singer is asking for the other person to not be too hard on them and to accept that they were still learning. The bridge hints at how the singer has had good intentions and hopeful outcomes, and though it may not show right now, they still want to be taken into account. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/Easy+On+ME\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

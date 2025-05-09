@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:32:58.820352+00:00",
+  "elapsed": 0.234502,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:58.820352+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1490",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Moon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Moon",
+  "_decoded_content": {
+    "track": {
+      "name": "moon",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/moon",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "323062",
+      "playcount": "20069115",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "jin",
+            "url": "https:\/\/www.last.fm\/tag\/jin"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Feb 2020, 19:05",
+        "summary": "\"Moon\" is a pop-rock song by BTS. It is the sixteenth track from the group's fourth studio album Map of the Soul : 7. The song is performed by member Jin.\n\nIn this song, Jin writes about his love for his fans called \"ARMY\" where he calls himself the Moon and ARMY as the Earth. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/moon\">Read more on Last.fm<\/a>.",
+        "content": "\"Moon\" is a pop-rock song by BTS. It is the sixteenth track from the group's fourth studio album Map of the Soul : 7. The song is performed by member Jin.\n\nIn this song, Jin writes about his love for his fans called \"ARMY\" where he calls himself the Moon and ARMY as the Earth. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/moon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

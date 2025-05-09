@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:11.680084+00:00",
+  "elapsed": 0.244642,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:11.680084+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1915",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=Right+Foot+Creep"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=Right+Foot+Creep",
+  "_decoded_content": {
+    "track": {
+      "name": "Right Foot Creep",
+      "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/_\/Right+Foot+Creep",
+      "duration": "159000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "126415",
+      "playcount": "1016397",
+      "artist": {
+        "name": "YoungBoy Never Broke Again",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again"
+      },
+      "album": {
+        "artist": "YoungBoy Never Broke Again",
+        "title": "Top",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/Top",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "fortnite",
+            "url": "https:\/\/www.last.fm\/tag\/fortnite"
+          },
+          {
+            "name": "youcant rap",
+            "url": "https:\/\/www.last.fm\/tag\/youcant+rap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001747063611",
+            "url": "https:\/\/www.last.fm\/tag\/-1001747063611"
+          },
+          {
+            "name": "griddy",
+            "url": "https:\/\/www.last.fm\/tag\/griddy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Dec 2023, 06:40",
+        "summary": "Right Foot Creep went viral on TikTok in a dance craze known as the Griddy, which was later added into the popular video game Fortnite. <a href=\"http:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/_\/Right+Foot+Creep\">Read more on Last.fm<\/a>.",
+        "content": "Right Foot Creep went viral on TikTok in a dance craze known as the Griddy, which was later added into the popular video game Fortnite. <a href=\"http:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/_\/Right+Foot+Creep\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

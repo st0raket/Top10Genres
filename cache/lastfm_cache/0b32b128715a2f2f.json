@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:42.498082+00:00",
+  "elapsed": 0.181917,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:42.498082+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2538",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gigi+Perez&format=json&method=track.getInfo&track=Sailor+Song"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gigi+Perez&format=json&method=track.getInfo&track=Sailor+Song",
+  "_decoded_content": {
+    "track": {
+      "name": "Sailor Song",
+      "url": "https:\/\/www.last.fm\/music\/Gigi+Perez\/_\/Sailor+Song",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "839063",
+      "playcount": "16232560",
+      "artist": {
+        "name": "Gigi Perez",
+        "url": "https:\/\/www.last.fm\/music\/Gigi+Perez"
+      },
+      "album": {
+        "artist": "Gigi Perez",
+        "title": "Sailor Song",
+        "url": "https:\/\/www.last.fm\/music\/Gigi+Perez\/Sailor+Song",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/157a9990d5fc8a5b8252635d7994fa9e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/157a9990d5fc8a5b8252635d7994fa9e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/157a9990d5fc8a5b8252635d7994fa9e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/157a9990d5fc8a5b8252635d7994fa9e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie folk",
+            "url": "https:\/\/www.last.fm\/tag\/indie+folk"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Oct 2024, 14:01",
+        "summary": "Gigi Perez's \"Sailor Song\" weaves together themes of love, yearning, and emotional vulnerability through the metaphor of a sailor\u2019s journey. The song juxtaposes devotion and separation with raw passion, creating an emotionally intense atmosphere. Its maritime imagery reflects personal longing and the challenges of connection, resonating with listeners through its mix of worshipful and lustful emotions. The track's success, including its appearance on the Hot 100, stems from its emotional authenticity and evocative lyrics. <a href=\"http:\/\/www.last.fm\/music\/Gigi+Perez\/_\/Sailor+Song\">Read more on Last.fm<\/a>.",
+        "content": "Gigi Perez's \"Sailor Song\" weaves together themes of love, yearning, and emotional vulnerability through the metaphor of a sailor\u2019s journey. The song juxtaposes devotion and separation with raw passion, creating an emotionally intense atmosphere. Its maritime imagery reflects personal longing and the challenges of connection, resonating with listeners through its mix of worshipful and lustful emotions. The track's success, including its appearance on the Hot 100, stems from its emotional authenticity and evocative lyrics. <a href=\"http:\/\/www.last.fm\/music\/Gigi+Perez\/_\/Sailor+Song\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

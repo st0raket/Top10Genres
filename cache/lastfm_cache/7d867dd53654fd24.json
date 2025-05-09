@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:33:19.242001+00:00",
+  "elapsed": 0.379549,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:19.242001+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "317",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Official+HIGE+DANdism&format=json&method=track.getInfo&track=Parabola"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Official+HIGE+DANdism&format=json&method=track.getInfo&track=Parabola",
+  "_decoded_content": {
+    "track": {
+      "name": "Parabola",
+      "url": "https:\/\/www.last.fm\/music\/Official+HIGE+DANdism\/_\/Parabola",
+      "duration": "303000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7258",
+      "playcount": "58401",
+      "artist": {
+        "name": "Official HIGE DANdism",
+        "url": "https:\/\/www.last.fm\/music\/Official+HIGE+DANdism"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

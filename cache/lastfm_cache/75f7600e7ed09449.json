@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:10.944147+00:00",
+  "elapsed": 0.176401,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:10.939548+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2414",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=loml"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=loml",
+  "_decoded_content": {
+    "track": {
+      "name": "loml",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/loml",
+      "duration": "277000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "474092",
+      "playcount": "11930843",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "climate terrorist",
+            "url": "https:\/\/www.last.fm\/tag\/climate+terrorist"
+          },
+          {
+            "name": "\ud83d\udca9",
+            "url": "https:\/\/www.last.fm\/tag\/%F0%9F%92%A9"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Apr 2024, 00:52",
+        "summary": "\"loml\" is the twelfth track from Taylor Swift's eleventh studio album, The Tortured Poets Department, released on April 19, 2024.\n\nThough the abbreviation is generally short for \"love of my life\", Swift never actually says \"love of my life\" in the song. She says \"love of your life\" and \"loss of my life\" instead. The song seems to bear a resemblance to Swift's song \"White Horse\" from 2008. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/loml\">Read more on Last.fm<\/a>.",
+        "content": "\"loml\" is the twelfth track from Taylor Swift's eleventh studio album, The Tortured Poets Department, released on April 19, 2024.\n\nThough the abbreviation is generally short for \"love of my life\", Swift never actually says \"love of my life\" in the song. She says \"love of your life\" and \"loss of my life\" instead. The song seems to bear a resemblance to Swift's song \"White Horse\" from 2008. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/loml\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

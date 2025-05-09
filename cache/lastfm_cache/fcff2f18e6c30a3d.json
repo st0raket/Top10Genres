@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:39.913374+00:00",
+  "elapsed": 0.189933,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:39.913374+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2666",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Sine+From+Above"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Sine+From+Above",
+  "_decoded_content": {
+    "track": {
+      "name": "Sine from Above",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Sine+from+Above",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "21731",
+      "playcount": "224311",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "Chromatica",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/Chromatica",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8504f8b6a728694e9985169e97c82990.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "urban",
+            "url": "https:\/\/www.last.fm\/tag\/urban"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 May 2020, 05:41",
+        "summary": "This angelic dance-floor ballad introduces the third and final act of Chromatica. The track marks the second collaboration between Sir Elton John and Lady Gaga.\n\nOn this track, Lady Gaga talks about her songwriting process. She reveals that \u201cSound\u201d is her God and it is the reason for all her artistic revelations.\n\nThe title of the track has been interpreted in several different ways. \u201cSine\u201d is pronounced like \u201csign\u201d alluding to a \u201cSign from above\u201d keeping in the theme of comparing the sound with God. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Sine+from+Above\">Read more on Last.fm<\/a>.",
+        "content": "This angelic dance-floor ballad introduces the third and final act of Chromatica. The track marks the second collaboration between Sir Elton John and Lady Gaga.\n\nOn this track, Lady Gaga talks about her songwriting process. She reveals that \u201cSound\u201d is her God and it is the reason for all her artistic revelations.\n\nThe title of the track has been interpreted in several different ways. \u201cSine\u201d is pronounced like \u201csign\u201d alluding to a \u201cSign from above\u201d keeping in the theme of comparing the sound with God. \u201cSine\u201d has also been interpreted as being a play on the word \u201csin\u201d. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Sine+from+Above\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

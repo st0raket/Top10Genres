@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:18.913818+00:00",
+  "elapsed": 0.180037,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:18.913818+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5698",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=bad+guy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=bad+guy",
+  "_decoded_content": {
+    "track": {
+      "name": "bad guy",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/bad+guy",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1430316",
+      "playcount": "16817103",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/WHEN+WE+ALL+FALL+ASLEEP,+WHERE+DO+WE+GO%3F",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c2652de4809e5b4349565518b34b85ca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c2652de4809e5b4349565518b34b85ca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c2652de4809e5b4349565518b34b85ca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c2652de4809e5b4349565518b34b85ca.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Oct 2019, 04:20",
+        "summary": "\u201cbad guy\u201c is a song by the American singer-songwriter Billie Eilish and the fifth single from her first studio album, When We All Fall Asleep, Where Do We Go?. It was released on March 29, 2019, by Darkroom and Interscope Records. The song was described by media as electropop, dance-pop, and trap-pop with minimalist instrumentation. In the lyrics, Eilish taunts someone for being tough while suggesting that she is a more resilient bad guy than he is. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/bad+guy\">Read more on Last.fm<\/a>.",
+        "content": "\u201cbad guy\u201c is a song by the American singer-songwriter Billie Eilish and the fifth single from her first studio album, When We All Fall Asleep, Where Do We Go?. It was released on March 29, 2019, by Darkroom and Interscope Records. The song was described by media as electropop, dance-pop, and trap-pop with minimalist instrumentation. In the lyrics, Eilish taunts someone for being tough while suggesting that she is a more resilient bad guy than he is.\n\nEilish wrote \"bad guy\" with her brother and the producer Finneas O'Connell. Another version of the song, a collaboration with the Canadian singer Justin Bieber, was released on July 11, 2019.\n\nUpon release, \"bad guy\" received mostly positive reviews. It topped the US Billboard Hot 100 and 16 other international charts including in the UK, Australia, Canada and New Zealand, peaking at number two on the UK Singles Chart. In the US, it ended the record-breaking 19-week run of \"Old Town Road\" by Lil Nas X featuring Billy Ray Cyrus. \"Bad Guy\" has received several certifications, including a tenfold platinum award from the Australian Recording Industry Association (ARIA) and a Diamond certification from the Recording Industry Association of America (RIAA). The song received several awards, including Record and Song of the Year at the 62nd Annual Grammy Awards.\n\nDave Meyers directed the music video, which depicts Eilish involved in several activities such as wild dancing, suffering a nosebleed and sitting on the back of a man doing push-ups. Reviewers noted the video for its camp elements and eccentric imagery.\n\n\"bad guy\" was simultaneously issued as the record's fifth single. The song was co-written by Eilish and her brother Finneas O'Connell, with the latter also produced the track and Eilish providing additional production. It was mastered by John Greenham and mixed by Rob Kinelski, both of whom also served as studio personnel. In August 2019, the single was made available for pre-order on cassette and scheduled to ship in October; selected cassettes were signed by Eilish. Additionally, a flexi disc was similarly released for pre-order to ship in the following 4\u20136 weeks. Each of the two releases came with a digital single delivered via email for US customers.\n\nUpon the release of When We All Fall Asleep, Where Do We Go?, \"bad guy\" debuted at number seven on the US Billboard Hot 100 on the week ending April 13, 2019, as Eilish's first top ten entry on the chart. It later occupied number two for a total of nine weeks, before ultimately reaching number one on the week ending August 24, 2019. \"bad guy\" ended the record-breaking 19-week run of \"Old Town Road\" by Lil Nas X featuring Billy Ray Cyrus. At 17, she further became the first artist born in the 2000s to achieve this feat and the youngest since then-16-year-old Lorde topped the ranking with \"Royals\" in 2013.\n\nInternationally, \"bad guy\" reached number one in Australia, Canada, Estonia, Finland, Greece, Hungary, Iceland, Latvia, Lithuania, New Zealand, Norway, and Russia. The song has been awarded multiple certifications, including a tenfold platinum award from the Australian Recording Industry Association (ARIA) and a Diamond one from the Recording Industry Association of America (RIAA), becoming the first song from an female artist born this century to go Diamond in the US. \"bad guy\" was the best-performing global single of 2019 with combined sales and track-equivalent streams of 19.5 million units according to the International Federation of the Phonographic Industry (IFPI). By 2022, \"bad guy\" was streamed over 2 billion times worldwide through Spotify, her first song to do so. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/bad+guy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

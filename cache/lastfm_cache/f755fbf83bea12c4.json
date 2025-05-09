@@ -1,0 +1,91 @@
+{
+  "created_at": "2025-05-03T14:28:31.703982+00:00",
+  "elapsed": 0.309103,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:31.703982+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1056",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Micar&format=json&method=track.getInfo&track=Burden+Down"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Micar&format=json&method=track.getInfo&track=Burden+Down",
+  "_decoded_content": {
+    "track": {
+      "name": "Burden Down",
+      "url": "https:\/\/www.last.fm\/music\/Micar\/_\/Burden+Down",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "19527",
+      "playcount": "101244",
+      "artist": {
+        "name": "Micar",
+        "url": "https:\/\/www.last.fm\/music\/Micar"
+      },
+      "album": {
+        "artist": "Micar",
+        "title": "Burden Down",
+        "url": "https:\/\/www.last.fm\/music\/Micar\/Burden+Down",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ada90629116e7a17b5a610d6cbe143d2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ada90629116e7a17b5a610d6cbe143d2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ada90629116e7a17b5a610d6cbe143d2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ada90629116e7a17b5a610d6cbe143d2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "2017 single",
+            "url": "https:\/\/www.last.fm\/tag\/2017+single"
+          }
+        ]
+      }
+    }
+  }
+}

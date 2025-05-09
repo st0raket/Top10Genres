@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:30:28.073338+00:00",
+  "elapsed": 0.238602,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:28.073338+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "847",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=Style+Stealer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=Style+Stealer",
+  "_decoded_content": {
+    "track": {
+      "name": "Style Stealer",
+      "url": "https:\/\/www.last.fm\/music\/Gunna\/_\/Style+Stealer",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4697",
+      "playcount": "22858",
+      "artist": {
+        "name": "Gunna",
+        "url": "https:\/\/www.last.fm\/music\/Gunna"
+      },
+      "album": {
+        "artist": "Lil Baby & Gunna",
+        "title": "Drip Harder",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Baby+&+Gunna\/Drip+Harder",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bb24eea4d0b5a308b40e73003b71971b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bb24eea4d0b5a308b40e73003b71971b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bb24eea4d0b5a308b40e73003b71971b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bb24eea4d0b5a308b40e73003b71971b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

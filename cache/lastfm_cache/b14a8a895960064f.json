@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:02.875858+00:00",
+  "elapsed": 0.204357,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:02.875858+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "8611",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Yeah%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=USHER&format=json&method=track.getInfo&track=Yeah%21",
+  "_decoded_content": {
+    "track": {
+      "name": "Yeah!",
+      "mbid": "577dca3d-c63b-4ebd-a0cc-a2534b0cf10c",
+      "url": "https:\/\/www.last.fm\/music\/Usher\/_\/Yeah%21",
+      "duration": "281000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "401359",
+      "playcount": "1412516",
+      "artist": {
+        "name": "Usher",
+        "mbid": "3414d446-735a-443c-931f-10634f57e5b9",
+        "url": "https:\/\/www.last.fm\/music\/Usher"
+      },
+      "album": {
+        "artist": "Usher",
+        "title": "Confessions",
+        "mbid": "e9c7cbfa-bc5a-3183-a01b-28ed5817164f",
+        "url": "https:\/\/www.last.fm\/music\/Usher\/Confessions",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d3c4b1e706ef4fb69f5ba203b730b37c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Usher",
+            "url": "https:\/\/www.last.fm\/tag\/Usher"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Mar 2009, 16:35",
+        "summary": "Yeah! is a song by American R&B singer Usher, written by American songwriters and producers Lil Jon, Sean Garrett, Patrick J. Que Smith, Ludacris, Robert McDowell and James Elbert \"LRoc\" Phillips for Usher's fourth studio album, Confessions (2004). The track was produced by Lil Jon which he combined crunk and R&B genres, triggering positive reviews from music critics. The song features Lil Jon and rapper Ludacris.\n\nThe song was released as the lead single from the album in early 2004 <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/Yeah%21\">Read more on Last.fm<\/a>.",
+        "content": "Yeah! is a song by American R&B singer Usher, written by American songwriters and producers Lil Jon, Sean Garrett, Patrick J. Que Smith, Ludacris, Robert McDowell and James Elbert \"LRoc\" Phillips for Usher's fourth studio album, Confessions (2004). The track was produced by Lil Jon which he combined crunk and R&B genres, triggering positive reviews from music critics. The song features Lil Jon and rapper Ludacris.\n\nThe song was released as the lead single from the album in early 2004, which reached number one on the Billboard Hot 100 for twelve weeks. It performed equally well on international music markets, topping several charts. The single was certified platinum in various countries and the song received awards.\n\nIn 2003, Usher submitted his fourth studio album, Confessions, to his label Arista Records, thinking it was already completed. However, when Usher and the company's then-president Antonio \"LA\" Reid listened to the songs, they felt the album needed a lead single. Although they had \"Burn\", the first song created early in the making of the album, as waiting list, Usher had to record few more tracks.\n\nUsher went back to the studio and enlisted fellow Atlantians rapper-producer Lil Jon, alongside rapper-actor Ludacris, to produce songs for him. Lil Jon recalled: \"He needed a single. They had 'Burn,' 'Burn' was hot, but they needed that first powerful monster. That's when I came in.\"\n\nSeveral months before Lil Jon came into the production of Confessions, he was commissioned by Jive Records to produce fifteen beats for rapper Mystikal. The rapper would only choose two tracks that gave Lil Jon the chance to peddle the leftovers to other record labels, subsequently using it for Usher. Beyond his awareness, Jive gave one of the tracks Mystikal passed onto hip hop artist Petey Pablo, who also records for the label. Lil Jon went to Pablo, who had already recorded the song, which later became \"Freak a Leek\". Lil Jon tried to settle it with Jive by making another beat for Pablo; however, Pablo did not give up the track, considering it was already recorded and had gaining responses from South radio. Lil Jon comments, \"With so much invested, Jive wouldn't give up the cut.\" Lil Jon reworked the track and a new instrumental was used, from which the \"Yeah!\" was based. The song was co-written by Sean Garrett, Patrick J. Que Smith, Ludacris, Robert McDowell and James Elbert \"LRoc\" Phillips.\n\n\"Yeah!\" was lauded by contemporary critics for its production. Jem Aswad of Entertainment Weekly called it \"irresistibly crunked-out\", adding, \"ensuing track glides smoothly between club-friendly hip-hop soul and ballads.\" Laura Sinagra Rolling Stone commented that the song \"creates sensual panic by combining Usher's jumpy attacks with Jon's sublime, frayed beats.\" Jon Caramanica of Blender noted that \"Yeah!\" is the first song to mix \"mainstream R&B and menacing Southern crunk.\" Sal Cinquemani of Slant Magazine the song has brought Usher to a \"whole new level of crunk.\" Andy Kellman of Allmusic described the song a \"crunk-meets-R&B foundation\" which features an \"instantly addictive eight-note keyboard vamp\". He added that because it is \"absorbing\", Ludacris' voice cannot be noticed that much. Matt Cibula of Popmatters characterized the song a \"full-fledged club \u00fcber-crunk salacious\" but he added that it fails to be a \"club banger\". Steve Jones of USA Today referred to \"Yeah!\" a \"club-rattling\" song from a combination of \"Atlanta's vibrant music scene\", Lil Jon's \"insistent beats\" and Ludacris' \"racy rhymes\".\n\nCritics complimented Usher for the song. Aswad called it the \"grittiest song\" Usher had sung for revealing his \"newfound maturity\". Caramanica said that it is \"probably the scariest record \u2014 in a good way \u2014 he's ever made\" and Usher \"smartly shares the spotlight.\" Cibula stated that Usher's \"smoove-ass\" singing and Ludacris' presence contributes to the success of the single.\n\n\"Yeah!\" was nominated at the 2005 Grammy Awards for Record of the Year, and won the Best Rap\/Sung Collaboration award. At the 2005 Soul Train Music Awards, \"Yeah!\" was nominated for best R&B\/Soul or Rap Dance Cut.\n\nMr. X, formerly Little X, had previously captured videos for Usher's single \"U Don't Have to Call\" and \"U Got It Bad\". Mr. X was inspired with the treatment of laser beams after listening to the song. He felt the sound was a laser beam for him, referring to the beat as \"distinctive\". Usher and Mr. X combined ideas to create a dance video for \"Yeah!\". The treatment was accompanied of how Usher wanted to be portrayed in the video, particularly showcasing his dance moves.\n\nThe music video was filmed in a vacant art gallery in Los Angeles over two days. When the shooting started, Mr. X recalled Michael Jackson's \"low-tech\" and \"laser-flashing\" 1979 \"Rock With You\" video, and used it as a reference. Forty extras were commissioned to dance with Usher, and two ladies to tempt him in different scenes. They went through photo browsing and phone calling, opting for Destiny, a friend of Mr. X, who seduces Usher in the club ala Marilyn Monroe wardrobe to complement the lyrics. Usher's other would-be seductress is portrayed by model Melyssa Ford. Lil Jon acted as an assistant director during the sessions. Usher took charge of his ideas on his wardrobe and choreography, with additional routines, specifically the Rockaway and the thunderclap, which Mr. X learned from Jamaica. The Rockaway influenced Fat Joe and Terror Squad's \"Lean Back\" video.\n\nUsher's dancing in front of the green and blue laser beams is prominently featured throughout the video. Lil Jon and Ludacris appeared on the video as well. Ludacris prot\u00e9g\u00e9 Chingy also appears near the end of the video, holding up his chain which shows his name. Sean \"Diddy\" Combs' former assistant, Farnsworth Bentley, made a cameo at the end of the video as well, when he was in Los Angeles and Mr. X begged him to dance in the video with his violin.\n\nThe music video debuted on MTV's Total Request Live at number ten on February 19, 2004. \"Yeah!\" topped the countdown, and retired on May 3 at number six after appearing on the countdown for fifty days. \"Yeah!\" became one of the most successful music video by Usher, alongside \"Confessions Part II\", which also remained for fifty days. At the 2005 Soul Train Music Awards, the video was nominated for Michael Jackson Award for best R&B\/Soul or Rap Music Video. <a href=\"http:\/\/www.last.fm\/music\/Usher\/_\/Yeah%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

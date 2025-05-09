@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:17.914709+00:00",
+  "elapsed": 0.20419,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:17.914709+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2489",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=THE+ANXIETY&format=json&method=track.getInfo&track=Meet+Me+At+Our+Spot"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=THE+ANXIETY&format=json&method=track.getInfo&track=Meet+Me+At+Our+Spot",
+  "_decoded_content": {
+    "track": {
+      "name": "Meet Me At Our Spot",
+      "url": "https:\/\/www.last.fm\/music\/THE+ANXIETY\/_\/Meet+Me+At+Our+Spot",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "751378",
+      "playcount": "7596902",
+      "artist": {
+        "name": "THE ANXIETY",
+        "url": "https:\/\/www.last.fm\/music\/THE+ANXIETY"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "bass",
+            "url": "https:\/\/www.last.fm\/tag\/bass"
+          },
+          {
+            "name": "duet",
+            "url": "https:\/\/www.last.fm\/tag\/duet"
+          },
+          {
+            "name": "electric rhythm guitars",
+            "url": "https:\/\/www.last.fm\/tag\/electric+rhythm+guitars"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jun 2022, 05:51",
+        "summary": "\"Meet Me At Our Spot\" is a song by American band The Anxiety, consisting of American singers Willow Smith and Tyler Cole. It was initially released through MSFTSMusic and Roc Nation on March 13, 2020, from the band's self-titled debut album. On October 5, 2021, the song was released as a single to contemporary hit radio.\n\nThough the song did not chart at the time of its 2020 release, it became a sleeper hit in 2021 after becoming popular on TikTok <a href=\"http:\/\/www.last.fm\/music\/THE+ANXIETY\/_\/Meet+Me+At+Our+Spot\">Read more on Last.fm<\/a>.",
+        "content": "\"Meet Me At Our Spot\" is a song by American band The Anxiety, consisting of American singers Willow Smith and Tyler Cole. It was initially released through MSFTSMusic and Roc Nation on March 13, 2020, from the band's self-titled debut album. On October 5, 2021, the song was released as a single to contemporary hit radio.\n\nThough the song did not chart at the time of its 2020 release, it became a sleeper hit in 2021 after becoming popular on TikTok, with users incorporating it as the soundtrack to their summer, or playing it in the background of cartoon videos.\n\nKelsey Garcia of Popsugar felt the song \"is a sludgy alternative track with emo undertones that hits at the zeitgeist and is pretty inescapable on TikTok.\"\n\nAfter it became a viral hit on TikTok, the song entered various charts, reaching No. 21 on the US Billboard Hot 100, becoming Willow's highest-charting entry since \"Whip My Hair\", as well as her second top-40 hit on the chart. It also reached the top 10 in Australia, Ireland, New Zealand and UK. <a href=\"http:\/\/www.last.fm\/music\/THE+ANXIETY\/_\/Meet+Me+At+Our+Spot\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

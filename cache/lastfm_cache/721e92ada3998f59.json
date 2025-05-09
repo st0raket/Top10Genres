@@ -1,0 +1,105 @@
+{
+  "created_at": "2025-05-03T14:38:45.910904+00:00",
+  "elapsed": 0.210656,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:45.910904+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2771",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jackson+5&format=json&method=track.getInfo&track=Santa+Claus+Is+Coming+to+Town"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jackson+5&format=json&method=track.getInfo&track=Santa+Claus+Is+Coming+to+Town",
+  "_decoded_content": {
+    "track": {
+      "name": "Santa Claus Is Coming To Town",
+      "url": "https:\/\/www.last.fm\/music\/The+Jackson+5\/_\/Santa+Claus+Is+Coming+To+Town",
+      "duration": "144000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "593709",
+      "playcount": "1874445",
+      "artist": {
+        "name": "The Jackson 5",
+        "mbid": "e5257dc5-1edd-4fca-b7e6-1158e00522c8",
+        "url": "https:\/\/www.last.fm\/music\/The+Jackson+5"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Christmas Hits",
+        "mbid": "20256ee1-e55e-4f60-91ed-bb70c678f322",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Christmas+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fadab111e1dd99854550ce67f879b0ce.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fadab111e1dd99854550ce67f879b0ce.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fadab111e1dd99854550ce67f879b0ce.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fadab111e1dd99854550ce67f879b0ce.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "motown",
+            "url": "https:\/\/www.last.fm\/tag\/motown"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Jan 2023, 04:07",
+        "summary": "\u201cSanta Claus Is Coming to Town\u201c is one of The Jackson 5's songs and singles (Single in the US. only) that is in the album, Jackson 5 Christmas Album. It was composed by Haven Gillespie and J-Fred Coots and was produced by The Corporation and Hal Davis. This was a festive favorite for The Jackson 5.\n\nIt was released as a single in the US in 1970 - at this time, Christmas singles were excluded from the mainstream Billboard charts. It hit no.1 on the special Christmas Singles chart in 1970 and 1971, and peaked at number 9 in 1973. <a href=\"http:\/\/www.last.fm\/music\/The+Jackson+5\/_\/Santa+Claus+Is+Coming+To+Town\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSanta Claus Is Coming to Town\u201c is one of The Jackson 5's songs and singles (Single in the US. only) that is in the album, Jackson 5 Christmas Album. It was composed by Haven Gillespie and J-Fred Coots and was produced by The Corporation and Hal Davis. This was a festive favorite for The Jackson 5.\n\nIt was released as a single in the US in 1970 - at this time, Christmas singles were excluded from the mainstream Billboard charts. It hit no.1 on the special Christmas Singles chart in 1970 and 1971, and peaked at number 9 in 1973. <a href=\"http:\/\/www.last.fm\/music\/The+Jackson+5\/_\/Santa+Claus+Is+Coming+To+Town\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

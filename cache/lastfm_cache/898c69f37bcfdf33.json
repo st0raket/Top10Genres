@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:12.801916+00:00",
+  "elapsed": 0.180571,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:12.801916+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2897",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Too+Late"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Too+Late",
+  "_decoded_content": {
+    "track": {
+      "name": "Too Late",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Too+Late",
+      "duration": "240000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "513080",
+      "playcount": "5521195",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "After Hours (Super Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/After+Hours+(Super+Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/68530167078d95555092131f17f9d01b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/68530167078d95555092131f17f9d01b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/68530167078d95555092131f17f9d01b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/68530167078d95555092131f17f9d01b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "UK Garage",
+            "url": "https:\/\/www.last.fm\/tag\/UK+Garage"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "electro",
+            "url": "https:\/\/www.last.fm\/tag\/electro"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 05:22",
+        "summary": "\u201cToo Late\u201d is a fast-paced, synth-heavy song that features the blame-taking theme from Abel that is seen all over the album, asking for forgiveness from his lover and to come and lead a life full of sin with him. Its production borrows from the genre of UK garage, similar to Abel\u2019s previous song \u201cWasted Times\u201d off his My Dear Melancholy, EP.\n\nThe song was first previewed by frequent collaborator and producer Illangelo in an Instagram story and later teased further in The Weeknd\u2019s After Hours album short film on March 4th, 2020. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Too+Late\">Read more on Last.fm<\/a>.",
+        "content": "\u201cToo Late\u201d is a fast-paced, synth-heavy song that features the blame-taking theme from Abel that is seen all over the album, asking for forgiveness from his lover and to come and lead a life full of sin with him. Its production borrows from the genre of UK garage, similar to Abel\u2019s previous song \u201cWasted Times\u201d off his My Dear Melancholy, EP.\n\nThe song was first previewed by frequent collaborator and producer Illangelo in an Instagram story and later teased further in The Weeknd\u2019s After Hours album short film on March 4th, 2020.\n\nOn March 17, 2020, the track was revealed to appear as the second track in the After Hours track listing by the music-identifying app Shazam. The track was later confirmed by The Weeknd in his tracklist reveal on the same day. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Too+Late\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:30.389994+00:00",
+  "elapsed": 0.179883,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:30.389994+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6668",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Stan"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Stan",
+  "_decoded_content": {
+    "track": {
+      "name": "Stan",
+      "mbid": "60d2246d-2761-4e1f-b30b-2784f00565b1",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Stan",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1420451",
+      "playcount": "10943771",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "The Anger Management Tour Live",
+        "mbid": "218c0d18-d620-4f76-ba6e-a906c460594a",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/The+Anger+Management+Tour+Live",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "dido",
+            "url": "https:\/\/www.last.fm\/tag\/dido"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Oct 2009, 00:20",
+        "summary": "\"Stan\" is a song by American rapper Eminem featuring vocals sampled from British singer Dido. It was released in October 2000 as the third single from Eminem's third album, The Marshall Mathers LP. It reached number one in 12 countries, including the United Kingdom, Germany, Ireland, and Australia.\n\nDido's lyrics are a sample of the opening lines of her song \"Thank You\". The 45 King-produced track also uses a slightly modified break from \"Thank You\" as its base sample; both songs were released as singles in late 2000. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Stan\">Read more on Last.fm<\/a>.",
+        "content": "\"Stan\" is a song by American rapper Eminem featuring vocals sampled from British singer Dido. It was released in October 2000 as the third single from Eminem's third album, The Marshall Mathers LP. It reached number one in 12 countries, including the United Kingdom, Germany, Ireland, and Australia.\n\nDido's lyrics are a sample of the opening lines of her song \"Thank You\". The 45 King-produced track also uses a slightly modified break from \"Thank You\" as its base sample; both songs were released as singles in late 2000. \"Stan\" has been called one of Eminem's best songs and is considered one of his signature songs. Rolling Stone magazine ranked \"Stan\" 296th on its list of The 500 Greatest Songs of All Time. The song was also listed 15th on VH1's list of the greatest hiphop songs of all time and named in the Rock and Roll Hall of Fame's 500 Songs that Shaped Rock and Roll.\n\nThe song was nominated for multiple awards, including Best Song at the MTV Europe Music Awards, Video of the Year, Best Rap Video, Best Direction, and Best Cinematography at the MTV Video Music Awards. It won Best International Artist Video at the MuchMusic Video Awards. In April 2011, Complex magazine put together a list of the 100 greatest Eminem songs and ranked \"Stan\" second. The eponymous character's name gave rise to a slang term that refers to overzealous, maniacal, overly obsessed, entitled fans of a celebrity or personality; the term has since been included in the Oxford English Dictionary.\n\nThe song tells the story of a person named Stanley \"Stan\" Mitchell (voiced by Eminem) who claims to be Eminem's biggest fan. He writes Eminem several letters; over three verses, he becomes more obsessive, and when there is no reply he becomes angrier. He finally creates a voice recording of himself while driving his car on the highway, having consumed large quantities of depressants and alcohol; this verse includes a call-back to Eminem's \"My Name Is\" with the lyrics \"I drank a fifth of vodka, you dare me to drive?\" He reveals that his pregnant girlfriend is tied up in the trunk as he approaches a bridge, and realizes just before driving off it that he has no way to send the tape to Eminem.\n\nThe fourth verse features Eminem as himself, writing back to Stan and attempting to reason with him. He warns Stan that he should get help, telling him about a story he heard on the news about a man who had driven his car off a bridge in a drunken stupor, killing himself and his pregnant girlfriend. Eminem then comes to the realization that this man was actually Stan.\n\nDirected by Dr. Dre and Philip Atwell, the video is a literal interpretation of the story. The video features Final Destination star Devon Sawa as Stan and Dido as his pregnant girlfriend. A prologue involves Stan dyeing his hair blonde and reacting angrily to being called \"Stanley\" by his girlfriend. Later, he sits in a basement full of Eminem's posters, writing letters that express his devotion as \"your [Eminem's] biggest fan\". He is aware of every development in Eminem's personal life.\n\nStan wants Eminem to contact him through a personal letter or a phone call; but, due to unfortunate circumstances, the letters fail to reach Eminem in a timely manner. Believing he has been ignored, Stan uses a tape recorder to record himself driving along a rain-soaked highway while his girlfriend is locked up in the trunk; which he does with the intention of driving off a bridge. In the process, Stan references both \"My Name Is\" (\"I drank a fifth of vodka, dare me to drive?\") and an urban legend about Phil Collins's \"In the Air Tonight\" before realizing that there is no way of transmitting this final tape to Eminem. The car then breaks through the bridge barrier, sealing both occupants' fates.\n\nStan's mother and his little brother Matthew visit his grave. When Matthew opens his hoodie, he has dyed his hair blonde like Stan. Eminem finally gets around to responding to Stan. He apologizes for being late, thanks him for being a fan, and expresses interest in Stan's personal life. Eminem worries about Stan's mental state and says he does not want Stan to end up like a story he had seen on the news recently\u2014a man who had driven drunk off a bridge with his girlfriend in the trunk, about whom he then realizes, \"It was you. Damn.\" Unbeknownst to Eminem, flashes of lightning shine on his window, revealing the ghost of Stan silently glaring. The video ends with Matthew staring at Stan's grave. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Stan\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

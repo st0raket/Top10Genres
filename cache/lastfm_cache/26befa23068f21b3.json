@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:57.535994+00:00",
+  "elapsed": 0.228264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:57.535994+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3079",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=Cold+Heart+-+PNAU+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=Cold+Heart+-+PNAU+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Cold Heart - PNAU Remix",
+      "url": "https:\/\/www.last.fm\/music\/Elton+John\/_\/Cold+Heart+-+PNAU+Remix",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "741912",
+      "playcount": "7970891",
+      "artist": {
+        "name": "Elton John",
+        "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John"
+      },
+      "album": {
+        "artist": "Elton John",
+        "title": "Cold Heart (Acoustic)",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John\/Cold+Heart+(Acoustic)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/46706f73757ae6057a1ef1313e561eb5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/46706f73757ae6057a1ef1313e561eb5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/46706f73757ae6057a1ef1313e561eb5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/46706f73757ae6057a1ef1313e561eb5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dua lipa",
+            "url": "https:\/\/www.last.fm\/tag\/dua+lipa"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Sep 2022, 14:05",
+        "summary": "Elton John turned social isolation into music by inviting several artists to collaborate on the album The Lockdown Sessions, including Dua Lipa, with whom he sings on \u201cCold Heart.\u201d In an interview with The Late Show With Stephen Colbert, the singer recalled the star's invitation - which came during an unusual situation.\n\nElton John turned social isolation into music by inviting several artists to collaborate on the album The Lockdown Sessions, including Dua Lipa, with whom he sings on \u201cCold Heart. <a href=\"http:\/\/www.last.fm\/music\/Elton+John\/_\/Cold+Heart+-+PNAU+Remix\">Read more on Last.fm<\/a>.",
+        "content": "Elton John turned social isolation into music by inviting several artists to collaborate on the album The Lockdown Sessions, including Dua Lipa, with whom he sings on \u201cCold Heart.\u201d In an interview with The Late Show With Stephen Colbert, the singer recalled the star's invitation - which came during an unusual situation.\n\nElton John turned social isolation into music by inviting several artists to collaborate on the album The Lockdown Sessions, including Dua Lipa, with whom he sings on \u201cCold Heart.\u201d In an interview with The Late Show With Stephen Colbert, the singer recalled the star's invitation - which came during an unusual situation.\n\n\u201cIt was Elton's idea and every time I talk about it I think it was the craziest thing in the world because I still can't believe we have a song,\u201d he revealed. \u201cIt was funny, actually. Elton and I did some stuff together, I performed for his NGO at the Oscars opening and after that, we went out to dinner.\u201d <a href=\"http:\/\/www.last.fm\/music\/Elton+John\/_\/Cold+Heart+-+PNAU+Remix\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

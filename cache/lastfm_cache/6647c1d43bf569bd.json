@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:45:09.025218+00:00",
+  "elapsed": 0.224683,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:09.025218+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1253",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=David+Guetta&format=json&method=track.getInfo&track=Would+I+Lie+to+You+-+Radio+Edit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=David+Guetta&format=json&method=track.getInfo&track=Would+I+Lie+to+You+-+Radio+Edit",
+  "_decoded_content": {
+    "track": {
+      "name": "Would I Lie To You - Radio Edit",
+      "url": "https:\/\/www.last.fm\/music\/David+Guetta\/_\/Would+I+Lie+To+You+-+Radio+Edit",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "100462",
+      "playcount": "601982",
+      "artist": {
+        "name": "David Guetta",
+        "mbid": "302bd7b9-d012-4360-897a-93b00c855680",
+        "url": "https:\/\/www.last.fm\/music\/David+Guetta"
+      },
+      "album": {
+        "artist": "David Guetta",
+        "title": "Would I Lie to You",
+        "url": "https:\/\/www.last.fm\/music\/David+Guetta\/Would+I+Lie+to+You",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/16c9acda0a72f1fe758a824b4d246ccf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/16c9acda0a72f1fe758a824b4d246ccf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/16c9acda0a72f1fe758a824b4d246ccf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/16c9acda0a72f1fe758a824b4d246ccf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "David Guetta",
+            "url": "https:\/\/www.last.fm\/tag\/David+Guetta"
+          }
+        ]
+      }
+    }
+  }
+}

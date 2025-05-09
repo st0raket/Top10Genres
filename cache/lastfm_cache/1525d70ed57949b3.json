@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:45:09.339083+00:00",
+  "elapsed": 0.211476,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:09.339083+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1176",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicky+Jam&format=json&method=track.getInfo&track=Hasta+el+Amanecer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicky+Jam&format=json&method=track.getInfo&track=Hasta+el+Amanecer",
+  "_decoded_content": {
+    "track": {
+      "name": "Hasta el Amanecer",
+      "url": "https:\/\/www.last.fm\/music\/Nicky+Jam\/_\/Hasta+el+Amanecer",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "168542",
+      "playcount": "969890",
+      "artist": {
+        "name": "Nicky Jam",
+        "mbid": "c458e9dc-e0d5-45ea-9e83-f9d0395f030d",
+        "url": "https:\/\/www.last.fm\/music\/Nicky+Jam"
+      },
+      "album": {
+        "artist": "Nicky Jam",
+        "title": "F\u00e9nix",
+        "url": "https:\/\/www.last.fm\/music\/Nicky+Jam\/F%C3%A9nix",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ff4799ef4ac97487f2d09c3592cae6ea.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ff4799ef4ac97487f2d09c3592cae6ea.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ff4799ef4ac97487f2d09c3592cae6ea.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ff4799ef4ac97487f2d09c3592cae6ea.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "spanish",
+            "url": "https:\/\/www.last.fm\/tag\/spanish"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      }
+    }
+  }
+}

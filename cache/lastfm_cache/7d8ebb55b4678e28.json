@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:57.005898+00:00",
+  "elapsed": 0.210894,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:57.005898+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2803",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=V&format=json&method=track.getInfo&track=Christmas+Tree"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=V&format=json&method=track.getInfo&track=Christmas+Tree",
+  "_decoded_content": {
+    "track": {
+      "name": "Christmas Tree",
+      "url": "https:\/\/www.last.fm\/music\/V\/_\/Christmas+Tree",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "265040",
+      "playcount": "58712899",
+      "artist": {
+        "name": "V",
+        "mbid": "8f509d2c-a88e-4de2-8ec2-e8e863b9e41d",
+        "url": "https:\/\/www.last.fm\/music\/V"
+      },
+      "album": {
+        "artist": "V",
+        "title": "Our Beloved Summer (Original Television Soundtrack), Pt. 5",
+        "url": "https:\/\/www.last.fm\/music\/V\/Our+Beloved+Summer+(Original+Television+Soundtrack),+Pt.+5",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c065df7a1b8eeb0bd799a1a2b98fb826.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c065df7a1b8eeb0bd799a1a2b98fb826.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c065df7a1b8eeb0bd799a1a2b98fb826.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c065df7a1b8eeb0bd799a1a2b98fb826.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "v",
+            "url": "https:\/\/www.last.fm\/tag\/v"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "ost",
+            "url": "https:\/\/www.last.fm\/tag\/ost"
+          },
+          {
+            "name": "soft",
+            "url": "https:\/\/www.last.fm\/tag\/soft"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Dec 2021, 03:40",
+        "summary": "This warm ballad with soft acoustic guitar melody works as the soundtrack for the South Korean TV series \uadf8 \ud574 \uc6b0\ub9ac\ub294 (Our Beloved Summer). It\u2019s a romantic comedy that tells the story of an ex-couple that broke up on a bad note, forced to come together after years when a documentary they shot in high school goes viral. The main role is played by one of the closest friends of V, Choi Woo Shik (\ucd5c\uc6b0\uc2dd).\n\nThe song could be heard for the first time on December 6, 2021, with the airing of the first episode on SBS TV. <a href=\"http:\/\/www.last.fm\/music\/V\/_\/Christmas+Tree\">Read more on Last.fm<\/a>.",
+        "content": "This warm ballad with soft acoustic guitar melody works as the soundtrack for the South Korean TV series \uadf8 \ud574 \uc6b0\ub9ac\ub294 (Our Beloved Summer). It\u2019s a romantic comedy that tells the story of an ex-couple that broke up on a bad note, forced to come together after years when a documentary they shot in high school goes viral. The main role is played by one of the closest friends of V, Choi Woo Shik (\ucd5c\uc6b0\uc2dd).\n\nThe song could be heard for the first time on December 6, 2021, with the airing of the first episode on SBS TV.\n\nIt also marks V\u2019s third OST release for Korean drama, after 2020\u2019s \u201cSweet Night\u201d from Itaewon Class, and 2016\u2019s \u201c\uc8fd\uc5b4\ub3c4 \ub108\uc57c (It\u2019s Definitely You)\u201d from Hwarang. <a href=\"http:\/\/www.last.fm\/music\/V\/_\/Christmas+Tree\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

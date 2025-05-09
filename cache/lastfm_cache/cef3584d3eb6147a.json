@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:07.068147+00:00",
+  "elapsed": 0.224107,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:07.066019+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2370",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Big+Star"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Big+Star",
+  "_decoded_content": {
+    "track": {
+      "name": "Big Star",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/Big+Star",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "268724",
+      "playcount": "2554104",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Solar Power (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Solar+Power+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Aug 2021, 23:18",
+        "summary": "\"Big Star\" is the ninth track on New Zealand singer-songwriter Lorde's 3rd studio album, Solar Power. It is about her late dog Pearl, who passed away from an unknown illness in 2019. Lorde wrote the song before his passing, and in the album's booklet, she stated \"Pearl was under the piano when I started this. I had never loved anyone that much. I was trying to make sense of it. I probably never will.\" <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Big+Star\">Read more on Last.fm<\/a>.",
+        "content": "\"Big Star\" is the ninth track on New Zealand singer-songwriter Lorde's 3rd studio album, Solar Power. It is about her late dog Pearl, who passed away from an unknown illness in 2019. Lorde wrote the song before his passing, and in the album's booklet, she stated \"Pearl was under the piano when I started this. I had never loved anyone that much. I was trying to make sense of it. I probably never will.\" <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Big+Star\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

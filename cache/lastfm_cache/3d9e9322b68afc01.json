@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:37.128084+00:00",
+  "elapsed": 0.19633,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:37.128084+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2941",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Otro+Atardecer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Otro+Atardecer",
+  "_decoded_content": {
+    "track": {
+      "name": "Otro Atardecer",
+      "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Otro+Atardecer",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "348484",
+      "playcount": "4375782",
+      "artist": {
+        "name": "Bad Bunny",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny"
+      },
+      "album": {
+        "artist": "Bad Bunny",
+        "title": "Un Verano Sin Ti",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/Un+Verano+Sin+Ti",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "chillwave",
+            "url": "https:\/\/www.last.fm\/tag\/chillwave"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "afrobeats",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeats"
+          },
+          {
+            "name": "spanish",
+            "url": "https:\/\/www.last.fm\/tag\/spanish"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Sep 2023, 17:04",
+        "summary": "\"Otro Atradecer\" is the seventeenth track by Puerto Rican singer and rapper Bad Bunny on his fourth studio album, Un Verano Sin Ti (2022). The song is a collaboration with American indie pop band The Mar\u00edas. The Mar\u00edas previously covered D\u00c1KITI in 2021 for Spotify Singles . \n\nThe song tells the story of two lovers who had a short-lived relationship that ended abruptly. The song reflects on the nostalgia of the moments they shared together, their regrets, and hopes that they could start over again. <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Otro+Atardecer\">Read more on Last.fm<\/a>.",
+        "content": "\"Otro Atradecer\" is the seventeenth track by Puerto Rican singer and rapper Bad Bunny on his fourth studio album, Un Verano Sin Ti (2022). The song is a collaboration with American indie pop band The Mar\u00edas. The Mar\u00edas previously covered D\u00c1KITI in 2021 for Spotify Singles . \n\nThe song tells the story of two lovers who had a short-lived relationship that ended abruptly. The song reflects on the nostalgia of the moments they shared together, their regrets, and hopes that they could start over again. The chorus conveys the longing to relive the moment they shared before time and distance forced them apart: \"And no need to find the sunset\/There's much of me you still have yet to know\/If life gives me pleasure again\/I'll kiss you like that time the sun disappeared\/As the night fell.\" The song speaks of the emotions that can come with the end of a romance, from regret and sadness to longing and hope. <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Otro+Atardecer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

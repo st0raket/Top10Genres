@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:03.109054+00:00",
+  "elapsed": 0.219247,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:03.109054+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2086",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bazzi&format=json&method=track.getInfo&track=Young+%26+Alive"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bazzi&format=json&method=track.getInfo&track=Young+%26+Alive",
+  "_decoded_content": {
+    "track": {
+      "name": "Young & Alive",
+      "url": "https:\/\/www.last.fm\/music\/bazzi\/_\/Young+&+Alive",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "129571",
+      "playcount": "804217",
+      "artist": {
+        "name": "bazzi",
+        "url": "https:\/\/www.last.fm\/music\/bazzi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "a subtle use of vocal harmony",
+            "url": "https:\/\/www.last.fm\/tag\/a+subtle+use+of+vocal+harmony"
+          },
+          {
+            "name": "major key tonality",
+            "url": "https:\/\/www.last.fm\/tag\/major+key+tonality"
+          },
+          {
+            "name": "melodic songwriting",
+            "url": "https:\/\/www.last.fm\/tag\/melodic+songwriting"
+          },
+          {
+            "name": "offensive lyrics",
+            "url": "https:\/\/www.last.fm\/tag\/offensive+lyrics"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Mar 2022, 04:38",
+        "summary": "\u201cYoung & Alive\u201d is a single track that was announced on Bazzi\u2019s socials two days before its release. He posted a teaser for the music video on his Instagram a day later.\n\nThe track is highly reminiscent of his personal upbringing, recalling simpler times and how his partner enables him to return to this sense of youth and freedom.\n\n\"for me \u2013 i\u2019ve felt like a certain feeling in music has been missing. i wanted to make something that reminded <a href=\"http:\/\/www.last.fm\/music\/bazzi\/_\/Young+&+Alive\">Read more on Last.fm<\/a>.",
+        "content": "\u201cYoung & Alive\u201d is a single track that was announced on Bazzi\u2019s socials two days before its release. He posted a teaser for the music video on his Instagram a day later.\n\nThe track is highly reminiscent of his personal upbringing, recalling simpler times and how his partner enables him to return to this sense of youth and freedom.\n\n\"for me \u2013 i\u2019ve felt like a certain feeling in music has been missing. i wanted to make something that reminded me of the beauty and mystery of being young \u2013 sumn that would take me back to that place of naive freedom\"\n\n\u2013Bazzi via Twitter (March 4th, 2020) <a href=\"http:\/\/www.last.fm\/music\/bazzi\/_\/Young+&+Alive\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

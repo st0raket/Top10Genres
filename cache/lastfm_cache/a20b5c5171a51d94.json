@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:34:11.201558+00:00",
+  "elapsed": 0.228407,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:11.201558+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "912",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=Cross+Roads"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=Cross+Roads",
+  "_decoded_content": {
+    "track": {
+      "name": "Cross Roads",
+      "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/_\/Cross+Roads",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "35234",
+      "playcount": "407974",
+      "artist": {
+        "name": "YoungBoy Never Broke Again",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again"
+      },
+      "album": {
+        "artist": "YoungBoy Never Broke Again",
+        "title": "Top",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/Top",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ee0b9532dd11d4234badf57a8ab1676e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

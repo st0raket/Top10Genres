@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:44.597309+00:00",
+  "elapsed": 0.240599,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:44.597309+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2301",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=The+Cut+That+Always+Bleeds"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=The+Cut+That+Always+Bleeds",
+  "_decoded_content": {
+    "track": {
+      "name": "The Cut That Always Bleeds",
+      "url": "https:\/\/www.last.fm\/music\/Conan+Gray\/_\/The+Cut+That+Always+Bleeds",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "489747",
+      "playcount": "6649287",
+      "artist": {
+        "name": "Conan Gray",
+        "url": "https:\/\/www.last.fm\/music\/Conan+Gray"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Sensory Overload",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Sensory+Overload",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/744485b355c2f2d00747753cae2f528f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/744485b355c2f2d00747753cae2f528f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/744485b355c2f2d00747753cae2f528f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/744485b355c2f2d00747753cae2f528f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "seen live",
+            "url": "https:\/\/www.last.fm\/tag\/seen+live"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 16:08",
+        "summary": "\u201cThe Cut That Always Bleeds\u201d is the 6th track on Conan Gray\u2019s debut album, \"Kid Krow\". The simple instrumentals, mostly consisting of guitar, and track\u2019s powerful vocals makes it a work of art. Conan wrote the song about a relationship that was really hard to get over, trying to let it heal but that person kept breaking his heart over and over. <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/The+Cut+That+Always+Bleeds\">Read more on Last.fm<\/a>.",
+        "content": "\u201cThe Cut That Always Bleeds\u201d is the 6th track on Conan Gray\u2019s debut album, \"Kid Krow\". The simple instrumentals, mostly consisting of guitar, and track\u2019s powerful vocals makes it a work of art. Conan wrote the song about a relationship that was really hard to get over, trying to let it heal but that person kept breaking his heart over and over. <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/The+Cut+That+Always+Bleeds\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

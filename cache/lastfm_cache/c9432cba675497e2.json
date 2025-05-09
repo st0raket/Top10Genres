@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:45.953569+00:00",
+  "elapsed": 0.178265,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:45.953569+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3127",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NewJeans&format=json&method=track.getInfo&track=Ditto"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NewJeans&format=json&method=track.getInfo&track=Ditto",
+  "_decoded_content": {
+    "track": {
+      "name": "Ditto",
+      "url": "https:\/\/www.last.fm\/music\/NewJeans\/_\/Ditto",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "772046",
+      "playcount": "27984792",
+      "artist": {
+        "name": "NewJeans",
+        "url": "https:\/\/www.last.fm\/music\/NewJeans"
+      },
+      "album": {
+        "artist": "NewJeans",
+        "title": "Ditto",
+        "url": "https:\/\/www.last.fm\/music\/NewJeans\/Ditto",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/60be96821e518fa1dad9d952b10c9574.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/60be96821e518fa1dad9d952b10c9574.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/60be96821e518fa1dad9d952b10c9574.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/60be96821e518fa1dad9d952b10c9574.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "baltimore club",
+            "url": "https:\/\/www.last.fm\/tag\/baltimore+club"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Dec 2022, 17:58",
+        "summary": "\u201cDitto\u201d is a song recorded by South Korean girl group NewJeans, serving as the pre-release single from their first single album, OMG. It was released by HYBE and ADOR on December 19, 2022.\n\nThe lyrics for the track describe an inner discussion of a person falling in love right away, reminiscent of being hit with Cupid\u2019s arrow, and who also tries their best to bravely show affection to a significant one through an honest confession while hoping for the purity and good, requited relationship between each other. <a href=\"http:\/\/www.last.fm\/music\/NewJeans\/_\/Ditto\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDitto\u201d is a song recorded by South Korean girl group NewJeans, serving as the pre-release single from their first single album, OMG. It was released by HYBE and ADOR on December 19, 2022.\n\nThe lyrics for the track describe an inner discussion of a person falling in love right away, reminiscent of being hit with Cupid\u2019s arrow, and who also tries their best to bravely show affection to a significant one through an honest confession while hoping for the purity and good, requited relationship between each other.\n\nDespite the sweet, vulnerable meaning, the Shin Wooseok-directed \u2018side A\u2019 and \u2018side B\u2019 music videos for \u201cDitto\u201d revolve around a divergent story, as they are shot from the perspective of Heesoo (played by Park Jihu), a close friend and schoolmate of NewJeans. The former shows the carefree and joyful life of the mysterious character and the group, which goes through an unexpected change after Heesoo\u2019s arm is injured and is hallucinating about her moments with imaginary friends, while the latter continues the storyline of the video and reveals how the actual, yet ideal mindset of the girl looks like. <a href=\"http:\/\/www.last.fm\/music\/NewJeans\/_\/Ditto\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

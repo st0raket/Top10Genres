@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:44:01.005979+00:00",
+  "elapsed": 0.195215,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:01.005979+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "368",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Banda+MS+de+Sergio+Liz%C3%A1rraga&format=json&method=track.getInfo&track=Qu%C3%A9+Maldici%C3%B3n"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Banda+MS+de+Sergio+Liz%C3%A1rraga&format=json&method=track.getInfo&track=Qu%C3%A9+Maldici%C3%B3n",
+  "_decoded_content": {
+    "track": {
+      "name": "Qu\u00e9 Maldici\u00f3n",
+      "url": "https:\/\/www.last.fm\/music\/Banda+MS+De+Sergio+Liz%C3%A1rraga\/_\/Qu%C3%A9+Maldici%C3%B3n",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "46301",
+      "playcount": "293847",
+      "artist": {
+        "name": "Banda MS De Sergio Liz\u00e1rraga",
+        "url": "https:\/\/www.last.fm\/music\/Banda+MS+De+Sergio+Liz%C3%A1rraga"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

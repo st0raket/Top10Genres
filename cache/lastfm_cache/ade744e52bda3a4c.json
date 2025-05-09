@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:48.987124+00:00",
+  "elapsed": 0.215953,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:48.986522+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2099",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=You+Right"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Doja+Cat&format=json&method=track.getInfo&track=You+Right",
+  "_decoded_content": {
+    "track": {
+      "name": "You Right",
+      "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/_\/You+Right",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1017548",
+      "playcount": "13779161",
+      "artist": {
+        "name": "Doja Cat",
+        "mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat"
+      },
+      "album": {
+        "artist": "Doja Cat",
+        "title": "You Right",
+        "url": "https:\/\/www.last.fm\/music\/Doja+Cat\/You+Right",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e2190e2f8133b9c1d71d1c8df851e8b7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e2190e2f8133b9c1d71d1c8df851e8b7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e2190e2f8133b9c1d71d1c8df851e8b7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e2190e2f8133b9c1d71d1c8df851e8b7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jun 2021, 02:23",
+        "summary": "\u201cYou Right\u201d is the third single and eighth overall track from Doja Cat\u2019s third studio album, Planet Her. The track followed two previous singles, \u201cKiss Me More (feat. SZA)\u201d and \u201cNeed To Know\u201d. \u201cYou Right\u201d also features Canadian singer, The Weeknd. Produced and co-written by Dr. Luke. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/You+Right\">Read more on Last.fm<\/a>.",
+        "content": "\u201cYou Right\u201d is the third single and eighth overall track from Doja Cat\u2019s third studio album, Planet Her. The track followed two previous singles, \u201cKiss Me More (feat. SZA)\u201d and \u201cNeed To Know\u201d. \u201cYou Right\u201d also features Canadian singer, The Weeknd. Produced and co-written by Dr. Luke. <a href=\"http:\/\/www.last.fm\/music\/Doja+Cat\/_\/You+Right\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

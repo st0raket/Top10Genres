@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:21.567879+00:00",
+  "elapsed": 0.220055,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:21.567879+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2244",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Die+For+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Die+For+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Die For You",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1605312",
+      "playcount": "26258824",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Mar 2021, 23:24",
+        "summary": "\"Die for You\" is a song by Canadian singer The Weeknd, from his third studio album Starboy. The song was written by him, Doc McKinney, Prince 85, Dylan Wiggins, Magnus H\u00f8iberg, and William Thomas Walsh, and produced by the singer alongside McKinney, Cirkut, Cashmere Cat, and Prince 85. It was one of the tracks of Starboy to be featured in the short film Mania. It received early airplay from urban and urban AC radio in August 2017 then was sent to rhythmic contemporary radio on September 19 <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You\">Read more on Last.fm<\/a>.",
+        "content": "\"Die for You\" is a song by Canadian singer The Weeknd, from his third studio album Starboy. The song was written by him, Doc McKinney, Prince 85, Dylan Wiggins, Magnus H\u00f8iberg, and William Thomas Walsh, and produced by the singer alongside McKinney, Cirkut, Cashmere Cat, and Prince 85. It was one of the tracks of Starboy to be featured in the short film Mania. It received early airplay from urban and urban AC radio in August 2017 then was sent to rhythmic contemporary radio on September 19, 2017, as the album's fifth single in the United States.\n\nIn 2022, the song experienced a resurgence in popularity, due to the online social media application TikTok. Therefore, the song impacted US radio, achieving a new peak within the top ten of the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

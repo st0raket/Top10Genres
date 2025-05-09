@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:08.527725+00:00",
+  "elapsed": 0.286453,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:08.527148+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2600",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Perfect+Places"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Perfect+Places",
+  "_decoded_content": {
+    "track": {
+      "name": "Perfect Places",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/Perfect+Places",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "768424",
+      "playcount": "13041032",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Melodrama",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Melodrama",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Aug 2017, 16:21",
+        "summary": "\"Perfect Places\" is an ode to the idea of trying to search for a sense of belonging and freedom in the world. The song expresses the same impulse that many young people feel to escape society's norms and expectations, but at the same time, not really knowing where to look for this idea of \"perfect places\". The singer expresses her longing for moments of intentional euphoria, among both raucous parties and a night of reflection. Ultimately, the song is about letting go and enjoying life in the present <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Perfect+Places\">Read more on Last.fm<\/a>.",
+        "content": "\"Perfect Places\" is an ode to the idea of trying to search for a sense of belonging and freedom in the world. The song expresses the same impulse that many young people feel to escape society's norms and expectations, but at the same time, not really knowing where to look for this idea of \"perfect places\". The singer expresses her longing for moments of intentional euphoria, among both raucous parties and a night of reflection. Ultimately, the song is about letting go and enjoying life in the present, without worrying about future expectations or any idea of perfection. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Perfect+Places\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

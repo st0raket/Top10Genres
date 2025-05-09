@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:30:11.851627+00:00",
+  "elapsed": 0.238837,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:11.851627+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4517",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aretha+Franklin&format=json&method=track.getInfo&track=%28You+Make+Me+Feel+Like%29+A+Natural+Woman"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aretha+Franklin&format=json&method=track.getInfo&track=%28You+Make+Me+Feel+Like%29+A+Natural+Woman",
+  "_decoded_content": {
+    "track": {
+      "name": "(You Make Me Feel Like) a Natural Woman",
+      "mbid": "0d4800dc-0e53-4d85-90e1-a4a316e47b8e",
+      "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/(You+Make+Me+Feel+Like)+a+Natural+Woman",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "477386",
+      "playcount": "2006212",
+      "artist": {
+        "name": "Aretha Franklin",
+        "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+        "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin"
+      },
+      "album": {
+        "artist": "Aretha Franklin",
+        "title": "20 Greatest Hits",
+        "mbid": "da77d651-a203-44b6-ba66-11079c750985",
+        "url": "https:\/\/www.last.fm\/music\/Aretha+Franklin\/20+Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/68a9ee6d6e5065e9e47adb0ad721b691.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "rhythm and blues",
+            "url": "https:\/\/www.last.fm\/tag\/rhythm+and+blues"
+          },
+          {
+            "name": "60s",
+            "url": "https:\/\/www.last.fm\/tag\/60s"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Aug 2022, 18:46",
+        "summary": "\"(You Make Me Feel Like) A Natural Woman\" is a 1967 single released by American soul singer Aretha Franklin on the Atlantic label. The words were written by Gerry Goffin from an idea by Atlantic producer Jerry Wexler, and the music was composed by Carole King. Written for Franklin, the record was a big hit reaching number 8 on the Billboard Hot 100, and became one of her signature songs. It made history in the UK singles chart a week after her death, finally becoming a hit almost 51 years after it was first released entering at #79. <a href=\"http:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/(You+Make+Me+Feel+Like)+a+Natural+Woman\">Read more on Last.fm<\/a>.",
+        "content": "\"(You Make Me Feel Like) A Natural Woman\" is a 1967 single released by American soul singer Aretha Franklin on the Atlantic label. The words were written by Gerry Goffin from an idea by Atlantic producer Jerry Wexler, and the music was composed by Carole King. Written for Franklin, the record was a big hit reaching number 8 on the Billboard Hot 100, and became one of her signature songs. It made history in the UK singles chart a week after her death, finally becoming a hit almost 51 years after it was first released entering at #79. Franklin also included a live recording on the album Aretha in Paris in 1968. \n\nCarole King herself recorded the song for her 1971 album Tapestry. Among the numerous cover versions of the song include versions by Mary J. Blige and Celine Dion, both of which charted in the same year (1995). At the 2015 Kennedy Center Honors, Aretha Franklin performed the song to honor award-recipient Carole King. \n\nWritten by the partnership of Gerry Goffin and Carole King, the song was inspired by Atlantic Records co-owner and producer Jerry Wexler. As recounted in his autobiography, Wexler, a student of African-American musical culture, had been mulling over the concept of the \"natural man\", when he drove by King on the streets of New York. He shouted out to her that he wanted a \"natural woman\" song for Aretha Franklin's next album. Goffin and King went home and wrote the song that night. In thanks, they granted Wexler a co-writing credit.\n\nCash Box said that \"from the vocal standpoint, the side is unmatched; and in the ork and production departments, excellent work add up to a shattering performance\" and that the song builds to \"new emotional peaks\" from a \"shattering\" beginning.\n\nThe Aretha Franklin version appears in the 1983 film The Big Chill and is included on both the Original Motion Picture Soundtrack and More Songs from the Big Chill. \n\nPersonnel\nAretha Franklin \u2013 lead vocals\nSpooner Oldham \u2013 piano\nTommy Cogbill \u2013 bass\nGene Chrisman \u2013 drums\nThe Sweet Inspirations, Carolyn Franklin & Erma Franklin \u2013 background vocals\nstrings conducted by Ralph Burns <a href=\"http:\/\/www.last.fm\/music\/Aretha+Franklin\/_\/(You+Make+Me+Feel+Like)+a+Natural+Woman\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

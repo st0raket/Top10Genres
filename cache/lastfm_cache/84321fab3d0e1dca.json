@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:05.470465+00:00",
+  "elapsed": 0.227381,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:05.470465+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2468",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HUNCHO+JACK&format=json&method=track.getInfo&track=Where+U+From"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HUNCHO+JACK&format=json&method=track.getInfo&track=Where+U+From",
+  "_decoded_content": {
+    "track": {
+      "name": "Where U From",
+      "url": "https:\/\/www.last.fm\/music\/Huncho+Jack\/_\/Where+U+From",
+      "duration": "251000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "98394",
+      "playcount": "746997",
+      "artist": {
+        "name": "Huncho Jack",
+        "url": "https:\/\/www.last.fm\/music\/Huncho+Jack"
+      },
+      "album": {
+        "artist": "Huncho Jack",
+        "title": "Huncho Jack, Jack Huncho",
+        "url": "https:\/\/www.last.fm\/music\/Huncho+Jack\/Huncho+Jack,+Jack+Huncho",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jun 2022, 18:42",
+        "summary": "Next to multiple references towards gang life, Quavo and Travis show off their lavish lifestyles on \u201cWhere U From.\u201d\n\nAlthough both artists are not directly affiliated with any gang, there are indications that they have connections with them. For instance, Travis mentions the gang of his friends on his remix of \u201cSwang.\u201d\n\nI got blue and red flags in my gang\n\nThe track was produced by Cardo and CuBeatz, who both have worked with the duo on multiple occasions. <a href=\"http:\/\/www.last.fm\/music\/Huncho+Jack\/_\/Where+U+From\">Read more on Last.fm<\/a>.",
+        "content": "Next to multiple references towards gang life, Quavo and Travis show off their lavish lifestyles on \u201cWhere U From.\u201d\n\nAlthough both artists are not directly affiliated with any gang, there are indications that they have connections with them. For instance, Travis mentions the gang of his friends on his remix of \u201cSwang.\u201d\n\nI got blue and red flags in my gang\n\nThe track was produced by Cardo and CuBeatz, who both have worked with the duo on multiple occasions. <a href=\"http:\/\/www.last.fm\/music\/Huncho+Jack\/_\/Where+U+From\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:59.285343+00:00",
+  "elapsed": 0.18292,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:59.285343+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2354",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Flowers"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Flowers",
+  "_decoded_content": {
+    "track": {
+      "name": "Flowers",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/Flowers",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "113741",
+      "playcount": "1520101",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "Whiplash - The 5th Mini Album",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/Whiplash+-+The+5th+Mini+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/76a48016ed81d0fa016d0fd5507792b0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "motomano",
+            "url": "https:\/\/www.last.fm\/tag\/motomano"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "gay",
+            "url": "https:\/\/www.last.fm\/tag\/gay"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Oct 2024, 04:54",
+        "summary": "\"Flowers\" is a song recorded by the South Korean girl group aespa. It was released October 21st, 2024, as the fifth track of their fifth mini album, 'Whiplash', under SM Entertainment.\n\nDescribed as an alternative R&B song with a sophisticated guitar riff. The lyrics compare the feeling of falling in love to flowers. It was composed by Sofia Kay, Chantry Johnson, No\u00e9mie Legrand, \uc9c0\uc608\uc6d0 (153\/Joombas) and was produced by Chantry Johnson. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Flowers\">Read more on Last.fm<\/a>.",
+        "content": "\"Flowers\" is a song recorded by the South Korean girl group aespa. It was released October 21st, 2024, as the fifth track of their fifth mini album, 'Whiplash', under SM Entertainment.\n\nDescribed as an alternative R&B song with a sophisticated guitar riff. The lyrics compare the feeling of falling in love to flowers. It was composed by Sofia Kay, Chantry Johnson, No\u00e9mie Legrand, \uc9c0\uc608\uc6d0 (153\/Joombas) and was produced by Chantry Johnson. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Flowers\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

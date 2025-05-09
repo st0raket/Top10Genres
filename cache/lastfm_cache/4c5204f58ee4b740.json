@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:01.628219+00:00",
+  "elapsed": 0.186756,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:01.628219+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2886",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=PURE%2FHONEY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=PURE%2FHONEY",
+  "_decoded_content": {
+    "track": {
+      "name": "PURE\/HONEY",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PURE%2FHONEY",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "384161",
+      "playcount": "7100023",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "RENAISSANCE",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/RENAISSANCE",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/918cdcd71b15f7ce542497d9d53e3ee7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "ballroom",
+            "url": "https:\/\/www.last.fm\/tag\/ballroom"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "cunty",
+            "url": "https:\/\/www.last.fm\/tag\/cunty"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2022, 19:13",
+        "summary": "\u201cPURE \/ HONEY\u201d is the only song on the album with two parts to it, similar to several tracks off Beyonc\u00e9\u2019s 2013 \u201cSelf-Titled\u201d album such as \u201cHaunted\u201d & \u201cPartition\u201d.\n\nThe latter of the two features Beyonc\u00e9 exploding into a 1970s disco tune with lush harmonies floating over vocals commanding that you will be stuck in the honey, that is Beyonc\u00e9\u2019s love. The outro sample of Moi Renee\u2019s \u201cMiss Honey\u201d at the end of \u201cHONEY\u201d <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PURE%2FHONEY\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPURE \/ HONEY\u201d is the only song on the album with two parts to it, similar to several tracks off Beyonc\u00e9\u2019s 2013 \u201cSelf-Titled\u201d album such as \u201cHaunted\u201d & \u201cPartition\u201d.\n\nThe latter of the two features Beyonc\u00e9 exploding into a 1970s disco tune with lush harmonies floating over vocals commanding that you will be stuck in the honey, that is Beyonc\u00e9\u2019s love. The outro sample of Moi Renee\u2019s \u201cMiss Honey\u201d at the end of \u201cHONEY\u201d was found by Beyonc\u00e9 herself as The-Dream explained on a series of tweets after the album was released explaining the creative process.\n\n\u201cPURE\u201d is an ode to ballroom, vogue & house from the cadence of the chorus to the continuous sample of Kevin Aviance\u2019s October 1996 track \u201cCunty\u201d & Mike Q\u2019s featuring Kevin Jz Prodigy\u2019s song \u201cFeels Like\u201d throughout the track where Beyonc\u00e9 flaunts her technique and the cost to look that good. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/PURE%2FHONEY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

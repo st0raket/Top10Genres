@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:18.779393+00:00",
+  "elapsed": 0.382637,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:18.779393+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2609",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maren+Morris&format=json&method=track.getInfo&track=The+Bones"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maren+Morris&format=json&method=track.getInfo&track=The+Bones",
+  "_decoded_content": {
+    "track": {
+      "name": "The Bones",
+      "url": "https:\/\/www.last.fm\/music\/Maren+Morris\/_\/The+Bones",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "161294",
+      "playcount": "1023220",
+      "artist": {
+        "name": "Maren Morris",
+        "url": "https:\/\/www.last.fm\/music\/Maren+Morris"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music! Vol. 74",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music%21+Vol.+74",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/05a9d40beb867eee30396552d3a9e075.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/05a9d40beb867eee30396552d3a9e075.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/05a9d40beb867eee30396552d3a9e075.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/05a9d40beb867eee30396552d3a9e075.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Mar 2021, 23:14",
+        "summary": "\"The Bones\" is a song recorded by American singer Maren Morris for her second studio album, Girl. Morris co-wrote the song with Jimmy Robbins and Laura Veltz, and it was produced by Greg Kurstin. \"The Bones\" was released digitally as a promotional single on February 22, 2019 and was later serviced to hot adult contemporary radio on May 20, 2019 as the album's second single. The song became a sleeper hit, peaking at number 12 on the Billboard Hot 100 chart in 2020. <a href=\"http:\/\/www.last.fm\/music\/Maren+Morris\/_\/The+Bones\">Read more on Last.fm<\/a>.",
+        "content": "\"The Bones\" is a song recorded by American singer Maren Morris for her second studio album, Girl. Morris co-wrote the song with Jimmy Robbins and Laura Veltz, and it was produced by Greg Kurstin. \"The Bones\" was released digitally as a promotional single on February 22, 2019 and was later serviced to hot adult contemporary radio on May 20, 2019 as the album's second single. The song became a sleeper hit, peaking at number 12 on the Billboard Hot 100 chart in 2020.\n\nThe song was nominated at the 63rd Grammy Awards for Best Country Song, earning Morris her twelfth nomination. <a href=\"http:\/\/www.last.fm\/music\/Maren+Morris\/_\/The+Bones\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

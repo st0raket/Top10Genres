@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:14.502551+00:00",
+  "elapsed": 0.17847,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:14.502551+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3092",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Starboy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Starboy",
+  "_decoded_content": {
+    "track": {
+      "name": "Starboy",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Starboy",
+      "duration": "230000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1900625",
+      "playcount": "26262358",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music, Vol. 61",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music,+Vol.+61",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1cbe86b3ed43c8bd2f45355e8d283e0c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1cbe86b3ed43c8bd2f45355e8d283e0c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1cbe86b3ed43c8bd2f45355e8d283e0c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1cbe86b3ed43c8bd2f45355e8d283e0c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "Daft Punk",
+            "url": "https:\/\/www.last.fm\/tag\/Daft+Punk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Sep 2016, 01:07",
+        "summary": "\u201cStarboy\u201d is The Weeknd\u2019s realization of his mega-stardom. Transforming from mysterious Canadian act to Billboard mainstay. Abel has come a long way, but with negative consequences in his journey to the top, he has developed mixed feelings towards fame.\n\n\u201cStarboy\u201d potentially marks a new era for The Weeknd. On the release date of the song, Abel posted an Instagram picture with the caption \u201cr.i.p \u2018@abelxo,\u2019\u201d marking the turn of his character and sound. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Starboy\">Read more on Last.fm<\/a>.",
+        "content": "\u201cStarboy\u201d is The Weeknd\u2019s realization of his mega-stardom. Transforming from mysterious Canadian act to Billboard mainstay. Abel has come a long way, but with negative consequences in his journey to the top, he has developed mixed feelings towards fame.\n\n\u201cStarboy\u201d potentially marks a new era for The Weeknd. On the release date of the song, Abel posted an Instagram picture with the caption \u201cr.i.p \u2018@abelxo,\u2019\u201d marking the turn of his character and sound.\n\nThe song features production from French electronic duo Daft Punk, marking the first collaboration between The Weeknd and Daft Punk, and the latter\u2019s first single since \u201cGive Life Back To Music\u201d was released in early-2014. A month before release Abel and Daft Punk had spent time together in the studio, and it was obviously so fruitful he decided to make one of their collaborations the album\u2019s lead single.\n\n\u201cStarboy\u201d is the title track and lead single from The Weeknd\u2019s third studio album, released on November 25th, 2016. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Starboy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

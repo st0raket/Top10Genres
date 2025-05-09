@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:34:48.630946+00:00",
+  "elapsed": 0.188826,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:48.630946+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1784",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lily+Allen&format=json&method=track.getInfo&track=Somewhere+Only+We+Know"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lily+Allen&format=json&method=track.getInfo&track=Somewhere+Only+We+Know",
+  "_decoded_content": {
+    "track": {
+      "name": "Somewhere Only We Know",
+      "mbid": "9402ca93-d21b-4f9b-99e8-e808cc528cc4",
+      "url": "https:\/\/www.last.fm\/music\/Lily+Allen\/_\/Somewhere+Only+We+Know",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "413013",
+      "playcount": "2358136",
+      "artist": {
+        "name": "Lily Allen",
+        "mbid": "6e0c7c0e-cba5-4c2c-a652-38f71ef5785d",
+        "url": "https:\/\/www.last.fm\/music\/Lily+Allen"
+      },
+      "album": {
+        "artist": "Lily Allen",
+        "title": "Somewhere Only We Know",
+        "mbid": "7672ac66-398b-45e8-af78-b78c0788c41c",
+        "url": "https:\/\/www.last.fm\/music\/Lily+Allen\/Somewhere+Only+We+Know",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ad1aa885b25947ef99a4b911dd59a12a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ad1aa885b25947ef99a4b911dd59a12a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ad1aa885b25947ef99a4b911dd59a12a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ad1aa885b25947ef99a4b911dd59a12a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2017, 01:28",
+        "summary": "Cover of Keane's Somewhere Only We Know. <a href=\"http:\/\/www.last.fm\/music\/Lily+Allen\/_\/Somewhere+Only+We+Know\">Read more on Last.fm<\/a>.",
+        "content": "Cover of Keane's Somewhere Only We Know. <a href=\"http:\/\/www.last.fm\/music\/Lily+Allen\/_\/Somewhere+Only+We+Know\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

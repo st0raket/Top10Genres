@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:30:26.369613+00:00",
+  "elapsed": 0.215603,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:26.369613+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1209",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%97%E3%83%8F%E3%82%A4%E3%83%97&format=json&method=track.getInfo&track=%E6%A0%9E"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%97%E3%83%8F%E3%82%A4%E3%83%97&format=json&method=track.getInfo&track=%E6%A0%9E",
+  "_decoded_content": {
+    "track": {
+      "name": "\u681e",
+      "url": "https:\/\/www.last.fm\/music\/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%97%E3%83%8F%E3%82%A4%E3%83%97\/_\/%E6%A0%9E",
+      "duration": "263000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3677",
+      "playcount": "43089",
+      "artist": {
+        "name": "\u30af\u30ea\u30fc\u30d7\u30cf\u30a4\u30d7",
+        "mbid": "3b7bc38c-7e3a-4085-81eb-0440e3b120a7",
+        "url": "https:\/\/www.last.fm\/music\/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%97%E3%83%8F%E3%82%A4%E3%83%97"
+      },
+      "album": {
+        "artist": "\u30af\u30ea\u30fc\u30d7\u30cf\u30a4\u30d7",
+        "title": "\u6ce3\u304d\u305f\u304f\u306a\u308b\u307b\u3069\u5b09\u3057\u3044\u65e5\u3005\u306b",
+        "url": "https:\/\/www.last.fm\/music\/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%97%E3%83%8F%E3%82%A4%E3%83%97\/%E6%B3%A3%E3%81%8D%E3%81%9F%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%BB%E3%81%A9%E5%AC%89%E3%81%97%E3%81%84%E6%97%A5%E3%80%85%E3%81%AB",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d83a969e848de90a167477cf1c65c77c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d83a969e848de90a167477cf1c65c77c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d83a969e848de90a167477cf1c65c77c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d83a969e848de90a167477cf1c65c77c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

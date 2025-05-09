@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:42:40.293199+00:00",
+  "elapsed": 0.228223,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:40.293199+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1294",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Selena+Gomez&format=json&method=track.getInfo&track=Ojos+Tristes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Selena+Gomez&format=json&method=track.getInfo&track=Ojos+Tristes",
+  "_decoded_content": {
+    "track": {
+      "name": "Ojos Tristes",
+      "url": "https:\/\/www.last.fm\/music\/Selena+Gomez\/_\/Ojos+Tristes",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "56961",
+      "playcount": "246527",
+      "artist": {
+        "name": "Selena Gomez",
+        "mbid": "e4bc69e2-a064-4f93-ada1-f7f209cc1cc3",
+        "url": "https:\/\/www.last.fm\/music\/Selena+Gomez"
+      },
+      "album": {
+        "artist": "Selena Gomez & benny blanco",
+        "title": "I Said I Love You First (Dolby)",
+        "url": "https:\/\/www.last.fm\/music\/Selena+Gomez+&+benny+blanco\/I+Said+I+Love+You+First+(Dolby)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d09f0bc9c30a6ff96322d90a6235083e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d09f0bc9c30a6ff96322d90a6235083e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d09f0bc9c30a6ff96322d90a6235083e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d09f0bc9c30a6ff96322d90a6235083e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "latin pop",
+            "url": "https:\/\/www.last.fm\/tag\/latin+pop"
+          },
+          {
+            "name": "synth-pop",
+            "url": "https:\/\/www.last.fm\/tag\/synth-pop"
+          }
+        ]
+      }
+    }
+  }
+}

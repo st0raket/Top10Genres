@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:49.993729+00:00",
+  "elapsed": 0.229392,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:49.993729+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2854",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Better+Things"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Better+Things",
+  "_decoded_content": {
+    "track": {
+      "name": "Better Things",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/Better+Things",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "255513",
+      "playcount": "4273908",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "Better Things - Single",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/Better+Things+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e6b327cca96c67a392febde2eca461d9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e6b327cca96c67a392febde2eca461d9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e6b327cca96c67a392febde2eca461d9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e6b327cca96c67a392febde2eca461d9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "english",
+            "url": "https:\/\/www.last.fm\/tag\/english"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Aug 2023, 10:09",
+        "summary": "\"Better Things\" is a song by South Korean girl group aespa. It was released on August 18, 2023, through SM Entertainment and Warner Records as the group's first original English single, before its subsequent release as the final track on the group\u2019s fourth EP \u201cDrama\u201d on November 10, 2023.\n\n\"Better Things\" was described as an up-tempo minimalistic dance song. The track features a rhythmic percussion sound \"that goes well with summer\" alongside a \"unique rhythm pattern\" and \"rich vocals\" of the group. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Better+Things\">Read more on Last.fm<\/a>.",
+        "content": "\"Better Things\" is a song by South Korean girl group aespa. It was released on August 18, 2023, through SM Entertainment and Warner Records as the group's first original English single, before its subsequent release as the final track on the group\u2019s fourth EP \u201cDrama\u201d on November 10, 2023.\n\n\"Better Things\" was described as an up-tempo minimalistic dance song. The track features a rhythmic percussion sound \"that goes well with summer\" alongside a \"unique rhythm pattern\" and \"rich vocals\" of the group. The lyrics talk about giving focus to more valuable things in life.\n\nThe song was the group's second release of 2023, following their third extended play, MY WORLD - The 3rd Mini Album, in May. To promote the song, aespa aired a 3 episode long web series sitcom show, Better Things, with its first episode released on August 7. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Better+Things\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

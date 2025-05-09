@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:43:05.271694+00:00",
+  "elapsed": 0.225235,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:05.271694+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "996",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arijit+Singh&format=json&method=track.getInfo&track=Satranga"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arijit+Singh&format=json&method=track.getInfo&track=Satranga",
+  "_decoded_content": {
+    "track": {
+      "name": "Satranga",
+      "url": "https:\/\/www.last.fm\/music\/Arijit+Singh\/_\/Satranga",
+      "duration": "271000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6672",
+      "playcount": "48012",
+      "artist": {
+        "name": "Arijit Singh",
+        "mbid": "ed3f4831-e3e0-4dc0-9381-f5649e9df221",
+        "url": "https:\/\/www.last.fm\/music\/Arijit+Singh"
+      },
+      "album": {
+        "artist": "Shreyas Puranik & Siddharth\u2010Garima",
+        "title": "Satranga (From \u201cANIMAL\u201d)",
+        "url": "https:\/\/www.last.fm\/music\/Shreyas+Puranik+&+Siddharth%E2%80%90Garima\/Satranga+(From+%E2%80%9CANIMAL%E2%80%9D)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aa408c711a64c89a9613b6855bd4ea75.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aa408c711a64c89a9613b6855bd4ea75.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aa408c711a64c89a9613b6855bd4ea75.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aa408c711a64c89a9613b6855bd4ea75.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

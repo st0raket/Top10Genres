@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:03.904361+00:00",
+  "elapsed": 0.188351,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:03.904361+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2475",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Meat+Loaf&format=json&method=track.getInfo&track=Bat+Out+of+Hell"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Meat+Loaf&format=json&method=track.getInfo&track=Bat+Out+of+Hell",
+  "_decoded_content": {
+    "track": {
+      "name": "Bat Out of Hell",
+      "mbid": "26b9a64a-06ea-4d62-9078-e5e8847ccd89",
+      "url": "https:\/\/www.last.fm\/music\/Meat+Loaf\/_\/Bat+Out+of+Hell",
+      "duration": "284000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "320512",
+      "playcount": "1665555",
+      "artist": {
+        "name": "Meat Loaf",
+        "mbid": "b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1",
+        "url": "https:\/\/www.last.fm\/music\/Meat+Loaf"
+      },
+      "album": {
+        "artist": "Meat Loaf",
+        "title": "Bat Out Of Hell",
+        "mbid": "bb242e84-b0da-4786-afd4-ca41bb0651dc",
+        "url": "https:\/\/www.last.fm\/music\/Meat+Loaf\/Bat+Out+Of+Hell",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e06f235d701ef090e8a76e81780c1965.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e06f235d701ef090e8a76e81780c1965.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e06f235d701ef090e8a76e81780c1965.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e06f235d701ef090e8a76e81780c1965.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "Meat Loaf",
+            "url": "https:\/\/www.last.fm\/tag\/Meat+Loaf"
+          },
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "rock opera",
+            "url": "https:\/\/www.last.fm\/tag\/rock+opera"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jun 2009, 11:41",
+        "summary": "\"Bat out of Hell\" is a song written by Jim Steinman, for the popular 1977 album Bat out of Hell. It was released as a single in 1979, and again in 1993. The lead vocals were performed by Meat Loaf. This song is about a man riding his motorbike at speed and crashing.\n\nMany of the musicians who performed on the track were members of Bruce Springsteen's E Street Band and Todd Rundgren's Utopia. <a href=\"http:\/\/www.last.fm\/music\/Meat+Loaf\/_\/Bat+Out+of+Hell\">Read more on Last.fm<\/a>.",
+        "content": "\"Bat out of Hell\" is a song written by Jim Steinman, for the popular 1977 album Bat out of Hell. It was released as a single in 1979, and again in 1993. The lead vocals were performed by Meat Loaf. This song is about a man riding his motorbike at speed and crashing.\n\nMany of the musicians who performed on the track were members of Bruce Springsteen's E Street Band and Todd Rundgren's Utopia. <a href=\"http:\/\/www.last.fm\/music\/Meat+Loaf\/_\/Bat+Out+of+Hell\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

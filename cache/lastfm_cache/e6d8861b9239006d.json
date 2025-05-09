@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:27.214377+00:00",
+  "elapsed": 0.221038,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:27.214377+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2543",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=j-hope&format=json&method=track.getInfo&track=Arson"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=j-hope&format=json&method=track.getInfo&track=Arson",
+  "_decoded_content": {
+    "track": {
+      "name": "Arson",
+      "url": "https:\/\/www.last.fm\/music\/J-Hope\/_\/Arson",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "281023",
+      "playcount": "38693020",
+      "artist": {
+        "name": "J-Hope",
+        "url": "https:\/\/www.last.fm\/music\/J-Hope"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "punk",
+            "url": "https:\/\/www.last.fm\/tag\/punk"
+          },
+          {
+            "name": "Grunge",
+            "url": "https:\/\/www.last.fm\/tag\/Grunge"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jul 2022, 14:54",
+        "summary": "\"Arson\" is the title track of j-hope's solo studio album \"Jack In The Box\".\n\nThis is a powerful hip-hop song that captures j-hope\u2019s story of being put at a crossroads while facing the world as he stepping outside of the box. It has the fire, the passion that j-hope wanted this album to possess. The song is the last song on the track list. It acts as a period at the end of a sentence, and clearly straightens out what he wanted to express with this album. <a href=\"http:\/\/www.last.fm\/music\/J-Hope\/_\/Arson\">Read more on Last.fm<\/a>.",
+        "content": "\"Arson\" is the title track of j-hope's solo studio album \"Jack In The Box\".\n\nThis is a powerful hip-hop song that captures j-hope\u2019s story of being put at a crossroads while facing the world as he stepping outside of the box. It has the fire, the passion that j-hope wanted this album to possess. The song is the last song on the track list. It acts as a period at the end of a sentence, and clearly straightens out what he wanted to express with this album.\n\n\"\ubc29\ud654 (Arson)\" by J-Hope is a song about his burning passion and ambition to succeed in the music industry. The lyrics depict his journey and the sacrifices he had to make in order to achieve his dreams. J-Hope expresses his determination to burn with passion and to keep running towards that goal, ignoring everything else. He emphasizes that he is the only one who can put out the flame he started, highlighting his unwavering self-confidence and determination. The title \"Arson\" is used as a metaphor for his burning desire to succeed and the risks he took to make his dream a reality. The song reflects J-Hope's passionate and committed mindset, inspiring listeners to pursue their own dreams with the same fire and intensity. <a href=\"http:\/\/www.last.fm\/music\/J-Hope\/_\/Arson\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

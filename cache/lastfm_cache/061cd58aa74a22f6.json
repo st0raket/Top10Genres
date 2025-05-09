@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:17.965998+00:00",
+  "elapsed": 0.231495,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:17.965998+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2156",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Lifetime"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Lifetime",
+  "_decoded_content": {
+    "track": {
+      "name": "Lifetime",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Lifetime",
+      "duration": "207000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "78661",
+      "playcount": "672902",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Justin Bieber",
+        "title": "Justice (Triple Chucks Deluxe \/ Deluxe Video Version)",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/Justice+(Triple+Chucks+Deluxe+%2F+Deluxe+Video+Version)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/99a2d908517b802ebd802bad6d5a0f60.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/99a2d908517b802ebd802bad6d5a0f60.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/99a2d908517b802ebd802bad6d5a0f60.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/99a2d908517b802ebd802bad6d5a0f60.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "Olivia",
+            "url": "https:\/\/www.last.fm\/tag\/Olivia"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Dec 2022, 18:45",
+        "summary": "On \u201cLifetime,\u201d Justin Bieber sings about his love for his wife, Hailey Baldwin Bieber, assuring her that he will always remain by her side. The song is the only song off of the \u201cTriple Chucks\u201d deluxe version of Justice that does not have a featured artist on it. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Lifetime\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cLifetime,\u201d Justin Bieber sings about his love for his wife, Hailey Baldwin Bieber, assuring her that he will always remain by her side. The song is the only song off of the \u201cTriple Chucks\u201d deluxe version of Justice that does not have a featured artist on it. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Lifetime\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

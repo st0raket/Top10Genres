@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:58.151222+00:00",
+  "elapsed": 0.189236,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:58.151222+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3170",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Guilty+as+Sin%3F"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Guilty+as+Sin%3F",
+  "_decoded_content": {
+    "track": {
+      "name": "Guilty as Sin?",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Guilty+as+Sin%3F",
+      "duration": "254000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "545356",
+      "playcount": "16880704",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/81fbd21feee8ac0eeea93cdc118745bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "chatgpt",
+            "url": "https:\/\/www.last.fm\/tag\/chatgpt"
+          },
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          },
+          {
+            "name": "climate terrorist",
+            "url": "https:\/\/www.last.fm\/tag\/climate+terrorist"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Apr 2024, 14:04",
+        "summary": "\"Guilty as Sin?\" is the ninth track from Taylor Swift's eleventh studio album, The Tortured Poets Department, released on April 19, 2024. The song opens with a reference to The Blue Nile and their song \"The Downtown Lights,\" as Swift goes on to contemplate whether or not she should feel guilty for fantasising about an encounter that has not happened, hence the question mark in the title.\u00a0\n\nWhile Swift has not confirmed who inspired the song, it is widely believed to be about The 1975 frontman Matty Healy <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Guilty+as+Sin%3F\">Read more on Last.fm<\/a>.",
+        "content": "\"Guilty as Sin?\" is the ninth track from Taylor Swift's eleventh studio album, The Tortured Poets Department, released on April 19, 2024. The song opens with a reference to The Blue Nile and their song \"The Downtown Lights,\" as Swift goes on to contemplate whether or not she should feel guilty for fantasising about an encounter that has not happened, hence the question mark in the title.\u00a0\n\nWhile Swift has not confirmed who inspired the song, it is widely believed to be about The 1975 frontman Matty Healy, with whom Swift had a brief fling during the summer of 2023. In a 2016 interview with Vulture, Healy named The Blue Nile as his \"favourite band of all time.\" Fans have also theorised that the song's title is a direct connection to Swift's song \"Carolina,\" which she wrote for the 2022 film Where the Crawdads Sing, as it includes \u201cguilty as sin\u201d as a lyric in the outro:\u00a0\n\u201cOh Carolina knows why for years they\u2019ve said that I was guilty as sin and sleep in a liar\u2019s bed.\u201c <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Guilty+as+Sin%3F\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:33:35.188515+00:00",
+  "elapsed": 0.227446,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:35.188515+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2353",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=DO+BETTER"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gunna&format=json&method=track.getInfo&track=DO+BETTER",
+  "_decoded_content": {
+    "track": {
+      "name": "DO BETTER",
+      "url": "https:\/\/www.last.fm\/music\/Gunna\/_\/DO+BETTER",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "93916",
+      "playcount": "805183",
+      "artist": {
+        "name": "Gunna",
+        "url": "https:\/\/www.last.fm\/music\/Gunna"
+      },
+      "album": {
+        "artist": "Gunna",
+        "title": "WUNNA (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Gunna\/WUNNA+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e076922ec2d059e951b75e34b075984d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e076922ec2d059e951b75e34b075984d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e076922ec2d059e951b75e34b075984d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e076922ec2d059e951b75e34b075984d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "09 Oct 2024, 11:40",
+        "summary": "Gunna  spreads a motivational message on \u201cDO BETTER\u201d, one of the long-awaited songs from WUNNA. On the song, the Atlanta rapper encourages the listener to stay focused to earn success and money while drawing a parallel with his own come-up, in a similar fashion to his 2016 song \u201cDon\u2019t Give Up\u201d.\n\nThis track was teased numerous times by Gunna  since summer 2019, raising hype around its release. The track title was confirmed on Instagram Live on April 23, 2020. <a href=\"http:\/\/www.last.fm\/music\/Gunna\/_\/DO+BETTER\">Read more on Last.fm<\/a>.",
+        "content": "Gunna  spreads a motivational message on \u201cDO BETTER\u201d, one of the long-awaited songs from WUNNA. On the song, the Atlanta rapper encourages the listener to stay focused to earn success and money while drawing a parallel with his own come-up, in a similar fashion to his 2016 song \u201cDon\u2019t Give Up\u201d.\n\nThis track was teased numerous times by Gunna  since summer 2019, raising hype around its release. The track title was confirmed on Instagram Live on April 23, 2020.\n\nIn a May 2020 interview with Highsnobiety, Gunna said:\n\n\u201cDO BETTER\u201d came from an experience. I was in LA and I was taking out this girl I talked to. I was just really trying to speak to her, telling her how I want to see her do better. <a href=\"http:\/\/www.last.fm\/music\/Gunna\/_\/DO+BETTER\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:05.484624+00:00",
+  "elapsed": 0.208385,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:05.484624+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3569",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Handstand"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Handstand",
+  "_decoded_content": {
+    "track": {
+      "name": "Handstand",
+      "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Handstand",
+      "duration": "205000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "155539",
+      "playcount": "1358993",
+      "artist": {
+        "name": "Miley Cyrus",
+        "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus"
+      },
+      "album": {
+        "artist": "Miley Cyrus",
+        "title": "Endless Summer Vacation",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/Endless+Summer+Vacation",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9a8c97a8f4df58b16ff5b08d16f5f263.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "alt-pop",
+            "url": "https:\/\/www.last.fm\/tag\/alt-pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Mar 2023, 00:57",
+        "summary": "\"Handstand\" is an introspective reflection of a past experience with a friend. The lyrics paint a picture of a surreal and magical encounter, where the two friends meet \"past the manta rays and palm trees\" and are surrounded by glowing creatures and electric eels.\n\nThe chorus' lyric \"You're questioning the science, 'cause you don't understand, How I'm doing what I'm doing in a fucking handstand,\" highlights the idea of doing something unconventional and unique that others might not understand. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Handstand\">Read more on Last.fm<\/a>.",
+        "content": "\"Handstand\" is an introspective reflection of a past experience with a friend. The lyrics paint a picture of a surreal and magical encounter, where the two friends meet \"past the manta rays and palm trees\" and are surrounded by glowing creatures and electric eels.\n\nThe chorus' lyric \"You're questioning the science, 'cause you don't understand, How I'm doing what I'm doing in a fucking handstand,\" highlights the idea of doing something unconventional and unique that others might not understand. Cyrus is using the metaphor of a handstand to represent her unconventional and unique approach to life. She's saying that she's not doing things the way that others expect her to, but instead is using a different perspective, or a different \"hand\" to approach life.\n\nThe bridge, \"I wish I could crawl inside your heart, Take you captive and then sail away, I wish I could know that it's forever, Take me captive and then sail away\", could mean that Miley is longing for a connection with others, to understand them and have them understand her. She wants to have an intimate connection with someone, but also acknowledges the fact that it's difficult to know if that connection will be permanent.\n\nIn summary, the song \"Handstand\" is an introspective reflection on Miley Cyrus' unconventional approach to life and how that approach can make others feel confused or unable to understand her. The song also touches on the desire for closeness and permanence in a connection with another person. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Handstand\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

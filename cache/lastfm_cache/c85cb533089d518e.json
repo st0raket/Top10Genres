@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:33:27.268961+00:00",
+  "elapsed": 0.190265,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:27.268961+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1208",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=StaySolidRocky&format=json&method=track.getInfo&track=Party+Girl"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=StaySolidRocky&format=json&method=track.getInfo&track=Party+Girl",
+  "_decoded_content": {
+    "track": {
+      "name": "Party Girl",
+      "url": "https:\/\/www.last.fm\/music\/StaySolidRocky\/_\/Party+Girl",
+      "duration": "147000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "315082",
+      "playcount": "2497531",
+      "artist": {
+        "name": "StaySolidRocky",
+        "url": "https:\/\/www.last.fm\/music\/StaySolidRocky"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "NOW That's What I Call Music! 106",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/NOW+That%27s+What+I+Call+Music%21+106",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/980d3ab7861e224cbf7d16d33c0c32de.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/980d3ab7861e224cbf7d16d33c0c32de.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/980d3ab7861e224cbf7d16d33c0c32de.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/980d3ab7861e224cbf7d16d33c0c32de.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "nostalgia",
+            "url": "https:\/\/www.last.fm\/tag\/nostalgia"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          }
+        ]
+      }
+    }
+  }
+}

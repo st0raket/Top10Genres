@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:00.534875+00:00",
+  "elapsed": 0.257043,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:00.534875+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3046",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Stoned+at+the+Nail+Salon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Stoned+at+the+Nail+Salon",
+  "_decoded_content": {
+    "track": {
+      "name": "Stoned at the Nail Salon",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/Stoned+at+the+Nail+Salon",
+      "duration": "266000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "426962",
+      "playcount": "5634158",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Solar Power (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Solar+Power+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e86c73d66697ffdd8f72f4a768619609.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie folk",
+            "url": "https:\/\/www.last.fm\/tag\/indie+folk"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "art folk",
+            "url": "https:\/\/www.last.fm\/tag\/art+folk"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jul 2021, 01:02",
+        "summary": "\"Stoned at the Nail Salon\" is a reflective and introspective song that reflects on the changes, like fading beauty and growing out of past loves, that come with the passage of time. The lyrics portray the singer reflecting on her life, longing for it to stay the same even though she knows it will eventually change. She speaks about her wishbone drying on the windowsill and the dog who comes when she calls and finds comfort in that all the same. She <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Stoned+at+the+Nail+Salon\">Read more on Last.fm<\/a>.",
+        "content": "\"Stoned at the Nail Salon\" is a reflective and introspective song that reflects on the changes, like fading beauty and growing out of past loves, that come with the passage of time. The lyrics portray the singer reflecting on her life, longing for it to stay the same even though she knows it will eventually change. She speaks about her wishbone drying on the windowsill and the dog who comes when she calls and finds comfort in that all the same. She further reflects on how her \"hot blood\" has been \"burning for so many summers\" and how it\u2019s time to cool it down, wherever that leads. In the chorus and bridge she encourages the listener to appreciate their current situation and people they can still share it with, as all will eventually change. She also suggests that all her worries could be simply in her head, as she sings \"Maybe I'm just stoned at the nail salon\". Ultimately, the song is about understanding and embracing life\u2019s inevitable transitions and finding joy in the present. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Stoned+at+the+Nail+Salon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

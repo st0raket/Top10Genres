@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:00.584656+00:00",
+  "elapsed": 0.179674,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:00.584656+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2183",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Someone+You+Loved"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lewis+Capaldi&format=json&method=track.getInfo&track=Someone+You+Loved",
+  "_decoded_content": {
+    "track": {
+      "name": "Someone You Loved",
+      "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Someone+You+Loved",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "900818",
+      "playcount": "10297708",
+      "artist": {
+        "name": "Lewis Capaldi",
+        "url": "https:\/\/www.last.fm\/music\/Lewis+Capaldi"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best of Electronic Music",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+of+Electronic+Music",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/eeead76fc5cd35025d97a0e74725a307.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/eeead76fc5cd35025d97a0e74725a307.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/eeead76fc5cd35025d97a0e74725a307.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/eeead76fc5cd35025d97a0e74725a307.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "spoken",
+            "url": "https:\/\/www.last.fm\/tag\/spoken"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jun 2019, 15:50",
+        "summary": "Lewis writes this song to a past partner whom he misses. He feels as though he gave the relationship everything and she left him anyway. Now, he just wants someone to love because he misses the way it felt with his ex. It was a number hit across Europe, hitting number one in The UK, Scotland and Ireland. <a href=\"http:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Someone+You+Loved\">Read more on Last.fm<\/a>.",
+        "content": "Lewis writes this song to a past partner whom he misses. He feels as though he gave the relationship everything and she left him anyway. Now, he just wants someone to love because he misses the way it felt with his ex. It was a number hit across Europe, hitting number one in The UK, Scotland and Ireland. <a href=\"http:\/\/www.last.fm\/music\/Lewis+Capaldi\/_\/Someone+You+Loved\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

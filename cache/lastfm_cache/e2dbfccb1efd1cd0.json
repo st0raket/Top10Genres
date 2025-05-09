@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:35:17.727726+00:00",
+  "elapsed": 0.202493,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:17.727726+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "365",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:18 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HammAli&format=json&method=track.getInfo&track=%D0%AF+%D0%B2%D0%B5%D1%81%D1%8C+%D0%BC%D0%B8%D1%80+%D0%BE%D0%B1%D0%BE%D1%88%D1%91%D0%BB"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HammAli&format=json&method=track.getInfo&track=%D0%AF+%D0%B2%D0%B5%D1%81%D1%8C+%D0%BC%D0%B8%D1%80+%D0%BE%D0%B1%D0%BE%D1%88%D1%91%D0%BB",
+  "_decoded_content": {
+    "track": {
+      "name": "\u042f \u0432\u0435\u0441\u044c \u043c\u0438\u0440 \u043e\u0431\u043e\u0448\u0451\u043b",
+      "url": "https:\/\/www.last.fm\/music\/HammAli\/_\/%D0%AF+%D0%B2%D0%B5%D1%81%D1%8C+%D0%BC%D0%B8%D1%80+%D0%BE%D0%B1%D0%BE%D1%88%D1%91%D0%BB",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1",
+      "playcount": "5",
+      "artist": {
+        "name": "HammAli",
+        "url": "https:\/\/www.last.fm\/music\/HammAli"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

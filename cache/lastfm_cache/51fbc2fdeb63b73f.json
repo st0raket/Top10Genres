@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:36:17.604385+00:00",
+  "elapsed": 0.245241,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:17.604385+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "982",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rvssian&format=json&method=track.getInfo&track=Nost%C3%A1lgico"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rvssian&format=json&method=track.getInfo&track=Nost%C3%A1lgico",
+  "_decoded_content": {
+    "track": {
+      "name": "Nost\u00e1lgico",
+      "url": "https:\/\/www.last.fm\/music\/RVSSIAN\/_\/Nost%C3%A1lgico",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "120842",
+      "playcount": "1117595",
+      "artist": {
+        "name": "RVSSIAN",
+        "url": "https:\/\/www.last.fm\/music\/RVSSIAN"
+      },
+      "album": {
+        "artist": "RVSSIAN",
+        "title": "Nost\u00e1lgico",
+        "url": "https:\/\/www.last.fm\/music\/RVSSIAN\/Nost%C3%A1lgico",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2f3cf37cd31c8d58a84a8dd481a1e5c2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2f3cf37cd31c8d58a84a8dd481a1e5c2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2f3cf37cd31c8d58a84a8dd481a1e5c2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2f3cf37cd31c8d58a84a8dd481a1e5c2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          }
+        ]
+      }
+    }
+  }
+}

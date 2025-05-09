@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:39.285412+00:00",
+  "elapsed": 0.382079,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:39.285412+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2902",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Fender&format=json&method=track.getInfo&track=Seventeen+Going+Under"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Fender&format=json&method=track.getInfo&track=Seventeen+Going+Under",
+  "_decoded_content": {
+    "track": {
+      "name": "Seventeen Going Under",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Fender\/_\/Seventeen+Going+Under",
+      "duration": "302000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "263298",
+      "playcount": "3487432",
+      "artist": {
+        "name": "Sam Fender",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Fender"
+      },
+      "album": {
+        "artist": "Sam Fender",
+        "title": "Seventeen Going Under",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Fender\/Seventeen+Going+Under",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a6e7c9f329c60f85427dac2fa1be897e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a6e7c9f329c60f85427dac2fa1be897e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a6e7c9f329c60f85427dac2fa1be897e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a6e7c9f329c60f85427dac2fa1be897e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Mar 2024, 17:03",
+        "summary": "\"Seventeen Going Under\" is a song by English singer-songwriter Sam Fender. It was released on 7 July 2021 as the lead single from his second studio album of the same name. The song was written by Fender, and produced by Bramwell Bronte. It was a sleeper hit, peaking at number three on the UK Singles Chart on 7 January 2022, becoming Fender's highest-charting career single to date.\n\n\"Seventeen Going Under\" was named Hottest Record of the Year 2021 <a href=\"http:\/\/www.last.fm\/music\/Sam+Fender\/_\/Seventeen+Going+Under\">Read more on Last.fm<\/a>.",
+        "content": "\"Seventeen Going Under\" is a song by English singer-songwriter Sam Fender. It was released on 7 July 2021 as the lead single from his second studio album of the same name. The song was written by Fender, and produced by Bramwell Bronte. It was a sleeper hit, peaking at number three on the UK Singles Chart on 7 January 2022, becoming Fender's highest-charting career single to date.\n\n\"Seventeen Going Under\" was named Hottest Record of the Year 2021 by BBC Radio 1 listeners and was voted number sixteen by Australian radio Triple J listeners on the Triple J Hottest 100 chart. It was also voted number one by more than 14,000 Radio X listeners for the Best of British 2022. In May 2022, the song won the Ivor Novello Award for Best Song Musically and Lyrically from the British Academy of Songwriters, Composers, and Authors. It received the 2022 Rolling Stone UK Award for Song of the Year Award. <a href=\"http:\/\/www.last.fm\/music\/Sam+Fender\/_\/Seventeen+Going+Under\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

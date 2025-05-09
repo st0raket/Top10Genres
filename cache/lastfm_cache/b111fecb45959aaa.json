@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:44:09.220198+00:00",
+  "elapsed": 0.217973,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:09.220198+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1863",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Duki&format=json&method=track.getInfo&track=Goteo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Duki&format=json&method=track.getInfo&track=Goteo",
+  "_decoded_content": {
+    "track": {
+      "name": "Goteo",
+      "url": "https:\/\/www.last.fm\/music\/Duki\/_\/Goteo",
+      "duration": "165000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "75000",
+      "playcount": "1003026",
+      "artist": {
+        "name": "Duki",
+        "url": "https:\/\/www.last.fm\/music\/Duki"
+      },
+      "album": {
+        "artist": "Duki",
+        "title": "S\u00faper Sangre Joven [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/Duki\/S%C3%BAper+Sangre+Joven+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d1fac3d2388392503f22a7de35a027e8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d1fac3d2388392503f22a7de35a027e8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d1fac3d2388392503f22a7de35a027e8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d1fac3d2388392503f22a7de35a027e8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "argentina",
+            "url": "https:\/\/www.last.fm\/tag\/argentina"
+          },
+          {
+            "name": "pop trap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Aug 2019, 05:30",
+        "summary": "\u201cGoteo\u201d es el \u00faltimo sencillo que sac\u00f3 Duki perteneciente a su \u00e1lbum debut, Atm\u00f3sfera. Fue escuchada por primera vez en mayo de 2019 en una historia de Instagram. En julio del mismo a\u00f1o lo confirma oficialmente en un directo, junto a la fecha de salida de su \u00e1lbum debut. <a href=\"http:\/\/www.last.fm\/music\/Duki\/_\/Goteo\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGoteo\u201d es el \u00faltimo sencillo que sac\u00f3 Duki perteneciente a su \u00e1lbum debut, Atm\u00f3sfera. Fue escuchada por primera vez en mayo de 2019 en una historia de Instagram. En julio del mismo a\u00f1o lo confirma oficialmente en un directo, junto a la fecha de salida de su \u00e1lbum debut. <a href=\"http:\/\/www.last.fm\/music\/Duki\/_\/Goteo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

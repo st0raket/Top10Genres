@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:24.629969+00:00",
+  "elapsed": 0.194372,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:24.629969+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3745",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Bound+2"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Bound+2",
+  "_decoded_content": {
+    "track": {
+      "name": "Bound 2",
+      "mbid": "d823ad32-96ee-4ff0-9653-b99c4d39310a",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Bound+2",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1585834",
+      "playcount": "24350966",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Yeezus",
+        "mbid": "e1cd2cd9-3cd6-40bf-9802-9aa2d231fc2d",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Yeezus",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/71d8c1f84d67e60c5dda039d6fb3653f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/71d8c1f84d67e60c5dda039d6fb3653f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/71d8c1f84d67e60c5dda039d6fb3653f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/71d8c1f84d67e60c5dda039d6fb3653f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "uh huh honey",
+            "url": "https:\/\/www.last.fm\/tag\/uh+huh+honey"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Feb 2014, 17:35",
+        "summary": "As opposed to the industrial, electronic influences found throughout Yeezus, this warm soulful track sees Kanye \u201cBound 2\u201d his former partner, Kim Kardashian. Reminiscent of West\u2019s earlier work, the soul instrumental and background vocals are sampled from the Ponderosa Twins Plus One\u2019s 1971 song \u201cBound,\u201d whereas the memorable \u2018uh-huh, honey\u2019 comes from the intro to Brenda Lee\u2019s 1959 record \u201cSweet Nothin\u2019s.\u201d\n\nKanye first shared a short snippet of this song on his website together with the album cover casing for \"Yeezus\". <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Bound+2\">Read more on Last.fm<\/a>.",
+        "content": "As opposed to the industrial, electronic influences found throughout Yeezus, this warm soulful track sees Kanye \u201cBound 2\u201d his former partner, Kim Kardashian. Reminiscent of West\u2019s earlier work, the soul instrumental and background vocals are sampled from the Ponderosa Twins Plus One\u2019s 1971 song \u201cBound,\u201d whereas the memorable \u2018uh-huh, honey\u2019 comes from the intro to Brenda Lee\u2019s 1959 record \u201cSweet Nothin\u2019s.\u201d\n\nKanye first shared a short snippet of this song on his website together with the album cover casing for \"Yeezus\". Along with \u201cNew Slaves\u201d and \u201cBlack Skinhead,\u201d \u201cBound 2\u201d was one of three singles to be previewed before the album\u2019s release. However, it was one of the last tracks to be finished\u2014three weeks before the album\u2019s last possible delivery date, Kanye enlisted Rick Rubin to help finish the song. In an interview with Rolling Stone, Rubin recalled:\n\n\"The whole song was written without that main sample; it was a last-minute thing. The song had kind of a lot of R&B music in it. So we started by getting the sample to work in the song, and then taking out as much stuff as we could, and then in the chorus reducing what was this whole musical thing, just this sort of one ugly, distorted bass note. I was thinking like Alan Vega and Suicide, that kind of noise-synth minimal vibe.\"\n\n\u201cBound 2\u201d peaked at #12 on the Billboard Hot 100. The original, pre-Rick Rubin version of \u201cBound,\u201d titled \u201cBound 1,\u201d was premiered by producer Hudson Mohawke at a concert in 2014. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Bound+2\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

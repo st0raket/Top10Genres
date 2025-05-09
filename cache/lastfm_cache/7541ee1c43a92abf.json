@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:38:59.060532+00:00",
+  "elapsed": 0.184223,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:59.060532+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2657",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Stay"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Stay",
+  "_decoded_content": {
+    "track": {
+      "name": "Stay",
+      "mbid": "77617256-c2ce-46b5-b8e5-9ff7894a5397",
+      "url": "https:\/\/www.last.fm\/music\/Rihanna\/_\/Stay",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "940426",
+      "playcount": "7483731",
+      "artist": {
+        "name": "Rihanna",
+        "mbid": "db36a76f-4cdf-43ac-8cd0-5e48092d2bae",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna"
+      },
+      "album": {
+        "artist": "Rihanna",
+        "title": "Live At SNL",
+        "mbid": "c4ea8030-afe4-4df9-abe0-f4fd9f495cd4",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna\/Live+At+SNL",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fc3aa4ee362f474bc72ef9e50353241e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fc3aa4ee362f474bc72ef9e50353241e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fc3aa4ee362f474bc72ef9e50353241e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fc3aa4ee362f474bc72ef9e50353241e.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Rihanna",
+            "url": "https:\/\/www.last.fm\/tag\/Rihanna"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Jul 2013, 14:54",
+        "summary": "\"Stay\" is the second single off of Unapologetic. It features guest vocals from Mikky Ekko and was written by Ekko and Justin Parker.\n\nWith this piano ballad, Rihanna puts a vulnerable spin on the Brown situation, repeating another theme of the album \u2013 failing to resist true love. She inspires melancholy and raw emotion with this track, and never fails to convey her honesty with her lyrics and her delivery.\n\nChartwise, the song was incredibly successful <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Stay\">Read more on Last.fm<\/a>.",
+        "content": "\"Stay\" is the second single off of Unapologetic. It features guest vocals from Mikky Ekko and was written by Ekko and Justin Parker.\n\nWith this piano ballad, Rihanna puts a vulnerable spin on the Brown situation, repeating another theme of the album \u2013 failing to resist true love. She inspires melancholy and raw emotion with this track, and never fails to convey her honesty with her lyrics and her delivery.\n\nChartwise, the song was incredibly successful, moving over 10 million units all together, making it her third most successful single after \"Love The Way You Lie\" with Eminem and \"We Found Love\". <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Stay\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

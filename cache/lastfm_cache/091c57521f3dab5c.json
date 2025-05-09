@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:32.543334+00:00",
+  "elapsed": 0.184004,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:32.543334+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3510",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+1975&format=json&method=track.getInfo&track=Love+It+If+We+Made+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+1975&format=json&method=track.getInfo&track=Love+It+If+We+Made+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Love It If We Made It",
+      "url": "https:\/\/www.last.fm\/music\/The+1975\/_\/Love+It+If+We+Made+It",
+      "duration": "277000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "505823",
+      "playcount": "7322841",
+      "artist": {
+        "name": "The 1975",
+        "mbid": "5b6ebfe0-f72b-4902-bba9-74c8af0f1af0",
+        "url": "https:\/\/www.last.fm\/music\/The+1975"
+      },
+      "album": {
+        "artist": "The 1975",
+        "title": "Give Yourself A Try \/ Love It If We Made It",
+        "url": "https:\/\/www.last.fm\/music\/The+1975\/Give+Yourself+A+Try+%2F+Love+It+If+We+Made+It",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3debdca97590243025b65cd6ebdedc29.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3debdca97590243025b65cd6ebdedc29.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3debdca97590243025b65cd6ebdedc29.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3debdca97590243025b65cd6ebdedc29.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Jul 2018, 12:41",
+        "summary": "\u201cLove It If We Made It\u201d is a social anthem, observing the volatile aspects of modern society, responding with a sentiment of hope and positivity with its upbeat sound. It was the second early-release from the album \"A Brief Inquiry Into Online Relationships\", and the record\u2019s first official single.\n\nDuring the song\u2019s premiere on Beats 1 Radio as Zane Lowe\u2019s World Record, Matt Healy described the song as having a lot of the ethos on the record <a href=\"http:\/\/www.last.fm\/music\/The+1975\/_\/Love+It+If+We+Made+It\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLove It If We Made It\u201d is a social anthem, observing the volatile aspects of modern society, responding with a sentiment of hope and positivity with its upbeat sound. It was the second early-release from the album \"A Brief Inquiry Into Online Relationships\", and the record\u2019s first official single.\n\nDuring the song\u2019s premiere on Beats 1 Radio as Zane Lowe\u2019s World Record, Matt Healy described the song as having a lot of the ethos on the record, as well as demonstrating the band\u2019s growth in writing music that\u2019s more sincere and direct than the band\u2019s past records.\n\nHealy explains his method for writing the song and the source of the song\u2019s lyrics:\n\n\"'It\u2019s quite outward and it\u2019s me kind of looking out. It\u2019s an interesting one because there\u2019s not a lot of context in a lot of the things that I say in that it\u2019s direct quotes of people or their headlines I\u2019ve read.'\"\n\nWhile on the surface, some of the song\u2019s lyrical content may seem shocking for a band like The 1975, Healy stated for the record,\n\n\"'It\u2019s very objective though, this song. I think that\u2019s one of the things I suppose I get to hide behind. A lot of the stuff that you could be upset about in the song, I never said in the first place.'\"\n\nOn August 12, 2018, The 1975 released a Spotify music video in a similar style to \u201cGive Yourself A Try,\u201d with the lyrics popping up in the top left of the screen. <a href=\"http:\/\/www.last.fm\/music\/The+1975\/_\/Love+It+If+We+Made+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

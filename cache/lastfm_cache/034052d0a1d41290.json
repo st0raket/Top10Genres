@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:48.858079+00:00",
+  "elapsed": 0.20221,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:48.858079+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2134",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=What+You+Know+Bout+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pop+Smoke&format=json&method=track.getInfo&track=What+You+Know+Bout+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "What You Know Bout Love",
+      "url": "https:\/\/www.last.fm\/music\/Pop+Smoke\/_\/What+You+Know+Bout+Love",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "572275",
+      "playcount": "6347887",
+      "artist": {
+        "name": "Pop Smoke",
+        "url": "https:\/\/www.last.fm\/music\/Pop+Smoke"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music, Vol. 77",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music,+Vol.+77",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a729643f70fc68dcb35b184856899086.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a729643f70fc68dcb35b184856899086.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a729643f70fc68dcb35b184856899086.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a729643f70fc68dcb35b184856899086.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "Pop Smoke",
+            "url": "https:\/\/www.last.fm\/tag\/Pop+Smoke"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 21:35",
+        "summary": "\u201cWhat You Know Bout Love\u201d was first leaked to the internet in late February 2020 shortly after the untimely passing of the American rapper, Pop Smoke.\n\nSmoke shares his more intimate side and heartfelt love for a special woman who has came into his life on this track. <a href=\"http:\/\/www.last.fm\/music\/Pop+Smoke\/_\/What+You+Know+Bout+Love\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWhat You Know Bout Love\u201d was first leaked to the internet in late February 2020 shortly after the untimely passing of the American rapper, Pop Smoke.\n\nSmoke shares his more intimate side and heartfelt love for a special woman who has came into his life on this track. <a href=\"http:\/\/www.last.fm\/music\/Pop+Smoke\/_\/What+You+Know+Bout+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

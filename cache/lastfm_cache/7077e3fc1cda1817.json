@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:36.872163+00:00",
+  "elapsed": 0.180165,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:36.872163+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2797",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Moscow+Mule"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Moscow+Mule",
+  "_decoded_content": {
+    "track": {
+      "name": "Moscow Mule",
+      "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Moscow+Mule",
+      "duration": "245000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "424768",
+      "playcount": "6546089",
+      "artist": {
+        "name": "Bad Bunny",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny"
+      },
+      "album": {
+        "artist": "Bad Bunny",
+        "title": "Un Verano Sin Ti",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/Un+Verano+Sin+Ti",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3fc1caf14abbd6d7e3853e4fb4dfa3be.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "urban",
+            "url": "https:\/\/www.last.fm\/tag\/urban"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "chillwave",
+            "url": "https:\/\/www.last.fm\/tag\/chillwave"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 May 2022, 02:43",
+        "summary": "\"Moscow Mule\" is the opening track and first single on Bad Bunny's album \"Un Verano Sin Ti.\" It was released with an official video. The song is named after the popular cocktail, the Moscow mule, which is originally from the United States but named after the Russian city. The artist announced the song's existence on May 4, 2022, when he revealed the album cover, tracklist, and cover on his social media accounts. According to Bad Bunny, \"Moscow Mule\" is one of his favorite reggaeton tracks on the album, and it reflects his last summer. <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Moscow+Mule\">Read more on Last.fm<\/a>.",
+        "content": "\"Moscow Mule\" is the opening track and first single on Bad Bunny's album \"Un Verano Sin Ti.\" It was released with an official video. The song is named after the popular cocktail, the Moscow mule, which is originally from the United States but named after the Russian city. The artist announced the song's existence on May 4, 2022, when he revealed the album cover, tracklist, and cover on his social media accounts. According to Bad Bunny, \"Moscow Mule\" is one of his favorite reggaeton tracks on the album, and it reflects his last summer. The song's beat was produced by MAG, who Bad Bunny praises as amazing. The inspiration for the song title came from Bad Bunny's love for the Moscow mule, which he had been drinking all summer. <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Moscow+Mule\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

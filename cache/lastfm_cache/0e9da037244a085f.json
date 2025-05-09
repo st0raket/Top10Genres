@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:08.047160+00:00",
+  "elapsed": 0.261956,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:08.047160+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2572",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=V%C3%89RIT%C3%89&format=json&method=track.getInfo&track=Somebody+Else"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=V%C3%89RIT%C3%89&format=json&method=track.getInfo&track=Somebody+Else",
+  "_decoded_content": {
+    "track": {
+      "name": "Somebody Else",
+      "url": "https:\/\/www.last.fm\/music\/V%C3%A9rit%C3%A9\/_\/Somebody+Else",
+      "duration": "233000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "111181",
+      "playcount": "646289",
+      "artist": {
+        "name": "V\u00e9rit\u00e9",
+        "mbid": "d3618fd5-c062-467d-ad12-c89232134b4a",
+        "url": "https:\/\/www.last.fm\/music\/V%C3%A9rit%C3%A9"
+      },
+      "album": {
+        "artist": "V\u00e9rit\u00e9",
+        "title": "Somebody Else",
+        "url": "https:\/\/www.last.fm\/music\/V%C3%A9rit%C3%A9\/Somebody+Else",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9517ffca4a9060e3588555a2e76c4e47.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9517ffca4a9060e3588555a2e76c4e47.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9517ffca4a9060e3588555a2e76c4e47.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9517ffca4a9060e3588555a2e76c4e47.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "Electronic Pop",
+            "url": "https:\/\/www.last.fm\/tag\/Electronic+Pop"
+          },
+          {
+            "name": "lyrical",
+            "url": "https:\/\/www.last.fm\/tag\/lyrical"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2023, 17:43",
+        "summary": "\u201cSomebody Else\u201d originally premiered on the radio on February 15, 2016 as the fourth single from The 1975\u2019s second official studio album, I like it when you sleep, for you are so beautiful yet so unaware of it.\n\n\u201cI am a big fan of The 1975\u2019s vision, aesthetic and how effective their writing is,\u201d she mentioned with the premiere of the song. \u201c\u2018Somebody Else\u2019 is so simple, relatable and well written. I really wanted to take it into my world and reinterpret it a bit.\" <a href=\"http:\/\/www.last.fm\/music\/V%C3%A9rit%C3%A9\/_\/Somebody+Else\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSomebody Else\u201d originally premiered on the radio on February 15, 2016 as the fourth single from The 1975\u2019s second official studio album, I like it when you sleep, for you are so beautiful yet so unaware of it.\n\n\u201cI am a big fan of The 1975\u2019s vision, aesthetic and how effective their writing is,\u201d she mentioned with the premiere of the song. \u201c\u2018Somebody Else\u2019 is so simple, relatable and well written. I really wanted to take it into my world and reinterpret it a bit.\" <a href=\"http:\/\/www.last.fm\/music\/V%C3%A9rit%C3%A9\/_\/Somebody+Else\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

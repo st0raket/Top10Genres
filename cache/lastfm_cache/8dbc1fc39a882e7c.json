@@ -1,0 +1,69 @@
+{
+  "created_at": "2025-05-03T14:40:43.322794+00:00",
+  "elapsed": 0.19416,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:43.322794+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2292",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=Talking+%2F+Once+Again"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%C2%A5%24&format=json&method=track.getInfo&track=Talking+%2F+Once+Again",
+  "_decoded_content": {
+    "track": {
+      "name": "TALKING \/ ONCE AGAIN",
+      "url": "https:\/\/www.last.fm\/music\/%C2%A5$\/_\/TALKING+%2F+ONCE+AGAIN",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "102789",
+      "playcount": "281229",
+      "artist": {
+        "name": "\u00a5$",
+        "url": "https:\/\/www.last.fm\/music\/%C2%A5$"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "North West",
+            "url": "https:\/\/www.last.fm\/tag\/North+West"
+          },
+          {
+            "name": "ty dolla sign",
+            "url": "https:\/\/www.last.fm\/tag\/ty+dolla+sign"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Feb 2024, 10:34",
+        "summary": "\"Talking \/ Once Again\" is a song by the American hip hop superduo \u00a5$\u2014composed of rapper Kanye West and singer Ty Dolla Sign\u2014featuring Kanye's daughter North. It was released as a promotional track on February 7, 2024, exclusively on Instagram, YouTube, and X. The song was later released on streaming services on February 8 as the second single from the duo's collaborative album Vultures (2024). The song was written by West, his daughter North <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/TALKING+%2F+ONCE+AGAIN\">Read more on Last.fm<\/a>.",
+        "content": "\"Talking \/ Once Again\" is a song by the American hip hop superduo \u00a5$\u2014composed of rapper Kanye West and singer Ty Dolla Sign\u2014featuring Kanye's daughter North. It was released as a promotional track on February 7, 2024, exclusively on Instagram, YouTube, and X. The song was later released on streaming services on February 8 as the second single from the duo's collaborative album Vultures (2024). The song was written by West, his daughter North, Chicago-based singer and songwriter Shawntoni \"Mamii\" Nichols, and frequent collaborator Ant Clemons. It was produced by West alongside No I.D., James Blake and DJ Camper.\n\n\"Talking \/ Once Again\" was previewed at the \"Vultures Rave\" event in December 2023. Kanye West officially released the song alongside its music video on February 7, 2024.\n\nThe song features themes of fatherhood, with Ty Dolla Sign rapping about remaining present in his daughter's life, hoping for her to avoid mistakes he made as a young man. <a href=\"http:\/\/www.last.fm\/music\/%C2%A5$\/_\/TALKING+%2F+ONCE+AGAIN\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

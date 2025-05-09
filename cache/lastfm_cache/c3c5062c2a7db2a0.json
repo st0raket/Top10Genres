@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:48.482975+00:00",
+  "elapsed": 0.18882,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:48.482975+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3441",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Sunflower+-+Spider-Man%3A+Into+the+Spider-Verse"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Sunflower+-+Spider-Man%3A+Into+the+Spider-Verse",
+  "_decoded_content": {
+    "track": {
+      "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Sunflower+-+Spider-Man:+Into+the+Spider-Verse",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1467663",
+      "playcount": "21092278",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Scrobbling Makes Me Horney",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Scrobbling+Makes+Me+Horney",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/47a7dcb2468309762ddeaa8f4b2775a6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/47a7dcb2468309762ddeaa8f4b2775a6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/47a7dcb2468309762ddeaa8f4b2775a6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/47a7dcb2468309762ddeaa8f4b2775a6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Sep 2019, 20:07",
+        "summary": "\u201cSunflower\u201d marks the second collaboration by Post Malone and Swae Lee. It serves as a single for Post Malone\u2019s 2019 album \"Hollywood\u2019s Bleeding\", and is part of the soundtrack for the 2018 animated film \"Spider-Man: Into the Spider-Verse\".\n\nA sunflower is a symbol of loyalty and longevity because of the flower\u2019s ability to retain its beauty in the face of environmental factors that would leave other flowers wilted. The sunflower in this song represents a girl\u2014a woman who\u2019s shown persistence <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Sunflower+-+Spider-Man:+Into+the+Spider-Verse\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSunflower\u201d marks the second collaboration by Post Malone and Swae Lee. It serves as a single for Post Malone\u2019s 2019 album \"Hollywood\u2019s Bleeding\", and is part of the soundtrack for the 2018 animated film \"Spider-Man: Into the Spider-Verse\".\n\nA sunflower is a symbol of loyalty and longevity because of the flower\u2019s ability to retain its beauty in the face of environmental factors that would leave other flowers wilted. The sunflower in this song represents a girl\u2014a woman who\u2019s shown persistence, despite a lack of affection shown to her.\n\nThis mystery girl ends up being the subject matter for both Post Malone and Swae Lee. In their verses, the girl seems to be trying much harder in the relationship than either of the two stars. However, even after all of the poor treatment the girl has received, she remains by Post and Swae\u2019s side.\n\nPost first teased the song at the Tonight Show with Jimmy Fallon on October 1, 2018. He then confirmed on Facebook that the song would include Swae Lee. Two snippets from the lyric video were shown on both of their Instagram accounts on October 15, 2018.\n\nThis song broke records being the highest certified song of all time in US history after being 18x Platinum certified by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Sunflower+-+Spider-Man:+Into+the+Spider-Verse\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

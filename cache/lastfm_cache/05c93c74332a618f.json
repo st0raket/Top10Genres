@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:27.885165+00:00",
+  "elapsed": 0.225425,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:27.885165+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2530",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Brown&format=json&method=track.getInfo&track=Go+Crazy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chris+Brown&format=json&method=track.getInfo&track=Go+Crazy",
+  "_decoded_content": {
+    "track": {
+      "name": "Go Crazy",
+      "url": "https:\/\/www.last.fm\/music\/Chris+Brown\/_\/Go+Crazy",
+      "duration": "175000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "330057",
+      "playcount": "3383516",
+      "artist": {
+        "name": "Chris Brown",
+        "mbid": "c234fa42-e6a6-443e-937e-2f4b073538a3",
+        "url": "https:\/\/www.last.fm\/music\/Chris+Brown"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music Vol. 83",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music+Vol.+83",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "Chris Brown",
+            "url": "https:\/\/www.last.fm\/tag\/Chris+Brown"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jul 2022, 06:01",
+        "summary": "On \u201cGo Crazy,\u201d Thugger and Chris sing and trade bars over familiar topics: sex and women. In particular, about keeping some trysts secret and women who are shy but nevertheless freaky in bed.\n\nThe track samples The Showboys\u2018 ever-popular January 1986 single, \u201cDrag Rap (Triggerman),\u201d which Chris previously sampled on June 2019\u2019s \u201cEmerald \/ Burgundy.\u201d\n\nExecutive producer HoodyBaby shared a snippet of \u201cGo Crazy\u201d in a now-deleted Instagram on April 30. <a href=\"http:\/\/www.last.fm\/music\/Chris+Brown\/_\/Go+Crazy\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cGo Crazy,\u201d Thugger and Chris sing and trade bars over familiar topics: sex and women. In particular, about keeping some trysts secret and women who are shy but nevertheless freaky in bed.\n\nThe track samples The Showboys\u2018 ever-popular January 1986 single, \u201cDrag Rap (Triggerman),\u201d which Chris previously sampled on June 2019\u2019s \u201cEmerald \/ Burgundy.\u201d\n\nExecutive producer HoodyBaby shared a snippet of \u201cGo Crazy\u201d in a now-deleted Instagram on April 30. <a href=\"http:\/\/www.last.fm\/music\/Chris+Brown\/_\/Go+Crazy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

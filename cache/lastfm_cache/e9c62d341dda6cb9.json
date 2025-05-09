@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:57.805634+00:00",
+  "elapsed": 0.17983,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:57.805634+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3428",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tame+Impala&format=json&method=track.getInfo&track=Breathe+Deeper"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tame+Impala&format=json&method=track.getInfo&track=Breathe+Deeper",
+  "_decoded_content": {
+    "track": {
+      "name": "Breathe Deeper",
+      "url": "https:\/\/www.last.fm\/music\/Tame+Impala\/_\/Breathe+Deeper",
+      "duration": "372000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "482774",
+      "playcount": "4265216",
+      "artist": {
+        "name": "Tame Impala",
+        "mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+        "url": "https:\/\/www.last.fm\/music\/Tame+Impala"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Calme",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Calme",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bf1475ac0e5b740111773aa955e6d4d9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bf1475ac0e5b740111773aa955e6d4d9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bf1475ac0e5b740111773aa955e6d4d9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bf1475ac0e5b740111773aa955e6d4d9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "psychedelic pop",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+pop"
+          },
+          {
+            "name": "indietronica",
+            "url": "https:\/\/www.last.fm\/tag\/indietronica"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "boogie",
+            "url": "https:\/\/www.last.fm\/tag\/boogie"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Apr 2022, 20:55",
+        "summary": "On \u201cBreathe Deeper,\u201d Kevin considers stressful and negative situations, how deep breathing can help with staying calm and making it through the situation.\n\nThe track was first teased in Q Magazine with the description:\n\n\"An album track that sums up Kevin Parker\u2019s approach on the brilliant new Tame Impala, fusing spacey synths, throbbing house pianos and shuffling beats with the frontman\u2019s dreamy melodies.\"\n\nOn December 24th, 2019, news sources <a href=\"http:\/\/www.last.fm\/music\/Tame+Impala\/_\/Breathe+Deeper\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cBreathe Deeper,\u201d Kevin considers stressful and negative situations, how deep breathing can help with staying calm and making it through the situation.\n\nThe track was first teased in Q Magazine with the description:\n\n\"An album track that sums up Kevin Parker\u2019s approach on the brilliant new Tame Impala, fusing spacey synths, throbbing house pianos and shuffling beats with the frontman\u2019s dreamy melodies.\"\n\nOn December 24th, 2019, news sources began reporting that the track would be released later that week as the fourth single from the record. However, it was not, and \u201cLost In Yesterday\u201d ended up being the fourth single instead.\n\nOn Spotify, Kevin says this is the song most influenced by Mariah Carey, as well as The Neptunes and Pharrell. He also mentioned that he was also inspired by his first time on ecstasy.\n\nIn a February 2020 interview promoting the album with Zane Lowe, Kevin explained, \u201cI\u2019m most creative when I\u2019m uncomfortable. Like getting high in public.\u201d He explained that he did this and came up with the beginning of \u201cBreathe Deeper\u201d.\n\n\"First time. I need to be guided. Everything feels new. Like a single-cell organism granted one day as a human. We\u2019re all together. Why isn\u2019t it always like this?\" - via Apple Music\n\nTame Impala performed this song on Jimmy Kimmel Live in March 2020. <a href=\"http:\/\/www.last.fm\/music\/Tame+Impala\/_\/Breathe+Deeper\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

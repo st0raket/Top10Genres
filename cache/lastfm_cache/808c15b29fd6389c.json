@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:04.388703+00:00",
+  "elapsed": 0.182012,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:04.388703+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "12846",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Daft+Punk&format=json&method=track.getInfo&track=Get+Lucky"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Daft+Punk&format=json&method=track.getInfo&track=Get+Lucky",
+  "_decoded_content": {
+    "track": {
+      "name": "Get Lucky (feat. Pharrell Williams)",
+      "url": "https:\/\/www.last.fm\/music\/Daft+Punk\/_\/Get+Lucky+(feat.+Pharrell+Williams)",
+      "duration": "233000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "798637",
+      "playcount": "6986559",
+      "artist": {
+        "name": "Daft Punk",
+        "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+        "url": "https:\/\/www.last.fm\/music\/Daft+Punk"
+      },
+      "album": {
+        "artist": "Daft Punk",
+        "title": "Random Access Memories",
+        "url": "https:\/\/www.last.fm\/music\/Daft+Punk\/Random+Access+Memories",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/11dd7e48a1f042c688bf54985f01d088.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/11dd7e48a1f042c688bf54985f01d088.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/11dd7e48a1f042c688bf54985f01d088.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/11dd7e48a1f042c688bf54985f01d088.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jun 2013, 15:16",
+        "summary": "\u201cPharrell Williams sings on this tune, it was only natural to invite him on the album. It\u2019s a born entertainer, complete, who transpires elegance. He didn\u2019t always have the chance to show off his singing skills, and boy he can sing. We wanted to give the impression of being trapped in a glass bubble, completely isolated from the outside world. We could of been in 1978, but the idea was to get the music to travel the present time and also the future. <a href=\"http:\/\/www.last.fm\/music\/Daft+Punk\/_\/Get+Lucky+(feat.+Pharrell+Williams)\">Read more on Last.fm<\/a>.",
+        "content": "\u201cPharrell Williams sings on this tune, it was only natural to invite him on the album. It\u2019s a born entertainer, complete, who transpires elegance. He didn\u2019t always have the chance to show off his singing skills, and boy he can sing. We wanted to give the impression of being trapped in a glass bubble, completely isolated from the outside world. We could of been in 1978, but the idea was to get the music to travel the present time and also the future. See what happens and observe how this enthusiasm communicates with people.\u201d \u2014Daft Punk\n\n\n\"Get Lucky\" is a song by French house music duo Daft Punk, co-written by and featuring Pharrell Williams and Nile Rodgers. It is the lead single from Daft Punk's fourth studio album Random Access Memories. Before its release as a single, \"Get Lucky\" was featured in television advertisements broadcast during Saturday Night Live, after which Rodgers and Pharrell announced their involvement in the track. Small excerpts also appear throughout the promotional video series The Collaborators.\nMusically, \"Get Lucky\" is a disco and funk song while lyrically, according to Pharrell Williams, the song is about the fortune of finding chemistry with someone and not just about sexual chemistry. Following a leak days earlier, the single was released as a digital download on 19 April 2013. \"Get Lucky\" has since received acclaim from critics and was commercially successful, reaching the top ten in the music charts of over 28 countries.\n\n\"Get Lucky\" was completed over the course of approximately 18 months. Daft Punk first met Nile Rodgers at a listening party in New York for the duo's 1997 debut album Homework, and became friends thereafter. The duo acknowledged Chic's influence in the song \"Around the World\" and had great respect for Rodgers. He noted however that a series of near misses and scheduling conflicts had delayed their chance of collaborating. The duo eventually invited Rodgers to the Random Access Memories sessions at Electric Lady Studios in New York City. This coincidentally was the studio where the first Chic single had been recorded, in the neighborhood in which Rodgers grew up. Prior to Rodgers' involvement, the song existed in rough form that centered on Wurlitzer electric piano with Omar Hakim on drums and Nathan East performing bass guitar. Once Rodgers contributed his rhythm guitar work, Daft Punk re-recorded the bass part with East to fit Rodgers' performance.\nPharrell Williams had first heard from Daft Punk about the project \"at a Madonna party\" they were attending, and offered his services for a collaboration. The duo and Pharrell later met up in Paris, where he showed some of his own material he had been working on. Pharrell explained that he had been inspired by Rodgers, not knowing that Daft Punk had coincidentally been recording with him. Pharrell noted that the duo took a perfectionist approach in recording the vocals, as he was asked to perform several takes and multiple instances of specific phrases. Upon returning to the United States, Pharrell had \"forgotten everything\" regarding the composition of \"Get Lucky\"; he attributed this to jet lag, but jokingly wondered if the duo had tampered with his memory. Daft Punk responded by explaining that Pharrell's lyrics and performance had come about in a very spontaneous way, which was the likely reason he had trouble recalling the song. Upon hearing \"Get Lucky\" later in developed form, Pharrell remarked that the music evoked the sense of being on an exotic island during a \"peachy color[ed]\" sunrise. He elaborated that the title does not simply refer to a sexual act, but to the fortune of meeting with and immediately connecting to someone. As a member of The Neptunes, Pharrell had previously provided a remix of \"Harder, Better, Faster, Stronger\" that appeared in the 2003 album Daft Club. Daft Punk had also served as co-writers and producers for the 2010 single \"Hypnotize U\" by N.E.R.D, Pharrell's band.\n\n\"Get Lucky\" was first publicly revealed via two 15-second television advertisements on Saturday Night Live. Rodgers announced his contribution to the song shortly afterward, and noted that various fan remixes of the clips have appeared online since the airing. The third trailer, which was shown at the Coachella Festival, officially announced Pharrell's involvement in the song and features Daft Punk, Rodgers, and Pharrell performing together. The promotional web series The Collaborators featured excerpts of \"Get Lucky\", culminating in the Pharrell-focused episode in which the song was first referred to by name. Days prior to the single release, the song had been leaked and broadcasted on various radio stations. In the United Kingdom the song joined the playlists of BBC Radio 1, BBC Radio 2 and BBC Radio 6 Music. Upon the official release, Pharrell performed \"Get Lucky\" live for the first time at an HTC One launch party in Brooklyn. British band Daughter recorded an indie version of the song for BBC Radio 1's Live Lounge. The song was also covered by George Barnett, Postmen, Igor Presnyakov, The Stepkids and Sam Sparro. Peter Serafinowicz uploaded a video of him featuring the song.[22] Israeli musician Noy Alooshe made a mashup of the song with Michael Jackson's \"Billie Jean\".[19] Australian band San Cisco recorded a cover version for the radio station Triple J, incorporating slap bass and bongo drums as well as elements of the N.E.R.D song \"Hypnotize U\". A 12\" Vinyl single is expected to be released on July 16, 2013, featuring a remix by Daft Punk, the album version and the radio edit.\n\nIn France, \"Get Lucky\" debuted at number one on the French Singles Chart on 24 April 2013, becoming the duo's first chart-topping single in their home country since \"One More Time\". The song sold 38,887 copies in three days, making \"Get Lucky\" the best-selling digital single in a one-week period. In Belgium, where two independent official charts are published weekly (one for Flanders, one for Wallonia), \"Get Lucky\" entered in the top position on both charts, making it Daft Punk's highest Belgian chart entry ever and their first No. 1 song in the country.\nIn the United Kingdom, \"Get Lucky\" entered the UK Singles Chart at No. 3 on 21 April 2013\u2015 only 48 hours after its release\u2014selling more than 50,000 copies; the song became Daft Punk's first top ten hit in the country since \"One More Time\" in 2000. The song then peaked at No. 1 the following week, with sales of over 155,000 copies, and became Daft Punk's first ever No. 1 single in Britain. The song remained in the top position during the following week and sales reached 163,000. \"Get Lucky\" remained atop the chart for a fourth consecutive week and once again sold over 100,000 copies; as of 19 May 2013, over 600,000 copies of the song were sold in just over four weeks. According to a report from the Official Charts Company on 22 May 2013, sales of \"Get Lucky\" are higher than those of Macklemore and Ryan Lewis' \"Thrift Shop\", making it the country's best-selling single of the year thus far.\nIn the United States, the song debuted at No. 5 on the Billboard Dance\/Electronic Songs chart for the week ending 4 May 2013. By the week ending 25 May, the song had reached the No. 2 position and its peak position of No. 1 was eventually reached during the week ending 1 June 2013. The song debuted at No. 19 on the Billboard Hot 100 on the 24 April 2013, selling 113,000 downloads\u2014this placement resulted in the song becoming the duo's first ever top 40 hit on the chart. On the 30 May, the song climbed to No. 4 on the chart, making it the biggest hit Williams has been involved with since the 2006 No. 1 hit \"Money Maker\" that was recorded with Ludacris. As of 5 June 2013 \"Get Lucky\" has peaked at No. 3 on the Billboard Hot 100. \"Get Lucky\" also reached the No. 1 position on the Hot Dance Club Songs chart, their first song to achieve this feat since \"Face to Face\" in 2004. By May 2013, 350,000 downloads of the song had been sold in the US. As of 12 June 2013, the song has sold 1,030,000 units, the second most by any Daft Punk song, behind only their hit \"One More Time\".\nIn Australia, \"Get Lucky\" debuted at No. 2 on the ARIA Singles Chart on the week ending 5 May 2013. The song is Daft Punk's highest-placing entry on the chart since \"One More Time\" peaked at No. 10 in April 2001. The song attained the top position on the ARIA chart in the second week after its release. The song dropped back down to No. 2 on the week ending 19 May and remained at the position for two extra weeks.\n\nSince its release, \"Get Lucky\" has received acclaim from media outlets and music critics. Michael Cragg from The Guardian said the song \"eschews the crunching electronics of their last album and the vocoder-lead [sic] future-disco of Discovery\", and it was the \"best thing Pharrell Williams has been involved with for a long time\". Pitchfork listed \"Get Lucky\" as a Best New Track, stating that the song's \"real elegance lies in the hands of Nile Rodgers\". Lewis Corner from Digital Spy gave the single 5 stars and said although Daft Punk's \"creative methods may be unorthodox, the final result is a legal rush we can all enjoy\". BBC Radio 1 host Annie Mac played \"Get Lucky\" on the day of its release, and gave it a positive review. She remarked that Daft Punk are not making electronic dance music, but rather \"real music to dance to\". Music critic Sasha Frere-Jones of The New Yorker wrote that Rodgers' performance in the song was \"as close to magic as pop comes.\" Rolling Stone reviewer Will Hermes giving the song a four-star rating out of five, described it as \"an old-school disco jam\" and called it \"formidable\". Amy Sciarretto of PopCrush also welcomed the song, she called it an \"intoxicating track\" and wrote it \"represents all that\u2019s right with electronic music.\"\nThe song broke records with the highest number of plays of any song in a single day on music streaming application Spotify. British journalist Caitlin Moran has speculated that the song's attractiveness is due to its combination of minor chords and regular disco-type \"up\" beats throughout the song, with the former creating an unresolved feeling.\nFellow musicians have also publicly commented on the song. British DJ and producer Norman Cook (better known as \"Fatboy Slim\") expressed high praise for the song and stated in an interview with the Daily Star: \"I'm so impressed by them. It's a breath of fresh old-skool air\". Cook had felt that recent popular electronic dance music had started to become bland and that \"Daft Punk have given us [electronic musicians] all a kick up the arse.\"\n\n <a href=\"http:\/\/www.last.fm\/music\/Daft+Punk\/_\/Get+Lucky+(feat.+Pharrell+Williams)\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

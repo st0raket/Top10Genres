@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:15.884050+00:00",
+  "elapsed": 0.30229,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:15.884050+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2459",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=Body+Paint"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Arctic+Monkeys&format=json&method=track.getInfo&track=Body+Paint",
+  "_decoded_content": {
+    "track": {
+      "name": "Body Paint",
+      "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/Body+Paint",
+      "duration": "290000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "354221",
+      "playcount": "3745766",
+      "artist": {
+        "name": "Arctic Monkeys",
+        "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys"
+      },
+      "album": {
+        "artist": "Arctic Monkeys",
+        "title": "The Car",
+        "url": "https:\/\/www.last.fm\/music\/Arctic+Monkeys\/The+Car",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/69c2e238f63d5aa2d62181d5b74f34a0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "baroque pop",
+            "url": "https:\/\/www.last.fm\/tag\/baroque+pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Sep 2022, 20:09",
+        "summary": "\"Body Paint\" first premiered on BBC Radio 1\u2019s \u2018Future Sounds\u2019 program on September 29, 2022, the track serves as the second single from the band\u2019s seventh LP \"The Car\".\n\nThe song had previously made its live debut on September 22, 2022 during the band\u2019s performance at Kings Theatre in Brooklyn, NY.\n\nSome Arctic Monkeys fans have regarded this track to be their best since \"AM\", according to a Yahoo! News article. <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/Body+Paint\">Read more on Last.fm<\/a>.",
+        "content": "\"Body Paint\" first premiered on BBC Radio 1\u2019s \u2018Future Sounds\u2019 program on September 29, 2022, the track serves as the second single from the band\u2019s seventh LP \"The Car\".\n\nThe song had previously made its live debut on September 22, 2022 during the band\u2019s performance at Kings Theatre in Brooklyn, NY.\n\nSome Arctic Monkeys fans have regarded this track to be their best since \"AM\", according to a Yahoo! News article. <a href=\"http:\/\/www.last.fm\/music\/Arctic+Monkeys\/_\/Body+Paint\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

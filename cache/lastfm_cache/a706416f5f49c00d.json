@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:27.949070+00:00",
+  "elapsed": 0.178889,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:27.949070+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2677",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=imase&format=json&method=track.getInfo&track=NIGHT+DANCER"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=imase&format=json&method=track.getInfo&track=NIGHT+DANCER",
+  "_decoded_content": {
+    "track": {
+      "name": "Night Dancer",
+      "url": "https:\/\/www.last.fm\/music\/imase\/_\/Night+Dancer",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "261190",
+      "playcount": "2748825",
+      "artist": {
+        "name": "imase",
+        "url": "https:\/\/www.last.fm\/music\/imase"
+      },
+      "album": {
+        "artist": "imase",
+        "title": "NIGHT DANCER - Single",
+        "url": "https:\/\/www.last.fm\/music\/imase\/NIGHT+DANCER+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/935fc0da397bb9099df6445a76557c09.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/935fc0da397bb9099df6445a76557c09.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/935fc0da397bb9099df6445a76557c09.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/935fc0da397bb9099df6445a76557c09.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "vocal",
+            "url": "https:\/\/www.last.fm\/tag\/vocal"
+          },
+          {
+            "name": "happy",
+            "url": "https:\/\/www.last.fm\/tag\/happy"
+          },
+          {
+            "name": "Bittersweet",
+            "url": "https:\/\/www.last.fm\/tag\/Bittersweet"
+          },
+          {
+            "name": "fav",
+            "url": "https:\/\/www.last.fm\/tag\/fav"
+          },
+          {
+            "name": "Playful",
+            "url": "https:\/\/www.last.fm\/tag\/Playful"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Jun 2023, 03:28",
+        "summary": "\u201cNIGHT DANCER\u201d is a song from Japan singer-songwriter \u200bimase with a strong focus on the theme of enjoying the present moment and creating lasting memories with a loved one. The lyrics express the speaker\u2019s desire for their partner\u2019s love and attention, while the composition captures the excitement of dancing and being together.\n\nFollowing a catchy melody and upbeat rhythm, the song received commercial success after several months of release, having received over 50M streams on both Spotify and YouTube and over 98K TikTok videos. <a href=\"http:\/\/www.last.fm\/music\/imase\/_\/Night+Dancer\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNIGHT DANCER\u201d is a song from Japan singer-songwriter \u200bimase with a strong focus on the theme of enjoying the present moment and creating lasting memories with a loved one. The lyrics express the speaker\u2019s desire for their partner\u2019s love and attention, while the composition captures the excitement of dancing and being together.\n\nFollowing a catchy melody and upbeat rhythm, the song received commercial success after several months of release, having received over 50M streams on both Spotify and YouTube and over 98K TikTok videos. The song also charted in many country\u2019s Spotify viral charts, including Taiwan, Thailand, Malaysia and more. <a href=\"http:\/\/www.last.fm\/music\/imase\/_\/Night+Dancer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

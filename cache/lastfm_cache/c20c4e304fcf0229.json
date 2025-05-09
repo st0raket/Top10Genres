@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:33:02.572377+00:00",
+  "elapsed": 0.17864,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:02.572377+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1151",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Soli%C3%A1"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Soli%C3%A1",
+  "_decoded_content": {
+    "track": {
+      "name": "Soli\u00e1",
+      "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Soli%C3%A1",
+      "duration": "159000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "148830",
+      "playcount": "1671900",
+      "artist": {
+        "name": "Bad Bunny",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny"
+      },
+      "album": {
+        "artist": "Bad Bunny",
+        "title": "YHLQMDLG",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/YHLQMDLG",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/efc8997d8dbcf97f677ffb9374160a44.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/efc8997d8dbcf97f677ffb9374160a44.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/efc8997d8dbcf97f677ffb9374160a44.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/efc8997d8dbcf97f677ffb9374160a44.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      }
+    }
+  }
+}

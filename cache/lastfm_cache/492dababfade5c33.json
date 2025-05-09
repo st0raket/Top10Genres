@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:42.953671+00:00",
+  "elapsed": 0.181202,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:42.953671+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2868",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Changes"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lauv&format=json&method=track.getInfo&track=Changes",
+  "_decoded_content": {
+    "track": {
+      "name": "Changes",
+      "url": "https:\/\/www.last.fm\/music\/Lauv\/_\/Changes",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "83496",
+      "playcount": "573438",
+      "artist": {
+        "name": "Lauv",
+        "url": "https:\/\/www.last.fm\/music\/Lauv"
+      },
+      "album": {
+        "artist": "Lauv",
+        "title": "~how i'm feeling~",
+        "url": "https:\/\/www.last.fm\/music\/Lauv\/~how+i%27m+feeling~",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fff716db0b935ab873c03e7b95fca9e3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "hairy chest",
+            "url": "https:\/\/www.last.fm\/tag\/hairy+chest"
+          },
+          {
+            "name": "hunks",
+            "url": "https:\/\/www.last.fm\/tag\/hunks"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jan 2022, 20:12",
+        "summary": "\u201cChanges\u201d is the eighth release of Lauv\u2019s studio album \"~how i\u2019m feeling~\" and talks about changing yourself for the better.\n\nThe song was teased on Lauv\u2019s Twitter and Instagram on December 27, 2019. One day before its release, Lauv said:\n\n\"2020 is about changing for the better so i made a song about it.\"\n\nIn an interview with Apple Music\u2019s Beats 1, Lauv said:\n\n\"'The funny thing about the song is I actually started it about a year ago when I was honestly experiencing the worst time of my life. <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Changes\">Read more on Last.fm<\/a>.",
+        "content": "\u201cChanges\u201d is the eighth release of Lauv\u2019s studio album \"~how i\u2019m feeling~\" and talks about changing yourself for the better.\n\nThe song was teased on Lauv\u2019s Twitter and Instagram on December 27, 2019. One day before its release, Lauv said:\n\n\"2020 is about changing for the better so i made a song about it.\"\n\nIn an interview with Apple Music\u2019s Beats 1, Lauv said:\n\n\"'The funny thing about the song is I actually started it about a year ago when I was honestly experiencing the worst time of my life. Like, I was just in a really low place, but the song, it\u2019s called \u201cChanges\u201d and it\u2019s about needing to change things in your life in order to be happy again and to get to a good place. It kinda took me a while, you know, this year\u2019s been a crazy journey for me mentally and emotionally, and it took me, like, up until now to, like, fully finish it and to have the perspective.'\" <a href=\"http:\/\/www.last.fm\/music\/Lauv\/_\/Changes\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

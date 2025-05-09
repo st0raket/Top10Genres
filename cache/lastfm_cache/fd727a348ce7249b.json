@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:30.189277+00:00",
+  "elapsed": 0.187517,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:30.187558+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3311",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Chainsmokers&format=json&method=track.getInfo&track=Everybody+Hates+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Chainsmokers&format=json&method=track.getInfo&track=Everybody+Hates+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Everybody Hates Me",
+      "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Everybody+Hates+Me",
+      "duration": "224000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "88068",
+      "playcount": "630796",
+      "artist": {
+        "name": "The Chainsmokers",
+        "mbid": "91a81925-92f9-4fc9-b897-93cf01226282",
+        "url": "https:\/\/www.last.fm\/music\/The+Chainsmokers"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hit's Summer! 2018",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hit%27s+Summer%21+2018",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dff699205b4f06c4868a2cf1c2e2a3bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dff699205b4f06c4868a2cf1c2e2a3bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dff699205b4f06c4868a2cf1c2e2a3bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dff699205b4f06c4868a2cf1c2e2a3bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "Workout",
+            "url": "https:\/\/www.last.fm\/tag\/Workout"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jul 2022, 17:22",
+        "summary": "The Chainsmokers continue their rebrand with another brooding single, \u201cEverybody Hates Me.\u201d The song focuses on the ironic and somewhat contradictory aspects of being famous as Taggart, the duo\u2019s singer, laments feeling lonely and self-critical despite hordes of adoring fans. They began teasing the song in early March.\n\n\u201cEverybody Hates Me\u201d is a continuation of the theme established in the duo\u2019s 2018 releases, \u201cSick Boy\u201d and \u201cYou Owe Me <a href=\"http:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Everybody+Hates+Me\">Read more on Last.fm<\/a>.",
+        "content": "The Chainsmokers continue their rebrand with another brooding single, \u201cEverybody Hates Me.\u201d The song focuses on the ironic and somewhat contradictory aspects of being famous as Taggart, the duo\u2019s singer, laments feeling lonely and self-critical despite hordes of adoring fans. They began teasing the song in early March.\n\n\u201cEverybody Hates Me\u201d is a continuation of the theme established in the duo\u2019s 2018 releases, \u201cSick Boy\u201d and \u201cYou Owe Me,\u201d which tonally marks a significant shift from the group\u2019s previous string of hits that primarily focussed on love and relationships, including \u201cCloser,\u201d \u201cSomething Just Like This,\u201d and \u201cRoses.\u201d\n\nThe song, first played live on February 10, 2018, in Vienna\u2014the first stop on the duo\u2019s month-long tour of Europe in support of \"Memories\u2026Do Not Open\"\u2014was expected to drop during the first week of the duo\u2019s tour. However, the duo released \u201cYou Owe Me\u201d instead.\n\n\u201cEverybody Hates Me\u201d was released on March 16th 2018, and was officially announced one day after the duo won three awards at the iHeartRadio Music Awards.\n\nOn April 2nd 2018, they released the official video directed by Rory Kramer, the duo\u2019s good friend and tour photographer. <a href=\"http:\/\/www.last.fm\/music\/The+Chainsmokers\/_\/Everybody+Hates+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

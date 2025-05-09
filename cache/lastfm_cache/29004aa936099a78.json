@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:46.200909+00:00",
+  "elapsed": 0.184607,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:46.200909+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2934",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Intro%3A+Singularity"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Intro%3A+Singularity",
+  "_decoded_content": {
+    "track": {
+      "name": "Intro: Singularity",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Intro:+Singularity",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "319145",
+      "playcount": "12887679",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "album": {
+        "artist": "BTS",
+        "title": "Love Yourself Jeon 'Tear'",
+        "url": "https:\/\/www.last.fm\/music\/BTS\/Love+Yourself+Jeon+%27Tear%27",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bb5eaff922351139711aad37a865d951.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bb5eaff922351139711aad37a865d951.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bb5eaff922351139711aad37a865d951.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bb5eaff922351139711aad37a865d951.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Sep 2024, 17:26",
+        "summary": "\u201cIntro: Singularity\u201d was released as the comeback trailer for\u00a0BTS' LOVE YOURSELF \u8f49 'Tear' on May 7, 2018. \n\nPerformed by V, the song is an R&B slow jam featuring languid bass and a hypnotizing melody. The lyrics focus on entering the dreamlike landscape of a lake during winter as a metaphor for the main protagonist lamenting a strained relationship (with himself or a third party).\n\nThe word \u201csingularity\u201d has multiple interpretations, the <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Intro:+Singularity\">Read more on Last.fm<\/a>.",
+        "content": "\u201cIntro: Singularity\u201d was released as the comeback trailer for\u00a0BTS' LOVE YOURSELF \u8f49 'Tear' on May 7, 2018. \n\nPerformed by V, the song is an R&B slow jam featuring languid bass and a hypnotizing melody. The lyrics focus on entering the dreamlike landscape of a lake during winter as a metaphor for the main protagonist lamenting a strained relationship (with himself or a third party).\n\nThe word \u201csingularity\u201d has multiple interpretations, the most commonly adopted of which are either the state of being unique or alone in the universe (singular), or, in mathematics, a point at which \u201ca function takes an infinite value\u201d, usually with strange outcomes that warp the laws of physics and reality.\n\nAs the eighth track of CD A in their second compilation album LOVE YOURSELF \u7d50 'Answer'. The song also appears as the twelfth track on CD2 of\u00a0BTS's first anthology album\u00a0Proof.\n\nWas written and produced by\u00a0RM and Charlie J. Perry. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Intro:+Singularity\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

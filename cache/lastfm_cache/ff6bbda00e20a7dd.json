@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:19.138844+00:00",
+  "elapsed": 0.177385,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:19.138844+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2774",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DMX&format=json&method=track.getInfo&track=Party+Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=DMX&format=json&method=track.getInfo&track=Party+Up",
+  "_decoded_content": {
+    "track": {
+      "name": "Party Up",
+      "mbid": "7f4a7b9a-eaee-431d-8f99-81011b3a4253",
+      "url": "https:\/\/www.last.fm\/music\/DMX\/_\/Party+Up",
+      "duration": "274000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "437105",
+      "playcount": "1710297",
+      "artist": {
+        "name": "DMX",
+        "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+        "url": "https:\/\/www.last.fm\/music\/DMX"
+      },
+      "album": {
+        "artist": "DMX",
+        "title": "...And Then There Was X",
+        "mbid": "6e0de6ea-bf19-4d90-b97d-7ba8684de1b0",
+        "url": "https:\/\/www.last.fm\/music\/DMX\/...And+Then+There+Was+X",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ffa005c35e7f4708c7954dbe6d1bc76c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ffa005c35e7f4708c7954dbe6d1bc76c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ffa005c35e7f4708c7954dbe6d1bc76c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ffa005c35e7f4708c7954dbe6d1bc76c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "dmx",
+            "url": "https:\/\/www.last.fm\/tag\/dmx"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Aug 2023, 16:27",
+        "summary": "\"Party Up (Up in Here)\" is a song by American rapper DMX, released as the second single from his third album ... And Then There Was X (1999) and as of 2020 his most successful single (in the US). There are three versions of the song: an explicit\/album version; a censored album version, and a radio\/video edit version. It was nominated for the Grammy Award for Best Rap Solo Performance but lost to Eminem's \"The Real Slim Shady\". The song was voted number 56 on VH1's 100 Greatest Songs of the '00s. <a href=\"http:\/\/www.last.fm\/music\/DMX\/_\/Party+Up\">Read more on Last.fm<\/a>.",
+        "content": "\"Party Up (Up in Here)\" is a song by American rapper DMX, released as the second single from his third album ... And Then There Was X (1999) and as of 2020 his most successful single (in the US). There are three versions of the song: an explicit\/album version; a censored album version, and a radio\/video edit version. It was nominated for the Grammy Award for Best Rap Solo Performance but lost to Eminem's \"The Real Slim Shady\". The song was voted number 56 on VH1's 100 Greatest Songs of the '00s. It was listed at No. 388 on Rolling Stone's \"Top 500 Greatest Songs of All Time\" in 2021.\n\n(From: https:\/\/en.wikipedia.org\/wiki\/Party_Up_(Up_in_Here)) <a href=\"http:\/\/www.last.fm\/music\/DMX\/_\/Party+Up\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

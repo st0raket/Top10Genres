@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:55.457613+00:00",
+  "elapsed": 0.258289,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:55.457613+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3601",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Love+Somebody"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morgan+Wallen&format=json&method=track.getInfo&track=Love+Somebody",
+  "_decoded_content": {
+    "track": {
+      "name": "Love Somebody",
+      "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Love+Somebody",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "118651",
+      "playcount": "847078",
+      "artist": {
+        "name": "Morgan Wallen",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen"
+      },
+      "album": {
+        "artist": "Morgan Wallen",
+        "title": "Love Somebody",
+        "url": "https:\/\/www.last.fm\/music\/Morgan+Wallen\/Love+Somebody",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ec2fa3d2545dc8f772b30b48c2650eaa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ec2fa3d2545dc8f772b30b48c2650eaa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ec2fa3d2545dc8f772b30b48c2650eaa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ec2fa3d2545dc8f772b30b48c2650eaa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "linedance 2024",
+            "url": "https:\/\/www.last.fm\/tag\/linedance+2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Oct 2024, 23:24",
+        "summary": "\"Love Somebody\" is a song by country music singer Morgan Wallen. Released on October 18, the song debuted at #1 on the Billboard Hot 100, Wallen's third #1 song on the Hot 100, after Post Malone's \"I Had Some Help,\" featuring Wallen, which opened on top in May and reigned for six weeks, and \"Last Night\", which dominated for 16 weeks in 2023.\n\nReleased through Big Loud, Republic Records and Mercury Records, \"Love Somebody\" is the second single from Wallen's upcoming fourth studio album, and follows the lead single \"Lies Lies Lies\". <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Love+Somebody\">Read more on Last.fm<\/a>.",
+        "content": "\"Love Somebody\" is a song by country music singer Morgan Wallen. Released on October 18, the song debuted at #1 on the Billboard Hot 100, Wallen's third #1 song on the Hot 100, after Post Malone's \"I Had Some Help,\" featuring Wallen, which opened on top in May and reigned for six weeks, and \"Last Night\", which dominated for 16 weeks in 2023.\n\nReleased through Big Loud, Republic Records and Mercury Records, \"Love Somebody\" is the second single from Wallen's upcoming fourth studio album, and follows the lead single \"Lies Lies Lies\".\n\nWallen would share a first teaser of the song on May 16, 2024, featuring himself on a boat in Nashville, Tennessee captioned \"I feel like this one's gonna sound good on the boat\". While touring in Sweden in late August 2024, Wallen performed the full song for the first time during his tour stop in Stockholm as part of his One Night at a Time Tour. Another live performance includes a set with Hardy and Ernest at the T.J. Martell Foundation gala on September 17.\n\nOn September 16, he shared another snippet of the \"mid-tempo\" song about the theme of \"looking for love\", which was described as hopeful with an \"ounce of pain\", evoking feelings of \"betrayal and heartbreak\". Wallen also announced the song to be out \"soon\". During his homecoming show at Neyland Stadium in Knoxville, Tennessee on September 20, Wallen announced the song to be released on October 18. The artwork was revealed on October 7 and depicts a blurry shot of a beach at sunset. <a href=\"http:\/\/www.last.fm\/music\/Morgan+Wallen\/_\/Love+Somebody\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

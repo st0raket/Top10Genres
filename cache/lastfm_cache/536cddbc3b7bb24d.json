@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:16.422345+00:00",
+  "elapsed": 0.203817,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:16.422345+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3549",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Toosie+Slide"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=Toosie+Slide",
+  "_decoded_content": {
+    "track": {
+      "name": "Toosie Slide",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/Toosie+Slide",
+      "duration": "247000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "553153",
+      "playcount": "4966695",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "Toosie Slide",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/Toosie+Slide",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c5a21ae00cd5e5d53b402f250a5dc90f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c5a21ae00cd5e5d53b402f250a5dc90f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c5a21ae00cd5e5d53b402f250a5dc90f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c5a21ae00cd5e5d53b402f250a5dc90f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 May 2020, 06:27",
+        "summary": "\u201cToosie Slide\u201d marks Drake\u2019s first foray into dance records as he raps the instructions to the titular dance. He also boasts about his dancing skills and compares them to the legendary Michael Jackson.\n\nThe song and its accompanying dance are named after famed Atlanta choreographer Toosie, who on March 29\u2014five days before the song\u2019s release\u2014posted a video of him, along with other dancers Hiii Key, Ayo & Teo, doing the dance, which later went viral. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Toosie+Slide\">Read more on Last.fm<\/a>.",
+        "content": "\u201cToosie Slide\u201d marks Drake\u2019s first foray into dance records as he raps the instructions to the titular dance. He also boasts about his dancing skills and compares them to the legendary Michael Jackson.\n\nThe song and its accompanying dance are named after famed Atlanta choreographer Toosie, who on March 29\u2014five days before the song\u2019s release\u2014posted a video of him, along with other dancers Hiii Key, Ayo & Teo, doing the dance, which later went viral.\n\nIn an interview with GQ a day before the song was released, Toosie spoke on how the song and it\u2019s dance came about:\n\n\u201c[Drake] had a record idea and needed me to come up with a dance to it. Everybody was contributing little moves, and slowly but surely, we started piecing it together. He went back and finished the song after we sent him the dance. Then he called me, and he was like \u201cYo, everybody is in love with the dance. Everybody\u2019s been doing it. We\u2019re all calling it the Toosie Slide right now. It\u2019s sticking and we might just call the song that.\u201d Later on, he let me know he was officially going to name the song \u201cToosie Slide.\u201d I was in shock. I couldn\u2019t even believe it.\u201d\n\nThe single is Drake\u2019s first official release on all streaming platforms and third release overall in 2020, following the Future-assisted \u201cDesires,\u201d which was released in January, and \u201cChicago Freestyle\u201d and \u201cWhen to Say When\u201d\u2014both which were released four weeks prior to this song. \u201cToosie Slide,\u201d along with the three other songs were later placed on Drake\u2019s fifth mixtape, Dark Lane Demo Tapes. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/Toosie+Slide\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

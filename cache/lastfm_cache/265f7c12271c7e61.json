@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:51.356050+00:00",
+  "elapsed": 0.175167,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:51.356050+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2994",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ava+Max&format=json&method=track.getInfo&track=Million+Dollar+Baby"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ava+Max&format=json&method=track.getInfo&track=Million+Dollar+Baby",
+  "_decoded_content": {
+    "track": {
+      "name": "Million Dollar Baby",
+      "url": "https:\/\/www.last.fm\/music\/Ava+Max\/_\/Million+Dollar+Baby",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "137375",
+      "playcount": "1933849",
+      "artist": {
+        "name": "Ava Max",
+        "url": "https:\/\/www.last.fm\/music\/Ava+Max"
+      },
+      "album": {
+        "artist": "Ava Max",
+        "title": "Million Dollar Baby",
+        "url": "https:\/\/www.last.fm\/music\/Ava+Max\/Million+Dollar+Baby",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e22bde9bf7046dafdae52f582b83ea2a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e22bde9bf7046dafdae52f582b83ea2a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e22bde9bf7046dafdae52f582b83ea2a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e22bde9bf7046dafdae52f582b83ea2a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Sep 2022, 23:35",
+        "summary": "\"Million Dollar Baby\" is the second single and the first track from Ava Max\u2019s second studio album, \u201cDiamonds & Dancefloors\u201d. The song was released 1 September 2022 after weeks of teasing the song on Tik Tok. The track samples the 2000s hit song, Can\u2019t Fight The Moonlight, by LeAnn Rimes. It is a eurodance pop fusion, produced by David Stewart, Cirkut and Lostboy. \n\nWhen Ava was creating this song, she was going through a very difficult time in her life\u2014a broken heart and a lot of sadness. <a href=\"http:\/\/www.last.fm\/music\/Ava+Max\/_\/Million+Dollar+Baby\">Read more on Last.fm<\/a>.",
+        "content": "\"Million Dollar Baby\" is the second single and the first track from Ava Max\u2019s second studio album, \u201cDiamonds & Dancefloors\u201d. The song was released 1 September 2022 after weeks of teasing the song on Tik Tok. The track samples the 2000s hit song, Can\u2019t Fight The Moonlight, by LeAnn Rimes. It is a eurodance pop fusion, produced by David Stewart, Cirkut and Lostboy. \n\nWhen Ava was creating this song, she was going through a very difficult time in her life\u2014a broken heart and a lot of sadness. Ava was named \u2018Million Dollar Baby\u2019, because for her the song is for remember her self-esteem and she wrote the lyrics to show that you can overcome and anything when dedicated to it.\n\nThe song was sent to US AC radio on October 31, 2022 and to US Contemporary Hit radio on November 1, 2022. While it has not yet made it's way onto the US Billboard Hot 100, it reached the top 10 in 6 countries, Bulgaria, Russia, Germany, Ukraine, Croatia, and Finland. <a href=\"http:\/\/www.last.fm\/music\/Ava+Max\/_\/Million+Dollar+Baby\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

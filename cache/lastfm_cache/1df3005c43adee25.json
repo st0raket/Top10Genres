@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:44:12.135999+00:00",
+  "elapsed": 0.285293,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:12.135999+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1231",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bazzi&format=json&method=track.getInfo&track=No+Way%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bazzi&format=json&method=track.getInfo&track=No+Way%21",
+  "_decoded_content": {
+    "track": {
+      "name": "No Way!",
+      "url": "https:\/\/www.last.fm\/music\/bazzi\/_\/No+Way%21",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62742",
+      "playcount": "335073",
+      "artist": {
+        "name": "bazzi",
+        "url": "https:\/\/www.last.fm\/music\/bazzi"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "09 Mar 2022, 04:13",
+        "summary": "\u201cNo Way!\u201d is the third track from Bazzi\u2019s first mixtape \"Soul Searching\". Written by the American artist himself, in this track Bazzi talks about how much his life have changed since being in the music industry. He states that from now on he keeps moving forward and that there\u2019s nothing holding him back. <a href=\"http:\/\/www.last.fm\/music\/bazzi\/_\/No+Way%21\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNo Way!\u201d is the third track from Bazzi\u2019s first mixtape \"Soul Searching\". Written by the American artist himself, in this track Bazzi talks about how much his life have changed since being in the music industry. He states that from now on he keeps moving forward and that there\u2019s nothing holding him back. <a href=\"http:\/\/www.last.fm\/music\/bazzi\/_\/No+Way%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

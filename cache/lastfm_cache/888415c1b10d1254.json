@@ -1,0 +1,85 @@
+{
+  "created_at": "2025-05-03T14:43:13.293487+00:00",
+  "elapsed": 0.296864,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:13.293487+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4201",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Copa+Vac%C3%ADa"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Copa+Vac%C3%ADa",
+  "_decoded_content": {
+    "track": {
+      "name": "Copa Vac\u00eda",
+      "url": "https:\/\/www.last.fm\/music\/Shakira\/_\/Copa+Vac%C3%ADa",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "70632",
+      "playcount": "487518",
+      "artist": {
+        "name": "Shakira",
+        "mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+        "url": "https:\/\/www.last.fm\/music\/Shakira"
+      },
+      "album": {
+        "artist": "Shakira",
+        "title": "Copa Vac\u00eda",
+        "url": "https:\/\/www.last.fm\/music\/Shakira\/Copa+Vac%C3%ADa",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ab642b41ef2778d5574a6ab4e50b297e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ab642b41ef2778d5574a6ab4e50b297e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ab642b41ef2778d5574a6ab4e50b297e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ab642b41ef2778d5574a6ab4e50b297e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Sep 2023, 22:58",
+        "summary": "\"Copa Vac\u00eda\" (English: \"Empty Cup\") is a song by Colombian singers Shakira and Manuel Turizo. The song was released on June 29, 2023, through Sony Music Latin, as the fourth single from the former's twelfth studio album.\n\nFollowing the release of \"Shakira: Bzrp Music Sessions, Vol. 53\" with Bizarrap and \"TQG\" with Karol G, Shakira confirmed that she had a song with Manuel Turizo titled \"Copa Vac\u00eda\", set to be released later in 2023. Several weeks later, images of the music video began to leak. <a href=\"http:\/\/www.last.fm\/music\/Shakira\/_\/Copa+Vac%C3%ADa\">Read more on Last.fm<\/a>.",
+        "content": "\"Copa Vac\u00eda\" (English: \"Empty Cup\") is a song by Colombian singers Shakira and Manuel Turizo. The song was released on June 29, 2023, through Sony Music Latin, as the fourth single from the former's twelfth studio album.\n\nFollowing the release of \"Shakira: Bzrp Music Sessions, Vol. 53\" with Bizarrap and \"TQG\" with Karol G, Shakira confirmed that she had a song with Manuel Turizo titled \"Copa Vac\u00eda\", set to be released later in 2023. Several weeks later, images of the music video began to leak. Rumors started circulating that the song would be released soon and it was expected that it would be in April 2023, since Manuel Turizo has his birthday in that month. However, due to the massive leaks, the song was not released then. Plans were eventually scrapped in favor of the release of Shakira's single \"Acr\u00f3stico\" on May 12, 2023.\n\nOn June 9, 2023, the singer shared a photo of herself as a mermaid on her social media that says \"You want thingamabobs? I got twenty...\". On June 15, she shared a new preview of the song.\n\nThe single was announced on June 19, scheduled to be released on June 29, 2023. She also announced that the duo \"made a movie\", referring to the music video.\n\nOn June 28, just one day before its release, he publishes a preview of the song's video, and in it you can see a partially sunny day in a sea where Manuel Turizo submerges in the water and Shakira is found swimming like mermaid and takes her out of the water and they stay on a seashore. Also in another part of that video you can see Shakira sirena tied up as it appears on the cover.\n\nThe official music video was released simultaneously with the single on June 29, 2023. Its premiere establishment had been scheduled a few hours before. In the video, we can see Shakira dressed as a mermaid with pink hair. At the beginning, the singer is seen lying on the shore of a sea full of garbage and singing. Later, we see Manuel Turizo who submerges himself in the sea water and meets a mermaid and takes her out of the sea water and takes her with him. Throughout the video, Manuel Turizo is seen singing in a chair in a shelter next to Shakira, who has her in a fish tank. Later, Shakira and Manuel Turizo can be seen singing in a cave and dancing. At the end of the video, Shakira is seen as she appears on the cover of the song, dressed as a mermaid and tied by her hands. <a href=\"http:\/\/www.last.fm\/music\/Shakira\/_\/Copa+Vac%C3%ADa\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

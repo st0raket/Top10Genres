@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:53.482984+00:00",
+  "elapsed": 0.230747,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:53.482984+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3771",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=BIGGER"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=BIGGER",
+  "_decoded_content": {
+    "track": {
+      "name": "BIGGER",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/BIGGER",
+      "duration": "226000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "96702",
+      "playcount": "1054940",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "album": {
+        "artist": "Beyonc\u00e9",
+        "title": "The Lion King: The Gift [Deluxe Edition]",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/The+Lion+King:+The+Gift+%5BDeluxe+Edition%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f946fbc9a4c2676e7eb0f24e3867b2c0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f946fbc9a4c2676e7eb0f24e3867b2c0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f946fbc9a4c2676e7eb0f24e3867b2c0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f946fbc9a4c2676e7eb0f24e3867b2c0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Dec 2023, 14:44",
+        "summary": "\u201cBIGGER\u201c is a song by American singer Beyonc\u00e9 from the 2019 album The Lion King: The Gift and featured in the 2020 film Black Is King.\n\nThe song was penned at a writing camp at Beyonc\u00e9's studio and was created due to a bond with British singer-songwriter Raye and US songwriter Stacy Barthe. Raye told BBC Newsbeat: \"I remember we were both in a really dark, sad place and we wanted to create something to empower ourselves. We spent maybe two or three hours on it. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/BIGGER\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBIGGER\u201c is a song by American singer Beyonc\u00e9 from the 2019 album The Lion King: The Gift and featured in the 2020 film Black Is King.\n\nThe song was penned at a writing camp at Beyonc\u00e9's studio and was created due to a bond with British singer-songwriter Raye and US songwriter Stacy Barthe. Raye told BBC Newsbeat: \"I remember we were both in a really dark, sad place and we wanted to create something to empower ourselves. We spent maybe two or three hours on it. It was 3 a.m. and I remember Beyonc\u00e9's team came in and heard what we'd created so far and just completely freaked out. It was incredible.\" Raye also told Official Charts: \"I wrote a lot of songs - I put a shift in. But Beyonc\u00e9 fell in love with Bigger.\" Beyonc\u00e9 informed Raye that \"Bigger\" would be the first song on the album at the 2019 The Lion King European premiere, and her reaction, as caught on video, went viral. Raye tweeted \"Beyonc\u00e9 told me I\u2019ve written Track 1 on the new album ... it\u2019s called Bigger . I can\u2019t I can\u2019t.\"\n\n\"Bigger\" is preceded by \"Balance\", a Mufasa interlude voiced by James Earl Jones, which samples his \"Circle of Life\" speech from the 2019 film. The two tracks segue into each other. Dazed described this shift as \"tying in nicely with the track\u2019s lyrics.\" According to The Atlantic, \"Bigger\" has an overarching theme of \"royal succession\" as well as an undercurrent exploration of the \"ecological and existential\" aspects of the \"Circle of Life.\" Matzav Review described \"Bigger\" as an \"ode to the natural riches of the African continent\" whilst also serving as a tribute to Beyonc\u00e9's children, showing them the paraphrased \"power of collective knowledge.\" <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/BIGGER\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

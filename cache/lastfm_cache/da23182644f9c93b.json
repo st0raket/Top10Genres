@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:01.216269+00:00",
+  "elapsed": 0.190958,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:01.216269+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3859",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Out+of+Time"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Out+of+Time",
+  "_decoded_content": {
+    "track": {
+      "name": "Out Of Time",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Out+Of+Time",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "802389",
+      "playcount": "13029531",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "city pop",
+            "url": "https:\/\/www.last.fm\/tag\/city+pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "vaporwave",
+            "url": "https:\/\/www.last.fm\/tag\/vaporwave"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Jan 2022, 17:53",
+        "summary": "\u201dOut of Time\u201d is a song by Canadian singer The Weeknd. It was released to American urban adult contemporary radio through XO and Republic Records on January 25, 2022, as the third single from his fifth studio album Dawn FM. The song was written and produced by the Weeknd and Oneohtrix Point Never; with Tomoko Aran and Tetsur\u014d Oda receiving songwriting credits for the sampling of Aran's 1983 song \"Midnight Pretenders\". Max Martin and Oscar Holter received additional production credits. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Out+Of+Time\">Read more on Last.fm<\/a>.",
+        "content": "\u201dOut of Time\u201d is a song by Canadian singer The Weeknd. It was released to American urban adult contemporary radio through XO and Republic Records on January 25, 2022, as the third single from his fifth studio album Dawn FM. The song was written and produced by the Weeknd and Oneohtrix Point Never; with Tomoko Aran and Tetsur\u014d Oda receiving songwriting credits for the sampling of Aran's 1983 song \"Midnight Pretenders\". Max Martin and Oscar Holter received additional production credits. The track also features additional vocals by Jim Carrey, who provides narration throughout the album. On the track, Abel realizes the mistakes he made in his relationship and croons for a second chance on this sleek, sensual-sounding cut. After teasing stills of the music video on Twitter, the video was released on April 6, 2022, featuring actors Jim Carrey and Hoyeon.\n\n\"Out of Time\" was released on January 7, 2022, alongside its parent album. The song has been described by critics as an R&B and city pop ballad with elements of boogie. The song is written in the key of C minor with a tempo of 93 beats per minute. Lyrically, the song details how the Weeknd's trauma from past relationships has negatively affected his ability to fix the romantic relationship he had with his former partner.\n\nThe music video for \"Out of Time\" was released on April 5, 2022. Directed by Cliqua, it features actress and model HoYeon Jung. In the video, The Weeknd and Jung meet in an empty hotel and quickly bond over singing the song at a karaoke box. They steal the karaoke machine and frolic around the hotel drinking, dancing, and singing the song in shots that pay homage to scenes from Sofia Coppola\u2019s Lost In Translation. Towards the end, however, an older version of Abel tries to reach out to his present self, before the video transitions to the older Abel's point of view in a surgery room, where Jim Carrey, narrating the final lines, puts a mask on him.\n\n\"Out of Time\" received acclaim from critics for the song's production and the Weeknd's vocals. Heran Mamo of Billboard named the track as the second-best song from the album, highlighting \"The swirling flute and shimmering production feels like he\u2019s in a fairytale where he can turn back time with just the snap of his fingers\". A New University review called the song \u201cone of the album\u2019s masterpieces\u201d. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Out+Of+Time\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

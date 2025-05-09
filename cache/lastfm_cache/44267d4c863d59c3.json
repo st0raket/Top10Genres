@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:29:49.290864+00:00",
+  "elapsed": 0.224893,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:49.290864+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1273",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Backstreet+Boys&format=json&method=track.getInfo&track=Don%27t+Go+Breaking+My+Heart"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Backstreet+Boys&format=json&method=track.getInfo&track=Don%27t+Go+Breaking+My+Heart",
+  "_decoded_content": {
+    "track": {
+      "name": "Don't Go Breaking My Heart",
+      "url": "https:\/\/www.last.fm\/music\/Backstreet+Boys\/_\/Don%27t+Go+Breaking+My+Heart",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "58569",
+      "playcount": "424969",
+      "artist": {
+        "name": "Backstreet Boys",
+        "mbid": "2f569e60-0a1b-4fb9-95a4-3dc1525d1aad",
+        "url": "https:\/\/www.last.fm\/music\/Backstreet+Boys"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music, Vol. 67",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music,+Vol.+67",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "BSB",
+            "url": "https:\/\/www.last.fm\/tag\/BSB"
+          },
+          {
+            "name": "electro",
+            "url": "https:\/\/www.last.fm\/tag\/electro"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      }
+    }
+  }
+}

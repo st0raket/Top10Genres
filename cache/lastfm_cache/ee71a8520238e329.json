@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:27.517842+00:00",
+  "elapsed": 0.218483,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:27.517842+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2633",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=NBAYOUNGBOAT"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Yachty&format=json&method=track.getInfo&track=NBAYOUNGBOAT",
+  "_decoded_content": {
+    "track": {
+      "name": "NBAYOUNGBOAT",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Yachty\/_\/NBAYOUNGBOAT",
+      "duration": "140000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "280888",
+      "playcount": "3063630",
+      "artist": {
+        "name": "Lil Yachty",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Yachty"
+      },
+      "album": {
+        "artist": "Lil Yachty",
+        "title": "Lil Boat 2",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Yachty\/Lil+Boat+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7ed4f11b3f37fa8d23f856da4339e2cf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7ed4f11b3f37fa8d23f856da4339e2cf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7ed4f11b3f37fa8d23f856da4339e2cf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7ed4f11b3f37fa8d23f856da4339e2cf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Oct 2022, 15:16",
+        "summary": "Arguably the hardest track off \u201dLil Boat 2\u201d, \u201cNBAYOUNGBOAT\u201d marks the first collaboration between Yachty and YoungBoy Never Broke Again (formerly NBA YoungBoy), an up-and-coming rapper from Baton Rouge, Louisiana. The track sees Boat and YoungBoy detailing their lavish lifestyles, criminal activities and trap life, among other topics, all without a hook. The track features production from Yachty\u2019s friend and longtime collaborator Digital Nas. <a href=\"http:\/\/www.last.fm\/music\/Lil+Yachty\/_\/NBAYOUNGBOAT\">Read more on Last.fm<\/a>.",
+        "content": "Arguably the hardest track off \u201dLil Boat 2\u201d, \u201cNBAYOUNGBOAT\u201d marks the first collaboration between Yachty and YoungBoy Never Broke Again (formerly NBA YoungBoy), an up-and-coming rapper from Baton Rouge, Louisiana. The track sees Boat and YoungBoy detailing their lavish lifestyles, criminal activities and trap life, among other topics, all without a hook. The track features production from Yachty\u2019s friend and longtime collaborator Digital Nas.\n\nThe song\u2019s structure has been used before by Yachty on the A$AP Ferg assisted \u201cTerminator\u201d and on Tee Grizzley\u2019s \u201cFrom the D to the A\u201d.\n\nOn March 30, 2022, \u201cNBAYOUNGBOAT\u201d was certified platinum by the RIAA. <a href=\"http:\/\/www.last.fm\/music\/Lil+Yachty\/_\/NBAYOUNGBOAT\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

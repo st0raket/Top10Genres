@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-05-03T14:40:00.020473+00:00",
+  "elapsed": 0.316777,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:00.020473+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "396",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5utra&format=json&method=track.getInfo&track=%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D1%81%D0%B1%D0%B5%D0%B6%D0%B8%D0%BC+%28%D0%98%D1%81%D0%BA%D0%BE%D1%80%D0%BA%D0%B8%29"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5utra&format=json&method=track.getInfo&track=%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D1%81%D0%B1%D0%B5%D0%B6%D0%B8%D0%BC+%28%D0%98%D1%81%D0%BA%D0%BE%D1%80%D0%BA%D0%B8%29",
+  "_decoded_content": {
+    "track": {
+      "name": "\u0414\u0430\u0432\u0430\u0439 \u0441\u0431\u0435\u0436\u0438\u043c (\u0418\u0441\u043a\u043e\u0440\u043a\u0438)",
+      "url": "https:\/\/www.last.fm\/music\/5utra\/_\/%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D1%81%D0%B1%D0%B5%D0%B6%D0%B8%D0%BC+(%D0%98%D1%81%D0%BA%D0%BE%D1%80%D0%BA%D0%B8)",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "26",
+      "playcount": "334",
+      "artist": {
+        "name": "5utra",
+        "url": "https:\/\/www.last.fm\/music\/5utra"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

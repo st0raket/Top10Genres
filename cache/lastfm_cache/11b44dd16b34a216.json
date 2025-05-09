@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:37:56.838131+00:00",
+  "elapsed": 0.206941,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:56.838131+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2289",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Brent+Faiyaz&format=json&method=track.getInfo&track=ROLLING+STONE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Brent+Faiyaz&format=json&method=track.getInfo&track=ROLLING+STONE",
+  "_decoded_content": {
+    "track": {
+      "name": "Rolling Stone",
+      "url": "https:\/\/www.last.fm\/music\/Brent+Faiyaz\/_\/Rolling+Stone",
+      "duration": "172000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "329879",
+      "playcount": "3865572",
+      "artist": {
+        "name": "Brent Faiyaz",
+        "url": "https:\/\/www.last.fm\/music\/Brent+Faiyaz"
+      },
+      "album": {
+        "artist": "Brent Faiyaz",
+        "title": "WASTELAND",
+        "url": "https:\/\/www.last.fm\/music\/Brent+Faiyaz\/WASTELAND",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/74c7c0622904c1fdf629bc307952ccc4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/74c7c0622904c1fdf629bc307952ccc4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/74c7c0622904c1fdf629bc307952ccc4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/74c7c0622904c1fdf629bc307952ccc4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Mar 2024, 01:25",
+        "summary": "\u201cRolling Stone\u201d is the 10th track on Brent Faiyaz\u2019s 2022 record, WASTELAND. The song debuted at #84 on the Billboard Hot 100 during the chart week ending July 23, 2022. Delivered with a passionate vocal performance from Brent, the song\u2019s lyrics seem to be a cautionary warning to any woman wanting to be a part of Brent\u2019s life. The song\u2019s production is dreamlike, yet minimal and smooth, featuring synthesizers and guitars, all handled by producers Coop the Truth, Jake One, and Nascent. <a href=\"http:\/\/www.last.fm\/music\/Brent+Faiyaz\/_\/Rolling+Stone\">Read more on Last.fm<\/a>.",
+        "content": "\u201cRolling Stone\u201d is the 10th track on Brent Faiyaz\u2019s 2022 record, WASTELAND. The song debuted at #84 on the Billboard Hot 100 during the chart week ending July 23, 2022. Delivered with a passionate vocal performance from Brent, the song\u2019s lyrics seem to be a cautionary warning to any woman wanting to be a part of Brent\u2019s life. The song\u2019s production is dreamlike, yet minimal and smooth, featuring synthesizers and guitars, all handled by producers Coop the Truth, Jake One, and Nascent. <a href=\"http:\/\/www.last.fm\/music\/Brent+Faiyaz\/_\/Rolling+Stone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

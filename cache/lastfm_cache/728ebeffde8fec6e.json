@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:41.453696+00:00",
+  "elapsed": 0.177285,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:41.453696+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4580",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lord+Huron&format=json&method=track.getInfo&track=The+Night+We+Met"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lord+Huron&format=json&method=track.getInfo&track=The+Night+We+Met",
+  "_decoded_content": {
+    "track": {
+      "name": "The Night We Met",
+      "url": "https:\/\/www.last.fm\/music\/Lord+Huron\/_\/The+Night+We+Met",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1465213",
+      "playcount": "23376738",
+      "artist": {
+        "name": "Lord Huron",
+        "mbid": "51c76d97-0635-433c-b26d-66beb81657f8",
+        "url": "https:\/\/www.last.fm\/music\/Lord+Huron"
+      },
+      "album": {
+        "artist": "Lord Huron",
+        "title": "Strange Trails",
+        "url": "https:\/\/www.last.fm\/music\/Lord+Huron\/Strange+Trails",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a6ee015fe1bc4d86cdb9b7c76778e7a6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a6ee015fe1bc4d86cdb9b7c76778e7a6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a6ee015fe1bc4d86cdb9b7c76778e7a6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a6ee015fe1bc4d86cdb9b7c76778e7a6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "indie folk",
+            "url": "https:\/\/www.last.fm\/tag\/indie+folk"
+          },
+          {
+            "name": "13 reasons why",
+            "url": "https:\/\/www.last.fm\/tag\/13+reasons+why"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Jan 2022, 23:49",
+        "summary": "\"The Night We Met\" is a song recorded by American band Lord Huron for their second studio album, \"Strange Trails\". Following its inclusion in the American television series \"13 Reasons Why\", \"The Night We Met\" entered the record charts in several countries, including in Australia, Canada, France, the United Kingdom, and the United States. It also was certified platinum by the Recording Industry Association of America for combined sales and streaming figures exceeding one million units. <a href=\"http:\/\/www.last.fm\/music\/Lord+Huron\/_\/The+Night+We+Met\">Read more on Last.fm<\/a>.",
+        "content": "\"The Night We Met\" is a song recorded by American band Lord Huron for their second studio album, \"Strange Trails\". Following its inclusion in the American television series \"13 Reasons Why\", \"The Night We Met\" entered the record charts in several countries, including in Australia, Canada, France, the United Kingdom, and the United States. It also was certified platinum by the Recording Industry Association of America for combined sales and streaming figures exceeding one million units.\n\nThe song is written and produced by Ben Schneider, and mixed by Rick Parker. \"The Night We Met\" was recorded at Russian Recording, USA, and Whispering Pines.\n\nThe song quickly got a huge amount of success after being featured in \"13 Reasons Why\", and it was \"subsequently confirmed platinum nearly two years after it was released\". The song has been streamed over 700 million times. \"The Night We Met\" immediately turned into the band's most well known song. The song is used in the season finale of The Originals, season 2, when Rebekah takes on a new body and parts ways with Marcel. It also appears in \"13 Reasons Why\" episode 5 when the main character, Clay, and Hannah dance together. Refinery29 described it as \"a time machine to him and Hannah at their happiest\". After being featured in the series, the song garnered a band deal with Republic Records.\n\nMarissa Matozzo of Paste labelled the song as \"one of the band's most renowned tracks\". \"The Night We Met\" appeared in a 3rd position in a \"Relaxing Tracks That You Can Sing Along To\" list compiled by Entertainment.ie. Erin Vierra of Mxdwn wrote, \"The Night We Met\" is the kind of song one likes to hold on to late at night, the kind of song that fills the listener with a peaceful meditation\". The Musical Hype wrote, \"This is a sensational song aside from the buzz its received in the mainstream. The lyrics are poetic, while the sound and vibe of the record are mysterious\". Under the Radar described the song as \"heartbreaking waltz\".\n\n\u201cThe Night We Met\" reached number 5 on US Hot Rock Songs (Billboard), and number 7 on US Adult Alternative Songs (Billboard) charts. In 2019, Lord Huron performed two versions of the song: one version for \"13 Reasons Why\" and a version featuring Phoebe Bridgers in Hollywood Bowl.\n\nThe song was certified two-times platinum with 2 million units sold, and it was certified gold in France (with 100,000 units sold) and United Kingdom (with 400,000 units sold). <a href=\"http:\/\/www.last.fm\/music\/Lord+Huron\/_\/The+Night+We+Met\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

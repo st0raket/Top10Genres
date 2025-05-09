@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:48.741573+00:00",
+  "elapsed": 0.220416,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:48.741573+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2649",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Emmy+Meli&format=json&method=track.getInfo&track=I+AM+WOMAN"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Emmy+Meli&format=json&method=track.getInfo&track=I+AM+WOMAN",
+  "_decoded_content": {
+    "track": {
+      "name": "I AM WOMAN",
+      "url": "https:\/\/www.last.fm\/music\/Emmy+Meli\/_\/I+AM+WOMAN",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "144009",
+      "playcount": "823684",
+      "artist": {
+        "name": "Emmy Meli",
+        "url": "https:\/\/www.last.fm\/music\/Emmy+Meli"
+      },
+      "album": {
+        "artist": "Emmy Meli",
+        "title": "I AM WOMAN",
+        "url": "https:\/\/www.last.fm\/music\/Emmy+Meli\/I+AM+WOMAN",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cd097b2e942c1d2b344dc10022673090.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cd097b2e942c1d2b344dc10022673090.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cd097b2e942c1d2b344dc10022673090.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cd097b2e942c1d2b344dc10022673090.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "vocal harmonies",
+            "url": "https:\/\/www.last.fm\/tag\/vocal+harmonies"
+          },
+          {
+            "name": "extensive vamping",
+            "url": "https:\/\/www.last.fm\/tag\/extensive+vamping"
+          },
+          {
+            "name": "major key tonality",
+            "url": "https:\/\/www.last.fm\/tag\/major+key+tonality"
+          },
+          {
+            "name": "mixed acoustic and electric instrumentation",
+            "url": "https:\/\/www.last.fm\/tag\/mixed+acoustic+and+electric+instrumentation"
+          },
+          {
+            "name": "groove based composition",
+            "url": "https:\/\/www.last.fm\/tag\/groove+based+composition"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jan 2022, 15:47",
+        "summary": "Emmy Meli\u2019s powerful single, \u201cI AM WOMAN,\u201d beams with positivity and self-confidence. The singer-songwriter lists individual and stalwart adjectives along with a striking percussive rhythm and a very captivating melody.\n\nFurthermore, Meli explained on TikTok that she wrote \u201cI AM WOMAN\u201d for her younger self hoping she would inspire women out in the world one day:\n\n\"One month ago, I wrote a song for this little girl. Hoping to make her proud, she ended up inspiring millions of women.\" <a href=\"http:\/\/www.last.fm\/music\/Emmy+Meli\/_\/I+AM+WOMAN\">Read more on Last.fm<\/a>.",
+        "content": "Emmy Meli\u2019s powerful single, \u201cI AM WOMAN,\u201d beams with positivity and self-confidence. The singer-songwriter lists individual and stalwart adjectives along with a striking percussive rhythm and a very captivating melody.\n\nFurthermore, Meli explained on TikTok that she wrote \u201cI AM WOMAN\u201d for her younger self hoping she would inspire women out in the world one day:\n\n\"One month ago, I wrote a song for this little girl. Hoping to make her proud, she ended up inspiring millions of women.\" <a href=\"http:\/\/www.last.fm\/music\/Emmy+Meli\/_\/I+AM+WOMAN\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:40.382975+00:00",
+  "elapsed": 0.264156,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:40.379126+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2574",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Troye+Sivan&format=json&method=track.getInfo&track=My+My+My%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Troye+Sivan&format=json&method=track.getInfo&track=My+My+My%21",
+  "_decoded_content": {
+    "track": {
+      "name": "My My My!",
+      "url": "https:\/\/www.last.fm\/music\/Troye+Sivan\/_\/My+My+My%21",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "459957",
+      "playcount": "4693426",
+      "artist": {
+        "name": "Troye Sivan",
+        "mbid": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
+        "url": "https:\/\/www.last.fm\/music\/Troye+Sivan"
+      },
+      "album": {
+        "artist": "Troye Sivan",
+        "title": "Bloom",
+        "url": "https:\/\/www.last.fm\/music\/Troye+Sivan\/Bloom",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1ca145aba5daa3b2a90c5c645e2f3346.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1ca145aba5daa3b2a90c5c645e2f3346.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1ca145aba5daa3b2a90c5c645e2f3346.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1ca145aba5daa3b2a90c5c645e2f3346.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jan 2018, 14:04",
+        "summary": "\u201cMy My My!\u201d is the opening track and lead single from Australian pop musician Troye Sivan's sophomore studio album, Bloom, which was released in 2018. \n\nIt was written by Sivan, Leland, Oscar G\u00f6rres and James Alan Ghaleb, with production handled by G\u00f6rres. The song was released via Universal Music Australia on 10 January 2018.\n\nTroye started posting teaser videos on January 4, 2018. Soon after, a countdown for the release appeared in Times Square. He teased the title of the song on June 8, 2017 on Twitter. <a href=\"http:\/\/www.last.fm\/music\/Troye+Sivan\/_\/My+My+My%21\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMy My My!\u201d is the opening track and lead single from Australian pop musician Troye Sivan's sophomore studio album, Bloom, which was released in 2018. \n\nIt was written by Sivan, Leland, Oscar G\u00f6rres and James Alan Ghaleb, with production handled by G\u00f6rres. The song was released via Universal Music Australia on 10 January 2018.\n\nTroye started posting teaser videos on January 4, 2018. Soon after, a countdown for the release appeared in Times Square. He teased the title of the song on June 8, 2017 on Twitter. <a href=\"http:\/\/www.last.fm\/music\/Troye+Sivan\/_\/My+My+My%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

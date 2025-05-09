@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:58.652753+00:00",
+  "elapsed": 0.195367,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:58.652753+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2109",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=cass%C3%B6&format=json&method=track.getInfo&track=Prada"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=cass%C3%B6&format=json&method=track.getInfo&track=Prada",
+  "_decoded_content": {
+    "track": {
+      "name": "Prada",
+      "url": "https:\/\/www.last.fm\/music\/cass%C3%B6\/_\/Prada",
+      "duration": "132000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "477307",
+      "playcount": "4883048",
+      "artist": {
+        "name": "cass\u00f6",
+        "url": "https:\/\/www.last.fm\/music\/cass%C3%B6"
+      },
+      "album": {
+        "artist": "cass\u00f6",
+        "title": "Prada",
+        "url": "https:\/\/www.last.fm\/music\/cass%C3%B6\/Prada",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e3930d4c6facb6ddebada1499785202.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e3930d4c6facb6ddebada1499785202.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e3930d4c6facb6ddebada1499785202.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e3930d4c6facb6ddebada1499785202.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "trance",
+            "url": "https:\/\/www.last.fm\/tag\/trance"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 Jan 2025, 15:07",
+        "summary": "Cass\u00f6's remix of D-Block Europe's \"Ferrari Horses,\" retitled \"Prada,\" became a viral TikTok hit. Released in August 2023, it topped charts worldwide, including reaching number 2 in the UK. \"Prada\" received numerous accolades, including a double platinum certification in the UK and a Brit Award nomination for Song of the Year. <a href=\"http:\/\/www.last.fm\/music\/cass%C3%B6\/_\/Prada\">Read more on Last.fm<\/a>.",
+        "content": "Cass\u00f6's remix of D-Block Europe's \"Ferrari Horses,\" retitled \"Prada,\" became a viral TikTok hit. Released in August 2023, it topped charts worldwide, including reaching number 2 in the UK. \"Prada\" received numerous accolades, including a double platinum certification in the UK and a Brit Award nomination for Song of the Year. <a href=\"http:\/\/www.last.fm\/music\/cass%C3%B6\/_\/Prada\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

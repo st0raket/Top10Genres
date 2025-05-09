@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:32:29.461718+00:00",
+  "elapsed": 0.206046,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:29.461718+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "911",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=Best+of+You+%2F%2F+Busted"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=Best+of+You+%2F%2F+Busted",
+  "_decoded_content": {
+    "track": {
+      "name": "Best Of You \/\/ Busted",
+      "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/_\/Best+Of+You+%2F%2F+Busted",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "113",
+      "playcount": "651",
+      "artist": {
+        "name": "Tory Lanez",
+        "mbid": "5b8ec72b-9e39-4a06-a2bf-964166b92a71",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez"
+      },
+      "album": {
+        "artist": "Tory Lanez",
+        "title": "Chixtape 5",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/Chixtape+5",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b6a5d166e10d24e4570aa25a809158d1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b6a5d166e10d24e4570aa25a809158d1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b6a5d166e10d24e4570aa25a809158d1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b6a5d166e10d24e4570aa25a809158d1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:28:45.588121+00:00",
+  "elapsed": 0.201209,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:45.588121+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2606",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Niall+Horan&format=json&method=track.getInfo&track=Flicker"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Niall+Horan&format=json&method=track.getInfo&track=Flicker",
+  "_decoded_content": {
+    "track": {
+      "name": "Flicker",
+      "url": "https:\/\/www.last.fm\/music\/Niall+Horan\/_\/Flicker",
+      "duration": "258000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "156492",
+      "playcount": "1756104",
+      "artist": {
+        "name": "Niall Horan",
+        "url": "https:\/\/www.last.fm\/music\/Niall+Horan"
+      },
+      "album": {
+        "artist": "Niall Horan",
+        "title": "Flicker (Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/Niall+Horan\/Flicker+(Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2ba8f409c9812def364a2c1535c1b51c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2ba8f409c9812def364a2c1535c1b51c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2ba8f409c9812def364a2c1535c1b51c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2ba8f409c9812def364a2c1535c1b51c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "easy listening",
+            "url": "https:\/\/www.last.fm\/tag\/easy+listening"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Mar 2023, 03:20",
+        "summary": "\u201cFlicker\u201d is the title track to Niall Horan\u2019s debut solo album, Flicker, released on October 20, 2017. It speaks from the perspective of a lover left without his loved one, as he is left clinging to any bits of hope left to him. This theme is quite common throughout Flicker, existing also in \u201cToo Much to Ask\u201d.\n\nIt was performed on Niall Horan\u2019s Flicker Sessions 2017, before being released along with the rest of the Flicker album.\n\nNiall Horan posted a photo of the original handwritten lyrics of the song Flicker on Feb 21, 2018. <a href=\"http:\/\/www.last.fm\/music\/Niall+Horan\/_\/Flicker\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFlicker\u201d is the title track to Niall Horan\u2019s debut solo album, Flicker, released on October 20, 2017. It speaks from the perspective of a lover left without his loved one, as he is left clinging to any bits of hope left to him. This theme is quite common throughout Flicker, existing also in \u201cToo Much to Ask\u201d.\n\nIt was performed on Niall Horan\u2019s Flicker Sessions 2017, before being released along with the rest of the Flicker album.\n\nNiall Horan posted a photo of the original handwritten lyrics of the song Flicker on Feb 21, 2018. <a href=\"http:\/\/www.last.fm\/music\/Niall+Horan\/_\/Flicker\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

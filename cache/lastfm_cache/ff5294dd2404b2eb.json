@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:27:59.404377+00:00",
+  "elapsed": 0.20049,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:59.404377+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "7496",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=A+Sky+Full+of+Stars"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=A+Sky+Full+of+Stars",
+  "_decoded_content": {
+    "track": {
+      "name": "A Sky Full of Stars",
+      "mbid": "21a17652-d4c5-4403-bff4-2715e7c60022",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/A+Sky+Full+of+Stars",
+      "duration": "267000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1195589",
+      "playcount": "10320256",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "A Sky Full Of Stars",
+        "mbid": "24454dba-2bcc-479f-bb65-afde78e9845c",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/A+Sky+Full+Of+Stars",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b7be747d414943fdc3f4de682eac3c7c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b7be747d414943fdc3f4de682eac3c7c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b7be747d414943fdc3f4de682eac3c7c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b7be747d414943fdc3f4de682eac3c7c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "2014",
+            "url": "https:\/\/www.last.fm\/tag\/2014"
+          },
+          {
+            "name": "eletronic",
+            "url": "https:\/\/www.last.fm\/tag\/eletronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 May 2014, 10:08",
+        "summary": "\"A Sky Full of Stars\" is a song by the British rock band Coldplay. It was released in May 2014 as the second single from their sixth album, Ghost Stories (2014). An exclusive digital EP version of it, with the B-sides \"All Your Friends\", \"Ghost Story\" and \"O (Reprise)\", came out in the following weeks, being considered the band's eleventh extended play.\n\nThe band co-wrote and co-produced the song with Swedish DJ Avicii and received production assistance from Paul Epworth, Daniel Green and Rik Simpson. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/A+Sky+Full+of+Stars\">Read more on Last.fm<\/a>.",
+        "content": "\"A Sky Full of Stars\" is a song by the British rock band Coldplay. It was released in May 2014 as the second single from their sixth album, Ghost Stories (2014). An exclusive digital EP version of it, with the B-sides \"All Your Friends\", \"Ghost Story\" and \"O (Reprise)\", came out in the following weeks, being considered the band's eleventh extended play.\n\nThe band co-wrote and co-produced the song with Swedish DJ Avicii and received production assistance from Paul Epworth, Daniel Green and Rik Simpson. It was recorded at the Bakery and the Beehive in North London, England. Upon its release, \"A Sky Full of Stars\" garnered mostly positive reviews from music critics and charted inside the top 10 in over 16 countries such as Australia, Canada, Ireland, Japan, Mexico, New Zealand, the United Kingdom and United States.\n\nA music video for the song was directed by Mat Whitecross and was released on 19 June 2014. The single peaked at number one in Italy, Israel, Luxembourg, Portugal, Lebanon, and the Walloon region of Belgium. It also topped the Billboard Hot Dance Club Songs chart. It was nominated for Best Pop Duo\/Group Performance at the 57th Grammy Awards.\n\n\"A Sky Full of Stars\" was recorded during the sessions for the band's sixth studio album, at their purpose-built studios the Bakery and the Beehive in North London, England. The studios were both originally constructed for work on their two previous studio albums, 2008's Viva la Vida or Death and All His Friends and 2011's Mylo Xyloto.\n\nAvicii was invited by the band to collaborate on \"A Sky Full of Stars\". In addition to producing the track, he was also asked by lead singer Chris Martin to play and record the piano parts. However, Martin later stated in a BBC Radio 1 interview with Zane Lowe that he felt that he had \"cheated\" on the band by asking Avicii to play the piano instead of playing it himself.\n\nThe single art for \"A Sky Full of Stars\" was etched by UK-based, Czech etching artist Mila F\u00fcrstov\u00e1. The artwork continues the motif of artworks in the Ghost Stories album cycle, which feature a scene occurring in a larger, enclosed body. Multiple figures such as angels with wings like of the Ghost Stories artwork, buildings such as a church, and objects such as a maze and a chair, also alluding to those in the Ghost Stories artwork, are depicted encased in a three-dimensional star chart. The artwork is reminiscent of F\u00fcrstov\u00e1's earlier work, Other Skies, which also features various figures, buildings and objects imposed onto a star map.\n\nThe official music video was directed by Mat Whitecross and the shooting took place on King Street, Newtown, Sydney, on 17 June 2014. It was released on 19 June 2014. At the beginning of the video, Martin walks down King Street dressed as a one-man band, singing the first verse of the song. Then he reaches the other members of the band (also dressed as one-man bands) and, together, they play the instrumental refrain. Martin is then seen walking through the street, without the other members, while he sings the second verse. At the end of the video the band reunites in a square, singing and playing the final part of the song with a crowd of fans. While Martin is singing the final part, many paper-made stars are blown into the square.\n\nAn alternate music video, produced by design studio Artisan, shows the band performing the song in a dark room where an animation of stars is projected onto the floor. The musicians interact with the projection and the stars swirl and fly around following their movements. During an interview, Martin revealed this version was actually the original idea for the music video, but was later scrapped and they decided to shoot a new video in Sydney. However, snippets from the Artisan video were included in the official one and they can be seen playing on the TV screens in a shop's showcase.\n\nAt the Apple 2014 Event held on September 9 of that year, \"A Sky Full of Stars\" was the song of choice when the first introduction video unveiled the Apple Watch. At the 2019 AFC Asian Cup , this song is played after the national anthem of two teams in every matches. \"A Sky Full of Stars\" was played during the 2020 Democratic National Convention and after the acceptance speeches of U.S. President Joe Biden and Vice President Kamala Harris following their victory in the 2020 presidential election on November 7, 2020. Dana Bash of CNN noted the significance of the song choice for Biden as it was the favourite song of his late son Beau Biden. \n\nThe song was also played during the 3-Point Shootout of the 2015 NBA All-Star Game weekend. It was also chosen by the players of English football team Liverpool F.C. to play during the celebrations as they lifted the 2019\u201320 Premier League, their first league title in 30 years. Taron Egerton performed the song as his character Johnny for the 2021 animated film Sing 2; the song was also included on the film's soundtrack. On Paulo Dybala's presentation day at his new club AS Roma in 2022, the song was played in front of massive crowd of Roma fans;[42] it was also previously played during the post-match celebration of Juventus F.C. after their game against S.S. Lazio \u2013 Dybala's final match with the club. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/A+Sky+Full+of+Stars\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:28:25.130384+00:00",
+  "elapsed": 0.227754,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:25.130384+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1081",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JJ+Project&format=json&method=track.getInfo&track=%EB%82%B4%EC%9D%BC%2C+%EC%98%A4%EB%8A%98+Tomorrow%2C+Today"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JJ+Project&format=json&method=track.getInfo&track=%EB%82%B4%EC%9D%BC%2C+%EC%98%A4%EB%8A%98+Tomorrow%2C+Today",
+  "_decoded_content": {
+    "track": {
+      "name": "\ub0b4\uc77c, \uc624\ub298 Tomorrow, Today",
+      "url": "https:\/\/www.last.fm\/music\/JJ+Project\/_\/%EB%82%B4%EC%9D%BC,+%EC%98%A4%EB%8A%98+Tomorrow,+Today",
+      "duration": "235000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "35564",
+      "playcount": "380028",
+      "artist": {
+        "name": "JJ Project",
+        "mbid": "d49878da-196e-45c2-9c23-5cff0dc517e5",
+        "url": "https:\/\/www.last.fm\/music\/JJ+Project"
+      },
+      "album": {
+        "artist": "JJ Project",
+        "title": "Verse 2",
+        "url": "https:\/\/www.last.fm\/music\/JJ+Project\/Verse+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3a601643fdb942e257528e161c99d7ee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3a601643fdb942e257528e161c99d7ee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3a601643fdb942e257528e161c99d7ee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3a601643fdb942e257528e161c99d7ee.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "nostalgic",
+            "url": "https:\/\/www.last.fm\/tag\/nostalgic"
+          },
+          {
+            "name": "Pops In Seoul",
+            "url": "https:\/\/www.last.fm\/tag\/Pops+In+Seoul"
+          }
+        ]
+      }
+    }
+  }
+}

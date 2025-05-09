@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:11.862278+00:00",
+  "elapsed": 0.217771,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:11.862278+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1611",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JT&format=json&method=track.getInfo&track=OKAY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JT&format=json&method=track.getInfo&track=OKAY",
+  "_decoded_content": {
+    "track": {
+      "name": "OKAY",
+      "url": "https:\/\/www.last.fm\/music\/JT\/_\/OKAY",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "146395",
+      "playcount": "1371381",
+      "artist": {
+        "name": "JT",
+        "mbid": "a1525899-e78b-49c5-aa55-42a1fe34c0f5",
+        "url": "https:\/\/www.last.fm\/music\/JT"
+      },
+      "album": {
+        "artist": "JT",
+        "title": "OKAY (Versions) - EP",
+        "url": "https:\/\/www.last.fm\/music\/JT\/OKAY+(Versions)+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4841ba2773f56414ab896c9362240369.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4841ba2773f56414ab896c9362240369.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4841ba2773f56414ab896c9362240369.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4841ba2773f56414ab896c9362240369.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "bop",
+            "url": "https:\/\/www.last.fm\/tag\/bop"
+          },
+          {
+            "name": "Crunk",
+            "url": "https:\/\/www.last.fm\/tag\/Crunk"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Jul 2024, 16:59",
+        "summary": "\u201cOkay\u201d is a song from JT\u2019s forthcoming album \u201cCity Cinderella\u201d. <a href=\"http:\/\/www.last.fm\/music\/JT\/_\/OKAY\">Read more on Last.fm<\/a>.",
+        "content": "\u201cOkay\u201d is a song from JT\u2019s forthcoming album \u201cCity Cinderella\u201d. <a href=\"http:\/\/www.last.fm\/music\/JT\/_\/OKAY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

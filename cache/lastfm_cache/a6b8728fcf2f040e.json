@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:35.148073+00:00",
+  "elapsed": 0.392008,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:35.148073+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2789",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sunmi&format=json&method=track.getInfo&track=Gashina"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sunmi&format=json&method=track.getInfo&track=Gashina",
+  "_decoded_content": {
+    "track": {
+      "name": "Gashina",
+      "url": "https:\/\/www.last.fm\/music\/SunMi\/_\/Gashina",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "324620",
+      "playcount": "3484408",
+      "artist": {
+        "name": "SunMi",
+        "mbid": "716a8be4-6f58-4e64-a1e6-fb3017f21bf6",
+        "url": "https:\/\/www.last.fm\/music\/SunMi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Apr 2018, 18:55",
+        "summary": "'Gashina' (Hangul: \uac00\uc2dc\ub098) is a song recorded by South Korean singer Sunmi. It was released as a CD and digital single by MakeUs Entertainment and The Black Label on August 22, 2017, distributed by LOEN Entertainment. 'Gashina' is Sunmi's first release since the disbandment of Wonder Girls and the expiration of her contract with JYP Entertainment.\n\nWritten by Teddy Park, Sunmi, Joe Rhee, and 24, the song was described as a \"dancehall-style synthpop number that rocks an Eastern-style atmosphere and a distinct rhythmic bass sound\". <a href=\"http:\/\/www.last.fm\/music\/SunMi\/_\/Gashina\">Read more on Last.fm<\/a>.",
+        "content": "'Gashina' (Hangul: \uac00\uc2dc\ub098) is a song recorded by South Korean singer Sunmi. It was released as a CD and digital single by MakeUs Entertainment and The Black Label on August 22, 2017, distributed by LOEN Entertainment. 'Gashina' is Sunmi's first release since the disbandment of Wonder Girls and the expiration of her contract with JYP Entertainment.\n\nWritten by Teddy Park, Sunmi, Joe Rhee, and 24, the song was described as a \"dancehall-style synthpop number that rocks an Eastern-style atmosphere and a distinct rhythmic bass sound\". It was co-produced by The Black Label, a subsidiary of YG Entertainment.\n\nThe song debuted at number 2 on the Gaon Digital Chart, on the chart issue dated August 20\u201326, 2017, with 174,383 downloads sold \u2013 topping the Download Chart \u2013 and 4,670,275 streams. In its second week, the song peaked atop the chart, with 151,199 downloads sold \u2013 staying atop the Download Chart \u2013 and 7,201,441 streams. The song placed at number 15 for the month of August and peaked at number 3 the following month. It has sold over 667,590 digital downloads as of September 2017.\n\nThe song also debuted at number 3 on the US World Digital Song Sales with 1,000 downloads sold in the week ending September 9, 2017.\n\nThe song was the 32nd best-selling song of 2017 with 1,190,380 downloads sold.\n <a href=\"http:\/\/www.last.fm\/music\/SunMi\/_\/Gashina\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

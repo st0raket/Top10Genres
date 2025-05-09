@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:16.973494+00:00",
+  "elapsed": 0.177038,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:16.973494+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2951",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=BITTERSUITE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=BITTERSUITE",
+  "_decoded_content": {
+    "track": {
+      "name": "BITTERSUITE",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/BITTERSUITE",
+      "duration": "298000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "648236",
+      "playcount": "8343999",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "HIT ME HARD AND SOFT",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/HIT+ME+HARD+AND+SOFT",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e69971625c379772fb79213dccfa194f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e69971625c379772fb79213dccfa194f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e69971625c379772fb79213dccfa194f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e69971625c379772fb79213dccfa194f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "alt-pop",
+            "url": "https:\/\/www.last.fm\/tag\/alt-pop"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "MALANDRAMENTE",
+            "url": "https:\/\/www.last.fm\/tag\/MALANDRAMENTE"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 May 2024, 14:14",
+        "summary": "\u201cBITTERSUITE\u201d from Billie Eilish\u2019s third studio album HIT ME HARD AND SOFT is one of the album\u2019s closing tracks, serving as an emotional prelude to the final song, \u201cBLUE\u201d. The track is noted for its melodic focus, with a strong emphasis on instrumental beauty rather than lyrical complexity.\n\n\u201cBITTERSUITE\u201d takes listeners on a reflective journey, with a dreamlike, almost cinematic soundscape. It is quieter and more contemplative than other songs on the album, using rich melodies to evoke a sense of bittersweet nostalgia. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/BITTERSUITE\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBITTERSUITE\u201d from Billie Eilish\u2019s third studio album HIT ME HARD AND SOFT is one of the album\u2019s closing tracks, serving as an emotional prelude to the final song, \u201cBLUE\u201d. The track is noted for its melodic focus, with a strong emphasis on instrumental beauty rather than lyrical complexity.\n\n\u201cBITTERSUITE\u201d takes listeners on a reflective journey, with a dreamlike, almost cinematic soundscape. It is quieter and more contemplative than other songs on the album, using rich melodies to evoke a sense of bittersweet nostalgia. The song smoothly transitions into the final track, making it feel like part of a cohesive ending to the album .\n\nThough not as lyrically intense as other songs, \u201cBITTERSUITE\u201d is praised for its ability to evoke deep emotion through its sound, acting as a soft, reflective moment before the album\u2019s conclusion. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/BITTERSUITE\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

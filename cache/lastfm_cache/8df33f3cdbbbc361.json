@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:44:27.245305+00:00",
+  "elapsed": 0.248158,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:27.245305+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "912",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KITSCHKRIEG&format=json&method=track.getInfo&track=Standard"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=KITSCHKRIEG&format=json&method=track.getInfo&track=Standard",
+  "_decoded_content": {
+    "track": {
+      "name": "Standard",
+      "url": "https:\/\/www.last.fm\/music\/KitschKrieg\/_\/Standard",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "135",
+      "playcount": "954",
+      "artist": {
+        "name": "KitschKrieg",
+        "url": "https:\/\/www.last.fm\/music\/KitschKrieg"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "The Dome, Vol. 88",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/The+Dome,+Vol.+88",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/664b0ebe7c270a40215d6c5c1a764b89.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/664b0ebe7c270a40215d6c5c1a764b89.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/664b0ebe7c270a40215d6c5c1a764b89.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/664b0ebe7c270a40215d6c5c1a764b89.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          }
+        ]
+      }
+    }
+  }
+}

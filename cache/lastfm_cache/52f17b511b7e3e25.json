@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:35:05.347878+00:00",
+  "elapsed": 0.250258,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:05.347878+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3209",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joel+Corry&format=json&method=track.getInfo&track=BED"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Joel+Corry&format=json&method=track.getInfo&track=BED",
+  "_decoded_content": {
+    "track": {
+      "name": "Bed",
+      "url": "https:\/\/www.last.fm\/music\/Joel+Corry\/_\/Bed",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "222135",
+      "playcount": "1412782",
+      "artist": {
+        "name": "Joel Corry",
+        "url": "https:\/\/www.last.fm\/music\/Joel+Corry"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jul 2022, 23:34",
+        "summary": "\"Bed\" is a song by English DJ Joel Corry, English singer Raye and French DJ David Guetta. It was released as a single on 26 February 2021, through Perfect Havoc and Asylum Records UK. The song was written by Corry, Raye, Guetta, Giorgio Tuinfort, Jin Jin, Lewis Thompson and Neave Applebaum. The song was certified platinum by the BPI on 23 July 2021.\n\nIn an interview with the Official Charts Company, Corry explained that the creation of the song started in summer 2020 during a studio session with singer-songwriter Jan\u00e9e \"Jin Jin\" Bennett. <a href=\"http:\/\/www.last.fm\/music\/Joel+Corry\/_\/Bed\">Read more on Last.fm<\/a>.",
+        "content": "\"Bed\" is a song by English DJ Joel Corry, English singer Raye and French DJ David Guetta. It was released as a single on 26 February 2021, through Perfect Havoc and Asylum Records UK. The song was written by Corry, Raye, Guetta, Giorgio Tuinfort, Jin Jin, Lewis Thompson and Neave Applebaum. The song was certified platinum by the BPI on 23 July 2021.\n\nIn an interview with the Official Charts Company, Corry explained that the creation of the song started in summer 2020 during a studio session with singer-songwriter Jan\u00e9e \"Jin Jin\" Bennett. After listening to demos recorded by Raye, he proceeded to contact the singer via Instagram, saying \"she told me that she wrote the idea with David Guetta. I got in contact with David and he was happy for me to work on it with Raye. Me and Raye hit the studio together and developed the rest of the song. Fast forward eight months and we are ready to release 'Bed' to the world\". Prior to the release, Corry revealed, \"I've put so much hard work and love into it and I'm so lucky to be able to collaborate with amazing talents like Raye and the legend, David Guetta. I'm just so excited for the world to hear it.\" The single was announced on 18 February 2021, with each artist posting a picture of themselves lying in bed.\n\nIn her review for Billboard, Krystal Rodriguez wrote, \"Catchy and entirely relatable, 'Bed' has summer 2021 written all over it.\" Ben Beaumont-Thomas of The Guardian found it \"no less of an earworm\" than Corry's previous single \"Head & Heart\". He described it as \"softer, with gorgeous cosmic-disco detailing\" and \"a climactic drop that lands with devastating sweetness on the offbeat.\"\n\nCorry, Raye and Guetta performed \"Bed\" on Ant & Dec's Saturday Night Takeaway on 3 April 2021. <a href=\"http:\/\/www.last.fm\/music\/Joel+Corry\/_\/Bed\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

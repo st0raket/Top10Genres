@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:39:47.807335+00:00",
+  "elapsed": 0.368914,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:47.807335+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1286",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tatsuya+Kitani&format=json&method=track.getInfo&track=%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tatsuya+Kitani&format=json&method=track.getInfo&track=%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B",
+  "_decoded_content": {
+    "track": {
+      "name": "\u9752\u306e\u3059\u307f\u304b",
+      "url": "https:\/\/www.last.fm\/music\/Tatsuya+Kitani\/_\/%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B",
+      "duration": "197000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "197666",
+      "playcount": "3335183",
+      "artist": {
+        "name": "Tatsuya Kitani",
+        "url": "https:\/\/www.last.fm\/music\/Tatsuya+Kitani"
+      },
+      "album": {
+        "artist": "Tatsuya Kitani",
+        "title": "\u9752\u306e\u3059\u307f\u304b - Single",
+        "url": "https:\/\/www.last.fm\/music\/Tatsuya+Kitani\/%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e2d3259b89e37dd73d8f216aa794e075.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e2d3259b89e37dd73d8f216aa794e075.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e2d3259b89e37dd73d8f216aa794e075.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e2d3259b89e37dd73d8f216aa794e075.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "J-rock",
+            "url": "https:\/\/www.last.fm\/tag\/J-rock"
+          },
+          {
+            "name": "opening",
+            "url": "https:\/\/www.last.fm\/tag\/opening"
+          },
+          {
+            "name": "jujutsu kaisen",
+            "url": "https:\/\/www.last.fm\/tag\/jujutsu+kaisen"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      }
+    }
+  }
+}

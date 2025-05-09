@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:37.727284+00:00",
+  "elapsed": 0.206212,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:37.727284+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2020",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ti%C3%ABsto&format=json&method=track.getInfo&track=The+Motto"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ti%C3%ABsto&format=json&method=track.getInfo&track=The+Motto",
+  "_decoded_content": {
+    "track": {
+      "name": "The Motto",
+      "url": "https:\/\/www.last.fm\/music\/Ti%C3%ABsto\/_\/The+Motto",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "365505",
+      "playcount": "3725017",
+      "artist": {
+        "name": "Ti\u00ebsto",
+        "mbid": "aabb1d9f-be12-45b3-a84d-a1fc3e8181fd",
+        "url": "https:\/\/www.last.fm\/music\/Ti%C3%ABsto"
+      },
+      "album": {
+        "artist": "Ti\u00ebsto",
+        "title": "The Motto (Ti\u00ebsto\u2019s New Year\u2019s Eve VIP Mix)",
+        "url": "https:\/\/www.last.fm\/music\/Ti%C3%ABsto\/The+Motto+(Ti%C3%ABsto%E2%80%99s+New+Year%E2%80%99s+Eve+VIP+Mix)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/71cca7d49cf2a1aa2c71a758399cc4dc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/71cca7d49cf2a1aa2c71a758399cc4dc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/71cca7d49cf2a1aa2c71a758399cc4dc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/71cca7d49cf2a1aa2c71a758399cc4dc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2022, 20:37",
+        "summary": "\"The Motto\" is a song by Dutch DJ Ti\u00ebsto and American singer Ava Max. It was released on 4 November 2021, through Musical Freedom and Atlantic Records as the third single from Ti\u00ebsto's seventh studio album. <a href=\"http:\/\/www.last.fm\/music\/Ti%C3%ABsto\/_\/The+Motto\">Read more on Last.fm<\/a>.",
+        "content": "\"The Motto\" is a song by Dutch DJ Ti\u00ebsto and American singer Ava Max. It was released on 4 November 2021, through Musical Freedom and Atlantic Records as the third single from Ti\u00ebsto's seventh studio album. <a href=\"http:\/\/www.last.fm\/music\/Ti%C3%ABsto\/_\/The+Motto\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

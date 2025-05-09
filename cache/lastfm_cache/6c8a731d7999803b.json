@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:49.972485+00:00",
+  "elapsed": 0.19001,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:49.972485+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2662",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Good+Days"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Good+Days",
+  "_decoded_content": {
+    "track": {
+      "name": "Good Days",
+      "url": "https:\/\/www.last.fm\/music\/SZA\/_\/Good+Days",
+      "duration": "278000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1311006",
+      "playcount": "24298987",
+      "artist": {
+        "name": "SZA",
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "url": "https:\/\/www.last.fm\/music\/SZA"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hits 8 - as Grandes M\u00fasicas do Momento",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hits+8+-+as+Grandes+M%C3%BAsicas+do+Momento",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a147b26e1b043d72366ab008238b9b98.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a147b26e1b043d72366ab008238b9b98.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a147b26e1b043d72366ab008238b9b98.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a147b26e1b043d72366ab008238b9b98.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Dec 2020, 07:33",
+        "summary": "\"Good Days\" is a song about learning to cope with and find peace within oneself despite the negative influences that life can throw our way and the feelings of loss and regret that often accompany those experiences. The song speaks to the idea of letting go of weight and allowing ourselves to move closer to a place of inner calm. SZA also speaks to the importance of believing in the power of good days ahead and hoping for the best despite our current circumstances. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Good+Days\">Read more on Last.fm<\/a>.",
+        "content": "\"Good Days\" is a song about learning to cope with and find peace within oneself despite the negative influences that life can throw our way and the feelings of loss and regret that often accompany those experiences. The song speaks to the idea of letting go of weight and allowing ourselves to move closer to a place of inner calm. SZA also speaks to the importance of believing in the power of good days ahead and hoping for the best despite our current circumstances. The song encourages us to free our minds from worries and regrets and look for the small glimpses of beauty and optimism that can be found along the way. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Good+Days\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

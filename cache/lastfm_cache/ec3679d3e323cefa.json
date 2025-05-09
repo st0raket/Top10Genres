@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:41:02.378503+00:00",
+  "elapsed": 0.213405,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:02.378503+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1170",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tyla&format=json&method=track.getInfo&track=ART"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tyla&format=json&method=track.getInfo&track=ART",
+  "_decoded_content": {
+    "track": {
+      "name": "ART",
+      "url": "https:\/\/www.last.fm\/music\/Tyla\/_\/ART",
+      "duration": "148000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "210225",
+      "playcount": "1929312",
+      "artist": {
+        "name": "Tyla",
+        "mbid": "2bf761c6-4bcf-4cfc-a388-8fcb2eea8cc8",
+        "url": "https:\/\/www.last.fm\/music\/Tyla"
+      },
+      "album": {
+        "artist": "Tyla",
+        "title": "ART",
+        "url": "https:\/\/www.last.fm\/music\/Tyla\/ART",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/55470629c7d8121a7e4b1c820cbb48a3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/55470629c7d8121a7e4b1c820cbb48a3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/55470629c7d8121a7e4b1c820cbb48a3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/55470629c7d8121a7e4b1c820cbb48a3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Afropiano",
+            "url": "https:\/\/www.last.fm\/tag\/Afropiano"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "south africa",
+            "url": "https:\/\/www.last.fm\/tag\/south+africa"
+          }
+        ]
+      }
+    }
+  }
+}

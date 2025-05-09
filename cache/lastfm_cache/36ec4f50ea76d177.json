@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:28.606722+00:00",
+  "elapsed": 0.307802,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:28.606722+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2636",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Younger+Now"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Miley+Cyrus&format=json&method=track.getInfo&track=Younger+Now",
+  "_decoded_content": {
+    "track": {
+      "name": "Younger Now",
+      "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Younger+Now",
+      "duration": "248000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "153920",
+      "playcount": "1297094",
+      "artist": {
+        "name": "Miley Cyrus",
+        "mbid": "7e9bd05a-117f-4cce-87bc-e011527a8b18",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus"
+      },
+      "album": {
+        "artist": "Miley Cyrus",
+        "title": "Younger Now",
+        "url": "https:\/\/www.last.fm\/music\/Miley+Cyrus\/Younger+Now",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/42d1ce13bd83008eb4170de723aee7a4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/42d1ce13bd83008eb4170de723aee7a4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/42d1ce13bd83008eb4170de723aee7a4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/42d1ce13bd83008eb4170de723aee7a4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Aug 2017, 07:12",
+        "summary": "\"Younger Now\" is the second and final single from Miley Cyrus' sixth studio album of the same name (2017).\n\nThe song is performed in the key of A major, with a moderately fast tempo of 122 beats per minute in common time. Cyrus vocals span from E3 to Db5. Lyrically, Ben Kate of Consequence of Sound described the track as \"a soaring reclamation of changes Cyrus experienced over the last several years, ending with a declaration she now is the best version of herself. <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Younger+Now\">Read more on Last.fm<\/a>.",
+        "content": "\"Younger Now\" is the second and final single from Miley Cyrus' sixth studio album of the same name (2017).\n\nThe song is performed in the key of A major, with a moderately fast tempo of 122 beats per minute in common time. Cyrus vocals span from E3 to Db5. Lyrically, Ben Kate of Consequence of Sound described the track as \"a soaring reclamation of changes Cyrus experienced over the last several years, ending with a declaration she now is the best version of herself. 'I'm not afraid of who I used to be \/ No one stays the same,' she proclaims. 'Change is a thing you can count on \/ I feel so much younger now'\". <a href=\"http:\/\/www.last.fm\/music\/Miley+Cyrus\/_\/Younger+Now\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

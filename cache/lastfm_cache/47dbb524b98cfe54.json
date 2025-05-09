@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:43.782959+00:00",
+  "elapsed": 0.199394,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:43.782959+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2952",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Selena+Gomez&format=json&method=track.getInfo&track=Cut+You+Off"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Selena+Gomez&format=json&method=track.getInfo&track=Cut+You+Off",
+  "_decoded_content": {
+    "track": {
+      "name": "Cut You Off",
+      "url": "https:\/\/www.last.fm\/music\/Selena+Gomez\/_\/Cut+You+Off",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "111950",
+      "playcount": "1362981",
+      "artist": {
+        "name": "Selena Gomez",
+        "mbid": "e4bc69e2-a064-4f93-ada1-f7f209cc1cc3",
+        "url": "https:\/\/www.last.fm\/music\/Selena+Gomez"
+      },
+      "album": {
+        "artist": "Selena Gomez",
+        "title": "Rare",
+        "url": "https:\/\/www.last.fm\/music\/Selena+Gomez\/Rare",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c3d3663da38cc95791c5338516a70652.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "adult contemporary",
+            "url": "https:\/\/www.last.fm\/tag\/adult+contemporary"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Jan 2022, 18:44",
+        "summary": "\u201cCut You Off\u201d is a midtempo track from Selena Gomez\u2019s third studio album \"Rare\". The song is about someone moving on from a past relationship and feeling better about themselves.\n\nIt was revealed by the co-writer Liza Owen via Instagram that the song was written about an \u201casshole boy who shall not be named.\u201d This led to many speculating it was about her ex-boyfriend, Justin Bieber. Interestingly, \u201cCut You Off\u201d is the only explicit track released on Rare. <a href=\"http:\/\/www.last.fm\/music\/Selena+Gomez\/_\/Cut+You+Off\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCut You Off\u201d is a midtempo track from Selena Gomez\u2019s third studio album \"Rare\". The song is about someone moving on from a past relationship and feeling better about themselves.\n\nIt was revealed by the co-writer Liza Owen via Instagram that the song was written about an \u201casshole boy who shall not be named.\u201d This led to many speculating it was about her ex-boyfriend, Justin Bieber. Interestingly, \u201cCut You Off\u201d is the only explicit track released on Rare.\n\nThe song was first teased back in an interview with ELLE on September 4, 2018, where she \u201c[hit] \u2018play\u2019 on [the track].\u201d The interviewer, Mickey Rapkin, even described the song:\n\n\"[It\u2019s] about cutting a man out of her life after \u201c1,460 days\u201d and [cleaning her slate].\"\n\nA snippet of the song was first teased on December 12, 2019, when Selena uploaded an album trailer for \"Rare\" on her social media platforms. <a href=\"http:\/\/www.last.fm\/music\/Selena+Gomez\/_\/Cut+You+Off\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

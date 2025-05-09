@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:37.314324+00:00",
+  "elapsed": 0.227469,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:37.314324+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3198",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=She"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=She",
+  "_decoded_content": {
+    "track": {
+      "name": "She",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/She",
+      "duration": "362000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "595144",
+      "playcount": "6943730",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Fine Line",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Fine+Line",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Mar 2022, 17:29",
+        "summary": "The ambiguous, six minute long \u201cShe\u201d can be interpreted in an array of meanings. While the song appears to touch on the protagonist spending his days picturing himself with someone other than who he\u2019s with, the song can also take an introspective approach towards the examination of the protagonist\u2019s gender identity.\n\nStyles has never confirmed what exactly the song is about, which has allowed for multiple interpretations of its meaning.\n\nHarry Styles channels a character who is fantasizing about his ideal girl. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/She\">Read more on Last.fm<\/a>.",
+        "content": "The ambiguous, six minute long \u201cShe\u201d can be interpreted in an array of meanings. While the song appears to touch on the protagonist spending his days picturing himself with someone other than who he\u2019s with, the song can also take an introspective approach towards the examination of the protagonist\u2019s gender identity.\n\nStyles has never confirmed what exactly the song is about, which has allowed for multiple interpretations of its meaning.\n\nHarry Styles channels a character who is fantasizing about his ideal girl. A married office worker, his daydreams liven up his humdrum existence.\n\nHarry experimented with magic mushrooms during the recording of \"Fine Line\". The former One Direction star admitted to Rolling Stone that he took the hallucinogenic drug at a LA recording studio and bit the end of his tongue off while under the influence. \"She,\" which he wrote with his guitar sidekick Mitch Rowland, was penned while they were taking them.\n\n\"We had no idea what we were doing,\" he recalled. \"We forgot all about that track, then went back later and loved it. But Mitch had no idea what he did on guitar that night, so he had to learn it all over from the track.\" <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/She\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

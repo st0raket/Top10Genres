@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:33:07.837706+00:00",
+  "elapsed": 0.219008,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:07.837706+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "868",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nimo&format=json&method=track.getInfo&track=Remember"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nimo&format=json&method=track.getInfo&track=Remember",
+  "_decoded_content": {
+    "track": {
+      "name": "Remember",
+      "url": "https:\/\/www.last.fm\/music\/Nimo\/_\/Remember",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2491",
+      "playcount": "16454",
+      "artist": {
+        "name": "Nimo",
+        "mbid": "d91d3abd-5dc4-4c40-9c9e-a0e53f5b3bdd",
+        "url": "https:\/\/www.last.fm\/music\/Nimo"
+      },
+      "album": {
+        "artist": "Nimo",
+        "title": "Remember - Single",
+        "url": "https:\/\/www.last.fm\/music\/Nimo\/Remember+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fabca56421d377a7a6bc7e1b105fc4e4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fabca56421d377a7a6bc7e1b105fc4e4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fabca56421d377a7a6bc7e1b105fc4e4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fabca56421d377a7a6bc7e1b105fc4e4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:29:51.616290+00:00",
+  "elapsed": 0.212037,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:51.616290+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1012",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Hus&format=json&method=track.getInfo&track=Dark+Vader"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Hus&format=json&method=track.getInfo&track=Dark+Vader",
+  "_decoded_content": {
+    "track": {
+      "name": "Dark Vader",
+      "url": "https:\/\/www.last.fm\/music\/J+Hus\/_\/Dark+Vader",
+      "duration": "169000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "21539",
+      "playcount": "135954",
+      "artist": {
+        "name": "J Hus",
+        "url": "https:\/\/www.last.fm\/music\/J+Hus"
+      },
+      "album": {
+        "artist": "J Hus",
+        "title": "Big Spang - EP [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/J+Hus\/Big+Spang+-+EP+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9149af95ea7fdc7265b90d7b39298ba2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9149af95ea7fdc7265b90d7b39298ba2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9149af95ea7fdc7265b90d7b39298ba2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9149af95ea7fdc7265b90d7b39298ba2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2018 single",
+            "url": "https:\/\/www.last.fm\/tag\/2018+single"
+          },
+          {
+            "name": "bbc radio1 playlist 2018",
+            "url": "https:\/\/www.last.fm\/tag\/bbc+radio1+playlist+2018"
+          }
+        ]
+      }
+    }
+  }
+}

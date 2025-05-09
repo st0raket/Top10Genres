@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:34.342766+00:00",
+  "elapsed": 0.17994,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:34.342766+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2717",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Valentine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Valentine",
+  "_decoded_content": {
+    "track": {
+      "name": "Valentine",
+      "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Valentine",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "183502",
+      "playcount": "1989996",
+      "artist": {
+        "name": "5 Seconds of Summer",
+        "mbid": "830e5c4e-6b7d-431d-86ab-00c751281dc5",
+        "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer"
+      },
+      "album": {
+        "artist": "5 Seconds of Summer",
+        "title": "Youngblood [Explicit]",
+        "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/Youngblood+%5BExplicit%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3b79c8b4b12f78c3c81751b5334e5e2f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3b79c8b4b12f78c3c81751b5334e5e2f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3b79c8b4b12f78c3c81751b5334e5e2f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3b79c8b4b12f78c3c81751b5334e5e2f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "australia",
+            "url": "https:\/\/www.last.fm\/tag\/australia"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Jan 2022, 02:33",
+        "summary": "\u201cValentine\u201d is the fourth song from 5 Seconds of Summer\u2019s third album \"Youngblood\". It was first performed live at the iHeartRadio Music Awards Fan Army Celebration on March 10th 2018 and was later performed live on their promotional mini-tour, known as the 5SOS3 Tour.\n\nThe band account & Ashton\u2019s Twitter account also tweeted out some of the lyrics to the song after the performance.\n\nThe band account also posted a photo of the lyric sheets as well as the full lyrics being in the caption. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Valentine\">Read more on Last.fm<\/a>.",
+        "content": "\u201cValentine\u201d is the fourth song from 5 Seconds of Summer\u2019s third album \"Youngblood\". It was first performed live at the iHeartRadio Music Awards Fan Army Celebration on March 10th 2018 and was later performed live on their promotional mini-tour, known as the 5SOS3 Tour.\n\nThe band account & Ashton\u2019s Twitter account also tweeted out some of the lyrics to the song after the performance.\n\nThe band account also posted a photo of the lyric sheets as well as the full lyrics being in the caption. The official audio release was on August 26, 2018. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Valentine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

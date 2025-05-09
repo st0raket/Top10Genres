@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:42:55.511584+00:00",
+  "elapsed": 0.179402,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:55.511584+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1807",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Stargirl+Interlude"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Stargirl+Interlude",
+  "_decoded_content": {
+    "track": {
+      "name": "Stargirl Interlude",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Stargirl+Interlude",
+      "duration": "111000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1515054",
+      "playcount": "30402848",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Lana Del Rey",
+            "url": "https:\/\/www.last.fm\/tag\/Lana+Del+Rey"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Dec 2016, 04:31",
+        "summary": "\"Stargirl Interlude\" is the eighth track from The Weeknd's third studio album, Starboy. It features Lana Del Rey.\n\nThe title of the track is a reference to the success of Abel as a \"Starboy\", who happens to need a superwoman to complete him. However, the lyrics are mysterious in nature and Del Rey starts off low and ends high, The Weeknd closing off the 2-minute interlude. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Stargirl+Interlude\">Read more on Last.fm<\/a>.",
+        "content": "\"Stargirl Interlude\" is the eighth track from The Weeknd's third studio album, Starboy. It features Lana Del Rey.\n\nThe title of the track is a reference to the success of Abel as a \"Starboy\", who happens to need a superwoman to complete him. However, the lyrics are mysterious in nature and Del Rey starts off low and ends high, The Weeknd closing off the 2-minute interlude. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Stargirl+Interlude\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

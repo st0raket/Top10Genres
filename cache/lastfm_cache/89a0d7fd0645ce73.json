@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:35.872130+00:00",
+  "elapsed": 0.179502,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:35.872130+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3231",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Vanish+Into+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lady+Gaga&format=json&method=track.getInfo&track=Vanish+Into+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Vanish Into You",
+      "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Vanish+Into+You",
+      "duration": "246000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "322184",
+      "playcount": "3311749",
+      "artist": {
+        "name": "Lady Gaga",
+        "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga"
+      },
+      "album": {
+        "artist": "Lady Gaga",
+        "title": "MAYHEM",
+        "url": "https:\/\/www.last.fm\/music\/Lady+Gaga\/MAYHEM",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/49b8e2ed4d250fd2923ae56a44f937c0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "acheimagra",
+            "url": "https:\/\/www.last.fm\/tag\/acheimagra"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Mar 2025, 14:20",
+        "summary": "\"Vanish into You\" is a 2025 song by Lady Gaga. It was originally released as the fifth track on her studio album Mayhem (2025) and was the first song she wrote for the album.[3] Andrew Watt, Henry Walter, and Michael Polansky are co-writers.\n\n\"Vanish into You\" was written by Lady Gaga, Andrew Watt, Henry Walter, and Michael Polansky. Paper magazine has called the song \"a discovery of love\".[4] Riff magazine said the song sees Gaga \"[channel] Blondie with a four-on-the-floor rhythm that's rooted in funk. <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Vanish+Into+You\">Read more on Last.fm<\/a>.",
+        "content": "\"Vanish into You\" is a 2025 song by Lady Gaga. It was originally released as the fifth track on her studio album Mayhem (2025) and was the first song she wrote for the album.[3] Andrew Watt, Henry Walter, and Michael Polansky are co-writers.\n\n\"Vanish into You\" was written by Lady Gaga, Andrew Watt, Henry Walter, and Michael Polansky. Paper magazine has called the song \"a discovery of love\".[4] Riff magazine said the song sees Gaga \"[channel] Blondie with a four-on-the-floor rhythm that's rooted in funk. The track explores merging identity with a partner's to insulate from emotions\".[5] Variety called the track a \"David Bowie-referencing\"[6] song that \"builds towards its chorus with the same tension\" as \"Bad Romance\" (2009).[7] Pitchfork has said \"Vanish into You\" has \"pining yelps\".[8] Clash magazine said the song \"drops the tempo a little\" and has \"disco-fringed synths recalling ABBA's imperial phase; there's a slight retro touch at times here, too\".[9]\n\nSome fans theorized that the song was inspired by Gaga's late collaborator Tony Bennett, highlighting lyrics which were reminiscent of some of Bennett's most popular songs.[10] <a href=\"http:\/\/www.last.fm\/music\/Lady+Gaga\/_\/Vanish+Into+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

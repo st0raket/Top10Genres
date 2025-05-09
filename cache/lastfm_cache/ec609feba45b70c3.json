@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:25.396323+00:00",
+  "elapsed": 0.240758,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:25.396323+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "992",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ARASHI&format=json&method=track.getInfo&track=Love+so+Sweet"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ARASHI&format=json&method=track.getInfo&track=Love+so+Sweet",
+  "_decoded_content": {
+    "track": {
+      "name": "Love So Sweet",
+      "mbid": "7007a7dc-901c-433c-a9c8-5f960005f4b8",
+      "url": "https:\/\/www.last.fm\/music\/%E5%B5%90\/_\/Love+So+Sweet",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "24642",
+      "playcount": "351501",
+      "artist": {
+        "name": "\u5d50",
+        "mbid": "1008b912-cbb1-4e4c-bd4d-b9adf6937e8e",
+        "url": "https:\/\/www.last.fm\/music\/%E5%B5%90"
+      },
+      "album": {
+        "artist": "\u5d50",
+        "title": "Love so sweet",
+        "mbid": "e29a7838-b813-44d7-a695-bd925dfddccb",
+        "url": "https:\/\/www.last.fm\/music\/%E5%B5%90\/Love+so+sweet",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "Arashi",
+            "url": "https:\/\/www.last.fm\/tag\/Arashi"
+          },
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "JPop",
+            "url": "https:\/\/www.last.fm\/tag\/JPop"
+          },
+          {
+            "name": "Johnnys entertainment",
+            "url": "https:\/\/www.last.fm\/tag\/Johnnys+entertainment"
+          }
+        ]
+      }
+    }
+  }
+}

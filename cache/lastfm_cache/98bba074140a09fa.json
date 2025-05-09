@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:37.094671+00:00",
+  "elapsed": 0.233398,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:37.094671+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2787",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Cherry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=Cherry",
+  "_decoded_content": {
+    "track": {
+      "name": "Cherry",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/Cherry",
+      "duration": "261000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "604812",
+      "playcount": "8150406",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Fine Line",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Fine+Line",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jan 2022, 05:53",
+        "summary": "\u201cCherry\u201d is written about Harry Styles' ex-girlfriend Camille Rowe, following their break-up in July 2018, during a time when Harry was feeling \u201cnot great.\u201d Her voice is even featured in the song, in a section of dialogue at the end of the track.\n\nPrior to Fine Line tracklist reveal on November 19, 2019, fans had speculated that a song called \u201cCherry\u201d would feature on the album.\n\nThose who purchased tickets to see Harry during his 2020 Love On Tour noticed that the General Admission pits were named after two fruits <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Cherry\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCherry\u201d is written about Harry Styles' ex-girlfriend Camille Rowe, following their break-up in July 2018, during a time when Harry was feeling \u201cnot great.\u201d Her voice is even featured in the song, in a section of dialogue at the end of the track.\n\nPrior to Fine Line tracklist reveal on November 19, 2019, fans had speculated that a song called \u201cCherry\u201d would feature on the album.\n\nThose who purchased tickets to see Harry during his 2020 Love On Tour noticed that the General Admission pits were named after two fruits, Cherry and Watermelon, with watermelon taken from his November 16 single, \u201cWatermelon Sugar\u201d. The theory was supported further when watermelon slices and cherries were given to fans queuing to see his Saturday Night Live performance on November 16. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/Cherry\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

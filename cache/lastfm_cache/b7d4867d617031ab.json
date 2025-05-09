@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:28:14.777185+00:00",
+  "elapsed": 0.182285,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:14.777185+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2458",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=goosebumps"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=goosebumps",
+  "_decoded_content": {
+    "track": {
+      "name": "Goosebumps",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/Goosebumps",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1278629",
+      "playcount": "15909718",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "kendrick lamar",
+            "url": "https:\/\/www.last.fm\/tag\/kendrick+lamar"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Dec 2021, 05:35",
+        "summary": "\u201cgoosebumps\u201d is an eerie love song. Travis and Kendrick detail the unique feelings they have for their love interests\u2014especially when she\u2019s not actually there.\n\nBefore performing this song live, Travis says he \u201cwrote this song in [his] bedroom at one of the darkest times in [his] life.\u201d This, combined with the lyrics in the chorus\u2014specifically such terms as \u201cgoosebumps,\u201d \u201cnumb,\u201d and \u201cHeimlich\u201d\u2014have led many fans to believe this song may have an underlying theme of prescription drug withdrawal. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/Goosebumps\">Read more on Last.fm<\/a>.",
+        "content": "\u201cgoosebumps\u201d is an eerie love song. Travis and Kendrick detail the unique feelings they have for their love interests\u2014especially when she\u2019s not actually there.\n\nBefore performing this song live, Travis says he \u201cwrote this song in [his] bedroom at one of the darkest times in [his] life.\u201d This, combined with the lyrics in the chorus\u2014specifically such terms as \u201cgoosebumps,\u201d \u201cnumb,\u201d and \u201cHeimlich\u201d\u2014have led many fans to believe this song may have an underlying theme of prescription drug withdrawal.\n\nThe track\u2019s music video was debuted exclusively on Apple Music before being released worldwide on April 3, 2017.\n\nIn addition, Travis broke JAY-Z and Kanye West\u2019s record of performing a song the most number of times in a live show (\u201cNiggas in Paris\u201d in France 2012) when he performed \u201cgoosebumps\u201d 14 times in a row. Incredibly, he proceeded to break his own record the following week. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/Goosebumps\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

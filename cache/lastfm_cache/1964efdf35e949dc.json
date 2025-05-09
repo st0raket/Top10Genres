@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:36:12.001188+00:00",
+  "elapsed": 0.220658,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:12.001188+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1821",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=No+Friends+In+The+Industry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=No+Friends+In+The+Industry",
+  "_decoded_content": {
+    "track": {
+      "name": "No Friends In The Industry",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/No+Friends+In+The+Industry",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "349637",
+      "playcount": "3469235",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Sep 2021, 16:19",
+        "summary": "On \u201cNo Friends In the Industry\u201d, Drake makes it clear that his circle is tight, disregarding any kinship\/relationship with anyone outside his crew.\n\nThroughout the song, he addresses several beefs, notably his one with Kanye West and Pusha T. Although futile to him, he declares his readiness to face whoever comes for him.\n\nThe song samples \u201cNiggaz Ain\u2019t Barin Dat\u2019\u201d by Three 6 Mafia <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/No+Friends+In+The+Industry\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cNo Friends In the Industry\u201d, Drake makes it clear that his circle is tight, disregarding any kinship\/relationship with anyone outside his crew.\n\nThroughout the song, he addresses several beefs, notably his one with Kanye West and Pusha T. Although futile to him, he declares his readiness to face whoever comes for him.\n\nThe song samples \u201cNiggaz Ain\u2019t Barin Dat\u2019\u201d by Three 6 Mafia <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/No+Friends+In+The+Industry\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

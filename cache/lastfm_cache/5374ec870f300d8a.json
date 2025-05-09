@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:38.094043+00:00",
+  "elapsed": 0.255504,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:38.094043+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2109",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=777"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=777",
+  "_decoded_content": {
+    "track": {
+      "name": "777",
+      "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/_\/777",
+      "duration": "165000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "293625",
+      "playcount": "2051791",
+      "artist": {
+        "name": "Bruno Mars",
+        "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Running - Funky Soul",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Running+-+Funky+Soul",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/99acbe945108afd56c5ed10879b3bbdc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/99acbe945108afd56c5ed10879b3bbdc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/99acbe945108afd56c5ed10879b3bbdc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/99acbe945108afd56c5ed10879b3bbdc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "power pop",
+            "url": "https:\/\/www.last.fm\/tag\/power+pop"
+          },
+          {
+            "name": "funk",
+            "url": "https:\/\/www.last.fm\/tag\/funk"
+          },
+          {
+            "name": "acid jazz",
+            "url": "https:\/\/www.last.fm\/tag\/acid+jazz"
+          },
+          {
+            "name": "Funk Rock",
+            "url": "https:\/\/www.last.fm\/tag\/Funk+Rock"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jan 2022, 19:33",
+        "summary": "\u201c777\u201d is the seventh track from R&B duo Silk Sonic\u2019s album \"An Evening with Silk Sonic\". The song, as the title suggests, is about gambling in Las Vegas. The song resembles Mars' 2016 single \u201c24K Magic\u201d and .Paak\u2019s 2016 single \u201cCome Down\u201d with added rock influences. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/777\">Read more on Last.fm<\/a>.",
+        "content": "\u201c777\u201d is the seventh track from R&B duo Silk Sonic\u2019s album \"An Evening with Silk Sonic\". The song, as the title suggests, is about gambling in Las Vegas. The song resembles Mars' 2016 single \u201c24K Magic\u201d and .Paak\u2019s 2016 single \u201cCome Down\u201d with added rock influences. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/777\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

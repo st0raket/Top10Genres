@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:37:23.278180+00:00",
+  "elapsed": 0.344237,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:23.278180+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1220",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aimer&format=json&method=track.getInfo&track=%E6%AE%8B%E9%9F%BF%E6%95%A3%E6%AD%8C"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Aimer&format=json&method=track.getInfo&track=%E6%AE%8B%E9%9F%BF%E6%95%A3%E6%AD%8C",
+  "_decoded_content": {
+    "track": {
+      "name": "\u6b8b\u97ff\u6563\u6b4c",
+      "url": "https:\/\/www.last.fm\/music\/Aimer\/_\/%E6%AE%8B%E9%9F%BF%E6%95%A3%E6%AD%8C",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "176186",
+      "playcount": "2319403",
+      "artist": {
+        "name": "Aimer",
+        "mbid": "9388cee2-7d57-4598-905f-106019b267d3",
+        "url": "https:\/\/www.last.fm\/music\/Aimer"
+      },
+      "album": {
+        "artist": "Aimer",
+        "title": "\u6b8b\u97ff\u6563\u6b4c \/ \u671d\u304c\u6765\u308b - EP",
+        "url": "https:\/\/www.last.fm\/music\/Aimer\/%E6%AE%8B%E9%9F%BF%E6%95%A3%E6%AD%8C+%2F+%E6%9C%9D%E3%81%8C%E6%9D%A5%E3%82%8B+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c870c18f096ccf4e8dd44f0dd2afe060.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c870c18f096ccf4e8dd44f0dd2afe060.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c870c18f096ccf4e8dd44f0dd2afe060.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c870c18f096ccf4e8dd44f0dd2afe060.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "anime",
+            "url": "https:\/\/www.last.fm\/tag\/anime"
+          },
+          {
+            "name": "J-rock",
+            "url": "https:\/\/www.last.fm\/tag\/J-rock"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          }
+        ]
+      }
+    }
+  }
+}

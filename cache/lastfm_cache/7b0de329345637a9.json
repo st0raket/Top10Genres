@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:11.023391+00:00",
+  "elapsed": 0.210171,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:11.023391+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4542",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dr.+Dre&format=json&method=track.getInfo&track=Still+D.R.E."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dr.+Dre&format=json&method=track.getInfo&track=Still+D.R.E.",
+  "_decoded_content": {
+    "track": {
+      "name": "Still D.R.E.",
+      "mbid": "2b5d868a-bb49-4f1c-baca-59cb0ddb6a52",
+      "url": "https:\/\/www.last.fm\/music\/Dr.+Dre\/_\/Still+D.R.E.",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1546036",
+      "playcount": "9275246",
+      "artist": {
+        "name": "Dr. Dre",
+        "mbid": "5f6ab597-f57a-40da-be9e-adad48708203",
+        "url": "https:\/\/www.last.fm\/music\/Dr.+Dre"
+      },
+      "album": {
+        "artist": "Dr. Dre",
+        "title": "2001: Instrumentals",
+        "mbid": "f3bf9055-8df5-3db6-b311-48fbbdedc0f1",
+        "url": "https:\/\/www.last.fm\/music\/Dr.+Dre\/2001:+Instrumentals",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d8a6417d7c1d30ed4a211bdceb0e8cf9.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          },
+          {
+            "name": "dr dre",
+            "url": "https:\/\/www.last.fm\/tag\/dr+dre"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Jul 2009, 00:28",
+        "summary": "\"Still D.R.E.\" is a song by American rapper Dr. Dre, featuring fellow American rapper Snoop Dogg. It was released on November 2, 1999 as the lead single from Dre's multi-platinum second studio album, 2001 (1999).\n\nThe single itself was popular, helping the album reach multi-platinum status, announcing Dre's return to the forefront of the hip-hop scene. Still D.R.E. debuted and peaked at number 93 on the Billboard Hot 100. It was more successful in the United Kingdom, on the R&B charts where it reached number 1. <a href=\"http:\/\/www.last.fm\/music\/Dr.+Dre\/_\/Still+D.R.E.\">Read more on Last.fm<\/a>.",
+        "content": "\"Still D.R.E.\" is a song by American rapper Dr. Dre, featuring fellow American rapper Snoop Dogg. It was released on November 2, 1999 as the lead single from Dre's multi-platinum second studio album, 2001 (1999).\n\nThe single itself was popular, helping the album reach multi-platinum status, announcing Dre's return to the forefront of the hip-hop scene. Still D.R.E. debuted and peaked at number 93 on the Billboard Hot 100. It was more successful in the United Kingdom, on the R&B charts where it reached number 1. The song is featured in the crime, drama, and thriller Training Day (2001), in the in-game radio station, West Coast Classics, in the video game Grand Theft Auto V (along with \"The Next Episode\"), and was also featured on the American drama series Prison Break.\n\nBackground\nDr. Dre released his highly acclaimed debut solo album The Chronic in 1992. After this, Dre went seven years without releasing an album. During this time he featured on the Billboard Hot 100 chart-toppers \"California Love\" and \"No Diggity\", while also producing Snoop Dogg and Eminem's debut studio albums Doggystyle and The Slim Shady LP, respectively. The stakes were higher for the sequel to The Chronic, so Dre recruited Jay-Z to ghostwrite lyrics for the former's comeback single, \"Still D.R.E.\". \"At first, he wrote about diamonds and Bentleys,\" Dre told Blaze magazine in 1999. \"So I told Jay to write some other shit. Jigga sat for 20 minutes and came back with some hard-ass, around-the-way L.A. shit.\" In an interview on The Breakfast Club, Snoop Dogg elaborated on Jay-Z's contributions on the song. \"He wrote Dre\u2019s shit and my shit and it was flawless,\" he said. \"It was 'Still D.R.E.' and it was Jay-Z and he wrote the whole fucking song.\"\n\nMusic video\nThe music video, directed by Hype Williams, consists mainly of The D.O.C., Snoop Dogg and Dr. Dre driving and riding in lowrider cars (a reference to the \"Nuthin' but a 'G' Thang\" music video from The Chronic album). It features several cameos: Eminem chasing a group of women across a beach, Xzibit driving a lowrider, Funkmaster Flex with Dr. Dre, and Warren G riding with several women. In the background the individual throwing up the W with the crowd next to Snoop Dogg and Dr. Dre right next to the lowrider car was Coldhard from the Chicago based rap group Crucial Conflict. <a href=\"http:\/\/www.last.fm\/music\/Dr.+Dre\/_\/Still+D.R.E.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:29:02.514667+00:00",
+  "elapsed": 0.229462,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:02.514667+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2759",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Need+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Need+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Need Me",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Need+Me",
+      "duration": "265000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9934",
+      "playcount": "36294",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Revival",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Revival",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c4d57cfc28e84d3d90353fd640ca15b3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c4d57cfc28e84d3d90353fd640ca15b3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c4d57cfc28e84d3d90353fd640ca15b3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c4d57cfc28e84d3d90353fd640ca15b3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "10s",
+            "url": "https:\/\/www.last.fm\/tag\/10s"
+          },
+          {
+            "name": "macklemore-like",
+            "url": "https:\/\/www.last.fm\/tag\/macklemore-like"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Oct 2022, 13:47",
+        "summary": "\u201cNeed Me\u201d describes an unhealthy relationship marked by infidelity and lies, however, neither of the two accepts the state of their romance and continue their bad habits instead of ending the relationship. Their love is addictive despite the experiences they have had, something that is emphasized in the hook: \u201cMaybe you need me\u201d.\n\nEm has brought up similar themes on \u201cTragic Endings\u201d and \u201cLove the Way You Lie.\u201d\n\nThe two already collaborated on Eminem\u2019s album \"Recovery\" in \u201cWon\u2019t Back Down\u201d <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Need+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNeed Me\u201d describes an unhealthy relationship marked by infidelity and lies, however, neither of the two accepts the state of their romance and continue their bad habits instead of ending the relationship. Their love is addictive despite the experiences they have had, something that is emphasized in the hook: \u201cMaybe you need me\u201d.\n\nEm has brought up similar themes on \u201cTragic Endings\u201d and \u201cLove the Way You Lie.\u201d\n\nThe two already collaborated on Eminem\u2019s album \"Recovery\" in \u201cWon\u2019t Back Down\u201d, and more recently on P!nk\u2019s \u201cRevenge.\u201d. They also collaborated on P!nk\u2019s album \"The Truth About Love\", on the track \u201cHere Comes the Weekend\u201d.\n\nGrey posted a photo on her Instagram story, in which she detailed her helping hand on four songs, including \u201cNeed Me.\u201d <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Need+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

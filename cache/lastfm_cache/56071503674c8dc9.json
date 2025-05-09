@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:32:54.298708+00:00",
+  "elapsed": 0.221923,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:54.298708+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2532",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=Broke+In+A+Minute"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=Broke+In+A+Minute",
+  "_decoded_content": {
+    "track": {
+      "name": "Broke In A Minute",
+      "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/_\/Broke+In+A+Minute",
+      "duration": "132000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "413413",
+      "playcount": "4273731",
+      "artist": {
+        "name": "Tory Lanez",
+        "mbid": "5b8ec72b-9e39-4a06-a2bf-964166b92a71",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez"
+      },
+      "album": {
+        "artist": "Tory Lanez",
+        "title": "The New Toronto 3",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/The+New+Toronto+3",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/573f5f574a80bdb3c9ab8746468d168f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/573f5f574a80bdb3c9ab8746468d168f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/573f5f574a80bdb3c9ab8746468d168f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/573f5f574a80bdb3c9ab8746468d168f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Oct 2022, 23:40",
+        "summary": "\u201cBroke In A Minute\u201d is a one-off single by Tory Lanez, released on February 7, 2020.\n\nAccording to one of Tory\u2019s Instagram posts promoting the song before its release, the vocals for the song were originally recorded over the NLE Choppa song \u201cShotta Flow\u201d.\n\nThe track\u2019s music video features shots of Tory flexing his cash and car\u2013coinciding with the boastful content of the song\u2013and him performing a dance he calls \u201cThe Jigga Man\u201d.\n\n\"Broke In A Minute\" will soon appear on his project \"The New Toronto 3\" on April 10th 2020 <a href=\"http:\/\/www.last.fm\/music\/Tory+Lanez\/_\/Broke+In+A+Minute\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBroke In A Minute\u201d is a one-off single by Tory Lanez, released on February 7, 2020.\n\nAccording to one of Tory\u2019s Instagram posts promoting the song before its release, the vocals for the song were originally recorded over the NLE Choppa song \u201cShotta Flow\u201d.\n\nThe track\u2019s music video features shots of Tory flexing his cash and car\u2013coinciding with the boastful content of the song\u2013and him performing a dance he calls \u201cThe Jigga Man\u201d.\n\n\"Broke In A Minute\" will soon appear on his project \"The New Toronto 3\" on April 10th 2020 <a href=\"http:\/\/www.last.fm\/music\/Tory+Lanez\/_\/Broke+In+A+Minute\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

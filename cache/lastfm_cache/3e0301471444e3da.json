@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:24.849259+00:00",
+  "elapsed": 0.296679,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:24.849259+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2773",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Mikrokosmos"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BTS&format=json&method=track.getInfo&track=Mikrokosmos",
+  "_decoded_content": {
+    "track": {
+      "name": "Mikrokosmos",
+      "url": "https:\/\/www.last.fm\/music\/BTS\/_\/Mikrokosmos",
+      "duration": "224000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "378902",
+      "playcount": "14922467",
+      "artist": {
+        "name": "BTS",
+        "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+        "url": "https:\/\/www.last.fm\/music\/BTS"
+      },
+      "album": {
+        "artist": "BTS",
+        "title": "MAP OF THE SOUL : PERSONA",
+        "url": "https:\/\/www.last.fm\/music\/BTS\/MAP+OF+THE+SOUL+:+PERSONA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4172cfad0e4900cd93c961c33133ff1d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4172cfad0e4900cd93c961c33133ff1d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4172cfad0e4900cd93c961c33133ff1d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4172cfad0e4900cd93c961c33133ff1d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Masterpiece",
+            "url": "https:\/\/www.last.fm\/tag\/Masterpiece"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "bts",
+            "url": "https:\/\/www.last.fm\/tag\/bts"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Apr 2022, 06:05",
+        "summary": "\u201c\uc18c\uc6b0\uc8fc (Mikrokosmos)\u201d is the 3rd song on BTS' 2019 album \"Map of the Soul: Persona\". The melodic song marvels at the endlessness every human individual possesses.\n\nThe title Mikrokosmos references the ancient Greek philosophy of microcosm, the perception of viewing humans as their own little world or mikros kosmos. Humans are observed in relation to the universe, and, when the universe was first studied, kosmos translated closer to the modern ideal of order. <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Mikrokosmos\">Read more on Last.fm<\/a>.",
+        "content": "\u201c\uc18c\uc6b0\uc8fc (Mikrokosmos)\u201d is the 3rd song on BTS' 2019 album \"Map of the Soul: Persona\". The melodic song marvels at the endlessness every human individual possesses.\n\nThe title Mikrokosmos references the ancient Greek philosophy of microcosm, the perception of viewing humans as their own little world or mikros kosmos. Humans are observed in relation to the universe, and, when the universe was first studied, kosmos translated closer to the modern ideal of order. In a broader sense, microcosm studies the harmonious relationship of each individual in parallel to everything else, which continues BTS' narrative of self discovery and persona.\n\nThe concept of \u201clittle universes\u201d unique to each individual has been around since 2018, during the era of Love Yourself \u7d50 \u2018Answer.\u2019 <a href=\"http:\/\/www.last.fm\/music\/BTS\/_\/Mikrokosmos\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

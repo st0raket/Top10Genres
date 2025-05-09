@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:31:55.846667+00:00",
+  "elapsed": 0.204695,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:55.846667+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2885",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charli+XCX&format=json&method=track.getInfo&track=Gone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Charli+XCX&format=json&method=track.getInfo&track=Gone",
+  "_decoded_content": {
+    "track": {
+      "name": "Gone",
+      "url": "https:\/\/www.last.fm\/music\/Charli+XCX\/_\/Gone",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "296757",
+      "playcount": "3735984",
+      "artist": {
+        "name": "Charli XCX",
+        "mbid": "260b6184-8828-48eb-945c-bc4cb6fc34ca",
+        "url": "https:\/\/www.last.fm\/music\/Charli+XCX"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "glitch pop",
+            "url": "https:\/\/www.last.fm\/tag\/glitch+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2019, 07:10",
+        "summary": "\u201cGone\u201d is the second single from Charli XCX's third studio album, Charli. Released on July 17, 2019, the song is a collaboration with French singer Christine and the Queens.\n\nCharli XCX premiered this song with Christine during her set at Primavera Sound on May 30th, 2019.\n\nIn a post on Instagram, Charli explained the meaning of the song:\n\n\"This song is about those situations where you are surrounded by loads of people but feel so isolated and alone. <a href=\"http:\/\/www.last.fm\/music\/Charli+XCX\/_\/Gone\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGone\u201d is the second single from Charli XCX's third studio album, Charli. Released on July 17, 2019, the song is a collaboration with French singer Christine and the Queens.\n\nCharli XCX premiered this song with Christine during her set at Primavera Sound on May 30th, 2019.\n\nIn a post on Instagram, Charli explained the meaning of the song:\n\n\"This song is about those situations where you are surrounded by loads of people but feel so isolated and alone. I feel like that a lot of the time in social situations. I never know what to do with myself, I feel so insecure and out of place and lost. I feel like a lot of people I know get those feelings. When it comes to me, I\u2019ll either party through it and try to escape my feelings or I will totally cave in. The emotions that come alongside anxiety are so huge and crippling. This song is about breaking down but it\u2019s also about breaking free. It feels like one big external scream. Both this song and video are a huge release of energy for me. When I hear it and when I dance to it I feel truly euphoric and alive, like I\u2019m pushing out all the bad feelings from my brain. Its like I\u2019m channeling all my anger and frustration (and sometimes sadness) into dancing it all away.\"\n\nSpeaking to Apple Music, she also said:\n\n\"This is the bop. The song of the summer, if I don\u2019t say so myself. Me, Christine, dancing on a car, rain: What more do you want? We literally gave you everything.\" <a href=\"http:\/\/www.last.fm\/music\/Charli+XCX\/_\/Gone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

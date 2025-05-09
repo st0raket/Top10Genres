@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:43:13.696151+00:00",
+  "elapsed": 0.222566,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:13.696151+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2477",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=ROSA+PASTEL"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Peso+Pluma&format=json&method=track.getInfo&track=ROSA+PASTEL",
+  "_decoded_content": {
+    "track": {
+      "name": "Rosa Pastel",
+      "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Rosa+Pastel",
+      "duration": "204000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "62521",
+      "playcount": "711508",
+      "artist": {
+        "name": "Peso Pluma",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma"
+      },
+      "album": {
+        "artist": "Peso Pluma",
+        "title": "Rosa Pastel",
+        "url": "https:\/\/www.last.fm\/music\/Peso+Pluma\/Rosa+Pastel",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cbac3b6362c5361a66698a7c2f83f89b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cbac3b6362c5361a66698a7c2f83f89b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cbac3b6362c5361a66698a7c2f83f89b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cbac3b6362c5361a66698a7c2f83f89b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Peso Pluma",
+            "url": "https:\/\/www.last.fm\/tag\/Peso+Pluma"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Sep 2023, 01:09",
+        "summary": "La canci\u00f3n \"Rosa Pastel\" de Peso Pluma y Jasiel N\u00fa\u00f1ez es la historia de un traficante colombiano en Europa. Nos cuenta la historia de una persona joven que hace negocios il\u00edcitos en \u00c1msterdam, metiendo goles que refiere a meter un cargamento de droga dicha ciudad. Con \"Rosa Pastel\", el personaje se refiere a una droga m\u00e1s conocida como \"tusi\", \"2CB\" o \"coca\u00edna rosa\". El \"tusi\" es de origen colombiano por tal motivo hay muchas referencias a Colombia y su modo de hablar <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Rosa+Pastel\">Read more on Last.fm<\/a>.",
+        "content": "La canci\u00f3n \"Rosa Pastel\" de Peso Pluma y Jasiel N\u00fa\u00f1ez es la historia de un traficante colombiano en Europa. Nos cuenta la historia de una persona joven que hace negocios il\u00edcitos en \u00c1msterdam, metiendo goles que refiere a meter un cargamento de droga dicha ciudad. Con \"Rosa Pastel\", el personaje se refiere a una droga m\u00e1s conocida como \"tusi\", \"2CB\" o \"coca\u00edna rosa\". El \"tusi\" es de origen colombiano por tal motivo hay muchas referencias a Colombia y su modo de hablar, esta droga se trafica en Europa por lo cara que es, por lo mismo se menciona la ciudad \u00c1msterdam. Menciona al \"padrino foca\" de quien no se sabe mucho qui\u00e9n es. Dice estar orgulloso de lo que hace y seguir los pasos de su padre. <a href=\"http:\/\/www.last.fm\/music\/Peso+Pluma\/_\/Rosa+Pastel\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

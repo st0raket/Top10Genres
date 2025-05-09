@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:01.638756+00:00",
+  "elapsed": 0.181366,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:01.638756+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3662",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Billie+Bossa+Nova"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Billie+Bossa+Nova",
+  "_decoded_content": {
+    "track": {
+      "name": "Billie Bossa Nova",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Billie+Bossa+Nova",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "820442",
+      "playcount": "11805864",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "Happier Than Ever",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/Happier+Than+Ever",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7ebd8b6f8ac6766fb26303245a265a2e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7ebd8b6f8ac6766fb26303245a265a2e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7ebd8b6f8ac6766fb26303245a265a2e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7ebd8b6f8ac6766fb26303245a265a2e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Bossa Nova",
+            "url": "https:\/\/www.last.fm\/tag\/Bossa+Nova"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "Jazz-Pop",
+            "url": "https:\/\/www.last.fm\/tag\/Jazz-Pop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jul 2021, 05:48",
+        "summary": "\"Billie Bossa Nova\" is a song about the excitement and thrill of a newfound love that the singer wants to keep private. The opening lines describe the singer's preference for love that comes without a warning, as she finds waiting for it to be dull. She sings about how love can make people lose their bearings and keep secrets, such as using different names at check-ins.\n\nIn the pre-chorus, the singer's feelings intensify as she admits that there is something about the way her lover looks that makes her want to capture the moment. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Billie+Bossa+Nova\">Read more on Last.fm<\/a>.",
+        "content": "\"Billie Bossa Nova\" is a song about the excitement and thrill of a newfound love that the singer wants to keep private. The opening lines describe the singer's preference for love that comes without a warning, as she finds waiting for it to be dull. She sings about how love can make people lose their bearings and keep secrets, such as using different names at check-ins.\n\nIn the pre-chorus, the singer's feelings intensify as she admits that there is something about the way her lover looks that makes her want to capture the moment. She wants to make a movie with them that they would have to hide.\n\nThe chorus conveys the singer's desire for privacy and intimacy in their relationship. She tells her lover to lock their phone, implying that she doesn't want anyone else to know about their relationship. She assures them that it won't take much to get them going, and even if it's torture, she promises that she's worth waiting for.\n\nIn the second verse, the singer acknowledges that her feelings for her lover might border on obsession, but she doesn't care. She enjoys the intense connection they share, even if it means that nobody else knows about it.\n\nIn the bridge, the singer repeats her desire for privacy as she tells her lover to lock the door and look at her a little more. She asserts that she's worth waiting for as they engage in heavy breathing on the floor.\n\nOverall, \"Billie Bossa Nova\" is a song about the excitement and secrecy of a new and intense relationship that may be unconventional or hidden from public knowledge. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Billie+Bossa+Nova\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

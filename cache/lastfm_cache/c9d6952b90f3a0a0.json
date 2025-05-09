@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:48.314388+00:00",
+  "elapsed": 0.19112,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:48.314388+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3351",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=All+I+Want"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=All+I+Want",
+  "_decoded_content": {
+    "track": {
+      "name": "All I Want",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/All+I+Want",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "253375",
+      "playcount": "2476019",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "High School Musical: The Musical: The Series",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/High+School+Musical:+The+Musical:+The+Series",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ebef85e318ab9a9e6e4ca6bf136c39f4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ebef85e318ab9a9e6e4ca6bf136c39f4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ebef85e318ab9a9e6e4ca6bf136c39f4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ebef85e318ab9a9e6e4ca6bf136c39f4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "chamber pop",
+            "url": "https:\/\/www.last.fm\/tag\/chamber+pop"
+          },
+          {
+            "name": "Soundtracks",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtracks"
+          },
+          {
+            "name": "yearning",
+            "url": "https:\/\/www.last.fm\/tag\/yearning"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 May 2021, 23:38",
+        "summary": "\"All I Want\" is a song written by Olivia Rodrigo for the mockumentary television series High School Musical: The Musical: The Series. It was performed by Rodrigo's character, Nina \"Nini\" Salazar-Roberts, in the fourth episode of the first season, which aired on November 29, 2019. A ballad with piano and strings, \"All I Want\" was written in three days while Rodrigo was filming the first season. The song was produced by Matthew Tishler and recorded live for the episode during filming. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/All+I+Want\">Read more on Last.fm<\/a>.",
+        "content": "\"All I Want\" is a song written by Olivia Rodrigo for the mockumentary television series High School Musical: The Musical: The Series. It was performed by Rodrigo's character, Nina \"Nini\" Salazar-Roberts, in the fourth episode of the first season, which aired on November 29, 2019. A ballad with piano and strings, \"All I Want\" was written in three days while Rodrigo was filming the first season. The song was produced by Matthew Tishler and recorded live for the episode during filming. It was released on November 27, 2019, through Walt Disney Records as a promotional single from the album High School Musical: The Musical: The Series: The Soundtrack.\n\nDespite not being promoted as a radio single, \"All I Want\" was a minor hit; it debuted on the U.S. Billboard Hot 100 at number 90 in January 2020, mainly due to downloads. It was a trend on the social media platform TikTok and has been certified Gold by the Recording Industry Association of America\u2014this success led to a contract with Interscope Records and the release of Rodrigo's debut single, \"Drivers License\", in 2021. As of January 2021, \"All I Want\" is the most successful song from High School Musical: The Musical: The Series, and has been described as its \"breakout hit\". <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/All+I+Want\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

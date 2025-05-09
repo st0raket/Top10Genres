@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:32:33.058338+00:00",
+  "elapsed": 0.219296,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:33.058338+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2265",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=6+Kiss"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=6+Kiss",
+  "_decoded_content": {
+    "track": {
+      "name": "6 Kiss",
+      "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/_\/6+Kiss",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "150149",
+      "playcount": "1774925",
+      "artist": {
+        "name": "Trippie Redd",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Chill Gaming 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Chill+Gaming+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dcff5a5e7517d77fae0f6a0dbc995804.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dcff5a5e7517d77fae0f6a0dbc995804.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dcff5a5e7517d77fae0f6a0dbc995804.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dcff5a5e7517d77fae0f6a0dbc995804.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Dec 2019, 22:51",
+        "summary": "Trippie Redd enlists the help of YNW Melly and Juice WRLD to croon about their savage lifestyles and relationship with women on \u201c6 Kiss,\u201d a hard core freestyle that features the three artists trading bars.\n\nThis track marks the first collaboration between Trippie Redd and YNW Melly, however, Juice WRLD and Trippie are close friends and previously teased a joint project during a September 2018 No Jumper interview. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/6+Kiss\">Read more on Last.fm<\/a>.",
+        "content": "Trippie Redd enlists the help of YNW Melly and Juice WRLD to croon about their savage lifestyles and relationship with women on \u201c6 Kiss,\u201d a hard core freestyle that features the three artists trading bars.\n\nThis track marks the first collaboration between Trippie Redd and YNW Melly, however, Juice WRLD and Trippie are close friends and previously teased a joint project during a September 2018 No Jumper interview. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/6+Kiss\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

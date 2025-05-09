@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:41:44.244150+00:00",
+  "elapsed": 0.197154,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:44.244150+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1426",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=It%27s+ok+I%27m+ok"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=It%27s+ok+I%27m+ok",
+  "_decoded_content": {
+    "track": {
+      "name": "it's ok i'm ok",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/it%27s+ok+i%27m+ok",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "425186",
+      "playcount": "7885176",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "ended katy",
+            "url": "https:\/\/www.last.fm\/tag\/ended+katy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Sep 2024, 04:28",
+        "summary": "\u2018It\u2019s Ok I\u2019m Ok\u2019 (stylized in sentence case) is a song by Canadian singer\u00a0Tate McRae. It was released on September 12, 2024, through\u00a0RCA Records. It was released as the lead single to McRae\u2019s upcoming third\u00a0studio album. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/it%27s+ok+i%27m+ok\">Read more on Last.fm<\/a>.",
+        "content": "\u2018It\u2019s Ok I\u2019m Ok\u2019 (stylized in sentence case) is a song by Canadian singer\u00a0Tate McRae. It was released on September 12, 2024, through\u00a0RCA Records. It was released as the lead single to McRae\u2019s upcoming third\u00a0studio album. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/it%27s+ok+i%27m+ok\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

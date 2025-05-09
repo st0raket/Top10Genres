@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:05.124193+00:00",
+  "elapsed": 0.18525,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:05.124193+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3434",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=Natural"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Imagine+Dragons&format=json&method=track.getInfo&track=Natural",
+  "_decoded_content": {
+    "track": {
+      "name": "Natural",
+      "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/Natural",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "597266",
+      "playcount": "6309738",
+      "artist": {
+        "name": "Imagine Dragons",
+        "mbid": "012151a8-0f9a-44c9-997f-ebd68b5389f9",
+        "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music! Vol. 68",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music%21+Vol.+68",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3e174c4eb2c30c3b77d9e45eea538dad.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3e174c4eb2c30c3b77d9e45eea538dad.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3e174c4eb2c30c3b77d9e45eea538dad.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3e174c4eb2c30c3b77d9e45eea538dad.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Feb 2020, 12:05",
+        "summary": "\u201cNatural\u201d is Imagine Dragons\u2018 third single after the release of Evolve, following their collaboration with Kygo on \u201cBorn to Be Yours\u201d; it is the lead single for their fourth studio album, Origins. The single\u2019s artwork features the same artist from Evolve, Beeple.\n\nLead singer, Dan Reynolds, noted that \"Natural\" is about \"finding yourself and being willing and able to stand up to whatever adversity comes your way\". He said in a press release announcing the song: \"Living in a dog-eat-dog world can bring out the worst in you <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/Natural\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNatural\u201d is Imagine Dragons\u2018 third single after the release of Evolve, following their collaboration with Kygo on \u201cBorn to Be Yours\u201d; it is the lead single for their fourth studio album, Origins. The single\u2019s artwork features the same artist from Evolve, Beeple.\n\nLead singer, Dan Reynolds, noted that \"Natural\" is about \"finding yourself and being willing and able to stand up to whatever adversity comes your way\". He said in a press release announcing the song: \"Living in a dog-eat-dog world can bring out the worst in you, and sometimes, the best. It would be a lie to tell you I haven't become somewhat skeptical about some things in the last decade of my life. However, I believe that when you truly learn to love yourself, the judging eyes and hateful words become meaningless.\"\nThe song was chosen by ESPN as the anthem of the 2018 College Football season. It is the second time that an Imagine Dragons song was chosen, the first being \"Roots\" in 2015. \"Natural\" embodies the energy, spirit and drama of each team's journey to the College Football Playoff, and that is why it was chosen as this year's anthem,\" said Emeka Ofodile, ESPN vice president of sports marketing. It is also part of the soundtrack for EA Sports' NHL 19. <a href=\"http:\/\/www.last.fm\/music\/Imagine+Dragons\/_\/Natural\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

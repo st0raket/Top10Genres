@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:35.625600+00:00",
+  "elapsed": 0.190591,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:35.625600+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3944",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=jealousy%2C+jealousy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=jealousy%2C+jealousy",
+  "_decoded_content": {
+    "track": {
+      "name": "jealousy, jealousy",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/jealousy,+jealousy",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1157825",
+      "playcount": "20420032",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Watering Plants",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Watering+Plants",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9516c4b4c090c310444f33538b98493e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9516c4b4c090c310444f33538b98493e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9516c4b4c090c310444f33538b98493e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9516c4b4c090c310444f33538b98493e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 May 2021, 19:25",
+        "summary": "\u201cjealousy, jealousy\u201d is about the unrealistic standards society has set for young people, most notably young women, particularly on social media.\n\nOn the track, Olivia sings about the constant comparison and self-hatred that social media often leads to. In April 2020 Olivia performed an unreleased song with a similar theme, also discussing the warped version of reality that social media can present.\n\nWhen speaking to the BBC in March 2021, Olivia shared this about \u201cjealousy, jealousy\u201d: <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/jealousy,+jealousy\">Read more on Last.fm<\/a>.",
+        "content": "\u201cjealousy, jealousy\u201d is about the unrealistic standards society has set for young people, most notably young women, particularly on social media.\n\nOn the track, Olivia sings about the constant comparison and self-hatred that social media often leads to. In April 2020 Olivia performed an unreleased song with a similar theme, also discussing the warped version of reality that social media can present.\n\nWhen speaking to the BBC in March 2021, Olivia shared this about \u201cjealousy, jealousy\u201d:\n\n\"I wrote that song at a time when I was borderline addicted to social media and I just felt crippled by the comparisons. I am someone who has somewhat of a large following, so I think it\u2019s cool that I can be like, \u2018Yo, I still hate myself. I still compare myself to other girls.\u2019\"\n\n\"[\u201cjealousy, jealousy\u201d] was one of the first songs that I wrote on the record with this wonderful writer named Casey Smith. In this time period, I was super obsessed with social media. I would look for things that would hurt my feelings all the time and compare myself to everyone. I felt like my life was only what I showed to others. I didn\u2019t feel like my life was any deeper than my Instagram feed. That\u2019s a really troubling mindset to be in as a teenager. And so I guess I wanted to write a song about that. It isn\u2019t sad or \u201cOh, I don\u2019t feel like I\u2019m enough,\u201d it\u2019s \"Oh, God, I\u2019m so jealous.\u201d It\u2019s tongue-in-cheek, and a little funny to me. But the sonics on the song are the reason why we put it on the record. There\u2019s this piano in the bridge that\u2019s so convoluted and almost atonal. Sometimes it just doesn\u2019t go with the music and it\u2019s so chaotic.\" - via Nylong\n\n\u201cjealousy, jealousy\u201d debuted and peaked at #24 on the Hot 100 during the week ending June 5, 2021. \n\n\u201cjealousy, jealousy\u201d was certified gold by the RIAA on November 17, 2021. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/jealousy,+jealousy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

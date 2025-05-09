@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:32:54.093153+00:00",
+  "elapsed": 0.204473,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:54.093153+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4144",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Hips+Don%27t+Lie"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shakira&format=json&method=track.getInfo&track=Hips+Don%27t+Lie",
+  "_decoded_content": {
+    "track": {
+      "name": "Hips Don't Lie",
+      "mbid": "2c0b2787-307c-49e9-b2e9-5b1ddd6e713e",
+      "url": "https:\/\/www.last.fm\/music\/Shakira\/_\/Hips+Don%27t+Lie",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "634686",
+      "playcount": "3540062",
+      "artist": {
+        "name": "Shakira",
+        "mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+        "url": "https:\/\/www.last.fm\/music\/Shakira"
+      },
+      "album": {
+        "artist": "Shakira",
+        "title": "Illegal",
+        "mbid": "c98dfe2c-3f09-46b8-b014-74146de123b6",
+        "url": "https:\/\/www.last.fm\/music\/Shakira\/Illegal",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/303a856fd8263e8aeb37044de5d1c02d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/303a856fd8263e8aeb37044de5d1c02d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/303a856fd8263e8aeb37044de5d1c02d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/303a856fd8263e8aeb37044de5d1c02d.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Shakira",
+            "url": "https:\/\/www.last.fm\/tag\/Shakira"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Jul 2009, 04:15",
+        "summary": "\"Hips Don't Lie\" is a Latin pop song based in a salsa and Cumbia mix and fused with reggaeton beat (reggaeton pop) performed by Colombian singer Shakira and Haitian rapper Wyclef Jean. The song is a remake of Jean's 2004 song \"Dance Like This\" and takes some of its instrumentation from Jerry Rivera's \"Amores Como El Nuestro\" (which was also used for Lord Tariq and Peter Gunz's hit single \"D\u00e9j\u00e0 Vu (Uptown Baby)\") and lyrics from Dominican composer Luis Dias' \"Carnaval (Baila en la Calle)\". <a href=\"http:\/\/www.last.fm\/music\/Shakira\/_\/Hips+Don%27t+Lie\">Read more on Last.fm<\/a>.",
+        "content": "\"Hips Don't Lie\" is a Latin pop song based in a salsa and Cumbia mix and fused with reggaeton beat (reggaeton pop) performed by Colombian singer Shakira and Haitian rapper Wyclef Jean. The song is a remake of Jean's 2004 song \"Dance Like This\" and takes some of its instrumentation from Jerry Rivera's \"Amores Como El Nuestro\" (which was also used for Lord Tariq and Peter Gunz's hit single \"D\u00e9j\u00e0 Vu (Uptown Baby)\") and lyrics from Dominican composer Luis Dias' \"Carnaval (Baila en la Calle)\".Shakira wrote the verses (keeping the original chorus) and co-produced the song. The song was released as the second single from Shakira's second English album Oral Fixation Vol. 2 in 2006. \"Hips Don't Lie\" became a global success, topping the charts in at least 55 countries. It became Shakira and Wyclef's first (and to date, only) number-one single in the U.S. The song became one of the world's best-selling singles of all time and one of the hottest songs of summer 2006. In the UK, this was Wyclef's third number-one hit (after The Fugees' \"Killing Me Softly\" and \"Ready Or Not\") and Shakira's first. In many other countries, it became Shakira's second number one, (following the massive success of \"Whenever, Wherever\") and her third number-one single in other countries such as Australia and Netherlands (after \"Underneath Your Clothes\").\n\nThe song made Shakira the only Colombian and South American artist in history to top the U.S. Hot 100. An international remix was released digitally and produced by Boston's DJ Niso International on April 21, 2006.\n\nThere is also a lesser known Spanish version of the song called \"Ser\u00e1, Ser\u00e1 (Las Caderas No Mienten)\" which can be translated to \"Will Be, Will Be (Hips Don't Lie)\". It was released in Latin America, although some radios preferred to play the original version. This version has different verses and a different chorus, whilst the rap by Wyclef Jean is kept in English. The Fray has covered this song in Jo Whiley's live lounge. <a href=\"http:\/\/www.last.fm\/music\/Shakira\/_\/Hips+Don%27t+Lie\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

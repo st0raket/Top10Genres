@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:37:04.300736+00:00",
+  "elapsed": 0.209343,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:04.300736+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "880",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wisin&format=json&method=track.getInfo&track=Buenos+D%C3%ADas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wisin&format=json&method=track.getInfo&track=Buenos+D%C3%ADas",
+  "_decoded_content": {
+    "track": {
+      "name": "Buenos D\u00edas",
+      "url": "https:\/\/www.last.fm\/music\/Wisin\/_\/Buenos+D%C3%ADas",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "16178",
+      "playcount": "82973",
+      "artist": {
+        "name": "Wisin",
+        "mbid": "6a6eea03-b435-446c-bab1-312b45580aee",
+        "url": "https:\/\/www.last.fm\/music\/Wisin"
+      },
+      "album": {
+        "artist": "Wisin",
+        "title": "Buenos D\u00edas",
+        "url": "https:\/\/www.last.fm\/music\/Wisin\/Buenos+D%C3%ADas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/edbade74c88235b93245de1f1fdb7899.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/edbade74c88235b93245de1f1fdb7899.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/edbade74c88235b93245de1f1fdb7899.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/edbade74c88235b93245de1f1fdb7899.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

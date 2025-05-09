@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:13.305606+00:00",
+  "elapsed": 0.183354,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:13.305606+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3270",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=End+Of+An+Era"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=End+Of+An+Era",
+  "_decoded_content": {
+    "track": {
+      "name": "End of an Era",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/End+of+an+Era",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "270075",
+      "playcount": "2594036",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Radical Optimism",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Radical+Optimism",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1f2035c855ce3e5c53f2f908a5dc9d5c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "betterthantaylorswift",
+            "url": "https:\/\/www.last.fm\/tag\/betterthantaylorswift"
+          },
+          {
+            "name": "Bossa Nova",
+            "url": "https:\/\/www.last.fm\/tag\/Bossa+Nova"
+          },
+          {
+            "name": "ambient",
+            "url": "https:\/\/www.last.fm\/tag\/ambient"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2024, 12:51",
+        "summary": "\u201cEnd Of An Era\u201c serves as the first song from Dua Lipa\u2019s third album, Radical Optimism, and, ironically, starts her new era. This proves to be an excellent choice for a first track.\n\nShe proclaims herself to be a hopeless romantic who thinks, wishfully, that her new love interest might be the one and that this connection could mark the end of her \u201csingle\u201d era. She lets go of all the doubt and chooses to lose herself in the positive-looking outcome of a kiss, which promises forever. This sets the theme of the album. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/End+of+an+Era\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEnd Of An Era\u201c serves as the first song from Dua Lipa\u2019s third album, Radical Optimism, and, ironically, starts her new era. This proves to be an excellent choice for a first track.\n\nShe proclaims herself to be a hopeless romantic who thinks, wishfully, that her new love interest might be the one and that this connection could mark the end of her \u201csingle\u201d era. She lets go of all the doubt and chooses to lose herself in the positive-looking outcome of a kiss, which promises forever. This sets the theme of the album.\n\n\u201cWe went through quite a few verses and we changed a bit of that. When we started writing \u201cEnd of an Era\u201d, we started on the production and then we started writing melodies. And I was like \u201cThis isn\u2019t right\u201d so I actually called off that session. I was like we\u2019re going to leave Kevin and Danny to just work on the track for the day and we\u2019re going to leave because I feel like we\u2019re getting block and we\u2019re hitting a wall. We\u2019re not getting the right melodies. It just didn\u2019t feel right so we left. We came back the next day and we heard the the track with fresh ears. We were like ready and it just gave us a whole new lease of energy.\u201c \u2014 via Zach Sang Show <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/End+of+an+Era\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

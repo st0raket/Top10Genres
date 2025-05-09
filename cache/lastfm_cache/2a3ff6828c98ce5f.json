@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:33:23.940376+00:00",
+  "elapsed": 0.20257,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:23.940376+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3376",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=THE+SCOTTS&format=json&method=track.getInfo&track=THE+SCOTTS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=THE+SCOTTS&format=json&method=track.getInfo&track=THE+SCOTTS",
+  "_decoded_content": {
+    "track": {
+      "name": "THE SCOTTS",
+      "url": "https:\/\/www.last.fm\/music\/THE+SCOTTS\/_\/THE+SCOTTS",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "553385",
+      "playcount": "5319339",
+      "artist": {
+        "name": "THE SCOTTS",
+        "url": "https:\/\/www.last.fm\/music\/THE+SCOTTS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "kid cudi",
+            "url": "https:\/\/www.last.fm\/tag\/kid+cudi"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Jun 2020, 10:04",
+        "summary": "\"THE SCOTTS\" is a song by American hip-hop super-duo The Scotts, composed of rappers Travis Scott and Kid Cudi. It was released in various formats, including on 7-inch vinyl, cassette, and as a CD single through Epic, Cactus Jack, and Wicked Awesome on April 24, 2020. Four different visuals on YouTube supported the song release.\n\nThe song debuted atop the Billboard Hot 100, for the chart dated May 9, 2020, becoming Scott's third US number-one single, following \"Sicko Mode\" and \"Highest in the Room\" as Cudi's first US number-one single. <a href=\"http:\/\/www.last.fm\/music\/THE+SCOTTS\/_\/THE+SCOTTS\">Read more on Last.fm<\/a>.",
+        "content": "\"THE SCOTTS\" is a song by American hip-hop super-duo The Scotts, composed of rappers Travis Scott and Kid Cudi. It was released in various formats, including on 7-inch vinyl, cassette, and as a CD single through Epic, Cactus Jack, and Wicked Awesome on April 24, 2020. Four different visuals on YouTube supported the song release.\n\nThe song debuted atop the Billboard Hot 100, for the chart dated May 9, 2020, becoming Scott's third US number-one single, following \"Sicko Mode\" and \"Highest in the Room\" as Cudi's first US number-one single.\n\nBoth artists had previously collaborated on Scott's \"Through the Late Night\" and \"Way Back\" on Birds in the Trap Sing McKnight, Cudi's \"Baptized in Fire\" on Passion, Pain & Demon Slayin', and Scott's \"Stop Trying to Be God\" on Astroworld. On September 3, 2021, Kid Cudi stated via Twitter that a full-length \"THE SCOTTS\" album was in store for the future, though he noted that he did not know when it would happen, only that it would come at some point. In December 2022, Cudi revealed he was no longer working on the album, effectively announcing its cancellation.\n\nOn April 20, 2020, it was reported that Scott teamed up with Fortnite Battle Royale to start a virtual tour through the game called \"Astronomical\" starting on April 23 until April 25. The rapper would premiere and play a new song at several different times during the game. Players of the game got to hear snippets of the song before its official release. In total, the concert was witnessed by an audience of over 12 million players. On April 23, Scott revealed the cover art of the song on his Instagram and announced that the song would feature Kid Cudi. The song title is a reference to Scott's stage surname and Cudi's real first name, which inspired Scott to take the name in the first place. The cover art of the single was created by American artist Kaws. <a href=\"http:\/\/www.last.fm\/music\/THE+SCOTTS\/_\/THE+SCOTTS\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

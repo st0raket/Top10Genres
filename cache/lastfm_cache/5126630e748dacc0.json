@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:19.298353+00:00",
+  "elapsed": 0.185217,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:19.298353+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2552",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=TALES+OF+DOMINICA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=TALES+OF+DOMINICA",
+  "_decoded_content": {
+    "track": {
+      "name": "TALES OF DOMINICA",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/TALES+OF+DOMINICA",
+      "duration": "146000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "256726",
+      "playcount": "2283962",
+      "artist": {
+        "name": "Lil Nas X",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X"
+      },
+      "album": {
+        "artist": "Lil Nas X",
+        "title": "MONTERO",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/MONTERO",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2d4c04914fe4eac2ebf5363c7dad0d0c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2d4c04914fe4eac2ebf5363c7dad0d0c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2d4c04914fe4eac2ebf5363c7dad0d0c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2d4c04914fe4eac2ebf5363c7dad0d0c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Comercial",
+            "url": "https:\/\/www.last.fm\/tag\/Comercial"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Apr 2022, 04:39",
+        "summary": "\"TALES OF DOMINICA\" is the tenth song on the debut studio album MONTERO. This song details lyrics about dysfunctional family relationships, depressive moments in life, and the hopelessness that one can feel in darker times. Introspective and honest, it adds another layer of depth and vulnerability to an already personal debut.\n\nThe track\u2019s name was revealed on September 1st, 2021 in a tweet revealing the tracklist, and the music video shows images of a half-wild family home and LNX alone within it all. <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/TALES+OF+DOMINICA\">Read more on Last.fm<\/a>.",
+        "content": "\"TALES OF DOMINICA\" is the tenth song on the debut studio album MONTERO. This song details lyrics about dysfunctional family relationships, depressive moments in life, and the hopelessness that one can feel in darker times. Introspective and honest, it adds another layer of depth and vulnerability to an already personal debut.\n\nThe track\u2019s name was revealed on September 1st, 2021 in a tweet revealing the tracklist, and the music video shows images of a half-wild family home and LNX alone within it all. <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/TALES+OF+DOMINICA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

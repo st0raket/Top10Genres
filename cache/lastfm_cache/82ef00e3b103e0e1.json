@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:37.413266+00:00",
+  "elapsed": 0.206463,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:37.413266+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2321",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=To+Be+So+Lonely"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Harry+Styles&format=json&method=track.getInfo&track=To+Be+So+Lonely",
+  "_decoded_content": {
+    "track": {
+      "name": "To Be So Lonely",
+      "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/_\/To+Be+So+Lonely",
+      "duration": "192000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "479844",
+      "playcount": "5988735",
+      "artist": {
+        "name": "Harry Styles",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles"
+      },
+      "album": {
+        "artist": "Harry Styles",
+        "title": "Fine Line",
+        "url": "https:\/\/www.last.fm\/music\/Harry+Styles\/Fine+Line",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7940fbb1df766b4683951aed490a8b5a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Jan 2022, 05:54",
+        "summary": "After the emotional ballads of \u201cCherry\u201d and \u201cFalling\u201d, \u201cTo Be So Lonely\u201d resembles a drunk phone call that may come at the denial stage of grief, after anger (\u201cCherry\u201d) and depression (\u201cFalling\u201d). This is portrayed in the lack of blame Harry feels for the end of the relationship, and is represented by the carefree tone of the song despite the complaints of loneliness within it. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/To+Be+So+Lonely\">Read more on Last.fm<\/a>.",
+        "content": "After the emotional ballads of \u201cCherry\u201d and \u201cFalling\u201d, \u201cTo Be So Lonely\u201d resembles a drunk phone call that may come at the denial stage of grief, after anger (\u201cCherry\u201d) and depression (\u201cFalling\u201d). This is portrayed in the lack of blame Harry feels for the end of the relationship, and is represented by the carefree tone of the song despite the complaints of loneliness within it. <a href=\"http:\/\/www.last.fm\/music\/Harry+Styles\/_\/To+Be+So+Lonely\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

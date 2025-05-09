@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:08.583912+00:00",
+  "elapsed": 0.180614,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:08.583912+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2877",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tove+Lo&format=json&method=track.getInfo&track=Cool+Girl"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tove+Lo&format=json&method=track.getInfo&track=Cool+Girl",
+  "_decoded_content": {
+    "track": {
+      "name": "Cool Girl",
+      "url": "https:\/\/www.last.fm\/music\/Tove+Lo\/_\/Cool+Girl",
+      "duration": "199000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "366106",
+      "playcount": "3435272",
+      "artist": {
+        "name": "Tove Lo",
+        "mbid": "56756959-1e78-429c-b897-e1d056cb0225",
+        "url": "https:\/\/www.last.fm\/music\/Tove+Lo"
+      },
+      "album": {
+        "artist": "Tove Lo",
+        "title": "Lady Wood",
+        "url": "https:\/\/www.last.fm\/music\/Tove+Lo\/Lady+Wood",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e41b3efe5953a66c42d06f959a15b2db.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e41b3efe5953a66c42d06f959a15b2db.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e41b3efe5953a66c42d06f959a15b2db.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e41b3efe5953a66c42d06f959a15b2db.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "best of 2016",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+2016"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "2016",
+            "url": "https:\/\/www.last.fm\/tag\/2016"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Aug 2016, 02:00",
+        "summary": "Cool Girl is a song by Swedish recording artist Tove Lo. It was written by Tove with the record production duo The Struts, who also produced the track. \"Cool Girl\" was released on 4 August 2016 as the lead single from her second studio album, \"Lady Wood.\"\n\n\"Cool Girl\" is a technopop song written by Tove Lo, Ludvig S\u00f6derberg, and Jakob Jerlstr\u00f6m, with its production handled by the latter two as the production duo The Struts. Lyrically, the song is about an invitation to form a non-traditional and non-monogamous romance <a href=\"http:\/\/www.last.fm\/music\/Tove+Lo\/_\/Cool+Girl\">Read more on Last.fm<\/a>.",
+        "content": "Cool Girl is a song by Swedish recording artist Tove Lo. It was written by Tove with the record production duo The Struts, who also produced the track. \"Cool Girl\" was released on 4 August 2016 as the lead single from her second studio album, \"Lady Wood.\"\n\n\"Cool Girl\" is a technopop song written by Tove Lo, Ludvig S\u00f6derberg, and Jakob Jerlstr\u00f6m, with its production handled by the latter two as the production duo The Struts. Lyrically, the song is about an invitation to form a non-traditional and non-monogamous romance, in which the singer describes herself as a \"cool girl\" interested in an open relationship. According to Lo, the song's main lyrical theme was inspired by a scene from the feature film Gone Girl (2014), where the its titular character (portayed by Rosamund Pike) \"goes from being a victim to a psycho.\" <a href=\"http:\/\/www.last.fm\/music\/Tove+Lo\/_\/Cool+Girl\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

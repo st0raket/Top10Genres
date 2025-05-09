@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:50.703130+00:00",
+  "elapsed": 0.346258,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:50.703130+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6332",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Anyone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Anyone",
+  "_decoded_content": {
+    "track": {
+      "name": "Anyone",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Anyone",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "323063",
+      "playcount": "3264480",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Good Songs",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Good+Songs",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b7f0d3cb07e631fd10554c94737b6872.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b7f0d3cb07e631fd10554c94737b6872.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b7f0d3cb07e631fd10554c94737b6872.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b7f0d3cb07e631fd10554c94737b6872.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "black metal",
+            "url": "https:\/\/www.last.fm\/tag\/black+metal"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "justin bieber",
+            "url": "https:\/\/www.last.fm\/tag\/justin+bieber"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Apr 2022, 15:56",
+        "summary": "\"Anyone\" is a song by Canadian singer Justin Bieber. It was released through Def Jam Recordings on January 1, 2021, as the third single from his sixth studio album \"Justice\". Bieber wrote the song with producers Jon Bellion, Andrew Watt, and the Monsters & Strangerz production trio (Alexander Izquierdo, Jordan K. Johnson, and Stefan Johnson), alongside Michael Pollack and Raul Cubina.\n\n\"Anyone\u201d is an 80s- and 90s-informed arena-ready Pop track with a rhythmic pulse and a huge chorus <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Anyone\">Read more on Last.fm<\/a>.",
+        "content": "\"Anyone\" is a song by Canadian singer Justin Bieber. It was released through Def Jam Recordings on January 1, 2021, as the third single from his sixth studio album \"Justice\". Bieber wrote the song with producers Jon Bellion, Andrew Watt, and the Monsters & Strangerz production trio (Alexander Izquierdo, Jordan K. Johnson, and Stefan Johnson), alongside Michael Pollack and Raul Cubina.\n\n\"Anyone\u201d is an 80s- and 90s-informed arena-ready Pop track with a rhythmic pulse and a huge chorus, kind of a like a soft, fizzy, synthetic take on the sound of \"Joshua Tree\"-era U2.\n\nAt the 64th Annual Grammy Awards \"Anyone\" received a nomination for Best Pop Solo Performance.\n\nBieber revealed on April 10, 2020, during an Instagram Live that he had recorded a song called \"Anyone\". On December 30, 2020, Bieber announced on Twitter that the song would be released on January 1, 2021. He revealed the cover art and a 15-second trailer of the song's accompanying music video the following day.\n\nOn December 31, 2020, Bieber performed his first full concert since 2017, which included the debut performance of \"Anyone\". Speaking of the song, Bieber said: \"'Anyone' is such a special, hopeful, anthemic song. It sets the tone for a brighter new year full of hope and possibility\".\n\n\"Anyone\" debuted at its peak of number two on the Canadian Hot 100 issued for January 16, 2021. Music Canada certified the song Double Platinum. On the US Billboard Hot 100, it debuted and peaked at number six; it earned a Gold certification from the Recording Industry Association of America (RIAA), which denotes 500,000 units based on sales and track-equivalent on-demand streams. \"Anyone\" entered at number four on the UK Singles Chart, and the British Phonographic Industry (BPI) certified it Silver. In Australia, the song debuted at number five and went Platinum. It peaked at number nine in New Zealand and received a Gold certification. \"Anyone\" charted within the top 10 of national record charts, at number two in Norway, number three in Denmark, number four in Hungary, Singapore, number five in Ireland, number six in Sweden, number seven in the Netherlands, number eight in Malaysia, and number nine in Finland. It received a Platinum certification in Denmark.\n\nThe music video premiered on YouTube on January 1, 2021 at 05:00 UTC (midnight Eastern Standard Time). It was directed by American music video director and film maker Colin Tilley and stars American actress Zoey Deutch who plays Bieber's love interest in the video. Bieber portrays a 1940s boxer whose powerful love for his other half inspires him to train, fight, and eventually overcome a potential K.O. on his journey to becoming a champion. For the music video, Bieber covered up all of his tattoos.\n\nBieber performed the song for the first time during his New Year's Eve concert on December 31, 2020. He later performed the song on March 13, 2021, during the 2021 Kids' Choice Awards. On May 2, 2021, he performed the song on Big Brother Brasil 21.\n\nIn February 2021, American music professional Rick Beato compared \"Anyone\" to \"Goin' Home\", a song by American rock band Toto. He expressed his opinion that the choruses of the songs are written in the same key, and the melody and tempo are almost the same. Canadian radio station CKDR-FM expressed a similar opinion. American guitarist and Toto's founding member Steve Lukather accused Bieber of stealing \"Goin' Home\" in a May 2021 interview.\n\nCredits adapted from Tidal.\n\nJustin Bieber \u2013 lead vocals, songwriting, background vocals\nAndrew Watt \u2013 production, songwriting, background vocals, drums, guitar, keyboards\nJon Bellion \u2013 production, songwriting, background vocals, bass, drums, programming\nThe Monsters & Strangerz \u2013 production, keyboards, programming\nAlexander Izquierdo \u2013 songwriting, background vocals\nJordan K. Johnson \u2013 songwriting, background vocals\nStefan Johnson \u2013 songwriting, background vocals\nMichael Pollack \u2013 songwriting, background vocals, keyboards\nRaul Cubina \u2013 songwriting, background vocals, percussion\nHeidi Wang \u2013 mixing assistance\nColin Leonard \u2013 mastering\nJosh Gudwin \u2013 mixing\nCharlie Puth \u2013 piano\nDevin Nakao \u2013 record engineering\nPaul LaMalfa \u2013 record engineering <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Anyone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:03.193310+00:00",
+  "elapsed": 0.199684,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:03.193310+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2492",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Topic&format=json&method=track.getInfo&track=Chain+My+Heart"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Topic&format=json&method=track.getInfo&track=Chain+My+Heart",
+  "_decoded_content": {
+    "track": {
+      "name": "Chain My Heart",
+      "url": "https:\/\/www.last.fm\/music\/Topic\/_\/Chain+My+Heart",
+      "duration": "147000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "80220",
+      "playcount": "551286",
+      "artist": {
+        "name": "Topic",
+        "url": "https:\/\/www.last.fm\/music\/Topic"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "He\u2019s All That (Music From The Netflix Film)",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/He%E2%80%99s+All+That+(Music+From+The+Netflix+Film)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7e3efdd83ee9780e2c7568a1844b0ab3.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7e3efdd83ee9780e2c7568a1844b0ab3.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7e3efdd83ee9780e2c7568a1844b0ab3.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7e3efdd83ee9780e2c7568a1844b0ab3.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Mar 2025, 19:58",
+        "summary": "\"Chain My Heart\" is a song by German DJ  Topic and American singer  Bebe Rexha. It was released as a single on 11 June 2021 by Virgin Records. The official music video was uploaded on 13 July 2021, and it was directed by Jason Lester. It shows Topic and Rexha with a group of \"leather-clad dancers\" through an industrial Los Angeles location. The video was also noted to feature a \"nod to 80s videos and action films and a wink to Berlin nightlife\". <a href=\"http:\/\/www.last.fm\/music\/Topic\/_\/Chain+My+Heart\">Read more on Last.fm<\/a>.",
+        "content": "\"Chain My Heart\" is a song by German DJ  Topic and American singer  Bebe Rexha. It was released as a single on 11 June 2021 by Virgin Records. The official music video was uploaded on 13 July 2021, and it was directed by Jason Lester. It shows Topic and Rexha with a group of \"leather-clad dancers\" through an industrial Los Angeles location. The video was also noted to feature a \"nod to 80s videos and action films and a wink to Berlin nightlife\". <a href=\"http:\/\/www.last.fm\/music\/Topic\/_\/Chain+My+Heart\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

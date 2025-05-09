@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:03.728680+00:00",
+  "elapsed": 0.331809,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:03.728680+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2058",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=blackbear&format=json&method=track.getInfo&track=me+%26+ur+ghost"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=blackbear&format=json&method=track.getInfo&track=me+%26+ur+ghost",
+  "_decoded_content": {
+    "track": {
+      "name": "me & ur ghost",
+      "url": "https:\/\/www.last.fm\/music\/Blackbear\/_\/me+&+ur+ghost",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "194179",
+      "playcount": "1903709",
+      "artist": {
+        "name": "Blackbear",
+        "url": "https:\/\/www.last.fm\/music\/Blackbear"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 15:54",
+        "summary": "\u201cme & ur ghost\u201d is blackbear\u2019s second single succeeding his sixth studio album \"everything means nothing\", and directly follows the commercial success of \u201chot girl bummer,\u201d which peaked at #11 on the US Billboard Hot 100.\n\nblackbear posted a snippet of the track\u2019s chorus and another snippet of the second verse on his Instagram story in September 2019. He confirmed the release month in a brief radio interview at the end of his \u201cdead 2 the world tour,\u201d and later announced the precise date via his Instagram story. <a href=\"http:\/\/www.last.fm\/music\/Blackbear\/_\/me+&+ur+ghost\">Read more on Last.fm<\/a>.",
+        "content": "\u201cme & ur ghost\u201d is blackbear\u2019s second single succeeding his sixth studio album \"everything means nothing\", and directly follows the commercial success of \u201chot girl bummer,\u201d which peaked at #11 on the US Billboard Hot 100.\n\nblackbear posted a snippet of the track\u2019s chorus and another snippet of the second verse on his Instagram story in September 2019. He confirmed the release month in a brief radio interview at the end of his \u201cdead 2 the world tour,\u201d and later announced the precise date via his Instagram story. The music video premiered at 12 PM EST on release day. <a href=\"http:\/\/www.last.fm\/music\/Blackbear\/_\/me+&+ur+ghost\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:41:03.698343+00:00",
+  "elapsed": 0.283088,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:03.698343+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2989",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:04 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Huntin%E2%80%99+Wabbitz"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Huntin%E2%80%99+Wabbitz",
+  "_decoded_content": {
+    "track": {
+      "name": "Huntin\u2019 Wabbitz",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/Huntin%E2%80%99+Wabbitz",
+      "duration": "162000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "191608",
+      "playcount": "1394133",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "J. Cole",
+        "title": "Might Delete Later",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole\/Might+Delete+Later",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/55a07ecae2274ac7ffde346d6b4a1fdb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/55a07ecae2274ac7ffde346d6b4a1fdb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/55a07ecae2274ac7ffde346d6b4a1fdb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/55a07ecae2274ac7ffde346d6b4a1fdb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "meatcanyon",
+            "url": "https:\/\/www.last.fm\/tag\/meatcanyon"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jan 2025, 06:54",
+        "summary": "Huntin' Wabbitz is the fourth song on J. Cole\u2019s \u201cMight Delete Later\u201d project. It was produced by T-Minus, Charlie Heat and Ibrahim Hamad who is also the co-founder of J. Cole\u2019s Dreamville. The song features psychadelic production and laid-back, relaxed bars from Cole. The song samples sections from \u201cWabbit Season\u201d, which is a popular video created by YouTuber MeatCanyon, who is known for creating funny, but disturbing videos. \u201cWabbit Season\u201d is MeatCanyon\u2019s interpretation of Looney Tunes. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Huntin%E2%80%99+Wabbitz\">Read more on Last.fm<\/a>.",
+        "content": "Huntin' Wabbitz is the fourth song on J. Cole\u2019s \u201cMight Delete Later\u201d project. It was produced by T-Minus, Charlie Heat and Ibrahim Hamad who is also the co-founder of J. Cole\u2019s Dreamville. The song features psychadelic production and laid-back, relaxed bars from Cole. The song samples sections from \u201cWabbit Season\u201d, which is a popular video created by YouTuber MeatCanyon, who is known for creating funny, but disturbing videos. \u201cWabbit Season\u201d is MeatCanyon\u2019s interpretation of Looney Tunes.\n\nThe instrumental of Huntin' Wabbitz also includes a sample from the Italian composition \u201cLa modella\u201d (1969), written by Giuseppe De Luca with vocals by Nora Orlandi, originally composed for the soundtrack of the Italian film \u201cL'altra faccia del peccato\u201d. \u201cLa modella\u201d comes from the catalog of CAM Sugar, an Italian label renowned for its archive of classic Italian film music, frequently selected for sampling in rap music. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Huntin%E2%80%99+Wabbitz\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

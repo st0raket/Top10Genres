@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:43:28.072994+00:00",
+  "elapsed": 0.200708,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:28.072994+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2149",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fivio+Foreign&format=json&method=track.getInfo&track=Paris+to+Tokyo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fivio+Foreign&format=json&method=track.getInfo&track=Paris+to+Tokyo",
+  "_decoded_content": {
+    "track": {
+      "name": "Paris to Tokyo",
+      "url": "https:\/\/www.last.fm\/music\/Fivio+Foreign\/_\/Paris+to+Tokyo",
+      "duration": "130000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "98383",
+      "playcount": "1068188",
+      "artist": {
+        "name": "Fivio Foreign",
+        "url": "https:\/\/www.last.fm\/music\/Fivio+Foreign"
+      },
+      "album": {
+        "artist": "Fivio Foreign",
+        "title": "Paris to Tokyo",
+        "url": "https:\/\/www.last.fm\/music\/Fivio+Foreign\/Paris+to+Tokyo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f895191e7deaf1cad1fb86f7608af165.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f895191e7deaf1cad1fb86f7608af165.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f895191e7deaf1cad1fb86f7608af165.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f895191e7deaf1cad1fb86f7608af165.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop drill",
+            "url": "https:\/\/www.last.fm\/tag\/pop+drill"
+          },
+          {
+            "name": "ny drill",
+            "url": "https:\/\/www.last.fm\/tag\/ny+drill"
+          },
+          {
+            "name": "The Kid Laroi",
+            "url": "https:\/\/www.last.fm\/tag\/The+Kid+Laroi"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Mar 2023, 01:35",
+        "summary": "\"Paris to Tokyo\" is a song by American rapper Fivio Foreign and Australian rapper and singer the Kid Laroi.  It was released as a single on July 8, 2022, and was added to Fivio's debut studio album, B.I.B.L.E., exactly one week later. The song was solely produced by SB and samples Far East Movement's 2010 single, \"Rocketeer\", which features Ryan Tedder. <a href=\"http:\/\/www.last.fm\/music\/Fivio+Foreign\/_\/Paris+to+Tokyo\">Read more on Last.fm<\/a>.",
+        "content": "\"Paris to Tokyo\" is a song by American rapper Fivio Foreign and Australian rapper and singer the Kid Laroi.  It was released as a single on July 8, 2022, and was added to Fivio's debut studio album, B.I.B.L.E., exactly one week later. The song was solely produced by SB and samples Far East Movement's 2010 single, \"Rocketeer\", which features Ryan Tedder. <a href=\"http:\/\/www.last.fm\/music\/Fivio+Foreign\/_\/Paris+to+Tokyo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

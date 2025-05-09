@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:14.593882+00:00",
+  "elapsed": 0.217409,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:14.593882+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3191",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jack+Harlow&format=json&method=track.getInfo&track=Lovin+On+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jack+Harlow&format=json&method=track.getInfo&track=Lovin+On+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Lovin on Me",
+      "url": "https:\/\/www.last.fm\/music\/Jack+Harlow\/_\/Lovin+on+Me",
+      "duration": "138000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "588456",
+      "playcount": "5398198",
+      "artist": {
+        "name": "Jack Harlow",
+        "url": "https:\/\/www.last.fm\/music\/Jack+Harlow"
+      },
+      "album": {
+        "artist": "Jack Harlow",
+        "title": "Lovin on Me",
+        "url": "https:\/\/www.last.fm\/music\/Jack+Harlow\/Lovin+on+Me",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/19d3b625051887428fa8eb58c0e3f7c7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/19d3b625051887428fa8eb58c0e3f7c7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/19d3b625051887428fa8eb58c0e3f7c7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/19d3b625051887428fa8eb58c0e3f7c7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "us number one",
+            "url": "https:\/\/www.last.fm\/tag\/us+number+one"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Dec 2023, 14:37",
+        "summary": "\"Lovin On Me\" is a song by American rapper Jack Harlow, released as a single on November 10, 2023, through Generation Now and Atlantic Records. It was written by Harlow, Oz, Sean Momberger, Nik Frascona, Nickie Jon Pab\u00f3n, and Reginald Nelton. Produced by Oz, Frascona, and Momberger, the song samples the 1995 R&B track \"Whatever (Bass Soliloquy)\" by Cadillac Dale. Prior to its release, a snippet of the song went viral on TikTok. The single's music video was released the same day. <a href=\"http:\/\/www.last.fm\/music\/Jack+Harlow\/_\/Lovin+on+Me\">Read more on Last.fm<\/a>.",
+        "content": "\"Lovin On Me\" is a song by American rapper Jack Harlow, released as a single on November 10, 2023, through Generation Now and Atlantic Records. It was written by Harlow, Oz, Sean Momberger, Nik Frascona, Nickie Jon Pab\u00f3n, and Reginald Nelton. Produced by Oz, Frascona, and Momberger, the song samples the 1995 R&B track \"Whatever (Bass Soliloquy)\" by Cadillac Dale. Prior to its release, a snippet of the song went viral on TikTok. The single's music video was released the same day.\n\nHarlow originally teased \"Lovin On Me\" in October 2023, through a snippet on TikTok, which went viral. On November 6, he announced the single would be releasing later in the week. The announcement accompanied news Harlow would embark on \"No Place Like Home\", a six-city tour exclusive to his home state of Kentucky.\n\nThe single and its accompanying music video were released on November 10, 2023, with Harlow declaring \"Lovin On Me\" as the beginning of a \"new era\" for his career.\n\n\"Lovin On Me\" debuted at number two on the Billboard Hot 100 and reached number one the following week. It is Harlow's third overall number-one song and second solo, as well as his fourth top five overall. <a href=\"http:\/\/www.last.fm\/music\/Jack+Harlow\/_\/Lovin+on+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

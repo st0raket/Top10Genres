@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:59.017596+00:00",
+  "elapsed": 0.257876,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:59.017596+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4011",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+White+Stripes&format=json&method=track.getInfo&track=Seven+Nation+Army"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+White+Stripes&format=json&method=track.getInfo&track=Seven+Nation+Army",
+  "_decoded_content": {
+    "track": {
+      "name": "Seven Nation Army",
+      "mbid": "24cc8311-98fd-423a-bed1-97728f5eabc5",
+      "url": "https:\/\/www.last.fm\/music\/The+White+Stripes\/_\/Seven+Nation+Army",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2539159",
+      "playcount": "22252171",
+      "artist": {
+        "name": "The White Stripes",
+        "mbid": "11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5",
+        "url": "https:\/\/www.last.fm\/music\/The+White+Stripes"
+      },
+      "album": {
+        "artist": "The White Stripes",
+        "title": "Elephant",
+        "mbid": "bb29bd28-71e7-32d3-ab5f-c2d33b25434a",
+        "url": "https:\/\/www.last.fm\/music\/The+White+Stripes\/Elephant",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a8a319c1765e46ec8d79aec6e3088727.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a8a319c1765e46ec8d79aec6e3088727.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a8a319c1765e46ec8d79aec6e3088727.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a8a319c1765e46ec8d79aec6e3088727.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie rock",
+            "url": "https:\/\/www.last.fm\/tag\/indie+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Aug 2008, 10:12",
+        "summary": "\"Seven Nation Army\" is the first track on the album \"Elephant\" by American alternative rock band The White Stripes. It was released as a single in 2003, and is one of the best-known songs from the band. Seven Nation Army reached #1 on the Modern Rock Tracks for three weeks and won 2004's Grammy Award for Best Rock Song. The song is known for its underlying riff, which plays throughout most of the song. Although it sounds like a bass guitar (an instrument the group had famously never previously used) <a href=\"http:\/\/www.last.fm\/music\/The+White+Stripes\/_\/Seven+Nation+Army\">Read more on Last.fm<\/a>.",
+        "content": "\"Seven Nation Army\" is the first track on the album \"Elephant\" by American alternative rock band The White Stripes. It was released as a single in 2003, and is one of the best-known songs from the band. Seven Nation Army reached #1 on the Modern Rock Tracks for three weeks and won 2004's Grammy Award for Best Rock Song. The song is known for its underlying riff, which plays throughout most of the song. Although it sounds like a bass guitar (an instrument the group had famously never previously used), the sound is actually created by running Jack White's semi-acoustic guitar (a 1950s style Kay Hollowbody) through a whammy pedal set down an octave. The riff was composed at a sound check before a show at the Corner Hotel in Melbourne, Australia, according to the set notes in the booklet which accompanied the Under Blackpool Lights DVD. The riff was inspired by the main theme of the Fifth Symphony composed by Anton Bruckner (https:\/\/www.youtube.com\/watch?v=CgXBp-oEIR0&feature=youtu.be&t=21m29s).\n\nThe song shows a rare example of the Phrygian Half Cadence in popular music. It is also a rare example of a popular song with a wholly instrumental refrain.\n\nAccording to White, \"Seven Nation Army\" was what he used to call the Salvation Army as a child.\n\nIn March 2005, Q magazine placed \"Seven Nation Army\" at number 8 in its list of the 100 Greatest Guitar Tracks. In September 2005, NME placed \"Seven Nation Army\" at number 5 in its list of the 50 Greatest Tracks Of The Decade. In May 2008, Rolling Stone placed this song at number 21 in its list of the 100 Greatest Guitar Songs of All Time. \n\nA remix of the song was used in the trailer for Battlefield 1, which caused the song to spike up to the low 100's on Itunes charts. <a href=\"http:\/\/www.last.fm\/music\/The+White+Stripes\/_\/Seven+Nation+Army\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:47.797427+00:00",
+  "elapsed": 0.400663,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:47.797427+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2640",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ayra+Starr&format=json&method=track.getInfo&track=Rush"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ayra+Starr&format=json&method=track.getInfo&track=Rush",
+  "_decoded_content": {
+    "track": {
+      "name": "Rush",
+      "url": "https:\/\/www.last.fm\/music\/Ayra+Starr\/_\/Rush",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "153330",
+      "playcount": "1410563",
+      "artist": {
+        "name": "Ayra Starr",
+        "url": "https:\/\/www.last.fm\/music\/Ayra+Starr"
+      },
+      "album": {
+        "artist": "Ayra Starr",
+        "title": "Rush",
+        "url": "https:\/\/www.last.fm\/music\/Ayra+Starr\/Rush",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2be211b66f108035750968e303cf37a0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2be211b66f108035750968e303cf37a0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2be211b66f108035750968e303cf37a0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2be211b66f108035750968e303cf37a0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "afrobeats",
+            "url": "https:\/\/www.last.fm\/tag\/afrobeats"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "Hope",
+            "url": "https:\/\/www.last.fm\/tag\/Hope"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Feb 2023, 16:54",
+        "summary": "In \u201cRush,\u201d Ayra Starr discusses a range of themes, most notably gloating about her money, the necessity to grind every day to preserve her status, and the need to avoid bad energy from her opponents while doing so, a theme that is similar to that of \u201cBloody Samaritan.\u201d\n\nAyra originally teased the song on her social media with a brief video of her totally boasting in front of the camera while she also announced the track\u2019s release date. The song is her first release following the publication of her first studio album <a href=\"http:\/\/www.last.fm\/music\/Ayra+Starr\/_\/Rush\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cRush,\u201d Ayra Starr discusses a range of themes, most notably gloating about her money, the necessity to grind every day to preserve her status, and the need to avoid bad energy from her opponents while doing so, a theme that is similar to that of \u201cBloody Samaritan.\u201d\n\nAyra originally teased the song on her social media with a brief video of her totally boasting in front of the camera while she also announced the track\u2019s release date. The song is her first release following the publication of her first studio album, 19 and Dangerous, on August 6, 2021, which only heightened the appetite of her admirers, spurring for the song\u2019s release. <a href=\"http:\/\/www.last.fm\/music\/Ayra+Starr\/_\/Rush\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

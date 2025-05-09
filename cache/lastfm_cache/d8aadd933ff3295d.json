@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:02.005865+00:00",
+  "elapsed": 0.253884,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:02.005865+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2618",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Happier+Than+Ever"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=Happier+Than+Ever",
+  "_decoded_content": {
+    "track": {
+      "name": "Happier Than Ever",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Happier+Than+Ever",
+      "duration": "294000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1255435",
+      "playcount": "23284589",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Helloween",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Helloween",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e2f9749f67d118aa77cf3e85161fbe5e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e2f9749f67d118aa77cf3e85161fbe5e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e2f9749f67d118aa77cf3e85161fbe5e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e2f9749f67d118aa77cf3e85161fbe5e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "noise pop",
+            "url": "https:\/\/www.last.fm\/tag\/noise+pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Grunge",
+            "url": "https:\/\/www.last.fm\/tag\/Grunge"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2021, 00:46",
+        "summary": "\"Happier Than Ever\" expresses the feeling of being freed from a toxic relationship. In the song, the narrator looks back on their relationship and acknowledges that they were happier when they were away from the person they were with. The song talks about how the person they were with lied and misled them, and only cared about themselves, leaving the narrator feeling hurt and abandoned. The narrator expresses a sense of regret and moments of nostalgia, but ultimately realizes that they are better off without the person they were with. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Happier+Than+Ever\">Read more on Last.fm<\/a>.",
+        "content": "\"Happier Than Ever\" expresses the feeling of being freed from a toxic relationship. In the song, the narrator looks back on their relationship and acknowledges that they were happier when they were away from the person they were with. The song talks about how the person they were with lied and misled them, and only cared about themselves, leaving the narrator feeling hurt and abandoned. The narrator expresses a sense of regret and moments of nostalgia, but ultimately realizes that they are better off without the person they were with. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Happier+Than+Ever\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

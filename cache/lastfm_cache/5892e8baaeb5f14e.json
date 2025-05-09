@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:59.822762+00:00",
+  "elapsed": 0.407927,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:59.822762+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1317",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=John+Lennon&format=json&method=track.getInfo&track=Happy+Xmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=John+Lennon&format=json&method=track.getInfo&track=Happy+Xmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Happy Xmas",
+      "mbid": "0f302c3f-7bfa-40f7-a418-8dfabdfc2452",
+      "url": "https:\/\/www.last.fm\/music\/John+Lennon\/_\/Happy+Xmas",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9317",
+      "playcount": "28603",
+      "artist": {
+        "name": "John Lennon",
+        "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "url": "https:\/\/www.last.fm\/music\/John+Lennon"
+      },
+      "album": {
+        "artist": "John Lennon",
+        "title": "Anthology",
+        "mbid": "fb1ea112-c541-4b01-9b1d-86bcc44c46d7",
+        "url": "https:\/\/www.last.fm\/music\/John+Lennon\/Anthology",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3e2b3e99b2864e1e8fd0241adcec8a0d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3e2b3e99b2864e1e8fd0241adcec8a0d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3e2b3e99b2864e1e8fd0241adcec8a0d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3e2b3e99b2864e1e8fd0241adcec8a0d.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "peace",
+            "url": "https:\/\/www.last.fm\/tag\/peace"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      }
+    }
+  }
+}

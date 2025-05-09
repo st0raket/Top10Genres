@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:37:45.035256+00:00",
+  "elapsed": 0.182949,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:45.035256+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2768",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=don%27t+come+back"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=don%27t+come+back",
+  "_decoded_content": {
+    "track": {
+      "name": "don't come back",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/don%27t+come+back",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "124126",
+      "playcount": "1171100",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "album": {
+        "artist": "Tate McRae",
+        "title": "i used to think i could fly",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/i+used+to+think+i+could+fly",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a714ce933bbb7c643ddb08653bdfdaa5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a714ce933bbb7c643ddb08653bdfdaa5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a714ce933bbb7c643ddb08653bdfdaa5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a714ce933bbb7c643ddb08653bdfdaa5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "justin's music discovery",
+            "url": "https:\/\/www.last.fm\/tag\/justin%27s+music+discovery"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jun 2022, 23:43",
+        "summary": "\u2018'don\u2019t come back\u2019\u2018 is the second track on Tate McRae\u2019s debut studio album \"i used to think i could fly\"  which was released on May 27, 2022.\n\nTate explained in a TikTok what the song is about:\n\n\"It honestly just talks about, if you wanna be a mean do not come back into my life.\"\n\nTate also used the opening of the song in the credits for the \u2018'what would you do?\u2019' music video, released May 20, 2022.\n\n\"A lot of my songs on this album <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/don%27t+come+back\">Read more on Last.fm<\/a>.",
+        "content": "\u2018'don\u2019t come back\u2019\u2018 is the second track on Tate McRae\u2019s debut studio album \"i used to think i could fly\"  which was released on May 27, 2022.\n\nTate explained in a TikTok what the song is about:\n\n\"It honestly just talks about, if you wanna be a mean do not come back into my life.\"\n\nTate also used the opening of the song in the credits for the \u2018'what would you do?\u2019' music video, released May 20, 2022.\n\n\"A lot of my songs on this album are super self-analytical and self-deprecating at times\u2014they\u2019re some of the more intense songs that I\u2019ve ever written. But I wanted the album to start with something lighter, and something that felt kind of empowering. It\u2019s an interpolation of a Nelly song [\u201cRide Wit Me\u201d], which is super cool\u2014I\u2019ve never done something like that.\"\n\n\u2014via Apple Music <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/don%27t+come+back\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

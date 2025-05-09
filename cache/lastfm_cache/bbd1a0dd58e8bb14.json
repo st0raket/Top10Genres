@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:01.793355+00:00",
+  "elapsed": 0.192106,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:01.793355+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3247",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=Heather"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Conan+Gray&format=json&method=track.getInfo&track=Heather",
+  "_decoded_content": {
+    "track": {
+      "name": "Heather",
+      "url": "https:\/\/www.last.fm\/music\/Conan+Gray\/_\/Heather",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1231820",
+      "playcount": "16853632",
+      "artist": {
+        "name": "Conan Gray",
+        "url": "https:\/\/www.last.fm\/music\/Conan+Gray"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now 35",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+35",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/635c844d26acc4452f214b6780c78de1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/635c844d26acc4452f214b6780c78de1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/635c844d26acc4452f214b6780c78de1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/635c844d26acc4452f214b6780c78de1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Apr 2021, 17:41",
+        "summary": "\"Heather\" is a song by American singer-songwriter Conan Gray released through Republic Records. Originally released as a track on Gray's debut studio album \"Kid Krow\" in March 2020, it was released as the sixth single in September 2020 after becoming a sleeper hit. \"Heather\" was written by Gray and produced by Dan Nigro with additional production by Jam City. The song received positive reviews from music critics, mostly for the production and solo songwriting. The song was praised by artists such as Taylor Swift and Elton John. <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/Heather\">Read more on Last.fm<\/a>.",
+        "content": "\"Heather\" is a song by American singer-songwriter Conan Gray released through Republic Records. Originally released as a track on Gray's debut studio album \"Kid Krow\" in March 2020, it was released as the sixth single in September 2020 after becoming a sleeper hit. \"Heather\" was written by Gray and produced by Dan Nigro with additional production by Jam City. The song received positive reviews from music critics, mostly for the production and solo songwriting. The song was praised by artists such as Taylor Swift and Elton John.\n\nThe song gained popularity on the video-sharing platform TikTok, consequently spawning the meme-like titular phrase which one can use to describe a \"beautiful girl\" which one aspires to look like. Commercially, \"Heather\" debuted at number 61 and rose to number 46 on the Billboard Hot 100, being his first entry on the chart. Elsewhere, the song gave Gray his first single chart entry in countries like the United Kingdom, Canada, New Zealand and the Netherlands, and his second entry in countries such as Australia, Ireland and Lithuania. \"Heather\" has become Gray's most commercially successful single to date, surpassing \"Maniac\", which achieved international mainstream hit radio success earlier that year. <a href=\"http:\/\/www.last.fm\/music\/Conan+Gray\/_\/Heather\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

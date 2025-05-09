@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:35:07.447544+00:00",
+  "elapsed": 0.198526,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:07.447544+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2652",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=What%E2%80%99s+Next"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=What%E2%80%99s+Next",
+  "_decoded_content": {
+    "track": {
+      "name": "What\u2019s Next",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/What%E2%80%99s+Next",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "403455",
+      "playcount": "3930971",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "2021",
+            "url": "https:\/\/www.last.fm\/tag\/2021"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 May 2021, 02:43",
+        "summary": "On \u201cWhat\u2019s Next,\u201d Drake makes note of his success he has endured in his career and boasts his abilities to easily release number one hits and make a lot of money.\n\nThe track first appeared on Seattle Seahawks wide receiver DK Metcalf\u2019s Instagram Live on February 21, 2021. In the following days, on the 22nd, 23rd, and 24th, multiple snippets of the track were shared via file-sharing websites. Three days later, on the 27th, the song was leaked in its entirety. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/What%E2%80%99s+Next\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cWhat\u2019s Next,\u201d Drake makes note of his success he has endured in his career and boasts his abilities to easily release number one hits and make a lot of money.\n\nThe track first appeared on Seattle Seahawks wide receiver DK Metcalf\u2019s Instagram Live on February 21, 2021. In the following days, on the 22nd, 23rd, and 24th, multiple snippets of the track were shared via file-sharing websites. Three days later, on the 27th, the song was leaked in its entirety.\n\nThe chorus uses lyrics from the previously leaked and unfinished track, \u201cWhat a Time to be a Slime,\u201d with Young Thug. This may indicate that \u201cWhat\u2019s Next\u201d is the finished version of that track.\n\n\u201cWhat\u2019s Next\u201d debuted at #1 on the Billboard Hot 100 during the chart week of March 20, 2021. It is Drake\u2019s eighth song to top the chart.\n\nAlong with \u201cWants and Needs\u201d at #2 and \u201cLemon Pepper Freestyle\u201d at #3 on the chart, Drake debuted all three tracks from Scary Hours 2 in the top three spots on the Billboard Hot 100, becoming the first artist in history to accomplish this feat. He is the third artist in history to occupy all three spots simultaneously, joining Ariana Grande and The Beatles as the only acts to do so. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/What%E2%80%99s+Next\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

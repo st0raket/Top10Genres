@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:25.034314+00:00",
+  "elapsed": 0.218422,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:25.034314+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2332",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Don+Toliver&format=json&method=track.getInfo&track=Swangin%E2%80%99+On+Westheimer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Don+Toliver&format=json&method=track.getInfo&track=Swangin%E2%80%99+On+Westheimer",
+  "_decoded_content": {
+    "track": {
+      "name": "Swangin\u2019 On Westheimer",
+      "url": "https:\/\/www.last.fm\/music\/Don+Toliver\/_\/Swangin%E2%80%99+On+Westheimer",
+      "duration": "288000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "117461",
+      "playcount": "1166348",
+      "artist": {
+        "name": "Don Toliver",
+        "url": "https:\/\/www.last.fm\/music\/Don+Toliver"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Mellow Bars Rap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Mellow+Bars+Rap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aa1ddf255e9d23ed90add8c162dcd684.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aa1ddf255e9d23ed90add8c162dcd684.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aa1ddf255e9d23ed90add8c162dcd684.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aa1ddf255e9d23ed90add8c162dcd684.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "psychedelic rnb",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic+rnb"
+          },
+          {
+            "name": "don toliver",
+            "url": "https:\/\/www.last.fm\/tag\/don+toliver"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Feb 2023, 13:38",
+        "summary": "\u201cSwangin\u2019 on Westheimer\u201d is the 7th track off of Don Tolivers second studio album \u201cLife Of A Don\u201d\n\nWestheimer Road is an arterial east-west road in Houston, Texas, United States. It runs from Bagby Street in downtown Houston, and terminates at the Westpark Tollway on the southern edge of George Bush Park, stretching about 19 miles long <a href=\"http:\/\/www.last.fm\/music\/Don+Toliver\/_\/Swangin%E2%80%99+On+Westheimer\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSwangin\u2019 on Westheimer\u201d is the 7th track off of Don Tolivers second studio album \u201cLife Of A Don\u201d\n\nWestheimer Road is an arterial east-west road in Houston, Texas, United States. It runs from Bagby Street in downtown Houston, and terminates at the Westpark Tollway on the southern edge of George Bush Park, stretching about 19 miles long <a href=\"http:\/\/www.last.fm\/music\/Don+Toliver\/_\/Swangin%E2%80%99+On+Westheimer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

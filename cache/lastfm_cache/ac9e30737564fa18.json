@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:37:03.127516+00:00",
+  "elapsed": 0.182491,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:03.127516+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "821",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Digga+D&format=json&method=track.getInfo&track=Pump+101"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Digga+D&format=json&method=track.getInfo&track=Pump+101",
+  "_decoded_content": {
+    "track": {
+      "name": "Pump 101",
+      "url": "https:\/\/www.last.fm\/music\/Digga+D\/_\/Pump+101",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "46594",
+      "playcount": "437219",
+      "artist": {
+        "name": "Digga D",
+        "url": "https:\/\/www.last.fm\/music\/Digga+D"
+      },
+      "album": {
+        "artist": "Digga D",
+        "title": "Pump 101",
+        "url": "https:\/\/www.last.fm\/music\/Digga+D\/Pump+101",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b4d6c4f297d7492b0c08cb81c39d3598.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b4d6c4f297d7492b0c08cb81c39d3598.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b4d6c4f297d7492b0c08cb81c39d3598.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b4d6c4f297d7492b0c08cb81c39d3598.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

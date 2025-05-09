@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:37:27.707563+00:00",
+  "elapsed": 0.183598,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:27.707563+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2234",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IVE&format=json&method=track.getInfo&track=LOVE+DIVE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=IVE&format=json&method=track.getInfo&track=LOVE+DIVE",
+  "_decoded_content": {
+    "track": {
+      "name": "love dive",
+      "url": "https:\/\/www.last.fm\/music\/Ive\/_\/love+dive",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "502686",
+      "playcount": "16429844",
+      "artist": {
+        "name": "Ive",
+        "url": "https:\/\/www.last.fm\/music\/Ive"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "electro house",
+            "url": "https:\/\/www.last.fm\/tag\/electro+house"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Apr 2022, 17:48",
+        "summary": "Introducing a new pathway to their career, \u201cLOVE DIVE\u201d is a cute pop track that showcases the sweet sides of IVE, as it is a part of their second single-album of the same name.\n\n\u201cLOVE DIVE\u201d contains a modern electronic-pop track to fuse within the girls seductive vocals. Lyrically, the song is about teasing and boasting to one about their charms, and simply trying to say that you both are the perfect match. The song also has a connection with the Greek myth of Narcissus and Echo. <a href=\"http:\/\/www.last.fm\/music\/Ive\/_\/love+dive\">Read more on Last.fm<\/a>.",
+        "content": "Introducing a new pathway to their career, \u201cLOVE DIVE\u201d is a cute pop track that showcases the sweet sides of IVE, as it is a part of their second single-album of the same name.\n\n\u201cLOVE DIVE\u201d contains a modern electronic-pop track to fuse within the girls seductive vocals. Lyrically, the song is about teasing and boasting to one about their charms, and simply trying to say that you both are the perfect match. The song also has a connection with the Greek myth of Narcissus and Echo.\n\nThe song is IVE\u2019s most successful release to date, as it earned four awards including, Mnet\u2019s MAMA award for \u201cSong of The Year,\u201d Asia Artist awards \u201cSong of The Year\u201d plus Golden Disc and Melon Music\u2019s \u201cSong of The Year\u201d award. Additionally, the music video for the song garnished 204 million views in just a year. <a href=\"http:\/\/www.last.fm\/music\/Ive\/_\/love+dive\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

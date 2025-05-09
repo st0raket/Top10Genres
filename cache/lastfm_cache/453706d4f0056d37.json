@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:00.518296+00:00",
+  "elapsed": 0.2682,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:00.518296+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5141",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:00 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=INDUSTRY+BABY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=INDUSTRY+BABY",
+  "_decoded_content": {
+    "track": {
+      "name": "Industry baby",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Industry+baby",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "60698",
+      "playcount": "398541",
+      "artist": {
+        "name": "Lil Nas X",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          },
+          {
+            "name": "fip",
+            "url": "https:\/\/www.last.fm\/tag\/fip"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Nov 2022, 23:30",
+        "summary": "Lil Nas X recruits Louisville native Jack Harlow for \u201cINDUSTRY BABY,\u201d a boisterous song where the duo rap about their fame and success, blowing up, and their newfound statuses in the rap game. The title plays on the term \u201cindustry plant,\u201d which are people backed by a major label at the start, but play into an image of being organic and all by themselves.\n\nThe song was first teased on October 22, 2020 with a snippet showing Nas X dancing to the song with producer duo, Take a Daytrip. <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Industry+baby\">Read more on Last.fm<\/a>.",
+        "content": "Lil Nas X recruits Louisville native Jack Harlow for \u201cINDUSTRY BABY,\u201d a boisterous song where the duo rap about their fame and success, blowing up, and their newfound statuses in the rap game. The title plays on the term \u201cindustry plant,\u201d which are people backed by a major label at the start, but play into an image of being organic and all by themselves.\n\nThe song was first teased on October 22, 2020 with a snippet showing Nas X dancing to the song with producer duo, Take a Daytrip. A demo version of the song leaked in full late June 2021, using a slightly different instrumental and containing no feature. A week before its release, the rapper tweeted a promise, claiming he would drop \u201cINDUSTRY BABY\u201d once the June 2019 track, \u201cPanini,\u201d hit 400 Million views on YouTube.\n\nThe music video hit the goal shortly after and Lil Nas announced the song on July 19th, through a trailer portraying him being sentenced to jail in relation to his Nike court case. The trailer revealed the release date, producers, and Jack Harlow as a featured artist.\n\nLil Nas X in Genius \u2018VERIFIED\u2019 video:\n\n\u201dWhat I like about Jack\u2019s bars is like he\u2019s gonna pop some shit and he\u2019s gonna have like some fun moments. \u201cSent her back to her boyfriend with my handprint on her ass cheek\/City talkin', we takin' notes,\u201d I thought that was fucking fire. And like other funny lines, it\u2019s like, \u201cI\u2019m done makin' jokes \u2018cause they got old like baby boomers.\u201d I\u2019m a joked out ass motherfucker, you know, I\u2019m always cracking jokes online. I like felt that because a lot of people, like when they see me having fun with them on live, online, like laughing and stuff, they don\u2019t think I take what I do seriously, but I very much do.\u201d\n\nJack Harlow, in turn, also began to praise Lil Nas:\n\n\u201dWe feel each other, you know what I\u2019m mean? We do two different things, you know, we\u2019re in this industry for two different reasons, you know, we came in with different music. But I feel him and I\u2019m a fan of him, and I\u2019m a fan of what he\u2019s doing and what he stands for. I think, he\u2019s becoming an icon. I just like what he does, bro, like I salute him. I think, he\u2019s brave.\u201d\n\nLil Nas' response:\n\n\"Thanks, brother.\"\n\nLil Nas X in Genius \u2018VERIFIED\u2019 video:\n\n\u201dThe very first day of \u201cINDUSTRY BABY\u201d: me and Daytrip, Roy Lenzo, like we were all in the studio, and we were thinking, like what the fuck are we making right now. And I was like upset \u2018cause we tried like seven different songs and nothing was like hating for me. And I heard like\u2026 [hums the intro melody]. I was like, \u201cHold on, what that is? Run that back.\u201d When I first heard it, I was like, \u201cWow! This sounds like some, like king, intro kind of Jay-Z, royalty kind of beat. Whatever happens with this, I definitely have to pop my shit.\u201d I was still like in the mindset of like, \u201cOkay, these rappers, like they not really fuck with me like that, fuck these niggas.\u201d But then, you know, I started talking to Jack like online or whatnot. He was like a real cool guy. And from there I was like, \u201cOh, perfect! Boom.\u201d\u201d\n\nKentucky native added:\n\n\u201dI liked what he was talking about, it resonated with me. Y'all thought I was just gonna be here for a second. Look where I\u2019m at \u2014 I\u2019m here to stay. That\u2019s how I feel, you know what I mean. When I first came out, I think, a lot of people had this feeling of, \u201cMan, we\u2019ll see. Maybe it\u2019s a fluke.\u201d So for me this felt like a chance. \u201cLook, I\u2019m here, too.\u201d So I really resonated with the content. I love Nas and everything he\u2019s doing but what he was saying on this song, I was like, \u201cI feel that. I feel that, I wanna give my story.\u201d\u201d <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Industry+baby\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

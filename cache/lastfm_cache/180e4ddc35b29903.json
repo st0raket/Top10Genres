@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:28:32.086205+00:00",
+  "elapsed": 0.268282,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:32.086205+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4177",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Shake+It+Off"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Shake+It+Off",
+  "_decoded_content": {
+    "track": {
+      "name": "Shake It Off",
+      "mbid": "95cac6d6-125d-42be-b735-17ae5db887df",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Shake+It+Off",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1366016",
+      "playcount": "15977443",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "1989",
+        "mbid": "b15d9a20-5fe8-4b35-ad58-bf686787d950",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/1989",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "6"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "haters gonna hate",
+            "url": "https:\/\/www.last.fm\/tag\/haters+gonna+hate"
+          },
+          {
+            "name": "2014",
+            "url": "https:\/\/www.last.fm\/tag\/2014"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Aug 2014, 01:40",
+        "summary": "\"Shake It Off\" is a song by American singer-songwriter Taylor Swift, taken from her fifth studio album, 1989. Swift wrote the lyrics and composed the melody with producers Max Martin and Shellback. An uptempo dance-pop song featuring a saxophone line in its production, it is about Swift's indifference to her detractors and their negative view of her image. The song was the lead single from 1989, which Swift marketed as her first pop album. It was released for digital download worldwide on August 19, 2014, by Big Machine Records. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Shake+It+Off\">Read more on Last.fm<\/a>.",
+        "content": "\"Shake It Off\" is a song by American singer-songwriter Taylor Swift, taken from her fifth studio album, 1989. Swift wrote the lyrics and composed the melody with producers Max Martin and Shellback. An uptempo dance-pop song featuring a saxophone line in its production, it is about Swift's indifference to her detractors and their negative view of her image. The song was the lead single from 1989, which Swift marketed as her first pop album. It was released for digital download worldwide on August 19, 2014, by Big Machine Records.\n\nContemporary critics found the song's dance-pop production catchy, but some believed the lyrics were weak. Retrospectively, critics have considered \"Shake It Off\" an effective opener for the 1989 era, which transformed Swift's sound and image from country to pop. The song featured on 2010s-decade-end lists by NME and Consequence. In the U.S., the single spent 50 weeks\u2013including four weeks at number one\u2013on the Billboard Hot 100, and received a Diamond certification from the Recording Industry Association of America (RIAA). \"Shake It Off\" also topped charts in Australia, Canada, Hungary, Mexico, New Zealand, and Poland.\n\nThe single was supported by a music video directed by Mark Romanek. The video, in which Swift portrays a clumsy person attempting to practice several dance moves without success, attracted accusations of cultural appropriation for featuring dance routines associated with people of color such as twerking. To promote the song, Swift performed on televised live events including the MTV Video Music Awards and the iHeartRadio Music Festival. She included \"Shake It Off\" on the set lists for three of her world tours: the 1989 World Tour (2015), Reputation Stadium Tour (2018), and the Eras Tour (2023). The song has received numerous accolades, including Favorite Song at the 2015 People's Choice Awards and three Grammy nominations at the 2015 Grammy Awards. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Shake+It+Off\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

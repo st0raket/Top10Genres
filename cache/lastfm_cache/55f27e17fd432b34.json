@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:08.388963+00:00",
+  "elapsed": 0.292179,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:08.388963+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2599",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Allergic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Post+Malone&format=json&method=track.getInfo&track=Allergic",
+  "_decoded_content": {
+    "track": {
+      "name": "Allergic",
+      "url": "https:\/\/www.last.fm\/music\/Post+Malone\/_\/Allergic",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "232481",
+      "playcount": "1912804",
+      "artist": {
+        "name": "Post Malone",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone"
+      },
+      "album": {
+        "artist": "Post Malone",
+        "title": "Hollywood's Bleeding",
+        "url": "https:\/\/www.last.fm\/music\/Post+Malone\/Hollywood%27s+Bleeding",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/53f65efa74120514ef6c94d1fa30580d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jan 2022, 18:47",
+        "summary": "On \u201cAllergic,\u201d Post Malone contrasts an energetic beat with hard-hitting drums in the verses with slow guitar melodies during the chorus.\n\nThe track describes an \u201cimpossible love,\u201d and Post details a toxic relationship which involves constantly breaking up and getting back together and drug use. Within the verses, Post reflects on the sad truth that his lover may be one of his demons.\n\nThe track is set to be sent to alternative radio on September 24 <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Allergic\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cAllergic,\u201d Post Malone contrasts an energetic beat with hard-hitting drums in the verses with slow guitar melodies during the chorus.\n\nThe track describes an \u201cimpossible love,\u201d and Post details a toxic relationship which involves constantly breaking up and getting back together and drug use. Within the verses, Post reflects on the sad truth that his lover may be one of his demons.\n\nThe track is set to be sent to alternative radio on September 24, 2019 as the fourth single from Hollywood\u2019s Bleeding, being the predecessor of \u201cCircles,\u201d released in back in late August this year. <a href=\"http:\/\/www.last.fm\/music\/Post+Malone\/_\/Allergic\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

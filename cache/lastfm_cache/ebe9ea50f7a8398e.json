@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:21.206667+00:00",
+  "elapsed": 0.204289,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:21.206667+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1803",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Prologue"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=aespa&format=json&method=track.getInfo&track=Prologue",
+  "_decoded_content": {
+    "track": {
+      "name": "Prologue",
+      "url": "https:\/\/www.last.fm\/music\/aespa\/_\/Prologue",
+      "duration": "194000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "105801",
+      "playcount": "987475",
+      "artist": {
+        "name": "aespa",
+        "url": "https:\/\/www.last.fm\/music\/aespa"
+      },
+      "album": {
+        "artist": "aespa",
+        "title": "Armageddon",
+        "url": "https:\/\/www.last.fm\/music\/aespa\/Armageddon",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d9c7cf5cd4e8a77e13fd9eb63eb1ddc1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d9c7cf5cd4e8a77e13fd9eb63eb1ddc1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d9c7cf5cd4e8a77e13fd9eb63eb1ddc1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d9c7cf5cd4e8a77e13fd9eb63eb1ddc1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Jun 2024, 17:55",
+        "summary": "\"Prologue\" is a song recorded by South Korean girl group aespa, released on May 27, 2024, along with it's full studio album, Armageddon - The 1st Album, being the eighth track for it. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Prologue\">Read more on Last.fm<\/a>.",
+        "content": "\"Prologue\" is a song recorded by South Korean girl group aespa, released on May 27, 2024, along with it's full studio album, Armageddon - The 1st Album, being the eighth track for it. <a href=\"http:\/\/www.last.fm\/music\/aespa\/_\/Prologue\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

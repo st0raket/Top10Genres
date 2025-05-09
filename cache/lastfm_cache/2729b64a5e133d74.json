@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:29.787942+00:00",
+  "elapsed": 0.226742,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:29.787942+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3004",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Brand+New+Dance"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Brand+New+Dance",
+  "_decoded_content": {
+    "track": {
+      "name": "Brand New Dance",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Brand+New+Dance",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "171820",
+      "playcount": "907085",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "The Death of Slim Shady (Coup De Gr\u00e2ce): Expanded Mourner\u2019s Edition [Clean] [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/The+Death+of+Slim+Shady+(Coup+De+Gr%C3%A2ce):+Expanded+Mourner%E2%80%99s+Edition+%5BClean%5D+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "scat",
+            "url": "https:\/\/www.last.fm\/tag\/scat"
+          },
+          {
+            "name": "comedy rap",
+            "url": "https:\/\/www.last.fm\/tag\/comedy+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jul 2024, 17:09",
+        "summary": "The taunting track \u201cBrand New Dance\u201d revisits one of Eminem\u2019s longest-running jokes aimed at Christopher Reeve, an actor who famously portrayed Superman throughout the 1980s, then suffered an incident which left him wheelchair-bound.\n\nEminem comes up with a new dance named after Christopher Reeve, where the aim is to seriously harm and paralyze oneself by damaging the spinal cord. Ironically, Eminem\u2019s dance song would render the listener unable to dance afterwards. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Brand+New+Dance\">Read more on Last.fm<\/a>.",
+        "content": "The taunting track \u201cBrand New Dance\u201d revisits one of Eminem\u2019s longest-running jokes aimed at Christopher Reeve, an actor who famously portrayed Superman throughout the 1980s, then suffered an incident which left him wheelchair-bound.\n\nEminem comes up with a new dance named after Christopher Reeve, where the aim is to seriously harm and paralyze oneself by damaging the spinal cord. Ironically, Eminem\u2019s dance song would render the listener unable to dance afterwards.\n\nCo-produced by Eminem himself, the funky beat is very reminiscent of his Encore days in 2004. In fact, an early track list of the album showed a title called \u201cChristopher Reeves\u201d which never went on to release. On a later track, \u201cGuilty Conscience 2,\u201d Eminem admitted to taking the song off as Reeve passed away shortly before Encore\u2019s release. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Brand+New+Dance\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

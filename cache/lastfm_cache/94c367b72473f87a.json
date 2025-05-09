@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:10.492911+00:00",
+  "elapsed": 0.180135,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:10.492911+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4038",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=50+Cent&format=json&method=track.getInfo&track=In+da+Club"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=50+Cent&format=json&method=track.getInfo&track=In+da+Club",
+  "_decoded_content": {
+    "track": {
+      "name": "In Da Club",
+      "mbid": "1d44a435-ec6d-4952-8dc9-e78df329c129",
+      "url": "https:\/\/www.last.fm\/music\/50+Cent\/_\/In+Da+Club",
+      "duration": "232000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1907174",
+      "playcount": "10683576",
+      "artist": {
+        "name": "50 Cent",
+        "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+        "url": "https:\/\/www.last.fm\/music\/50+Cent"
+      },
+      "album": {
+        "artist": "50 Cent",
+        "title": "Get Rich Or Die Tryin'",
+        "mbid": "3914ae8e-3b64-3a5b-bc37-9ff5dddf367d",
+        "url": "https:\/\/www.last.fm\/music\/50+Cent\/Get+Rich+Or+Die+Tryin%27",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0df88df2ca9e67709d7a73a3553db7a1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0df88df2ca9e67709d7a73a3553db7a1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0df88df2ca9e67709d7a73a3553db7a1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0df88df2ca9e67709d7a73a3553db7a1.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "50 Cent",
+            "url": "https:\/\/www.last.fm\/tag\/50+Cent"
+          },
+          {
+            "name": "Gangsta Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Gangsta+Rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Jul 2008, 17:23",
+        "summary": "\"In Da Club\" is a hip-hop song performed by rapper 50 Cent for his commercial debut album, Get Rich or Die Tryin'. The song was produced by Dr. Dre with co-production from Mike Elizondo. 50 Cent, Dr. Dre, and Elizondo also wrote the song. The track was released in late 2002 as the album's lead single and was well received by music critics.\n\n\"In Da Club\" became 50 Cent's first number one single and was one of 2003's most popular songs after reaching <a href=\"http:\/\/www.last.fm\/music\/50+Cent\/_\/In+Da+Club\">Read more on Last.fm<\/a>.",
+        "content": "\"In Da Club\" is a hip-hop song performed by rapper 50 Cent for his commercial debut album, Get Rich or Die Tryin'. The song was produced by Dr. Dre with co-production from Mike Elizondo. 50 Cent, Dr. Dre, and Elizondo also wrote the song. The track was released in late 2002 as the album's lead single and was well received by music critics.\n\n\"In Da Club\" became 50 Cent's first number one single and was one of 2003's most popular songs after reaching number one in the United States and peaking inside the top five on the majority of the European charts it entered. At the 46th Grammy Awards, it was nominated for Best Male Rap Solo Performance and Best Rap Song. In da Club was certified diamond in the United States on November 1, 2023 for sales of over 10 million units, making it one of the best selling singles in the US.\n\nAfter 50 Cent was discovered by Eminem in 2002, he was invited to fly to Los Angeles where he was introduced to Dr. Dre. 50 Cent recorded seven songs in five days with Dr. Dre, with \"In da Club\" being the first track they recorded. 50 Cent described the studio sessions saying:\n\n\"Dre, he'll play dope beats... [He'll say], 'These are the hits, 50. So pick one of these and make a couple of singles or something.' The very first time he heard [me rap on] 'In Da Club' he said, 'Yo, I didn't think you was going to go there with it, but, you know, it works.' He was probably thinking of going in a different direction with that song. Then he expanded it into a hit record.\"\n\nThe production was originally given to the hip-hop group D12, but was passed on to 50 Cent. The rapper recorded the track with only the drum beat present. Since much of the content on \"Get Rich or Die Tryin'\" was \"dark\", he wanted to write material that was \"the exact opposite\". He called the song a \"celebration of life. Every day it's relevant all over 'cause every day is someone's birthday.\" <a href=\"http:\/\/www.last.fm\/music\/50+Cent\/_\/In+Da+Club\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

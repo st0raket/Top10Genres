@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:33:00.946133+00:00",
+  "elapsed": 0.241334,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:00.946133+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "962",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=RIP+Lil+Phat"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YoungBoy+Never+Broke+Again&format=json&method=track.getInfo&track=RIP+Lil+Phat",
+  "_decoded_content": {
+    "track": {
+      "name": "RIP Lil Phat",
+      "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/_\/RIP+Lil+Phat",
+      "duration": "146000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "28948",
+      "playcount": "278520",
+      "artist": {
+        "name": "YoungBoy Never Broke Again",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again"
+      },
+      "album": {
+        "artist": "YoungBoy Never Broke Again",
+        "title": "Still Flexin, Still Steppin",
+        "url": "https:\/\/www.last.fm\/music\/YoungBoy+Never+Broke+Again\/Still+Flexin,+Still+Steppin",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/70035b42df1f174696bb63851f380816.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/70035b42df1f174696bb63851f380816.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/70035b42df1f174696bb63851f380816.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/70035b42df1f174696bb63851f380816.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

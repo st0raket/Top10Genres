@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:05.637021+00:00",
+  "elapsed": 0.235822,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:05.637021+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "5117",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jack+Harlow&format=json&method=track.getInfo&track=WHATS+POPPIN"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jack+Harlow&format=json&method=track.getInfo&track=WHATS+POPPIN",
+  "_decoded_content": {
+    "track": {
+      "name": "WHATS POPPIN",
+      "url": "https:\/\/www.last.fm\/music\/Jack+Harlow\/_\/WHATS+POPPIN",
+      "duration": "139000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "548000",
+      "playcount": "5065583",
+      "artist": {
+        "name": "Jack Harlow",
+        "url": "https:\/\/www.last.fm\/music\/Jack+Harlow"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Just Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Just+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e9d4da5f4e041df86db634f0d0aa5b67.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          },
+          {
+            "name": "piano",
+            "url": "https:\/\/www.last.fm\/tag\/piano"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jan 2022, 15:01",
+        "summary": "\"WHATS POPPIN\" is a song by American rapper Jack Harlow, released as the lead single from his \"Sweet Action\" EP, by Generation Now and Atlantic Records on January 21, 2020. It was also included on his debut studio album \"Thats What They All Say\" along with its remix.\n\nBeing produced by the duo of jetsonmade & Pooh Beatz\u2013the primary producers of one of Summer 2019\u2019s hit songs, \u201cSuge\u201d\u2013and being accompanied by a Lyrical Lemonade music video <a href=\"http:\/\/www.last.fm\/music\/Jack+Harlow\/_\/WHATS+POPPIN\">Read more on Last.fm<\/a>.",
+        "content": "\"WHATS POPPIN\" is a song by American rapper Jack Harlow, released as the lead single from his \"Sweet Action\" EP, by Generation Now and Atlantic Records on January 21, 2020. It was also included on his debut studio album \"Thats What They All Say\" along with its remix.\n\nBeing produced by the duo of jetsonmade & Pooh Beatz\u2013the primary producers of one of Summer 2019\u2019s hit songs, \u201cSuge\u201d\u2013and being accompanied by a Lyrical Lemonade music video, this playfully grandeur single from Jack Harlow shows he has gained a new level of trust and recognition within the hip-hop community he had not yet seen in prior years.\n\n\"'I had just gotten off tour and I remember Jetson DM'ed me while I was on tour. He probably had the hottest year out of any producer, so I was very excited to get a message from him. As soon as I got back, I hit his line and he came to the studio with Pooh Beatz and we made a couple records. This was probably the third or fourth song that I did right after I got off tour. As soon as they played the beat, it was just this agreement amongst all of us. Like, you gotta snap on this, you can\u2019t be no melodic, fun rap. Just really rap. So that was the focus, and I just went in. When he first got there, I was already aware that there\u2019s a certain tempo he works at, because I heard a lot of DaBaby songs. So the first thing I was trying to get him to do was encourage him to speed his tempo up a little bit and go into a space I\u2019m in. But coincidentally, when this beat came on, this ain\u2019t even really the tempo I was trying to put him in. This is usually his space, and I couldn\u2019t argue with it. It\u2019s just so crazy. As soon as those pianos come in, it felt like there was no choice but to rap on this song. It\u2019s just one of those beats. I heard the beat, then I wrote probably the first 30 bars. While I was in the booth, Jetson and Pooh, they had to go after I finished the first 30. But it sounded right so I did that 30 and then the next day I came back and I started punching some lines in. I was freestyling, so some of them are a little more simple because it was like, \u201cLet me just ride the beat.\u201d So it took two days to finish out. Then I sent it to Jetson and he was like, \u201cOh, you rapping rapping.\u201d I couldn\u2019t tell if he was pleased by that or not, because he said it like there\u2019s a lot of rapping, but I\u2019m like \u201cYes.\u201d What was crazy is, everyone that heard it for the first week after it was finished, thought it was special. That\u2019s why we chose to drop it because it was just a feeling. Everyone that came into the studio, when we played that song, the drums didn\u2019t even have to drop for everyone to do the same thing. By the second bar, I was like, \u201cWhoa,\u201d every time. It\u2019s just a feeling. It\u2019s like, this is exciting.'\"\n\n\u201cWHATS POPPIN\u201d debuted at #96 on the Billboard Hot 100 during the chart week of February 22, 2020.\n\nDuring the week of July 4, 2020, \u201cWHATS POPPIN\u201d peaked at #8 on the chart, marking Harlow\u2019s first Top 10 hit on the chart.\n\nAfter the release of the track\u2019s remix, the song propelled up to #2 on the chart during the week of July 11, 2020. <a href=\"http:\/\/www.last.fm\/music\/Jack+Harlow\/_\/WHATS+POPPIN\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

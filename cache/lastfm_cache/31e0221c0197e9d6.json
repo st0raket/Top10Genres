@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:15.130038+00:00",
+  "elapsed": 0.211841,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:15.130038+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2586",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+127&format=json&method=track.getInfo&track=2+Baddies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+127&format=json&method=track.getInfo&track=2+Baddies",
+  "_decoded_content": {
+    "track": {
+      "name": "2 Baddies",
+      "url": "https:\/\/www.last.fm\/music\/NCT+127\/_\/2+Baddies",
+      "duration": "230000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "197532",
+      "playcount": "3128570",
+      "artist": {
+        "name": "NCT 127",
+        "url": "https:\/\/www.last.fm\/music\/NCT+127"
+      },
+      "album": {
+        "artist": "NCT 127",
+        "title": "2 Baddies - The 4th Album",
+        "url": "https:\/\/www.last.fm\/music\/NCT+127\/2+Baddies+-+The+4th+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d90294466cd904feb236115f793b813d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d90294466cd904feb236115f793b813d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d90294466cd904feb236115f793b813d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d90294466cd904feb236115f793b813d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "fire",
+            "url": "https:\/\/www.last.fm\/tag\/fire"
+          },
+          {
+            "name": "grammy winner",
+            "url": "https:\/\/www.last.fm\/tag\/grammy+winner"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Dec 2023, 18:11",
+        "summary": "\"2 Baddies\" (Korean: \uc9c8\uc8fc; RR: Jilju; lit. Speeding) is a song recorded by South Korean boy band NCT 127. It was released as the lead single from their fourth studio album of the same name on September 16, 2022, by SM Entertainment. It was written by Sokodomo, Haeil, and Xinsayne, while production was handled by Aron Bergerwall, Louise Lindberg, Tony Ferrari, Parker James, Cazzi Opeia, Ellen Berg, and IMLAY. Described as an \"intense hip-hop dance song\" <a href=\"http:\/\/www.last.fm\/music\/NCT+127\/_\/2+Baddies\">Read more on Last.fm<\/a>.",
+        "content": "\"2 Baddies\" (Korean: \uc9c8\uc8fc; RR: Jilju; lit. Speeding) is a song recorded by South Korean boy band NCT 127. It was released as the lead single from their fourth studio album of the same name on September 16, 2022, by SM Entertainment. It was written by Sokodomo, Haeil, and Xinsayne, while production was handled by Aron Bergerwall, Louise Lindberg, Tony Ferrari, Parker James, Cazzi Opeia, Ellen Berg, and IMLAY. Described as an \"intense hip-hop dance song\", it features lyrics about achieving success by running towards one's goal regardless of the judgment of others. An accompanying music video was released a day prior. <a href=\"http:\/\/www.last.fm\/music\/NCT+127\/_\/2+Baddies\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:42:16.204803+00:00",
+  "elapsed": 0.216245,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:16.204803+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1137",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=PIToRRO+DE+COCO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=PIToRRO+DE+COCO",
+  "_decoded_content": {
+    "track": {
+      "name": "PIToRRO DE COCO",
+      "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/_\/PIToRRO+DE+COCO",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "199742",
+      "playcount": "1321659",
+      "artist": {
+        "name": "Bad Bunny",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny"
+      },
+      "album": {
+        "artist": "Bad Bunny",
+        "title": "PIToRRO DE COCO",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/PIToRRO+DE+COCO",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a339747d8d600b1068a0b36df1855e56.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a339747d8d600b1068a0b36df1855e56.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a339747d8d600b1068a0b36df1855e56.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a339747d8d600b1068a0b36df1855e56.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "vocal",
+            "url": "https:\/\/www.last.fm\/tag\/vocal"
+          },
+          {
+            "name": "spoken",
+            "url": "https:\/\/www.last.fm\/tag\/spoken"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "loud",
+            "url": "https:\/\/www.last.fm\/tag\/loud"
+          },
+          {
+            "name": "upbeat",
+            "url": "https:\/\/www.last.fm\/tag\/upbeat"
+          }
+        ]
+      }
+    }
+  }
+}

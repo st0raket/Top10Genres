@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:29:07.059235+00:00",
+  "elapsed": 0.211907,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:07.059235+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1033",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Stay"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Stay",
+  "_decoded_content": {
+    "track": {
+      "name": "Stay",
+      "url": "https:\/\/www.last.fm\/music\/Exo\/_\/Stay",
+      "duration": "230000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "34769",
+      "playcount": "430159",
+      "artist": {
+        "name": "Exo",
+        "mbid": "f2f9845c-6803-4451-a10e-9c6673608667",
+        "url": "https:\/\/www.last.fm\/music\/Exo"
+      },
+      "album": {
+        "artist": "EXO",
+        "title": "Universe",
+        "url": "https:\/\/www.last.fm\/music\/EXO\/Universe",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4b80e153a149e01092f338d775280d41.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4b80e153a149e01092f338d775280d41.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4b80e153a149e01092f338d775280d41.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4b80e153a149e01092f338d775280d41.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "best of 2017",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+2017"
+          },
+          {
+            "name": "drum n' bass",
+            "url": "https:\/\/www.last.fm\/tag\/drum+n%27+bass"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:34.744075+00:00",
+  "elapsed": 0.213981,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:34.744075+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1994",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cardi+B&format=json&method=track.getInfo&track=I+Like+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cardi+B&format=json&method=track.getInfo&track=I+Like+It",
+  "_decoded_content": {
+    "track": {
+      "name": "I Like It",
+      "url": "https:\/\/www.last.fm\/music\/Cardi+B\/_\/I+Like+It",
+      "duration": "253000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "706638",
+      "playcount": "5607838",
+      "artist": {
+        "name": "Cardi B",
+        "url": "https:\/\/www.last.fm\/music\/Cardi+B"
+      },
+      "album": {
+        "artist": "Cardi B",
+        "title": "I Like It (Demo)",
+        "url": "https:\/\/www.last.fm\/music\/Cardi+B\/I+Like+It+(Demo)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9dcf77be33096e710a74f0a9f23461cd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9dcf77be33096e710a74f0a9f23461cd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9dcf77be33096e710a74f0a9f23461cd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9dcf77be33096e710a74f0a9f23461cd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Latin Rap",
+            "url": "https:\/\/www.last.fm\/tag\/Latin+Rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 May 2018, 21:22",
+        "summary": "\"I Like It\" is a song recorded by American rapper Cardi B for her first studio album Invasion of Privacy, with Puerto Rican recording artist Bad Bunny and Colombian singer J Balvin. It was released on May 25, 2018 as the fourth single from her debut studio album. <a href=\"http:\/\/www.last.fm\/music\/Cardi+B\/_\/I+Like+It\">Read more on Last.fm<\/a>.",
+        "content": "\"I Like It\" is a song recorded by American rapper Cardi B for her first studio album Invasion of Privacy, with Puerto Rican recording artist Bad Bunny and Colombian singer J Balvin. It was released on May 25, 2018 as the fourth single from her debut studio album. <a href=\"http:\/\/www.last.fm\/music\/Cardi+B\/_\/I+Like+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

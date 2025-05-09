@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:43.630083+00:00",
+  "elapsed": 0.216467,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:43.630083+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2413",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kid+Cudi&format=json&method=track.getInfo&track=Tequila+Shots"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kid+Cudi&format=json&method=track.getInfo&track=Tequila+Shots",
+  "_decoded_content": {
+    "track": {
+      "name": "Tequila Shots",
+      "url": "https:\/\/www.last.fm\/music\/Kid+Cudi\/_\/Tequila+Shots",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "462975",
+      "playcount": "6293076",
+      "artist": {
+        "name": "Kid Cudi",
+        "mbid": "e0e1db18-f7ba-4dee-95ff-7ae8cf545460",
+        "url": "https:\/\/www.last.fm\/music\/Kid+Cudi"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Hip Hop & Rap - V\u00e5ren 2021",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Hip+Hop+&+Rap+-+V%C3%A5ren+2021",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/73dc5a3565281be79d738c940ccec562.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/73dc5a3565281be79d738c940ccec562.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/73dc5a3565281be79d738c940ccec562.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/73dc5a3565281be79d738c940ccec562.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "bass",
+            "url": "https:\/\/www.last.fm\/tag\/bass"
+          },
+          {
+            "name": "kid cudi",
+            "url": "https:\/\/www.last.fm\/tag\/kid+cudi"
+          },
+          {
+            "name": "Hard",
+            "url": "https:\/\/www.last.fm\/tag\/Hard"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Nov 2022, 13:15",
+        "summary": "\"Tequila Shots\" is a song by American rapper Kid Cudi, released on December 11, 2020 as part of his seventh studio album Man On The Moon III: The Chosen. The song was produced by Dot da Genius, Take a Daytrip and Cudi himself. In June 2022, the song reached platinum status, selling over 1 million units in the US. The song was later included on Cudi\u2019s first greatest hits album The Boy Who Flew To The Moon (Vol. 1) <a href=\"http:\/\/www.last.fm\/music\/Kid+Cudi\/_\/Tequila+Shots\">Read more on Last.fm<\/a>.",
+        "content": "\"Tequila Shots\" is a song by American rapper Kid Cudi, released on December 11, 2020 as part of his seventh studio album Man On The Moon III: The Chosen. The song was produced by Dot da Genius, Take a Daytrip and Cudi himself. In June 2022, the song reached platinum status, selling over 1 million units in the US. The song was later included on Cudi\u2019s first greatest hits album The Boy Who Flew To The Moon (Vol. 1) <a href=\"http:\/\/www.last.fm\/music\/Kid+Cudi\/_\/Tequila+Shots\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

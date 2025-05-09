@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:29:24.788557+00:00",
+  "elapsed": 0.211799,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:24.788557+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2767",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dave&format=json&method=track.getInfo&track=Hangman"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dave&format=json&method=track.getInfo&track=Hangman",
+  "_decoded_content": {
+    "track": {
+      "name": "Hangman",
+      "url": "https:\/\/www.last.fm\/music\/Dave\/_\/Hangman",
+      "duration": "234000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "59075",
+      "playcount": "705339",
+      "artist": {
+        "name": "Dave",
+        "mbid": "c7740223-c657-4b0a-a0a4-b8349169e760",
+        "url": "https:\/\/www.last.fm\/music\/Dave"
+      },
+      "album": {
+        "artist": "Dave",
+        "title": "Hangman",
+        "url": "https:\/\/www.last.fm\/music\/Dave\/Hangman",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ec1c85a1d660fedd4ee9d5edbb15a60d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ec1c85a1d660fedd4ee9d5edbb15a60d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ec1c85a1d660fedd4ee9d5edbb15a60d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ec1c85a1d660fedd4ee9d5edbb15a60d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2021, 21:24",
+        "summary": "\u201cHangman\u201d is Dave\u2019s first song that he has put out since the release of his EP Game Over. Its style is similar to the other serious songs that he has released in the past (like \u201c71\/End Credits\u201d); consisting of a minimalistic piano backing with a trap beat\n\nIn the lead up to the release of the song, Dave was met with backlash after he proposed that stop and search checks should come back after the murder of young black model Harry Uzoka. <a href=\"http:\/\/www.last.fm\/music\/Dave\/_\/Hangman\">Read more on Last.fm<\/a>.",
+        "content": "\u201cHangman\u201d is Dave\u2019s first song that he has put out since the release of his EP Game Over. Its style is similar to the other serious songs that he has released in the past (like \u201c71\/End Credits\u201d); consisting of a minimalistic piano backing with a trap beat\n\nIn the lead up to the release of the song, Dave was met with backlash after he proposed that stop and search checks should come back after the murder of young black model Harry Uzoka.\n\nStop and search checks were checks that could be done by the police to people who they think may have items that could be used to commit crimes. However, they were greatly disliked by the general public. This was because of the fact that black people were over 6 times more likely to be stopped and searched than white people\n\nThis song helps Dave connect with his fans on a more personal level, stating the need for change in the young black community, and adding to the introduction that songs such as \u201cPicture Me\u201d and \u201cSix Paths\u201d from his Six Paths EP gave us. <a href=\"http:\/\/www.last.fm\/music\/Dave\/_\/Hangman\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

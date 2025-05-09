@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:14.150847+00:00",
+  "elapsed": 0.207348,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:14.150847+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1670",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A+Boogie+Wit+da+Hoodie&format=json&method=track.getInfo&track=Look+Back+at+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=A+Boogie+Wit+da+Hoodie&format=json&method=track.getInfo&track=Look+Back+at+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Look Back At It",
+      "url": "https:\/\/www.last.fm\/music\/A+BOOGIE+WIT+DA+HOODIE\/_\/Look+Back+At+It",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "415322",
+      "playcount": "4663121",
+      "artist": {
+        "name": "A BOOGIE WIT DA HOODIE",
+        "url": "https:\/\/www.last.fm\/music\/A+BOOGIE+WIT+DA+HOODIE"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "clear pronunciation",
+            "url": "https:\/\/www.last.fm\/tag\/clear+pronunciation"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jul 2022, 09:02",
+        "summary": "\u201cLook Back at It\u201d sees A Boogie interpolate the flow and rhythm from Michael Jackson\u2019s \u201cYou Rock My World\" throughout the verses and \u201cRemember the Time\u201d during the post-chorus.\n\nPeculiarly, a snippet released on Boogie\u2019s Instagram dates back to December 21, 2017, almost a year before the song\u2019s full release. <a href=\"http:\/\/www.last.fm\/music\/A+BOOGIE+WIT+DA+HOODIE\/_\/Look+Back+At+It\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLook Back at It\u201d sees A Boogie interpolate the flow and rhythm from Michael Jackson\u2019s \u201cYou Rock My World\" throughout the verses and \u201cRemember the Time\u201d during the post-chorus.\n\nPeculiarly, a snippet released on Boogie\u2019s Instagram dates back to December 21, 2017, almost a year before the song\u2019s full release. <a href=\"http:\/\/www.last.fm\/music\/A+BOOGIE+WIT+DA+HOODIE\/_\/Look+Back+At+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

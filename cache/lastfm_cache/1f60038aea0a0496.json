@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:37:48.511056+00:00",
+  "elapsed": 0.223286,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:48.511056+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3439",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicky+Youre&format=json&method=track.getInfo&track=Sunroof"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicky+Youre&format=json&method=track.getInfo&track=Sunroof",
+  "_decoded_content": {
+    "track": {
+      "name": "Sunroof",
+      "url": "https:\/\/www.last.fm\/music\/Nicky+Youre\/_\/Sunroof",
+      "duration": "163000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "511139",
+      "playcount": "4423456",
+      "artist": {
+        "name": "Nicky Youre",
+        "url": "https:\/\/www.last.fm\/music\/Nicky+Youre"
+      },
+      "album": {
+        "artist": "Dazy",
+        "title": "Sunroof - Single",
+        "url": "https:\/\/www.last.fm\/music\/Dazy\/Sunroof+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9e02bf169dad28cee803dfa57bf6e055.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9e02bf169dad28cee803dfa57bf6e055.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9e02bf169dad28cee803dfa57bf6e055.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9e02bf169dad28cee803dfa57bf6e055.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "C",
+            "url": "https:\/\/www.last.fm\/tag\/C"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Jan 2023, 19:00",
+        "summary": "\"Sunroof\" is a song by American singer  Nicky Youre and Los Angeles-based musician and producer Dazy (Nick Minutaglio, who has also recorded as Snocker). It was released on December 3, 2021, through Thirty Knots and Columbia Records.\n\nThe song was born from a voice memo that Dazy received from Youre. Elaborating on the creation of their song, Youre has said, \"I wanted to make a song that captured the feeling of excitement you get when you meet someone that you can't stop thinking about. <a href=\"http:\/\/www.last.fm\/music\/Nicky+Youre\/_\/Sunroof\">Read more on Last.fm<\/a>.",
+        "content": "\"Sunroof\" is a song by American singer  Nicky Youre and Los Angeles-based musician and producer Dazy (Nick Minutaglio, who has also recorded as Snocker). It was released on December 3, 2021, through Thirty Knots and Columbia Records.\n\nThe song was born from a voice memo that Dazy received from Youre. Elaborating on the creation of their song, Youre has said, \"I wanted to make a song that captured the feeling of excitement you get when you meet someone that you can't stop thinking about. I wanted to have a product that was fun and high-energy while still being easy to listen to. When I meet someone like this, the thought of them is like an itch in my brain that I can't scratch. So I wanted the song to be catchy so it sticks in your head just like when you're stuck thinking about someone\". \n\nBy November 2022, the song had reached the Billboard Hot 100 top 10, and had been streamed 397 million times on Spotify. In September 2022, the song topped the Canadian Hot 100. It was the most popular song of 2022 on TikTok in the UK. Benjamin Kronenberg at Early Rising praised the song and described it as a track that sticks \"in your head all day\" thanks to the \"bright production\" by Dazy and Youre's \"bubbling and poppy vocals\". Miles Opton of Sheesh Media called the song an \"immediate ear-worm pop track\" that features \"crisp production\" by Dazy and \"high-energy vocal melodies\".\n\nListen now! 1 billion total streams on Spotify already! <a href=\"http:\/\/www.last.fm\/music\/Nicky+Youre\/_\/Sunroof\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:19.231892+00:00",
+  "elapsed": 0.276139,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:19.231892+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3057",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Talking+To+the+Moon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bruno+Mars&format=json&method=track.getInfo&track=Talking+To+the+Moon",
+  "_decoded_content": {
+    "track": {
+      "name": "Talking to the Moon",
+      "mbid": "5abc721a-8214-4687-9ab8-0c3391cb1ecb",
+      "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Talking+to+the+Moon",
+      "duration": "217000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1212220",
+      "playcount": "10702880",
+      "artist": {
+        "name": "Bruno Mars",
+        "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars"
+      },
+      "album": {
+        "artist": "Bruno Mars",
+        "title": "Doo-Wops & Hooligans",
+        "mbid": "a854d4ac-66d2-4d6c-a225-7f22beb71472",
+        "url": "https:\/\/www.last.fm\/music\/Bruno+Mars\/Doo-Wops+&+Hooligans",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c3c4dde679eb3436694c2411fe0ff15c.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "Bruno Mars",
+            "url": "https:\/\/www.last.fm\/tag\/Bruno+Mars"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Oct 2012, 00:27",
+        "summary": "Originally included on Bruno\u2019s debut studio EP release It\u2019s Better If You Don\u2019t Understand, \u201cTalking to the Moon\u201d is a jazz power ballad with a stripped-down production \u2014 its instrumental is essentially composed of the sounds of drums and piano. This song is essentially about Bruno\u2019s long-distance relationship with a girl.\n\nBruno confessed that \u201cTalking to the Moon\u201d is his favorite song from the record, commenting it on Sound on Sound: <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Talking+to+the+Moon\">Read more on Last.fm<\/a>.",
+        "content": "Originally included on Bruno\u2019s debut studio EP release It\u2019s Better If You Don\u2019t Understand, \u201cTalking to the Moon\u201d is a jazz power ballad with a stripped-down production \u2014 its instrumental is essentially composed of the sounds of drums and piano. This song is essentially about Bruno\u2019s long-distance relationship with a girl.\n\nBruno confessed that \u201cTalking to the Moon\u201d is his favorite song from the record, commenting it on Sound on Sound:\n\n\u201cTalking To The Moon\u201d is one of my favourite songs on the album. We only had the first verse and the horns, but we knew that it was great. We then had three different bridges and we spent a lot of time trying to find out which one was the best. Jeff Bhasker is a fantastic musician, and he helped write that track. I think we tried to arrange and produce this in four different ways, mostly trying to figure out what kind of drums to put on. <a href=\"http:\/\/www.last.fm\/music\/Bruno+Mars\/_\/Talking+to+the+Moon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

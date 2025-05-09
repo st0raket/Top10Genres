@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:51.922562+00:00",
+  "elapsed": 0.228339,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:51.922562+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3297",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mariah+Carey&format=json&method=track.getInfo&track=Oh+Santa%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Mariah+Carey&format=json&method=track.getInfo&track=Oh+Santa%21",
+  "_decoded_content": {
+    "track": {
+      "name": "Oh Santa!",
+      "mbid": "b7bc27f0-7bf3-4389-9ec6-66256f6c03d4",
+      "url": "https:\/\/www.last.fm\/music\/Mariah+Carey\/_\/Oh+Santa%21",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "109557",
+      "playcount": "669998",
+      "artist": {
+        "name": "Mariah Carey",
+        "mbid": "494e8d09-f85b-4543-892f-a5096aed1cd4",
+        "url": "https:\/\/www.last.fm\/music\/Mariah+Carey"
+      },
+      "album": {
+        "artist": "Mariah Carey",
+        "title": "Merry Christmas II You",
+        "mbid": "73a3f12a-f724-473a-82c0-fc30b8ce0f1e",
+        "url": "https:\/\/www.last.fm\/music\/Mariah+Carey\/Merry+Christmas+II+You",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/27128785d4d9b442fa14cdc9bf127587.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "Mariah Carey",
+            "url": "https:\/\/www.last.fm\/tag\/Mariah+Carey"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Oct 2010, 17:39",
+        "summary": "\"Oh Santa!\" is the lead single from Mariah Carey's second Christmas album, Merry Christmas II You. It is an up-tempo R&B song about Carey making a plea for Santa Claus to bring back her partner in time for the Christmas holidays.\n\nThe video draws influence from the 1950s and 1960s variety shows and features Carey wearing a short, red \"sexy Santa\" ensemble, whilst on stage with a band, which featured gospel backup singers as well as a group of dancers, consisting of cheerleaders. <a href=\"http:\/\/www.last.fm\/music\/Mariah+Carey\/_\/Oh+Santa%21\">Read more on Last.fm<\/a>.",
+        "content": "\"Oh Santa!\" is the lead single from Mariah Carey's second Christmas album, Merry Christmas II You. It is an up-tempo R&B song about Carey making a plea for Santa Claus to bring back her partner in time for the Christmas holidays.\n\nThe video draws influence from the 1950s and 1960s variety shows and features Carey wearing a short, red \"sexy Santa\" ensemble, whilst on stage with a band, which featured gospel backup singers as well as a group of dancers, consisting of cheerleaders. The plotline is centered on Carey hosting a \"Mariah Carey Christmas\" television show. The announcer introduces Carey saying \"here she is, the greatest singer of all time, Ms. Mariah Carey!\". The video then shows Carey's backup singers belting out the chorus while the singer is seen performing in front of a cheering audience. Her collection of fragrances is also advertised in the opening. In the second half of the video, Santa Claus makes an appearance, waving to friends and sharing a hug with Carey. The video ends with the singer laughing while the audience cheers and claps for her performance. <a href=\"http:\/\/www.last.fm\/music\/Mariah+Carey\/_\/Oh+Santa%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

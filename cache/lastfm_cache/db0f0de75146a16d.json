@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:44.593132+00:00",
+  "elapsed": 0.180403,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:44.593132+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3839",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=True+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=True+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "True Love",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/True+Love",
+      "duration": "171000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "541859",
+      "playcount": "5822425",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "True Love",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/True+Love",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c678ba5d90d9d3472965d265bcce826b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c678ba5d90d9d3472965d265bcce826b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c678ba5d90d9d3472965d265bcce826b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c678ba5d90d9d3472965d265bcce826b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "emo rap",
+            "url": "https:\/\/www.last.fm\/tag\/emo+rap"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Feb 2022, 22:37",
+        "summary": "\u201cTrue Love\u201d sees Kanye West and the late XXXTENTACION singing about the complicated nature of love and their struggles to keep their relationships alive on a beat reminiscent of Ye\u2019s magnum opus, \u201cRunaway.\u201d\n\nA demo of the song was previewed on February 22, 2022, as the opener of the Miami listening party for Ye\u2019s eleventh studio album, DONDA 2. That demo was later released on Ye\u2019s Stem Player platform on February 24, 2022, with different drums from the listening party version. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/True+Love\">Read more on Last.fm<\/a>.",
+        "content": "\u201cTrue Love\u201d sees Kanye West and the late XXXTENTACION singing about the complicated nature of love and their struggles to keep their relationships alive on a beat reminiscent of Ye\u2019s magnum opus, \u201cRunaway.\u201d\n\nA demo of the song was previewed on February 22, 2022, as the opener of the Miami listening party for Ye\u2019s eleventh studio album, DONDA 2. That demo was later released on Ye\u2019s Stem Player platform on February 24, 2022, with different drums from the listening party version. The next day the \u201cStadium Version\u201d was released, and the drums were changed back to how it was heard live in Miami. After that, the \u201ccrushed drums\u201d version was removed and the \u201cStadium Version\u201d was kept.\n\nThree months later, on May 19, XXXTENTACION\u2019s estate started teasing the collaboration\u2019s final release by posting tweets of X praising Ye dating back to 2014-2015 via Instagram and Twitter. On May 23, 2022, \u201cTrue Love\u201d was announced to release the following Friday as the lead single for both Donda 2 and LOOK AT ME: THE ALBUM, via Instagram.\n\nOn May 26, the day before the song\u2019s release, the final version of \u201cTrue Love\u201d was premiered on iHeart radio.\n\nXXXTENTACION\u2019s estate shared a short video extracted from the end credits from the documentary Look at Me: XXXTENTACION leading up to the song\u2019s release.\n\nX\u2019s close collaborator and producer, John Cunningham, stated via social media that:\n\"TRUE LOVE WASN\u2019T RECYCLED OR UNUSED LYRICS IT WAS ONE OF THE FEW SONGS WE STARTED IN 2018 BUT NEVER FINISHED. CLEARLY THIS WAS MEANT TO BE.\"\n\nAlso, this marks the second collaboration between the two artists, following XXXTENTACION\u2019s \u201cOne Minute.\u201d\n\n\u201cTrue Love\u201d debuted and peaked at #22 on the Billboard Hot 100 for the chart week ending June 11, 2022. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/True+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

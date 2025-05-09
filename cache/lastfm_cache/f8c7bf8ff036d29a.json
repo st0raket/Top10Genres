@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:28:58.306488+00:00",
+  "elapsed": 0.181217,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:58.306488+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6320",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wham%21&format=json&method=track.getInfo&track=Last+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Wham%21&format=json&method=track.getInfo&track=Last+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Last Christmas",
+      "mbid": "f6491f93-5322-4750-bbca-cf438187e649",
+      "url": "https:\/\/www.last.fm\/music\/Wham%21\/_\/Last+Christmas",
+      "duration": "264000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1791134",
+      "playcount": "12719515",
+      "artist": {
+        "name": "Wham!",
+        "mbid": "d570bb31-b9ca-45a4-a2d9-11b186d9c159",
+        "url": "https:\/\/www.last.fm\/music\/Wham%21"
+      },
+      "album": {
+        "artist": "Wham!",
+        "title": "The Best of Wham!: If You Were There...",
+        "mbid": "a7ab3651-d2e2-4f22-8620-f53d4827ef54",
+        "url": "https:\/\/www.last.fm\/music\/Wham%21\/The+Best+of+Wham%21:+If+You+Were+There...",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/470f6627567c4a1cca31abf7617dfdca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/470f6627567c4a1cca31abf7617dfdca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/470f6627567c4a1cca31abf7617dfdca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/470f6627567c4a1cca31abf7617dfdca.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "Wham",
+            "url": "https:\/\/www.last.fm\/tag\/Wham"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Dec 2009, 22:19",
+        "summary": "\"Last Christmas\" is a song by British pop duo\u00a0WHAM!, released on Epic Records in 1984, on a double A-side with \"Everything She Wants\".\n\nIt was written and produced by George Michael one half of the duo. The song has been covered by many artists throughout the years.\n\nWham! had been a dominant force in the UK Singles Chart in 1984 and news that they were planning a Christmas single meant that a battle for the coveted Christmas #1 spot in the UK seemed set to be between Wham! and the year's other big act <a href=\"http:\/\/www.last.fm\/music\/Wham%21\/_\/Last+Christmas\">Read more on Last.fm<\/a>.",
+        "content": "\"Last Christmas\" is a song by British pop duo\u00a0WHAM!, released on Epic Records in 1984, on a double A-side with \"Everything She Wants\".\n\nIt was written and produced by George Michael one half of the duo. The song has been covered by many artists throughout the years.\n\nWham! had been a dominant force in the UK Singles Chart in 1984 and news that they were planning a Christmas single meant that a battle for the coveted Christmas #1 spot in the UK seemed set to be between Wham! and the year's other big act,\u00a0Frankie Goes to Hollywood, who had achieved a third #1 in early December with \"The Power of Love\". However, the Band Aid project, helmed by Bob Geldof, produced the #1 single. Wham!'s offering peaked at #2 for much of the period, although George's involvement in Band Aid meant that Wham! still had an input. Wham! subsequently topped the monies raised by Band Aid by donating all of their \"Last Christmas\/Everything She Wants\" royalties to the Ethiopian famine appeal. \"Last Christmas\" did make #1 in various other countries.\n\n\"Last Christmas\", released in 1984, sold over 1.93 million physical copies and downloads, making it the eighth best-selling single of all time in the UK and the biggest selling single in UK chart history not to reach #1. A year later, it was re-issued for Christmas again (this time without a billed flip-side) and got to #6. A second re-issue at Christmas 1986 \u2013 by which time Wham! had split \u2013 stalled outside the top 40. The song gradually sold in Japan and finally became the best-selling single that did not reach that country's top-10 chart, selling more than 600,000 copies and peaking on the chart at #12 in 1992. Since 1997, the song enters the German Singlecharts every year and peaked at #4 in 2007. In the airplay charts, the song enters the Top 5 every year. In 2007, the track re-entered the UK Top 20 and hit the UK iTunes Top 10. In 2008, the song re-entered the UK Singles Chart again, this time at #36 and peaked at #26. In 2009, the song re-entered the UK Singles Chart at #39.\n\nOn December 24, 2023, the song achieved a peak of 21,869,632 streams in a single day, making it the second most-streamed Christmas song on Spotify for that date, just behind Mariah Carey\u2019s \"All I Want For Christmas Is You\". By December 2024, \"Last Christmas\" had been streamed over 1.7 billion times on Spotify. On December 10, 2024, the digital single was certified 7x Platinum by the RIAA, indicating U.S. sales of 7 million digital units. In the UK, it is certified 7x Platinum (2.1 million units sold), in Aistralia it is certified 7x Platinum too (490k units sold) and in Germany 4x Platinum (1.2 million). \"Last Christmas\" secured the Christmas number one spot for the second consecutive year in 2024, marking the first time an act has achieved back-to-back Christmas number ones. Its enduring popularity is further highlighted by its inclusion in Spotify's list of top 10 most-streamed holiday tracks of all time, where it holds the second position.\n\nIn the mid-1980s, the publishing company Dick James Music, representing the songwriters of \"Can't Smile Without You,\" filed a lawsuit against George Michael, alleging that Wham!'s \"Last Christmas\" plagiarized their melody. The case was dismissed after a musicologist demonstrated that numerous songs shared similar chord progressions and melodies, undermining the plagiarism claim, an out of court settlement was reached in which the first year's royalties were donated to the one-year-old \"Band Aid\" charity. \n\nThe music video to \"Last Christmas\" saw George and partner Andrew Ridgeley accompanying girlfriends to see friends at their home in an unspecified ski resort, although the cable-car that can be seen in two shots is from Saas-Fee, Switzerland. It became clear early on, however, that Andrew's girlfriend had previously been in a relationship with George, and it was to her character the song was aimed. The video also featured the duo's erstwhile backing singers Pepsi and Shirlie and Spandau Ballet bassist Martin Kemp, the boyfriend and future husband of Shirlie Holliman. <a href=\"http:\/\/www.last.fm\/music\/Wham%21\/_\/Last+Christmas\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

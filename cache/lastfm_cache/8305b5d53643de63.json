@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:42:42.488471+00:00",
+  "elapsed": 0.190291,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:42.488471+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3068",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pitbull&format=json&method=track.getInfo&track=Give+Me+Everything"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pitbull&format=json&method=track.getInfo&track=Give+Me+Everything",
+  "_decoded_content": {
+    "track": {
+      "name": "Give Me Everything",
+      "mbid": "3015fb76-f958-4755-9a4e-e9748e06876f",
+      "url": "https:\/\/www.last.fm\/music\/Pitbull\/_\/Give+Me+Everything",
+      "duration": "252000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "488834",
+      "playcount": "2902678",
+      "artist": {
+        "name": "Pitbull",
+        "mbid": "d262ea27-3ffe-40f7-b922-85c42d625e67",
+        "url": "https:\/\/www.last.fm\/music\/Pitbull"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best Of 538 Dance Smash Vol 2.",
+        "mbid": "c97fdda0-a5b2-4652-b830-b37d9acf231e",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+Of+538+Dance+Smash+Vol+2.",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/207df6b9a5d67bffdd5cf454be4d6ebd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/207df6b9a5d67bffdd5cf454be4d6ebd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/207df6b9a5d67bffdd5cf454be4d6ebd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/207df6b9a5d67bffdd5cf454be4d6ebd.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2011",
+            "url": "https:\/\/www.last.fm\/tag\/2011"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "Ne-Yo",
+            "url": "https:\/\/www.last.fm\/tag\/Ne-Yo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Jun 2011, 17:52",
+        "summary": "\"Give Me Everything\" is a song written and performed by American singer and rapper Pitbull and American R&B singer Ne-Yo, featuring additional vocals from American singer Nayer and is produced by Dutch DJ Afrojack. It was released on March 18, 2011, as the second single from Pitbull's sixth studio album, Planet Pit (2011). Rolling Stone described the song as a \"club-pop cut with a plaintive Ne-Yo chorus.\"\n\nIn the United States, \"Give Me Everything\" became Pitbull's first #1 single on the Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Pitbull\/_\/Give+Me+Everything\">Read more on Last.fm<\/a>.",
+        "content": "\"Give Me Everything\" is a song written and performed by American singer and rapper Pitbull and American R&B singer Ne-Yo, featuring additional vocals from American singer Nayer and is produced by Dutch DJ Afrojack. It was released on March 18, 2011, as the second single from Pitbull's sixth studio album, Planet Pit (2011). Rolling Stone described the song as a \"club-pop cut with a plaintive Ne-Yo chorus.\"\n\nIn the United States, \"Give Me Everything\" became Pitbull's first #1 single on the Billboard Hot 100. It also became his first #1 in the United Kingdom as the main artist. The song has also peaked at #1 in Belgium, Canada, Ireland, the Netherlands and within the Top 5 in 12 countries. It was the seventh best-selling digital single of 2011 with worldwide sales of 11.2 million copies, making it one of the best-selling singles of all time. <a href=\"http:\/\/www.last.fm\/music\/Pitbull\/_\/Give+Me+Everything\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

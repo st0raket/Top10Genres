@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:15.651169+00:00",
+  "elapsed": 0.177251,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:15.651169+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3196",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Cranberries&format=json&method=track.getInfo&track=Dreams"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Cranberries&format=json&method=track.getInfo&track=Dreams",
+  "_decoded_content": {
+    "track": {
+      "name": "Dreams",
+      "mbid": "5543115d-7582-49de-93d7-012bb879bd3e",
+      "url": "https:\/\/www.last.fm\/music\/The+Cranberries\/_\/Dreams",
+      "duration": "271000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1314940",
+      "playcount": "10571039",
+      "artist": {
+        "name": "The Cranberries",
+        "mbid": "c98d40fd-f6cf-4b26-883e-eaa515ee2851",
+        "url": "https:\/\/www.last.fm\/music\/The+Cranberries"
+      },
+      "album": {
+        "artist": "The Cranberries",
+        "title": "Everybody Else Is Doing It, So Why Can't We?",
+        "mbid": "6e4bad0f-41e3-361d-b75a-3f63bc7176c6",
+        "url": "https:\/\/www.last.fm\/music\/The+Cranberries\/Everybody+Else+Is+Doing+It,+So+Why+Can%27t+We%3F",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/87138bbda83bd0ae8b4da2b6cab9b66a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Aug 2008, 03:38",
+        "summary": "\"Dreams\" is a song by rock band The Cranberries from their 1993 debut album \"Everybody Else Is Doing It, So Why Can't We?\"\n\nThe backing vocals on the song are sung by Mike Mahoney, ex-boyfriend of Cranberries lead singer Dolores O'Riordan. This hit was also a main feature of the Cranberries in the 1994 Woodstock Revival Festival.\n\nThere are two versions of the video. The first version shows the Cranberries performing the song in a dimly-lit aquatic-themed room interspersed with shots of geometric flowers hitting water. <a href=\"http:\/\/www.last.fm\/music\/The+Cranberries\/_\/Dreams\">Read more on Last.fm<\/a>.",
+        "content": "\"Dreams\" is a song by rock band The Cranberries from their 1993 debut album \"Everybody Else Is Doing It, So Why Can't We?\"\n\nThe backing vocals on the song are sung by Mike Mahoney, ex-boyfriend of Cranberries lead singer Dolores O'Riordan. This hit was also a main feature of the Cranberries in the 1994 Woodstock Revival Festival.\n\nThere are two versions of the video. The first version shows the Cranberries performing the song in a dimly-lit aquatic-themed room interspersed with shots of geometric flowers hitting water.\n\nThe second version, which was most-known, shows the Cranberries performing the song in a nightclub. After which, Dolores O'Riordan heads out to a house where graverobbers dressed in black have placed in a very large tree pile. Dolores bathes the tree pile in water and a man is buried under the pile. The water frees him and in the final seconds of the video, the man wakes up. <a href=\"http:\/\/www.last.fm\/music\/The+Cranberries\/_\/Dreams\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

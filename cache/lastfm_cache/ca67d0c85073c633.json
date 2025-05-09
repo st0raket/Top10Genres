@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:38:01.586134+00:00",
+  "elapsed": 0.196413,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:01.586134+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1929",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=MOVE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Beyonc%C3%A9&format=json&method=track.getInfo&track=MOVE",
+  "_decoded_content": {
+    "track": {
+      "name": "Move",
+      "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/Move",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "105875",
+      "playcount": "374995",
+      "artist": {
+        "name": "Beyonc\u00e9",
+        "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+        "url": "https:\/\/www.last.fm\/music\/Beyonc%C3%A9"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          },
+          {
+            "name": "my top songs",
+            "url": "https:\/\/www.last.fm\/tag\/my+top+songs"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 Sep 2022, 19:00",
+        "summary": "\u201cMOVE\u201d explores a mixture of afrobeats, funk & bounce with the help of Grace Jones on the chorus & refrain as well as a brief addition from rising Nigerian artist Tems. This is also the first collaboration between Beyonc\u00e9, Grace Jones & Tems and the first song on a Beyonc\u00e9 studio album to feature two female artists.\n\nThe hard-hitting constant bass and chant-like chorus electrifies the listener into a rhythm that details Beyonc\u00e9 & her girls looking for space on the dancefloor. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/Move\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMOVE\u201d explores a mixture of afrobeats, funk & bounce with the help of Grace Jones on the chorus & refrain as well as a brief addition from rising Nigerian artist Tems. This is also the first collaboration between Beyonc\u00e9, Grace Jones & Tems and the first song on a Beyonc\u00e9 studio album to feature two female artists.\n\nThe hard-hitting constant bass and chant-like chorus electrifies the listener into a rhythm that details Beyonc\u00e9 & her girls looking for space on the dancefloor. <a href=\"http:\/\/www.last.fm\/music\/Beyonc%C3%A9\/_\/Move\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

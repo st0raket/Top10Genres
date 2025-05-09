@@ -1,0 +1,83 @@
+{
+  "created_at": "2025-05-03T14:34:39.151655+00:00",
+  "elapsed": 0.206277,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:39.151655+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "967",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dinos&format=json&method=track.getInfo&track=Diptyque"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dinos&format=json&method=track.getInfo&track=Diptyque",
+  "_decoded_content": {
+    "track": {
+      "name": "Diptyque",
+      "url": "https:\/\/www.last.fm\/music\/Dinos\/_\/Diptyque",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "10616",
+      "playcount": "124562",
+      "artist": {
+        "name": "Dinos",
+        "url": "https:\/\/www.last.fm\/music\/Dinos"
+      },
+      "album": {
+        "artist": "Dinos",
+        "title": "Stamina, memento",
+        "url": "https:\/\/www.last.fm\/music\/Dinos\/Stamina,+memento",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/29b4e65e2c002913b301f7bfc772aba5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/29b4e65e2c002913b301f7bfc772aba5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/29b4e65e2c002913b301f7bfc772aba5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/29b4e65e2c002913b301f7bfc772aba5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      }
+    }
+  }
+}

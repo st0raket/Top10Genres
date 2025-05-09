@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:10.778055+00:00",
+  "elapsed": 0.193714,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:10.778055+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2686",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Thunderous"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Thunderous",
+  "_decoded_content": {
+    "track": {
+      "name": "Thunderous",
+      "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Thunderous",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "285280",
+      "playcount": "7355032",
+      "artist": {
+        "name": "STRAY KIDS",
+        "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Aug 2021, 20:36",
+        "summary": "\"We made the hook first. We used that as our foundation for the entire song. At that time, I was with Changbin and HAN in the living room and we were wondering about how to make [\u201cThunderous\u201d] different and new. We kept tossing ideas back and forth and talked about this and that. Then, the theme of \u201cThunderous\u201d came up. I thought the title \u201cThunderous\u201d would be fun, so we looked it up on music platforms and found out [the concept] hasn\u2019t been used at all before. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Thunderous\">Read more on Last.fm<\/a>.",
+        "content": "\"We made the hook first. We used that as our foundation for the entire song. At that time, I was with Changbin and HAN in the living room and we were wondering about how to make [\u201cThunderous\u201d] different and new. We kept tossing ideas back and forth and talked about this and that. Then, the theme of \u201cThunderous\u201d came up. I thought the title \u201cThunderous\u201d would be fun, so we looked it up on music platforms and found out [the concept] hasn\u2019t been used at all before. It seemed perfect for Stray Kids and I thought it was a title that only we could do.\"\n\nWritten By\nBANG CHAN, CHANGBIN, HAN (Stray Kids) & HotSauce\n\nVocals\nI.N (Stray Kids), SEUNGMIN, FELIX (Stray Kids), HAN (Stray Kids), HYUNJIN (Stray Kids), CHANGBIN (Stray Kids), LEE KNOW (Stray Kids) & BANG CHAN (Stray Kids)\n\nKeyboards\nHotSauce\n\nDrum Programmer\nHotSauce\n\nComputer Programmer\nHotSauce\n\nDigital Editor\nHotSauce & \uc774\uacbd\uc6d0 (Lee Kyung Won)\n\nRecording Engineer\nEMON (KOR) & \uc774\uc0c1\uc5fd (Lee Sang Yeop)\n\nMastering Engineer\n\uad8c\ub0a8\uc6b0 (Kwon Nam Woo)\n\nMixing Engineer\nDavid K. Younghyun & Tony Maserati\n\nLyricist\nBANG CHAN, CHANGBIN & HAN (Stray Kids)\n\nComposer\nBANG CHAN, CHANGBIN, HAN (Stray Kids) & HotSauce\n\nArranger\nHotSauce & BANG CHAN\n\nLabel\nJYP Entertainment <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Thunderous\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

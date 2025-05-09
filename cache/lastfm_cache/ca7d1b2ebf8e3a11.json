@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:29:37.701831+00:00",
+  "elapsed": 0.239159,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:37.701831+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4641",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Avicii&format=json&method=track.getInfo&track=Hey+Brother"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Avicii&format=json&method=track.getInfo&track=Hey+Brother",
+  "_decoded_content": {
+    "track": {
+      "name": "Hey Brother",
+      "mbid": "e6d35064-da9c-43e7-a627-b919935bcdaa",
+      "url": "https:\/\/www.last.fm\/music\/Avicii\/_\/Hey+Brother",
+      "duration": "254000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "862277",
+      "playcount": "6512244",
+      "artist": {
+        "name": "Avicii",
+        "mbid": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5",
+        "url": "https:\/\/www.last.fm\/music\/Avicii"
+      },
+      "album": {
+        "artist": "Avicii",
+        "title": "True",
+        "mbid": "df93fa50-a9ab-4b1c-8a83-e842652ac39c",
+        "url": "https:\/\/www.last.fm\/music\/Avicii\/True",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f54f3b6ef26445a5bbb8a72f0f7830bd.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "country house",
+            "url": "https:\/\/www.last.fm\/tag\/country+house"
+          },
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Sep 2013, 08:59",
+        "summary": "\"Hey Brother\" is a dance song by Swedish DJ and record producer Avicii from his debut studio album \"True\". American bluegrass singer Dan Tyminski provides vocals for the track. It was written by Avicii, Ash Pournouri, Salem Al Fakir, Vincent Pontare and Veronica Maggio. \"Hey Brother\" sees Avicii giving his brother advice.\n\nThe song, which serves as the album's third single, was solicited to Australian radio on 9 October 2013 and later released on 28 October 2013 in Germany, Switzerland and Austria. <a href=\"http:\/\/www.last.fm\/music\/Avicii\/_\/Hey+Brother\">Read more on Last.fm<\/a>.",
+        "content": "\"Hey Brother\" is a dance song by Swedish DJ and record producer Avicii from his debut studio album \"True\". American bluegrass singer Dan Tyminski provides vocals for the track. It was written by Avicii, Ash Pournouri, Salem Al Fakir, Vincent Pontare and Veronica Maggio. \"Hey Brother\" sees Avicii giving his brother advice.\n\nThe song, which serves as the album's third single, was solicited to Australian radio on 9 October 2013 and later released on 28 October 2013 in Germany, Switzerland and Austria. In March 2014, a version of the track remixed by Avicii himself was released on his remix album \"True (Avicii by Avicii)\", this time featuring new vocals from singer Salem Al Fakir.\n\nOn 1 November 2013, the lyric video for \"Hey Brother\" was released onto YouTube by AviciiOfficialVEVO. The video is an assortment of stock footage clips depicting regular people and obscure events in normal everyday life such as playing basketball, Aundrea Fimbres with her face off screen having a light snack on chocolate and an olive, popcorn popping, and having a snowball fight, all in slow motion and accompanied by an animated text representation of the lyrics.\n\nIn the United Kingdom, after climbing for several weeks, \"Hey Brother\" peaked at number two on the UK Singles Chart on 15 December 2013 \u2015 for the week ending dated 21 December 2013 \u2015 being held off the top spot by Lily Allen's cover of \"Somewhere Only We Know\". It eventually spent 22 weeks in the top 40 \u2015 10 of which were in the top 10. In addition, \"Hey Brother\" peaked at the top of the UK Dance Chart. Including previous releases \"I Could Be the One\", \"Wake Me Up\" and \"You Make Me\", Avicii therefore reached the summit of the UK Dance Chart four times in 2013 alone. The song spent a total of six weeks at the top spot on the UK Dance Chart, ended by \"Rather Be\" by Clean Bandit featuring Jess Glynne.\n\nIn the United States, the song entered the Billboard Hot 100 chart at number 77 in December 2013. It continued climbing and rose to number 16 in March 2014, and reached a million in total sales that week. After Clear Channel personnel noticed the song's success at pop and adult pop radio, they asked Island Def Jam to craft a remix that showcases the song's instruments more prominently. Support for this remix enabled \"Hey Brother\" to debut, and peak, at number 59 on Billboard's Country Airplay chart in March 2014. The song would become Avicii's final song to hit the top 40 before his death in 2018. <a href=\"http:\/\/www.last.fm\/music\/Avicii\/_\/Hey+Brother\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

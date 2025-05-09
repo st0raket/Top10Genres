@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:46.662227+00:00",
+  "elapsed": 0.184386,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:46.662227+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2498",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Heathens"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Twenty+One+Pilots&format=json&method=track.getInfo&track=Heathens",
+  "_decoded_content": {
+    "track": {
+      "name": "Heathens",
+      "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Heathens",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1127880",
+      "playcount": "10063356",
+      "artist": {
+        "name": "Twenty One Pilots",
+        "mbid": "a6c6897a-7415-4f8d-b5a5-3a5e05f3be67",
+        "url": "https:\/\/www.last.fm\/music\/Twenty+One+Pilots"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2016, 20:50",
+        "summary": "\"Heathens\" is a song written and recorded by the American musical duo Twenty One Pilots, released as a single for the motion picture soundtrack for the film Suicide Squad (2016) on June 16, 2016 by Atlantic Records and Warner Bros. Records.\n\nOn June 15, 2016, Twenty One Pilots tweeted a message in Morse code which read \"takeitslow\", a lyric taken from the song \"Heathens\". On the same day, the song initially leaked onto the Internet. The following day <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Heathens\">Read more on Last.fm<\/a>.",
+        "content": "\"Heathens\" is a song written and recorded by the American musical duo Twenty One Pilots, released as a single for the motion picture soundtrack for the film Suicide Squad (2016) on June 16, 2016 by Atlantic Records and Warner Bros. Records.\n\nOn June 15, 2016, Twenty One Pilots tweeted a message in Morse code which read \"takeitslow\", a lyric taken from the song \"Heathens\". On the same day, the song initially leaked onto the Internet. The following day, June 16, it was revealed that the song will be featured on the motion picture soundtrack for the 2016 American superhero film based on the DC Comics antihero team Suicide Squad. The soundtrack was released on August 5, 2016.\n\nAtlantic Records tried to find out who leaked the song, however, Reddit refused to give the IP address and was threatened a lawsuit, it was later revealed that the song was leaked by the band themselves or an Atlantic Records employee. The company's earlier plans were to advertise the song and create more revenue. <a href=\"http:\/\/www.last.fm\/music\/Twenty+One+Pilots\/_\/Heathens\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:47.733493+00:00",
+  "elapsed": 0.227062,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:47.733493+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1586",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vintazh&format=json&method=track.getInfo&track=%D0%9F%D0%BB%D0%BE%D1%85%D0%B0%D1%8F+%D0%94%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B0"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Vintazh&format=json&method=track.getInfo&track=%D0%9F%D0%BB%D0%BE%D1%85%D0%B0%D1%8F+%D0%94%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B0",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041f\u043b\u043e\u0445\u0430\u044f \u0434\u0435\u0432\u043e\u0447\u043a\u0430",
+      "mbid": "66c7dfe8-573e-416a-a14f-3595e8c7ff79",
+      "url": "https:\/\/www.last.fm\/music\/%D0%92%D0%B8%D0%BD%D1%82%D0%B0%D0%B6\/_\/%D0%9F%D0%BB%D0%BE%D1%85%D0%B0%D1%8F+%D0%B4%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B0",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "25446",
+      "playcount": "218447",
+      "artist": {
+        "name": "\u0412\u0438\u043d\u0442\u0430\u0436",
+        "mbid": "c83b98d5-7090-4942-b1f9-7c0408fb3072",
+        "url": "https:\/\/www.last.fm\/music\/%D0%92%D0%B8%D0%BD%D1%82%D0%B0%D0%B6"
+      },
+      "album": {
+        "artist": "\u0412\u0438\u043d\u0442\u0430\u0436",
+        "title": "\u041a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043b\u044e\u0431\u043e\u0432\u044c",
+        "mbid": "0af8cd91-3c67-41ca-b747-8ef320481b53",
+        "url": "https:\/\/www.last.fm\/music\/%D0%92%D0%B8%D0%BD%D1%82%D0%B0%D0%B6\/%D0%9A%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8c9866654e14ff227e5b52b77bfa227b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8c9866654e14ff227e5b52b77bfa227b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8c9866654e14ff227e5b52b77bfa227b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8c9866654e14ff227e5b52b77bfa227b.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "14"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "russian",
+            "url": "https:\/\/www.last.fm\/tag\/russian"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Russian Pop",
+            "url": "https:\/\/www.last.fm\/tag\/Russian+Pop"
+          }
+        ]
+      }
+    }
+  }
+}

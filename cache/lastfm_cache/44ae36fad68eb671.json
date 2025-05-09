@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:33:27.542531+00:00",
+  "elapsed": 0.207091,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:27.542531+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "834",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=reezy&format=json&method=track.getInfo&track=EXCEL"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=reezy&format=json&method=track.getInfo&track=EXCEL",
+  "_decoded_content": {
+    "track": {
+      "name": "EXCEL",
+      "url": "https:\/\/www.last.fm\/music\/Reezy\/_\/EXCEL",
+      "duration": "174000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "9115",
+      "playcount": "112203",
+      "artist": {
+        "name": "Reezy",
+        "url": "https:\/\/www.last.fm\/music\/Reezy"
+      },
+      "album": {
+        "artist": "Reezy",
+        "title": "WEISSWEIN & HEARTBREAKS",
+        "url": "https:\/\/www.last.fm\/music\/Reezy\/WEISSWEIN+&+HEARTBREAKS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f28fc1e8174d353a85e2ffe0f3fb8474.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f28fc1e8174d353a85e2ffe0f3fb8474.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f28fc1e8174d353a85e2ffe0f3fb8474.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f28fc1e8174d353a85e2ffe0f3fb8474.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

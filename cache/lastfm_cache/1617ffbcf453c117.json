@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:39.921266+00:00",
+  "elapsed": 0.206067,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:39.921266+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2964",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Come+Back...Be+Here"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Come+Back...Be+Here",
+  "_decoded_content": {
+    "track": {
+      "name": "Come Back... Be Here",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Come+Back...+Be+Here",
+      "duration": "223000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "83571",
+      "playcount": "833828",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Red (Deluxe Version)",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Red+(Deluxe+Version)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/abcd8ab28a637187d8d8cace41fa92cf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/abcd8ab28a637187d8d8cace41fa92cf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/abcd8ab28a637187d8d8cace41fa92cf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/abcd8ab28a637187d8d8cace41fa92cf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 May 2024, 03:49",
+        "summary": "On \u201cCome Back\u2026Be Here\u201d, Swift croons about a lover lost to time over a simple production reminiscent of her Speak Now days. On the deluxe version of Red, it appears as the 18th track.\n\nAlthough Swift has not confirmed it, this song is speculated to be about Harry Styles, one of the singers from One Direction. They apparently broke it off after a couple months.\n\nIt\u2019s interesting to note the reference to New York in the chorus. Although the production in this song is much more simple than some of the poppier songs on Red <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Come+Back...+Be+Here\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cCome Back\u2026Be Here\u201d, Swift croons about a lover lost to time over a simple production reminiscent of her Speak Now days. On the deluxe version of Red, it appears as the 18th track.\n\nAlthough Swift has not confirmed it, this song is speculated to be about Harry Styles, one of the singers from One Direction. They apparently broke it off after a couple months.\n\nIt\u2019s interesting to note the reference to New York in the chorus. Although the production in this song is much more simple than some of the poppier songs on Red, the production on her next album. 1989 was much more poppy than this, and its sound was apparently influenced by her living in New York.\n\nClearly, New York became happier for her when she moved in, while before that it was a place where her lovers went after leaving her. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Come+Back...+Be+Here\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:40.058837+00:00",
+  "elapsed": 0.282225,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:40.058837+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2563",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=Drugs+You+Should+Try+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=Drugs+You+Should+Try+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Drugs You Should Try It",
+      "url": "https:\/\/www.last.fm\/music\/Travi$+Scott\/_\/Drugs+You+Should+Try+It",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "23983",
+      "playcount": "345877",
+      "artist": {
+        "name": "Travi$ Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travi$+Scott"
+      },
+      "album": {
+        "artist": "Travi$ Scott",
+        "title": "Days Before Rodeo",
+        "url": "https:\/\/www.last.fm\/music\/Travi$+Scott\/Days+Before+Rodeo",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/910fce6d2f6bc7ba78f0752ec99e51c0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/910fce6d2f6bc7ba78f0752ec99e51c0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/910fce6d2f6bc7ba78f0752ec99e51c0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/910fce6d2f6bc7ba78f0752ec99e51c0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 May 2022, 18:53",
+        "summary": "On the fourth track of Days Before Rodeo, Travis shows us his romantic side, which, at the same time, does not divert from his original, druggy style. Through this chilled, laidback beat, he is experiencing the side effects of drugs he tried\u2013presumably for the first time\u2013while falling in love with a girl he has been around.\n\nHe also mentioned that the track is based off of one of his favorite songs, namely, Justin Bieber\u2019s \u201cAll That Matters.\u201d <a href=\"http:\/\/www.last.fm\/music\/Travi$+Scott\/_\/Drugs+You+Should+Try+It\">Read more on Last.fm<\/a>.",
+        "content": "On the fourth track of Days Before Rodeo, Travis shows us his romantic side, which, at the same time, does not divert from his original, druggy style. Through this chilled, laidback beat, he is experiencing the side effects of drugs he tried\u2013presumably for the first time\u2013while falling in love with a girl he has been around.\n\nHe also mentioned that the track is based off of one of his favorite songs, namely, Justin Bieber\u2019s \u201cAll That Matters.\u201d <a href=\"http:\/\/www.last.fm\/music\/Travi$+Scott\/_\/Drugs+You+Should+Try+It\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

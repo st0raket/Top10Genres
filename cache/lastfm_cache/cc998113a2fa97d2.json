@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:40.418243+00:00",
+  "elapsed": 0.213532,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:40.418243+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2719",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Crown"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Crown",
+  "_decoded_content": {
+    "track": {
+      "name": "Crown",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Crown",
+      "duration": "349000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "482545",
+      "playcount": "3193196",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "Mr. Morale & the Big Steppers",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/Mr.+Morale+&+the+Big+Steppers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "kendrick lamar",
+            "url": "https:\/\/www.last.fm\/tag\/kendrick+lamar"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "vocal jazz",
+            "url": "https:\/\/www.last.fm\/tag\/vocal+jazz"
+          },
+          {
+            "name": "Gilles Peterson",
+            "url": "https:\/\/www.last.fm\/tag\/Gilles+Peterson"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 May 2022, 19:21",
+        "summary": "In \u201cCrown,\u201d the Compton native Kendrick Lamar gives us insight into his psyche, portraying an image of a normal, satisfactory life, with a deeply conflicted inside.\n\nWhile rapping about his contrasting feelings about being seen and doing his best as a leader in his community while \u2013 obviously \u2013 not being able to please everyone, Kendrick also speaks about love and makes references to William Shakespeare\u2019s \"Henry IV\" throughout the song\u2019s melodic refrain.\n\nThe artist repeats the phrase a total amount of 51 times throughout the track. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Crown\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cCrown,\u201d the Compton native Kendrick Lamar gives us insight into his psyche, portraying an image of a normal, satisfactory life, with a deeply conflicted inside.\n\nWhile rapping about his contrasting feelings about being seen and doing his best as a leader in his community while \u2013 obviously \u2013 not being able to please everyone, Kendrick also speaks about love and makes references to William Shakespeare\u2019s \"Henry IV\" throughout the song\u2019s melodic refrain.\n\nThe artist repeats the phrase a total amount of 51 times throughout the track. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Crown\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

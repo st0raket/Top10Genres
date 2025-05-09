@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:38:58.766955+00:00",
+  "elapsed": 0.187434,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:58.766955+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3177",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=S%26M"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=S%26M",
+  "_decoded_content": {
+    "track": {
+      "name": "S&M",
+      "mbid": "5a5056f9-1bec-426e-bc39-2ba1d22bb13b",
+      "url": "https:\/\/www.last.fm\/music\/Rihanna\/_\/S&M",
+      "duration": "243000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1751923",
+      "playcount": "15873615",
+      "artist": {
+        "name": "Rihanna",
+        "mbid": "db36a76f-4cdf-43ac-8cd0-5e48092d2bae",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna"
+      },
+      "album": {
+        "artist": "Rihanna",
+        "title": "Loud",
+        "mbid": "c43043ff-a16d-4c74-a7cb-a278bf4d4c5c",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna\/Loud",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a7cd5b2046514a52ba359e06743693f9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a7cd5b2046514a52ba359e06743693f9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a7cd5b2046514a52ba359e06743693f9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a7cd5b2046514a52ba359e06743693f9.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Rihanna",
+            "url": "https:\/\/www.last.fm\/tag\/Rihanna"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 Jul 2011, 19:19",
+        "summary": "\"S&M\" is a song by Barbadian singer Rihanna from her fifth studio album \"Loud\". The song was released on January 21, 2011, as the fourth single from the album. The American songwriter Ester Dean wrote \"S&M\" in collaboration with the producers Stargate and Sandy Vee. Backed by bass beats, a keyboard and guitars, it is an uptempo hi-NRG-Electro-pop track with lyrics about sexual intercourse, sadomasochism, bondage, and fetishes.\n\nCritical response to <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/S&M\">Read more on Last.fm<\/a>.",
+        "content": "\"S&M\" is a song by Barbadian singer Rihanna from her fifth studio album \"Loud\". The song was released on January 21, 2011, as the fourth single from the album. The American songwriter Ester Dean wrote \"S&M\" in collaboration with the producers Stargate and Sandy Vee. Backed by bass beats, a keyboard and guitars, it is an uptempo hi-NRG-Electro-pop track with lyrics about sexual intercourse, sadomasochism, bondage, and fetishes.\n\nCritical response to \"S&M\" was mixed: some critics praised its sound and composition while others criticized its overtly sexual lyrics. After it reached number two on the United States' Billboard Hot 100 chart, a remix that features Britney Spears was released. When combined with sales of the solo version, it became Rihanna's tenth and Spears' fifth number-one single on the chart. It has been certified triple platinum by the Recording Industry Association of America (RIAA). \"S&M\" peaked at number one in Australia, Canada, Hungary, Israel, and Poland in addition to the United States while peaking within the top five in France, Germany, Ireland, Spain, and the UK. <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/S&M\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:34:33.858428+00:00",
+  "elapsed": 0.278828,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:33.858428+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2025",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GFRIEND&format=json&method=track.getInfo&track=MAGO"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GFRIEND&format=json&method=track.getInfo&track=MAGO",
+  "_decoded_content": {
+    "track": {
+      "name": "Mago",
+      "url": "https:\/\/www.last.fm\/music\/GFRIEND\/_\/Mago",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "343463",
+      "playcount": "7581307",
+      "artist": {
+        "name": "GFRIEND",
+        "url": "https:\/\/www.last.fm\/music\/GFRIEND"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          },
+          {
+            "name": "Retro",
+            "url": "https:\/\/www.last.fm\/tag\/Retro"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Nov 2020, 11:58",
+        "summary": "\"Mago\" (stylized in all caps) is a song recorded by South Korean girl group GFriend for their third Korean-language studio album \u56de:Walpurgis Night. The song was released as the title track of the album on November 9, 2020 by Source Music. It is the group\u2019s final release before their departure from Source Music.\n\nMAGO stands for a Korean deity and the Spanish word for wizard. Declaring themselves as witches that won't be swayed by other\u2019s gazes nor judgement <a href=\"http:\/\/www.last.fm\/music\/GFRIEND\/_\/Mago\">Read more on Last.fm<\/a>.",
+        "content": "\"Mago\" (stylized in all caps) is a song recorded by South Korean girl group GFriend for their third Korean-language studio album \u56de:Walpurgis Night. The song was released as the title track of the album on November 9, 2020 by Source Music. It is the group\u2019s final release before their departure from Source Music.\n\nMAGO stands for a Korean deity and the Spanish word for wizard. Declaring themselves as witches that won't be swayed by other\u2019s gazes nor judgement, it expresses finding ones own identity, self-resilience and confident attitude through a fancy and shining festival. With retro synthesizers, riffs, and danceable drum beats, the 1980s- style music is an earworm. <a href=\"http:\/\/www.last.fm\/music\/GFRIEND\/_\/Mago\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

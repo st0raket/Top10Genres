@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:28:40.782715+00:00",
+  "elapsed": 0.215546,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:40.782715+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "935",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Daddy+Yankee&format=json&method=track.getInfo&track=Vuelve"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Daddy+Yankee&format=json&method=track.getInfo&track=Vuelve",
+  "_decoded_content": {
+    "track": {
+      "name": "Vuelve",
+      "url": "https:\/\/www.last.fm\/music\/Daddy+Yankee\/_\/Vuelve",
+      "duration": "279000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "105177",
+      "playcount": "779861",
+      "artist": {
+        "name": "Daddy Yankee",
+        "mbid": "2f522f5c-111c-4ce8-8bd0-d82e97c227ad",
+        "url": "https:\/\/www.last.fm\/music\/Daddy+Yankee"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Reguet\u00f3n Suavecito Vol. 1",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Reguet%C3%B3n+Suavecito+Vol.+1",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/78b4b9930d312dc5f9fdd6875a23936a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/78b4b9930d312dc5f9fdd6875a23936a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/78b4b9930d312dc5f9fdd6875a23936a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/78b4b9930d312dc5f9fdd6875a23936a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

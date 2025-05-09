@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:06.714654+00:00",
+  "elapsed": 0.183241,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:06.714654+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2373",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Milky+Chance&format=json&method=track.getInfo&track=Cocoon"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Milky+Chance&format=json&method=track.getInfo&track=Cocoon",
+  "_decoded_content": {
+    "track": {
+      "name": "Cocoon",
+      "url": "https:\/\/www.last.fm\/music\/Milky+Chance\/_\/Cocoon",
+      "duration": "254000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "208241",
+      "playcount": "1432128",
+      "artist": {
+        "name": "Milky Chance",
+        "mbid": "6d230d98-fb8d-4421-a6e8-daca4e55d53e",
+        "url": "https:\/\/www.last.fm\/music\/Milky+Chance"
+      },
+      "album": {
+        "artist": "Milky Chance",
+        "title": "Cocoon",
+        "url": "https:\/\/www.last.fm\/music\/Milky+Chance\/Cocoon",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/23a4d5b9cd48f33c3d60e6c9df3c5326.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/23a4d5b9cd48f33c3d60e6c9df3c5326.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/23a4d5b9cd48f33c3d60e6c9df3c5326.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/23a4d5b9cd48f33c3d60e6c9df3c5326.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "fip",
+            "url": "https:\/\/www.last.fm\/tag\/fip"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Nov 2016, 04:51",
+        "summary": "\u201cCocoon\u201d is Milky Chance\u2019s first song since their 2013 debut album, Sadnecessary. Guitarist Antonio Greger joined the group last year, as well.\n\nAccording to a press release, the title \u201cCocoon\u201d is intended to let fans know the duo\u2014 lead vocalist and guitarist Clemens Rehbein and DJ and producer Philipp Dausch\u2014have used the last three years off from music to return to a \u201cplace of serenity\u201d for their next album. <a href=\"http:\/\/www.last.fm\/music\/Milky+Chance\/_\/Cocoon\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCocoon\u201d is Milky Chance\u2019s first song since their 2013 debut album, Sadnecessary. Guitarist Antonio Greger joined the group last year, as well.\n\nAccording to a press release, the title \u201cCocoon\u201d is intended to let fans know the duo\u2014 lead vocalist and guitarist Clemens Rehbein and DJ and producer Philipp Dausch\u2014have used the last three years off from music to return to a \u201cplace of serenity\u201d for their next album. <a href=\"http:\/\/www.last.fm\/music\/Milky+Chance\/_\/Cocoon\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

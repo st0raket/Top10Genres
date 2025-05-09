@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:41:36.279718+00:00",
+  "elapsed": 0.193035,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:36.279718+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3740",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=Thunderstruck"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=Thunderstruck",
+  "_decoded_content": {
+    "track": {
+      "name": "Thunderstruck",
+      "mbid": "6d19aaa7-1eb5-4488-a54d-fe07d0621a7f",
+      "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/_\/Thunderstruck",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1481174",
+      "playcount": "11533262",
+      "artist": {
+        "name": "AC\/DC",
+        "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC"
+      },
+      "album": {
+        "artist": "AC\/DC",
+        "title": "The Razors Edge",
+        "mbid": "c280af5a-666b-3221-9d1f-a12b674ddf54",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/The+Razors+Edge",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98390dad3bf6d7a28294106da6941e19.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98390dad3bf6d7a28294106da6941e19.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98390dad3bf6d7a28294106da6941e19.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98390dad3bf6d7a28294106da6941e19.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "ACDC",
+            "url": "https:\/\/www.last.fm\/tag\/ACDC"
+          },
+          {
+            "name": "heavy metal",
+            "url": "https:\/\/www.last.fm\/tag\/heavy+metal"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jun 2009, 07:23",
+        "summary": "\"Thunderstruck\" is the first song on the 1990 AC\/DC album The Razors Edge.\n\nThe song peaked at number #5 on Billboard's Mainstream Rock Tracks. It was released as a single in Germany, Australia and Japan. Shown is the cover of the German release of the \"Thunderstruck\" single. The song is said to be inspired by lead guitarist Angus Young's hair-raising experience when a plane he was on was struck by lightning. However, Angus Young was later to say that it \"started off from a little trick I had on guitar. <a href=\"http:\/\/www.last.fm\/music\/AC%2FDC\/_\/Thunderstruck\">Read more on Last.fm<\/a>.",
+        "content": "\"Thunderstruck\" is the first song on the 1990 AC\/DC album The Razors Edge.\n\nThe song peaked at number #5 on Billboard's Mainstream Rock Tracks. It was released as a single in Germany, Australia and Japan. Shown is the cover of the German release of the \"Thunderstruck\" single. The song is said to be inspired by lead guitarist Angus Young's hair-raising experience when a plane he was on was struck by lightning. However, Angus Young was later to say that it \"started off from a little trick I had on guitar. I played it to Mal and he said 'Oh, I've got a good rhythm idea that will sit well in the back.' We built the song up from that... It was really just a case of finding a good title. We came up with this thunder thing and it seemed to have a good ring to it. AC\/DC=Power. That's the basic idea.\"\n\nContrary to popular belief, Young does not play Thunderstruck's main riff with one hand. Instead, he picks every fretted note and pulls off the open notes. Additionally in all AC\/DC live videos, Angus can clearly be viewed picking every fretted note. The one-handed tapping technique can only be seen in the \"Thunderstruck\" music video.\n\nThe video which accompanied the single was filmed at London's Brixton Academy on 17 August, 1990. The audience members were given free T-Shirts with the words 'AC\/DC - I was Thunderstruck' on the front and the date on the back, and these T-shirts were worn by the entire audience throughout the filming of the video.\n\nThe music video of Thunderstruck on YouTube, as of May 2009, has over 20.6 million views. <a href=\"http:\/\/www.last.fm\/music\/AC%2FDC\/_\/Thunderstruck\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

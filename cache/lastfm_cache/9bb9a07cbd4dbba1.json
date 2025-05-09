@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:54.401299+00:00",
+  "elapsed": 0.214151,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:54.401299+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3191",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Lion+King+On+Ice"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J.+Cole&format=json&method=track.getInfo&track=Lion+King+On+Ice",
+  "_decoded_content": {
+    "track": {
+      "name": "Lion King On Ice",
+      "url": "https:\/\/www.last.fm\/music\/J.+Cole\/_\/Lion+King+On+Ice",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "132086",
+      "playcount": "972984",
+      "artist": {
+        "name": "J. Cole",
+        "mbid": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole"
+      },
+      "album": {
+        "artist": "J. Cole",
+        "title": "Lewis Street",
+        "url": "https:\/\/www.last.fm\/music\/J.+Cole\/Lewis+Street",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b4447e3da69f5b148b40c57875d291d8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "j cole",
+            "url": "https:\/\/www.last.fm\/tag\/j+cole"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "blood",
+            "url": "https:\/\/www.last.fm\/tag\/blood"
+          },
+          {
+            "name": "ice",
+            "url": "https:\/\/www.last.fm\/tag\/ice"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Feb 2022, 23:31",
+        "summary": "On \u201cLion King on Ice,\u201d J. Cole reverts to his alter ego, Young Simba, but now in a much colder and darker tone. He raps about his come-up and his experience growing up in Fayetteville, where he wasn\u2019t always certain that he would see the next day. He furthers this by reflecting on the challenges he has endured in his career and realizing that his fame and wealth haven\u2019t erased the trauma of his past.\n\nParts of the song are rapped from the perspective of a young Cole <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Lion+King+On+Ice\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cLion King on Ice,\u201d J. Cole reverts to his alter ego, Young Simba, but now in a much colder and darker tone. He raps about his come-up and his experience growing up in Fayetteville, where he wasn\u2019t always certain that he would see the next day. He furthers this by reflecting on the challenges he has endured in his career and realizing that his fame and wealth haven\u2019t erased the trauma of his past.\n\nParts of the song are rapped from the perspective of a young Cole, as he raps about needing to prove himself and rise to the top of the rap game, both of which the current Cole has already accomplished.\n\nTwo days before releasing this song, Cole published an essay titled \u201cThe Audacity\u201d in which he discussed how the feeling of needing to prove himself is what drove him when he first began rapping:\n\nWhen I started rapping, it was the competition that drove me. I had a burning desire to be the best in the world and to prove it with every verse.\n\nThis and \u201cThe Climb Back\u201d were initially the first two singles from Cole\u2019s album \"The Fall Off\" and were released together as \"Lewis Street\". However, the latter was relocated to \"The Off-Season\" in May 2021. <a href=\"http:\/\/www.last.fm\/music\/J.+Cole\/_\/Lion+King+On+Ice\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:35:08.912410+00:00",
+  "elapsed": 0.217722,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:08.912410+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "852",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLOOM+VASE&format=json&method=track.getInfo&track=Bluma+to+Lunch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLOOM+VASE&format=json&method=track.getInfo&track=Bluma+to+Lunch",
+  "_decoded_content": {
+    "track": {
+      "name": "Bluma to Lunch",
+      "url": "https:\/\/www.last.fm\/music\/BLOOM+VASE\/_\/Bluma+to+Lunch",
+      "duration": "159000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7214",
+      "playcount": "46758",
+      "artist": {
+        "name": "BLOOM VASE",
+        "url": "https:\/\/www.last.fm\/music\/BLOOM+VASE"
+      },
+      "album": {
+        "artist": "BLOOM VASE",
+        "title": "BLOOM SQUAD",
+        "url": "https:\/\/www.last.fm\/music\/BLOOM+VASE\/BLOOM+SQUAD",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8e5c235c7d90c48419af8afaf4909cc9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8e5c235c7d90c48419af8afaf4909cc9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8e5c235c7d90c48419af8afaf4909cc9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8e5c235c7d90c48419af8afaf4909cc9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

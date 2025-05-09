@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:28:09.280190+00:00",
+  "elapsed": 0.201779,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:09.280190+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "603",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maluma&format=json&method=track.getInfo&track=Felices+los+4"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Maluma&format=json&method=track.getInfo&track=Felices+los+4",
+  "_decoded_content": {
+    "track": {
+      "name": "Felices Los 4",
+      "url": "https:\/\/www.last.fm\/music\/Maluma\/_\/Felices+Los+4",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "226568",
+      "playcount": "1597700",
+      "artist": {
+        "name": "Maluma",
+        "mbid": "e8979f75-9110-4df8-ac70-898898d080d1",
+        "url": "https:\/\/www.last.fm\/music\/Maluma"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          }
+        ]
+      }
+    }
+  }
+}

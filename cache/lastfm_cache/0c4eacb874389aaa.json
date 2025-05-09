@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:38.464050+00:00",
+  "elapsed": 0.182783,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:38.464050+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2467",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=vampire"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Olivia+Rodrigo&format=json&method=track.getInfo&track=vampire",
+  "_decoded_content": {
+    "track": {
+      "name": "vampire",
+      "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/vampire",
+      "duration": "219000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1215107",
+      "playcount": "27052457",
+      "artist": {
+        "name": "Olivia Rodrigo",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo"
+      },
+      "album": {
+        "artist": "Olivia Rodrigo",
+        "title": "vampire",
+        "url": "https:\/\/www.last.fm\/music\/Olivia+Rodrigo\/vampire",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/374d84241878b54aa716bceefd66abd4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/374d84241878b54aa716bceefd66abd4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/374d84241878b54aa716bceefd66abd4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/374d84241878b54aa716bceefd66abd4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "piano rock",
+            "url": "https:\/\/www.last.fm\/tag\/piano+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Jun 2023, 14:05",
+        "summary": "\"Vampire\" (stylized as vampire) is a song by American singer-songwriter Olivia Rodrigo. Geffen Records released it on June 30, 2023, as the lead single from her second studio album, GUTS (2023). Rodrigo co-wrote the song with its producer Dan Nigro. A pop rock tune, \"vampire\" is driven by piano and rock instrumentation consisting of electric guitars, synthesizers, and programmed drums. An accompanying music video for the song directed by Petra Collins was released simultaneously. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/vampire\">Read more on Last.fm<\/a>.",
+        "content": "\"Vampire\" (stylized as vampire) is a song by American singer-songwriter Olivia Rodrigo. Geffen Records released it on June 30, 2023, as the lead single from her second studio album, GUTS (2023). Rodrigo co-wrote the song with its producer Dan Nigro. A pop rock tune, \"vampire\" is driven by piano and rock instrumentation consisting of electric guitars, synthesizers, and programmed drums. An accompanying music video for the song directed by Petra Collins was released simultaneously. <a href=\"http:\/\/www.last.fm\/music\/Olivia+Rodrigo\/_\/vampire\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

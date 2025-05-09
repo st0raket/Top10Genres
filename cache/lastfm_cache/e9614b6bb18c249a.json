@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:21.227684+00:00",
+  "elapsed": 0.18301,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:21.227684+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2739",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Fearless"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Fearless",
+  "_decoded_content": {
+    "track": {
+      "name": "Fearless",
+      "mbid": "882a8c40-b184-446d-8510-88460a6a6f11",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Fearless",
+      "duration": "242000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "449906",
+      "playcount": "3314703",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Fearless",
+        "mbid": "6caf2472-3922-403e-90bf-19a45d98d065",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Fearless",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cf73be8f5480a973c28e53adca4f88bf.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Fearless",
+            "url": "https:\/\/www.last.fm\/tag\/Fearless"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 May 2009, 17:40",
+        "summary": "\"Fearless\" is the fifth and final country single from Taylor Swift's sophomore album, Fearless. The song, being the fifth single, was the least successful single on radio, although it still was a hit peaking at number eight on American country radio charts, however thanks to strong digital sales, the song managed to peak at number nine on the Billboard Hot 100. Swift said the song is about \"the fearlessness of falling in love.\" (Source Fearless Songfacts). <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Fearless\">Read more on Last.fm<\/a>.",
+        "content": "\"Fearless\" is the fifth and final country single from Taylor Swift's sophomore album, Fearless. The song, being the fifth single, was the least successful single on radio, although it still was a hit peaking at number eight on American country radio charts, however thanks to strong digital sales, the song managed to peak at number nine on the Billboard Hot 100. Swift said the song is about \"the fearlessness of falling in love.\" (Source Fearless Songfacts). The song was unfortunately not released internationally or to pop radio, unlike \"Love Story,\" \"You Belong with Me,\" and \"Fifteen.\" <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Fearless\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

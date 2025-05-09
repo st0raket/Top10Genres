@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:37:41.332455+00:00",
+  "elapsed": 0.196351,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:41.332455+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1976",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=United+In+Grief"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=United+In+Grief",
+  "_decoded_content": {
+    "track": {
+      "name": "United In Grief",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/United+In+Grief",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1004666",
+      "playcount": "11237802",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "jazz rap",
+            "url": "https:\/\/www.last.fm\/tag\/jazz+rap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "jazzstep",
+            "url": "https:\/\/www.last.fm\/tag\/jazzstep"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "29 May 2022, 14:22",
+        "summary": "Throughout his first release in exactly 1,855 days, Kendrick muses on his many achievements covering a 19-year career, as well as the pitfalls of fame. He goes into great detail about his spending habits, real estate investments, luxury vehicles, and jewelry; he also discusses entering therapy to deal with mental health issues.\n\nNotable mentions include his cousin and fellow PgLang artist, Baby Keem, as well as longtime friend and business partner, Dave Free. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/United+In+Grief\">Read more on Last.fm<\/a>.",
+        "content": "Throughout his first release in exactly 1,855 days, Kendrick muses on his many achievements covering a 19-year career, as well as the pitfalls of fame. He goes into great detail about his spending habits, real estate investments, luxury vehicles, and jewelry; he also discusses entering therapy to deal with mental health issues.\n\nNotable mentions include his cousin and fellow PgLang artist, Baby Keem, as well as longtime friend and business partner, Dave Free. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/United+In+Grief\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:38:22.302480+00:00",
+  "elapsed": 0.201974,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:22.302480+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3375",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oliver+Tree&format=json&method=track.getInfo&track=Miss+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Oliver+Tree&format=json&method=track.getInfo&track=Miss+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Miss You",
+      "url": "https:\/\/www.last.fm\/music\/Oliver+Tree\/_\/Miss+You",
+      "duration": "206000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "359811",
+      "playcount": "3160647",
+      "artist": {
+        "name": "Oliver Tree",
+        "url": "https:\/\/www.last.fm\/music\/Oliver+Tree"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "R\u00e9veillon 2023",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/R%C3%A9veillon+2023",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/faf47d04795a0965fe890be7dc3d3927.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/faf47d04795a0965fe890be7dc3d3927.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/faf47d04795a0965fe890be7dc3d3927.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/faf47d04795a0965fe890be7dc3d3927.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Nov 2022, 00:37",
+        "summary": "\u201cMiss You\u201d is a remix of Oliver\u2019s 2020 song \u201dJerk\u201d released on his debut album \u201dUgly is Beautiful\u201d. The track is originally remixed by Southstar a German based artist who sampled Oliver\u2019s vocals. He would later sell the production of the song to Robin Schulz.\n\nThis was confirmed by one of Oliver\u2019s managers in an Instagram comment who said:\n\n\u201dsouth star used olivers vocals then sold his production to robin schulz, oliver was not involved\u201d <a href=\"http:\/\/www.last.fm\/music\/Oliver+Tree\/_\/Miss+You\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMiss You\u201d is a remix of Oliver\u2019s 2020 song \u201dJerk\u201d released on his debut album \u201dUgly is Beautiful\u201d. The track is originally remixed by Southstar a German based artist who sampled Oliver\u2019s vocals. He would later sell the production of the song to Robin Schulz.\n\nThis was confirmed by one of Oliver\u2019s managers in an Instagram comment who said:\n\n\u201dsouth star used olivers vocals then sold his production to robin schulz, oliver was not involved\u201d\n\nFrom around late September to early October the track would start to see a rise in popularity on social media platforms like TikTok. The track was reach 22 million streams on Spotify on October 15, 2022 and chart to 13 on Spotify Global top 50 playlist.\n\nAround the time of the tracks popularity Southstar would come out with their take on the situation VIA Instagram:\n\n\u201dI reworked \u201cJerk\u201c by Oliver Tree out of pure admiration for his track and vocals. We cleared the publishing rights with the three authors of \u201cJerk\u201d, including Oliver Tree, allowing me to release my reworked version of \u2018Jerk\u2019 called \u2018Miss You\u2019. And contrary to some rumors circulating online, I never sold this rework or my production.\u201d\n\nThe song would receive a remixed sped up version of the track later on October 17, 2022.\n\nOn October 27, 2022 Oliver would release an official music video for the track directed by himself. <a href=\"http:\/\/www.last.fm\/music\/Oliver+Tree\/_\/Miss+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

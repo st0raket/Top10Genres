@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:34.116671+00:00",
+  "elapsed": 0.212471,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:34.116671+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2758",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nas&format=json&method=track.getInfo&track=Cops+Shot+The+Kid"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nas&format=json&method=track.getInfo&track=Cops+Shot+The+Kid",
+  "_decoded_content": {
+    "track": {
+      "name": "Cops Shot The Kid",
+      "url": "https:\/\/www.last.fm\/music\/Nas\/_\/Cops+Shot+The+Kid",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "90101",
+      "playcount": "512204",
+      "artist": {
+        "name": "Nas",
+        "mbid": "cfbc0924-0035-4d6c-8197-f024653af823",
+        "url": "https:\/\/www.last.fm\/music\/Nas"
+      },
+      "album": {
+        "artist": "Nas",
+        "title": "NASIR",
+        "url": "https:\/\/www.last.fm\/music\/Nas\/NASIR",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/01d8209e601fe5ebfe40e953ea0eb7cc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "slick rick",
+            "url": "https:\/\/www.last.fm\/tag\/slick+rick"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 17:15",
+        "summary": "\u201cCops Shot The Kid\u201d (originally titled \u201cCops\u201d) is the second track from Nas' eleventh studio album, NASIR. There was some initial confusion with this song\u2019s placement on the tracklist, due to it being listed as track #6 in a Twitter post five days before its release:\n\nThe song features a prominent sample of Slick Rick\u2019s iconic cautionary tale, \u201cChildren Story\u201d (1988).\n\nNas and Kanye trade verses about the constant cycle of police brutality against African American youth. <a href=\"http:\/\/www.last.fm\/music\/Nas\/_\/Cops+Shot+The+Kid\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCops Shot The Kid\u201d (originally titled \u201cCops\u201d) is the second track from Nas' eleventh studio album, NASIR. There was some initial confusion with this song\u2019s placement on the tracklist, due to it being listed as track #6 in a Twitter post five days before its release:\n\nThe song features a prominent sample of Slick Rick\u2019s iconic cautionary tale, \u201cChildren Story\u201d (1988).\n\nNas and Kanye trade verses about the constant cycle of police brutality against African American youth.\n\nOn June 11, 2018, Kanye published a tweet showing Urban Dictonary\u2019s definition of the \u201cSeven Deadly Sins.\u201d It has been theorized that each song on the album correlates to one of these \u201ccapital vices\u201d\u2013with \u201cCops Shot the Kid\u201d corresponding to Wrath. <a href=\"http:\/\/www.last.fm\/music\/Nas\/_\/Cops+Shot+The+Kid\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

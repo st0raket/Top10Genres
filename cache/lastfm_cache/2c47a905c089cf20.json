@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:48.298896+00:00",
+  "elapsed": 0.248732,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:48.298896+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2950",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=Baby%2C+You+Make+Me+Crazy"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sam+Smith&format=json&method=track.getInfo&track=Baby%2C+You+Make+Me+Crazy",
+  "_decoded_content": {
+    "track": {
+      "name": "Baby, You Make Me Crazy",
+      "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/_\/Baby,+You+Make+Me+Crazy",
+      "duration": "207000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "81331",
+      "playcount": "494980",
+      "artist": {
+        "name": "Sam Smith",
+        "mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith"
+      },
+      "album": {
+        "artist": "Sam Smith",
+        "title": "The Thrill of It All (Special Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Sam+Smith\/The+Thrill+of+It+All+(Special+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/59d0bddcaaee29af78e369a1c263f3ca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/59d0bddcaaee29af78e369a1c263f3ca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/59d0bddcaaee29af78e369a1c263f3ca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/59d0bddcaaee29af78e369a1c263f3ca.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "UK",
+            "url": "https:\/\/www.last.fm\/tag\/UK"
+          },
+          {
+            "name": "male vocalist",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalist"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Sep 2024, 02:09",
+        "summary": "In their interview with Zane Lowe for Beats1 Radio, Sam explained that this song was written after being \u201cdumped over the phone\u201d. They were at home with a friend and their sister who supported them through the heartache:\n\nAnd we put it on the back burner, I can think about being dumped tomorrow\n\nThe song reflects this, with upbeat rhythm and energetic background chorus, a positive lyric telling of sadness, but also determination and resilience \u2014 a departure from the passive <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/Baby,+You+Make+Me+Crazy\">Read more on Last.fm<\/a>.",
+        "content": "In their interview with Zane Lowe for Beats1 Radio, Sam explained that this song was written after being \u201cdumped over the phone\u201d. They were at home with a friend and their sister who supported them through the heartache:\n\nAnd we put it on the back burner, I can think about being dumped tomorrow\n\nThe song reflects this, with upbeat rhythm and energetic background chorus, a positive lyric telling of sadness, but also determination and resilience \u2014 a departure from the passive, sad songs that characterised Sam\u2019s previous album, In the Lonely Hour.\n\nSam has said that they intended more variety and depth in this album \u2014 \u201cUp till now all I\u2019d written were songs about love and being sad.\u201d Both this song and \u201cToo Good at Goodbyes\u201d represent a desire to toughen themselves, even if this wasn\u2019t their true nature. <a href=\"http:\/\/www.last.fm\/music\/Sam+Smith\/_\/Baby,+You+Make+Me+Crazy\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

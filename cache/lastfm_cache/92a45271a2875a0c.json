@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:36.105063+00:00",
+  "elapsed": 0.209509,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:36.105063+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4432",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Barbie+Tingz"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Nicki+Minaj&format=json&method=track.getInfo&track=Barbie+Tingz",
+  "_decoded_content": {
+    "track": {
+      "name": "Barbie Tingz",
+      "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Barbie+Tingz",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "309042",
+      "playcount": "2964772",
+      "artist": {
+        "name": "Nicki Minaj",
+        "mbid": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj"
+      },
+      "album": {
+        "artist": "Nicki Minaj",
+        "title": "Essentials",
+        "url": "https:\/\/www.last.fm\/music\/Nicki+Minaj\/Essentials",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/26e0a79ab7eb9633e5be99f8675d6574.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/26e0a79ab7eb9633e5be99f8675d6574.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/26e0a79ab7eb9633e5be99f8675d6574.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/26e0a79ab7eb9633e5be99f8675d6574.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "barbie",
+            "url": "https:\/\/www.last.fm\/tag\/barbie"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Apr 2018, 09:17",
+        "summary": "\"Barbie Tingz\" is a song where the rapper celebrates her success and talks about how other women imitate her but can never be like her. The intro sets the tone for the song with a repetitive \"Dem-dem-dem\" beat that is playful and confident. Nicki starts the first verse talking about her prime and calling herself an optimist being a Sagittarius. She adds that she is a \"prophetess\" who delivers hope and good news to her followers. Nicki then takes a jab at her detractors who are still dissing and are unable to find hits of their own. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Barbie+Tingz\">Read more on Last.fm<\/a>.",
+        "content": "\"Barbie Tingz\" is a song where the rapper celebrates her success and talks about how other women imitate her but can never be like her. The intro sets the tone for the song with a repetitive \"Dem-dem-dem\" beat that is playful and confident. Nicki starts the first verse talking about her prime and calling herself an optimist being a Sagittarius. She adds that she is a \"prophetess\" who delivers hope and good news to her followers. Nicki then takes a jab at her detractors who are still dissing and are unable to find hits of their own. She asks if it was worth it, and then tells them to time to leave since they still have not made it.\n\nIn the pre-chorus, Nicki brags about her success, saying she is still \"fly\" and recently bagged a \"white guy\" (rumored to be Nas). She compares herself to R&B singer Guy and mentions her love of Thai food. She also challenges her competitors to try and replicate her success.\n\nThe chorus is a declaration that all women want to look like her, be in demand like her and make music hits like her. She boasts about how great her \"pussy\" is that even her ex-boyfriend's new partner wants to fight her. She also talks about how pretty she is and how jealous other women are of her. Nicki mentions that she has cut off all her friends but they still want to be with her or marry her.\n\nIn the second verse, Nicki talks about how other female rappers copy her style and even steal her music. She brags about how she spoke to Jay-Z and how he is still the kingpin. She also mentions Lil Wayne and Drake, calling them the \"big three\" and saying that they don't need to give a big speech because they already made the biggest impact.\n\nThe bridge repeats the line \"They would still wife me\" twice, emphasizing that men are still attracted to her despite her success.\n\nIn the third verse, Nicki addresses those who steal her flow, saying that even though she is flattered that they like her, they need to give her credit. She then repeats the chorus, emphasizing that she is not just any Barbie but the \"big Barbie\" with big dreams and aspirations. The song ends with Nicki referencing her Barbie-inspired lifestyle, from dreamhouses to white picket fences to expensive cars. Overall, \"Barbie Tingz\" is a song about female empowerment and Nicki's confidence in her abilities and success. <a href=\"http:\/\/www.last.fm\/music\/Nicki+Minaj\/_\/Barbie+Tingz\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

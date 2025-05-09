@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:41:30.078379+00:00",
+  "elapsed": 0.205872,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:30.078379+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2405",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Guilty+Conscience+2"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Guilty+Conscience+2",
+  "_decoded_content": {
+    "track": {
+      "name": "Guilty Conscience 2",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Guilty+Conscience+2",
+      "duration": "325000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "117887",
+      "playcount": "567627",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "The Death of Slim Shady (Coup De Gr\u00e2ce): Expanded Mourner\u2019s Edition [Clean] [Clean]",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/The+Death+of+Slim+Shady+(Coup+De+Gr%C3%A2ce):+Expanded+Mourner%E2%80%99s+Edition+%5BClean%5D+%5BClean%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/75a06e4e6b81949297e0fda69aa37832.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jul 2024, 14:03",
+        "summary": "\u201cGuilty Conscience 2\u201d is the sequel to Eminem\u2019s popular 1999 track \u201cGuilty Conscience.\u201d The original track focuses on Slim Shady influencing different people to do morally wrong things while Dr. Dre attempts to do the opposite, making them do better actions.\n\nOn the other hand, the sequel is written as a conversation\/argument between Eminem and his alter ego, Slim Shady. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Guilty+Conscience+2\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGuilty Conscience 2\u201d is the sequel to Eminem\u2019s popular 1999 track \u201cGuilty Conscience.\u201d The original track focuses on Slim Shady influencing different people to do morally wrong things while Dr. Dre attempts to do the opposite, making them do better actions.\n\nOn the other hand, the sequel is written as a conversation\/argument between Eminem and his alter ego, Slim Shady. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Guilty+Conscience+2\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

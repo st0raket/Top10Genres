@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:30:08.427353+00:00",
+  "elapsed": 0.188045,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:08.427353+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2662",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=COFFEE+BEAN"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Travis+Scott&format=json&method=track.getInfo&track=COFFEE+BEAN",
+  "_decoded_content": {
+    "track": {
+      "name": "Coffee bean",
+      "url": "https:\/\/www.last.fm\/music\/Travis+Scott\/_\/Coffee+bean",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "474511",
+      "playcount": "6872054",
+      "artist": {
+        "name": "Travis Scott",
+        "mbid": "e4a51f17-a57b-47b1-b37b-f552d0f8e9e6",
+        "url": "https:\/\/www.last.fm\/music\/Travis+Scott"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jun 2022, 18:35",
+        "summary": "\u201cCOFFEE BEAN\u201d revolves around Travis' initially tumultuous relationship with his girlfriend and baby mother Kylie Jenner. He discusses the backlash and controversy that has come as a result of their relationship. The song is one of Travis' most personal yet, detailing many of his inner fears and insecurities; it is arguably his most revealing and vulnerable song to date. Additionally, the soothing boom-bap production is unusual for Travis, who is well-known for his genre-bending contributions to trap music. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/Coffee+bean\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCOFFEE BEAN\u201d revolves around Travis' initially tumultuous relationship with his girlfriend and baby mother Kylie Jenner. He discusses the backlash and controversy that has come as a result of their relationship. The song is one of Travis' most personal yet, detailing many of his inner fears and insecurities; it is arguably his most revealing and vulnerable song to date. Additionally, the soothing boom-bap production is unusual for Travis, who is well-known for his genre-bending contributions to trap music.\n\nIt should also be noted that there is a popular coffee chain in Los Angeles (Travis and Kylie\u2019s home) called The Coffee Bean & Tea Leaf, which is typically shortened to \u201cCoffee Bean.\u201d\n\nThroughout the song, Travis alternates between being on and off the coffee bean, which represents the internal struggle that Travis feels in regards to his relationship with now ex-girlfriend Kylie Jenner. The term \u201cbean\u201d is also commonly used to refer to Ecstacy, although it is unclear if that is what Travis is referring to.\n\n\u201cCOFFEE BEAN,\u201d debuted at #68 on the Billboard Hot 100 during the week of August 18th, 2018. <a href=\"http:\/\/www.last.fm\/music\/Travis+Scott\/_\/Coffee+bean\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

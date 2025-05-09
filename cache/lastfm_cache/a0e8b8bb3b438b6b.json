@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:40.755428+00:00",
+  "elapsed": 0.217758,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:40.755428+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2891",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Mr.+Morale"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Mr.+Morale",
+  "_decoded_content": {
+    "track": {
+      "name": "Mr. Morale",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Mr.+Morale",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "476441",
+      "playcount": "4196190",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "Mr. Morale & the Big Steppers",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/Mr.+Morale+&+the+Big+Steppers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 May 2022, 20:25",
+        "summary": "\u201cMr. Morale\u201d is the sixteenth track on disc two of Kendrick Lamar\u2019s fifth studio album (& final studio album with Top Dawg Entertainment), \"Mr. Morale & The Big Steppers\", and the sixteenth track overall. It features Tanna Leone and Sam Dew on the bridge and interlude, respectively.\n\nThe song covers such themes as generational trauma and excess. Lamar cites R. Kelly and Oprah Winfrey, both of whom are known for their proximity to abuse. It also closes with a quote from German writer and philosopher Eckhart Tolle. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Mr.+Morale\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMr. Morale\u201d is the sixteenth track on disc two of Kendrick Lamar\u2019s fifth studio album (& final studio album with Top Dawg Entertainment), \"Mr. Morale & The Big Steppers\", and the sixteenth track overall. It features Tanna Leone and Sam Dew on the bridge and interlude, respectively.\n\nThe song covers such themes as generational trauma and excess. Lamar cites R. Kelly and Oprah Winfrey, both of whom are known for their proximity to abuse. It also closes with a quote from German writer and philosopher Eckhart Tolle.\n\nThe intro is sampled from a YouTube video titled \"Dallas Cowboys look pathetic vs the Seahawks\" posted by user thedallascowboyshow on Sept. 16, 2012 in response to the Cowboys 27-7 loss to the Seattle Seahawks. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Mr.+Morale\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

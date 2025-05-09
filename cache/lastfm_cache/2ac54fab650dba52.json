@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:34:49.627777+00:00",
+  "elapsed": 0.191978,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:49.627777+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2632",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=New+Tank"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Playboi+Carti&format=json&method=track.getInfo&track=New+Tank",
+  "_decoded_content": {
+    "track": {
+      "name": "New Tank",
+      "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/_\/New+Tank",
+      "duration": "89000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "679701",
+      "playcount": "14066833",
+      "artist": {
+        "name": "Playboi Carti",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti"
+      },
+      "album": {
+        "artist": "Playboi Carti",
+        "title": "Whole Lotta Red",
+        "url": "https:\/\/www.last.fm\/music\/Playboi+Carti\/Whole+Lotta+Red",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0db2bb3f8dcebb4279db97dc7608d090.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rage",
+            "url": "https:\/\/www.last.fm\/tag\/rage"
+          },
+          {
+            "name": "hardcore hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hardcore+hip+hop"
+          },
+          {
+            "name": "tread",
+            "url": "https:\/\/www.last.fm\/tag\/tread"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "02 May 2021, 16:18",
+        "summary": "\u201cNew Tank\u201d sees Playboi Carti bragging about his lavish lifestyle over a droning and blown-out beat, supplied by Jonah Abraham and F1lthy of Working on Dying\u2014Abraham verified their production on the track in a November 2020 Instagram story.\n\nThe title refers to the SHERP ATV tank Carti received from Kanye West in December 2020. Carti shared an image of the vehicle on Instagram, captioning the post: \"i goT A tANK @ THe cAsTLE n0w thx. YE\"\n\nCarti previewed the song in an Instagram Live on November 23 <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/New+Tank\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNew Tank\u201d sees Playboi Carti bragging about his lavish lifestyle over a droning and blown-out beat, supplied by Jonah Abraham and F1lthy of Working on Dying\u2014Abraham verified their production on the track in a November 2020 Instagram story.\n\nThe title refers to the SHERP ATV tank Carti received from Kanye West in December 2020. Carti shared an image of the vehicle on Instagram, captioning the post: \"i goT A tANK @ THe cAsTLE n0w thx. YE\"\n\nCarti previewed the song in an Instagram Live on November 23, 2020, shortly after announcing that he had turned in his album to his label. <a href=\"http:\/\/www.last.fm\/music\/Playboi+Carti\/_\/New+Tank\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

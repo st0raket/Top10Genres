@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:02.932946+00:00",
+  "elapsed": 0.18157,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:02.932946+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2596",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Neighbourhood&format=json&method=track.getInfo&track=Softcore"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Neighbourhood&format=json&method=track.getInfo&track=Softcore",
+  "_decoded_content": {
+    "track": {
+      "name": "Softcore",
+      "url": "https:\/\/www.last.fm\/music\/The+Neighbourhood\/_\/Softcore",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1170893",
+      "playcount": "19581344",
+      "artist": {
+        "name": "The Neighbourhood",
+        "mbid": "97b8d224-5660-419c-8dff-4b3bf0c33983",
+        "url": "https:\/\/www.last.fm\/music\/The+Neighbourhood"
+      },
+      "album": {
+        "artist": "The Neighbourhood",
+        "title": "The Neighbourhood",
+        "url": "https:\/\/www.last.fm\/music\/The+Neighbourhood\/The+Neighbourhood",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e7cabd5445c2f60d67022c70d7c45db1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e7cabd5445c2f60d67022c70d7c45db1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e7cabd5445c2f60d67022c70d7c45db1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e7cabd5445c2f60d67022c70d7c45db1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "shoegaze",
+            "url": "https:\/\/www.last.fm\/tag\/shoegaze"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jan 2022, 03:18",
+        "summary": "\"Softcore\u201d is the fifth track on The Neighbourhood\u2019s self-titled third studio album \"The Neighbourhood\".\n\nThe track blends a punchy electronic beat with 80s new wave synths to create a catchy, bad-ass alternative pop song. The bridge brings back the familiar chords and guitar progression heard in the second half of \u201cWiped Out!,\u201d the title track of their sophomore album. Notably, \u201cSoftcore\u201d would regain popularity in 2022, with the track going viral on social media app TikTok. <a href=\"http:\/\/www.last.fm\/music\/The+Neighbourhood\/_\/Softcore\">Read more on Last.fm<\/a>.",
+        "content": "\"Softcore\u201d is the fifth track on The Neighbourhood\u2019s self-titled third studio album \"The Neighbourhood\".\n\nThe track blends a punchy electronic beat with 80s new wave synths to create a catchy, bad-ass alternative pop song. The bridge brings back the familiar chords and guitar progression heard in the second half of \u201cWiped Out!,\u201d the title track of their sophomore album. Notably, \u201cSoftcore\u201d would regain popularity in 2022, with the track going viral on social media app TikTok. <a href=\"http:\/\/www.last.fm\/music\/The+Neighbourhood\/_\/Softcore\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

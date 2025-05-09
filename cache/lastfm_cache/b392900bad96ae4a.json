@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:31:36.116042+00:00",
+  "elapsed": 0.231532,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:36.116042+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1299",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Easier"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Easier",
+  "_decoded_content": {
+    "track": {
+      "name": "Easier",
+      "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Easier",
+      "duration": "157000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "344351",
+      "playcount": "4230338",
+      "artist": {
+        "name": "5 Seconds of Summer",
+        "mbid": "830e5c4e-6b7d-431d-86ab-00c751281dc5",
+        "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music, Vol. 71",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music,+Vol.+71",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dbdbbf1065e0ac637265d46d1589096e.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dbdbbf1065e0ac637265d46d1589096e.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dbdbbf1065e0ac637265d46d1589096e.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dbdbbf1065e0ac637265d46d1589096e.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Charlie Puth",
+            "url": "https:\/\/www.last.fm\/tag\/Charlie+Puth"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          }
+        ]
+      }
+    }
+  }
+}

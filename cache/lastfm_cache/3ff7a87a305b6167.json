@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:28.989254+00:00",
+  "elapsed": 0.182836,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:28.989254+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3557",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TWICE&format=json&method=track.getInfo&track=FANCY"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=TWICE&format=json&method=track.getInfo&track=FANCY",
+  "_decoded_content": {
+    "track": {
+      "name": "FANCY",
+      "url": "https:\/\/www.last.fm\/music\/TWICE\/_\/FANCY",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "681123",
+      "playcount": "15111074",
+      "artist": {
+        "name": "TWICE",
+        "mbid": "d594ff3d-d3ca-4d2e-bb6a-a7dada9af0c5",
+        "url": "https:\/\/www.last.fm\/music\/TWICE"
+      },
+      "album": {
+        "artist": "TWICE",
+        "title": "Fancy You - EP",
+        "url": "https:\/\/www.last.fm\/music\/TWICE\/Fancy+You+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0f19344716dd5385be0687fc49d3a4bf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0f19344716dd5385be0687fc49d3a4bf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0f19344716dd5385be0687fc49d3a4bf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0f19344716dd5385be0687fc49d3a4bf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "soty",
+            "url": "https:\/\/www.last.fm\/tag\/soty"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Apr 2019, 18:08",
+        "summary": "\"FANCY\" is a song by South Korean girl group Twice. It was released by JYP Entertainment on April 22, 2019, as the lead single from the group's seventh extended play, Fancy You.\n\nThe song is a mellow mood pop dance song that tells TWICE\u2019s musical changes with a color concept that is distinctly different from what Twice has shown so far. The group teased the single through a series of the \u201870s and \u201880s psychedelic-inspired photo teasers. The group announced the EP through Twitter on April 7, and the trailer was available on Apr 14, 2019. <a href=\"http:\/\/www.last.fm\/music\/TWICE\/_\/FANCY\">Read more on Last.fm<\/a>.",
+        "content": "\"FANCY\" is a song by South Korean girl group Twice. It was released by JYP Entertainment on April 22, 2019, as the lead single from the group's seventh extended play, Fancy You.\n\nThe song is a mellow mood pop dance song that tells TWICE\u2019s musical changes with a color concept that is distinctly different from what Twice has shown so far. The group teased the single through a series of the \u201870s and \u201880s psychedelic-inspired photo teasers. The group announced the EP through Twitter on April 7, and the trailer was available on Apr 14, 2019.\n\nUnder the tropical light clouds and the intense sun, TWICE, who is looking for love with both feet, tells their confession that they will never let go, without hesitation. The group will also embark on a world tour in support of the EP. It follows their 2018 EP Yes or Yes.\n\nOn TWICE\u2019s showcase for the album FANCY YOU, Jihyo, the leader of the group, said:\n\n\"We have only shown bright concepts until now, but we also wanted to show some of our maturity. However, we also worked to not let go of our overflowing energy.\"\n\nJeongyeon, the lead vocal of the group, also talked about what they expect for this comeback, saying:\n\n\"I hope we can capture the hearts of fans and the public.\"\n\nWhile Nayeon, the lead vocal and face of the group, continued:\n\n\"The biggest goal I set while preparing is, rather than hearing \u2018TWICE has transformed,\u2019 for us to show that we still have the energy of TWICE that we had before but can still showcase different concepts.\" <a href=\"http:\/\/www.last.fm\/music\/TWICE\/_\/FANCY\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

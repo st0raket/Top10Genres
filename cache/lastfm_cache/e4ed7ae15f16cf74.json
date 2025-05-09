@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:36:42.241453+00:00",
+  "elapsed": 0.23091,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:42.241453+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3027",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=My+Little+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Adele&format=json&method=track.getInfo&track=My+Little+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "My Little Love",
+      "url": "https:\/\/www.last.fm\/music\/Adele\/_\/My+Little+Love",
+      "duration": "30000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "303467",
+      "playcount": "2227400",
+      "artist": {
+        "name": "Adele",
+        "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+        "url": "https:\/\/www.last.fm\/music\/Adele"
+      },
+      "album": {
+        "artist": "Adele",
+        "title": "30",
+        "url": "https:\/\/www.last.fm\/music\/Adele\/30",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/35a9537590ea3d5164b598c75b3a378c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Adele",
+            "url": "https:\/\/www.last.fm\/tag\/Adele"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 May 2022, 20:51",
+        "summary": "\"My Little Love\" is a heartfelt song about a mother's love for her child and her struggles with her own emotions. The song starts with Adele expressing her love for her child and the emotional connection they share. However, she acknowledges that her own emotions and past mistakes have led her to feel lost and disconnected. The burden of guilt weighs heavily on Adele, and she recognizes that her child is the only one who can save her from this state. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/My+Little+Love\">Read more on Last.fm<\/a>.",
+        "content": "\"My Little Love\" is a heartfelt song about a mother's love for her child and her struggles with her own emotions. The song starts with Adele expressing her love for her child and the emotional connection they share. However, she acknowledges that her own emotions and past mistakes have led her to feel lost and disconnected. The burden of guilt weighs heavily on Adele, and she recognizes that her child is the only one who can save her from this state.\n\nThrough the lyrical content, Adele tries to connect with her child while also reflecting on her past mistakes. She apologizes for the things she's done that have made her child sad and expresses her desire to provide them with everything she never had. In one verse, Adele questions if her child feels her pain and heartache and if they can hear when her heart breaks.\n\nOverall, the song portrays the struggles of a mother who is trying hard to be there for her child but is battling her own demons. The lyrics are very emotional and raw, and they capture the fears and anxieties that a young mother may experience when raising a child. <a href=\"http:\/\/www.last.fm\/music\/Adele\/_\/My+Little+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

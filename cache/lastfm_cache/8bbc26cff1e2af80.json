@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:43:22.606668+00:00",
+  "elapsed": 0.328746,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:22.606668+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1366",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tony+Bennett&format=json&method=track.getInfo&track=Winter+Wonderland"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tony+Bennett&format=json&method=track.getInfo&track=Winter+Wonderland",
+  "_decoded_content": {
+    "track": {
+      "name": "Winter Wonderland",
+      "mbid": "cbb3a372-718f-4e67-98e0-f9a053be50dc",
+      "url": "https:\/\/www.last.fm\/music\/Tony+Bennett\/_\/Winter+Wonderland",
+      "duration": "134000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "510631",
+      "playcount": "1496493",
+      "artist": {
+        "name": "Tony Bennett",
+        "mbid": "8be0594f-8c13-46bb-ab06-f93ffba5c776",
+        "url": "https:\/\/www.last.fm\/music\/Tony+Bennett"
+      },
+      "album": {
+        "artist": "Tony Bennett",
+        "title": "The Classic Christmas Album",
+        "mbid": "8bbd20d8-450e-4ec9-aef8-e8290e2aef58",
+        "url": "https:\/\/www.last.fm\/music\/Tony+Bennett\/The+Classic+Christmas+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cb64065b2cabb0097230be6e4d2d9c7a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cb64065b2cabb0097230be6e4d2d9c7a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cb64065b2cabb0097230be6e4d2d9c7a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cb64065b2cabb0097230be6e4d2d9c7a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "16"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "jazz",
+            "url": "https:\/\/www.last.fm\/tag\/jazz"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          },
+          {
+            "name": "swing",
+            "url": "https:\/\/www.last.fm\/tag\/swing"
+          }
+        ]
+      }
+    }
+  }
+}

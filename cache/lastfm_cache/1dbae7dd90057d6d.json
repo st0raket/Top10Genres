@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:42.586426+00:00",
+  "elapsed": 0.567999,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:42.586426+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1939",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Teach+Me+How+To+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Shawn+Mendes&format=json&method=track.getInfo&track=Teach+Me+How+To+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "Teach Me How To Love",
+      "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Teach+Me+How+To+Love",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "147777",
+      "playcount": "1356605",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https:\/\/www.last.fm\/music\/Shawn+Mendes"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "2Much Pop",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/2Much+Pop",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9e43b57540313694cd065b68fde60204.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9e43b57540313694cd065b68fde60204.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9e43b57540313694cd065b68fde60204.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9e43b57540313694cd065b68fde60204.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "adult contemporary",
+            "url": "https:\/\/www.last.fm\/tag\/adult+contemporary"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "retropop",
+            "url": "https:\/\/www.last.fm\/tag\/retropop"
+          },
+          {
+            "name": "nu-funk",
+            "url": "https:\/\/www.last.fm\/tag\/nu-funk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jul 2022, 16:34",
+        "summary": "\"Teach Me How To Love\" is the fifth track from Shawn Mendes's fourth studio album, Wonder. It was released on December 4, 2020, through Island Records. <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Teach+Me+How+To+Love\">Read more on Last.fm<\/a>.",
+        "content": "\"Teach Me How To Love\" is the fifth track from Shawn Mendes's fourth studio album, Wonder. It was released on December 4, 2020, through Island Records. <a href=\"http:\/\/www.last.fm\/music\/Shawn+Mendes\/_\/Teach+Me+How+To+Love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

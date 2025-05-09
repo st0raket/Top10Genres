@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:08.530302+00:00",
+  "elapsed": 0.300914,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:08.530302+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3587",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:08 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Homemade+Dynamite"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lorde&format=json&method=track.getInfo&track=Homemade+Dynamite",
+  "_decoded_content": {
+    "track": {
+      "name": "Homemade Dynamite",
+      "url": "https:\/\/www.last.fm\/music\/Lorde\/_\/Homemade+Dynamite",
+      "duration": "189000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "600309",
+      "playcount": "8591757",
+      "artist": {
+        "name": "Lorde",
+        "mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+        "url": "https:\/\/www.last.fm\/music\/Lorde"
+      },
+      "album": {
+        "artist": "Lorde",
+        "title": "Melodrama",
+        "url": "https:\/\/www.last.fm\/music\/Lorde\/Melodrama",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/06483355fe8ff1b4eb335c7d9704d84c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Tove Lo",
+            "url": "https:\/\/www.last.fm\/tag\/Tove+Lo"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Aug 2020, 14:21",
+        "summary": "\"Homemade Dynamite\" is about the reckless, carefree, and sometimes dangerous behavior that can occur when a group of friends gather together and embark on a night of partying and letting loose. The song is filled with vivid imagery of explosive behavior, from \"blowing shit up with homemade dynamite\" to \"painted on the road, red and chrome, all the broken glass sparkling\".\n\nThe first verse describes two people who may not know each other well but share a sense of rebellion and abnormal behavior. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Homemade+Dynamite\">Read more on Last.fm<\/a>.",
+        "content": "\"Homemade Dynamite\" is about the reckless, carefree, and sometimes dangerous behavior that can occur when a group of friends gather together and embark on a night of partying and letting loose. The song is filled with vivid imagery of explosive behavior, from \"blowing shit up with homemade dynamite\" to \"painted on the road, red and chrome, all the broken glass sparkling\".\n\nThe first verse describes two people who may not know each other well but share a sense of rebellion and abnormal behavior. They seem to be drawn to one another, as the chorus emphasizes the power of their own rules and dreams in combination with explosive elation. The pre-chorus mentions the act of opening themselves up to one another, sharing their best sides and best lies. The chorus repeats this idea, reinforcing the theme of living life on their own terms and with their own sense of purpose, going beyond the usual standards of society to find joy.\n\nThe second verse seems to escalate the danger as the partygoers plan to drive while intoxicated. The lyrics paint a picture of possible mayhem, ending up with physical wreckage on the road. Despite this, the attitude remains carefree and the post-chorus acknowledges the inevitable explosion.\n\nOverall, \"Homemade Dynamite\" is a celebration of embracing the unknown, taking risks, and finding joy in the moment while acknowledging their own potential peril. The song captures that elusive feeling of youthful abandon, where one can forget about the consequences of their actions and just enjoy the ride. <a href=\"http:\/\/www.last.fm\/music\/Lorde\/_\/Homemade+Dynamite\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

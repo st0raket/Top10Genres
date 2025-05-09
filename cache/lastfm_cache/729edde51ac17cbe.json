@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:42:50.081269+00:00",
+  "elapsed": 0.194601,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:50.081269+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1276",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kesha&format=json&method=track.getInfo&track=Holiday+Road+-+Spotify+Singles+Holiday"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kesha&format=json&method=track.getInfo&track=Holiday+Road+-+Spotify+Singles+Holiday",
+  "_decoded_content": {
+    "track": {
+      "name": "Holiday Road - Spotify Singles Holiday",
+      "url": "https:\/\/www.last.fm\/music\/Kesha\/_\/Holiday+Road+-+Spotify+Singles+Holiday",
+      "duration": "125000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "131275",
+      "playcount": "315289",
+      "artist": {
+        "name": "Kesha",
+        "mbid": "fab34286-b8e1-4879-bce3-194e1358fbd2",
+        "url": "https:\/\/www.last.fm\/music\/Kesha"
+      },
+      "album": {
+        "artist": "Kesha",
+        "title": "Holiday Road - Spotify Singles Holiday",
+        "url": "https:\/\/www.last.fm\/music\/Kesha\/Holiday+Road+-+Spotify+Singles+Holiday",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e52f12e5e2daa281d75eeaa6766498b0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e52f12e5e2daa281d75eeaa6766498b0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e52f12e5e2daa281d75eeaa6766498b0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e52f12e5e2daa281d75eeaa6766498b0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "new wave",
+            "url": "https:\/\/www.last.fm\/tag\/new+wave"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "dance pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance+pop"
+          }
+        ]
+      }
+    }
+  }
+}

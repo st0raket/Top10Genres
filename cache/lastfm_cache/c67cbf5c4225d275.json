@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:26.842563+00:00",
+  "elapsed": 0.184577,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:26.842563+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2445",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Baby&format=json&method=track.getInfo&track=Woah"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Baby&format=json&method=track.getInfo&track=Woah",
+  "_decoded_content": {
+    "track": {
+      "name": "Woah",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Baby\/_\/Woah",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "250061",
+      "playcount": "2554850",
+      "artist": {
+        "name": "Lil Baby",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Baby"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "100% Rap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/100%25+Rap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9bdf2f4a8b1e5f449daa36e3989c4897.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          },
+          {
+            "name": "lil baby",
+            "url": "https:\/\/www.last.fm\/tag\/lil+baby"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 22:51",
+        "summary": "\u201cWoah\u201d is the second single from Lil Baby\u2019s sophomore studio album, My Turn. On the track, he taunts his haters and raps about the luxuries of his lifestyle. The song is seemingly named after the \u201cWoah,\u201d (or \u201cHit the Woah\u201d), a popular dance that originated in Texas in the mid-2010s and went viral on the Internet, most notably on TikTok.\n\nAfter announcing the track on October 26, 2019, Baby teased a video snippet of it on November 1, in which he appears doing the \u201cWoah\u201d dance. <a href=\"http:\/\/www.last.fm\/music\/Lil+Baby\/_\/Woah\">Read more on Last.fm<\/a>.",
+        "content": "\u201cWoah\u201d is the second single from Lil Baby\u2019s sophomore studio album, My Turn. On the track, he taunts his haters and raps about the luxuries of his lifestyle. The song is seemingly named after the \u201cWoah,\u201d (or \u201cHit the Woah\u201d), a popular dance that originated in Texas in the mid-2010s and went viral on the Internet, most notably on TikTok.\n\nAfter announcing the track on October 26, 2019, Baby teased a video snippet of it on November 1, in which he appears doing the \u201cWoah\u201d dance. <a href=\"http:\/\/www.last.fm\/music\/Lil+Baby\/_\/Woah\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

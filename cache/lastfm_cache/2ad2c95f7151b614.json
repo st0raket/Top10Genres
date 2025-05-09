@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:40:03.627664+00:00",
+  "elapsed": 0.174133,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:03.627664+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1431",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YOASOBI&format=json&method=track.getInfo&track=%E5%8B%87%E8%80%85"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YOASOBI&format=json&method=track.getInfo&track=%E5%8B%87%E8%80%85",
+  "_decoded_content": {
+    "track": {
+      "name": "\u52c7\u8005",
+      "url": "https:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%8B%87%E8%80%85",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "117113",
+      "playcount": "1598449",
+      "artist": {
+        "name": "yoasobi",
+        "url": "https:\/\/www.last.fm\/music\/yoasobi"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "JPop",
+            "url": "https:\/\/www.last.fm\/tag\/JPop"
+          },
+          {
+            "name": "anime",
+            "url": "https:\/\/www.last.fm\/tag\/anime"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Mar 2024, 15:59",
+        "summary": "Yuusha (\u52c7\u8005) is the 22nd Single performed by YOASOBI. It is the Opening Theme for the anime series \u201cFrieren: Beyond Journey\u2019s End\u201d (\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3) aired on the same day of the release. It is also featured on YOASOBI\u2019s EP \u201cTHE BOOK 3\". <a href=\"http:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%8B%87%E8%80%85\">Read more on Last.fm<\/a>.",
+        "content": "Yuusha (\u52c7\u8005) is the 22nd Single performed by YOASOBI. It is the Opening Theme for the anime series \u201cFrieren: Beyond Journey\u2019s End\u201d (\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3) aired on the same day of the release. It is also featured on YOASOBI\u2019s EP \u201cTHE BOOK 3\". <a href=\"http:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%8B%87%E8%80%85\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

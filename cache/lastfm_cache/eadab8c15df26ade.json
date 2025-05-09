@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:35.890961+00:00",
+  "elapsed": 0.191626,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:35.890961+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3008",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Radio"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Radio",
+  "_decoded_content": {
+    "track": {
+      "name": "Radio",
+      "mbid": "1f49dac1-0772-4ac3-913b-954fa5633717",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Radio",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1399343",
+      "playcount": "18437153",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Born to Die - The Paradise Edition",
+        "mbid": "d2ee5e04-e4f2-4c1e-92f1-89723aa51370",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Born+to+Die+-+The+Paradise+Edition",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2b007b4344235bf2657c4cbfa18d1921.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "-1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "Lana Del Rey",
+            "url": "https:\/\/www.last.fm\/tag\/Lana+Del+Rey"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Oct 2016, 13:09",
+        "summary": "\"Radio\" is an empowering anthem of self-confidence and resilience. The lyrics describe the narrator's journey to success and inner peace, empowered by her own hard work and her positive attitude. Through her experience she has come to understand that no one can bring her down and that she is the one who ultimately can create her own destiny. The chorus emphasizes that she is confident in who she has become and proud of the life she has built, where she is now \"playing on the radio\" because of her hard work. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Radio\">Read more on Last.fm<\/a>.",
+        "content": "\"Radio\" is an empowering anthem of self-confidence and resilience. The lyrics describe the narrator's journey to success and inner peace, empowered by her own hard work and her positive attitude. Through her experience she has come to understand that no one can bring her down and that she is the one who ultimately can create her own destiny. The chorus emphasizes that she is confident in who she has become and proud of the life she has built, where she is now \"playing on the radio\" because of her hard work. The song celebrates Lana's newfound sense of self-assurance, offering the listener a chance to reflect on the possibility of finding strength and success independently.\n\nIt is the eighth track from Lana Del Rey's second studio album and major-label debut, Born to Die. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Radio\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

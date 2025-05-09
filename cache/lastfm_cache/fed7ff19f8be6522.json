@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:45.345724+00:00",
+  "elapsed": 0.381171,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:45.345724+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1055",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:45 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sarah+Connor&format=json&method=track.getInfo&track=The+Best+Side+of+Life"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sarah+Connor&format=json&method=track.getInfo&track=The+Best+Side+of+Life",
+  "_decoded_content": {
+    "track": {
+      "name": "The Best Side Of Life",
+      "mbid": "8d101d90-3dac-43fa-b3e7-b0626df4111f",
+      "url": "https:\/\/www.last.fm\/music\/Sarah+Connor\/_\/The+Best+Side+Of+Life",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "44945",
+      "playcount": "134594",
+      "artist": {
+        "name": "Sarah Connor",
+        "mbid": "9293fc79-e77c-4ee6-a092-61df10ca47ea",
+        "url": "https:\/\/www.last.fm\/music\/Sarah+Connor"
+      },
+      "album": {
+        "artist": "Sarah Connor",
+        "title": "The Best Side Of Life",
+        "mbid": "f71bbed2-0a5a-4e4c-9bd6-84aa6e908b40",
+        "url": "https:\/\/www.last.fm\/music\/Sarah+Connor\/The+Best+Side+Of+Life",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Sarah Connor",
+            "url": "https:\/\/www.last.fm\/tag\/Sarah+Connor"
+          },
+          {
+            "name": "german",
+            "url": "https:\/\/www.last.fm\/tag\/german"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          }
+        ]
+      }
+    }
+  }
+}

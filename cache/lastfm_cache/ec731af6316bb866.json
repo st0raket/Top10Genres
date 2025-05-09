@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:33:55.053002+00:00",
+  "elapsed": 0.209711,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:55.053002+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "360",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:55 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MITCHEL&format=json&method=track.getInfo&track=%D0%90+%D1%83%D0%B6%D0%B5+%D1%84%D1%81%D1%91"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=MITCHEL&format=json&method=track.getInfo&track=%D0%90+%D1%83%D0%B6%D0%B5+%D1%84%D1%81%D1%91",
+  "_decoded_content": {
+    "track": {
+      "name": "\u0410 \u0443\u0436\u0435 \u0444\u0441\u0451",
+      "url": "https:\/\/www.last.fm\/music\/Mitchel\/_\/%D0%90+%D1%83%D0%B6%D0%B5+%D1%84%D1%81%D1%91",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7662",
+      "playcount": "47568",
+      "artist": {
+        "name": "Mitchel",
+        "mbid": "7f710282-a521-43d0-a8c7-ac186de637bb",
+        "url": "https:\/\/www.last.fm\/music\/Mitchel"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:09.898215+00:00",
+  "elapsed": 0.189918,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:09.898215+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3622",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=I+Hate+It+Here"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=I+Hate+It+Here",
+  "_decoded_content": {
+    "track": {
+      "name": "I Hate It Here",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Hate+It+Here",
+      "duration": "243000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "366058",
+      "playcount": "7550912",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT:+THE+ANTHOLOGY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "chatgpt",
+            "url": "https:\/\/www.last.fm\/tag\/chatgpt"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "jackson mahomes",
+            "url": "https:\/\/www.last.fm\/tag\/jackson+mahomes"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Dec 2024, 04:38",
+        "summary": "\u201cI Hate It Here\u201c captures the complexities of yearning for something more, whether it\u2019s a different time, place, or state of mind. It speaks to the human experience of seeking refuge and understanding within oneself when the external world feels overwhelming or unsatisfying.\n\nSonically and lyrically, this song could also be seen as a follow-up to Taylor\u2019s song \u201cthe lakes\u201d from the extended version of her 2020 album, folklore. In the chorus of \u201cthe lakes\u201d <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Hate+It+Here\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI Hate It Here\u201c captures the complexities of yearning for something more, whether it\u2019s a different time, place, or state of mind. It speaks to the human experience of seeking refuge and understanding within oneself when the external world feels overwhelming or unsatisfying.\n\nSonically and lyrically, this song could also be seen as a follow-up to Taylor\u2019s song \u201cthe lakes\u201d from the extended version of her 2020 album, folklore. In the chorus of \u201cthe lakes\u201d, Swift states: \u201cTake me to the lakes where all the poets went to die, I don\u2019t belong, and my beloved, neither do you. Those Windermere peaks look like a perfect place to cry, I\u2019m setting off, but not without my muse\u201d. Whereas, in the chorus of \u201cI Hate It Here\u201d she passionately states: \u201cI hate it here so I will go to secret gardens in my mind. People need a key to get to, the only one is mine. I read about it in a book when I was a precocious child. No mid-sized city hopes and small-town fears, I\u2019m there most of the year \u2018cause I hate it here. I hate it here\u201d\n\nThis song was added to Taylor\u2019s \u201cI Love You, It\u2019s Ruining My Life (Denial)\u201d playlist.\n\nThe meaning of \u201cI Hate It Here\u201d by Taylor Swift is likely about how Taylor feels like she doesn\u2019t belong anywhere. Instead, she admits to finding comfort in imaginary places that only she can visit.\n\n\u201cI Hate It Here\u201d debuted at #34 on the Billboard Hot 100 during the chart week ending of May 4, 2024. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Hate+It+Here\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

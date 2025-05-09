@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:42:28.137130+00:00",
+  "elapsed": 0.210336,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:28.137130+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1240",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:28 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PARTYNEXTDOOR&format=json&method=track.getInfo&track=MOTH+BALLS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PARTYNEXTDOOR&format=json&method=track.getInfo&track=MOTH+BALLS",
+  "_decoded_content": {
+    "track": {
+      "name": "MOTH BALLS",
+      "url": "https:\/\/www.last.fm\/music\/PARTYNEXTDOOR\/_\/MOTH+BALLS",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "149883",
+      "playcount": "814394",
+      "artist": {
+        "name": "PARTYNEXTDOOR",
+        "mbid": "f23ef341-33bd-47c1-b83c-846a78581f05",
+        "url": "https:\/\/www.last.fm\/music\/PARTYNEXTDOOR"
+      },
+      "album": {
+        "artist": "Imagine Dragons",
+        "title": "$OME $EXY $ONGS 4 U",
+        "url": "https:\/\/www.last.fm\/music\/Imagine+Dragons\/$OME+$EXY+$ONGS+4+U",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/efe7b760cfd4996171b4a67f2342d1dc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/efe7b760cfd4996171b4a67f2342d1dc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/efe7b760cfd4996171b4a67f2342d1dc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/efe7b760cfd4996171b4a67f2342d1dc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "partynextdoor",
+            "url": "https:\/\/www.last.fm\/tag\/partynextdoor"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "2025",
+            "url": "https:\/\/www.last.fm\/tag\/2025"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      }
+    }
+  }
+}

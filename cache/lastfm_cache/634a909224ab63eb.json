@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:42:41.293824+00:00",
+  "elapsed": 0.179163,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:41.293824+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2402",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chappell+Roan&format=json&method=track.getInfo&track=Good+Luck%2C+Babe%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Chappell+Roan&format=json&method=track.getInfo&track=Good+Luck%2C+Babe%21",
+  "_decoded_content": {
+    "track": {
+      "name": "Good Luck, Babe!",
+      "url": "https:\/\/www.last.fm\/music\/Chappell+Roan\/_\/Good+Luck,+Babe%21",
+      "duration": "218000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1631789",
+      "playcount": "43387565",
+      "artist": {
+        "name": "Chappell Roan",
+        "url": "https:\/\/www.last.fm\/music\/Chappell+Roan"
+      },
+      "album": {
+        "artist": "Chappell Roan",
+        "title": "Good Luck, Babe!",
+        "url": "https:\/\/www.last.fm\/music\/Chappell+Roan\/Good+Luck,+Babe%21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/86fa0d410ba70ada74d22cf4b690b05b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/86fa0d410ba70ada74d22cf4b690b05b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/86fa0d410ba70ada74d22cf4b690b05b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/86fa0d410ba70ada74d22cf4b690b05b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "new wave",
+            "url": "https:\/\/www.last.fm\/tag\/new+wave"
+          },
+          {
+            "name": "baroque pop",
+            "url": "https:\/\/www.last.fm\/tag\/baroque+pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Apr 2024, 19:06",
+        "summary": "\u201cGood Luck, Babe!\u201c is a single released by Chappell Roan on April 5th, 2024. The song entails a relationship Chappell Roan had with a woman who struggled with compulsory heterosexuality, the conflict eventually causing their split.\n\nRoan teased this song a month prior to its release by sharing a minute-long snippet. Additionally, she further teased the track by performing it live before its initial release date. <a href=\"http:\/\/www.last.fm\/music\/Chappell+Roan\/_\/Good+Luck,+Babe%21\">Read more on Last.fm<\/a>.",
+        "content": "\u201cGood Luck, Babe!\u201c is a single released by Chappell Roan on April 5th, 2024. The song entails a relationship Chappell Roan had with a woman who struggled with compulsory heterosexuality, the conflict eventually causing their split.\n\nRoan teased this song a month prior to its release by sharing a minute-long snippet. Additionally, she further teased the track by performing it live before its initial release date. <a href=\"http:\/\/www.last.fm\/music\/Chappell+Roan\/_\/Good+Luck,+Babe%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

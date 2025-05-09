@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:42.809655+00:00",
+  "elapsed": 0.221617,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:42.809655+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2229",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gayle&format=json&method=track.getInfo&track=abcdefu"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Gayle&format=json&method=track.getInfo&track=abcdefu",
+  "_decoded_content": {
+    "track": {
+      "name": "abcdefu",
+      "url": "https:\/\/www.last.fm\/music\/Gayle\/_\/abcdefu",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "522766",
+      "playcount": "4548299",
+      "artist": {
+        "name": "Gayle",
+        "url": "https:\/\/www.last.fm\/music\/Gayle"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "pop punk",
+            "url": "https:\/\/www.last.fm\/tag\/pop+punk"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Nov 2021, 12:44",
+        "summary": "\u201cabcdefu\u201d is the second single from rising 17-year old Nashville-based singer, GAYLE. Vocally, the song explains on her trying to be a nice ex-girlfriend, but eventually gives up because her ex-partner is too sour.\n\nThe track is currently super-viral across social media platform TikTok, where it has already broken into many charts globally. GAYLE has said the following about \u201cabcdefu\u201d.\n\n\u201cI have tried so hard to be the nice ex-girlfriend, and I\u2019m over it. [The song is] empowering you to get pissed off. <a href=\"http:\/\/www.last.fm\/music\/Gayle\/_\/abcdefu\">Read more on Last.fm<\/a>.",
+        "content": "\u201cabcdefu\u201d is the second single from rising 17-year old Nashville-based singer, GAYLE. Vocally, the song explains on her trying to be a nice ex-girlfriend, but eventually gives up because her ex-partner is too sour.\n\nThe track is currently super-viral across social media platform TikTok, where it has already broken into many charts globally. GAYLE has said the following about \u201cabcdefu\u201d.\n\n\u201cI have tried so hard to be the nice ex-girlfriend, and I\u2019m over it. [The song is] empowering you to get pissed off.\n\nYou can still be yourself a good person, but be mad at somebody at the same time. I definitely bottled it all up, so when it came out, it exploded into this big, \u2018I hate your mom, I hate your sister. I kind of hate you.\"\n\nIt was released August 31st 2021, and started going viral a few months later. <a href=\"http:\/\/www.last.fm\/music\/Gayle\/_\/abcdefu\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

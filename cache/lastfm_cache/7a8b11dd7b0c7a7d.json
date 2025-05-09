@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:10.074043+00:00",
+  "elapsed": 0.18293,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:10.074043+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2228",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Halsey&format=json&method=track.getInfo&track=I+am+not+a+woman%2C+I%27m+a+god"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Halsey&format=json&method=track.getInfo&track=I+am+not+a+woman%2C+I%27m+a+god",
+  "_decoded_content": {
+    "track": {
+      "name": "I am not a woman, I'm a God",
+      "url": "https:\/\/www.last.fm\/music\/Halsey\/_\/I+am+not+a+woman,+I%27m+a+God",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "252571",
+      "playcount": "3180168",
+      "artist": {
+        "name": "Halsey",
+        "url": "https:\/\/www.last.fm\/music\/Halsey"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 16:15",
+        "summary": "\u201cI am not a woman, I\u2019m a god\u201d serves as the lead single from Halsey\u2019s fourth album \"If I Can\u2019t Have Love, I Want Power\". Halsey\u2019s work has always been shaped by the duality between self-doubt and self-worship. In this song, they once again finds themselves bouncing between the extremes, going from saintly to vicious, which may allude to their bipolar nature.\n\nIt is on July 29, 2021, that the song was first teased in the second trailer for the film experience Halsey made for the album. <a href=\"http:\/\/www.last.fm\/music\/Halsey\/_\/I+am+not+a+woman,+I%27m+a+God\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI am not a woman, I\u2019m a god\u201d serves as the lead single from Halsey\u2019s fourth album \"If I Can\u2019t Have Love, I Want Power\". Halsey\u2019s work has always been shaped by the duality between self-doubt and self-worship. In this song, they once again finds themselves bouncing between the extremes, going from saintly to vicious, which may allude to their bipolar nature.\n\nIt is on July 29, 2021, that the song was first teased in the second trailer for the film experience Halsey made for the album. The song title was announced in that same trailer, and then confirmed by Alexa, Amazon\u2019s virtual assistant, on August 10, 2021.\n\nIn addition, the song is accompanied by a music video that features footage from the IMAX film experience. <a href=\"http:\/\/www.last.fm\/music\/Halsey\/_\/I+am+not+a+woman,+I%27m+a+God\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

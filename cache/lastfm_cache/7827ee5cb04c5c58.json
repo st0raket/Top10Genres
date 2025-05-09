@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:30.401597+00:00",
+  "elapsed": 0.294963,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:30.401597+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6697",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Little+Mix&format=json&method=track.getInfo&track=Confetti"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Little+Mix&format=json&method=track.getInfo&track=Confetti",
+  "_decoded_content": {
+    "track": {
+      "name": "Confetti",
+      "url": "https:\/\/www.last.fm\/music\/Little+Mix\/_\/Confetti",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "113179",
+      "playcount": "1523087",
+      "artist": {
+        "name": "Little Mix",
+        "mbid": "38f59974-2f4d-4bfa-b2e3-d2696de1b675",
+        "url": "https:\/\/www.last.fm\/music\/Little+Mix"
+      },
+      "album": {
+        "artist": "Little Mix",
+        "title": "Confetti (Expanded Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Little+Mix\/Confetti+(Expanded+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0e9368781136f744a081dd868bf9128a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0e9368781136f744a081dd868bf9128a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0e9368781136f744a081dd868bf9128a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0e9368781136f744a081dd868bf9128a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Aug 2022, 09:44",
+        "summary": "\"Confetti\" is a song by British girl group Little Mix. It was released through RCA UK on 4 November 2020, as the third promotional single from their sixth studio album of the same name. The song was written by MNEK, Kamille, Maegan Cottone and TMS, and was produced by the latter. \"Confetti\" is a pop song with a reminiscent of early 2000s hits and sees the group celebrating independence after a break-up and their individual enjoyment of life. \n\nA remix of the track featuring an American rapper Saweetie was released on 30 April 2021 <a href=\"http:\/\/www.last.fm\/music\/Little+Mix\/_\/Confetti\">Read more on Last.fm<\/a>.",
+        "content": "\"Confetti\" is a song by British girl group Little Mix. It was released through RCA UK on 4 November 2020, as the third promotional single from their sixth studio album of the same name. The song was written by MNEK, Kamille, Maegan Cottone and TMS, and was produced by the latter. \"Confetti\" is a pop song with a reminiscent of early 2000s hits and sees the group celebrating independence after a break-up and their individual enjoyment of life. \n\nA remix of the track featuring an American rapper Saweetie was released on 30 April 2021, as the final and fourth single from the album. It was Little Mix's first single release as a trio, after Jesy Nelson's left the group in December 2020, although her vocals are featured in the original album version. A music video for the remix was released on the same day as the song's release, and features UK drag queens Bimini, Tayce and A'Whora. In 2022, it was cited as a Gay anthem.\n\n\"Confetti\" received generally positive reviews from music critics, with many praising its feel-good vibe and self-sufficient lyrics. The remix was described as an \"explosive return\" as this was their first release of 2021 and as a trio. The album version peaked within the top 40 of the UK Official Singles Chart at number 23, while the remix reached a new peak of number 9. The song was later certified gold in the country by the British Phonographic Industry (BPI) and certified gold in Brazil. The song won \"Best Music Video\" at the 2021 Music Daily Awards Hungary.\n\nThe solo version of the song was released on 4 November 2020, two days before the parent album dropped on 6 November 2020. The remix version of \"Confetti\" features American rapper Saweetie. Little Mix announced the remix on 22 April 2021 through their social media by posting an accompanying video announcement. The remix was released on 30 April 2021 and served as the fourth and final single from their sixth studio album of the same name. The remix version of the song does not include former member Jesy Nelson's vocals, as this marked the group's first release after her departure from the group in 2020, although her verse was included in the album version.[ The remix was also included as a bonus track on the Record Store Day vinyl editions of the album, which was released on 12 June 2021.\n\nIn an interview with Euphoria Magazine, member Perrie Edwards shared her thoughts about the song saying, \"We love the song \u2018Confetti,\u2019 it\u2019s always been one of our favorites and we know from socials that the fans love it too!\". \"It felt right to do an updated version of the song and give it a moment!\" Jade Thirlwall added. Talking about the music video Leigh-Anne Pinnock said, \"We really feel it might be one of our best videos ever. We\u2019re really excited for everyone to see it\". After the departure of Nelson from the group in 2020 and making this song as their first release since then, Thirlwall stated \"It\u2019s just learning to adapt. I think it\u2019s quite exciting. And we got off to a good start as a three by having our No. 1 single in the UK. That was like, \u2018Oh wow, this is a good sign, good omen, that this year is going to be good for us.\" To promote the song, the group also appeared on the cover of Euphoria Magazine, a day before the song was released. Little Mix released a \"Confetti\" themed filter on Instagram as well to further promote the single.\n\n\"Confetti\" is a pop song written by Tom Barnes, Pete Kelleher, Ben Kohn, Camille Purcell, Uzoechi Emenike, Maegan Cottone, with Saweetie writing her verse on the remix version. The song was produced solely by TMS. It runs for a total length of three minutes and five seconds. According to the sheet music published at Musicnotes.com by BMG Rights Management, the song is written in the key of A minor.\n\nLyrically, the song contains self-sufficient lyrics and talks about being strong and celebrating independence after a break-up. The song also promotes a focus on one's individual enjoyment of life, a lack of preoccupation with men and relationships, and an appreciation for what one has right here and now. Musically, the song is reminiscent of a compilation of early 2000s hits, and encapsulates the feel-good tone of the album as a whole.\n\nIn an interview with Nylon, Pinnock stated that the song is also about \"female empowerment\". She added \"I think that's what we do best. So we absolutely love having females on our tracks\". Pinnock went on to describe Saweetie's feature on the remix as \"perfect\" and added \"She's definitely someone that we feel like embodies that female empowerment.\u201d <a href=\"http:\/\/www.last.fm\/music\/Little+Mix\/_\/Confetti\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

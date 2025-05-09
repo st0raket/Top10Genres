@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:37:15.793808+00:00",
+  "elapsed": 0.232364,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:15.793808+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1038",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stromae&format=json&method=track.getInfo&track=D%C3%A9claration"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stromae&format=json&method=track.getInfo&track=D%C3%A9claration",
+  "_decoded_content": {
+    "track": {
+      "name": "D\u00e9claration",
+      "url": "https:\/\/www.last.fm\/music\/Stromae\/_\/D%C3%A9claration",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "52420",
+      "playcount": "269400",
+      "artist": {
+        "name": "Stromae",
+        "mbid": "ab2528d9-719f-4261-8098-21849222a0f2",
+        "url": "https:\/\/www.last.fm\/music\/Stromae"
+      },
+      "album": {
+        "artist": "Stromae",
+        "title": "Multitude",
+        "url": "https:\/\/www.last.fm\/music\/Stromae\/Multitude",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ca56c1269850005a8144efeae41a2124.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ca56c1269850005a8144efeae41a2124.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ca56c1269850005a8144efeae41a2124.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ca56c1269850005a8144efeae41a2124.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "chanson",
+            "url": "https:\/\/www.last.fm\/tag\/chanson"
+          },
+          {
+            "name": "post-revolutionary pop song",
+            "url": "https:\/\/www.last.fm\/tag\/post-revolutionary+pop+song"
+          }
+        ]
+      }
+    }
+  }
+}

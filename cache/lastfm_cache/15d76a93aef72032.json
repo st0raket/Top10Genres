@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:19.866104+00:00",
+  "elapsed": 0.181303,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:19.866104+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2664",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Fuck+Love"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=Fuck+Love",
+  "_decoded_content": {
+    "track": {
+      "name": "fuck love",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/fuck+love",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "641935",
+      "playcount": "7105308",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "emo rap",
+            "url": "https:\/\/www.last.fm\/tag\/emo+rap"
+          },
+          {
+            "name": "XXXTENTACION",
+            "url": "https:\/\/www.last.fm\/tag\/XXXTENTACION"
+          },
+          {
+            "name": "trippie redd",
+            "url": "https:\/\/www.last.fm\/tag\/trippie+redd"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Feb 2024, 13:56",
+        "summary": "\"Fuck Love\" is a song by American rapper XXXTentacion featuring Trippie Redd. It was released on August 24, 2017, as part of XXXTentacion's debut album, \"17.\" The song gained significant attention for its raw emotion and introspective lyrics, which explore themes of heartbreak and betrayal in relationships.\n\nThe track was produced by Nick Mira and Taz Taylor of the Internet Money collective. Its production features a somber guitar melody and minimalist percussion, providing a melancholic backdrop for XXXTentacion and Trippie Redd's verses. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/fuck+love\">Read more on Last.fm<\/a>.",
+        "content": "\"Fuck Love\" is a song by American rapper XXXTentacion featuring Trippie Redd. It was released on August 24, 2017, as part of XXXTentacion's debut album, \"17.\" The song gained significant attention for its raw emotion and introspective lyrics, which explore themes of heartbreak and betrayal in relationships.\n\nThe track was produced by Nick Mira and Taz Taylor of the Internet Money collective. Its production features a somber guitar melody and minimalist percussion, providing a melancholic backdrop for XXXTentacion and Trippie Redd's verses.\n\nUpon its release, \"Fuck Love\" received positive reviews from music critics, who praised its authenticity and emotional depth. The song also achieved commercial success, reaching high positions on various music charts.\n\nNotable cover versions and remixes of \"Fuck Love\" have been created by various artists, demonstrating the song's enduring popularity and influence within the hip-hop and emo rap genres.\n\nDespite controversy surrounding XXXTentacion during his lifetime, \"Fuck Love\" remains one of his most well-known and acclaimed tracks, cementing its status as a standout song in his discography. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/fuck+love\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

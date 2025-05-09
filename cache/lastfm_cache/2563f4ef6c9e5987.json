@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:28.926415+00:00",
+  "elapsed": 0.211059,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:28.926415+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1268",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sky&format=json&method=track.getInfo&track=El+Cielo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sky&format=json&method=track.getInfo&track=El+Cielo",
+  "_decoded_content": {
+    "track": {
+      "name": "El Cielo",
+      "mbid": "7b9ea3f3-141e-42a5-b3fa-f8b64419ced0",
+      "url": "https:\/\/www.last.fm\/music\/Sky\/_\/El+Cielo",
+      "duration": "260000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2963",
+      "playcount": "9560",
+      "artist": {
+        "name": "Sky",
+        "mbid": "f2b11379-b5fe-472b-9971-a0c6620689a7",
+        "url": "https:\/\/www.last.fm\/music\/Sky"
+      },
+      "album": {
+        "artist": "Sky",
+        "title": "Sky 2",
+        "mbid": "e204f77f-b437-4721-8ad9-fb6eab8c3589",
+        "url": "https:\/\/www.last.fm\/music\/Sky\/Sky+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d740321d8dd947ba89d485ab6fd43f8b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d740321d8dd947ba89d485ab6fd43f8b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d740321d8dd947ba89d485ab6fd43f8b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d740321d8dd947ba89d485ab6fd43f8b.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "11"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "instrumental",
+            "url": "https:\/\/www.last.fm\/tag\/instrumental"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "Classical",
+            "url": "https:\/\/www.last.fm\/tag\/Classical"
+          },
+          {
+            "name": "ambient",
+            "url": "https:\/\/www.last.fm\/tag\/ambient"
+          }
+        ]
+      }
+    }
+  }
+}

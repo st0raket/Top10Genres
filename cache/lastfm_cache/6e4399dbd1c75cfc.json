@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:34:46.660551+00:00",
+  "elapsed": 0.214868,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:46.660551+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2961",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alexandra+Burke&format=json&method=track.getInfo&track=Hallelujah"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alexandra+Burke&format=json&method=track.getInfo&track=Hallelujah",
+  "_decoded_content": {
+    "track": {
+      "name": "Hallelujah",
+      "mbid": "e0cf98d6-c373-44bc-a30c-3d6e3b036db8",
+      "url": "https:\/\/www.last.fm\/music\/Alexandra+Burke\/_\/Hallelujah",
+      "duration": "217000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "196507",
+      "playcount": "863740",
+      "artist": {
+        "name": "Alexandra Burke",
+        "mbid": "ed3d345c-20e1-4c26-8384-427c5ac58c38",
+        "url": "https:\/\/www.last.fm\/music\/Alexandra+Burke"
+      },
+      "album": {
+        "artist": "Alexandra Burke",
+        "title": "Overcome",
+        "mbid": "e8925b02-24a2-4522-a0e3-f6ff882c0fb7",
+        "url": "https:\/\/www.last.fm\/music\/Alexandra+Burke\/Overcome",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8c387743e305a7383ba576182aa836b4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8c387743e305a7383ba576182aa836b4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8c387743e305a7383ba576182aa836b4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8c387743e305a7383ba576182aa836b4.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "13"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alexandra burke",
+            "url": "https:\/\/www.last.fm\/tag\/alexandra+burke"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "hallelujah",
+            "url": "https:\/\/www.last.fm\/tag\/hallelujah"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Dec 2008, 20:28",
+        "summary": "Hallelujah is the Debut single of Alexandra Burke, X-Factor Winner 2008\n\nThe song is a cover, original version by Leonard Cohen. Successful in 1994 by Jeff Buckley's version.\n\nAccording to the Hallelujah Songfacts, this was chosen as the X-Factor winner\u2019s debut single, after Simon Cowell noticed the enthusiastic reaction that  American Idol Jason Castro received when he performed this song during one of the heats.\n\nAlexandra Burke was crowned the <a href=\"http:\/\/www.last.fm\/music\/Alexandra+Burke\/_\/Hallelujah\">Read more on Last.fm<\/a>.",
+        "content": "Hallelujah is the Debut single of Alexandra Burke, X-Factor Winner 2008\n\nThe song is a cover, original version by Leonard Cohen. Successful in 1994 by Jeff Buckley's version.\n\nAccording to the Hallelujah Songfacts, this was chosen as the X-Factor winner\u2019s debut single, after Simon Cowell noticed the enthusiastic reaction that  American Idol Jason Castro received when he performed this song during one of the heats.\n\nAlexandra Burke was crowned the winner of the fifth series of The X Factor in December 2008 \u2013 her debut single 'Hallelujah' shot to the top securing the coveted Christmas number one. The No.2 spot that same week was taken by Jeff Buckley and his classic version of the same song, while the original 1984 version by the writer Leonard Cohen also made the top 40. <a href=\"http:\/\/www.last.fm\/music\/Alexandra+Burke\/_\/Hallelujah\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

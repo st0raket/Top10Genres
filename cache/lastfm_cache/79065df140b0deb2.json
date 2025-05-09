@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:39:36.148411+00:00",
+  "elapsed": 0.201607,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:36.148411+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2427",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Crush+Em"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Uzi+Vert&format=json&method=track.getInfo&track=Crush+Em",
+  "_decoded_content": {
+    "track": {
+      "name": "Crush Em",
+      "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Crush+Em",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "230482",
+      "playcount": "1499568",
+      "artist": {
+        "name": "LIL UZI VERT",
+        "url": "https:\/\/www.last.fm\/music\/LIL+UZI+VERT"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Mar 2024, 14:58",
+        "summary": "\u201cCrush Em\u201d previously known as \u201cOwn Age\u201d through the series of snippets, is the 4th track on Pink Tape made by Philadelphia rapper Lil Uzi Vert. This song was rumored to be produced by Oogie Mane but apparently this wasn\u2019t true at all. Also there was other rumors that this is the song URU (@UziRareUpdates) was talking about \u2018Crush it \/ Warriors\u2019, which -except the first part- isn\u2019t completely true.\n\nIt was rumored to be on the December 2022 Pink Tape tracklist however. <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Crush+Em\">Read more on Last.fm<\/a>.",
+        "content": "\u201cCrush Em\u201d previously known as \u201cOwn Age\u201d through the series of snippets, is the 4th track on Pink Tape made by Philadelphia rapper Lil Uzi Vert. This song was rumored to be produced by Oogie Mane but apparently this wasn\u2019t true at all. Also there was other rumors that this is the song URU (@UziRareUpdates) was talking about \u2018Crush it \/ Warriors\u2019, which -except the first part- isn\u2019t completely true.\n\nIt was rumored to be on the December 2022 Pink Tape tracklist however. In the meantime, we used to think about this song\u2019s name is either \u201cCrush Em'\/it\u201d or \u201cWarriors.\u201d\n\nFirst snippet of this track would surface online on June 17, 2023, with other snippets belong to \u201cPluto to Mars.\u201d\n\nSecond snippet came out later on June 17, 2023 with an special audio watermark -belongs to a leaker- repeating over, \u201cDon\u2019t leak album songs,\u201d which kinda confirmed we get an official release of this song on Pink Tape.\n\nAnd finally we have it! <a href=\"http:\/\/www.last.fm\/music\/LIL+UZI+VERT\/_\/Crush+Em\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

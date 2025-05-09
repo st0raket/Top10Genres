@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:31:14.421332+00:00",
+  "elapsed": 0.214894,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:14.421332+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2355",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=City+Girls&format=json&method=track.getInfo&track=Act+Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=City+Girls&format=json&method=track.getInfo&track=Act+Up",
+  "_decoded_content": {
+    "track": {
+      "name": "Act Up",
+      "url": "https:\/\/www.last.fm\/music\/City+Girls\/_\/Act+Up",
+      "duration": "158000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "296430",
+      "playcount": "2091827",
+      "artist": {
+        "name": "City Girls",
+        "url": "https:\/\/www.last.fm\/music\/City+Girls"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Ice Cream Social",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Ice+Cream+Social",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c763395823450d4bfb1eacecfde7c81d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c763395823450d4bfb1eacecfde7c81d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c763395823450d4bfb1eacecfde7c81d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c763395823450d4bfb1eacecfde7c81d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "bounce",
+            "url": "https:\/\/www.last.fm\/tag\/bounce"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "FM4",
+            "url": "https:\/\/www.last.fm\/tag\/FM4"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Aug 2022, 12:52",
+        "summary": "\"Act Up\" is a song by American hip-hop duo City Girls from their debut studio album, Girl Code. It reached the top 40 on the US Billboard Hot 100. The song was released to US rhythmic and urban contemporary radio in as the album's second single March 27, 2019, eventually reaching number one on Billboard's Rhythmic Songs chart in its July 6, 2019 issue. It has peaked at number 26 on the Hot 100, making it their highest charting entry. <a href=\"http:\/\/www.last.fm\/music\/City+Girls\/_\/Act+Up\">Read more on Last.fm<\/a>.",
+        "content": "\"Act Up\" is a song by American hip-hop duo City Girls from their debut studio album, Girl Code. It reached the top 40 on the US Billboard Hot 100. The song was released to US rhythmic and urban contemporary radio in as the album's second single March 27, 2019, eventually reaching number one on Billboard's Rhythmic Songs chart in its July 6, 2019 issue. It has peaked at number 26 on the Hot 100, making it their highest charting entry. <a href=\"http:\/\/www.last.fm\/music\/City+Girls\/_\/Act+Up\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

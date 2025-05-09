@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:37:37.378200+00:00",
+  "elapsed": 0.195278,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:37.378200+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2615",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Tit%C3%AD+Me+Pregunt%C3%B3"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Bad+Bunny&format=json&method=track.getInfo&track=Tit%C3%AD+Me+Pregunt%C3%B3",
+  "_decoded_content": {
+    "track": {
+      "name": "Tit\u00ed Me Pregunt\u00f3",
+      "url": "https:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Tit%C3%AD+Me+Pregunt%C3%B3",
+      "duration": "243000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "571817",
+      "playcount": "7727052",
+      "artist": {
+        "name": "Bad Bunny",
+        "url": "https:\/\/www.last.fm\/music\/Bad+Bunny"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "fire",
+            "url": "https:\/\/www.last.fm\/tag\/fire"
+          },
+          {
+            "name": "king of pop",
+            "url": "https:\/\/www.last.fm\/tag\/king+of+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 May 2022, 19:53",
+        "summary": "\"Tit\u00ed Me Pregunt\u00f3\" translates literally to: Auntie Asked Me. \"Tit\u00ed\" is a common Latin American endearing term to refer to an aunt, similar to auntie.  Bad Bunny uses the stereotype of the inquisitive aunt asking about the love life of her nephews and nieces to start the song.\n\nAddressing his aunt directly, the song becomes an hymn to the hyper sexuality typical of a popular artist. Bad Bunny uses this resource to describe his sexual lifestyle with multiple women at the same time <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Tit%C3%AD+Me+Pregunt%C3%B3\">Read more on Last.fm<\/a>.",
+        "content": "\"Tit\u00ed Me Pregunt\u00f3\" translates literally to: Auntie Asked Me. \"Tit\u00ed\" is a common Latin American endearing term to refer to an aunt, similar to auntie.  Bad Bunny uses the stereotype of the inquisitive aunt asking about the love life of her nephews and nieces to start the song.\n\nAddressing his aunt directly, the song becomes an hymn to the hyper sexuality typical of a popular artist. Bad Bunny uses this resource to describe his sexual lifestyle with multiple women at the same time, bragging about their reoccurring names and different nationalities. This is similar to what was done in \"I Like It\" with Cardi B and J Balvin, among others of his earlier songs filled of machismo pride.\n\nThe song then takes a turn when the eponymous \"Tit\u00ed\" responds, who insults yet pleads Bad Bunny to settle down and find a good woman. His response is a serious one: he is unable find love no matter how hard he tries, blaming his trust issues and fears of becoming a father. The song ends with him openly warning every woman not to fall in love with him because he will inevitably disappoint them and break their heart. <a href=\"http:\/\/www.last.fm\/music\/Bad+Bunny\/_\/Tit%C3%AD+Me+Pregunt%C3%B3\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

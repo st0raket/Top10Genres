@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:06.585222+00:00",
+  "elapsed": 0.205107,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:06.585222+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2598",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Sorry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Justin+Bieber&format=json&method=track.getInfo&track=Sorry",
+  "_decoded_content": {
+    "track": {
+      "name": "Sorry",
+      "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Sorry",
+      "duration": "200000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1153892",
+      "playcount": "9833008",
+      "artist": {
+        "name": "Justin Bieber",
+        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber"
+      },
+      "album": {
+        "artist": "Justin Bieber",
+        "title": "Sorry",
+        "url": "https:\/\/www.last.fm\/music\/Justin+Bieber\/Sorry",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7df22bccd9bf27b19f87830317347ef8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7df22bccd9bf27b19f87830317347ef8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7df22bccd9bf27b19f87830317347ef8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7df22bccd9bf27b19f87830317347ef8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dancehall",
+            "url": "https:\/\/www.last.fm\/tag\/dancehall"
+          },
+          {
+            "name": "2015",
+            "url": "https:\/\/www.last.fm\/tag\/2015"
+          },
+          {
+            "name": "justin bieber",
+            "url": "https:\/\/www.last.fm\/tag\/justin+bieber"
+          },
+          {
+            "name": "tropical house",
+            "url": "https:\/\/www.last.fm\/tag\/tropical+house"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Nov 2015, 09:39",
+        "summary": "\"Sorry\" is a song by Canadian singer Justin Bieber for his fourth studio album Purpose. The song was written by Julia Michaels, Justin Tranter, Justin Bieber and produced by Skrillex and Blood Diamonds. It is the second single from the upcoming album. Like \"What Do You Mean\", \"Sorry\" is a tropical house song. Lyrically, the song is a plea \"for a chance to apologize to an unidentified lover\". It was released on 22 October 2015 and debuted at No. 2 on the Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Sorry\">Read more on Last.fm<\/a>.",
+        "content": "\"Sorry\" is a song by Canadian singer Justin Bieber for his fourth studio album Purpose. The song was written by Julia Michaels, Justin Tranter, Justin Bieber and produced by Skrillex and Blood Diamonds. It is the second single from the upcoming album. Like \"What Do You Mean\", \"Sorry\" is a tropical house song. Lyrically, the song is a plea \"for a chance to apologize to an unidentified lover\". It was released on 22 October 2015 and debuted at No. 2 on the Billboard Hot 100.\n\n\"Sorry\" Music Video currently holds the 3rd most watched YouTube video in history.  <a href=\"http:\/\/www.last.fm\/music\/Justin+Bieber\/_\/Sorry\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

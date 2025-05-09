@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:06.044589+00:00",
+  "elapsed": 0.183994,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:06.044589+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2856",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Venice+Bitch"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Venice+Bitch",
+  "_decoded_content": {
+    "track": {
+      "name": "Venice Bitch",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Venice+Bitch",
+      "duration": "576000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "683665",
+      "playcount": "11067128",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Norman Fucking Rockwell!",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Norman+Fucking+Rockwell%21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "psychedelic",
+            "url": "https:\/\/www.last.fm\/tag\/psychedelic"
+          },
+          {
+            "name": "Neo-Psychedelia",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Psychedelia"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Sep 2018, 23:21",
+        "summary": "\"Venice Bitch\" is symbolic of a deep and complicated relationship between two people. The lyrics explore the idea of love, fear, and attachment, as well as the bittersweetness of summertime. The narrator speaks of wanting to be stronger for the other person and dreaming in jeans and leather. The chorus talks of missing the person and calling out for them. The bridge talks about the garden and getting high, likely a metaphor for feeling content and tranquil with the other person. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Venice+Bitch\">Read more on Last.fm<\/a>.",
+        "content": "\"Venice Bitch\" is symbolic of a deep and complicated relationship between two people. The lyrics explore the idea of love, fear, and attachment, as well as the bittersweetness of summertime. The narrator speaks of wanting to be stronger for the other person and dreaming in jeans and leather. The chorus talks of missing the person and calling out for them. The bridge talks about the garden and getting high, likely a metaphor for feeling content and tranquil with the other person. Overall, the song is about a strong but fragile bond between two people and the struggle to maintain a connection. It conveys the idea of showing love, of cherishing and protecting the relationship, and of understanding the limitations that can prevent it from lasting. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Venice+Bitch\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

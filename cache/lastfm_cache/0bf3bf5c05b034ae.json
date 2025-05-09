@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:05.752245+00:00",
+  "elapsed": 0.190417,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:05.752245+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2985",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:06 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=How+to+disappear"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=How+to+disappear",
+  "_decoded_content": {
+    "track": {
+      "name": "How to disappear",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/How+to+disappear",
+      "duration": "228000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "812912",
+      "playcount": "14159348",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Lana Del Rey",
+        "title": "Norman Fucking Rockwell!",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/Norman+Fucking+Rockwell%21",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/144b92b7d58d108cd7a8c18b78f5433a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "soft rock",
+            "url": "https:\/\/www.last.fm\/tag\/soft+rock"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Aug 2020, 13:39",
+        "summary": "\"How to disappear\" is a reflective track about coming to terms with a past relationship while living in the present. The song points out the importance of understanding the past, accepting it, and ultimately moving on. The lyrics discuss the narrator's yearning for a past love, while she is surrounded by the comforts of the world around her including the \"California sun and the movie stars\". At the same time, the narrator notes that she is still here <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/How+to+disappear\">Read more on Last.fm<\/a>.",
+        "content": "\"How to disappear\" is a reflective track about coming to terms with a past relationship while living in the present. The song points out the importance of understanding the past, accepting it, and ultimately moving on. The lyrics discuss the narrator's yearning for a past love, while she is surrounded by the comforts of the world around her including the \"California sun and the movie stars\". At the same time, the narrator notes that she is still here, and she will be right here\u2013 suggesting that she is at peace with her past and is no longer trying to escape it. The chorus, \"this is how to disappear\", can be interpreted as learning how to let go, and no longer be defined by the past. The song implies that, in learning to disappear from the past and move forward, the narrator can find peace, love and solace.\n\nIt is the seventh track from Lana Del Rey's sixth studio album, Norman Fucking Rockwell! <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/How+to+disappear\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:45:01.832299+00:00",
+  "elapsed": 0.209341,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:01.832299+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3304",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:02 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Young+Thug&format=json&method=track.getInfo&track=pick+up+the+phone"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Young+Thug&format=json&method=track.getInfo&track=pick+up+the+phone",
+  "_decoded_content": {
+    "track": {
+      "name": "Pick Up The Phone",
+      "url": "https:\/\/www.last.fm\/music\/Young+Thug\/_\/Pick+Up+The+Phone",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "651160",
+      "playcount": "8766543",
+      "artist": {
+        "name": "Young Thug",
+        "mbid": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+        "url": "https:\/\/www.last.fm\/music\/Young+Thug"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "Southern Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Southern+Hip+Hop"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 Jul 2016, 02:45",
+        "summary": "\u201cpick up the phone\u201d details Travis, Thug, and Quavo\u2019s unfortunate situation. While they all want to be faithful and stay committed to this girl, she won\u2019t show her love in return, refusing to pick up the phone\u2014even while she\u2019s not busy.\n\nThis song was originally played on April 7, 2016, stop during Rihanna\u2019s Anti Tour, and then played again at a club a couple of days after the ANTi Tour.\n\nIn the weeks leading up to the release of \u201cpick up the phone <a href=\"http:\/\/www.last.fm\/music\/Young+Thug\/_\/Pick+Up+The+Phone\">Read more on Last.fm<\/a>.",
+        "content": "\u201cpick up the phone\u201d details Travis, Thug, and Quavo\u2019s unfortunate situation. While they all want to be faithful and stay committed to this girl, she won\u2019t show her love in return, refusing to pick up the phone\u2014even while she\u2019s not busy.\n\nThis song was originally played on April 7, 2016, stop during Rihanna\u2019s Anti Tour, and then played again at a club a couple of days after the ANTi Tour.\n\nIn the weeks leading up to the release of \u201cpick up the phone,\u201d Mike Dean previewed the song on his Periscope, where he showed himself mixing and mastering the song.\n\nThe song was released on June 3rd on Travis Scott\u2019s Soundcloud but was taken down 6 hours later. Travis expressed his love for Young Thug and Quavo on Twitter while showing his frustration about the release. In the caption on his Soundcloud (before it was taken down), Travis stated:\n\nThis song was supposed to go to iTunes but labels are making this more complicated than it needs to be this was gonna be my single but now I\u2019m giving a way for the kids. P.S. They might take this down cause they don\u2019t want kids to eat.\n\nThis is the fifth collaboration between Travis Scott and Young Thug, following Rodeo standout \u201cMaria I'm Drunk (feat. Justin Bieber & Young Thug),\u201d the Soundcloud single \u201cNothing But Net,\u201d and Days Before Rodeo\u2019s \u201cSkyfall (feat. Young Thug)\u201d and \u201cMamacita (feat. Rich Homie Quan & Young Thug)\u201d. Young Thug and Travis Scott later on collaborated on Thug's debut album So Much Fun on \u201cThe London (feat. J. Cole & Travis Scott)\u201d and its deluxe with the \u201cHot (Remix)\u201d.\n\nScott previously collaborated with Quavo on \u201cOh My Dis Side (feat. Quavo)\u201d and \u201cSloppy Toppy (feat. Migos & Peewee Longway),\u201d the latter of which featured all three of the Migos. <a href=\"http:\/\/www.last.fm\/music\/Young+Thug\/_\/Pick+Up+The+Phone\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

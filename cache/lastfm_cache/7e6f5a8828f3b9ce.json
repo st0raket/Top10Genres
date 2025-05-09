@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:22.040198+00:00",
+  "elapsed": 0.213364,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:22.040198+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3580",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LINKIN+PARK&format=json&method=track.getInfo&track=Invisible"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LINKIN+PARK&format=json&method=track.getInfo&track=Invisible",
+  "_decoded_content": {
+    "track": {
+      "name": "Invisible",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Invisible",
+      "duration": "270000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "115022",
+      "playcount": "854569",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "One More Light",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/One+More+Light",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5e03d7c6d69c19819b07cef436e73413.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Nov 2017, 08:50",
+        "summary": "\"Invisible\" is a song by American rock band Linkin Park. It was released from their seventh studio album One More Light. The song was written by Mike Shinoda and Justin Parker. The song is sung by Mike Shinoda with Chester Bennington on backing vocals. The song premiered on May 10, 2017 at Zane Lowe's World Record show on Beats 1.\n\nMike Shinoda met with English songwriter and producer Justin Parker in London for a writing session during The Hunting Party Tour. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Invisible\">Read more on Last.fm<\/a>.",
+        "content": "\"Invisible\" is a song by American rock band Linkin Park. It was released from their seventh studio album One More Light. The song was written by Mike Shinoda and Justin Parker. The song is sung by Mike Shinoda with Chester Bennington on backing vocals. The song premiered on May 10, 2017 at Zane Lowe's World Record show on Beats 1.\n\nMike Shinoda met with English songwriter and producer Justin Parker in London for a writing session during The Hunting Party Tour. Shinoda later told Ticketmaster, \"I did a couple of stopovers in London on the way back from the Hunting Party tour and worked with two different songwriters and really enjoyed it. I thought it was super fun and saw merit in keeping that going. I took the songs back to the band and asked them what they thought. They loved the material, first and foremost.\" One of those tracks was \"Invisible\", a song that deals with Shinoda wanting to concentrate on being a father.\n\nThroughout the process, both Shinoda and Bennington recorded vocals for the song, but since \"Invisible\" is Shinoda's story, he decided he should be the one singing on the final version. The song was written about his kids and the thought that when they get older and become teenagers, it will be harder to discipline them. According to him, \"Invisible\" sends the listener to that moment when, in a parental or mentoring situation, you have to tell your kids something they don't wanna hear and you want them to know you're doing it because you care, not because you want to hurt their feelings. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Invisible\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

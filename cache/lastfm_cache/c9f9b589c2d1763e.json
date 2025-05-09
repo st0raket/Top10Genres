@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:30:44.193175+00:00",
+  "elapsed": 0.305008,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:44.193175+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1236",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cheryl&format=json&method=track.getInfo&track=Love+Made+Me+Do+It"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Cheryl&format=json&method=track.getInfo&track=Love+Made+Me+Do+It",
+  "_decoded_content": {
+    "track": {
+      "name": "Love Made Me Do It",
+      "url": "https:\/\/www.last.fm\/music\/Cheryl\/_\/Love+Made+Me+Do+It",
+      "duration": "208000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "16703",
+      "playcount": "147885",
+      "artist": {
+        "name": "Cheryl",
+        "mbid": "85df56ab-e125-4169-8ac8-e6666128d526",
+        "url": "https:\/\/www.last.fm\/music\/Cheryl"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "NOW That's What I Call Music! 101",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/NOW+That%27s+What+I+Call+Music%21+101",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3579954257ba3cc107d0b72eb427b5aa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3579954257ba3cc107d0b72eb427b5aa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3579954257ba3cc107d0b72eb427b5aa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3579954257ba3cc107d0b72eb427b5aa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "meh",
+            "url": "https:\/\/www.last.fm\/tag\/meh"
+          },
+          {
+            "name": "liam payne",
+            "url": "https:\/\/www.last.fm\/tag\/liam+payne"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "Cheryl",
+            "url": "https:\/\/www.last.fm\/tag\/Cheryl"
+          }
+        ]
+      }
+    }
+  }
+}

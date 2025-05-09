@@ -1,0 +1,93 @@
+{
+  "created_at": "2025-05-03T14:41:42.332164+00:00",
+  "elapsed": 0.201467,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:42.332164+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2004",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=No+Face"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Drake&format=json&method=track.getInfo&track=No+Face",
+  "_decoded_content": {
+    "track": {
+      "name": "No Face",
+      "url": "https:\/\/www.last.fm\/music\/Drake\/_\/No+Face",
+      "duration": "137000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "215413",
+      "playcount": "1648133",
+      "artist": {
+        "name": "Drake",
+        "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+        "url": "https:\/\/www.last.fm\/music\/Drake"
+      },
+      "album": {
+        "artist": "Drake",
+        "title": "No Face - Single",
+        "url": "https:\/\/www.last.fm\/music\/Drake\/No+Face+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fc15484fea51e52999d054a02a487f9c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fc15484fea51e52999d054a02a487f9c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fc15484fea51e52999d054a02a487f9c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fc15484fea51e52999d054a02a487f9c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Drake",
+            "url": "https:\/\/www.last.fm\/tag\/Drake"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Sep 2024, 16:47",
+        "summary": "On August 23, 2024, the Instagram account @plottttwistttttt, reportedly linked to Drake, released \u201cNo Face,\u201d along with two other tracks, \u201cCircadian Rhythm\u201d and \u201cSOD.\u201d\n\nInitially, \u201cNo Face\u201d included a brief feature from Playboi Carti, but his contribution was removed in the official release. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/No+Face\">Read more on Last.fm<\/a>.",
+        "content": "On August 23, 2024, the Instagram account @plottttwistttttt, reportedly linked to Drake, released \u201cNo Face,\u201d along with two other tracks, \u201cCircadian Rhythm\u201d and \u201cSOD.\u201d\n\nInitially, \u201cNo Face\u201d included a brief feature from Playboi Carti, but his contribution was removed in the official release. <a href=\"http:\/\/www.last.fm\/music\/Drake\/_\/No+Face\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

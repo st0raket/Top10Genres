@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:42:09.098264+00:00",
+  "elapsed": 0.187304,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:09.098264+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2280",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=reincarnated"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=reincarnated",
+  "_decoded_content": {
+    "track": {
+      "name": "Reincarnated",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Reincarnated",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "606304",
+      "playcount": "5165339",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "hardcore hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hardcore+hip+hop"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          },
+          {
+            "name": "G-funk",
+            "url": "https:\/\/www.last.fm\/tag\/G-funk"
+          },
+          {
+            "name": "Christian hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/Christian+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "24 Nov 2024, 22:44",
+        "summary": "In the song, Kendrick writes about artists to whom he feels connected both artistically and personally: his past lives. The first is John Lee Hooker, a revolutionary R&B guitarist from Michigan whose breakthrough single was released in 1948. The second, a female Chitlin' Circuit vocalist who achieved widespread fame and fortune but struggled with substance abuse, is most likely Dinah Washington.\n\nSince both these artists were in their prime around the same time <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Reincarnated\">Read more on Last.fm<\/a>.",
+        "content": "In the song, Kendrick writes about artists to whom he feels connected both artistically and personally: his past lives. The first is John Lee Hooker, a revolutionary R&B guitarist from Michigan whose breakthrough single was released in 1948. The second, a female Chitlin' Circuit vocalist who achieved widespread fame and fortune but struggled with substance abuse, is most likely Dinah Washington.\n\nSince both these artists were in their prime around the same time, rather than explicitly suggesting that his soul inhabited each of their bodies before his own, Kendrick is likely suggesting that the black community today can inherit and build upon the artistic greatness of those who came before, while learning from their mistakes and shortcomings. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Reincarnated\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

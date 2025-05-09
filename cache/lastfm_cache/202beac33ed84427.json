@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:05.218333+00:00",
+  "elapsed": 0.212375,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:05.218333+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3785",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Man"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Man",
+  "_decoded_content": {
+    "track": {
+      "name": "The Man",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Man",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "849642",
+      "playcount": "15935802",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Lover (Deluxe Edition)",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Lover+(Deluxe+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/41e946737b157ea0e88b7c0551acc604.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "overrated",
+            "url": "https:\/\/www.last.fm\/tag\/overrated"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "feminism",
+            "url": "https:\/\/www.last.fm\/tag\/feminism"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Feb 2020, 23:15",
+        "summary": "\"The Man\" is a song recorded by American singer-songwriter Taylor Swift, for her seventh studio album, Lover (2019). As the fourth track on Lover, Swift wrote and produced the song with Joel Little. \"The Man\" is a synth-pop and electropop song with flashy harmonies, murky synths, and rumbling beats. Over an uptempo production, Swift imagines how she would be treated if she was a man. The song received a positive reception from critics, who praised its feminist message. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Man\">Read more on Last.fm<\/a>.",
+        "content": "\"The Man\" is a song recorded by American singer-songwriter Taylor Swift, for her seventh studio album, Lover (2019). As the fourth track on Lover, Swift wrote and produced the song with Joel Little. \"The Man\" is a synth-pop and electropop song with flashy harmonies, murky synths, and rumbling beats. Over an uptempo production, Swift imagines how she would be treated if she was a man. The song received a positive reception from critics, who praised its feminist message.\n\nThe track peaked at number 23 on the US Billboard Hot 100 upon the album's release, and entered the top-forty in Australia, Belgium, Canada, Czech Republic, Estonia, Hungary, Ireland, Malaysia, New Zealand, Norway, Singapore, Slovakia, and the United Kingdom. It impacted US adult contemporary and pop radio formats on January 27 and 28, 2020, as the fourth single from the album. On February 18, 2020, a live acoustic version of the song, titled \"The Man (Live from Paris)\", was released on all music platforms, accompanied by its live video.\n\nAn official music video for \"The Man\" was released on February 27, 2020, directed by Swift herself, marking her solo directorial debut. The satirical video sees Swift in her theoretical male alter-ego named \"Tyler Swift\", voiced by Dwayne Johnson, presenting several prevalent examples of sexist double standards in society, including objectification, sexualization of women, toxic masculinity, and patriarchy. The video received critical acclaim for its concept and Swift's transformation into a man. It was nominated for the Video of the Year, Video for Good, and Best Direction at the 2020 MTV Video Music Awards, winning the latter, making Swift the first solo female director in VMA history to win the category. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Man\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

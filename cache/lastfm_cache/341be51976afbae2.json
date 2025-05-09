@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:44:49.287951+00:00",
+  "elapsed": 0.214634,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:49.285932+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "912",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Don+Omar&format=json&method=track.getInfo&track=Te+Quiero+Pa%C2%B4Mi"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Don+Omar&format=json&method=track.getInfo&track=Te+Quiero+Pa%C2%B4Mi",
+  "_decoded_content": {
+    "track": {
+      "name": "Te Quiero Pa\u00b4Mi",
+      "url": "https:\/\/www.last.fm\/music\/Don+Omar\/_\/Te+Quiero+Pa%C2%B4Mi",
+      "duration": "211000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "38493",
+      "playcount": "183115",
+      "artist": {
+        "name": "Don Omar",
+        "mbid": "afbdfac9-2955-4404-ae22-c08bf1c1b51e",
+        "url": "https:\/\/www.last.fm\/music\/Don+Omar"
+      },
+      "album": {
+        "artist": "Don Omar",
+        "title": "Te Quiero Pa\u00b4Mi",
+        "url": "https:\/\/www.last.fm\/music\/Don+Omar\/Te+Quiero+Pa%C2%B4Mi",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/bc3e1dad975eae58483725f6cf6138a7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/bc3e1dad975eae58483725f6cf6138a7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/bc3e1dad975eae58483725f6cf6138a7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/bc3e1dad975eae58483725f6cf6138a7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

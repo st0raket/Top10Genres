@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:41.252857+00:00",
+  "elapsed": 0.185833,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:41.252857+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2714",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Sparks+Fly"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Sparks+Fly",
+  "_decoded_content": {
+    "track": {
+      "name": "Sparks Fly",
+      "mbid": "8fb6007c-9239-4fe4-b037-69a25f21eff4",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Sparks+Fly",
+      "duration": "261000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "526754",
+      "playcount": "6529480",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Speak Now",
+        "mbid": "829d9e28-e7a8-4f91-a21a-1eef17da356d",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Speak+Now",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a9ff4f81e3402e5fdd3c8e85681ad606.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "country pop",
+            "url": "https:\/\/www.last.fm\/tag\/country+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Nov 2010, 14:02",
+        "summary": "Taylor Swift explains the story behind \"Sparks Fly\" on her official website:\n\n\"Sparks Fly\" is about falling for someone who you maybe shouldn't fall for, but you can't stop yourself because there's such a connection and chemistry. This is a song I wrote a few years ago and I have been working on it ever since. It's been awesome to see it change over the years. The fans have heard it before in concert, but there have been some really cool changes that I am very proud of and can't wait for them to hear. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Sparks+Fly\">Read more on Last.fm<\/a>.",
+        "content": "Taylor Swift explains the story behind \"Sparks Fly\" on her official website:\n\n\"Sparks Fly\" is about falling for someone who you maybe shouldn't fall for, but you can't stop yourself because there's such a connection and chemistry. This is a song I wrote a few years ago and I have been working on it ever since. It's been awesome to see it change over the years. The fans have heard it before in concert, but there have been some really cool changes that I am very proud of and can't wait for them to hear. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Sparks+Fly\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

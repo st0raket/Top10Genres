@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:31:19.163528+00:00",
+  "elapsed": 0.194083,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:19.163528+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4303",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=listen+before+i+go"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=listen+before+i+go",
+  "_decoded_content": {
+    "track": {
+      "name": "Listen Before I Go",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Listen+Before+I+Go",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "797745",
+      "playcount": "9956397",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "ambient pop",
+            "url": "https:\/\/www.last.fm\/tag\/ambient+pop"
+          },
+          {
+            "name": "Billie Eilish",
+            "url": "https:\/\/www.last.fm\/tag\/Billie+Eilish"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Aug 2020, 07:29",
+        "summary": "\"listen before i go\" is the twelfth track by Billie Eilish featured on her debut album \"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?\"\n\nIt is a song centered around suicide, with Eilish warning her lover to hurry up and listen to her before she kills herself.\n\nAfter it was premiered at a show in Melbourne, the song was speculated to be titled \u201cl i s t e n,\u201d but Eilish later shared in a comment on Instagram that the song is titled \u201clisten before i go\u201d, and would be included on her debut album. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Listen+Before+I+Go\">Read more on Last.fm<\/a>.",
+        "content": "\"listen before i go\" is the twelfth track by Billie Eilish featured on her debut album \"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?\"\n\nIt is a song centered around suicide, with Eilish warning her lover to hurry up and listen to her before she kills herself.\n\nAfter it was premiered at a show in Melbourne, the song was speculated to be titled \u201cl i s t e n,\u201d but Eilish later shared in a comment on Instagram that the song is titled \u201clisten before i go\u201d, and would be included on her debut album.\n\nAlthough Eilish has made public her struggles with depression, the song isn\u2019t necessarily about her life experience, but could be an artifact of her songwriting process. Eilish shared with Genius' own Rob Markman that when writing, she often impersonates other people and other people\u2019s thought and problems:\n\n\"You don\u2019t have to go through anything to write about it, or you can go through everything and write about something else. It\u2019s literally like telling a story, you can write about something you\u2019ve done, you can write about something your friend\u2019s done, or you want to do, or you used to do, or your mom\u2019s done.\"\n\nAt her first show in Toronto during the 1by1 tour, she talked about what the song is\n\n\u201cBasically it\u2019s like, um it\u2019s about, it\u2019s just about depression, and what can come out of depression, which is not pretty good. [\u2026] When this comes out, I don\u2019t want it to break you down, I want it to bring you to me and I don\u2019t know, be like a mental hug, I guess. [\u2026 ] What I\u2019m really trying to do is let my words be your words and stay ours.\u201d (She continues to talk about how her fans are the reason she is here and how much she loves them).\n\nIn an interview with Radio Energy, Eilish listed \u201clisten before i go\u201d as \u201c\u2014one of my favorite songs I\u2019ve ever written in my life\u201d.\n\nIn an interview with PopBuzz, Eilish confirmed that the final three song titles on the album were intended to form a sentence, beginning with \u201clisten before i go\u201d, then \u201ci love you\u201d, ending on \u201cgoodbye\u201d.\n\nIn an interview with Radio Energy, Eilish listed \u201clisten before i go\u201d as \u201c\u2014one of my favorite songs I\u2019ve ever written in my life\".\n\nAt the end of the track, police sirens and screams can be heard. Since \u201clisten before i go\u201d plays as a suicide note, with Eilish about to jump off a building\u2014 many believe it to show that she\u2019s committed the act at that point within the song\u2019s storyline.\n\nThe song\u2019s Spotify artwork was done by @_italiyana on Instagram.\n\nIn an Instagram story, Billie revealed that \u201clisten before i go\u201d was inspired by \u201cSmother\u201d and \u201cI don\u2019t wanna do this anymore.\"\n\nDuring the week ending April 13, 2019, \u201clisten before i go\u201d debuted and peaked at #63 on the Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/Listen+Before+I+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

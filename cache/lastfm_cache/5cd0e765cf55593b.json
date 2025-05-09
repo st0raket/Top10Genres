@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:42:49.804075+00:00",
+  "elapsed": 0.199305,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:49.804075+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "710",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eagles&format=json&method=track.getInfo&track=Please+Come+Home+for+Christmas+-+2013+Remaster"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eagles&format=json&method=track.getInfo&track=Please+Come+Home+for+Christmas+-+2013+Remaster",
+  "_decoded_content": {
+    "track": {
+      "name": "Please Come Home for Christmas - 2013 Remaster",
+      "url": "https:\/\/www.last.fm\/music\/Eagles\/_\/Please+Come+Home+for+Christmas+-+2013+Remaster",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "332284",
+      "playcount": "1031823",
+      "artist": {
+        "name": "Eagles",
+        "mbid": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+        "url": "https:\/\/www.last.fm\/music\/Eagles"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "album rock",
+            "url": "https:\/\/www.last.fm\/tag\/album+rock"
+          },
+          {
+            "name": "soft rock",
+            "url": "https:\/\/www.last.fm\/tag\/soft+rock"
+          }
+        ]
+      }
+    }
+  }
+}

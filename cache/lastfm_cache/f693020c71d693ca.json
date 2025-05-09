@@ -1,0 +1,79 @@
+{
+  "created_at": "2025-05-03T14:34:29.478097+00:00",
+  "elapsed": 0.203704,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:29.478097+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2271",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Weeeeee"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Weeeeee",
+  "_decoded_content": {
+    "track": {
+      "name": "Weeeeee",
+      "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Weeeeee",
+      "duration": "152000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "95240",
+      "playcount": "852551",
+      "artist": {
+        "name": "Trippie Redd",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Trending Now Volume 13",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Trending+Now+Volume+13",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9d2cd44d889d3b9c37efdf4b7d81d23b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9d2cd44d889d3b9c37efdf4b7d81d23b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9d2cd44d889d3b9c37efdf4b7d81d23b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9d2cd44d889d3b9c37efdf4b7d81d23b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "03 Dec 2022, 13:18",
+        "summary": "Trippie Redd draws inspiration from the viral \u201cWhee!\u201d meme on the Loaded-produced Pegasus standout \u201cWeeeeee.\u201c The outro of the record samples the 2013 cartoon, and Trippie\u2019s vocals in the chorus seem to replicate the meme\u2019s infamous sound.\n\nThe track was first teased on June 25, 2020, in a now-deleted Instagram post, with Trippie hinting at its possible presence on Trippie\u2019s long-awaited album Pegasus. \u201cWeeeeee\u201d later stood out as the album\u2019s best-performing song in the days following its release. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Weeeeee\">Read more on Last.fm<\/a>.",
+        "content": "Trippie Redd draws inspiration from the viral \u201cWhee!\u201d meme on the Loaded-produced Pegasus standout \u201cWeeeeee.\u201c The outro of the record samples the 2013 cartoon, and Trippie\u2019s vocals in the chorus seem to replicate the meme\u2019s infamous sound.\n\nThe track was first teased on June 25, 2020, in a now-deleted Instagram post, with Trippie hinting at its possible presence on Trippie\u2019s long-awaited album Pegasus. \u201cWeeeeee\u201d later stood out as the album\u2019s best-performing song in the days following its release. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Weeeeee\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

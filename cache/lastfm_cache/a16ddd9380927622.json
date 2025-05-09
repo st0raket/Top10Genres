@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:41:10.311061+00:00",
+  "elapsed": 0.268649,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:10.311061+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3028",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Albatross"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=The+Albatross",
+  "_decoded_content": {
+    "track": {
+      "name": "The Albatross",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Albatross",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "358055",
+      "playcount": "6392538",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/THE+TORTURED+POETS+DEPARTMENT:+THE+ANTHOLOGY",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3e9934e3815f2949acc34415d8931aea.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "worst of 2024",
+            "url": "https:\/\/www.last.fm\/tag\/worst+of+2024"
+          },
+          {
+            "name": "chatgpt",
+            "url": "https:\/\/www.last.fm\/tag\/chatgpt"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Apr 2024, 15:22",
+        "summary": "\u201cThe Albatross\u201d is a bonus track from Swift\u2019s eleventh studio album, The Tortured Poets Department. The track was announced on February 23, 2024, while she was performing in Sydney, Australia, for The Eras Tour.\n\nAn albatross is a large sea bird that spends its first six years without touching the land, due to them being so well-adapted to their oceanic existence. In a metaphorical sense, an albatross is usually referred to as \u201csomething that causes anxiety or guilt or that burdens and encumbers.\u201d <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Albatross\">Read more on Last.fm<\/a>.",
+        "content": "\u201cThe Albatross\u201d is a bonus track from Swift\u2019s eleventh studio album, The Tortured Poets Department. The track was announced on February 23, 2024, while she was performing in Sydney, Australia, for The Eras Tour.\n\nAn albatross is a large sea bird that spends its first six years without touching the land, due to them being so well-adapted to their oceanic existence. In a metaphorical sense, an albatross is usually referred to as \u201csomething that causes anxiety or guilt or that burdens and encumbers.\u201d\n\nLike many tracks on the album, \u201cThe Albatross\u201d seems to be a metaphorical reference to Swift\u2019s six-year long relationship with British actor, Joe Alwyn.\n\nMany fans also believe that Taylor\u2019s outfit for the 2024 Grammys (a white dress with long black gloves) was an easter-egg to this song, since albatrosses are white birds with black wings. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/The+Albatross\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:39:23.806474+00:00",
+  "elapsed": 0.205012,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:23.806474+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "862",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Apache+207&format=json&method=track.getInfo&track=Wenn+das+so+bleibt"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Apache+207&format=json&method=track.getInfo&track=Wenn+das+so+bleibt",
+  "_decoded_content": {
+    "track": {
+      "name": "Wenn das so bleibt",
+      "url": "https:\/\/www.last.fm\/music\/Apache+207\/_\/Wenn+das+so+bleibt",
+      "duration": "161000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "15840",
+      "playcount": "151888",
+      "artist": {
+        "name": "Apache 207",
+        "url": "https:\/\/www.last.fm\/music\/Apache+207"
+      },
+      "album": {
+        "artist": "Apache 207",
+        "title": "Gartenstadt",
+        "url": "https:\/\/www.last.fm\/music\/Apache+207\/Gartenstadt",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/31f959b2ed079862d06e079d5f15ecc9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/31f959b2ed079862d06e079d5f15ecc9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/31f959b2ed079862d06e079d5f15ecc9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/31f959b2ed079862d06e079d5f15ecc9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

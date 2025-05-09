@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:30:06.760669+00:00",
+  "elapsed": 0.203518,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:06.760669+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3370",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alan+Walker&format=json&method=track.getInfo&track=Darkside"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Alan+Walker&format=json&method=track.getInfo&track=Darkside",
+  "_decoded_content": {
+    "track": {
+      "name": "Darkside",
+      "url": "https:\/\/www.last.fm\/music\/Alan+Walker\/_\/Darkside",
+      "duration": "212000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "223010",
+      "playcount": "1755158",
+      "artist": {
+        "name": "Alan Walker",
+        "url": "https:\/\/www.last.fm\/music\/Alan+Walker"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music! Vol. 80",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music%21+Vol.+80",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/95808d3de95adfd06c64e241eeaebcd7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/95808d3de95adfd06c64e241eeaebcd7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/95808d3de95adfd06c64e241eeaebcd7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/95808d3de95adfd06c64e241eeaebcd7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electro house",
+            "url": "https:\/\/www.last.fm\/tag\/electro+house"
+          },
+          {
+            "name": "glitch hop",
+            "url": "https:\/\/www.last.fm\/tag\/glitch+hop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Jun 2024, 14:36",
+        "summary": "\"Darkside\" is a song by British-Norwegian record producer and DJ Alan Walker, featuring Antiguan-German singer-songwriter Au\/Ra and Norwegian singer Tomine Harket. The song was recorded on June 27, 2018 and The song was released on July 27, 2018 via Mer Musikk and Ultra Music. Two remixes were released, one by Austrian DJ and producer LUM!X and one by Afrojack in collaboration with Chasner. However, neither were officially published by Walker's YouTube channel. <a href=\"http:\/\/www.last.fm\/music\/Alan+Walker\/_\/Darkside\">Read more on Last.fm<\/a>.",
+        "content": "\"Darkside\" is a song by British-Norwegian record producer and DJ Alan Walker, featuring Antiguan-German singer-songwriter Au\/Ra and Norwegian singer Tomine Harket. The song was recorded on June 27, 2018 and The song was released on July 27, 2018 via Mer Musikk and Ultra Music. Two remixes were released, one by Austrian DJ and producer LUM!X and one by Afrojack in collaboration with Chasner. However, neither were officially published by Walker's YouTube channel.\n\nThe single is the second installment in the World of Walker trilogy, with the futuristic, post-apocalyptic sci-fi world seen in his previous video \"All Falls Down\" revisited here with hopeful views for the future with majestic landscapes. The video before \"All Falls Down\", \"Tired\" served as a prequel to this trilogy where a solar storm destroyed all technology on earth, changing the course of humanity forever. These videos were directed by MER creative director Kristian Berg. Together, with the accompanying music video, \"Darkside\" is the second song in the \"World of Walker\" trilogy, following the previous single \"All Falls Down\". The lyric during the chorus, \"I see it, let's feel it, while we're still young and fearless\" samples a part from the melody of the popular production music track \"Heart of Courage\" by Two Steps from Hell. <a href=\"http:\/\/www.last.fm\/music\/Alan+Walker\/_\/Darkside\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

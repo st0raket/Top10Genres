@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:34:50.251525+00:00",
+  "elapsed": 0.182718,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:50.251525+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3635",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Yellow"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Yellow",
+  "_decoded_content": {
+    "track": {
+      "name": "Yellow",
+      "mbid": "8b5bf478-22f8-4902-a1c1-0db82261db58",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Yellow",
+      "duration": "266000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2962424",
+      "playcount": "29619298",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Coldplay",
+        "title": "Parachutes",
+        "mbid": "8e602038-c0f2-3c2d-9068-a1a3daca493d",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay\/Parachutes",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5fbcfb7258117e88cb73b45e25c88b01.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5fbcfb7258117e88cb73b45e25c88b01.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5fbcfb7258117e88cb73b45e25c88b01.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5fbcfb7258117e88cb73b45e25c88b01.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "Coldplay",
+            "url": "https:\/\/www.last.fm\/tag\/Coldplay"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "britpop",
+            "url": "https:\/\/www.last.fm\/tag\/britpop"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Jun 2008, 16:01",
+        "summary": "\"Yellow\" is a song by English alternative rock band Coldplay. The band wrote the song and co-produced it with British record producer Ken Nelson for their debut album, Parachutes. The song's lyrics are a reference to band vocalist Chris Martin's unrequited love, and its musicscape is built on a varied instrumentation.\n\nThe song was released in June 2000 as the second single off the album, following \"Shiver\", and the lead single in the United States. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Yellow\">Read more on Last.fm<\/a>.",
+        "content": "\"Yellow\" is a song by English alternative rock band Coldplay. The band wrote the song and co-produced it with British record producer Ken Nelson for their debut album, Parachutes. The song's lyrics are a reference to band vocalist Chris Martin's unrequited love, and its musicscape is built on a varied instrumentation.\n\nThe song was released in June 2000 as the second single off the album, following \"Shiver\", and the lead single in the United States. The single reached number four in the UK Singles Chart, giving the band their first top-five hit in the United Kingdom.\n\nHelped by heavy rotation and usage in promotions, the song thrust the band into massive popularity. \"Yellow\" has since been covered by various recording artists worldwide, and remains one of the band's most popular songs.\n\nWhile composing the song's lyrics, however, Chris Martin could not find the right words. He was thinking of a specific word, which he deemed a missing key word in the lyrics, to fit the song's concept. He looked around the studio and found the telephone directory Yellow Pages, which happened to be situated nearest to him. Chris Martin later titled the song \"Yellow\" as a reference to the directory. But according to him, \"In an alternate universe, this song could be called 'Playboy.'\" The lyrics progressed from there with the band collaborating. The band's bassist Guy Berryman came up with the opening line \"Look at the stars\". That night, having quickly composed the song, the band recorded it.\n\nblogarticle  <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Yellow\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "created_at": "2025-05-03T14:37:34.388029+00:00",
+  "elapsed": 0.215394,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:34.388029+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1111",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luciano&format=json&method=track.getInfo&track=Beautiful+Girl"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luciano&format=json&method=track.getInfo&track=Beautiful+Girl",
+  "_decoded_content": {
+    "track": {
+      "name": "Beautiful Girl",
+      "url": "https:\/\/www.last.fm\/music\/Luciano\/_\/Beautiful+Girl",
+      "duration": "179000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "42097",
+      "playcount": "670132",
+      "artist": {
+        "name": "Luciano",
+        "mbid": "b298ab55-7633-4015-a05c-0d333a8540e3",
+        "url": "https:\/\/www.last.fm\/music\/Luciano"
+      },
+      "album": {
+        "artist": "Luciano",
+        "title": "Beautiful Girl",
+        "url": "https:\/\/www.last.fm\/music\/Luciano\/Beautiful+Girl",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a783d61e30458f19913e38dfbded422c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a783d61e30458f19913e38dfbded422c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a783d61e30458f19913e38dfbded422c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a783d61e30458f19913e38dfbded422c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "German Number 1",
+            "url": "https:\/\/www.last.fm\/tag\/German+Number+1"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001819731063",
+            "url": "https:\/\/www.last.fm\/tag\/-1001819731063"
+          }
+        ]
+      }
+    }
+  }
+}

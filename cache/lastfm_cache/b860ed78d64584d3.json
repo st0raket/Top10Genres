@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:29:01.055361+00:00",
+  "elapsed": 0.20511,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:01.055361+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1145",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:01 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=American+Soul"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=American+Soul",
+  "_decoded_content": {
+    "track": {
+      "name": "American Soul",
+      "url": "https:\/\/www.last.fm\/music\/U2\/_\/American+Soul",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "39042",
+      "playcount": "149232",
+      "artist": {
+        "name": "U2",
+        "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+        "url": "https:\/\/www.last.fm\/music\/U2"
+      },
+      "album": {
+        "artist": "U2",
+        "title": "American Soul",
+        "url": "https:\/\/www.last.fm\/music\/U2\/American+Soul",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/550cd2b6a8ad0886d9f955817dd193d1.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/550cd2b6a8ad0886d9f955817dd193d1.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/550cd2b6a8ad0886d9f955817dd193d1.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/550cd2b6a8ad0886d9f955817dd193d1.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "catchy",
+            "url": "https:\/\/www.last.fm\/tag\/catchy"
+          },
+          {
+            "name": "favourite",
+            "url": "https:\/\/www.last.fm\/tag\/favourite"
+          },
+          {
+            "name": "U2",
+            "url": "https:\/\/www.last.fm\/tag\/U2"
+          }
+        ]
+      }
+    }
+  }
+}

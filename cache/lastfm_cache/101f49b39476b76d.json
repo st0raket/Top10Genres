@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:29:13.770375+00:00",
+  "elapsed": 0.227895,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:13.768560+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "866",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fler&format=json&method=track.getInfo&track=AMG"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fler&format=json&method=track.getInfo&track=AMG",
+  "_decoded_content": {
+    "track": {
+      "name": "AMG",
+      "url": "https:\/\/www.last.fm\/music\/Fler\/_\/AMG",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3701",
+      "playcount": "23597",
+      "artist": {
+        "name": "Fler",
+        "mbid": "cf13ed42-3d7b-4aca-8872-8159fdc901f3",
+        "url": "https:\/\/www.last.fm\/music\/Fler"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Deutschrap",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Deutschrap",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/82e4649c3f144fc7e5461527f1a1b12b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/82e4649c3f144fc7e5461527f1a1b12b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/82e4649c3f144fc7e5461527f1a1b12b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/82e4649c3f144fc7e5461527f1a1b12b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

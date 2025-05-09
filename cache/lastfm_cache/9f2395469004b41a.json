@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:37.354635+00:00",
+  "elapsed": 0.2161,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:37.354635+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2364",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Youngblood"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=5+Seconds+of+Summer&format=json&method=track.getInfo&track=Youngblood",
+  "_decoded_content": {
+    "track": {
+      "name": "Youngblood",
+      "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Youngblood",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "851195",
+      "playcount": "9527604",
+      "artist": {
+        "name": "5 Seconds of Summer",
+        "mbid": "830e5c4e-6b7d-431d-86ab-00c751281dc5",
+        "url": "https:\/\/www.last.fm\/music\/5+Seconds+of+Summer"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music, Vol. 67",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music,+Vol.+67",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/39118d98652a24ddf711373a232b5b50.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jan 2022, 05:01",
+        "summary": "On \u201cYoungblood,\u201d 5SOS sing about the push and pulls of a relationship. In this song, we see 5SOS move further away from their defining sound from previous albums and see the growth and maturity in their songwriting.\n\n\u201cYoungblood\u201d is the title track from 5SOS' third album released on June 15th, and was an instant grat when you pre-ordered the album on iTunes. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Youngblood\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cYoungblood,\u201d 5SOS sing about the push and pulls of a relationship. In this song, we see 5SOS move further away from their defining sound from previous albums and see the growth and maturity in their songwriting.\n\n\u201cYoungblood\u201d is the title track from 5SOS' third album released on June 15th, and was an instant grat when you pre-ordered the album on iTunes. <a href=\"http:\/\/www.last.fm\/music\/5+Seconds+of+Summer\/_\/Youngblood\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

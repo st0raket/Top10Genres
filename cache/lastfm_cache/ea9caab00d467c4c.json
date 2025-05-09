@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:12.681530+00:00",
+  "elapsed": 0.423081,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:12.673501+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2247",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ashley+O&format=json&method=track.getInfo&track=On+A+Roll"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ashley+O&format=json&method=track.getInfo&track=On+A+Roll",
+  "_decoded_content": {
+    "track": {
+      "name": "On a Roll",
+      "url": "https:\/\/www.last.fm\/music\/ASHLEY+O\/_\/On+a+Roll",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "183659",
+      "playcount": "1997406",
+      "artist": {
+        "name": "ASHLEY O",
+        "url": "https:\/\/www.last.fm\/music\/ASHLEY+O"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jun 2019, 02:22",
+        "summary": "\"On a Roll\" was released by Miley Cyrus under the moniker \"Ashley O\" (her character in the Black Mirror episode \"Rachel, Jack and Ashley Too\"). It is an adaptation of the 1989 Nine Inch Nails song \"Head Like a Hole\". The episode was originally released on June 5, 2019, and the song was later distributed as a standalone single by RCA Records and The Null Corporation on June 14, 2019. \nThe B-side from the single album, \"Right Where I Belong\", is also based on a Nine Inch Nails song (\"Right Where It Belongs\"). <a href=\"http:\/\/www.last.fm\/music\/ASHLEY+O\/_\/On+a+Roll\">Read more on Last.fm<\/a>.",
+        "content": "\"On a Roll\" was released by Miley Cyrus under the moniker \"Ashley O\" (her character in the Black Mirror episode \"Rachel, Jack and Ashley Too\"). It is an adaptation of the 1989 Nine Inch Nails song \"Head Like a Hole\". The episode was originally released on June 5, 2019, and the song was later distributed as a standalone single by RCA Records and The Null Corporation on June 14, 2019. \nThe B-side from the single album, \"Right Where I Belong\", is also based on a Nine Inch Nails song (\"Right Where It Belongs\"). Nine Inch Nails frontman Trent Reznor approved both adaptations, and released Black Mirror-themed merchandise to coincide with the episode's release. \n\"On a Roll\" was ranked 28th on the 100 Best Songs of 2019 list by Billboard. The song was not released to radio in the US. <a href=\"http:\/\/www.last.fm\/music\/ASHLEY+O\/_\/On+a+Roll\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:34:54.413419+00:00",
+  "elapsed": 0.241496,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:54.413419+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2840",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Chemtrails+Over+the+Country+Club"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lana+Del+Rey&format=json&method=track.getInfo&track=Chemtrails+Over+the+Country+Club",
+  "_decoded_content": {
+    "track": {
+      "name": "Chemtrails Over the Country Club",
+      "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Chemtrails+Over+the+Country+Club",
+      "duration": "271000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "864295",
+      "playcount": "14830258",
+      "artist": {
+        "name": "Lana Del Rey",
+        "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+        "url": "https:\/\/www.last.fm\/music\/Lana+Del+Rey"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Jobblistan",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Jobblistan",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/12d1e3e16d8c9f712daa97e50f473a32.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/12d1e3e16d8c9f712daa97e50f473a32.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/12d1e3e16d8c9f712daa97e50f473a32.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/12d1e3e16d8c9f712daa97e50f473a32.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "art pop",
+            "url": "https:\/\/www.last.fm\/tag\/art+pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "americana",
+            "url": "https:\/\/www.last.fm\/tag\/americana"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jan 2021, 00:58",
+        "summary": "\"Chemtrails Over the Country Club\" is about freedom and joy despite the constraints and expectations of the outside world. The lyrics describe the narrator going on a romantic adventure with their \"sweet love\", engaging in activities such as swimming and drag racing. The couple is free to express themselves and live in the moment, detached from the expectations of the \"country club\", which represents the monotony of day-to-day life. Lana presents an idyllic love story that places emphasis on freedom, individuality and joy. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Chemtrails+Over+the+Country+Club\">Read more on Last.fm<\/a>.",
+        "content": "\"Chemtrails Over the Country Club\" is about freedom and joy despite the constraints and expectations of the outside world. The lyrics describe the narrator going on a romantic adventure with their \"sweet love\", engaging in activities such as swimming and drag racing. The couple is free to express themselves and live in the moment, detached from the expectations of the \"country club\", which represents the monotony of day-to-day life. Lana presents an idyllic love story that places emphasis on freedom, individuality and joy. Despite life's pressures, they will persevere and find fulfillment in their journey together. <a href=\"http:\/\/www.last.fm\/music\/Lana+Del+Rey\/_\/Chemtrails+Over+the+Country+Club\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

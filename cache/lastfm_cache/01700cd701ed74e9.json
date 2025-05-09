@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:33:12.295697+00:00",
+  "elapsed": 0.194474,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:12.295697+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2285",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Escape+From+LA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Escape+From+LA",
+  "_decoded_content": {
+    "track": {
+      "name": "Escape From LA",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Escape+From+LA",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "478223",
+      "playcount": "5535796",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Jan 2022, 18:44",
+        "summary": "\u201cEscape From LA\u201d is one of After Hours\u2018 most dark and lethargic moments, with Abel dismissively addressing his partner and her infidelity within their relationship. He eventually chalks up their rocky relationship\u2019s strifes to the fast-paced environment of Los Angeles and concludes that the two must get out of the city to live a good life together.\n\nThe track\u2019s title was first teased by Abel in one of his merchandise collections prior to the release of After Hours, which included the \u201cEscape LA\u201d work jacket. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Escape+From+LA\">Read more on Last.fm<\/a>.",
+        "content": "\u201cEscape From LA\u201d is one of After Hours\u2018 most dark and lethargic moments, with Abel dismissively addressing his partner and her infidelity within their relationship. He eventually chalks up their rocky relationship\u2019s strifes to the fast-paced environment of Los Angeles and concludes that the two must get out of the city to live a good life together.\n\nThe track\u2019s title was first teased by Abel in one of his merchandise collections prior to the release of After Hours, which included the \u201cEscape LA\u201d work jacket.\n\n\u201cEscape from LA\u201d is also the title of John Carpenter\u2019s post-apocalyptic, cult \u201890s film. Abel references several other \u201890s and early 2000\u2019s films throughout the rest of the track, including Speed and Constantine. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Escape+From+LA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

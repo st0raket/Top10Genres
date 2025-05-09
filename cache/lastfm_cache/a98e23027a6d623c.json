@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:22.774120+00:00",
+  "elapsed": 0.201097,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:22.774120+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2162",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=BAD%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XXXTENTACION&format=json&method=track.getInfo&track=BAD%21",
+  "_decoded_content": {
+    "track": {
+      "name": "BAD!",
+      "url": "https:\/\/www.last.fm\/music\/xxxtentacion\/_\/BAD%21",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "507282",
+      "playcount": "4375302",
+      "artist": {
+        "name": "xxxtentacion",
+        "url": "https:\/\/www.last.fm\/music\/xxxtentacion"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "emo",
+            "url": "https:\/\/www.last.fm\/tag\/emo"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Apr 2021, 13:02",
+        "summary": "\u201cBAD!\u201d is the lead single off of XXXTENTACION\u2019s first posthumous album \"SKINS\". It was originally a snippet that X released as part of an animated music video through his Instagram on May 18, 2018, with the \u201c\ud83d\udca1\u201d emoji. On April 11, 2019, X\u2019s producer, John Cunningham, confirmed on his Instagram via a story that this track would be the leading single from the album.\n\n\u201cBAD!\u201d shows X being enamored with a woman and asks for romance and her affection. He describes the woman as \u201cbad\u201d suggesting that she is attractive. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/BAD%21\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBAD!\u201d is the lead single off of XXXTENTACION\u2019s first posthumous album \"SKINS\". It was originally a snippet that X released as part of an animated music video through his Instagram on May 18, 2018, with the \u201c\ud83d\udca1\u201d emoji. On April 11, 2019, X\u2019s producer, John Cunningham, confirmed on his Instagram via a story that this track would be the leading single from the album.\n\n\u201cBAD!\u201d shows X being enamored with a woman and asks for romance and her affection. He describes the woman as \u201cbad\u201d suggesting that she is attractive.\n\nOn November 7, it was announced by X\u2019s mother Cleo on Instagram that the song would be released on November 9. X additionally posted the lyrics of the snippet on his Tumblr page. <a href=\"http:\/\/www.last.fm\/music\/xxxtentacion\/_\/BAD%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

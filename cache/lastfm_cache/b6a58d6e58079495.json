@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:33.001545+00:00",
+  "elapsed": 0.198429,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:33.001545+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2568",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:33 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LISA&format=json&method=track.getInfo&track=Elastigirl"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=LISA&format=json&method=track.getInfo&track=Elastigirl",
+  "_decoded_content": {
+    "track": {
+      "name": "elastigirl",
+      "url": "https:\/\/www.last.fm\/music\/Lisa\/_\/elastigirl",
+      "duration": "177000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "104131",
+      "playcount": "683097",
+      "artist": {
+        "name": "Lisa",
+        "mbid": "fde67432-278f-4a41-9e2f-0d1b35d8a3dc",
+        "url": "https:\/\/www.last.fm\/music\/Lisa"
+      },
+      "album": {
+        "artist": "Lisa",
+        "title": "Alter Ego (Kiki Ver.)",
+        "url": "https:\/\/www.last.fm\/music\/Lisa\/Alter+Ego+(Kiki+Ver.)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/24f59ddf366d5cd8fb4b9adc99ec6683.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/24f59ddf366d5cd8fb4b9adc99ec6683.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/24f59ddf366d5cd8fb4b9adc99ec6683.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/24f59ddf366d5cd8fb4b9adc99ec6683.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "alter ego",
+            "url": "https:\/\/www.last.fm\/tag\/alter+ego"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Bhangra",
+            "url": "https:\/\/www.last.fm\/tag\/Bhangra"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "10 Mar 2025, 18:54",
+        "summary": "\u201cElastigirl\u201d is the third song on LISA\u2019s solo album, Alter Ego. The song title is a nod to the Superheroine, Elastigirl, from The Incredibles franchise.\n\nWith a punchy beat driving the energy, LISA confidently declares her versatility and resilience, much like Elastigirl\u2014famous for her elasticity, shapeshifting, and superhuman strength. No matter how she\u2019s bent or twisted, LISA remains unbreakable and resilient.\n\nThe song also gives a nod to Mr. Fantastic from Marvel Comics, famed for his superhuman elasticity. <a href=\"http:\/\/www.last.fm\/music\/Lisa\/_\/elastigirl\">Read more on Last.fm<\/a>.",
+        "content": "\u201cElastigirl\u201d is the third song on LISA\u2019s solo album, Alter Ego. The song title is a nod to the Superheroine, Elastigirl, from The Incredibles franchise.\n\nWith a punchy beat driving the energy, LISA confidently declares her versatility and resilience, much like Elastigirl\u2014famous for her elasticity, shapeshifting, and superhuman strength. No matter how she\u2019s bent or twisted, LISA remains unbreakable and resilient.\n\nThe song also gives a nod to Mr. Fantastic from Marvel Comics, famed for his superhuman elasticity. <a href=\"http:\/\/www.last.fm\/music\/Lisa\/_\/elastigirl\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

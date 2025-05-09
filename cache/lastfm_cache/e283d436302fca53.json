@@ -1,0 +1,97 @@
+{
+  "created_at": "2025-05-03T14:38:13.840622+00:00",
+  "elapsed": 0.181847,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:13.840622+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2551",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=The+Color+Violet"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tory+Lanez&format=json&method=track.getInfo&track=The+Color+Violet",
+  "_decoded_content": {
+    "track": {
+      "name": "The Color Violet",
+      "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/_\/The+Color+Violet",
+      "duration": "226000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "830609",
+      "playcount": "20068818",
+      "artist": {
+        "name": "Tory Lanez",
+        "mbid": "5b8ec72b-9e39-4a06-a2bf-964166b92a71",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez"
+      },
+      "album": {
+        "artist": "Tory Lanez",
+        "title": "Alone at Prom",
+        "url": "https:\/\/www.last.fm\/music\/Tory+Lanez\/Alone+at+Prom",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aece583659ca803df09d3a0576ce8cd5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aece583659ca803df09d3a0576ce8cd5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aece583659ca803df09d3a0576ce8cd5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aece583659ca803df09d3a0576ce8cd5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "-1001747063611",
+            "url": "https:\/\/www.last.fm\/tag\/-1001747063611"
+          },
+          {
+            "name": "synthwave",
+            "url": "https:\/\/www.last.fm\/tag\/synthwave"
+          },
+          {
+            "name": "-1001854528204",
+            "url": "https:\/\/www.last.fm\/tag\/-1001854528204"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Mar 2023, 14:10",
+        "summary": "\u201cThe Color Violet\u201c is the fourth song to appear on Tory\u2019s Alone At Prom album. Tory sings about heartbreak and tells us a story about a woman whom he lusts for but she\u2019s appears to be no good for him. She eventually breaks his heart while \u201cplaying games of love\u201d to deceive Tory. Lanez doesn\u2019t think he can recover from this hence the chorus \u201cI won\u2019t dance again\u201d.\n\n\u201cThe Color Violet\u201d debuted at #87 on the Billboard Hot 100 during the chart week ending of January 14, 2023. <a href=\"http:\/\/www.last.fm\/music\/Tory+Lanez\/_\/The+Color+Violet\">Read more on Last.fm<\/a>.",
+        "content": "\u201cThe Color Violet\u201c is the fourth song to appear on Tory\u2019s Alone At Prom album. Tory sings about heartbreak and tells us a story about a woman whom he lusts for but she\u2019s appears to be no good for him. She eventually breaks his heart while \u201cplaying games of love\u201d to deceive Tory. Lanez doesn\u2019t think he can recover from this hence the chorus \u201cI won\u2019t dance again\u201d.\n\n\u201cThe Color Violet\u201d debuted at #87 on the Billboard Hot 100 during the chart week ending of January 14, 2023. <a href=\"http:\/\/www.last.fm\/music\/Tory+Lanez\/_\/The+Color+Violet\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

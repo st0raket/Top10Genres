@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:36:20.232177+00:00",
+  "elapsed": 0.202957,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:20.232177+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2542",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Wildest+Dreams"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=Wildest+Dreams",
+  "_decoded_content": {
+    "track": {
+      "name": "Wildest Dreams",
+      "mbid": "598bc2a9-1a27-4f6a-a7cc-30649303edca",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Wildest+Dreams",
+      "duration": "145000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1033976",
+      "playcount": "13041780",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "1989",
+        "mbid": "b15d9a20-5fe8-4b35-ad58-bf686787d950",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/1989",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fd378412e92480577c0f2a4463c8998a.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "9"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "max martin",
+            "url": "https:\/\/www.last.fm\/tag\/max+martin"
+          },
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Jul 2016, 08:52",
+        "summary": "\"Wildest Dreams\" is about the bittersweet feeling of a short-term romance. The narrator is savoring a seemingly fleeting moment of love, knowing that even as they're enjoying it, it won't last forever. In the chorus, she expresses hope that the other person will continue to remember her, even after the relationship ends. Ultimately, she expresses her desire for their time together to live on in their wildest dreams. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Wildest+Dreams\">Read more on Last.fm<\/a>.",
+        "content": "\"Wildest Dreams\" is about the bittersweet feeling of a short-term romance. The narrator is savoring a seemingly fleeting moment of love, knowing that even as they're enjoying it, it won't last forever. In the chorus, she expresses hope that the other person will continue to remember her, even after the relationship ends. Ultimately, she expresses her desire for their time together to live on in their wildest dreams. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/Wildest+Dreams\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

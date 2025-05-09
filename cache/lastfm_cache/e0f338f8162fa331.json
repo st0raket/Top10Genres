@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:44:16.523591+00:00",
+  "elapsed": 0.196325,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:16.523591+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2081",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ski+Mask+The+Slump+God&format=json&method=track.getInfo&track=Faucet+Failure"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ski+Mask+The+Slump+God&format=json&method=track.getInfo&track=Faucet+Failure",
+  "_decoded_content": {
+    "track": {
+      "name": "Faucet Failure",
+      "url": "https:\/\/www.last.fm\/music\/SKI+MASK+THE+SLUMP+GOD\/_\/Faucet+Failure",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "507970",
+      "playcount": "5761728",
+      "artist": {
+        "name": "SKI MASK THE SLUMP GOD",
+        "url": "https:\/\/www.last.fm\/music\/SKI+MASK+THE+SLUMP+GOD"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "florida",
+            "url": "https:\/\/www.last.fm\/tag\/florida"
+          },
+          {
+            "name": "swag",
+            "url": "https:\/\/www.last.fm\/tag\/swag"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "16 May 2021, 18:18",
+        "summary": "\u201cFaucet Failure\u201d is an upbeat track from Ski Mask the Slump God, featuring him flexing his \u201cdrip,\u201d or expensive clothing, comparing it to the way a faucet drips when it breaks. The track\u2019s instrumental is centered around a steel drum and horn line with booming bass in the background. Ski first previewed the song in a video on October 20, 2018.\n\n\u201cFaucet Failure\u201d debuted at #100 on the Billboard Hot 100 for the week of March 9th, 2019 and peaked at #87 during the week of March 16th, 2019. <a href=\"http:\/\/www.last.fm\/music\/SKI+MASK+THE+SLUMP+GOD\/_\/Faucet+Failure\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFaucet Failure\u201d is an upbeat track from Ski Mask the Slump God, featuring him flexing his \u201cdrip,\u201d or expensive clothing, comparing it to the way a faucet drips when it breaks. The track\u2019s instrumental is centered around a steel drum and horn line with booming bass in the background. Ski first previewed the song in a video on October 20, 2018.\n\n\u201cFaucet Failure\u201d debuted at #100 on the Billboard Hot 100 for the week of March 9th, 2019 and peaked at #87 during the week of March 16th, 2019. \u201cFaucet Failure\u201d was certified platinum by the RIAA on April 16, 2020. <a href=\"http:\/\/www.last.fm\/music\/SKI+MASK+THE+SLUMP+GOD\/_\/Faucet+Failure\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:41:26.202007+00:00",
+  "elapsed": 0.177477,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:26.202007+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1082",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XG&format=json&method=track.getInfo&track=WOKE+UP"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=XG&format=json&method=track.getInfo&track=WOKE+UP",
+  "_decoded_content": {
+    "track": {
+      "name": "WOKE UP",
+      "url": "https:\/\/www.last.fm\/music\/XG\/_\/WOKE+UP",
+      "duration": "188000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "224542",
+      "playcount": "3876226",
+      "artist": {
+        "name": "XG",
+        "url": "https:\/\/www.last.fm\/music\/XG"
+      },
+      "album": {
+        "artist": "XG",
+        "title": "WOKE UP",
+        "url": "https:\/\/www.last.fm\/music\/XG\/WOKE+UP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/434418c598af7b46b5b2563ae59adeb2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/434418c598af7b46b5b2563ae59adeb2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/434418c598af7b46b5b2563ae59adeb2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/434418c598af7b46b5b2563ae59adeb2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      }
+    }
+  }
+}

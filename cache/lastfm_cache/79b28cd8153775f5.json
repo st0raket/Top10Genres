@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:43:43.789483+00:00",
+  "elapsed": 0.210152,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:43.789483+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1205",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:44 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Matheus+Fernandes&format=json&method=track.getInfo&track=Baby+Me+Atende"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Matheus+Fernandes&format=json&method=track.getInfo&track=Baby+Me+Atende",
+  "_decoded_content": {
+    "track": {
+      "name": "Baby Me Atende",
+      "url": "https:\/\/www.last.fm\/music\/Matheus+Fernandes\/_\/Baby+Me+Atende",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "74466",
+      "playcount": "579960",
+      "artist": {
+        "name": "Matheus Fernandes",
+        "url": "https:\/\/www.last.fm\/music\/Matheus+Fernandes"
+      },
+      "album": {
+        "artist": "Matheus Fernandes \/ Dilsinho",
+        "title": "Baby Me Atende",
+        "url": "https:\/\/www.last.fm\/music\/Matheus+Fernandes+%2F+Dilsinho\/Baby+Me+Atende",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/80f44db75f4679a8cb7a7204a1fd4873.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/80f44db75f4679a8cb7a7204a1fd4873.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/80f44db75f4679a8cb7a7204a1fd4873.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/80f44db75f4679a8cb7a7204a1fd4873.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "brazil",
+            "url": "https:\/\/www.last.fm\/tag\/brazil"
+          },
+          {
+            "name": "brasil",
+            "url": "https:\/\/www.last.fm\/tag\/brasil"
+          },
+          {
+            "name": "brazilian",
+            "url": "https:\/\/www.last.fm\/tag\/brazilian"
+          },
+          {
+            "name": "Forro",
+            "url": "https:\/\/www.last.fm\/tag\/Forro"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      }
+    }
+  }
+}

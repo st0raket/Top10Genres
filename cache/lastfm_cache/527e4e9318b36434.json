@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:31:29.983129+00:00",
+  "elapsed": 0.196254,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:29.983129+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3207",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PnB+Rock&format=json&method=track.getInfo&track=MIDDLE+CHILD"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=PnB+Rock&format=json&method=track.getInfo&track=MIDDLE+CHILD",
+  "_decoded_content": {
+    "track": {
+      "name": "MIDDLE CHILD",
+      "url": "https:\/\/www.last.fm\/music\/PNB+Rock\/_\/MIDDLE+CHILD",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "133782",
+      "playcount": "1131172",
+      "artist": {
+        "name": "PNB Rock",
+        "url": "https:\/\/www.last.fm\/music\/PNB+Rock"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "cloud rap",
+            "url": "https:\/\/www.last.fm\/tag\/cloud+rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "east coast hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/east+coast+hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Sep 2023, 19:46",
+        "summary": "\"Middle Child\" (stylized in all caps) is a song by American rappers PnB Rock and XXXTentacion, released from the former's second studio album TrapStar Turnt PopStar on May 3, 2019. It was produced by DatKidChris.\n\nPnB Rock told Apple Music about his collaboration with XXXTentacion: \"He really surprised me with 'MIDDLE CHILD,' because I wasn't even expecting to do that type of song with him. I was thinking I was gonna go one route, talking about how I came up, talking about how I got kicked out my mama's house. <a href=\"http:\/\/www.last.fm\/music\/PNB+Rock\/_\/MIDDLE+CHILD\">Read more on Last.fm<\/a>.",
+        "content": "\"Middle Child\" (stylized in all caps) is a song by American rappers PnB Rock and XXXTentacion, released from the former's second studio album TrapStar Turnt PopStar on May 3, 2019. It was produced by DatKidChris.\n\nPnB Rock told Apple Music about his collaboration with XXXTentacion: \"He really surprised me with 'MIDDLE CHILD,' because I wasn't even expecting to do that type of song with him. I was thinking I was gonna go one route, talking about how I came up, talking about how I got kicked out my mama's house. But he came on it and just started swagging on it. I'm like, nah, I gotta match that energy. I can't be so serious when he just having fun with this.\n\nThe song finds PnB Rock and XXXTentacion trading \"melodious bars\" over a \"distinctly trap soundscape\". In the chorus, Rock reflects on his difficult childhood life, being the middle child of his family, and his legal trouble as a teenager. XXX boasts about having lots of money.\n\nThe official music video was released on August 8, 2019. Directed by Derek Pike, it depicts child versions of PnB Rock and XXXTentacion. They hang out on a porch while watching action on the street, and connect a smoothie with chips, cream and a toy car, which they call \"trap juice\".[4][5] They sell it for $5 a cup in their front yard.[4][6] The drink becomes a financial success and soon the rappers have bought new chains with their profits.[4] At the end of the video, PnB Rock cross his arms in an \"X\" symbol, as a tribute to the late XXXTentacion.[4][6]\n\nAccording to PnB Rock, he wanted the visual to be \"fun and light-hearted\" and remind him of the times he spent with XXXTentacion. He also received approval from X's mother Cleopatra Bernard to release the video. <a href=\"http:\/\/www.last.fm\/music\/PNB+Rock\/_\/MIDDLE+CHILD\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

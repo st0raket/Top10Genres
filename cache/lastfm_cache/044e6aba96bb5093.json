@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:07.034480+00:00",
+  "elapsed": 0.191838,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:07.034480+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2188",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=Backlight"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=Backlight",
+  "_decoded_content": {
+    "track": {
+      "name": "Backlight",
+      "url": "https:\/\/www.last.fm\/music\/Ado\/_\/Backlight",
+      "duration": "237000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "105134",
+      "playcount": "1418900",
+      "artist": {
+        "name": "Ado",
+        "mbid": "ca195d97-30d9-4870-8a52-7fd3c2e175c3",
+        "url": "https:\/\/www.last.fm\/music\/Ado"
+      },
+      "album": {
+        "artist": "Ado",
+        "title": "UTA'S SONGS ONE PIECE FILM RED",
+        "url": "https:\/\/www.last.fm\/music\/Ado\/UTA%27S+SONGS+ONE+PIECE+FILM+RED",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1c654e336fdd2f5ed54fe409a3f554bc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "J-rock",
+            "url": "https:\/\/www.last.fm\/tag\/J-rock"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "anime ost",
+            "url": "https:\/\/www.last.fm\/tag\/anime+ost"
+          },
+          {
+            "name": "one piece",
+            "url": "https:\/\/www.last.fm\/tag\/one+piece"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jan 2023, 23:04",
+        "summary": "\u9006\u5149 (Backlight) is a song by Ado, with Vaundy being the producer and writer where they worked together to create the third song for the One Piece: Film Red film as well as Ado's second album. \n\nIn contrast to the previous two songs in both the film and album, this song approaches more of a Rock + Aggressive\/Angry style of music. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/Backlight\">Read more on Last.fm<\/a>.",
+        "content": "\u9006\u5149 (Backlight) is a song by Ado, with Vaundy being the producer and writer where they worked together to create the third song for the One Piece: Film Red film as well as Ado's second album. \n\nIn contrast to the previous two songs in both the film and album, this song approaches more of a Rock + Aggressive\/Angry style of music. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/Backlight\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:35:39.710479+00:00",
+  "elapsed": 0.180504,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:39.710479+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1745",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=%E8%B8%8A"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ado&format=json&method=track.getInfo&track=%E8%B8%8A",
+  "_decoded_content": {
+    "track": {
+      "name": "\u8e0a",
+      "url": "https:\/\/www.last.fm\/music\/Ado\/_\/%E8%B8%8A",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "87208",
+      "playcount": "1423391",
+      "artist": {
+        "name": "Ado",
+        "mbid": "ca195d97-30d9-4870-8a52-7fd3c2e175c3",
+        "url": "https:\/\/www.last.fm\/music\/Ado"
+      },
+      "album": {
+        "artist": "Ado",
+        "title": "\u72c2\u8a00",
+        "url": "https:\/\/www.last.fm\/music\/Ado\/%E7%8B%82%E8%A8%80",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/5599b193d8f9365337909a6c33eeb5e7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/5599b193d8f9365337909a6c33eeb5e7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/5599b193d8f9365337909a6c33eeb5e7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/5599b193d8f9365337909a6c33eeb5e7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "vocal",
+            "url": "https:\/\/www.last.fm\/tag\/vocal"
+          },
+          {
+            "name": "Energetic",
+            "url": "https:\/\/www.last.fm\/tag\/Energetic"
+          },
+          {
+            "name": "dramatic",
+            "url": "https:\/\/www.last.fm\/tag\/dramatic"
+          },
+          {
+            "name": "Playful",
+            "url": "https:\/\/www.last.fm\/tag\/Playful"
+          },
+          {
+            "name": "powerful",
+            "url": "https:\/\/www.last.fm\/tag\/powerful"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Jan 2023, 22:04",
+        "summary": "\u8e0a (Odo) is the fifth digital single by Ado. It was released on April 27, 2021.\n\nIt was also later included Ado's album, Kyougen. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/%E8%B8%8A\">Read more on Last.fm<\/a>.",
+        "content": "\u8e0a (Odo) is the fifth digital single by Ado. It was released on April 27, 2021.\n\nIt was also later included Ado's album, Kyougen. <a href=\"http:\/\/www.last.fm\/music\/Ado\/_\/%E8%B8%8A\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

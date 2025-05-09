@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:09.859662+00:00",
+  "elapsed": 0.214915,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:09.859662+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2752",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:10 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Halsey&format=json&method=track.getInfo&track=Graveyard"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Halsey&format=json&method=track.getInfo&track=Graveyard",
+  "_decoded_content": {
+    "track": {
+      "name": "Graveyard",
+      "url": "https:\/\/www.last.fm\/music\/Halsey\/_\/Graveyard",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "364265",
+      "playcount": "4070734",
+      "artist": {
+        "name": "Halsey",
+        "url": "https:\/\/www.last.fm\/music\/Halsey"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music! Vol. 73",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music%21+Vol.+73",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8d5a82de4881fa8e068b18eb7bbfd30b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8d5a82de4881fa8e068b18eb7bbfd30b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8d5a82de4881fa8e068b18eb7bbfd30b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8d5a82de4881fa8e068b18eb7bbfd30b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "indie",
+            "url": "https:\/\/www.last.fm\/tag\/indie"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jan 2022, 07:42",
+        "summary": "\"Graveyard\" is a song by American singer Halsey. It was released on September 13, 2019 through Capitol Records as the second single from her third studio album \"Manic\". It reached the Top 40 in fifteen countries worldwide and is certified Gold or higher in the United States, Canada, and Australia.\n\nLeading up to the track\u2019s release, Halsey live-streamed herself painting the cover art for Manic, which was made available for pre-order in conjunction with the release of \u201cGraveyard.\u201d <a href=\"http:\/\/www.last.fm\/music\/Halsey\/_\/Graveyard\">Read more on Last.fm<\/a>.",
+        "content": "\"Graveyard\" is a song by American singer Halsey. It was released on September 13, 2019 through Capitol Records as the second single from her third studio album \"Manic\". It reached the Top 40 in fifteen countries worldwide and is certified Gold or higher in the United States, Canada, and Australia.\n\nLeading up to the track\u2019s release, Halsey live-streamed herself painting the cover art for Manic, which was made available for pre-order in conjunction with the release of \u201cGraveyard.\u201d\n\nOn September 27, 2019, a vertical video for \u201cGraveyard\u201d was made available to Spotify. Almost a month after the song\u2019s release, Halsey posted a music video for \u201cGraveyard,\u201d featuring Euphoria actress Sydney Sweeney. <a href=\"http:\/\/www.last.fm\/music\/Halsey\/_\/Graveyard\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

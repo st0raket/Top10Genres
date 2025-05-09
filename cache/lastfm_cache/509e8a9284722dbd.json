@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:38:45.727709+00:00",
+  "elapsed": 1.439107,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:45.727709+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "839",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Damso&format=json&method=track.getInfo&track=Coeur+De+Pirate"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Damso&format=json&method=track.getInfo&track=Coeur+De+Pirate",
+  "_decoded_content": {
+    "track": {
+      "name": "Coeur De Pirate",
+      "url": "https:\/\/www.last.fm\/music\/Damso\/_\/Coeur+De+Pirate",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "16736",
+      "playcount": "200322",
+      "artist": {
+        "name": "Damso",
+        "url": "https:\/\/www.last.fm\/music\/Damso"
+      },
+      "album": {
+        "artist": "Damso",
+        "title": "Coeur De Pirate",
+        "url": "https:\/\/www.last.fm\/music\/Damso\/Coeur+De+Pirate",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1756cd206bd5d7fa2b7ffaffdcb105eb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1756cd206bd5d7fa2b7ffaffdcb105eb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1756cd206bd5d7fa2b7ffaffdcb105eb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1756cd206bd5d7fa2b7ffaffdcb105eb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

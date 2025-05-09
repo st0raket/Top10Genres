@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:33:28.881564+00:00",
+  "elapsed": 0.184412,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:28.881564+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1157",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kehlani&format=json&method=track.getInfo&track=Toxic"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kehlani&format=json&method=track.getInfo&track=Toxic",
+  "_decoded_content": {
+    "track": {
+      "name": "Toxic",
+      "url": "https:\/\/www.last.fm\/music\/Kehlani\/_\/Toxic",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "252932",
+      "playcount": "2338338",
+      "artist": {
+        "name": "Kehlani",
+        "url": "https:\/\/www.last.fm\/music\/Kehlani"
+      },
+      "album": {
+        "artist": "Kehlani",
+        "title": "It Was Good Until It Wasn't",
+        "url": "https:\/\/www.last.fm\/music\/Kehlani\/It+Was+Good+Until+It+Wasn%27t",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/298e8710b78cbf421272c695ac480253.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/298e8710b78cbf421272c695ac480253.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/298e8710b78cbf421272c695ac480253.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/298e8710b78cbf421272c695ac480253.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Neo-Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Neo-Soul"
+          },
+          {
+            "name": "Late Night Drive",
+            "url": "https:\/\/www.last.fm\/tag\/Late+Night+Drive"
+          }
+        ]
+      }
+    }
+  }
+}

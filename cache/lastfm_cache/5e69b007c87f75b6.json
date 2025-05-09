@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:52.511574+00:00",
+  "elapsed": 0.208364,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:52.511574+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2532",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Go+Hard"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Go+Hard",
+  "_decoded_content": {
+    "track": {
+      "name": "Go Hard",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Go+Hard",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "101763",
+      "playcount": "1338701",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "Fighting Demons",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/Fighting+Demons",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ae421a7b9525f1263d3568c5cf1e83c6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Juice WRLD",
+            "url": "https:\/\/www.last.fm\/tag\/Juice+WRLD"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "fuck",
+            "url": "https:\/\/www.last.fm\/tag\/fuck"
+          },
+          {
+            "name": "mid",
+            "url": "https:\/\/www.last.fm\/tag\/mid"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jul 2021, 20:01",
+        "summary": "On \u201cGo Hard,\u201d Juice WRLD shows his dedication to his significant other, alongside the usual references to the benefits of his position as an artist.\n\nThe track was first previewed on May 28, 2021 through Lil Bibby\u2019s Instagram in a now-deleted post. The track later made an official release through Fighting Demons on December 10, 2021.\n\nThe version released on Fighting Demons lacks Juice\u2019s second verse. While the song was stated to feature Philadelphia rapper Lil Uzi Vert <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Go+Hard\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cGo Hard,\u201d Juice WRLD shows his dedication to his significant other, alongside the usual references to the benefits of his position as an artist.\n\nThe track was first previewed on May 28, 2021 through Lil Bibby\u2019s Instagram in a now-deleted post. The track later made an official release through Fighting Demons on December 10, 2021.\n\nThe version released on Fighting Demons lacks Juice\u2019s second verse. While the song was stated to feature Philadelphia rapper Lil Uzi Vert, according to Peter Jideonwo, Juice\u2019s former manager, Uzi does not make an appearance either. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Go+Hard\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

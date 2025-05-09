@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:31:47.164397+00:00",
+  "elapsed": 0.186812,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:47.164397+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2963",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:47 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Balvin&format=json&method=track.getInfo&track=LA+CANCI%C3%93N"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=J+Balvin&format=json&method=track.getInfo&track=LA+CANCI%C3%93N",
+  "_decoded_content": {
+    "track": {
+      "name": "LA CANCI\u00d3N",
+      "url": "https:\/\/www.last.fm\/music\/J+Balvin\/_\/LA+CANCI%C3%93N",
+      "duration": "242000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "413284",
+      "playcount": "5205926",
+      "artist": {
+        "name": "J Balvin",
+        "mbid": "5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+        "url": "https:\/\/www.last.fm\/music\/J+Balvin"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Solo \u00c9xitos en Espa\u00f1ol",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Solo+%C3%89xitos+en+Espa%C3%B1ol",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a985b486d2583f1a68619aacf415099d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a985b486d2583f1a68619aacf415099d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a985b486d2583f1a68619aacf415099d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a985b486d2583f1a68619aacf415099d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 May 2022, 17:23",
+        "summary": "\"LA CANCI\u00d3N\" is a song by Colombian singer J Balvin and Puerto Rican rapper Bad Bunny. The song was released on 2 August 2019 as the second single from their collaborative album \"Oasis\". It reached number one in Mexico and on the US Latin Songs chart.\n\nLike the rest of the songs of \"Oasis\", \"LA CANCI\u00d3N\" managed to chart on the Billboard Hot Latin Songs chart, debuting at number 10. The song managed to top the Hot Latin Songs chart on the week of November 30 <a href=\"http:\/\/www.last.fm\/music\/J+Balvin\/_\/LA+CANCI%C3%93N\">Read more on Last.fm<\/a>.",
+        "content": "\"LA CANCI\u00d3N\" is a song by Colombian singer J Balvin and Puerto Rican rapper Bad Bunny. The song was released on 2 August 2019 as the second single from their collaborative album \"Oasis\". It reached number one in Mexico and on the US Latin Songs chart.\n\nLike the rest of the songs of \"Oasis\", \"LA CANCI\u00d3N\" managed to chart on the Billboard Hot Latin Songs chart, debuting at number 10. The song managed to top the Hot Latin Songs chart on the week of November 30, 2019, earning J Balvin and Bad Bunny their seventh and third number one singles on that chart, respectively. The song is the second single from \"Oasis\" to chart on the Billboard Hot 100, entering the chart at number 98 and later peaking at number 84.\n\nThe music video was released on 14 October 2019 and was directed by Colin Tilley. It was filmed within a club and its plot revolves around the disparity that occurs when a relationship ends. <a href=\"http:\/\/www.last.fm\/music\/J+Balvin\/_\/LA+CANCI%C3%93N\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "created_at": "2025-05-03T14:28:20.903307+00:00",
+  "elapsed": 0.213449,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:20.903307+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2145",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:21 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Miracles"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Miracles",
+  "_decoded_content": {
+    "track": {
+      "name": "Miracles",
+      "mbid": "874cd1ed-2b4a-4204-aa75-84f32ca4ceea",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Miracles",
+      "duration": "278000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "65694",
+      "playcount": "356613",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "album": {
+        "artist": "Alexandre Desplat",
+        "title": "Unbroken (Original Motion Picture Soundtrack)",
+        "url": "https:\/\/www.last.fm\/music\/Alexandre+Desplat\/Unbroken+(Original+Motion+Picture+Soundtrack)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/01cb445bf31243e8c3332801c8a4a3cb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/01cb445bf31243e8c3332801c8a4a3cb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/01cb445bf31243e8c3332801c8a4a3cb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/01cb445bf31243e8c3332801c8a4a3cb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "british",
+            "url": "https:\/\/www.last.fm\/tag\/british"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "2014",
+            "url": "https:\/\/www.last.fm\/tag\/2014"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Dec 2014, 15:45",
+        "summary": "\u201cMiracles\u201d was unveiled Debember 11 and is part of the \u201cUnbroken Original Motion Picture Soundtrack\u201d. Unbroken is a movie about the life of Louis Zamperini, an Olympic runner who was taken prisoner by Japanese forces during World War II.  <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Miracles\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMiracles\u201d was unveiled Debember 11 and is part of the \u201cUnbroken Original Motion Picture Soundtrack\u201d. Unbroken is a movie about the life of Louis Zamperini, an Olympic runner who was taken prisoner by Japanese forces during World War II.  <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Miracles\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

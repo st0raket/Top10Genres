@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:33:56.804313+00:00",
+  "elapsed": 0.189409,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:56.804313+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2778",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:57 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=mirrorball"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=mirrorball",
+  "_decoded_content": {
+    "track": {
+      "name": "mIRrORbaLl",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/mIRrORbaLl",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "834171",
+      "playcount": "22782140",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "overrated",
+            "url": "https:\/\/www.last.fm\/tag\/overrated"
+          },
+          {
+            "name": "indie folk",
+            "url": "https:\/\/www.last.fm\/tag\/indie+folk"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Aug 2020, 18:07",
+        "summary": "On \u201cmirrorball,\u201d the sixth track off of Taylor Swift\u2019s  eighth studio album folklore, she compares herself to a reflective disco ball: she sees herself as reflecting all the personalities around her, she entertains others, and she shatters like glass when her heart is broken.\n\nSwift discussed this song in folklore: the long pond studio sessions:\n\n\u201cIn folklore, there are a lot of songs that reference each other, or lyrical parallels, and one <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/mIRrORbaLl\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cmirrorball,\u201d the sixth track off of Taylor Swift\u2019s  eighth studio album folklore, she compares herself to a reflective disco ball: she sees herself as reflecting all the personalities around her, she entertains others, and she shatters like glass when her heart is broken.\n\nSwift discussed this song in folklore: the long pond studio sessions:\n\n\u201cIn folklore, there are a lot of songs that reference each other, or lyrical parallels, and one of the ones I like is the entire song \u2018this is me trying\u2019 then being referenced again in \u2018mirrorball.\u2019 [\u2026] It also is the first time, and one of the only times, that the time that we\u2019re living through is actually lyrically addressed. I think that, you know, the pandemic and lockdown, and all that, runs through this album like a thread because it\u2019s an album that allows you to feel your feelings, and it\u2019s a product of isolation. [\u2026] This is the first time, in the bridge saying, \u2018they called off the circus, burned the disco down. When they sent home the horses and the rodeo clowns.\u2019 I wrote this song right after I found out all my [Lover] shows were canceled. So it\u2019s like I realize, here I am writing all this music, still trying.\u201c\n\n\u201cmirrorball\u201d debuted at #26 on the Billboard Hot 100 during the chart week of August 8, 2020. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/mIRrORbaLl\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

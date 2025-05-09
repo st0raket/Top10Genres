@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:27.652418+00:00",
+  "elapsed": 0.204821,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:27.652418+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2217",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:27 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Love+Me+More"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Trippie+Redd&format=json&method=track.getInfo&track=Love+Me+More",
+  "_decoded_content": {
+    "track": {
+      "name": "Love me more",
+      "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Love+me+more",
+      "duration": "143000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "155436",
+      "playcount": "1598523",
+      "artist": {
+        "name": "Trippie Redd",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd"
+      },
+      "album": {
+        "artist": "Trippie Redd",
+        "title": "Love Me More",
+        "url": "https:\/\/www.last.fm\/music\/Trippie+Redd\/Love+Me+More",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4558f0b9875c756f1623eb460b3aedf8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4558f0b9875c756f1623eb460b3aedf8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4558f0b9875c756f1623eb460b3aedf8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4558f0b9875c756f1623eb460b3aedf8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "emo rap",
+            "url": "https:\/\/www.last.fm\/tag\/emo+rap"
+          },
+          {
+            "name": "trippie redd",
+            "url": "https:\/\/www.last.fm\/tag\/trippie+redd"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 May 2021, 22:45",
+        "summary": "\u201cLove Me More\u201d is the lead single off of Trippie Redd\u2019s A Love Letter to You 4 mixtape. The song details a relationship that Trippie is unsatisfied with, where he wishes his partner would love and appreciate him more.\n\nThe song initially was supposed to appear on Taz Taylor\u2019s Internet Money mixtape but he gave the song back to Trippie. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Love+me+more\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLove Me More\u201d is the lead single off of Trippie Redd\u2019s A Love Letter to You 4 mixtape. The song details a relationship that Trippie is unsatisfied with, where he wishes his partner would love and appreciate him more.\n\nThe song initially was supposed to appear on Taz Taylor\u2019s Internet Money mixtape but he gave the song back to Trippie. <a href=\"http:\/\/www.last.fm\/music\/Trippie+Redd\/_\/Love+me+more\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

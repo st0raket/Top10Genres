@@ -1,0 +1,84 @@
+{
+  "created_at": "2025-05-03T14:30:32.033619+00:00",
+  "elapsed": 0.20834,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:32.033619+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2288",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:32 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=WORKIN+ME"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Quavo&format=json&method=track.getInfo&track=WORKIN+ME",
+  "_decoded_content": {
+    "track": {
+      "name": "Workin Me",
+      "url": "https:\/\/www.last.fm\/music\/Quavo\/_\/Workin+Me",
+      "duration": "169000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "99275",
+      "playcount": "608511",
+      "artist": {
+        "name": "Quavo",
+        "url": "https:\/\/www.last.fm\/music\/Quavo"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Best Of The 10s: Hip Hop",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Best+Of+The+10s:+Hip+Hop",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/46b72ef7a84bd7908e02d16106eb2e4b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/46b72ef7a84bd7908e02d16106eb2e4b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/46b72ef7a84bd7908e02d16106eb2e4b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/46b72ef7a84bd7908e02d16106eb2e4b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 21:36",
+        "summary": "On \u201cWORKIN ME,\u201d Quavo raps about his woman\u2019s ability to seduce and entice him. He also brags about his lavish lifestyle and makes numerous references to sports and pop culture. The song is produced by Murda Beatz and Sool Got Hits.\n\n\u201cWORKIN ME\u201d is one of three singles Quavo released on August 10, 2018, alongside \u201cLAMB TALK\u201d and \u201cBUBBLE GUM.\u201d All of these singles were released two days before the kickoff of the \u201cAubrey & The Three Migos Tour,\u201d Drake and Migos\u2018 co-headlining stadium tour. <a href=\"http:\/\/www.last.fm\/music\/Quavo\/_\/Workin+Me\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cWORKIN ME,\u201d Quavo raps about his woman\u2019s ability to seduce and entice him. He also brags about his lavish lifestyle and makes numerous references to sports and pop culture. The song is produced by Murda Beatz and Sool Got Hits.\n\n\u201cWORKIN ME\u201d is one of three singles Quavo released on August 10, 2018, alongside \u201cLAMB TALK\u201d and \u201cBUBBLE GUM.\u201d All of these singles were released two days before the kickoff of the \u201cAubrey & The Three Migos Tour,\u201d Drake and Migos\u2018 co-headlining stadium tour. <a href=\"http:\/\/www.last.fm\/music\/Quavo\/_\/Workin+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:36:20.256809+00:00",
+  "elapsed": 0.218464,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:20.256809+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1321",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YOASOBI&format=json&method=track.getInfo&track=%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=YOASOBI&format=json&method=track.getInfo&track=%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB",
+  "_decoded_content": {
+    "track": {
+      "name": "\u5927\u6b63\u6d6a\u6f2b",
+      "url": "https:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "5100",
+      "playcount": "48009",
+      "artist": {
+        "name": "yoasobi",
+        "url": "https:\/\/www.last.fm\/music\/yoasobi"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "29 Oct 2021, 16:06",
+        "summary": "\u5927\u6b63\u6d6a\u6f2b (Taish\u014d Roman, alternatively titled \"Taish\u014d Romance\" or \"Romance\") is a song recorded by Japanese duo YOASOBI. It was released as a stand-alone digital single on September 15, 2021, through Sony Music Entertainment Japan. Written by Ayase, the song was based on Natsumi's novel Taish\u014d Romance. <a href=\"http:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB\">Read more on Last.fm<\/a>.",
+        "content": "\u5927\u6b63\u6d6a\u6f2b (Taish\u014d Roman, alternatively titled \"Taish\u014d Romance\" or \"Romance\") is a song recorded by Japanese duo YOASOBI. It was released as a stand-alone digital single on September 15, 2021, through Sony Music Entertainment Japan. Written by Ayase, the song was based on Natsumi's novel Taish\u014d Romance. <a href=\"http:\/\/www.last.fm\/music\/yoasobi\/_\/%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

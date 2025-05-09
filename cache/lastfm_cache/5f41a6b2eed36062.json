@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:30:29.449100+00:00",
+  "elapsed": 0.19538,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:29.449100+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "346",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:29 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marc+Anthony&format=json&method=track.getInfo&track=Est%C3%A1+Rico"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marc+Anthony&format=json&method=track.getInfo&track=Est%C3%A1+Rico",
+  "_decoded_content": {
+    "track": {
+      "name": "Est\u00e1 Rico",
+      "url": "https:\/\/www.last.fm\/music\/Marc+Anthony\/_\/Est%C3%A1+Rico",
+      "duration": "215000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "47337",
+      "playcount": "239520",
+      "artist": {
+        "name": "Marc Anthony",
+        "mbid": "25607613-aceb-445a-8519-83a2ee0f8402",
+        "url": "https:\/\/www.last.fm\/music\/Marc+Anthony"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

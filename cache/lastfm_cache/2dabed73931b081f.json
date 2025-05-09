@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-05-03T14:28:58.446879+00:00",
+  "elapsed": 0.321191,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:58.446879+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "677",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=You%E2%80%99re+the+Best+Thing+About+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=U2&format=json&method=track.getInfo&track=You%E2%80%99re+the+Best+Thing+About+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "You\u2019re The Best Thing About Me",
+      "url": "https:\/\/www.last.fm\/music\/U2\/_\/You%E2%80%99re+The+Best+Thing+About+Me",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "79145",
+      "playcount": "378578",
+      "artist": {
+        "name": "U2",
+        "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+        "url": "https:\/\/www.last.fm\/music\/U2"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "irish",
+            "url": "https:\/\/www.last.fm\/tag\/irish"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          }
+        ]
+      }
+    }
+  }
+}

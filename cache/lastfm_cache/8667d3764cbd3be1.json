@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:52.392515+00:00",
+  "elapsed": 0.212261,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:52.392515+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1915",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:52 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sigrid&format=json&method=track.getInfo&track=Strangers"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Sigrid&format=json&method=track.getInfo&track=Strangers",
+  "_decoded_content": {
+    "track": {
+      "name": "Strangers",
+      "url": "https:\/\/www.last.fm\/music\/Sigrid\/_\/Strangers",
+      "duration": "233000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "179819",
+      "playcount": "2017678",
+      "artist": {
+        "name": "Sigrid",
+        "mbid": "de84d945-a1bd-4716-9f0e-fa7b870e6a2d",
+        "url": "https:\/\/www.last.fm\/music\/Sigrid"
+      },
+      "album": {
+        "artist": "Sigrid",
+        "title": "Strangers",
+        "url": "https:\/\/www.last.fm\/music\/Sigrid\/Strangers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c0bbc1cb95f1b30b07664d6d510b4d80.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c0bbc1cb95f1b30b07664d6d510b4d80.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c0bbc1cb95f1b30b07664d6d510b4d80.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c0bbc1cb95f1b30b07664d6d510b4d80.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "norwegian",
+            "url": "https:\/\/www.last.fm\/tag\/norwegian"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Nov 2017, 16:17",
+        "summary": "Sigrid Solbakk Raabe (born 5 September 1996), known professionally as simply Sigrid, is a Norwegian singer and songwriter. In 2017, she achieved international success with the single \"Don't Kill My Vibe\". <a href=\"http:\/\/www.last.fm\/music\/Sigrid\/_\/Strangers\">Read more on Last.fm<\/a>.",
+        "content": "Sigrid Solbakk Raabe (born 5 September 1996), known professionally as simply Sigrid, is a Norwegian singer and songwriter. In 2017, she achieved international success with the single \"Don't Kill My Vibe\". <a href=\"http:\/\/www.last.fm\/music\/Sigrid\/_\/Strangers\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

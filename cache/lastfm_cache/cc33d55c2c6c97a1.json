@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:39:58.420812+00:00",
+  "elapsed": 0.185378,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:58.420812+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2636",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Troye+Sivan&format=json&method=track.getInfo&track=Got+Me+Started"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Troye+Sivan&format=json&method=track.getInfo&track=Got+Me+Started",
+  "_decoded_content": {
+    "track": {
+      "name": "Got Me Started",
+      "url": "https:\/\/www.last.fm\/music\/Troye+Sivan\/_\/Got+Me+Started",
+      "duration": "198000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "449821",
+      "playcount": "6682801",
+      "artist": {
+        "name": "Troye Sivan",
+        "mbid": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
+        "url": "https:\/\/www.last.fm\/music\/Troye+Sivan"
+      },
+      "album": {
+        "artist": "Troye Sivan",
+        "title": "Got Me Started",
+        "url": "https:\/\/www.last.fm\/music\/Troye+Sivan\/Got+Me+Started",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9b8f959540aa911ba7f57782108964a9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9b8f959540aa911ba7f57782108964a9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9b8f959540aa911ba7f57782108964a9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9b8f959540aa911ba7f57782108964a9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "australian",
+            "url": "https:\/\/www.last.fm\/tag\/australian"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Oct 2023, 17:28",
+        "summary": "\"Got Me Started\" is the sophomore single from Troye Sivan's third studio album, Something to Give Each Other. Most notably the track samples \"Shooting Stars\" by the Bag Raiders, which was made popular in 2017 by being featured in meme videos of people flying through space. In a TikTok, Bag Raiders stated that Sivan is the first artist they let sample their hit.\n\nIt's about \u201cremembering who you are and that people are hot\u201d after \u201cfeeling emotionally dead after a traumatic relational experience\u201d.\n- Troye Sivan on TikTok <a href=\"http:\/\/www.last.fm\/music\/Troye+Sivan\/_\/Got+Me+Started\">Read more on Last.fm<\/a>.",
+        "content": "\"Got Me Started\" is the sophomore single from Troye Sivan's third studio album, Something to Give Each Other. Most notably the track samples \"Shooting Stars\" by the Bag Raiders, which was made popular in 2017 by being featured in meme videos of people flying through space. In a TikTok, Bag Raiders stated that Sivan is the first artist they let sample their hit.\n\nIt's about \u201cremembering who you are and that people are hot\u201d after \u201cfeeling emotionally dead after a traumatic relational experience\u201d.\n- Troye Sivan on TikTok <a href=\"http:\/\/www.last.fm\/music\/Troye+Sivan\/_\/Got+Me+Started\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

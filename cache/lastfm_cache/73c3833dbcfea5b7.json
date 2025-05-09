@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:43:36.144875+00:00",
+  "elapsed": 0.242144,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:36.144875+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "639",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Amy+Grant&format=json&method=track.getInfo&track=White+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Amy+Grant&format=json&method=track.getInfo&track=White+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "White Christmas",
+      "url": "https:\/\/www.last.fm\/music\/Amy+Grant\/_\/White+Christmas",
+      "duration": "143000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1530",
+      "playcount": "3289",
+      "artist": {
+        "name": "Amy Grant",
+        "mbid": "3cd18a93-1797-4bbb-9b8a-c096d5e7864c",
+        "url": "https:\/\/www.last.fm\/music\/Amy+Grant"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Opu\u0161taju\u0107a Prazni\u010dna Muzika",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Opu%C5%A1taju%C4%87a+Prazni%C4%8Dna+Muzika",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

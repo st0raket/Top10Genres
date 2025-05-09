@@ -1,0 +1,95 @@
+{
+  "created_at": "2025-05-03T14:37:24.862117+00:00",
+  "elapsed": 0.241762,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:24.862117+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1123",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+DREAM&format=json&method=track.getInfo&track=Arcade"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+DREAM&format=json&method=track.getInfo&track=Arcade",
+  "_decoded_content": {
+    "track": {
+      "name": "Arcade",
+      "url": "https:\/\/www.last.fm\/music\/NCT+DREAM\/_\/Arcade",
+      "duration": "207000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "58809",
+      "playcount": "873048",
+      "artist": {
+        "name": "NCT DREAM",
+        "url": "https:\/\/www.last.fm\/music\/NCT+DREAM"
+      },
+      "album": {
+        "artist": "NCT DREAM",
+        "title": "Glitch Mode",
+        "url": "https:\/\/www.last.fm\/music\/NCT+DREAM\/Glitch+Mode",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9813c461250dbce413f09e5a69df17e7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9813c461250dbce413f09e5a69df17e7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9813c461250dbce413f09e5a69df17e7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9813c461250dbce413f09e5a69df17e7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dem jointz",
+            "url": "https:\/\/www.last.fm\/tag\/dem+jointz"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          }
+        ]
+      }
+    }
+  }
+}

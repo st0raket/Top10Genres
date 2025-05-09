@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:03.216574+00:00",
+  "elapsed": 0.201863,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:03.216574+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2990",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:03 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Childish+Gambino&format=json&method=track.getInfo&track=Feels+Like+Summer"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Childish+Gambino&format=json&method=track.getInfo&track=Feels+Like+Summer",
+  "_decoded_content": {
+    "track": {
+      "name": "Feels Like Summer",
+      "url": "https:\/\/www.last.fm\/music\/Childish+Gambino\/_\/Feels+Like+Summer",
+      "duration": "297000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "652412",
+      "playcount": "6017030",
+      "artist": {
+        "name": "Childish Gambino",
+        "mbid": "7fb57fba-a6ef-44c2-abab-2fa3bdee607e",
+        "url": "https:\/\/www.last.fm\/music\/Childish+Gambino"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "R&B Summer Mix",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/R&B+Summer+Mix",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/18952a2b8ae47862d6ea73db66d1d8cf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/18952a2b8ae47862d6ea73db66d1d8cf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/18952a2b8ae47862d6ea73db66d1d8cf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/18952a2b8ae47862d6ea73db66d1d8cf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Smooth Soul",
+            "url": "https:\/\/www.last.fm\/tag\/Smooth+Soul"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          },
+          {
+            "name": "contemporary rnb",
+            "url": "https:\/\/www.last.fm\/tag\/contemporary+rnb"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Mar 2022, 02:49",
+        "summary": "\u201cFeels Like Summer,\u201d later released as \u201c42.26,\u201d is the tenth track on Gambino\u2019s fourth studio album \"3.15.20\".\n\nBino first released the track, alongside \u201cSummertime Magic,\u201d on the morning of July 11, 2018: in the middle of the summer. Fittingly, the tracks were released to streaming services under the title Summer Pack. This had been the first new music from Gambino after his colossal hit \u201cThis is America.\u201d\n\nWith this song, Gambino covers various issues facing our world today <a href=\"http:\/\/www.last.fm\/music\/Childish+Gambino\/_\/Feels+Like+Summer\">Read more on Last.fm<\/a>.",
+        "content": "\u201cFeels Like Summer,\u201d later released as \u201c42.26,\u201d is the tenth track on Gambino\u2019s fourth studio album \"3.15.20\".\n\nBino first released the track, alongside \u201cSummertime Magic,\u201d on the morning of July 11, 2018: in the middle of the summer. Fittingly, the tracks were released to streaming services under the title Summer Pack. This had been the first new music from Gambino after his colossal hit \u201cThis is America.\u201d\n\nWith this song, Gambino covers various issues facing our world today, including the growing world population, artificial intelligence, climate change, water scarcity, air pollution, Colony collapse disorder (the dying of bees), and deforestation.\n\nThe music video dropped on September 1st. It features an animated Gambino walking down a street packed with notable rappers and celebrities in animated cameos. <a href=\"http:\/\/www.last.fm\/music\/Childish+Gambino\/_\/Feels+Like+Summer\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

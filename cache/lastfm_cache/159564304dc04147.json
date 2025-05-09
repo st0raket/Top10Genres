@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:51.710638+00:00",
+  "elapsed": 0.253128,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:51.710638+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2932",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luis+Fonsi&format=json&method=track.getInfo&track=%C3%89chame+La+Culpa"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Luis+Fonsi&format=json&method=track.getInfo&track=%C3%89chame+La+Culpa",
+  "_decoded_content": {
+    "track": {
+      "name": "\u00c9chame La Culpa",
+      "url": "https:\/\/www.last.fm\/music\/Luis+Fonsi\/_\/%C3%89chame+La+Culpa",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "268495",
+      "playcount": "1886443",
+      "artist": {
+        "name": "Luis Fonsi",
+        "mbid": "d68fda90-ab8d-4799-be56-317ba4ae700f",
+        "url": "https:\/\/www.last.fm\/music\/Luis+Fonsi"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Kuduro Fiesta",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Kuduro+Fiesta",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/26b1174b36538ae10479e11885a08570.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/26b1174b36538ae10479e11885a08570.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/26b1174b36538ae10479e11885a08570.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/26b1174b36538ae10479e11885a08570.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Reggaeton",
+            "url": "https:\/\/www.last.fm\/tag\/Reggaeton"
+          },
+          {
+            "name": "Demi Lovato",
+            "url": "https:\/\/www.last.fm\/tag\/Demi+Lovato"
+          },
+          {
+            "name": "luis fonsi",
+            "url": "https:\/\/www.last.fm\/tag\/luis+fonsi"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Apr 2018, 18:58",
+        "summary": "\"\u00c9chame la Culpa\" (English: \"Put the Blame on Me\") is a song recorded by Puerto Rican singer and songwriter Luis Fonsi and American singer and songwriter Demi Lovato. Fonsi co-wrote the song with Alejandro Rengifo and its producers Andr\u00e9s Torres and Mauricio Rengifo. The song was first released through Universal Music Latin Entertainment, Republic Records and Island Records on November 17, 2017. On March 2, 2018, an English remix of the song titled \"Not on You\" was released. <a href=\"http:\/\/www.last.fm\/music\/Luis+Fonsi\/_\/%C3%89chame+La+Culpa\">Read more on Last.fm<\/a>.",
+        "content": "\"\u00c9chame la Culpa\" (English: \"Put the Blame on Me\") is a song recorded by Puerto Rican singer and songwriter Luis Fonsi and American singer and songwriter Demi Lovato. Fonsi co-wrote the song with Alejandro Rengifo and its producers Andr\u00e9s Torres and Mauricio Rengifo. The song was first released through Universal Music Latin Entertainment, Republic Records and Island Records on November 17, 2017. On March 2, 2018, an English remix of the song titled \"Not on You\" was released.\n\nThe song has reached number one in Austria, Lebanon, Slovenia and Spain as well as the top ten in Belgium, Germany, Hungary, Italy, Poland, Portugal, Slovakia, Sweden and Switzerland, the top twenty in Croatia, France, Greece, Latvia, the Netherlands and Norway, and the top thirty in Scotland. It also reached number 46 in the UK and 47 on the Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Luis+Fonsi\/_\/%C3%89chame+La+Culpa\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

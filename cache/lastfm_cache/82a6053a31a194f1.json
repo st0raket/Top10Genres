@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:37:11.137589+00:00",
+  "elapsed": 0.190058,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:11.137589+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "6665",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=The+Real+Slim+Shady"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=The+Real+Slim+Shady",
+  "_decoded_content": {
+    "track": {
+      "name": "The Real Slim Shady",
+      "mbid": "684ca01c-9775-42fe-9cdb-28fa37c27851",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/The+Real+Slim+Shady",
+      "duration": "284000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1893448",
+      "playcount": "14481299",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "The Marshall Mathers LP",
+        "mbid": "51544aed-52a1-42b9-aff0-9237ac3dd564",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/The+Marshall+Mathers+LP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ff3e66b5f1d4158b14bfdd36413f3719.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "8"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "Eminem",
+            "url": "https:\/\/www.last.fm\/tag\/Eminem"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "00s",
+            "url": "https:\/\/www.last.fm\/tag\/00s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Feb 2018, 21:42",
+        "summary": "\"The Real Slim Shady\" is a song by American rapper Eminem from his third album, The Marshall Mathers LP. It was released as the lead single a month before the album's release.\n\n\"The Real Slim Shady\" was Eminem's first song to reach number one in the United Kingdom and it also peaked at number four on the Billboard Hot 100, giving him his biggest hit up to that point. The song was the 14th best-selling of 2000 in the United Kingdom. It won multiple awards <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/The+Real+Slim+Shady\">Read more on Last.fm<\/a>.",
+        "content": "\"The Real Slim Shady\" is a song by American rapper Eminem from his third album, The Marshall Mathers LP. It was released as the lead single a month before the album's release.\n\n\"The Real Slim Shady\" was Eminem's first song to reach number one in the United Kingdom and it also peaked at number four on the Billboard Hot 100, giving him his biggest hit up to that point. The song was the 14th best-selling of 2000 in the United Kingdom. It won multiple awards, including MTV Video Music Awards for Best Video and Best Male Video, as well as a Grammy Award for Best Rap Solo Performance. In October 2011, NME placed it at number 80 on its list \"150 Best Tracks of the Past 15 Years\". It was listed at number 396 on NME's 500 greatest songs of all time.\n\n\"The Real Slim Shady\" was not originally intended to be part of The Marshall Mathers LP. Interscope Records' Jimmy Iovine wanted Eminem to have a song to introduce the album, similar to the way \"My Name Is\" was the first single on The Slim Shady LP. Eminem, Dr. Dre, Tommy Coster and Mike Elizondo wrote \"The Real Slim Shady\" just hours before the final copy of the album was due. The first single was intended to be \"Who Knew.\"\n\nThe song is a critique of manufactured pop songs that were popular at the time. It was a hit single, becoming Eminem's first chart topper in some countries, and garnering much attention for insulting various celebrities, including:\n\nActress Pamela Anderson's alleged abuse at the hands of her ex-husband, rocker Tommy Lee (Jaws all on the floor, like Pam, like Tommy just burst in the door, and started whooping her ass worse than before, they first were divorced, throwing her over furniture)\n\nEminem claims in one line to have murdered Dr. Dre, and that he's locked him in his basement. This was a spin on one of his previous songs, \"My Name Is\", where Eminem says, \"And Dr. Dre said...\" then Dre comes on and says, \"Slim Shady, you're a basehead.\" (And Dr. Dre said\u2014nothing, you idiots\/Dr. Dre's dead, he's locked in my basement.) Comedian Tom Green's humping of a deceased moose on TV, and his song \"Lonely Swedish\". (Sometimes, I wanna get on TV and just let loose, but can't\/but it's cool for Tom Green to hump a dead moose.) Rapper Will Smith's brand of commercialized and clean rap music and his VMA acceptance speech where he boasted that he didn't need to curse or kill anybody on his records (Will Smith don't gotta cuss in his raps to sell records\/well, I do. So fuck him, and fuck you too.) Eminem first dissed Smith in the music video for Dr. Dre's \"Forgot About Dre\" when a news reporter asked him questions about the fire he and Dre started and he responded, \"Well I was just upstairs listening to my Will Smith CD\" in replacement to the middle of Eminem's verse due to the explicit lyrics. Eminem mentions Britney Spears (You think I give a damn about a Grammy?\/Half of you critics can't even stomach me, let alone stand me\/\"But Slim, what if you win, wouldn't it be weird?\"\/Why? So you guys could just lie to get me here?\/So you can sit me here, next to Britney Spears?)\n\nChristina Aguilera was angered by his claim that she performed oral sex on Fred Durst of the band Limp Bizkit and on Carson Daly, an MTV VJ. (Shit, Christina Aguilera, better switch me chairs\/so I can sit next to Carson Daly and Fred Durst\/and hear 'em argue over who she gave head to first.) He also makes fun of the boy band NSYNC when he appears to dance in the video with the \"group\". (I'm sick of you, little girl and boy groups, all you do is annoy me\/so I have been sent here to destroy you.). However, Chris Kirkpatrick was unhappy with this, so he called Eminem a \"bully\", and Eminem attacked him with the song \"Without Me\". He references the Bloodhound Gang's song \"The Bad Touch\" (They've got the Discovery Channel, don't they\/We ain\u2019t nothin' but mammals). \n\nThe chorus is about the sudden fashion changes caused by Eminem's success: \"I'm Slim Shady, yes I'm the real Shady\/All you other Slim Shadys are just imitating\/So won't The Real Slim Shady please stand up, please stand up, please stand up?\" The chorus imitates the catchphrase of the quiz show To Tell the Truth: \"Will the real ______ please stand up?\" In an interview while promoting his greatest hits album, \"Curtain Call\", Eminem remarked that the sound of the chorus was intended to recreate that of a chainsaw going off. The sudden jump and increase in tempo as well as pitch recreates the motor of a chainsaw coming to life. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/The+Real+Slim+Shady\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

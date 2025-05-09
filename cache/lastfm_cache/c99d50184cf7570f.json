@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:35:39.035284+00:00",
+  "elapsed": 0.241918,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:39.035284+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1512",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Levanter"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Stray+Kids&format=json&method=track.getInfo&track=Levanter",
+  "_decoded_content": {
+    "track": {
+      "name": "Levanter",
+      "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Levanter",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "114953",
+      "playcount": "2197677",
+      "artist": {
+        "name": "STRAY KIDS",
+        "url": "https:\/\/www.last.fm\/music\/STRAY+KIDS"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "stray kids",
+            "url": "https:\/\/www.last.fm\/tag\/stray+kids"
+          },
+          {
+            "name": "seungmin",
+            "url": "https:\/\/www.last.fm\/tag\/seungmin"
+          },
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Jan 2021, 04:42",
+        "summary": "\"Levanter\" is the sixth track off Stray Kids' mini-album Cl\u00e9: Levanter. This song about reclaiming your identity and finding happiness by letting go. It mentions individuality frequently, and places an emphasis on self-expression and taking your own path rather than blindly following others. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Levanter\">Read more on Last.fm<\/a>.",
+        "content": "\"Levanter\" is the sixth track off Stray Kids' mini-album Cl\u00e9: Levanter. This song about reclaiming your identity and finding happiness by letting go. It mentions individuality frequently, and places an emphasis on self-expression and taking your own path rather than blindly following others. <a href=\"http:\/\/www.last.fm\/music\/STRAY+KIDS\/_\/Levanter\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

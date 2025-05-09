@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:33.675522+00:00",
+  "elapsed": 0.179632,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:33.675522+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2176",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:34 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+DREAM&format=json&method=track.getInfo&track=Broken+Melodies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NCT+DREAM&format=json&method=track.getInfo&track=Broken+Melodies",
+  "_decoded_content": {
+    "track": {
+      "name": "Broken Melodies",
+      "url": "https:\/\/www.last.fm\/music\/NCT+DREAM\/_\/Broken+Melodies",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "115429",
+      "playcount": "2436264",
+      "artist": {
+        "name": "NCT DREAM",
+        "url": "https:\/\/www.last.fm\/music\/NCT+DREAM"
+      },
+      "album": {
+        "artist": "NCT DREAM",
+        "title": "Broken Melodies",
+        "url": "https:\/\/www.last.fm\/music\/NCT+DREAM\/Broken+Melodies",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/c2cbb73ff90bff851e9f2658fa945344.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/c2cbb73ff90bff851e9f2658fa945344.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/c2cbb73ff90bff851e9f2658fa945344.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/c2cbb73ff90bff851e9f2658fa945344.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "NCT",
+            "url": "https:\/\/www.last.fm\/tag\/NCT"
+          },
+          {
+            "name": "nct dream",
+            "url": "https:\/\/www.last.fm\/tag\/nct+dream"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "19 Jun 2023, 08:58",
+        "summary": "\"Broken Melodies\" is a song recorded by South Korean boy group NCT DREAM. It was released on June 19, 2023 as the lead single of their third studio album, ISTJ. The track was written by Bang Hye-yeon, Park Tae-won, Anne Judith Wik and Sevn Dayz, composed by Ronny Svendsen, Adrian Thesen, Wik and Dayz & arranged by Svendsen and Pizzapunk. <a href=\"http:\/\/www.last.fm\/music\/NCT+DREAM\/_\/Broken+Melodies\">Read more on Last.fm<\/a>.",
+        "content": "\"Broken Melodies\" is a song recorded by South Korean boy group NCT DREAM. It was released on June 19, 2023 as the lead single of their third studio album, ISTJ. The track was written by Bang Hye-yeon, Park Tae-won, Anne Judith Wik and Sevn Dayz, composed by Ronny Svendsen, Adrian Thesen, Wik and Dayz & arranged by Svendsen and Pizzapunk. <a href=\"http:\/\/www.last.fm\/music\/NCT+DREAM\/_\/Broken+Melodies\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

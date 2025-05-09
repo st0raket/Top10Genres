@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:36.954039+00:00",
+  "elapsed": 0.217718,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:36.954039+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2948",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:37 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Future+Nostalgia"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Future+Nostalgia",
+  "_decoded_content": {
+    "track": {
+      "name": "Future Nostalgia",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Future+Nostalgia",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "481858",
+      "playcount": "6372658",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Future Nostalgia (\u00e9dition fran\u00e7aise)",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Future+Nostalgia+(%C3%A9dition+fran%C3%A7aise)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3a17fd230993c5ec5a8e3e2ecbfb19d5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3a17fd230993c5ec5a8e3e2ecbfb19d5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3a17fd230993c5ec5a8e3e2ecbfb19d5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3a17fd230993c5ec5a8e3e2ecbfb19d5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "funktronica",
+            "url": "https:\/\/www.last.fm\/tag\/funktronica"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "nu-disco",
+            "url": "https:\/\/www.last.fm\/tag\/nu-disco"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Dec 2019, 09:44",
+        "summary": "The futuristic-esque title track and first promotional single released off of Dua Lipa's sophomore album, Future Nostalgia, as it's opening track. was first teased by the British singer-songwriter on her interview with Heart Breakfast back in November of 2019:\n\n- \"When I announce my album title, which will be early December, I\u2019m gonna put out the album title track and like a little a video.\"\n\nIn the empowering feminist anthem, Lipa can be heard <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Future+Nostalgia\">Read more on Last.fm<\/a>.",
+        "content": "The futuristic-esque title track and first promotional single released off of Dua Lipa's sophomore album, Future Nostalgia, as it's opening track. was first teased by the British singer-songwriter on her interview with Heart Breakfast back in November of 2019:\n\n- \"When I announce my album title, which will be early December, I\u2019m gonna put out the album title track and like a little a video.\"\n\nIn the empowering feminist anthem, Lipa can be heard singing about how confident she feels while proudly referring to herself as a strong and optimistic \"female alpha.\"\n\nHours before its official US release, Dua took to social media to announce the song. Compared to other tracks, \u201cFuture Nostalgia\u201d has a more experimental sound. The artist herself described it as \u201cplayful and fun and not [\u2026] too serious.\u201d\n\nWas written by Lipa, Jeff Bhasker & Clarence Coffee Jr., and co-produced by Bhasker & Skylar Mones. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Future+Nostalgia\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:57.821694+00:00",
+  "elapsed": 0.190824,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:57.821694+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4169",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zara+Larsson&format=json&method=track.getInfo&track=Lush+Life"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zara+Larsson&format=json&method=track.getInfo&track=Lush+Life",
+  "_decoded_content": {
+    "track": {
+      "name": "Lush Life",
+      "url": "https:\/\/www.last.fm\/music\/Zara+Larsson\/_\/Lush+Life",
+      "duration": "202000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "903397",
+      "playcount": "7677453",
+      "artist": {
+        "name": "Zara Larsson",
+        "mbid": "134e6410-6954-45d1-bd4a-0f2d2ad5471d",
+        "url": "https:\/\/www.last.fm\/music\/Zara+Larsson"
+      },
+      "album": {
+        "artist": "Zara Larsson",
+        "title": "Lush Life",
+        "url": "https:\/\/www.last.fm\/music\/Zara+Larsson\/Lush+Life",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/164dc5b7d0ff1e042751667ac0143709.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/164dc5b7d0ff1e042751667ac0143709.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/164dc5b7d0ff1e042751667ac0143709.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/164dc5b7d0ff1e042751667ac0143709.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "swedish",
+            "url": "https:\/\/www.last.fm\/tag\/swedish"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Jan 2016, 21:50",
+        "summary": "\"Lush Life\" is a song by Swedish singer Zara Larsson. The song was released as the lead single from her second and international debut studio album \"So Good\" on June 5, 2015 in Sweden, and June 9, 2015 worldwide. A remix featuring Tinie Tempah was released on 26 February 2016.\n\nOn 27 August 2021, in celebration of the song surpassing 1 billion streams on Spotify, Larsson revealed that the released version of \"Lush Life\" was originally a remix, and released the original version under the name \"Retro Version\". <a href=\"http:\/\/www.last.fm\/music\/Zara+Larsson\/_\/Lush+Life\">Read more on Last.fm<\/a>.",
+        "content": "\"Lush Life\" is a song by Swedish singer Zara Larsson. The song was released as the lead single from her second and international debut studio album \"So Good\" on June 5, 2015 in Sweden, and June 9, 2015 worldwide. A remix featuring Tinie Tempah was released on 26 February 2016.\n\nOn 27 August 2021, in celebration of the song surpassing 1 billion streams on Spotify, Larsson revealed that the released version of \"Lush Life\" was originally a remix, and released the original version under the name \"Retro Version\".\n\n\"Lush Life\" topped the charts in Sweden for five weeks, becoming Larsson's second number\u2013one single in her home country, also topping the charts in Mexico and Poland. It also peaked at number two in Denmark, Ireland (where it spent 17 consecutive weeks in the top ten), and Norway, number three in the Netherlands, Switzerland and the United Kingdom (after an 11-week climb), number four in Germany, Austria and Australia, and number six in Finland. The song debuted at number 97 on the Billboard Hot 100 in July 2016 after previously peaking at number two on the Bubbling Under Hot 100 chart, where it spent 27 weeks. \"Lush Life\" has been streamed over 1 billion times on Spotify.\n\nThere are three videos for \"Lush Life\". The first was directed by M\u00e5ns Nyman, who had previously directed the video for \"Bad Boys\", for the song's original release in Sweden. The first version shows Larsson dancing in front of a white background, along with scenes of her reclining while wearing sunglasses and dialing a telephone.\n\nThe second version is a recut version of the first with coloring and visual effects added, which was released to international markets. The international version of the video has received over 700 million views on YouTube so far.\n\nThe third video was made for the US release of \"Lush Life\" and released on 5 July 2016. It was directed by Mary Clert\u00e9. The video shows Larsson dancing in pastel-hued sets. Some sequences feature backup dancers and a love interest played by 2018 Love Island contestant Eyal Booker. <a href=\"http:\/\/www.last.fm\/music\/Zara+Larsson\/_\/Lush+Life\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

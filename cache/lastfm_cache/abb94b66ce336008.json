@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:43.083408+00:00",
+  "elapsed": 0.213463,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:43.083408+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3086",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Nobody+Gets+Me"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SZA&format=json&method=track.getInfo&track=Nobody+Gets+Me",
+  "_decoded_content": {
+    "track": {
+      "name": "Nobody Gets Me",
+      "url": "https:\/\/www.last.fm\/music\/SZA\/_\/Nobody+Gets+Me",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "924082",
+      "playcount": "14833203",
+      "artist": {
+        "name": "SZA",
+        "mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+        "url": "https:\/\/www.last.fm\/music\/SZA"
+      },
+      "album": {
+        "artist": "SZA",
+        "title": "SOS",
+        "url": "https:\/\/www.last.fm\/music\/SZA\/SOS",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b2cfb5bdf137f4d6293565205965750f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https:\/\/www.last.fm\/tag\/country"
+          },
+          {
+            "name": "folk",
+            "url": "https:\/\/www.last.fm\/tag\/folk"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "sad",
+            "url": "https:\/\/www.last.fm\/tag\/sad"
+          },
+          {
+            "name": "acoustic",
+            "url": "https:\/\/www.last.fm\/tag\/acoustic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Dec 2022, 03:42",
+        "summary": "\u201cNobody Gets Me\u201d works as a promotional single for SZA\u2019s sophomore album, SOS. She teased the song uploading a 30-second snippet of it four days before the project was out and a music video was released the same day as the album on December 9, 2022.\n\nIt\u2019s a break-up ballad encapsulating her feelings through the last moments of her relationship with her ex-fianc\u00e9, who was the only person at the time that she feels truly understood her, she tells HOT 97. <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Nobody+Gets+Me\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNobody Gets Me\u201d works as a promotional single for SZA\u2019s sophomore album, SOS. She teased the song uploading a 30-second snippet of it four days before the project was out and a music video was released the same day as the album on December 9, 2022.\n\nIt\u2019s a break-up ballad encapsulating her feelings through the last moments of her relationship with her ex-fianc\u00e9, who was the only person at the time that she feels truly understood her, she tells HOT 97.\n\n\u201cThis particular song in entirety is a story about my ex-fianc\u00e9 and how we went through all these arguments, and we broke up. And when we first broke up it was like terible, and I just felt like I was gonna be doomed to be in hell for the rest of my life because nobody understood me the way he did, and like nobody motivated me the way he did. And he was just, you know, this rock in my life that just no longer exists. And it\u2019s just, like, it was insane. The stories that I tell in that song about our arguments, our specific arguments, like that\u2019s kinda the\u2013. That\u2019s the theme on that. I feel like a lot of people don\u2019t understand me but it\u2019s okay.\u201c <a href=\"http:\/\/www.last.fm\/music\/SZA\/_\/Nobody+Gets+Me\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

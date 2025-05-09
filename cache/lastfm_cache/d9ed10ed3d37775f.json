@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:29:12.050557+00:00",
+  "elapsed": 0.242441,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:12.050557+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1326",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hugh+Jackman&format=json&method=track.getInfo&track=The+Other+Side"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Hugh+Jackman&format=json&method=track.getInfo&track=The+Other+Side",
+  "_decoded_content": {
+    "track": {
+      "name": "The Other Side",
+      "url": "https:\/\/www.last.fm\/music\/Hugh+Jackman\/_\/The+Other+Side",
+      "duration": "214000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "249014",
+      "playcount": "2095581",
+      "artist": {
+        "name": "Hugh Jackman",
+        "mbid": "7f378f19-4686-41aa-b83e-3df359ae1578",
+        "url": "https:\/\/www.last.fm\/music\/Hugh+Jackman"
+      },
+      "album": {
+        "artist": "Hugh Jackman",
+        "title": "The Greatest Showman (Original Motion Picture Soundtrack)",
+        "url": "https:\/\/www.last.fm\/music\/Hugh+Jackman\/The+Greatest+Showman+(Original+Motion+Picture+Soundtrack)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fbf1ebcd60c60bbdebc798b52f1ef3bb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fbf1ebcd60c60bbdebc798b52f1ef3bb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fbf1ebcd60c60bbdebc798b52f1ef3bb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fbf1ebcd60c60bbdebc798b52f1ef3bb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hugh jackman",
+            "url": "https:\/\/www.last.fm\/tag\/hugh+jackman"
+          },
+          {
+            "name": "zac efron",
+            "url": "https:\/\/www.last.fm\/tag\/zac+efron"
+          },
+          {
+            "name": "2017",
+            "url": "https:\/\/www.last.fm\/tag\/2017"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          },
+          {
+            "name": "the greatest showman",
+            "url": "https:\/\/www.last.fm\/tag\/the+greatest+showman"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:39:35.807311+00:00",
+  "elapsed": 0.180582,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:35.807311+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3833",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:36 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=I%27m+Still+Standing"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elton+John&format=json&method=track.getInfo&track=I%27m+Still+Standing",
+  "_decoded_content": {
+    "track": {
+      "name": "I'm Still Standing",
+      "mbid": "50d83ff0-6ffd-4a92-b353-c104bbb45b9e",
+      "url": "https:\/\/www.last.fm\/music\/Elton+John\/_\/I%27m+Still+Standing",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1369524",
+      "playcount": "11101050",
+      "artist": {
+        "name": "Elton John",
+        "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John"
+      },
+      "album": {
+        "artist": "Elton John",
+        "title": "Too Low For Zero",
+        "mbid": "894cfb04-1c9b-4836-ab6c-66a91c2f7345",
+        "url": "https:\/\/www.last.fm\/music\/Elton+John\/Too+Low+For+Zero",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/43917765445075915f6fcca0e824b823.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/43917765445075915f6fcca0e824b823.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/43917765445075915f6fcca0e824b823.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/43917765445075915f6fcca0e824b823.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "80s",
+            "url": "https:\/\/www.last.fm\/tag\/80s"
+          },
+          {
+            "name": "elton john",
+            "url": "https:\/\/www.last.fm\/tag\/elton+john"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 Dec 2009, 17:35",
+        "summary": "\u201cI'm Still Standing\u201c is a song written by English musician Elton John and songwriter Bernie Taupin, from John's 1983 studio album, Too Low for Zero. It was the second single released from the album in the UK, and the first single released in the United States.\n\nHelped by a video promoting the song on MTV, \"I'm Still Standing\" became a big hit for John on both sides of the Atlantic, peaking at No. 1 in Canada and Switzerland, No. 4 in the UK and No. 12 on the US Billboard Hot 100. <a href=\"http:\/\/www.last.fm\/music\/Elton+John\/_\/I%27m+Still+Standing\">Read more on Last.fm<\/a>.",
+        "content": "\u201cI'm Still Standing\u201c is a song written by English musician Elton John and songwriter Bernie Taupin, from John's 1983 studio album, Too Low for Zero. It was the second single released from the album in the UK, and the first single released in the United States.\n\nHelped by a video promoting the song on MTV, \"I'm Still Standing\" became a big hit for John on both sides of the Atlantic, peaking at No. 1 in Canada and Switzerland, No. 4 in the UK and No. 12 on the US Billboard Hot 100.\n\nAlthough \"I'm Still Standing\" is often seen as a statement of John's resilience, Taupin wrote the lyrics with a specific person in mind.\n\n\u201cIt's perhaps one more example of the original idea being interpreted by everyone into something quite different. I think people see it as an anthem based on Elton's strong sense of survival in the face of adversity. Which, believe me, is perfectly fine by me. In fact, it's probably infinitely more interesting, perhaps, than what it was initially written about. Which, if my memory serves me correctly, it was a sort of kiss off to an old girlfriend. You know the sort of thing, 'Don't you worry about me, I'll be perfectly fine.' Unlike George Jones' 'She Thinks I Still Care,' where, in fact, he really did, I really didn't.\u201c\n\nThe music video, directed by Russell Mulcahy, was shot in Cannes and Nice on the C\u00f4te d'Azur in France. It also features the colours of the Flag of France. Arlene Phillips, who choreographed the video, said her work on the video is one of the proudest moments in her entire career (via the Channel 5 pop-documentary, Britain's Favourite 80s Songs, on 25 December 2021). <a href=\"http:\/\/www.last.fm\/music\/Elton+John\/_\/I%27m+Still+Standing\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

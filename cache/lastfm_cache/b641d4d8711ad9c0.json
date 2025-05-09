@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:54.505681+00:00",
+  "elapsed": 0.209263,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:54.505681+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3297",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=DDU-DU+DDU-DU"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=BLACKPINK&format=json&method=track.getInfo&track=DDU-DU+DDU-DU",
+  "_decoded_content": {
+    "track": {
+      "name": "DDU-DU DDU-DU",
+      "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/_\/DDU-DU+DDU-DU",
+      "duration": "227000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "621674",
+      "playcount": "10896925",
+      "artist": {
+        "name": "BLACKPINK",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK"
+      },
+      "album": {
+        "artist": "BLACKPINK",
+        "title": "BLACKPINK IN YOUR AREA",
+        "url": "https:\/\/www.last.fm\/music\/BLACKPINK\/BLACKPINK+IN+YOUR+AREA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cb31d13d768cc8c0a8a39d3130742535.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cb31d13d768cc8c0a8a39d3130742535.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cb31d13d768cc8c0a8a39d3130742535.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cb31d13d768cc8c0a8a39d3130742535.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "blackpink",
+            "url": "https:\/\/www.last.fm\/tag\/blackpink"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jun 2018, 04:15",
+        "summary": "\"DDU-DU DDU-DU\" (\ub69c\ub450\ub69c\ub450) is BLACKPINK's lead single from the group's first extended play SQUARE UP, released on June 15, 2018. It was written and produced by Teddy Park, together with 24, Bekuh Boom and R.Tee.\n\nThe single was a commercial success in South Korea, peaking atop the Gaon Digital Chart for three consecutive weeks. Its accompanying music video was released on the same day and became the most viewed online video, and second most watched music video of all time within 24 hours at the time of its release. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/DDU-DU+DDU-DU\">Read more on Last.fm<\/a>.",
+        "content": "\"DDU-DU DDU-DU\" (\ub69c\ub450\ub69c\ub450) is BLACKPINK's lead single from the group's first extended play SQUARE UP, released on June 15, 2018. It was written and produced by Teddy Park, together with 24, Bekuh Boom and R.Tee.\n\nThe single was a commercial success in South Korea, peaking atop the Gaon Digital Chart for three consecutive weeks. Its accompanying music video was released on the same day and became the most viewed online video, and second most watched music video of all time within 24 hours at the time of its release. It has since become the first and fastest music video by a korean group to reach 1 billion views, and it is currently the most-viewed music video by a K-pop group on YouTube.\nDDU-DU DDU-DU was the highest-charting hit ever by a K-pop girl group on the Billboard Hot 100, charting at #55, arriving with 12.4 million U.S. streams and 7,000 downloads sold in the tracking week ending June 21, according to Nielsen Music, also prompting its No. 39 entrance on the Streaming Songs tally, where BLACKPINK becomes the first K-pop girl group to chart a title. It was surpassed by their single Ice Cream featuring artist Selena Gomez, which charted at #13.\n\nThe song featured in the fourth episode of season three of Freeform series The Bold Type. <a href=\"http:\/\/www.last.fm\/music\/BLACKPINK\/_\/DDU-DU+DDU-DU\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

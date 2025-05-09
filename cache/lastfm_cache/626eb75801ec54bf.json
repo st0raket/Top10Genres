@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:33:14.145473+00:00",
+  "elapsed": 1.590488,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:14.145473+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2868",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Scared+To+Live"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Scared+To+Live",
+  "_decoded_content": {
+    "track": {
+      "name": "Scared to Live",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Scared+to+Live",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "481702",
+      "playcount": "4853336",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "After Hours (Super Deluxe)",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/After+Hours+(Super+Deluxe)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/68530167078d95555092131f17f9d01b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/68530167078d95555092131f17f9d01b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/68530167078d95555092131f17f9d01b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/68530167078d95555092131f17f9d01b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "adult contemporary",
+            "url": "https:\/\/www.last.fm\/tag\/adult+contemporary"
+          },
+          {
+            "name": "The Weeknd",
+            "url": "https:\/\/www.last.fm\/tag\/The+Weeknd"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "power pop",
+            "url": "https:\/\/www.last.fm\/tag\/power+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Jan 2022, 05:21",
+        "summary": "\u201cScared To Live\u201d is a song by The Weeknd which first premiered on Saturday Night Live on March 8, 2020. The ballad details how a tragic breakup left his lover doubting love.\n\nWhile the song\u2019s title was seemingly confirmed by XO CEO Wassim \u201cSal\u201d Slaiby on his socials as \u201cScared To Live Again,\u201d SNL confirmed the title as \u201cScared To Live.\u201d\n\nThe singer-songwriter wrote and produced the song with its producers Max Martin and Oscar Holter <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Scared+to+Live\">Read more on Last.fm<\/a>.",
+        "content": "\u201cScared To Live\u201d is a song by The Weeknd which first premiered on Saturday Night Live on March 8, 2020. The ballad details how a tragic breakup left his lover doubting love.\n\nWhile the song\u2019s title was seemingly confirmed by XO CEO Wassim \u201cSal\u201d Slaiby on his socials as \u201cScared To Live Again,\u201d SNL confirmed the title as \u201cScared To Live.\u201d\n\nThe singer-songwriter wrote and produced the song with its producers Max Martin and Oscar Holter, with Belly, Oneohtrix Point Never, Elton John, and Bernard Taupin receiving additional writing credits as well, with the latter two being credited due to the track's interpolation of \"Your Song\" by Elton John. The SNL version of the song was officially released alongside the deluxe edition of its parent album on March 23, 2020. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Scared+to+Live\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

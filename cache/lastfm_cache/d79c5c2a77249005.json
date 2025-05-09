@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:32:25.481161+00:00",
+  "elapsed": 0.208531,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:25.481161+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "876",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:25 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ARASHI&format=json&method=track.getInfo&track=Turning+Up"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ARASHI&format=json&method=track.getInfo&track=Turning+Up",
+  "_decoded_content": {
+    "track": {
+      "name": "Turning Up",
+      "url": "https:\/\/www.last.fm\/music\/Arashi\/_\/Turning+Up",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4234",
+      "playcount": "33999",
+      "artist": {
+        "name": "Arashi",
+        "mbid": "1008b912-cbb1-4e4c-bd4d-b9adf6937e8e",
+        "url": "https:\/\/www.last.fm\/music\/Arashi"
+      },
+      "album": {
+        "artist": "Arashi",
+        "title": "This Is Arashi",
+        "url": "https:\/\/www.last.fm\/music\/Arashi\/This+Is+Arashi",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ecc793364c628b9d994fbbee319235cd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ecc793364c628b9d994fbbee319235cd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ecc793364c628b9d994fbbee319235cd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ecc793364c628b9d994fbbee319235cd.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

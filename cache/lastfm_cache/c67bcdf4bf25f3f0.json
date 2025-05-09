@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:12.201857+00:00",
+  "elapsed": 0.234621,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:12.201857+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2086",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=blazed"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=blazed",
+  "_decoded_content": {
+    "track": {
+      "name": "blazed",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/blazed",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "10822",
+      "playcount": "118884",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "album": {
+        "artist": "Ariana Grande",
+        "title": "Sweetener",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/Sweetener",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/cd8c5ce4dad43c822c00dec987d295ca.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/cd8c5ce4dad43c822c00dec987d295ca.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/cd8c5ce4dad43c822c00dec987d295ca.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/cd8c5ce4dad43c822c00dec987d295ca.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jan 2020, 06:31",
+        "summary": "In \u201cBlazed,\u201d Ariana Grande lightly sings over a feisty instrumental produced by Pharrell Williams. Ariana confirmed the title and guest artist of the song via Twitter. In her interview with Beats 1, she said the song is about \"Loving someone and being with them.\" <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/blazed\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cBlazed,\u201d Ariana Grande lightly sings over a feisty instrumental produced by Pharrell Williams. Ariana confirmed the title and guest artist of the song via Twitter. In her interview with Beats 1, she said the song is about \"Loving someone and being with them.\" <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/blazed\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

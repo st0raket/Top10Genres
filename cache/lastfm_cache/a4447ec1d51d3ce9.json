@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:27:59.603915+00:00",
+  "elapsed": 0.360748,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:27:59.603915+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1559",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:27:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Adventure+of+a+Lifetime"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Coldplay&format=json&method=track.getInfo&track=Adventure+of+a+Lifetime",
+  "_decoded_content": {
+    "track": {
+      "name": "Adventure Of A Lifetime",
+      "url": "https:\/\/www.last.fm\/music\/Coldplay\/_\/Adventure+Of+A+Lifetime",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1003569",
+      "playcount": "8829864",
+      "artist": {
+        "name": "Coldplay",
+        "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "url": "https:\/\/www.last.fm\/music\/Coldplay"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          },
+          {
+            "name": "Disco",
+            "url": "https:\/\/www.last.fm\/tag\/Disco"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 Nov 2015, 13:43",
+        "summary": "\"Adventure of a Lifetime\" is the first single to be released from Coldplay\u2019s 7th studio album, \"A Head Full of Dreams\" (album released on December 4, 2015). The track is the 5th song on the album and it had its global on-air premiere on BBC Radio 2 on November 6, 2015. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Adventure+Of+A+Lifetime\">Read more on Last.fm<\/a>.",
+        "content": "\"Adventure of a Lifetime\" is the first single to be released from Coldplay\u2019s 7th studio album, \"A Head Full of Dreams\" (album released on December 4, 2015). The track is the 5th song on the album and it had its global on-air premiere on BBC Radio 2 on November 6, 2015. <a href=\"http:\/\/www.last.fm\/music\/Coldplay\/_\/Adventure+Of+A+Lifetime\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

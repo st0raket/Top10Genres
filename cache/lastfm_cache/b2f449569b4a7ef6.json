@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:36:18.964815+00:00",
+  "elapsed": 0.192429,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:18.964815+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1939",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=DEAD+RIGHT+NOW"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Lil+Nas+X&format=json&method=track.getInfo&track=DEAD+RIGHT+NOW",
+  "_decoded_content": {
+    "track": {
+      "name": "Dead Right Now",
+      "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Dead+Right+Now",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "265519",
+      "playcount": "2044147",
+      "artist": {
+        "name": "Lil Nas X",
+        "url": "https:\/\/www.last.fm\/music\/Lil+Nas+X"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "gay",
+            "url": "https:\/\/www.last.fm\/tag\/gay"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Mar 2022, 01:32",
+        "summary": "In the second track on his debut studio album, \u201cDEAD RIGHT NOW\u201d, Lil Nas X recounts the numerous fake interactions he has had during his rise to stardom. He presents various scenarios, like one where he only receives responses to texts due to his newfound fame. He even calls these detractors out on a personal level, revealing that they were not present during his struggles with suicide, only appearing once they could grovel for a slice of his success. But in the end, to X, they are \u201cDead Right Now.\u201d <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Dead+Right+Now\">Read more on Last.fm<\/a>.",
+        "content": "In the second track on his debut studio album, \u201cDEAD RIGHT NOW\u201d, Lil Nas X recounts the numerous fake interactions he has had during his rise to stardom. He presents various scenarios, like one where he only receives responses to texts due to his newfound fame. He even calls these detractors out on a personal level, revealing that they were not present during his struggles with suicide, only appearing once they could grovel for a slice of his success. But in the end, to X, they are \u201cDead Right Now.\u201d <a href=\"http:\/\/www.last.fm\/music\/Lil+Nas+X\/_\/Dead+Right+Now\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

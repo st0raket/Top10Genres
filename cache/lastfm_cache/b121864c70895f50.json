@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:34:45.837996+00:00",
+  "elapsed": 0.239419,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:45.837996+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "857",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jul&format=json&method=track.getInfo&track=La+passat"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Jul&format=json&method=track.getInfo&track=La+passat",
+  "_decoded_content": {
+    "track": {
+      "name": "La passat",
+      "url": "https:\/\/www.last.fm\/music\/Jul\/_\/La+passat",
+      "duration": "236000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3975",
+      "playcount": "28692",
+      "artist": {
+        "name": "Jul",
+        "mbid": "8e6c44df-06fc-4852-83d0-ef0efed6630a",
+        "url": "https:\/\/www.last.fm\/music\/Jul"
+      },
+      "album": {
+        "artist": "Jul",
+        "title": "Loin du Monde",
+        "url": "https:\/\/www.last.fm\/music\/Jul\/Loin+du+Monde",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7d865e790262926a0141be145932e355.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7d865e790262926a0141be145932e355.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7d865e790262926a0141be145932e355.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7d865e790262926a0141be145932e355.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

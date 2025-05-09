@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:15.913693+00:00",
+  "elapsed": 0.204085,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:15.913693+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2160",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marina+Satti&format=json&method=track.getInfo&track=ZARI"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Marina+Satti&format=json&method=track.getInfo&track=ZARI",
+  "_decoded_content": {
+    "track": {
+      "name": "Zari",
+      "url": "https:\/\/www.last.fm\/music\/Marina+Satti\/_\/Zari",
+      "duration": "180000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "61426",
+      "playcount": "1194783",
+      "artist": {
+        "name": "Marina Satti",
+        "url": "https:\/\/www.last.fm\/music\/Marina+Satti"
+      },
+      "album": {
+        "artist": "Marina Satti",
+        "title": "ZARI",
+        "url": "https:\/\/www.last.fm\/music\/Marina+Satti\/ZARI",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9463006c4e8480ebc7f46b8485730bfa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9463006c4e8480ebc7f46b8485730bfa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9463006c4e8480ebc7f46b8485730bfa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9463006c4e8480ebc7f46b8485730bfa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "modern laika",
+            "url": "https:\/\/www.last.fm\/tag\/modern+laika"
+          },
+          {
+            "name": "neoperreo",
+            "url": "https:\/\/www.last.fm\/tag\/neoperreo"
+          },
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "09 Mar 2024, 09:07",
+        "summary": "\u201cZARI\u201d is the official Greek entry for the Eurovision Song Contest 2024 in Malm\u00f6\u200e\u200e. \u201cZari\u201d (\u0396\u03ac\u03c1\u03b9), is the greek word for dice (or die). It\u2019s used for tabletop games, board games etc. \"Zari\" drew commercial success, topping the charts in Greece and additionally it was certified diamond by IFPI Greece. <a href=\"http:\/\/www.last.fm\/music\/Marina+Satti\/_\/Zari\">Read more on Last.fm<\/a>.",
+        "content": "\u201cZARI\u201d is the official Greek entry for the Eurovision Song Contest 2024 in Malm\u00f6\u200e\u200e. \u201cZari\u201d (\u0396\u03ac\u03c1\u03b9), is the greek word for dice (or die). It\u2019s used for tabletop games, board games etc. \"Zari\" drew commercial success, topping the charts in Greece and additionally it was certified diamond by IFPI Greece. <a href=\"http:\/\/www.last.fm\/music\/Marina+Satti\/_\/Zari\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

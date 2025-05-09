@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:41:15.575786+00:00",
+  "elapsed": 0.184039,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:15.575786+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1253",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:15 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ISAAK&format=json&method=track.getInfo&track=Always+on+the+run"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=ISAAK&format=json&method=track.getInfo&track=Always+on+the+run",
+  "_decoded_content": {
+    "track": {
+      "name": "Always on the run",
+      "url": "https:\/\/www.last.fm\/music\/Isaak\/_\/Always+on+the+run",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "43425",
+      "playcount": "306666",
+      "artist": {
+        "name": "Isaak",
+        "mbid": "7fa539f6-05f7-4fa6-9297-7e37c74457ed",
+        "url": "https:\/\/www.last.fm\/music\/Isaak"
+      },
+      "album": {
+        "artist": "Isaak",
+        "title": "Always on the run - Single",
+        "url": "https:\/\/www.last.fm\/music\/Isaak\/Always+on+the+run+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7903aebca36caf2be0b1c9323d16f486.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7903aebca36caf2be0b1c9323d16f486.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7903aebca36caf2be0b1c9323d16f486.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7903aebca36caf2be0b1c9323d16f486.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "Eurovision 2024",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+2024"
+          },
+          {
+            "name": "ESC 2024",
+            "url": "https:\/\/www.last.fm\/tag\/ESC+2024"
+          }
+        ]
+      }
+    }
+  }
+}

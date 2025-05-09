@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:32:15.925261+00:00",
+  "elapsed": 0.254504,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:15.925261+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "900",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zedd&format=json&method=track.getInfo&track=Good+Thing"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zedd&format=json&method=track.getInfo&track=Good+Thing",
+  "_decoded_content": {
+    "track": {
+      "name": "Good Thing",
+      "url": "https:\/\/www.last.fm\/music\/Zedd\/_\/Good+Thing",
+      "duration": "210000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "4577",
+      "playcount": "21437",
+      "artist": {
+        "name": "Zedd",
+        "mbid": "56c4b861-0922-4c3a-a9b9-3bfcb00f8274",
+        "url": "https:\/\/www.last.fm\/music\/Zedd"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Cenone 2020 Pop Hits",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Cenone+2020+Pop+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f7b40ef04570debd72b154d9c3e49745.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f7b40ef04570debd72b154d9c3e49745.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f7b40ef04570debd72b154d9c3e49745.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f7b40ef04570debd72b154d9c3e49745.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:30:12.582544+00:00",
+  "elapsed": 0.27303,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:12.582544+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3243",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:12 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=goodnight+n+go"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=goodnight+n+go",
+  "_decoded_content": {
+    "track": {
+      "name": "Goodnight n Go",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Goodnight+n+Go",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "529119",
+      "playcount": "8588433",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Dec 2018, 15:06",
+        "summary": "\"goodnight n go\" is a covered\/remixed song by Ariana Grande, originally by Imogen Heap. The song is from Grande's fourth studio album Sweetener, released in August 2018. Grande's version uses a sample of the original as part of an original arrangement but with extra harmonies and different song structures, with a new verse penned by Grande. It was written by Grande and Victoria Mon\u00e9t along with its producers Tommy Brown, Social House's Charles Anderson and Michael Foster. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Goodnight+n+Go\">Read more on Last.fm<\/a>.",
+        "content": "\"goodnight n go\" is a covered\/remixed song by Ariana Grande, originally by Imogen Heap. The song is from Grande's fourth studio album Sweetener, released in August 2018. Grande's version uses a sample of the original as part of an original arrangement but with extra harmonies and different song structures, with a new verse penned by Grande. It was written by Grande and Victoria Mon\u00e9t along with its producers Tommy Brown, Social House's Charles Anderson and Michael Foster. In terms of music \"Goodnight n Go\" is an EDM and future bass song that contains trap and deep house elements.\n\nPrior to recording the song, Grande had expressed admiration for Imogen Heap's music, citing her as a musical inspiration. Heap told Billboard, in 2018, \"I think for her 21st birthday \u2014 her mom emailed me somehow and asked, 'Can Ariana come over for dinner?' So she came to my house in the middle of the countryside in the outskirts of London.\" The two made a vegan dinner (Grande is vegan) and experimented with Heap's musical technology and devices.\n\nHeap responded positively to the cover\/remix, calling it \"a gift\", telling Billboard magazine, \"...[Grande] kept tweeting about it and people were like, 'Are you going to do a cover of 'Goodnight and Go' on Twitter?' Her brother Frankie Grande sent me a text with the song, and I heard it and thought it was really great. I loved it. I'm so happy \u2014 I'm smiling now. It feels like a gift when somebody that famous picks up on a song that has had its day and gives it a second life, it's a real gift. I think she's done a lovely version of it. I love that saucy verse she's put in there and twisted it up at the end. What's not to like? ...one song on her album is like ten of my albums, so it's pretty cool. It's like a gift.\" <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Goodnight+n+Go\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:36:41.717098+00:00",
+  "elapsed": 0.213322,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:41.717098+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "535",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ziak&format=json&method=track.getInfo&track=Rhum+%26+machette"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ziak&format=json&method=track.getInfo&track=Rhum+%26+machette",
+  "_decoded_content": {
+    "track": {
+      "name": "Rhum & machette",
+      "url": "https:\/\/www.last.fm\/music\/Ziak\/_\/Rhum+&+machette",
+      "duration": "167000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "10586",
+      "playcount": "126014",
+      "artist": {
+        "name": "Ziak",
+        "url": "https:\/\/www.last.fm\/music\/Ziak"
+      },
+      "album": {
+        "artist": "Ziak",
+        "title": "Rhum & machette - Single",
+        "url": "https:\/\/www.last.fm\/music\/Ziak\/Rhum+&+machette+-+Single",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

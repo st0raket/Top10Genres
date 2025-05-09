@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:36:39.400340+00:00",
+  "elapsed": 0.20798,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:36:39.400340+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2065",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:36:39 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=feel+like+shit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=feel+like+shit",
+  "_decoded_content": {
+    "track": {
+      "name": "feel like shit",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/feel+like+shit",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "208958",
+      "playcount": "2405411",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "album": {
+        "artist": "Tate McRae",
+        "title": "feel like shit",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/feel+like+shit",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6ad3ed9495804b32ecbca599c8e8bf8f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6ad3ed9495804b32ecbca599c8e8bf8f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6ad3ed9495804b32ecbca599c8e8bf8f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6ad3ed9495804b32ecbca599c8e8bf8f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          },
+          {
+            "name": "controlling",
+            "url": "https:\/\/www.last.fm\/tag\/controlling"
+          },
+          {
+            "name": "bitchy",
+            "url": "https:\/\/www.last.fm\/tag\/bitchy"
+          },
+          {
+            "name": "overbearing",
+            "url": "https:\/\/www.last.fm\/tag\/overbearing"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Jan 2022, 16:02",
+        "summary": "\"i wrote this song about a very personal experience and then michelle dawley and i brought it to life in this music video. i can\u2019t explain how excited i am for you all to see this video and experience the ups and downs of a relationship in 3 minutes. love you guys.\" <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/feel+like+shit\">Read more on Last.fm<\/a>.",
+        "content": "\"i wrote this song about a very personal experience and then michelle dawley and i brought it to life in this music video. i can\u2019t explain how excited i am for you all to see this video and experience the ups and downs of a relationship in 3 minutes. love you guys.\" <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/feel+like+shit\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

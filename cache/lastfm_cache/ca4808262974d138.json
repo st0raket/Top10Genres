@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:40:38.274974+00:00",
+  "elapsed": 0.19432,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:38.274974+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1169",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:38 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=CYRIL&format=json&method=track.getInfo&track=Stumblin%27+In"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=CYRIL&format=json&method=track.getInfo&track=Stumblin%27+In",
+  "_decoded_content": {
+    "track": {
+      "name": "Stumblin' In",
+      "url": "https:\/\/www.last.fm\/music\/Cyril\/_\/Stumblin%27+In",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "185345",
+      "playcount": "1003609",
+      "artist": {
+        "name": "Cyril",
+        "mbid": "b379ac57-f75d-4d8e-98f4-52bf2acc7a37",
+        "url": "https:\/\/www.last.fm\/music\/Cyril"
+      },
+      "album": {
+        "artist": "Cyril",
+        "title": "Stumblin' In - Single",
+        "url": "https:\/\/www.last.fm\/music\/Cyril\/Stumblin%27+In+-+Single",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7937491a296857ca772174076fd1cc88.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7937491a296857ca772174076fd1cc88.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7937491a296857ca772174076fd1cc88.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7937491a296857ca772174076fd1cc88.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "cover",
+            "url": "https:\/\/www.last.fm\/tag\/cover"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Love",
+            "url": "https:\/\/www.last.fm\/tag\/Love"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "party",
+            "url": "https:\/\/www.last.fm\/tag\/party"
+          }
+        ]
+      }
+    }
+  }
+}

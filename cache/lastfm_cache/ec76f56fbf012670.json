@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:16.992247+00:00",
+  "elapsed": 0.181336,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:16.992247+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3148",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=BLUE"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=BLUE",
+  "_decoded_content": {
+    "track": {
+      "name": "BLUE",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/BLUE",
+      "duration": "343000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "764191",
+      "playcount": "10740692",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "Blue",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/Blue",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b0225f4b10e4ee9052d24f09ca4f2b36.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b0225f4b10e4ee9052d24f09ca4f2b36.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b0225f4b10e4ee9052d24f09ca4f2b36.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b0225f4b10e4ee9052d24f09ca4f2b36.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "alt-pop",
+            "url": "https:\/\/www.last.fm\/tag\/alt-pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "trip hop",
+            "url": "https:\/\/www.last.fm\/tag\/trip+hop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 May 2024, 11:04",
+        "summary": "\u201cBLUE\u201d is the closing and a standout track from Billie Eilish\u2019s third studio album HIT ME HARD AND SOFT. The song is a fusion of two older, unreleased tracks: \u201cTrue Blue\u201d and \u201cBorn Blue.\u201d Lyrically, \u201cBlue\u201d explores themes of heartache and emotional detachment, reflecting on a failed relationship and feelings of inadequacy. The repeated imagery of the color blue emphasizes sadness, regret, and longing. Billie sings about trying to move on but feeling trapped in her emotional state <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/BLUE\">Read more on Last.fm<\/a>.",
+        "content": "\u201cBLUE\u201d is the closing and a standout track from Billie Eilish\u2019s third studio album HIT ME HARD AND SOFT. The song is a fusion of two older, unreleased tracks: \u201cTrue Blue\u201d and \u201cBorn Blue.\u201d Lyrically, \u201cBlue\u201d explores themes of heartache and emotional detachment, reflecting on a failed relationship and feelings of inadequacy. The repeated imagery of the color blue emphasizes sadness, regret, and longing. Billie sings about trying to move on but feeling trapped in her emotional state, contrasting her desire to live in \u201cblack and white\u201d with the overwhelming \u201cblue\u201d emotions she can\u2019t escape.\n\nThe song\u2019s second part deepens its emotional impact by exploring childhood trauma, touching on themes of parental neglect and inherited pain. This part ties personal experiences with broader reflections on identity and growing up in the public eye, as both Billie and the person she\u2019s addressing seem to struggle with the consequences of their upbringing.\n\nThe production, helmed by her brother Finneas, incorporates atmospheric elements that build the song\u2019s introspective and melancholic tone, making \u201cBlue\u201d a powerful emotional closer for the album. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/BLUE\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

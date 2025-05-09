@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:09.574158+00:00",
+  "elapsed": 1.10735,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:09.574158+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1097",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Melanie+Thornton&format=json&method=track.getInfo&track=Wonderful+Dream"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Melanie+Thornton&format=json&method=track.getInfo&track=Wonderful+Dream",
+  "_decoded_content": {
+    "track": {
+      "name": "Wonderful Dream",
+      "mbid": "4b3cc005-41fa-411f-8a38-903d7fadc98e",
+      "url": "https:\/\/www.last.fm\/music\/Melanie+Thornton\/_\/Wonderful+Dream",
+      "duration": "233000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "13059",
+      "playcount": "69268",
+      "artist": {
+        "name": "Melanie Thornton",
+        "mbid": "cbd6fd82-f2a4-4275-91bd-6b45de870f11",
+        "url": "https:\/\/www.last.fm\/music\/Melanie+Thornton"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Die Hit-Giganten: Weihnachten",
+        "mbid": "726f186b-0a07-4a4e-ba26-2e3e15b1cc46",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Die+Hit-Giganten:+Weihnachten",
+        "image": [
+          {
+            "#text": "",
+            "size": "small"
+          },
+          {
+            "#text": "",
+            "size": "medium"
+          },
+          {
+            "#text": "",
+            "size": "large"
+          },
+          {
+            "#text": "",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "2"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Weihnachten",
+            "url": "https:\/\/www.last.fm\/tag\/Weihnachten"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      }
+    }
+  }
+}

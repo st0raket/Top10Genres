@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:41.373284+00:00",
+  "elapsed": 0.213264,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:41.373284+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2776",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=We+Cry+Together"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=We+Cry+Together",
+  "_decoded_content": {
+    "track": {
+      "name": "We Cry Together",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/We+Cry+Together",
+      "duration": "341000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "571974",
+      "playcount": "3759770",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "Mr. Morale & the Big Steppers",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/Mr.+Morale+&+the+Big+Steppers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "slam poetry",
+            "url": "https:\/\/www.last.fm\/tag\/slam+poetry"
+          },
+          {
+            "name": "jazz rap",
+            "url": "https:\/\/www.last.fm\/tag\/jazz+rap"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "boom bap",
+            "url": "https:\/\/www.last.fm\/tag\/boom+bap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 May 2022, 18:49",
+        "summary": "On \u201cWe Cry Together,\u201d Kendrick and Taylour Paige take opposite sides in an ugly couple\u2019s dispute that sees them hurling insults at each other for nearly six minutes. Another interpretation of the song is that Taylour represents the state of hip-hop, hating Kendrick for being absent for the last five years.\n\nThe song opens with a vocal sample from Florence + the Machine\u2019s 2018 song \u201cJune,\u201d which transitions into a stripped-down piano and drum beat courtesy of The Alchemist. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/We+Cry+Together\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cWe Cry Together,\u201d Kendrick and Taylour Paige take opposite sides in an ugly couple\u2019s dispute that sees them hurling insults at each other for nearly six minutes. Another interpretation of the song is that Taylour represents the state of hip-hop, hating Kendrick for being absent for the last five years.\n\nThe song opens with a vocal sample from Florence + the Machine\u2019s 2018 song \u201cJune,\u201d which transitions into a stripped-down piano and drum beat courtesy of The Alchemist.\n\nFollowing the album\u2019s release, fans and media outlets pointed out that the song\u2019s concept shares similarities to Eminem\u2019s May 2000 song, \u201cKim.\u201d <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/We+Cry+Together\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

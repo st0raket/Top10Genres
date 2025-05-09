@@ -1,0 +1,96 @@
+{
+  "created_at": "2025-05-03T14:28:41.421932+00:00",
+  "elapsed": 0.214177,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:41.421932+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1548",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E4%B9%83%E6%9C%A8%E5%9D%8246&format=json&method=track.getInfo&track=%E3%81%84%E3%81%A4%E3%81%8B%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%8B%E3%82%89%E4%BB%8A%E6%97%A5%E3%81%A7%E3%81%8D%E3%82%8B"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%E4%B9%83%E6%9C%A8%E5%9D%8246&format=json&method=track.getInfo&track=%E3%81%84%E3%81%A4%E3%81%8B%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%8B%E3%82%89%E4%BB%8A%E6%97%A5%E3%81%A7%E3%81%8D%E3%82%8B",
+  "_decoded_content": {
+    "track": {
+      "name": "\u3044\u3064\u304b\u3067\u304d\u308b\u304b\u3089\u4eca\u65e5\u3067\u304d\u308b",
+      "url": "https:\/\/www.last.fm\/music\/%E4%B9%83%E6%9C%A8%E5%9D%8246\/_\/%E3%81%84%E3%81%A4%E3%81%8B%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%8B%E3%82%89%E4%BB%8A%E6%97%A5%E3%81%A7%E3%81%8D%E3%82%8B",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1383",
+      "playcount": "41606",
+      "artist": {
+        "name": "\u4e43\u6728\u574246",
+        "mbid": "466f7b0a-a3e6-435d-8326-b4ef825a609d",
+        "url": "https:\/\/www.last.fm\/music\/%E4%B9%83%E6%9C%A8%E5%9D%8246"
+      },
+      "album": {
+        "artist": "\u4e43\u6728\u574246",
+        "title": "\u3044\u3064\u304b\u3067\u304d\u308b\u304b\u3089\u4eca\u65e5\u3067\u304d\u308b (Special Edition)",
+        "url": "https:\/\/www.last.fm\/music\/%E4%B9%83%E6%9C%A8%E5%9D%8246\/%E3%81%84%E3%81%A4%E3%81%8B%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%8B%E3%82%89%E4%BB%8A%E6%97%A5%E3%81%A7%E3%81%8D%E3%82%8B+(Special+Edition)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/115974ea870713fc196e5597626098b6.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/115974ea870713fc196e5597626098b6.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/115974ea870713fc196e5597626098b6.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/115974ea870713fc196e5597626098b6.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "japanese",
+            "url": "https:\/\/www.last.fm\/tag\/japanese"
+          },
+          {
+            "name": "JPop",
+            "url": "https:\/\/www.last.fm\/tag\/JPop"
+          },
+          {
+            "name": "j-pop",
+            "url": "https:\/\/www.last.fm\/tag\/j-pop"
+          },
+          {
+            "name": "first loved track",
+            "url": "https:\/\/www.last.fm\/tag\/first+loved+track"
+          },
+          {
+            "name": "aki",
+            "url": "https:\/\/www.last.fm\/tag\/aki"
+          }
+        ]
+      }
+    }
+  }
+}

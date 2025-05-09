@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:28:49.269407+00:00",
+  "elapsed": 0.188573,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:49.269407+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "839",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:49 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morat&format=json&method=track.getInfo&track=Besos+En+Guerra"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Morat&format=json&method=track.getInfo&track=Besos+En+Guerra",
+  "_decoded_content": {
+    "track": {
+      "name": "Besos En Guerra",
+      "url": "https:\/\/www.last.fm\/music\/Morat\/_\/Besos+En+Guerra",
+      "duration": "231000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "95604",
+      "playcount": "916977",
+      "artist": {
+        "name": "Morat",
+        "url": "https:\/\/www.last.fm\/music\/Morat"
+      },
+      "album": {
+        "artist": "Morat",
+        "title": "Besos En Guerra",
+        "url": "https:\/\/www.last.fm\/music\/Morat\/Besos+En+Guerra",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2eaf843945051b9f574e2cf807b403e0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2eaf843945051b9f574e2cf807b403e0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2eaf843945051b9f574e2cf807b403e0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2eaf843945051b9f574e2cf807b403e0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

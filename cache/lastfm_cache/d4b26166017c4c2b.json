@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:34:58.481427+00:00",
+  "elapsed": 0.19824,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:58.481427+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "333",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:58 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Murda&format=json&method=track.getInfo&track=Gece+G%C3%BCnd%C3%BCz"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Murda&format=json&method=track.getInfo&track=Gece+G%C3%BCnd%C3%BCz",
+  "_decoded_content": {
+    "track": {
+      "name": "Gece G\u00fcnd\u00fcz",
+      "url": "https:\/\/www.last.fm\/music\/Murda\/_\/Gece+G%C3%BCnd%C3%BCz",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7664",
+      "playcount": "76926",
+      "artist": {
+        "name": "Murda",
+        "mbid": "58c927f7-4438-43d0-ab55-8f9409ab9de8",
+        "url": "https:\/\/www.last.fm\/music\/Murda"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

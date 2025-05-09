@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:32:04.792251+00:00",
+  "elapsed": 0.187613,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:04.792251+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3449",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=I+Think+He+Knows"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Taylor+Swift&format=json&method=track.getInfo&track=I+Think+He+Knows",
+  "_decoded_content": {
+    "track": {
+      "name": "I Think He Knows",
+      "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Think+He+Knows",
+      "duration": "173000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "567874",
+      "playcount": "11251026",
+      "artist": {
+        "name": "Taylor Swift",
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift"
+      },
+      "album": {
+        "artist": "Taylor Swift",
+        "title": "Lover (deluxe album, version 4)",
+        "url": "https:\/\/www.last.fm\/music\/Taylor+Swift\/Lover+(deluxe+album,+version+4)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fed6108a7243ef527f217421be7263bc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fed6108a7243ef527f217421be7263bc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fed6108a7243ef527f217421be7263bc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fed6108a7243ef527f217421be7263bc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2021, 20:00",
+        "summary": "\"I Think He Knows\" is a love song about the giddiness and excitement of being in love with someone. The lyrics suggest that the protagonist is head over heels for a guy who seems to reciprocate her feelings. She finds herself going to the same places he does and is aware of his body language and mannerisms that indicate his attraction to her. The protagonist is physically attracted to the guy and notes the \"boyish look\" and his \"hands around a cold glass\" which make her \"wanna know that body like it's mine\". <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Think+He+Knows\">Read more on Last.fm<\/a>.",
+        "content": "\"I Think He Knows\" is a love song about the giddiness and excitement of being in love with someone. The lyrics suggest that the protagonist is head over heels for a guy who seems to reciprocate her feelings. She finds herself going to the same places he does and is aware of his body language and mannerisms that indicate his attraction to her. The protagonist is physically attracted to the guy and notes the \"boyish look\" and his \"hands around a cold glass\" which make her \"wanna know that body like it's mine\".\n\nThe protagonist imagines being intimate with the guy and feels confident that he desires her also. She acknowledges that this relationship is not understood by other people but she still feels deeply about this guy. There's an indication that their chemistry is natural and intense as they talk about \"following the sparks\" that exist between them. The song conveys the idea that the protagonist wants the guy to be hers and is willing to stay if he commits while making it clear that she won't wait forever.\n\nOverall, \"I Think He Knows\" is a fun and flirty song that conveys the excitement, anticipation, and butterflies of a new romance. It tells a story of two people who are infatuated with each other and the potential for this growing into something more serious. <a href=\"http:\/\/www.last.fm\/music\/Taylor+Swift\/_\/I+Think+He+Knows\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

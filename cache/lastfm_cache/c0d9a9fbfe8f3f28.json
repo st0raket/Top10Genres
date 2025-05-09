@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:35:54.567207+00:00",
+  "elapsed": 0.399612,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:54.567207+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3852",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Neil+Diamond&format=json&method=track.getInfo&track=Sweet+Caroline"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Neil+Diamond&format=json&method=track.getInfo&track=Sweet+Caroline",
+  "_decoded_content": {
+    "track": {
+      "name": "Sweet Caroline",
+      "mbid": "9d0a89d7-72aa-4b60-bf0e-b8b8247ad805",
+      "url": "https:\/\/www.last.fm\/music\/Neil+Diamond\/_\/Sweet+Caroline",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "779345",
+      "playcount": "4023168",
+      "artist": {
+        "name": "Neil Diamond",
+        "mbid": "a42d3fd5-55de-4206-86c3-4fbb5404018f",
+        "url": "https:\/\/www.last.fm\/music\/Neil+Diamond"
+      },
+      "album": {
+        "artist": "Neil Diamond",
+        "title": "His 12 Greatest Hits",
+        "mbid": "7d19700c-361f-376e-964d-a6df0d6c5c44",
+        "url": "https:\/\/www.last.fm\/music\/Neil+Diamond\/His+12+Greatest+Hits",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/ed39ca4d66044c728d37b2778427c1e4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/ed39ca4d66044c728d37b2778427c1e4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/ed39ca4d66044c728d37b2778427c1e4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/ed39ca4d66044c728d37b2778427c1e4.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "1"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "70s",
+            "url": "https:\/\/www.last.fm\/tag\/70s"
+          },
+          {
+            "name": "oldies",
+            "url": "https:\/\/www.last.fm\/tag\/oldies"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Apr 2009, 00:40",
+        "summary": "\"Sweet Caroline\" is a pop song written and performed by Neil Diamond and officially released on September 16, 1969, as a single. There are three distinct mixes of this song. The original mono 45 mix had a loud orchestra and glockenspiel compared to the stereo version on the Brother Love's Travelling Salvation Show LP. The third version was a remix found only on the initial CD release of Neil Diamond's \"His 12 Greatest Hits\". This version has the orchestra mixed down very noticeably and has the background vocals mixed up. <a href=\"http:\/\/www.last.fm\/music\/Neil+Diamond\/_\/Sweet+Caroline\">Read more on Last.fm<\/a>.",
+        "content": "\"Sweet Caroline\" is a pop song written and performed by Neil Diamond and officially released on September 16, 1969, as a single. There are three distinct mixes of this song. The original mono 45 mix had a loud orchestra and glockenspiel compared to the stereo version on the Brother Love's Travelling Salvation Show LP. The third version was a remix found only on the initial CD release of Neil Diamond's \"His 12 Greatest Hits\". This version has the orchestra mixed down very noticeably and has the background vocals mixed up. It has a longer fade as well. The song reached #4 on the Billboard chart and eventually went platinum for sales of one million singles.\n\nIn the fall of 1969, Diamond performed \"Sweet Caroline\" on several television shows. It later reached #8 on the UK singles chart in 1971. In a 2007 interview, Diamond revealed the inspiration for \"Sweet Caroline\" was President John F. Kennedy's daughter, Caroline Kennedy, who was eleven years old at the time. Diamond sang the song to her at her 50th birthday celebration in 2007.\n\nSince 1997, this song has become the \"theme\" of the Boston Red Sox, so much so that in the wake of the 2013 Boston Marathon bombings, the New York Yankees (Boston's hated rivals) played the song on their first home game after the bombings, while other city marathons held in 2013, such as the Hamburg and Stockholm Marathons, played the song in honor of Boston. Since 2002, the Red Sox have consistently played the song in the middle of the eighth inning. Boston's Minor League affiliates do the same, and many other sports teams play the song, too. <a href=\"http:\/\/www.last.fm\/music\/Neil+Diamond\/_\/Sweet+Caroline\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

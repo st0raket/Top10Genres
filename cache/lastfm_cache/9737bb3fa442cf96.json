@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:44:09.066911+00:00",
+  "elapsed": 0.23501,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:09.066911+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2706",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Closed+On+Sunday"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Closed+On+Sunday",
+  "_decoded_content": {
+    "track": {
+      "name": "Closed On Sunday",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Closed+On+Sunday",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "394545",
+      "playcount": "3434386",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "gospel",
+            "url": "https:\/\/www.last.fm\/tag\/gospel"
+          },
+          {
+            "name": "Kanye West",
+            "url": "https:\/\/www.last.fm\/tag\/Kanye+West"
+          },
+          {
+            "name": "2019",
+            "url": "https:\/\/www.last.fm\/tag\/2019"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "06 May 2021, 19:13",
+        "summary": "Kanye West continues with the gospel theme of the album, naming \u201cClosed on Sunday\u201d after an important concept in Christianity. While Saturday is technically the Sabbath in Judaism, Sunday is considered to be a holy day of rest for most Christians. In the Bible, there are numerous passages that specifically state the significance of resting one day out of the week. In Exodus 20:8-11, it is listed as the fourth commandment:\n\n\"Remember the sabbath day, to keep it holy. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Closed+On+Sunday\">Read more on Last.fm<\/a>.",
+        "content": "Kanye West continues with the gospel theme of the album, naming \u201cClosed on Sunday\u201d after an important concept in Christianity. While Saturday is technically the Sabbath in Judaism, Sunday is considered to be a holy day of rest for most Christians. In the Bible, there are numerous passages that specifically state the significance of resting one day out of the week. In Exodus 20:8-11, it is listed as the fourth commandment:\n\n\"Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.\"\n\nIn the chorus, Kanye alludes to the famous, Christian-owned fast food chain, Chick-fil-A, and discusses the way their stores are closed on this day. The outro is spoken by A$AP Bari, who is also known as Young Lord. He confirmed the vocal feature and thanked Ye for putting him on the track via his Instagram story. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Closed+On+Sunday\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

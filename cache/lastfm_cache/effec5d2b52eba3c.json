@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:34:20.218928+00:00",
+  "elapsed": 0.181833,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:20.218928+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2643",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=Shot+in+the+Dark"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=AC%2FDC&format=json&method=track.getInfo&track=Shot+in+the+Dark",
+  "_decoded_content": {
+    "track": {
+      "name": "Shot In The Dark",
+      "url": "https:\/\/www.last.fm\/music\/AC%2FDC\/_\/Shot+In+The+Dark",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "137224",
+      "playcount": "635254",
+      "artist": {
+        "name": "AC\/DC",
+        "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "url": "https:\/\/www.last.fm\/music\/AC%2FDC"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hard rock",
+            "url": "https:\/\/www.last.fm\/tag\/hard+rock"
+          },
+          {
+            "name": "blues rock",
+            "url": "https:\/\/www.last.fm\/tag\/blues+rock"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "fip",
+            "url": "https:\/\/www.last.fm\/tag\/fip"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "28 Jan 2022, 16:59",
+        "summary": "\"Shot in the Dark\" is a single by rock band AC\/DC from their seventeenth studio album \"Power Up\". The song was recorded late 2018 to early 2019. It was released on October 7, 2020 in Australia, and is the band's first single released since 2015's \"Rock the Blues Away\" from their album Rock or Bust. The song was used as the official theme for WWE Survivor Series.\n\nThe song was nominated for two Grammys for the 64th Grammy Awards, Best Rock Performance and Best Music Video. <a href=\"http:\/\/www.last.fm\/music\/AC%2FDC\/_\/Shot+In+The+Dark\">Read more on Last.fm<\/a>.",
+        "content": "\"Shot in the Dark\" is a single by rock band AC\/DC from their seventeenth studio album \"Power Up\". The song was recorded late 2018 to early 2019. It was released on October 7, 2020 in Australia, and is the band's first single released since 2015's \"Rock the Blues Away\" from their album Rock or Bust. The song was used as the official theme for WWE Survivor Series.\n\nThe song was nominated for two Grammys for the 64th Grammy Awards, Best Rock Performance and Best Music Video.\n\nThe music video, directed by David Mallet, premiered on AC\/DC's YouTube channel on October 26, 2020.\n\nOn October 1, 2020, the band teased the new single in a 30-second video posted on Twitter, appearing to power up the amp with its iconic lightning bolt logo while playing the song, and noting PWR\/UP, short for Power Up. AC\/DC went on hiatus after completing their Rock or Bust tour in 2016, which featured Guns N' Roses singer Axl Rose. In 2018, members Brian Johnson, Phil Rudd, and Cliff Williams rejoined the band after the two-year hiatus. On October 5, 2020, the band shared another short clip composed of behind-the-scenes footage featuring brief appearances by all five members of the band. <a href=\"http:\/\/www.last.fm\/music\/AC%2FDC\/_\/Shot+In+The+Dark\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

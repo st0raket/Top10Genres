@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:44:46.325767+00:00",
+  "elapsed": 0.212713,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:46.325767+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4372",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Thirty+Seconds+To+Mars&format=json&method=track.getInfo&track=Walk+On+Water"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Thirty+Seconds+To+Mars&format=json&method=track.getInfo&track=Walk+On+Water",
+  "_decoded_content": {
+    "track": {
+      "name": "Walk on Water",
+      "url": "https:\/\/www.last.fm\/music\/Thirty+Seconds+to+Mars\/_\/Walk+on+Water",
+      "duration": "185000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "92263",
+      "playcount": "515368",
+      "artist": {
+        "name": "Thirty Seconds to Mars",
+        "url": "https:\/\/www.last.fm\/music\/Thirty+Seconds+to+Mars"
+      },
+      "album": {
+        "artist": "Thirty Seconds to Mars",
+        "title": "America",
+        "url": "https:\/\/www.last.fm\/music\/Thirty+Seconds+to+Mars\/America",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/3d4d6cad4eb1a02f3c335cab616b9bfa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/3d4d6cad4eb1a02f3c335cab616b9bfa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/3d4d6cad4eb1a02f3c335cab616b9bfa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/3d4d6cad4eb1a02f3c335cab616b9bfa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "pop rock",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Mar 2022, 00:38",
+        "summary": "\"Walk on Water\" is a song recorded by American rock band Thirty Seconds to Mars, featured on their fifth studio album \"America\". It was produced by lead vocalist Jared Leto, who wrote the song alongside drummer Shannon Leto, with production contributions from Stevie Aiello, Arkadi Zaslavski and Mike Elizondo, among others.\n\nIt was recorded at the International Centre for the Advancement of the Arts and Sciences of Sound in Los Angeles, California. <a href=\"http:\/\/www.last.fm\/music\/Thirty+Seconds+to+Mars\/_\/Walk+on+Water\">Read more on Last.fm<\/a>.",
+        "content": "\"Walk on Water\" is a song recorded by American rock band Thirty Seconds to Mars, featured on their fifth studio album \"America\". It was produced by lead vocalist Jared Leto, who wrote the song alongside drummer Shannon Leto, with production contributions from Stevie Aiello, Arkadi Zaslavski and Mike Elizondo, among others.\n\nIt was recorded at the International Centre for the Advancement of the Arts and Sciences of Sound in Los Angeles, California. \"Walk on Water\" was released on August 22, 2017 through Interscope Records, as the lead single from the album.\n\nOn August 14, 2017, Thirty Seconds to Mars announced that \"Walk on Water\" would be the lead single from their upcoming fifth studio album. Jared Leto told NME that the song required a long period of time to record.[1] \"Walk on Water\" marks the first work by Thirty Seconds to Mars to be released by Interscope, after the band parted from Virgin due to tumultuous years with the label.[2]\n\nOn August 22, \"Walk on Water\" made its radio debut and became commercially available for downloading. A lyric video for the song was released on YouTube the same day. Music website Genius premiered the lyrics of the song on August 21, 2017, a day prior the single's official release. \"Walk on Water\" was used by ESPN as the promotional theme for the network's coverage of the 2017 College Football season.\n\nAfter several weeks of editing, the band premiered the official music video for \"Walk on Water\" on November 8, 2017. It was directed by Jared Leto and features user-submitted footage from July 4, 2017, depicting Independence Day in the United States. Thirty Seconds to Mars also utilized their own crews to compile additional footage, all of which is part of a documentary film titled \"A Day in the Life of America\", released in 2019.\n\nThe song was performed live for the first time at the 2017 MTV Video Music Awards on August 27 with Travis Scott as a special surprise guest, who performed a verse from his hit song \"Butterfly Effect\". The band played \"Walk on Water\" at the Rock in Rio festival on September 24, 2017, featuring Brazilian rapper Projota. They later performed the song at the LOS40 Music Awards 2017 on November 10. An acoustic rendition of the track was performed on BBC Radio 1's Live Lounge and during The Ellen DeGeneres Show. <a href=\"http:\/\/www.last.fm\/music\/Thirty+Seconds+to+Mars\/_\/Walk+on+Water\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

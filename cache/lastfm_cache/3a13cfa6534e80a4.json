@@ -1,0 +1,92 @@
+{
+  "created_at": "2025-05-03T14:35:43.175568+00:00",
+  "elapsed": 0.265842,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:43.175568+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1155",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Runaway"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=EXO&format=json&method=track.getInfo&track=Runaway",
+  "_decoded_content": {
+    "track": {
+      "name": "Runaway",
+      "url": "https:\/\/www.last.fm\/music\/Exo\/_\/Runaway",
+      "duration": "209000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "51308",
+      "playcount": "1428933",
+      "artist": {
+        "name": "Exo",
+        "mbid": "f2f9845c-6803-4451-a10e-9c6673608667",
+        "url": "https:\/\/www.last.fm\/music\/Exo"
+      },
+      "album": {
+        "artist": "EXO",
+        "title": "DON'T FIGHT THE FEELING - Special Album - EP",
+        "url": "https:\/\/www.last.fm\/music\/EXO\/DON%27T+FIGHT+THE+FEELING+-+Special+Album+-+EP",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/4cf75f93df31f434138d2e44b14790f7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/4cf75f93df31f434138d2e44b14790f7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/4cf75f93df31f434138d2e44b14790f7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/4cf75f93df31f434138d2e44b14790f7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "r&b",
+            "url": "https:\/\/www.last.fm\/tag\/r&b"
+          },
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "classic exo",
+            "url": "https:\/\/www.last.fm\/tag\/classic+exo"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:44:48.509854+00:00",
+  "elapsed": 0.18933,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:48.509854+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4531",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:48 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Bleed+It+Out"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Linkin+Park&format=json&method=track.getInfo&track=Bleed+It+Out",
+  "_decoded_content": {
+    "track": {
+      "name": "Bleed It Out",
+      "mbid": "5bbf09b5-2bf4-4c19-8228-36dc1f7e2f16",
+      "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/_\/Bleed+It+Out",
+      "duration": "164000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1286272",
+      "playcount": "12395578",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "Minutes to Midnight",
+        "mbid": "d08a98b7-0c33-40d6-b574-ff0ce1600af7",
+        "url": "https:\/\/www.last.fm\/music\/Linkin+Park\/Minutes+to+Midnight",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/185a38ca7368d2c9ad9cb9ea95ae05f4.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "Nu Metal",
+            "url": "https:\/\/www.last.fm\/tag\/Nu+Metal"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rock"
+          },
+          {
+            "name": "Linkin Park",
+            "url": "https:\/\/www.last.fm\/tag\/Linkin+Park"
+          },
+          {
+            "name": "alternative",
+            "url": "https:\/\/www.last.fm\/tag\/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jul 2009, 03:21",
+        "summary": "\"Bleed It Out\" is an alternative rock\/rap rock song by American band Linkin Park. The song was released as the second single from their third studio album, Minutes to Midnight, on August 17, 2007.\n\nOn July 30, 2007 the music video was shown on MTV Germany and MTV Asia and has premiered in Canada through the Muchmusic Countdown and their MuchAxs video streaming website. This song was #44 on Rolling Stone's list of the 100 Best Songs of 2007. This song was also #83 on MTV Asia's list of Top 100 Hits of 2007. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Bleed+It+Out\">Read more on Last.fm<\/a>.",
+        "content": "\"Bleed It Out\" is an alternative rock\/rap rock song by American band Linkin Park. The song was released as the second single from their third studio album, Minutes to Midnight, on August 17, 2007.\n\nOn July 30, 2007 the music video was shown on MTV Germany and MTV Asia and has premiered in Canada through the Muchmusic Countdown and their MuchAxs video streaming website. This song was #44 on Rolling Stone's list of the 100 Best Songs of 2007. This song was also #83 on MTV Asia's list of Top 100 Hits of 2007.\n\nThe song is featured in the main setlist for the rhythm video game Guitar Hero: Warriors of Rock.\n\nThe song is written by Linkin Park and produced by Mike Shinoda and Rick Rubin\n\n\"Bleed It Out\" is the first of two tracks on the album to contain rap vocals from Mike Shinoda, with the other being \"Hands Held High\". It is also the second track of the 3 songs in the album to contain profanity (aside from \"Given Up\" and \"Hands Held High\"). The structure of \"Bleed It Out\" is similar to that of the band's earlier hit, \"Faint\", in which both are fairly short songs, have rapped verses and a sung chorus and bridge, and are both about frustration.\n\nThe main guitar riff of \"Bleed It Out\" which repeats throughout a majority of the song came as a result of guitarist Brad Delson playing a note incorrectly, thus explaining the song's working title of \"Accident\".\n\nIn the album booklet, it says that the song was largely a product of the band simply \"Enjoying the process\" of making the album. Furthermore, Mike Shinoda stated that the lyrics to this track were difficult to perfect, as he re-wrote the lyrics to this song about a \"hundred times\" (referenced to in the first line of the song: \"Here we go for the hundredth time\") until the band was satisfied with them.\n\nThe song is the shortest track on Minutes to Midnight, besides the instrumental intro, \"Wake\". However, in live performances the song's bridge is often extended to include a drum solo by Rob Bourdon. In Road to Revolution, the song also includes a \"singing contest\" led by Chester and Mike which is omitted in the CD version.\n\nIn the A Thousand Suns World Tour, the drum solo was removed and pieces of \"Burning in the Skies\" and \"A Place for My Head\" were added to the song. <a href=\"http:\/\/www.last.fm\/music\/Linkin+Park\/_\/Bleed+It+Out\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

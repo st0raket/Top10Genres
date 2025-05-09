@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:40:31.288923+00:00",
+  "elapsed": 0.256981,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:31.288923+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2541",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=n.h.i.e."
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=21+Savage&format=json&method=track.getInfo&track=n.h.i.e.",
+  "_decoded_content": {
+    "track": {
+      "name": "n.h.i.e.",
+      "url": "https:\/\/www.last.fm\/music\/21+Savage\/_\/n.h.i.e.",
+      "duration": "143000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "439656",
+      "playcount": "3680118",
+      "artist": {
+        "name": "21 Savage",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage"
+      },
+      "album": {
+        "artist": "21 Savage",
+        "title": "american dream",
+        "url": "https:\/\/www.last.fm\/music\/21+Savage\/american+dream",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a7dcf5182b8027d164ce1da8c2bc4a3f.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "doja cat",
+            "url": "https:\/\/www.last.fm\/tag\/doja+cat"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https:\/\/www.last.fm\/tag\/taylor+swift"
+          },
+          {
+            "name": "special",
+            "url": "https:\/\/www.last.fm\/tag\/special"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "alexcore",
+            "url": "https:\/\/www.last.fm\/tag\/alexcore"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jan 2024, 18:35",
+        "summary": "\u201cn.h.i.e.\u201d unites 21 Savage with Doja Cat for their first collaboration. The song was originally intended to appear on Doja\u2019s fourth studio album Scarlet, being previewed live multiple times, but never made the tracklist.\n\nThe title is an acronym for \u201cNever Have I Ever,\u201d a party game where participants take a shot if they ever did an action mentioned during the game. As put by Savage, he\u2019d never go against his morals. In similar vain, Doja Cat establishes her independent identity <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/n.h.i.e.\">Read more on Last.fm<\/a>.",
+        "content": "\u201cn.h.i.e.\u201d unites 21 Savage with Doja Cat for their first collaboration. The song was originally intended to appear on Doja\u2019s fourth studio album Scarlet, being previewed live multiple times, but never made the tracklist.\n\nThe title is an acronym for \u201cNever Have I Ever,\u201d a party game where participants take a shot if they ever did an action mentioned during the game. As put by Savage, he\u2019d never go against his morals. In similar vain, Doja Cat establishes her independent identity, being somebody who values self-respect and empowerment. <a href=\"http:\/\/www.last.fm\/music\/21+Savage\/_\/n.h.i.e.\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

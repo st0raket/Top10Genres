@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:38:54.413324+00:00",
+  "elapsed": 0.219278,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:38:54.413324+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3481",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:38:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Depeche+Mode&format=json&method=track.getInfo&track=Ghosts+Again"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Depeche+Mode&format=json&method=track.getInfo&track=Ghosts+Again",
+  "_decoded_content": {
+    "track": {
+      "name": "Ghosts Again",
+      "url": "https:\/\/www.last.fm\/music\/Depeche+Mode\/_\/Ghosts+Again",
+      "duration": "225000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "169863",
+      "playcount": "1238347",
+      "artist": {
+        "name": "Depeche Mode",
+        "mbid": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+        "url": "https:\/\/www.last.fm\/music\/Depeche+Mode"
+      },
+      "album": {
+        "artist": "Depeche Mode",
+        "title": "Ghosts Again",
+        "url": "https:\/\/www.last.fm\/music\/Depeche+Mode\/Ghosts+Again",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/d7742f8a79b8b1c63e4c0e039e08d2d5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/d7742f8a79b8b1c63e4c0e039e08d2d5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/d7742f8a79b8b1c63e4c0e039e08d2d5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/d7742f8a79b8b1c63e4c0e039e08d2d5.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "alternative dance",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+dance"
+          },
+          {
+            "name": "beautiful",
+            "url": "https:\/\/www.last.fm\/tag\/beautiful"
+          },
+          {
+            "name": "2023",
+            "url": "https:\/\/www.last.fm\/tag\/2023"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Mar 2023, 18:33",
+        "summary": "\"Ghosts Again\" is a song by English electronic band Depeche Mode. It was released on 9 February 2023 as the lead single from their 15th studio album, Memento Mori.\n\nThe song marks the first single release since the death of co-founder and keyboardist Andy Fletcher in May 2022. To Dave Gahan, the song \"captures this perfect balance of melancholy and joy,\" while Martin Gore added that the song has \"such an upbeat feel to it\" and how rare it is for the band to record a song that \"I just don't get sick of listening to.\" <a href=\"http:\/\/www.last.fm\/music\/Depeche+Mode\/_\/Ghosts+Again\">Read more on Last.fm<\/a>.",
+        "content": "\"Ghosts Again\" is a song by English electronic band Depeche Mode. It was released on 9 February 2023 as the lead single from their 15th studio album, Memento Mori.\n\nThe song marks the first single release since the death of co-founder and keyboardist Andy Fletcher in May 2022. To Dave Gahan, the song \"captures this perfect balance of melancholy and joy,\" while Martin Gore added that the song has \"such an upbeat feel to it\" and how rare it is for the band to record a song that \"I just don't get sick of listening to.\"\n\nIn light of the death of Fletcher, the \"reflective, mid-tempo\" synth-pop song sees the two members commenting on motifs of death: the fragility of life and the possibility of an afterlife. Throughout the song, the duo keeps reminding the listener that every life will eventually turn into \"ghosts again.\" However, it also gives the idea of being reunited with one another in some form, possibly as \"ghosts.\"\n\nRichard Butler of The Psychedelic Furs is co-credited with lyrics and composition alongside Martin Gore.\n\nThe music video was released on 9 February 2023. It was directed by longtime visual collaborator Anton Corbijn. The story focuses on Gore and Gahan reenacting the chess game with Death in Ingmar Bergman's The Seventh Seal on an urban rooftop. It alternates with scenes of the two performing in a cemetery. <a href=\"http:\/\/www.last.fm\/music\/Depeche+Mode\/_\/Ghosts+Again\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

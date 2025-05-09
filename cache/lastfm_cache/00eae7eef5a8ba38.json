@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:39:30.492505+00:00",
+  "elapsed": 0.247509,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:39:30.492505+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2485",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:39:30 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Noah+Kahan&format=json&method=track.getInfo&track=Dial+Drunk"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Noah+Kahan&format=json&method=track.getInfo&track=Dial+Drunk",
+  "_decoded_content": {
+    "track": {
+      "name": "Dial Drunk",
+      "url": "https:\/\/www.last.fm\/music\/Noah+Kahan\/_\/Dial+Drunk",
+      "duration": "213000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "241885",
+      "playcount": "4138617",
+      "artist": {
+        "name": "Noah Kahan",
+        "url": "https:\/\/www.last.fm\/music\/Noah+Kahan"
+      },
+      "album": {
+        "artist": "Noah Kahan",
+        "title": "Stick Season (We'll All Be Here Forever)",
+        "url": "https:\/\/www.last.fm\/music\/Noah+Kahan\/Stick+Season+(We%27ll+All+Be+Here+Forever)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/1bf012ce1e27a94f9b1627433f44f0de.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/1bf012ce1e27a94f9b1627433f44f0de.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/1bf012ce1e27a94f9b1627433f44f0de.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/1bf012ce1e27a94f9b1627433f44f0de.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "folk pop",
+            "url": "https:\/\/www.last.fm\/tag\/folk+pop"
+          },
+          {
+            "name": "stomp and holler",
+            "url": "https:\/\/www.last.fm\/tag\/stomp+and+holler"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "americana",
+            "url": "https:\/\/www.last.fm\/tag\/americana"
+          },
+          {
+            "name": "roots rock",
+            "url": "https:\/\/www.last.fm\/tag\/roots+rock"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2023, 09:50",
+        "summary": "\u201cDial Drunk\u201c is written from the perspective of a presumed alcoholic who has just been arrested and is using the phone number of someone they had promised to leave alone as their emergency number.\n\nThe fictional man refuses to take blame for still contacting them against their wishes, saying his \u201cmedicine\u201d (alcohol) has drowned their perspective out.\n\nThe chorus of \u201cDial Drunk\u201c was released on TikTok and quickly went viral. <a href=\"http:\/\/www.last.fm\/music\/Noah+Kahan\/_\/Dial+Drunk\">Read more on Last.fm<\/a>.",
+        "content": "\u201cDial Drunk\u201c is written from the perspective of a presumed alcoholic who has just been arrested and is using the phone number of someone they had promised to leave alone as their emergency number.\n\nThe fictional man refuses to take blame for still contacting them against their wishes, saying his \u201cmedicine\u201d (alcohol) has drowned their perspective out.\n\nThe chorus of \u201cDial Drunk\u201c was released on TikTok and quickly went viral. <a href=\"http:\/\/www.last.fm\/music\/Noah+Kahan\/_\/Dial+Drunk\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

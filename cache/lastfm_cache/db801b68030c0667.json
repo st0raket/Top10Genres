@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:30:17.338443+00:00",
+  "elapsed": 0.210763,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:17.338443+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4484",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:17 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Venom"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eminem&format=json&method=track.getInfo&track=Venom",
+  "_decoded_content": {
+    "track": {
+      "name": "Venom",
+      "url": "https:\/\/www.last.fm\/music\/Eminem\/_\/Venom",
+      "duration": "264000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "29309",
+      "playcount": "181605",
+      "artist": {
+        "name": "Eminem",
+        "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "url": "https:\/\/www.last.fm\/music\/Eminem"
+      },
+      "album": {
+        "artist": "Eminem",
+        "title": "Kamikaze",
+        "url": "https:\/\/www.last.fm\/music\/Eminem\/Kamikaze",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/878a85c48fae1bb417ce736c6c53687a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/878a85c48fae1bb417ce736c6c53687a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/878a85c48fae1bb417ce736c6c53687a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/878a85c48fae1bb417ce736c6c53687a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Soundtrack",
+            "url": "https:\/\/www.last.fm\/tag\/Soundtrack"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "10s",
+            "url": "https:\/\/www.last.fm\/tag\/10s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 Aug 2021, 11:10",
+        "summary": "\"Venom \u2013 Music from the Motion Picture\", more commonly known as simply \"Venom\", is a song by American rapper Eminem, written for the soundtrack of the 2018 film of the same name and featured in his album Kamikaze. It was released as a digital single on September 21, 2018. Following the album's release, the track entered the charts in several countries, hitting the top 50 in the United States, Canada and Australia.\n\nBackground\nOn August 30, 2018 <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Venom\">Read more on Last.fm<\/a>.",
+        "content": "\"Venom \u2013 Music from the Motion Picture\", more commonly known as simply \"Venom\", is a song by American rapper Eminem, written for the soundtrack of the 2018 film of the same name and featured in his album Kamikaze. It was released as a digital single on September 21, 2018. Following the album's release, the track entered the charts in several countries, hitting the top 50 in the United States, Canada and Australia.\n\nBackground\nOn August 30, 2018, Eminem posted a 15-seconds teaser showing Venom's title with the \"E\" turning to the \"backwards \u018e\" , used as Eminem's emblem and that he was going to feature Thusho (aka TheeBrain) from South Africa. Seven hours later, on August 31, 2018, Eminem's previously unannounced album Kamikaze was released, and \"Venom\" appeared as its final track. On September 21, 2018, the track was released as a separate digital single on streaming services.\n\nThe song includes multiple references to the Venom film and to its character Eddie Brock.\n\nMusic video\nOn October 3, 2018, Eminem teased on his Twitter account that a music video for the song would be released the following Friday. The music video was released on October 5, 2018. As a continuation to his previous \"Fall\" music video, its first scene shows a bystander finding the previously crushed Revival CD, opening the case to find a completely black disc. Just as it begins to react, he puts it in his bag and gets on a bus. As the song starts, an Eminem symbiote crawls up the man's neck, causing him to start rapping to the song, before he infects the bus driver by throwing him out the door, who then also starts rapping. The Eminem symbiote spreads around, infecting innocent bystanders (and a dog) and making them cause damage to the town while rapping. During the first part of the video, Eminem, is shown while performing the song inside of a dark room, dressed in all black with only one light shining in the background. In the final scene, after getting possessed by the symbiote, the final victim shown turns into Eminem himself to rap the final chorus, before turning into Marvel Comics' character Venom.\n\nLive performances\nDuring the October 15, 2018 episode of the late-night television show Jimmy Kimmel Live!, Eminem performed the song at the 103rd floor of the Empire State Building in New York City. The performance was filmed on October 6, 2018, and it was part of an eight-minute video, directed by James Larese and featuring Mexican-American comedian Guillermo Rodriguez. The music video was shot on a Google Pixel 3. <a href=\"http:\/\/www.last.fm\/music\/Eminem\/_\/Venom\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

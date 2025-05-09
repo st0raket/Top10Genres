@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:05.440192+00:00",
+  "elapsed": 0.268593,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:05.440192+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2194",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HUNCHO+JACK&format=json&method=track.getInfo&track=Saint"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=HUNCHO+JACK&format=json&method=track.getInfo&track=Saint",
+  "_decoded_content": {
+    "track": {
+      "name": "Saint",
+      "url": "https:\/\/www.last.fm\/music\/Huncho+Jack\/_\/Saint",
+      "duration": "140000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "195907",
+      "playcount": "1525593",
+      "artist": {
+        "name": "Huncho Jack",
+        "url": "https:\/\/www.last.fm\/music\/Huncho+Jack"
+      },
+      "album": {
+        "artist": "Huncho Jack",
+        "title": "Huncho Jack, Jack Huncho",
+        "url": "https:\/\/www.last.fm\/music\/Huncho+Jack\/Huncho+Jack,+Jack+Huncho",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/75ad6634176f2d18788a1dd46b122572.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "travis scott",
+            "url": "https:\/\/www.last.fm\/tag\/travis+scott"
+          },
+          {
+            "name": "quavo",
+            "url": "https:\/\/www.last.fm\/tag\/quavo"
+          },
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "20 Feb 2018, 01:39",
+        "summary": "\u201cSaint\u201d is the sixth track from American rappers Travis Scott and Quavo\u2019s 2017 collaborative album Huncho Jack, Jack Huncho. \n\nPrior to its release, the song had not been previewed by either artist and was first revealed on the 21st of December, 2017, a day before the album\u2019s release.\n\nThe song was produced by Murda Beatz.\n\n <a href=\"http:\/\/www.last.fm\/music\/Huncho+Jack\/_\/Saint\">Read more on Last.fm<\/a>.",
+        "content": "\u201cSaint\u201d is the sixth track from American rappers Travis Scott and Quavo\u2019s 2017 collaborative album Huncho Jack, Jack Huncho. \n\nPrior to its release, the song had not been previewed by either artist and was first revealed on the 21st of December, 2017, a day before the album\u2019s release.\n\nThe song was produced by Murda Beatz.\n\n <a href=\"http:\/\/www.last.fm\/music\/Huncho+Jack\/_\/Saint\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

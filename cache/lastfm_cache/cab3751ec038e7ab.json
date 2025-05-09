@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:44:51.186907+00:00",
+  "elapsed": 0.205091,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:44:51.178965+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2154",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:44:51 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=Into+You"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Ariana+Grande&format=json&method=track.getInfo&track=Into+You",
+  "_decoded_content": {
+    "track": {
+      "name": "Into You",
+      "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Into+You",
+      "duration": "244000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1266822",
+      "playcount": "18722235",
+      "artist": {
+        "name": "Ariana Grande",
+        "mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande"
+      },
+      "album": {
+        "artist": "Ariana Grande",
+        "title": "Dangerous Woman",
+        "url": "https:\/\/www.last.fm\/music\/Ariana+Grande\/Dangerous+Woman",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/51b8cd76546763550af19d0937cae80a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/51b8cd76546763550af19d0937cae80a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/51b8cd76546763550af19d0937cae80a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/51b8cd76546763550af19d0937cae80a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "best of 2016",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+2016"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https:\/\/www.last.fm\/tag\/love+at+first+listen"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "21 May 2016, 20:40",
+        "summary": "\"Into You\" is a song recorded by American singer Ariana Grande, serving as the second single from her third studio album, Dangerous Woman. It was written by Grande, Max Martin, Savan Kotecha, Alexander Kronlund, and Ilya Salmanzadeh with Salmanzadeh and Martin serving as producers. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Into+You\">Read more on Last.fm<\/a>.",
+        "content": "\"Into You\" is a song recorded by American singer Ariana Grande, serving as the second single from her third studio album, Dangerous Woman. It was written by Grande, Max Martin, Savan Kotecha, Alexander Kronlund, and Ilya Salmanzadeh with Salmanzadeh and Martin serving as producers. <a href=\"http:\/\/www.last.fm\/music\/Ariana+Grande\/_\/Into+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

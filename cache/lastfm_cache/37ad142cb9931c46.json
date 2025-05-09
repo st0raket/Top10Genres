@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:30:23.021844+00:00",
+  "elapsed": 0.229059,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:30:23.021844+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "946",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:30:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%D0%9B%D0%A1%D0%9F&format=json&method=track.getInfo&track=%D0%A5%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D1%8F%D0%BA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%D0%9B%D0%A1%D0%9F&format=json&method=track.getInfo&track=%D0%A5%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D1%8F%D0%BA",
+  "_decoded_content": {
+    "track": {
+      "name": "\u0425\u043e\u043b\u043e\u0441\u0442\u044f\u043a",
+      "url": "https:\/\/www.last.fm\/music\/%D0%9B%D0%A1%D0%9F\/_\/%D0%A5%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D1%8F%D0%BA",
+      "duration": "181000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "7068",
+      "playcount": "48656",
+      "artist": {
+        "name": "\u041b\u0421\u041f",
+        "url": "https:\/\/www.last.fm\/music\/%D0%9B%D0%A1%D0%9F"
+      },
+      "album": {
+        "artist": "\u041b\u0421\u041f",
+        "title": "\u0425\u043e\u043b\u043e\u0441\u0442\u044f\u043a",
+        "url": "https:\/\/www.last.fm\/music\/%D0%9B%D0%A1%D0%9F\/%D0%A5%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D1%8F%D0%BA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/e00475bb6394cace7f72577f7cfc89ae.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/e00475bb6394cace7f72577f7cfc89ae.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/e00475bb6394cace7f72577f7cfc89ae.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/e00475bb6394cace7f72577f7cfc89ae.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

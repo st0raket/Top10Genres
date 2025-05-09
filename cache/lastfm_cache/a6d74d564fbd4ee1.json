@@ -1,0 +1,75 @@
+{
+  "created_at": "2025-05-03T14:40:10.707075+00:00",
+  "elapsed": 0.221528,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:10.707075+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "883",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SEVENTEEN&format=json&method=track.getInfo&track=SOS"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=SEVENTEEN&format=json&method=track.getInfo&track=SOS",
+  "_decoded_content": {
+    "track": {
+      "name": "SOS",
+      "url": "https:\/\/www.last.fm\/music\/Seventeen\/_\/SOS",
+      "duration": "192000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "575",
+      "playcount": "4235",
+      "artist": {
+        "name": "Seventeen",
+        "mbid": "7d35e85a-8f73-4481-9c2b-24e142ed2307",
+        "url": "https:\/\/www.last.fm\/music\/Seventeen"
+      },
+      "album": {
+        "artist": "SEVENTEEN",
+        "title": "SEVENTEENTH HEAVEN",
+        "url": "https:\/\/www.last.fm\/music\/SEVENTEEN\/SEVENTEENTH+HEAVEN",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f1c2cc624adc8c9ceb9b7fa39a752639.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f1c2cc624adc8c9ceb9b7fa39a752639.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f1c2cc624adc8c9ceb9b7fa39a752639.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f1c2cc624adc8c9ceb9b7fa39a752639.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

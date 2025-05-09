@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:31.410596+00:00",
+  "elapsed": 0.206652,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:31.410596+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2768",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:31 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pusha+T&format=json&method=track.getInfo&track=Brambleton"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Pusha+T&format=json&method=track.getInfo&track=Brambleton",
+  "_decoded_content": {
+    "track": {
+      "name": "Brambleton",
+      "url": "https:\/\/www.last.fm\/music\/Pusha+T\/_\/Brambleton",
+      "duration": "170000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "179163",
+      "playcount": "1551336",
+      "artist": {
+        "name": "Pusha T",
+        "mbid": "14ecd19f-7121-4192-8549-e5056241a42f",
+        "url": "https:\/\/www.last.fm\/music\/Pusha+T"
+      },
+      "album": {
+        "artist": "Pusha T",
+        "title": "It's Almost Dry",
+        "url": "https:\/\/www.last.fm\/music\/Pusha+T\/It%27s+Almost+Dry",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/87390a1fc122d9412420e0ee7e1769b2.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/87390a1fc122d9412420e0ee7e1769b2.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/87390a1fc122d9412420e0ee7e1769b2.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/87390a1fc122d9412420e0ee7e1769b2.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "seen live",
+            "url": "https:\/\/www.last.fm\/tag\/seen+live"
+          },
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Oct 2022, 00:29",
+        "summary": "In an April 11, 2022 interview with Charlamagne tha God, Pusha T revealed \u201cBrambleton,\u201d a deep cut from IT\u2019S ALMOST DRY. It was described as a \u201cvery personal record.\u201d\n\nIn the song, Push addresses his relationship with his former manager, Anthony \u2018Geezy\u2019 Gonzales, and how he felt after watching the latter\u2019s infamous March 2020 VladTV interview, where he talked about managing Clipse\u2014Pusha T and No Malice\u2019s duo, the song \u201cS.N.I.T.C.H.\u201d and his drug-dealing past. <a href=\"http:\/\/www.last.fm\/music\/Pusha+T\/_\/Brambleton\">Read more on Last.fm<\/a>.",
+        "content": "In an April 11, 2022 interview with Charlamagne tha God, Pusha T revealed \u201cBrambleton,\u201d a deep cut from IT\u2019S ALMOST DRY. It was described as a \u201cvery personal record.\u201d\n\nIn the song, Push addresses his relationship with his former manager, Anthony \u2018Geezy\u2019 Gonzales, and how he felt after watching the latter\u2019s infamous March 2020 VladTV interview, where he talked about managing Clipse\u2014Pusha T and No Malice\u2019s duo, the song \u201cS.N.I.T.C.H.\u201d and his drug-dealing past.\n\nThe title comes from Brambleton, a street in Norfolk, Virginia, where Push\u2019s late mother used to work as a pharmacist technician during his early life.\n\n\u201cBrambleton\u201d debuted and peaked at #100 on the Billboard Hot 100 for the chart week ending May 7, 2022. <a href=\"http:\/\/www.last.fm\/music\/Pusha+T\/_\/Brambleton\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:34:46.529451+00:00",
+  "elapsed": 0.180927,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:46.529451+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2246",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%2ANSYNC&format=json&method=track.getInfo&track=Merry+Christmas%2C+Happy+Holidays"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=%2ANSYNC&format=json&method=track.getInfo&track=Merry+Christmas%2C+Happy+Holidays",
+  "_decoded_content": {
+    "track": {
+      "name": "Merry Christmas, Happy Holidays",
+      "mbid": "45ebdfb3-b6e1-4d55-9836-af5dd373f112",
+      "url": "https:\/\/www.last.fm\/music\/%2ANSYNC\/_\/Merry+Christmas,+Happy+Holidays",
+      "duration": "252000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "349804",
+      "playcount": "1095239",
+      "artist": {
+        "name": "*NSYNC",
+        "mbid": "603ba565-3967-4be1-931e-9cb945394e86",
+        "url": "https:\/\/www.last.fm\/music\/%2ANSYNC"
+      },
+      "album": {
+        "artist": "*NSYNC",
+        "title": "Home For Christmas",
+        "mbid": "91ac7ef8-193b-48ec-8a12-9c10b1d03a10",
+        "url": "https:\/\/www.last.fm\/music\/%2ANSYNC\/Home+For+Christmas",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/47d78f5b71a203e0b048815c5c6b3482.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/47d78f5b71a203e0b048815c5c6b3482.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/47d78f5b71a203e0b048815c5c6b3482.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/47d78f5b71a203e0b048815c5c6b3482.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "4"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "90s",
+            "url": "https:\/\/www.last.fm\/tag\/90s"
+          },
+          {
+            "name": "male vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/male+vocalists"
+          },
+          {
+            "name": "Christmas Music",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Music"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Dec 2021, 04:50",
+        "summary": "\"Merry Christmas, Happy Holidays\" is a song by American boy band *NSYNC. It was released on November 29, 1998 as the first and only single from their second studio album, Home for Christmas. The song charted at #37 on the Top 40 Mainstream chart. <a href=\"http:\/\/www.last.fm\/music\/%2ANSYNC\/_\/Merry+Christmas,+Happy+Holidays\">Read more on Last.fm<\/a>.",
+        "content": "\"Merry Christmas, Happy Holidays\" is a song by American boy band *NSYNC. It was released on November 29, 1998 as the first and only single from their second studio album, Home for Christmas. The song charted at #37 on the Top 40 Mainstream chart. <a href=\"http:\/\/www.last.fm\/music\/%2ANSYNC\/_\/Merry+Christmas,+Happy+Holidays\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

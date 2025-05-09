@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:29:13.356318+00:00",
+  "elapsed": 0.201597,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:13.356318+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2119",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:13 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Inside+Out"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Camila+Cabello&format=json&method=track.getInfo&track=Inside+Out",
+  "_decoded_content": {
+    "track": {
+      "name": "Inside Out",
+      "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Inside+Out",
+      "duration": "182000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "99336",
+      "playcount": "813561",
+      "artist": {
+        "name": "Camila Cabello",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello"
+      },
+      "album": {
+        "artist": "Camila Cabello",
+        "title": "Camila",
+        "url": "https:\/\/www.last.fm\/music\/Camila+Cabello\/Camila",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dbf7ef5245ed3a19598eac508ba0690d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "latin",
+            "url": "https:\/\/www.last.fm\/tag\/latin"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Feb 2018, 04:10",
+        "summary": "\"Inside Out\" is the fifth track off Camila Cabello\u2019s debut studio album, Camila. \n\nThe newspaper The Sun wrote about the song: \"This sunny reggaeton tune features a bouncy and danceable melody and suitably playful lyrics to boot. She sings: \u201cI wanna love you inside out, show me what your inside \u2018bout.\u201d <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Inside+Out\">Read more on Last.fm<\/a>.",
+        "content": "\"Inside Out\" is the fifth track off Camila Cabello\u2019s debut studio album, Camila. \n\nThe newspaper The Sun wrote about the song: \"This sunny reggaeton tune features a bouncy and danceable melody and suitably playful lyrics to boot. She sings: \u201cI wanna love you inside out, show me what your inside \u2018bout.\u201d <a href=\"http:\/\/www.last.fm\/music\/Camila+Cabello\/_\/Inside+Out\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

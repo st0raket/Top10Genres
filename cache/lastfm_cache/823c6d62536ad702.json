@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:09.107516+00:00",
+  "elapsed": 0.181561,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:09.107516+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3487",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Major+Lazer&format=json&method=track.getInfo&track=Cold+Water"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Major+Lazer&format=json&method=track.getInfo&track=Cold+Water",
+  "_decoded_content": {
+    "track": {
+      "name": "Cold Water",
+      "url": "https:\/\/www.last.fm\/music\/Major+Lazer\/_\/Cold+Water",
+      "duration": "183000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "291947",
+      "playcount": "1783788",
+      "artist": {
+        "name": "Major Lazer",
+        "mbid": "75be165a-ad83-4d12-bd28-f589a15c479f",
+        "url": "https:\/\/www.last.fm\/music\/Major+Lazer"
+      },
+      "album": {
+        "artist": "Major Lazer",
+        "title": "Cold Water",
+        "url": "https:\/\/www.last.fm\/music\/Major+Lazer\/Cold+Water",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/39bd07f6144083dbec5a65b6b759c378.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/39bd07f6144083dbec5a65b6b759c378.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/39bd07f6144083dbec5a65b6b759c378.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/39bd07f6144083dbec5a65b6b759c378.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "justin bieber",
+            "url": "https:\/\/www.last.fm\/tag\/justin+bieber"
+          },
+          {
+            "name": "M\u00d8",
+            "url": "https:\/\/www.last.fm\/tag\/M%C3%98"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "electro",
+            "url": "https:\/\/www.last.fm\/tag\/electro"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "26 Feb 2025, 14:49",
+        "summary": "\"Cold Water\" is a song by American electronic dance music production group Major Lazer, featuring vocals from Canadian singer Justin Bieber and Danish singer M\u00d8. The song was released on July 22, 2016, as the lead single from their debut greatest hits album, Major Lazer Essentials.\n\n\"Cold Water\" peaked at number one on the UK Singles Chart and number two on the US Billboard Hot 100. The song also reached number one in Australia, Austria, Belgium (Wallonia) <a href=\"http:\/\/www.last.fm\/music\/Major+Lazer\/_\/Cold+Water\">Read more on Last.fm<\/a>.",
+        "content": "\"Cold Water\" is a song by American electronic dance music production group Major Lazer, featuring vocals from Canadian singer Justin Bieber and Danish singer M\u00d8. The song was released on July 22, 2016, as the lead single from their debut greatest hits album, Major Lazer Essentials.\n\n\"Cold Water\" peaked at number one on the UK Singles Chart and number two on the US Billboard Hot 100. The song also reached number one in Australia, Austria, Belgium (Wallonia), Brazil, Canada, Finland, Ireland, Italy, the Netherlands, New Zealand, Norway, Portugal, Sweden and Switzerland; as well as the top 10 in Belgium (Flanders), Denmark, France, Germany, Greece, Iceland, Israel, Lebanon, Luxembourg, Mexico, Scotland, South Africa and Spain.\n\nThe day before Diplo arrived in New York City in May 2016, he was \"more than a little surprised\" when Justin Bieber sent a message on Twitter about the track, \"Cold Water\", asking when it would be coming out. \"That was not planned at all,\" Diplo said. According to Diplo, the song wasn't really done, when Bieber already expressed his excitement. \"It's actually very real. Twitter is the only reason I know he's excited about the song. I don't have his number, so he Twitters at me,\" Diplo added. On May 30, Diplo announced Major Lazer's collaboration with Bieber and M\u00d8. At the time, he did not give a specific release date, only mentioning it would be released \"in a couple of weeks\" and that it would premiere through Beats 1. <a href=\"http:\/\/www.last.fm\/music\/Major+Lazer\/_\/Cold+Water\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

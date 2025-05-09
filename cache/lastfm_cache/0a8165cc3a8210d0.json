@@ -1,0 +1,72 @@
+{
+  "created_at": "2025-05-03T14:41:22.877283+00:00",
+  "elapsed": 0.191006,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:22.877283+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "657",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Monetochka&format=json&method=track.getInfo&track=%D0%9A%D0%B8%D1%81+%D0%9A%D0%B8%D1%81+%D0%9A%D0%B8%D1%81"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Monetochka&format=json&method=track.getInfo&track=%D0%9A%D0%B8%D1%81+%D0%9A%D0%B8%D1%81+%D0%9A%D0%B8%D1%81",
+  "_decoded_content": {
+    "track": {
+      "name": "\u041a\u0438\u0441 \u041a\u0438\u0441 \u041a\u0438\u0441",
+      "url": "https:\/\/www.last.fm\/music\/MONETOCHKA\/_\/%D0%9A%D0%B8%D1%81+%D0%9A%D0%B8%D1%81+%D0%9A%D0%B8%D1%81",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "6732",
+      "playcount": "38502",
+      "artist": {
+        "name": "MONETOCHKA",
+        "url": "https:\/\/www.last.fm\/music\/MONETOCHKA"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "pop rap",
+            "url": "https:\/\/www.last.fm\/tag\/pop+rap"
+          },
+          {
+            "name": "feminism",
+            "url": "https:\/\/www.last.fm\/tag\/feminism"
+          },
+          {
+            "name": "Conscious Hip Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Conscious+Hip+Hop"
+          },
+          {
+            "name": "noize mc",
+            "url": "https:\/\/www.last.fm\/tag\/noize+mc"
+          }
+        ]
+      }
+    }
+  }
+}

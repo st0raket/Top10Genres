@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:34.903769+00:00",
+  "elapsed": 0.204663,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:34.903769+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3060",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:35 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=ZEN"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=JENNIE&format=json&method=track.getInfo&track=ZEN",
+  "_decoded_content": {
+    "track": {
+      "name": "ZEN",
+      "url": "https:\/\/www.last.fm\/music\/Jennie\/_\/ZEN",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "158529",
+      "playcount": "1606949",
+      "artist": {
+        "name": "Jennie",
+        "mbid": "d32de3a1-01f0-430e-859a-72307724041c",
+        "url": "https:\/\/www.last.fm\/music\/Jennie"
+      },
+      "album": {
+        "artist": "Jennie",
+        "title": "Ruby",
+        "url": "https:\/\/www.last.fm\/music\/Jennie\/Ruby",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/96d5b9adcdc061748bbfb29f292558d7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/96d5b9adcdc061748bbfb29f292558d7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/96d5b9adcdc061748bbfb29f292558d7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/96d5b9adcdc061748bbfb29f292558d7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "peter",
+            "url": "https:\/\/www.last.fm\/tag\/peter"
+          },
+          {
+            "name": "experimental",
+            "url": "https:\/\/www.last.fm\/tag\/experimental"
+          },
+          {
+            "name": "future bass",
+            "url": "https:\/\/www.last.fm\/tag\/future+bass"
+          },
+          {
+            "name": "hybrid trap",
+            "url": "https:\/\/www.last.fm\/tag\/hybrid+trap"
+          },
+          {
+            "name": "Deconstructed Club",
+            "url": "https:\/\/www.last.fm\/tag\/Deconstructed+Club"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "25 Jan 2025, 06:58",
+        "summary": "\u201cZen\u201d is a promotional single by South Korean singer and rapper Jennie, released on January 24, 2025, as part of her debut studio album, Ruby, which came out on March 7, 2025. The track showcases Jennie\u2019s vocal prowess and self-assuredness, blending a tribal beat with modern pop elements.   The lyrics of \u201cZen\u201d emphasize themes of empowerment and self-confidence. Lines such as \u201cNobody gon\u2019 move my soul, gon\u2019 move my aura, my matter\u201d highlight Jennie\u2019s assertion of her individuality and resilience.   <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/ZEN\">Read more on Last.fm<\/a>.",
+        "content": "\u201cZen\u201d is a promotional single by South Korean singer and rapper Jennie, released on January 24, 2025, as part of her debut studio album, Ruby, which came out on March 7, 2025. The track showcases Jennie\u2019s vocal prowess and self-assuredness, blending a tribal beat with modern pop elements.   The lyrics of \u201cZen\u201d emphasize themes of empowerment and self-confidence. Lines such as \u201cNobody gon\u2019 move my soul, gon\u2019 move my aura, my matter\u201d highlight Jennie\u2019s assertion of her individuality and resilience.  \nThe music video for \u201cZen\u201d features cosmic visuals and cultural symbolism, reflecting the song\u2019s themes of empowerment and self-assurance.  \n\nThe release of \u201cZen\u201d preceded Jennie\u2019s album Ruby, which includes collaborations with artists such as Childish Gambino, Doechii, Dominic Fike, FKJ, Dua Lipa, and Kali Uchis.  To promote the album, Jennie embarked on a short tour called the Ruby Experience, with performances in Los Angeles (March 6), New York City (March 10), and Seoul (March 15). <a href=\"http:\/\/www.last.fm\/music\/Jennie\/_\/ZEN\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

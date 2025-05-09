@@ -1,0 +1,68 @@
+{
+  "created_at": "2025-05-03T14:43:23.363155+00:00",
+  "elapsed": 0.219034,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:23.363155+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "568",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:23 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eliza+Rose&format=json&method=track.getInfo&track=B.O.T.A.+%28Baddest+Of+Them+All%29+-+Edit"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Eliza+Rose&format=json&method=track.getInfo&track=B.O.T.A.+%28Baddest+Of+Them+All%29+-+Edit",
+  "_decoded_content": {
+    "track": {
+      "name": "B.O.T.A. (Baddest Of Them All) - Edit",
+      "url": "https:\/\/www.last.fm\/music\/Eliza+Rose\/_\/B.O.T.A.+(Baddest+Of+Them+All)+-+Edit",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "349454",
+      "playcount": "2757085",
+      "artist": {
+        "name": "Eliza Rose",
+        "url": "https:\/\/www.last.fm\/music\/Eliza+Rose"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "london",
+            "url": "https:\/\/www.last.fm\/tag\/london"
+          },
+          {
+            "name": "EDM",
+            "url": "https:\/\/www.last.fm\/tag\/EDM"
+          }
+        ]
+      }
+    }
+  }
+}

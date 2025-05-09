@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:45:09.740208+00:00",
+  "elapsed": 0.370933,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:45:09.740208+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3751",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:45:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Famous"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kanye+West&format=json&method=track.getInfo&track=Famous",
+  "_decoded_content": {
+    "track": {
+      "name": "Famous",
+      "url": "https:\/\/www.last.fm\/music\/Kanye+West\/_\/Famous",
+      "duration": "196000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "951440",
+      "playcount": "12648173",
+      "artist": {
+        "name": "Kanye West",
+        "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West"
+      },
+      "album": {
+        "artist": "Kanye West",
+        "title": "Famous",
+        "url": "https:\/\/www.last.fm\/music\/Kanye+West\/Famous",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/549375aec2053050dea494a17498cd44.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/549375aec2053050dea494a17498cd44.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/549375aec2053050dea494a17498cd44.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/549375aec2053050dea494a17498cd44.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/hip+hop"
+          },
+          {
+            "name": "Rihanna",
+            "url": "https:\/\/www.last.fm\/tag\/Rihanna"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "30 Apr 2016, 05:56",
+        "summary": "First radio single for The Life of Pablo, the song was criticized over it's lyrics about Taylor Swift's rise in popularity after a Kanye diss, and was even called out during a Grammys ceremony. \n\nThe song's music video premiered at a Tidal exclusive event at The Forum in Inglewood, California on June 24, 2016. The video begins with a camera passing slowly over the nude, sleeping bodies of George W. Bush, Donald Trump, Anna Wintour, Rihanna, Chris Brown, Taylor Swift, Kanye West, Kim Kardashian, Ray J. <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Famous\">Read more on Last.fm<\/a>.",
+        "content": "First radio single for The Life of Pablo, the song was criticized over it's lyrics about Taylor Swift's rise in popularity after a Kanye diss, and was even called out during a Grammys ceremony. \n\nThe song's music video premiered at a Tidal exclusive event at The Forum in Inglewood, California on June 24, 2016. The video begins with a camera passing slowly over the nude, sleeping bodies of George W. Bush, Donald Trump, Anna Wintour, Rihanna, Chris Brown, Taylor Swift, Kanye West, Kim Kardashian, Ray J., Amber Rose, Caitlyn Jenner, and Bill Cosby. At the end of the video, the camera pans out to show all of the sleeping bodies at the same time as West wakes up from his slumber. All of the celebrities are synthetic bodies.\n\nTwo days prior to the video's release, West showed the video to Dirk Standen of Vanity Fair over Skype while the video was still in its final editing stages. The video was filmed over a period of three months and went through four different versions prior to the finalized version. West did not reveal which of the celebrities' bodies in the video were real and which ones were prosthetic; however he stated that the video was \"not in support or [against] any of [the people in the video]\" and was merely \"a comment on fame\". He also stated that he received his wife Kardashian's permission. Days after its release, E! Online editor Corinne Heller commented \"Swift is the main reason the \"Famous\" video was so anticipated,\" however, it received \"almost no reactions.\"\n\nVincent Desiderio\u2019s painting Sleep is the visual inspiration for the video.\n\nThe video of the song was uploaded to YouTube on July 1, 2016. \"Father Stretch My Hands Pt. 1\" is also featured in the video.\n\n <a href=\"http:\/\/www.last.fm\/music\/Kanye+West\/_\/Famous\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

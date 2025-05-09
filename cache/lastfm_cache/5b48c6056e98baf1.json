@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:50.540304+00:00",
+  "elapsed": 0.199687,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:50.540304+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2219",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Stay+High"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Stay+High",
+  "_decoded_content": {
+    "track": {
+      "name": "Stay High",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Stay+High",
+      "duration": "168000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "250988",
+      "playcount": "4059149",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "Legends Never Die",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/Legends+Never+Die",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a62dcb0de08359723c940db46c034e71.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a62dcb0de08359723c940db46c034e71.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a62dcb0de08359723c940db46c034e71.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a62dcb0de08359723c940db46c034e71.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Awesome",
+            "url": "https:\/\/www.last.fm\/tag\/Awesome"
+          },
+          {
+            "name": "addiction",
+            "url": "https:\/\/www.last.fm\/tag\/addiction"
+          },
+          {
+            "name": "depression",
+            "url": "https:\/\/www.last.fm\/tag\/depression"
+          },
+          {
+            "name": "Favorite",
+            "url": "https:\/\/www.last.fm\/tag\/Favorite"
+          },
+          {
+            "name": "posthumous",
+            "url": "https:\/\/www.last.fm\/tag\/posthumous"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 May 2021, 15:50",
+        "summary": "On \u201cStay High,\u201d Juice WRLD details his substance addiction as he balances his low points in life by outweighing them by getting high. Dropping his usual references to weapons, drugs, and expensive items, he continues the theme of Legends Never Die.\n\n\u201cStay High\u201d debuted at #34 on the Billboard charts during the chart week of July 25th, 2020. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Stay+High\">Read more on Last.fm<\/a>.",
+        "content": "On \u201cStay High,\u201d Juice WRLD details his substance addiction as he balances his low points in life by outweighing them by getting high. Dropping his usual references to weapons, drugs, and expensive items, he continues the theme of Legends Never Die.\n\n\u201cStay High\u201d debuted at #34 on the Billboard charts during the chart week of July 25th, 2020. <a href=\"http:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Stay+High\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

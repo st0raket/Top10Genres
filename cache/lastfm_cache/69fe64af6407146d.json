@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:40.606740+00:00",
+  "elapsed": 0.182884,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:40.606740+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2970",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:40 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Die+Hard"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Die+Hard",
+  "_decoded_content": {
+    "track": {
+      "name": "Die Hard",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Die+Hard",
+      "duration": "239000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "871911",
+      "playcount": "12404027",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "Mr. Morale & the Big Steppers",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/Mr.+Morale+&+the+Big+Steppers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2022",
+            "url": "https:\/\/www.last.fm\/tag\/2022"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 May 2022, 19:17",
+        "summary": "In a very Nipsey track, Kendrick opens up about his insecurities and struggles involving honesty and sharing in a relationship. He is having doubts as to whether he will still be loved if he opens up, an uncertainty probably built by past traumas and relationships.\n\nHowever, by the end of the song, he accepts that he must overcome his past to reach his best form and be a full-time lover, by letting go and realizing the current relationship is not as empty and this lover is not as unloyal as the ones in the past. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Die+Hard\">Read more on Last.fm<\/a>.",
+        "content": "In a very Nipsey track, Kendrick opens up about his insecurities and struggles involving honesty and sharing in a relationship. He is having doubts as to whether he will still be loved if he opens up, an uncertainty probably built by past traumas and relationships.\n\nHowever, by the end of the song, he accepts that he must overcome his past to reach his best form and be a full-time lover, by letting go and realizing the current relationship is not as empty and this lover is not as unloyal as the ones in the past.\n\n\"I got some regrets\nBut my past won\u2019t keep me from my best.\"\n\nAmanda Reifer is a Barbos-born singer and songwriter. She began her career as the lead singer of the band Cover Drive and is now signed to Republic Records.\n\nShe met up with Wonderland Magazine in early February to answer a few questions about her life and song, \u2018Bag\u2019. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Die+Hard\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

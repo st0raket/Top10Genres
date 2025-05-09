@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:37:41.225634+00:00",
+  "elapsed": 0.194269,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:37:41.225634+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3046",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:37:41 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Silent+Hill"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=Silent+Hill",
+  "_decoded_content": {
+    "track": {
+      "name": "Silent Hill",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Silent+Hill",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "609924",
+      "playcount": "6196665",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "Mr. Morale & the Big Steppers",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/Mr.+Morale+&+the+Big+Steppers",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/98050f67524ffee7af6edd314b767ac4.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "MySpotigramBot",
+            "url": "https:\/\/www.last.fm\/tag\/MySpotigramBot"
+          },
+          {
+            "name": "kodak black",
+            "url": "https:\/\/www.last.fm\/tag\/kodak+black"
+          },
+          {
+            "name": "Hip-Hop",
+            "url": "https:\/\/www.last.fm\/tag\/Hip-Hop"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "trap",
+            "url": "https:\/\/www.last.fm\/tag\/trap"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Jun 2022, 00:26",
+        "summary": "In \u201cSilent Hill\u201d, Kendrick Lamar recruits Florida native Kodak Black for a mellow vibed trap song where the artists rap about their money, their life problems, and thereof having fake friendships.\n\nHours prior to the song\u2019s release, rumors of Kodak\u2019s appearance on \"Mr. Morale & The Big Steppers\" had begun to circulate, however, it wasn\u2019t confirmed until its official release.\n\nThe song\u2019s title, \u201cSilent Hill\u201d could be taken verbatim \u2014 in songs such as \u201cSavior <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Silent+Hill\">Read more on Last.fm<\/a>.",
+        "content": "In \u201cSilent Hill\u201d, Kendrick Lamar recruits Florida native Kodak Black for a mellow vibed trap song where the artists rap about their money, their life problems, and thereof having fake friendships.\n\nHours prior to the song\u2019s release, rumors of Kodak\u2019s appearance on \"Mr. Morale & The Big Steppers\" had begun to circulate, however, it wasn\u2019t confirmed until its official release.\n\nThe song\u2019s title, \u201cSilent Hill\u201d could be taken verbatim \u2014 in songs such as \u201cSavior,\u201d Kendrick makes mention of silence as a mechanism for his individual mental health and explicitly cites a \u201cvalley of silence.\u201d The song\u2019s title could again present the connotation behind Kendrick\u2019s lyrics as he speaks about his individual silent integrity.\n\nSilent Hill is also the name of a famous survival horror game franchise, created by Konami. Kendrick could also be comparing the horror of his outcome to the fictional horror of the series. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/Silent+Hill\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

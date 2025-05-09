@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:35:53.569630+00:00",
+  "elapsed": 0.225875,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:53.569630+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "3196",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:53 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=NDA"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Billie+Eilish&format=json&method=track.getInfo&track=NDA",
+  "_decoded_content": {
+    "track": {
+      "name": "NDA",
+      "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/_\/NDA",
+      "duration": "195000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "678068",
+      "playcount": "9590000",
+      "artist": {
+        "name": "Billie Eilish",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish"
+      },
+      "album": {
+        "artist": "Billie Eilish",
+        "title": "NDA",
+        "url": "https:\/\/www.last.fm\/music\/Billie+Eilish\/NDA",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/393a74a3e133fefdedcc901a9e941723.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/393a74a3e133fefdedcc901a9e941723.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/393a74a3e133fefdedcc901a9e941723.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/393a74a3e133fefdedcc901a9e941723.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "downtempo",
+            "url": "https:\/\/www.last.fm\/tag\/downtempo"
+          },
+          {
+            "name": "Jazz-Pop",
+            "url": "https:\/\/www.last.fm\/tag\/Jazz-Pop"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "08 Jul 2021, 13:58",
+        "summary": "\"NDA\" touches on themes of love, loss, fame and self-preservation, presenting a raw and honest insight into Billie Eilish's personal life.\n\nThe song seems to be about the price of fame and the lengths she has gone to protect her privacy and herself. The verses depict her experiences dealing with stalkers and harassment, which forced her to buy a secret house and limit the number of people she allows in her life. She also highlights her success in the music industry but reveals that it comes with a price where she can hardly go outside <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/NDA\">Read more on Last.fm<\/a>.",
+        "content": "\"NDA\" touches on themes of love, loss, fame and self-preservation, presenting a raw and honest insight into Billie Eilish's personal life.\n\nThe song seems to be about the price of fame and the lengths she has gone to protect her privacy and herself. The verses depict her experiences dealing with stalkers and harassment, which forced her to buy a secret house and limit the number of people she allows in her life. She also highlights her success in the music industry but reveals that it comes with a price where she can hardly go outside, and this has made her rethink her future.\n\nIn the chorus, she talks about a past relationship where she seems to be reflecting on the struggles of letting go and moving on from someone she had a deep connection with. She acknowledges the desire to keep holding on even when it's not possible and the fear of losing the person completely.\n\nIn the outro, she contemplates whether she crossed a line with someone and sold her heart at a great cost. The line \"I saw stars\" could suggest that she's dizzy from all the attention and drama that comes with fame, or she experienced physical pain from someone close to her. <a href=\"http:\/\/www.last.fm\/music\/Billie+Eilish\/_\/NDA\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

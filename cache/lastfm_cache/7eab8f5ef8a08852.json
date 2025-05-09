@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:09.065518+00:00",
+  "elapsed": 0.204812,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:09.065518+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2266",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:09 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=peekaboo"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kendrick+Lamar&format=json&method=track.getInfo&track=peekaboo",
+  "_decoded_content": {
+    "track": {
+      "name": "peekaboo",
+      "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/peekaboo",
+      "duration": "156000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "280607",
+      "playcount": "617277",
+      "artist": {
+        "name": "Kendrick Lamar",
+        "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar"
+      },
+      "album": {
+        "artist": "Kendrick Lamar",
+        "title": "GNX",
+        "url": "https:\/\/www.last.fm\/music\/Kendrick+Lamar\/GNX",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a79564a9768d05272682b252deb02079.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a79564a9768d05272682b252deb02079.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a79564a9768d05272682b252deb02079.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a79564a9768d05272682b252deb02079.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "kendrick lamar",
+            "url": "https:\/\/www.last.fm\/tag\/kendrick+lamar"
+          },
+          {
+            "name": "west coast hip hop",
+            "url": "https:\/\/www.last.fm\/tag\/west+coast+hip+hop"
+          },
+          {
+            "name": "2024",
+            "url": "https:\/\/www.last.fm\/tag\/2024"
+          },
+          {
+            "name": "nervous music",
+            "url": "https:\/\/www.last.fm\/tag\/nervous+music"
+          },
+          {
+            "name": "Ratchet Music",
+            "url": "https:\/\/www.last.fm\/tag\/Ratchet+Music"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Nov 2024, 23:42",
+        "summary": "\u201cpeekaboo\u201c, the ninth track of GNX, serves as another callout to the industry, more specifically to rappers who\u2019s lyrics he feels are hollow and devoid of any meaning.\n\nHe drives the point in by utilizing various bars including double entendres, references to pop culture and mentions to things locals to Compton would know well. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/peekaboo\">Read more on Last.fm<\/a>.",
+        "content": "\u201cpeekaboo\u201c, the ninth track of GNX, serves as another callout to the industry, more specifically to rappers who\u2019s lyrics he feels are hollow and devoid of any meaning.\n\nHe drives the point in by utilizing various bars including double entendres, references to pop culture and mentions to things locals to Compton would know well. <a href=\"http:\/\/www.last.fm\/music\/Kendrick+Lamar\/_\/peekaboo\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

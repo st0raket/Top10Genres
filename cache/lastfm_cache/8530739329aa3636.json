@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:40:55.935332+00:00",
+  "elapsed": 0.228474,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:40:55.935332+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2677",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:40:56 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Madison+Beer&format=json&method=track.getInfo&track=Make+You+Mine"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Madison+Beer&format=json&method=track.getInfo&track=Make+You+Mine",
+  "_decoded_content": {
+    "track": {
+      "name": "Make You Mine",
+      "url": "https:\/\/www.last.fm\/music\/Madison+Beer\/_\/Make+You+Mine",
+      "duration": "221000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "482395",
+      "playcount": "6638624",
+      "artist": {
+        "name": "Madison Beer",
+        "mbid": "749ef494-8518-4b49-b685-63d8e728d25c",
+        "url": "https:\/\/www.last.fm\/music\/Madison+Beer"
+      },
+      "album": {
+        "artist": "Madison Beer",
+        "title": "Make You Mine",
+        "url": "https:\/\/www.last.fm\/music\/Madison+Beer\/Make+You+Mine",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/9bb6e20e6ed25ef394ad42e39eed553b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/9bb6e20e6ed25ef394ad42e39eed553b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/9bb6e20e6ed25ef394ad42e39eed553b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/9bb6e20e6ed25ef394ad42e39eed553b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "House",
+            "url": "https:\/\/www.last.fm\/tag\/House"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "Melodic House",
+            "url": "https:\/\/www.last.fm\/tag\/Melodic+House"
+          },
+          {
+            "name": "electronic",
+            "url": "https:\/\/www.last.fm\/tag\/electronic"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "15 Feb 2024, 01:51",
+        "summary": "\u201cMake You Mine\u201d is a Grammy-nominated song released by Madison Beer on February 9th, 2024. On February 1st, 2024, Madison uploaded a video of her listening to a song in which you can hear the lyrics \"I wanna feel\", which were later confirmed to be lyrics to Make You Mine.\n\nOn February 6th, 2024, Madison uploaded a video teasing her single, \"Make You Mine\" releasing that Friday. On February 7, she stated during an Instagram livestream that 'Make You Mine' and another single would be both part of a deluxe version for 'Silence Between Songs'. <a href=\"http:\/\/www.last.fm\/music\/Madison+Beer\/_\/Make+You+Mine\">Read more on Last.fm<\/a>.",
+        "content": "\u201cMake You Mine\u201d is a Grammy-nominated song released by Madison Beer on February 9th, 2024. On February 1st, 2024, Madison uploaded a video of her listening to a song in which you can hear the lyrics \"I wanna feel\", which were later confirmed to be lyrics to Make You Mine.\n\nOn February 6th, 2024, Madison uploaded a video teasing her single, \"Make You Mine\" releasing that Friday. On February 7, she stated during an Instagram livestream that 'Make You Mine' and another single would be both part of a deluxe version for 'Silence Between Songs'. <a href=\"http:\/\/www.last.fm\/music\/Madison+Beer\/_\/Make+You+Mine\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

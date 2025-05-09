@@ -1,0 +1,89 @@
+{
+  "created_at": "2025-05-03T14:31:13.766268+00:00",
+  "elapsed": 0.22784,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:13.766268+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1796",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:14 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=My+Bad"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=My+Bad",
+  "_decoded_content": {
+    "track": {
+      "name": "My Bad",
+      "url": "https:\/\/www.last.fm\/music\/Khalid\/_\/My+Bad",
+      "duration": "166000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "149529",
+      "playcount": "1044791",
+      "artist": {
+        "name": "Khalid",
+        "mbid": "c6bfb05d-f570-46c8-98e1-e25441189770",
+        "url": "https:\/\/www.last.fm\/music\/Khalid"
+      },
+      "album": {
+        "artist": "Khalid",
+        "title": "My Bad",
+        "url": "https:\/\/www.last.fm\/music\/Khalid\/My+Bad",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/0f1eace57895151792bbd00b05c46bfe.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/0f1eace57895151792bbd00b05c46bfe.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/0f1eace57895151792bbd00b05c46bfe.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/0f1eace57895151792bbd00b05c46bfe.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "american",
+            "url": "https:\/\/www.last.fm\/tag\/american"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Dec 2021, 17:53",
+        "summary": "\"My Bad\" is a song by American singer Khalid. It was released as a promotional single on March 7, 2019 off his second studio album, Free Spirit.The song was called an \"apology track\", with Khalid saying sorry for not replying to a person's text. <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/My+Bad\">Read more on Last.fm<\/a>.",
+        "content": "\"My Bad\" is a song by American singer Khalid. It was released as a promotional single on March 7, 2019 off his second studio album, Free Spirit.The song was called an \"apology track\", with Khalid saying sorry for not replying to a person's text. <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/My+Bad\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

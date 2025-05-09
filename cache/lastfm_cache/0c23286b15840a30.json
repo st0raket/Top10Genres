@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:41:15.666741+00:00",
+  "elapsed": 0.238621,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:41:15.666741+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1739",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:41:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kaleen&format=json&method=track.getInfo&track=We+Will+Rave"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Kaleen&format=json&method=track.getInfo&track=We+Will+Rave",
+  "_decoded_content": {
+    "track": {
+      "name": "We Will Rave",
+      "url": "https:\/\/www.last.fm\/music\/Kaleen\/_\/We+Will+Rave",
+      "duration": "184000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "49945",
+      "playcount": "825898",
+      "artist": {
+        "name": "Kaleen",
+        "url": "https:\/\/www.last.fm\/music\/Kaleen"
+      },
+      "album": {
+        "artist": "Kaleen",
+        "title": "We Will Rave",
+        "url": "https:\/\/www.last.fm\/music\/Kaleen\/We+Will+Rave",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/79ac0f4685dc3195e69e0bb0d5c64577.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/79ac0f4685dc3195e69e0bb0d5c64577.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/79ac0f4685dc3195e69e0bb0d5c64577.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/79ac0f4685dc3195e69e0bb0d5c64577.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Eurovision Song Contest",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+Song+Contest"
+          },
+          {
+            "name": "eurodance",
+            "url": "https:\/\/www.last.fm\/tag\/eurodance"
+          },
+          {
+            "name": "Eurovision",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision"
+          },
+          {
+            "name": "ESC",
+            "url": "https:\/\/www.last.fm\/tag\/ESC"
+          },
+          {
+            "name": "Eurovision 2024",
+            "url": "https:\/\/www.last.fm\/tag\/Eurovision+2024"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "14 Apr 2024, 03:10",
+        "summary": "Kaleen will represent Austria at the Eurovision Song Contest 2024 in Malm\u00f6, with the song \u201cWe Will Rave\u201d. <a href=\"http:\/\/www.last.fm\/music\/Kaleen\/_\/We+Will+Rave\">Read more on Last.fm<\/a>.",
+        "content": "Kaleen will represent Austria at the Eurovision Song Contest 2024 in Malm\u00f6, with the song \u201cWe Will Rave\u201d. <a href=\"http:\/\/www.last.fm\/music\/Kaleen\/_\/We+Will+Rave\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

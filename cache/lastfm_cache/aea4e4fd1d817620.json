@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:19.191666+00:00",
+  "elapsed": 0.197121,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:19.191666+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2268",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:19 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Demi+Lovato&format=json&method=track.getInfo&track=Sorry+Not+Sorry"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Demi+Lovato&format=json&method=track.getInfo&track=Sorry+Not+Sorry",
+  "_decoded_content": {
+    "track": {
+      "name": "Sorry Not Sorry",
+      "url": "https:\/\/www.last.fm\/music\/Demi+Lovato\/_\/Sorry+Not+Sorry",
+      "duration": "203000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "589522",
+      "playcount": "6063298",
+      "artist": {
+        "name": "Demi Lovato",
+        "mbid": "faf4cefb-036c-4c88-b93a-5b03dd0a0e6b",
+        "url": "https:\/\/www.last.fm\/music\/Demi+Lovato"
+      },
+      "album": {
+        "artist": "Demi Lovato",
+        "title": "Sorry Not Sorry",
+        "url": "https:\/\/www.last.fm\/music\/Demi+Lovato\/Sorry+Not+Sorry",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f59e1e053bcd795ddffa483f6bff67c0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f59e1e053bcd795ddffa483f6bff67c0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f59e1e053bcd795ddffa483f6bff67c0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f59e1e053bcd795ddffa483f6bff67c0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "best of 2017",
+            "url": "https:\/\/www.last.fm\/tag\/best+of+2017"
+          },
+          {
+            "name": "hino",
+            "url": "https:\/\/www.last.fm\/tag\/hino"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "11 Jul 2017, 03:31",
+        "summary": "\"Sorry Not Sorry\" is a song recorded by American singer Demi Lovato. They co-wrote the song with Sean Douglas, Trevor Brown, William Zaire Simmons and the producer Oak Felder. It was released on July 11, 2017, through Island Records, Republic, Hollywood Records, and Safehouse Records, as the lead single from their sixth studio album Tell Me You Love Me. <a href=\"http:\/\/www.last.fm\/music\/Demi+Lovato\/_\/Sorry+Not+Sorry\">Read more on Last.fm<\/a>.",
+        "content": "\"Sorry Not Sorry\" is a song recorded by American singer Demi Lovato. They co-wrote the song with Sean Douglas, Trevor Brown, William Zaire Simmons and the producer Oak Felder. It was released on July 11, 2017, through Island Records, Republic, Hollywood Records, and Safehouse Records, as the lead single from their sixth studio album Tell Me You Love Me. <a href=\"http:\/\/www.last.fm\/music\/Demi+Lovato\/_\/Sorry+Not+Sorry\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

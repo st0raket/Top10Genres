@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:22.680086+00:00",
+  "elapsed": 0.209129,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:22.679077+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2327",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:22 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Love+Lies"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Khalid&format=json&method=track.getInfo&track=Love+Lies",
+  "_decoded_content": {
+    "track": {
+      "name": "Love Lies",
+      "url": "https:\/\/www.last.fm\/music\/Khalid\/_\/Love+Lies",
+      "duration": "201000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "95177",
+      "playcount": "443866",
+      "artist": {
+        "name": "Khalid",
+        "mbid": "c6bfb05d-f570-46c8-98e1-e25441189770",
+        "url": "https:\/\/www.last.fm\/music\/Khalid"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "538 Hitzone 86",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/538+Hitzone+86",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/dd97aed80bf86594ae6ddd5d72bb85b0.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/dd97aed80bf86594ae6ddd5d72bb85b0.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/dd97aed80bf86594ae6ddd5d72bb85b0.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/dd97aed80bf86594ae6ddd5d72bb85b0.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "soul",
+            "url": "https:\/\/www.last.fm\/tag\/soul"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "2010s",
+            "url": "https:\/\/www.last.fm\/tag\/2010s"
+          },
+          {
+            "name": "2018",
+            "url": "https:\/\/www.last.fm\/tag\/2018"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "23 Feb 2018, 22:10",
+        "summary": "\"Love Lies\" is a song recorded by American singers Khalid and Normani. It was written by Khalid, Normani, Jamil Chammas, Ryan Vojtesak and Taylor Parks, with production handled by Jack Antonoff, Charlie Handsome and Chammas. It was released commercially for digital download through RCA Records on February 14, 2018, as the second single from the movie soundtrack for Love, Simon. It is Normani's debut solo single. <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/Love+Lies\">Read more on Last.fm<\/a>.",
+        "content": "\"Love Lies\" is a song recorded by American singers Khalid and Normani. It was written by Khalid, Normani, Jamil Chammas, Ryan Vojtesak and Taylor Parks, with production handled by Jack Antonoff, Charlie Handsome and Chammas. It was released commercially for digital download through RCA Records on February 14, 2018, as the second single from the movie soundtrack for Love, Simon. It is Normani's debut solo single. <a href=\"http:\/\/www.last.fm\/music\/Khalid\/_\/Love+Lies\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

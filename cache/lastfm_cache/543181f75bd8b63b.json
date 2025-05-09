@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:32:50.507249+00:00",
+  "elapsed": 0.184915,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:32:50.507249+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4348",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:32:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Physical"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Dua+Lipa&format=json&method=track.getInfo&track=Physical",
+  "_decoded_content": {
+    "track": {
+      "name": "Physical",
+      "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Physical",
+      "duration": "193000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "863267",
+      "playcount": "15998188",
+      "artist": {
+        "name": "Dua Lipa",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa"
+      },
+      "album": {
+        "artist": "Dua Lipa",
+        "title": "Physical",
+        "url": "https:\/\/www.last.fm\/music\/Dua+Lipa\/Physical",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/f86044f961070de9cdbac5cd5b52f9fb.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/f86044f961070de9cdbac5cd5b52f9fb.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/f86044f961070de9cdbac5cd5b52f9fb.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/f86044f961070de9cdbac5cd5b52f9fb.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "dance-pop",
+            "url": "https:\/\/www.last.fm\/tag\/dance-pop"
+          },
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "31 Jan 2020, 20:11",
+        "summary": "\"It is very \u201980s inspired and quite\u00a0Flashdance-y. It\u2019s fun, you can dance to it. It\u2019s definitely my craziest of high energy songs.\"\n\n\n\"Physical\" is a song by the English Albanian singer\u00a0Dua Lipa It was released on 30 January 2020, through Warner Records on digital platforms globally and contemporary hit radio in the United Kingdom. It appears as the fourth track of her second studio album\u00a0Future Nostalgia, and it's second single.\n\nThe track features a chugging synth bassline, drums and various percussion instruments. <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Physical\">Read more on Last.fm<\/a>.",
+        "content": "\"It is very \u201980s inspired and quite\u00a0Flashdance-y. It\u2019s fun, you can dance to it. It\u2019s definitely my craziest of high energy songs.\"\n\n\n\"Physical\" is a song by the English Albanian singer\u00a0Dua Lipa It was released on 30 January 2020, through Warner Records on digital platforms globally and contemporary hit radio in the United Kingdom. It appears as the fourth track of her second studio album\u00a0Future Nostalgia, and it's second single.\n\nThe track features a chugging synth bassline, drums and various percussion instruments. Lipa uses a spoken word delivery in the prechorus, but belts and chants the chorus, which includes a reference to Olivia Newton-John's 1981 song of the same name. The lyrics describe the excitement of falling in love.\n\nIt was written by Lipa, Clarence Coffee Jr, Sarah Hudson and its producer Jason Evigan and Koz. The group had previously worked together on New Rules, the sixth single from her debut studio album. Lipa felt that the release of the song was a \"natural\" choice that would allow her to start a new chapter in her life, and chose it to be the second single from Future Nostalgia.\n\nThe music video was released in the next day, by the Catalan director Lope Serrano, who conceived the video under his company\u00a0CANADA, along with his partner Nicol\u00e1s M\u00e9ndez.\n\n\"Well, diversity was for sure very intentional. [...] At the end, the idea is that all the colours (concepts) break their chromatic group obedience and meet together in a purely human celebration of lust and freedom and eclecticism. [...] This results in a single concept forming the nucleus of the map, the centre of existence: ORGASM. [...]  Orgasm is the physical peak of being alive! [...] Well, for me it\u2019s a song about a genuine desire for human contact. It\u2019s a sexy track that drives you magnetically to a climax (let\u2019s get physical!). At the same time, the song has an increasing trajectory. The recurrent verses are repeated six times in the second half of the song as a crescendo, the same way it happens in real life with sexual arousal. [...]\n\n\u2013 Via i-D\n\nPhysical reached #2 on the Bulgaria and Ireland Singles chart, #3 on the UK Singles, and #60 on the Billboard 200. It is certified 2x PLATINUM in the UK and PLATINUM in the US, has over 1.03B streams on Spotify and 472 MILLION views on Youtube! <a href=\"http:\/\/www.last.fm\/music\/Dua+Lipa\/_\/Physical\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

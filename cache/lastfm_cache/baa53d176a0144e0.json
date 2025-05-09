@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:06.941691+00:00",
+  "elapsed": 0.236878,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:06.941691+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2165",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Katy+Perry&format=json&method=track.getInfo&track=Swish+Swish"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Katy+Perry&format=json&method=track.getInfo&track=Swish+Swish",
+  "_decoded_content": {
+    "track": {
+      "name": "Swish Swish",
+      "url": "https:\/\/www.last.fm\/music\/Katy+Perry\/_\/Swish+Swish",
+      "duration": "243000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "377431",
+      "playcount": "3744374",
+      "artist": {
+        "name": "Katy Perry",
+        "mbid": "122d63fc-8671-43e4-9752-34e846d62a9c",
+        "url": "https:\/\/www.last.fm\/music\/Katy+Perry"
+      },
+      "album": {
+        "artist": "Katy Perry",
+        "title": "Witness",
+        "url": "https:\/\/www.last.fm\/music\/Katy+Perry\/Witness",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/2d5492b077500a23e77d472375717b03.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/2d5492b077500a23e77d472375717b03.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/2d5492b077500a23e77d472375717b03.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/2d5492b077500a23e77d472375717b03.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "rap",
+            "url": "https:\/\/www.last.fm\/tag\/rap"
+          },
+          {
+            "name": "Trash",
+            "url": "https:\/\/www.last.fm\/tag\/Trash"
+          },
+          {
+            "name": "FLOP",
+            "url": "https:\/\/www.last.fm\/tag\/FLOP"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Jun 2017, 14:27",
+        "summary": "\"Swish Swish\" is a song by American singer Katy Perry featuring American rapper Nicki Minaj. It was released on May 19, 2017, and serves as the third single for Perry's fourth studio album, Witness (2017). It is a house-inspired EDM song and samples \"Star 69\" by Fatboy Slim which in turn samples \"I Get Deep\" by Roland Clark. <a href=\"http:\/\/www.last.fm\/music\/Katy+Perry\/_\/Swish+Swish\">Read more on Last.fm<\/a>.",
+        "content": "\"Swish Swish\" is a song by American singer Katy Perry featuring American rapper Nicki Minaj. It was released on May 19, 2017, and serves as the third single for Perry's fourth studio album, Witness (2017). It is a house-inspired EDM song and samples \"Star 69\" by Fatboy Slim which in turn samples \"I Get Deep\" by Roland Clark. <a href=\"http:\/\/www.last.fm\/music\/Katy+Perry\/_\/Swish+Swish\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

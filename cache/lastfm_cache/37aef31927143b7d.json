@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:42:53.673662+00:00",
+  "elapsed": 0.17779,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:53.673662+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2857",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:54 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=girl+in+red&format=json&method=track.getInfo&track=we+fell+in+love+in+october"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=girl+in+red&format=json&method=track.getInfo&track=we+fell+in+love+in+october",
+  "_decoded_content": {
+    "track": {
+      "name": "We Fell In Love In October",
+      "url": "https:\/\/www.last.fm\/music\/Girl+In+Red\/_\/We+Fell+In+Love+In+October",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1428232",
+      "playcount": "18337439",
+      "artist": {
+        "name": "Girl In Red",
+        "url": "https:\/\/www.last.fm\/music\/Girl+In+Red"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dream pop",
+            "url": "https:\/\/www.last.fm\/tag\/dream+pop"
+          },
+          {
+            "name": "bedroom pop",
+            "url": "https:\/\/www.last.fm\/tag\/bedroom+pop"
+          },
+          {
+            "name": "indie pop",
+            "url": "https:\/\/www.last.fm\/tag\/indie+pop"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https:\/\/www.last.fm\/tag\/singer-songwriter"
+          },
+          {
+            "name": "jangle pop",
+            "url": "https:\/\/www.last.fm\/tag\/jangle+pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Feb 2022, 20:26",
+        "summary": "\u201cwe fell in love in october\u201d is about girl in red and her relationship with another girl. The song is about how they fell in love during fall and Marie\u2019s (girl in red\u2019s) feelings toward her.\n\nIn an interview with The Fader, Marie states that there was a lot of drama between the two and that she struggled accepting her. After a while when everything began to settle in, she accepted her and created this song as a tribute.\n\nThis song is a prequel to girl in red\u2019s \u201cforget her\u201d, which is about the two breaking up. <a href=\"http:\/\/www.last.fm\/music\/Girl+In+Red\/_\/We+Fell+In+Love+In+October\">Read more on Last.fm<\/a>.",
+        "content": "\u201cwe fell in love in october\u201d is about girl in red and her relationship with another girl. The song is about how they fell in love during fall and Marie\u2019s (girl in red\u2019s) feelings toward her.\n\nIn an interview with The Fader, Marie states that there was a lot of drama between the two and that she struggled accepting her. After a while when everything began to settle in, she accepted her and created this song as a tribute.\n\nThis song is a prequel to girl in red\u2019s \u201cforget her\u201d, which is about the two breaking up. \u201cwe fell in love in october\u201d is girl in red\u2019s most popular song on Spotify to date.\n\n\"I wrote in 2015, and it\u2019s basically the first song I wrote about a girl in the first relationship I had with a girl. I had broken up with my boyfriend and I\u2019d been in this relationship with this girl and it\u2019s just me declaring my love for this girl. Just screaming, \u201cMy girl, my girl!\u201d twenty times in the chorus and sort of just owning it because I struggled a long time accepting it, and there was so much shit going on with this girl, there was just so much drama. It\u2019s about when things have kind of settled and I\u2019m like Fuck yeah, this is my girl. And you will be my girl. I don\u2019t know, I love this girl.\"\n\n\u2014girl in red, The Fader <a href=\"http:\/\/www.last.fm\/music\/Girl+In+Red\/_\/We+Fell+In+Love+In+October\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

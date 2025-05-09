@@ -1,0 +1,100 @@
+{
+  "created_at": "2025-05-03T14:33:59.118442+00:00",
+  "elapsed": 0.183805,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:59.118442+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2411",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:59 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=you+broke+me+first"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Tate+McRae&format=json&method=track.getInfo&track=you+broke+me+first",
+  "_decoded_content": {
+    "track": {
+      "name": "you broke me first",
+      "url": "https:\/\/www.last.fm\/music\/Tate+McRae\/_\/you+broke+me+first",
+      "duration": "165000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "692375",
+      "playcount": "7382619",
+      "artist": {
+        "name": "Tate McRae",
+        "url": "https:\/\/www.last.fm\/music\/Tate+McRae"
+      },
+      "album": {
+        "artist": "Various Artists",
+        "title": "Now That's What I Call Music Vol. 83",
+        "url": "https:\/\/www.last.fm\/music\/Various+Artists\/Now+That%27s+What+I+Call+Music+Vol.+83",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/a31c433a70cddb42953998d7f3e42be9.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "electropop",
+            "url": "https:\/\/www.last.fm\/tag\/electropop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Canadian",
+            "url": "https:\/\/www.last.fm\/tag\/Canadian"
+          },
+          {
+            "name": "2020",
+            "url": "https:\/\/www.last.fm\/tag\/2020"
+          },
+          {
+            "name": "2020s",
+            "url": "https:\/\/www.last.fm\/tag\/2020s"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "27 Mar 2022, 12:37",
+        "summary": "\u201cyou broke me first\u201d finds Tate confronting an ex who\u2019s returned and wants to rekindle their painful relationship.\n\nThe song initially released on McRae\u2019s YouTube channel on April 12, 2020, with piano instrumentals only. On the official release five days later, drums, backing vocals, and other instruments were added to the production. Some melodies were changed between Tate\u2019s first and official versions. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/you+broke+me+first\">Read more on Last.fm<\/a>.",
+        "content": "\u201cyou broke me first\u201d finds Tate confronting an ex who\u2019s returned and wants to rekindle their painful relationship.\n\nThe song initially released on McRae\u2019s YouTube channel on April 12, 2020, with piano instrumentals only. On the official release five days later, drums, backing vocals, and other instruments were added to the production. Some melodies were changed between Tate\u2019s first and official versions. <a href=\"http:\/\/www.last.fm\/music\/Tate+McRae\/_\/you+broke+me+first\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

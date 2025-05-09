@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:34:46.487587+00:00",
+  "elapsed": 0.208437,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:34:46.487587+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "802",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:34:46 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zuna&format=json&method=track.getInfo&track=Nshallah"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Zuna&format=json&method=track.getInfo&track=Nshallah",
+  "_decoded_content": {
+    "track": {
+      "name": "Nshallah",
+      "url": "https:\/\/www.last.fm\/music\/Zuna\/_\/Nshallah",
+      "duration": "153000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "2244",
+      "playcount": "12214",
+      "artist": {
+        "name": "Zuna",
+        "url": "https:\/\/www.last.fm\/music\/Zuna"
+      },
+      "album": {
+        "artist": "Zuna",
+        "title": "Mele7 2",
+        "url": "https:\/\/www.last.fm\/music\/Zuna\/Mele7+2",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/7b94bb7f5a8b20df2500cd084db9087b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/7b94bb7f5a8b20df2500cd084db9087b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/7b94bb7f5a8b20df2500cd084db9087b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/7b94bb7f5a8b20df2500cd084db9087b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2025-05-03T14:43:05.423439+00:00",
+  "elapsed": 0.203048,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:05.423439+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2357",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:05 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Die+For+You+%28with+Ariana+Grande%29+-+Remix"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Die+For+You+%28with+Ariana+Grande%29+-+Remix",
+  "_decoded_content": {
+    "track": {
+      "name": "Die For You (with Ariana Grande) - Remix",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You+(with+Ariana+Grande)+-+Remix",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "645268",
+      "playcount": "4487311",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "Ariana Grande",
+            "url": "https:\/\/www.last.fm\/tag\/Ariana+Grande"
+          },
+          {
+            "name": "sexy",
+            "url": "https:\/\/www.last.fm\/tag\/sexy"
+          },
+          {
+            "name": "remix",
+            "url": "https:\/\/www.last.fm\/tag\/remix"
+          },
+          {
+            "name": "Ballad",
+            "url": "https:\/\/www.last.fm\/tag\/Ballad"
+          },
+          {
+            "name": "duet",
+            "url": "https:\/\/www.last.fm\/tag\/duet"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "07 Apr 2023, 08:30",
+        "summary": "Six years after the song\u2019s official release, The Weeknd reunites with the multi-talented Ariana Grande for the official remix of Abel\u2019s 2016 hit \u201cDie for You.\u201d The two had previously collaborated on the \u201cSave Your Tears\u201d remix in 2021, as well as Ariana\u2019s \u201coff the table\u201d in 2020 and \u201cLove Me Harder\u201d in 2014.\n\nThe remix was later included on Starboy (Deluxe), the deluxe edition of Abel\u2019s third studio album Starboy, on March 14th, 2023. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You+(with+Ariana+Grande)+-+Remix\">Read more on Last.fm<\/a>.",
+        "content": "Six years after the song\u2019s official release, The Weeknd reunites with the multi-talented Ariana Grande for the official remix of Abel\u2019s 2016 hit \u201cDie for You.\u201d The two had previously collaborated on the \u201cSave Your Tears\u201d remix in 2021, as well as Ariana\u2019s \u201coff the table\u201d in 2020 and \u201cLove Me Harder\u201d in 2014.\n\nThe remix was later included on Starboy (Deluxe), the deluxe edition of Abel\u2019s third studio album Starboy, on March 14th, 2023.\n\nThanks to TikTok, the original song saw a surge in popularity in early 2023, reaching a new peak on the Billboard Top 100 at #6. This led Ariana to share part of her verse on social media, hinting at a possible collaboration between the two artists. One day later, on February 22, both artists announced their shared remix to the public. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Die+For+You+(with+Ariana+Grande)+-+Remix\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

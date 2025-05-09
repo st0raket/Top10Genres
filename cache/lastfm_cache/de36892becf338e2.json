@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:35:10.798235+00:00",
+  "elapsed": 0.185799,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:35:10.798235+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1568",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:35:11 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GIV%C4%92ON&format=json&method=track.getInfo&track=LIKE+I+WANT+YOU"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=GIV%C4%92ON&format=json&method=track.getInfo&track=LIKE+I+WANT+YOU",
+  "_decoded_content": {
+    "track": {
+      "name": "Like I Want You",
+      "url": "https:\/\/www.last.fm\/music\/GIV%C4%92ON\/_\/Like+I+Want+You",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "123211",
+      "playcount": "538749",
+      "artist": {
+        "name": "GIV\u0112ON",
+        "url": "https:\/\/www.last.fm\/music\/GIV%C4%92ON"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "04 Mar 2025, 19:32",
+        "summary": "\u201cLIKE I WANT YOU\u201d is GIV\u0112ON\u2019s first lead single teasing the release of his debut album Take Time. Stuck and reminiscing on what was, GIV\u0112ON pours out his soul in hopes that his love interest will come back to him. Afraid that that the person has already moved on, he hides his true feelings in a failed attempt to do the same. \n\nAs stated in interviews, the song was written in the perspective of a close friend rather than in a personal position. <a href=\"http:\/\/www.last.fm\/music\/GIV%C4%92ON\/_\/Like+I+Want+You\">Read more on Last.fm<\/a>.",
+        "content": "\u201cLIKE I WANT YOU\u201d is GIV\u0112ON\u2019s first lead single teasing the release of his debut album Take Time. Stuck and reminiscing on what was, GIV\u0112ON pours out his soul in hopes that his love interest will come back to him. Afraid that that the person has already moved on, he hides his true feelings in a failed attempt to do the same. \n\nAs stated in interviews, the song was written in the perspective of a close friend rather than in a personal position. <a href=\"http:\/\/www.last.fm\/music\/GIV%C4%92ON\/_\/Like+I+Want+You\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

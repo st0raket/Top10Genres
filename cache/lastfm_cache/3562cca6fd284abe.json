@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:29:07.435325+00:00",
+  "elapsed": 0.212631,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:29:07.435325+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "1378",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:29:07 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elvis+Presley&format=json&method=track.getInfo&track=Blue+Christmas"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Elvis+Presley&format=json&method=track.getInfo&track=Blue+Christmas",
+  "_decoded_content": {
+    "track": {
+      "name": "Blue Christmas",
+      "mbid": "dc4510ee-056b-4ff8-a5fe-97fa8e122bc0",
+      "url": "https:\/\/www.last.fm\/music\/Elvis+Presley\/_\/Blue+Christmas",
+      "duration": "129000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "835685",
+      "playcount": "3174675",
+      "artist": {
+        "name": "Elvis Presley",
+        "mbid": "01809552-4f87-45b0-afff-2c6f0730a3be",
+        "url": "https:\/\/www.last.fm\/music\/Elvis+Presley"
+      },
+      "album": {
+        "artist": "Elvis Presley",
+        "title": "Elvis' Christmas Album",
+        "mbid": "2e427dea-3565-4ba6-963b-2b2e271b0d53",
+        "url": "https:\/\/www.last.fm\/music\/Elvis+Presley\/Elvis%27+Christmas+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/fb8c9c6544521f7610370c92356645fd.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/fb8c9c6544521f7610370c92356645fd.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/fb8c9c6544521f7610370c92356645fd.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/fb8c9c6544521f7610370c92356645fd.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "5"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "christmas",
+            "url": "https:\/\/www.last.fm\/tag\/christmas"
+          },
+          {
+            "name": "xmas",
+            "url": "https:\/\/www.last.fm\/tag\/xmas"
+          },
+          {
+            "name": "Christmas Songs",
+            "url": "https:\/\/www.last.fm\/tag\/Christmas+Songs"
+          },
+          {
+            "name": "holiday",
+            "url": "https:\/\/www.last.fm\/tag\/holiday"
+          },
+          {
+            "name": "Elvis Presley",
+            "url": "https:\/\/www.last.fm\/tag\/Elvis+Presley"
+          }
+        ]
+      }
+    }
+  }
+}

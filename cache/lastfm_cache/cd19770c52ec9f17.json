@@ -1,0 +1,106 @@
+{
+  "created_at": "2025-05-03T14:43:20.463876+00:00",
+  "elapsed": 0.184504,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:20.463876+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2920",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Don%27t+Stop+The+Music"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Rihanna&format=json&method=track.getInfo&track=Don%27t+Stop+The+Music",
+  "_decoded_content": {
+    "track": {
+      "name": "Don't Stop the Music",
+      "mbid": "a5e848c5-7155-4dfc-931d-df4b01f3a989",
+      "url": "https:\/\/www.last.fm\/music\/Rihanna\/_\/Don%27t+Stop+the+Music",
+      "duration": "267000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1968779",
+      "playcount": "12950760",
+      "artist": {
+        "name": "Rihanna",
+        "mbid": "db36a76f-4cdf-43ac-8cd0-5e48092d2bae",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna"
+      },
+      "album": {
+        "artist": "Rihanna",
+        "title": "Good Girl Gone Bad",
+        "mbid": "e0d582b5-5f0b-4dda-b1c2-3c34b7ecab8c",
+        "url": "https:\/\/www.last.fm\/music\/Rihanna\/Good+Girl+Gone+Bad",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/aa254b77897ce330348b1be77edfe6bf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/aa254b77897ce330348b1be77edfe6bf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/aa254b77897ce330348b1be77edfe6bf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/aa254b77897ce330348b1be77edfe6bf.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "3"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "dance",
+            "url": "https:\/\/www.last.fm\/tag\/dance"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Rihanna",
+            "url": "https:\/\/www.last.fm\/tag\/Rihanna"
+          },
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https:\/\/www.last.fm\/tag\/female+vocalists"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "04 May 2015, 02:48",
+        "summary": "\"Don't Stop the Music\" is a song recorded by Barbadian singer Rihanna for her 2007 album \"Good Girl Gone Bad\". It was written by Tawanna Dabney, Michael Jackson, and StarGate. The song was released as the album's fourth single on September 7, 2007 worldwide. \"Don't Stop the Music\" is a dance-pop and techno song that features various rhythmic devices used mainly in hip hop music. The song samples the line, \"Mama-say, mama-sa, ma-ma-ko-ssa\" which is taken from Jackson's 1983 single \"Wanna Be Startin' Somethin'\". <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Don%27t+Stop+the+Music\">Read more on Last.fm<\/a>.",
+        "content": "\"Don't Stop the Music\" is a song recorded by Barbadian singer Rihanna for her 2007 album \"Good Girl Gone Bad\". It was written by Tawanna Dabney, Michael Jackson, and StarGate. The song was released as the album's fourth single on September 7, 2007 worldwide. \"Don't Stop the Music\" is a dance-pop and techno song that features various rhythmic devices used mainly in hip hop music. The song samples the line, \"Mama-say, mama-sa, ma-ma-ko-ssa\" which is taken from Jackson's 1983 single \"Wanna Be Startin' Somethin'\". For using the line, both Rihanna and Jackson faced a lawsuit from the Cameroonian musician Manu Dibango, who claimed that the hook originates from his 1972 song \"Soul Makossa\". <a href=\"http:\/\/www.last.fm\/music\/Rihanna\/_\/Don%27t+Stop+the+Music\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

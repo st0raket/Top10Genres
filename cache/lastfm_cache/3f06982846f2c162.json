@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:28:19.691420+00:00",
+  "elapsed": 0.205158,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:28:19.691420+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4661",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:28:20 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Red+Velvet&format=json&method=track.getInfo&track=%EB%B9%A8%EA%B0%84+%EB%A7%9B+Red+Flavor"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Red+Velvet&format=json&method=track.getInfo&track=%EB%B9%A8%EA%B0%84+%EB%A7%9B+Red+Flavor",
+  "_decoded_content": {
+    "track": {
+      "name": "\ube68\uac04 \ub9db Red Flavor",
+      "url": "https:\/\/www.last.fm\/music\/Red+Velvet\/_\/%EB%B9%A8%EA%B0%84+%EB%A7%9B+Red+Flavor",
+      "duration": "191000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "81929",
+      "playcount": "1236595",
+      "artist": {
+        "name": "Red Velvet",
+        "mbid": "4f0cb3b7-6c06-4317-ae35-ddf3106a17ee",
+        "url": "https:\/\/www.last.fm\/music\/Red+Velvet"
+      },
+      "album": {
+        "artist": "Red Velvet",
+        "title": "The Red Summer - Summer Mini Album",
+        "url": "https:\/\/www.last.fm\/music\/Red+Velvet\/The+Red+Summer+-+Summer+Mini+Album",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/b23fcb8fe10d1223e09a34f412120d3b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/b23fcb8fe10d1223e09a34f412120d3b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/b23fcb8fe10d1223e09a34f412120d3b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/b23fcb8fe10d1223e09a34f412120d3b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "Korean",
+            "url": "https:\/\/www.last.fm\/tag\/Korean"
+          },
+          {
+            "name": "Kpop",
+            "url": "https:\/\/www.last.fm\/tag\/Kpop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "summer",
+            "url": "https:\/\/www.last.fm\/tag\/summer"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "01 Jun 2021, 01:51",
+        "summary": "\"Red Flavor\" (Korean: \ube68\uac04 \ub9db; RR: Ppalgan mat) is a song recorded by South Korean girl group Red Velvet for their first Korean special extended play, The Red Summer (2017). Written by SM Entertainment songwriter Kenzie, and produced by Daniel Caesar and Ludwig Lindell (known collectively as production duo Caesar & Loui), it is primarily a dance-pop song with synths and percussion. The song reflects the summer funky vibe, while the lyrics hint towards a young relationship with summer references. <a href=\"http:\/\/www.last.fm\/music\/Red+Velvet\/_\/%EB%B9%A8%EA%B0%84+%EB%A7%9B+Red+Flavor\">Read more on Last.fm<\/a>.",
+        "content": "\"Red Flavor\" (Korean: \ube68\uac04 \ub9db; RR: Ppalgan mat) is a song recorded by South Korean girl group Red Velvet for their first Korean special extended play, The Red Summer (2017). Written by SM Entertainment songwriter Kenzie, and produced by Daniel Caesar and Ludwig Lindell (known collectively as production duo Caesar & Loui), it is primarily a dance-pop song with synths and percussion. The song reflects the summer funky vibe, while the lyrics hint towards a young relationship with summer references. It was released as the lead single from the EP on July 9, 2017 by SM Entertainment with Genie Music as the distributor, along with an accompanying fruit-infused music video that sees the members interviewing different types of fruit while having fun at an in-house party.\n\nUpon its release, \"Red Flavor\" received positive reviews from music critics, who praised the hook and catchiness. The song has since appeared on several year-end lists from critics and eventually earned Red Velvet their first win in the Korean Music Awards at the 2018 ceremony, in the category of Best Pop Song. In 2019, Billboard ranked the song as the second greatest K-pop song of the 2010s. The song was a commercial success in South Korea, becoming the group's first number one and to date, their longest charting single on the Gaon Digital Chart and their fifth song to sell over a million downloads. It is Red Velvet's longest-charting single, and subsequently one of the longest-charting girl group songs on the Gaon Digital Chart. It also attained international success for the group, peaking at number four on Billboard's World Digital Songs chart while becoming their first single to enter the Billboard charts in Japan and the Philippines.\n\nSince its release, Red Velvet has performed \"Red Flavor\" for all of their headlining concert tours. The song is also notable for being part of their performance during the Spring is Coming concert in Pyongyang at the East Pyongyang Grand Theatre (the other being \"Bad Boy\") to an audience that included Korean Workers' Party chairman Kim Jong-un. The concert was seen as an act of a wider diplomatic initiative between South Korea and North Korea. The group's appearance at the concert made them only the fifth idol group to ever perform in North Korea and the first artist from SM Entertainment in 15 years since boy group Shinhwa. The song has been adapted into an orchestral version by Seoul Philharmonic Orchestra, with the arrangement of Park In-young. <a href=\"http:\/\/www.last.fm\/music\/Red+Velvet\/_\/%EB%B9%A8%EA%B0%84+%EB%A7%9B+Red+Flavor\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

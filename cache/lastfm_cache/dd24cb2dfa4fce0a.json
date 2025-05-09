@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:43.639062+00:00",
+  "elapsed": 0.189699,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:43.639062+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "4633",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:43 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fleetwood+Mac&format=json&method=track.getInfo&track=Dreams+-+2004+Remaster"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Fleetwood+Mac&format=json&method=track.getInfo&track=Dreams+-+2004+Remaster",
+  "_decoded_content": {
+    "track": {
+      "name": "Dreams - 2004 Remaster",
+      "url": "https:\/\/www.last.fm\/music\/Fleetwood+Mac\/_\/Dreams+-+2004+Remaster",
+      "duration": "257000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1446944",
+      "playcount": "18656732",
+      "artist": {
+        "name": "Fleetwood Mac",
+        "mbid": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a",
+        "url": "https:\/\/www.last.fm\/music\/Fleetwood+Mac"
+      },
+      "album": {
+        "artist": "Fleetwood Mac",
+        "title": "Rumours [ORIGINAL RECORDING REMASTERED]",
+        "url": "https:\/\/www.last.fm\/music\/Fleetwood+Mac\/Rumours+%5BORIGINAL+RECORDING+REMASTERED%5D",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/eeb5daab500d160f2ba745fdb1e79692.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/eeb5daab500d160f2ba745fdb1e79692.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/eeb5daab500d160f2ba745fdb1e79692.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/eeb5daab500d160f2ba745fdb1e79692.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https:\/\/www.last.fm\/tag\/rock"
+          },
+          {
+            "name": "classic rock",
+            "url": "https:\/\/www.last.fm\/tag\/classic+rock"
+          },
+          {
+            "name": "mistagged",
+            "url": "https:\/\/www.last.fm\/tag\/mistagged"
+          },
+          {
+            "name": "Iconic",
+            "url": "https:\/\/www.last.fm\/tag\/Iconic"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "13 Feb 2021, 21:53",
+        "summary": "\"Dreams\" is a song written by singer Stevie Nicks, for the group Fleetwood Mac's 1977 album \"Rumours\". The song was the only U.S. number one hit for the group, and remains one of their best known songs. In the lyrics, a woman warns a man that he can be driven mad by loneliness in the wake of a broken love affair.\n\nThe members of Fleetwood Mac were experiencing emotional upheavals while recording \"Rumours\". Drummer Mick Fleetwood was going through a divorce. <a href=\"http:\/\/www.last.fm\/music\/Fleetwood+Mac\/_\/Dreams+-+2004+Remaster\">Read more on Last.fm<\/a>.",
+        "content": "\"Dreams\" is a song written by singer Stevie Nicks, for the group Fleetwood Mac's 1977 album \"Rumours\". The song was the only U.S. number one hit for the group, and remains one of their best known songs. In the lyrics, a woman warns a man that he can be driven mad by loneliness in the wake of a broken love affair.\n\nThe members of Fleetwood Mac were experiencing emotional upheavals while recording \"Rumours\". Drummer Mick Fleetwood was going through a divorce. Bass player John McVie was separating from his wife, keyboard player Christine McVie. Guitarist Lindsey Buckingham and Nicks were ending their eight-year relationship. \"We had to go through this elaborate exercise of denial,\" explains Buckingham to Blender Magazine, \"keeping our personal feelings in one corner of the room while trying to be professional in the other.\" These circumstances inspired the writing of \"Dreams.\"\n\nNicks wrote the song at the Record Plant studio in Sausalito, California, in early 1976. \"One day when I wasn't required in the main studio,\" remembers singer Stevie Nicks to Blender, \"I took a Fender Rhodes piano and went into another studio that was said to belong to Sly, of Sly & the Family Stone. It was a black-and-red room, with a sunken pit in the middle where there was a piano, and a big black-velvet bed with Victorian drapes.\"\n\n\"I sat down on the bed with my keyboard in front of me,\" continues Nicks. \"I found a drum pattern, switched my little cassette player on and wrote 'Dreams' in about 10 minutes. Right away I liked the fact that I was doing something with a dance beat, because that made it a little unusual for me.\"\n\nWhen Nicks played the song to the rest of the group, they decided to record it the following day. Only a basic track was recorded at Sausalito. Recording assistant Cris Morris remembers that \"all (they) kept was the drum track and live vocal from Stevie \u2014 the guitars and bass were added later in Los Angeles.\"\n\nChristine McVie described the song as having \"just three chords and one note in the left hand\" and \"boring\" when Nicks played a rough version on the piano. McVie changed her mind, after Lindsey \"fashioned three sections out of identical chords, making each section sound completely different. He created the impression that there\u2019s a thread running through the whole thing.\"\n\n\"Dreams\" reached the number one spot in the United States on June 18, 1977, and held it for one week. It went to #24 in the United Kingdom. <a href=\"http:\/\/www.last.fm\/music\/Fleetwood+Mac\/_\/Dreams+-+2004+Remaster\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

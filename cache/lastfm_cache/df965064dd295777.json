@@ -1,0 +1,74 @@
+{
+  "created_at": "2025-05-03T14:33:49.996276+00:00",
+  "elapsed": 0.285782,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:33:49.995635+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "906",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:33:50 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Hate+the+Other+Side"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Juice+WRLD&format=json&method=track.getInfo&track=Hate+the+Other+Side",
+  "_decoded_content": {
+    "track": {
+      "name": "Hate The Other Side",
+      "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/_\/Hate+The+Other+Side",
+      "duration": "160000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "3938",
+      "playcount": "28990",
+      "artist": {
+        "name": "Juice WRLD",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD"
+      },
+      "album": {
+        "artist": "Juice WRLD",
+        "title": "Legends Never Die (Video Version)",
+        "url": "https:\/\/www.last.fm\/music\/Juice+WRLD\/Legends+Never+Die+(Video+Version)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/8a63edf8d5ba9f44af2a32f56e038145.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/8a63edf8d5ba9f44af2a32f56e038145.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/8a63edf8d5ba9f44af2a32f56e038145.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/8a63edf8d5ba9f44af2a32f56e038145.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

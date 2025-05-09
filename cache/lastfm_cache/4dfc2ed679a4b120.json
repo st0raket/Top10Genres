@@ -1,0 +1,101 @@
+{
+  "created_at": "2025-05-03T14:42:24.053830+00:00",
+  "elapsed": 0.200878,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:42:24.053830+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2840",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:42:24 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Niagara+Falls"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=The+Weeknd&format=json&method=track.getInfo&track=Niagara+Falls",
+  "_decoded_content": {
+    "track": {
+      "name": "Niagara Falls",
+      "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/_\/Niagara+Falls",
+      "duration": "277000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "246157",
+      "playcount": "1833980",
+      "artist": {
+        "name": "The Weeknd",
+        "mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd"
+      },
+      "album": {
+        "artist": "The Weeknd",
+        "title": "Hurry Up Tomorrow (First Press)",
+        "url": "https:\/\/www.last.fm\/music\/The+Weeknd\/Hurry+Up+Tomorrow+(First+Press)",
+        "image": [
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/34s\/6903d4f2a6e18e6bf95e772ec759a6dc.png",
+            "size": "small"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/64s\/6903d4f2a6e18e6bf95e772ec759a6dc.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/174s\/6903d4f2a6e18e6bf95e772ec759a6dc.png",
+            "size": "large"
+          },
+          {
+            "#text": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/300x300\/6903d4f2a6e18e6bf95e772ec759a6dc.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rnb",
+            "url": "https:\/\/www.last.fm\/tag\/rnb"
+          },
+          {
+            "name": "Progressive Electronic",
+            "url": "https:\/\/www.last.fm\/tag\/Progressive+Electronic"
+          },
+          {
+            "name": "alternative rnb",
+            "url": "https:\/\/www.last.fm\/tag\/alternative+rnb"
+          },
+          {
+            "name": "chipmunk soul",
+            "url": "https:\/\/www.last.fm\/tag\/chipmunk+soul"
+          },
+          {
+            "name": "synthpop",
+            "url": "https:\/\/www.last.fm\/tag\/synthpop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "17 Feb 2025, 09:36",
+        "summary": "\u201cNiagara Falls\"  continues The Weeknd\u2019s tradition of introspective and emotionally charged R&B ballads. The song features a sample from \u201cSomeone to Love (feat. Babyface)\u201d by Jon B. featuring Babyface.\n\nSet against the backdrop of the iconic Niagara Falls\u2014a place symbolizing romance and fleeting moments\u2014the song explores the complexities of a past relationship, highlighting themes of love, regret, and self-reflection.\n\nThrough vivid imagery <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Niagara+Falls\">Read more on Last.fm<\/a>.",
+        "content": "\u201cNiagara Falls\"  continues The Weeknd\u2019s tradition of introspective and emotionally charged R&B ballads. The song features a sample from \u201cSomeone to Love (feat. Babyface)\u201d by Jon B. featuring Babyface.\n\nSet against the backdrop of the iconic Niagara Falls\u2014a place symbolizing romance and fleeting moments\u2014the song explores the complexities of a past relationship, highlighting themes of love, regret, and self-reflection.\n\nThrough vivid imagery, The Weeknd reflects on his emotional journey, navigating the distance between his past self and the man he\u2019s become. The contrast between the song\u2019s two sections mirrors the emotional progression in the lyrics\u2014from reflecting on the past to acknowledging change and growth. <a href=\"http:\/\/www.last.fm\/music\/The+Weeknd\/_\/Niagara+Falls\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

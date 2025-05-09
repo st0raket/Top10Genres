@@ -1,0 +1,77 @@
+{
+  "created_at": "2025-05-03T14:43:26.107787+00:00",
+  "elapsed": 0.180788,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:26.107787+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2297",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:26 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NAYEON&format=json&method=track.getInfo&track=POP%21"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=NAYEON&format=json&method=track.getInfo&track=POP%21",
+  "_decoded_content": {
+    "track": {
+      "name": "POP!",
+      "url": "https:\/\/www.last.fm\/music\/Nayeon\/_\/POP%21",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "497053",
+      "playcount": "10616429",
+      "artist": {
+        "name": "Nayeon",
+        "url": "https:\/\/www.last.fm\/music\/Nayeon"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "k-pop",
+            "url": "https:\/\/www.last.fm\/tag\/k-pop"
+          },
+          {
+            "name": "pop pop pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop+pop+pop"
+          },
+          {
+            "name": "pop",
+            "url": "https:\/\/www.last.fm\/tag\/pop"
+          },
+          {
+            "name": "Queen",
+            "url": "https:\/\/www.last.fm\/tag\/Queen"
+          },
+          {
+            "name": "twice",
+            "url": "https:\/\/www.last.fm\/tag\/twice"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "05 Nov 2022, 21:02",
+        "summary": "Following the South Korean girl group TWICE\u2019s third full-length studio album Formula of Love: O+T=\u02c23 in November 2021 and their sold-out North American tour in early 2022, the group\u2019s center NAYEON returns with the bubbly \u201cPOP!\u201d. The song marks the first solo release from any member of TWICE and is the leading single from NAYEON\u2019s debut solo EP IM NAYEON.\n\nCo-written by several frequent collaborators of TWICE, \u201cPOP!\u201d expresses affection and exhilaration of love <a href=\"http:\/\/www.last.fm\/music\/Nayeon\/_\/POP%21\">Read more on Last.fm<\/a>.",
+        "content": "Following the South Korean girl group TWICE\u2019s third full-length studio album Formula of Love: O+T=\u02c23 in November 2021 and their sold-out North American tour in early 2022, the group\u2019s center NAYEON returns with the bubbly \u201cPOP!\u201d. The song marks the first solo release from any member of TWICE and is the leading single from NAYEON\u2019s debut solo EP IM NAYEON.\n\nCo-written by several frequent collaborators of TWICE, \u201cPOP!\u201d expresses affection and exhilaration of love, continuing to explore some of the familiar themes in TWICE\u2019s discography. The summery music video of the song is accompanied by imageries including balloons, bubbles, and lollipops, showcasing the vibrant choreography and colorful sets.\n\nInterestingly, as fans noticed, although the apostrophe is not included in the EP title, it is highlighted in the music video as NAYEON throws her jacket and also points between the letters \u201cI\u201d and \u201cM\u201d: <a href=\"http:\/\/www.last.fm\/music\/Nayeon\/_\/POP%21\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}

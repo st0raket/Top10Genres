@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-05-03T14:31:42.351757+00:00",
+  "elapsed": 0.301319,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:31:42.351757+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "312",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:31:42 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Reik&format=json&method=track.getInfo&track=Aleluya"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Reik&format=json&method=track.getInfo&track=Aleluya",
+  "_decoded_content": {
+    "track": {
+      "name": "Aleluya",
+      "url": "https:\/\/www.last.fm\/music\/Reik\/_\/Aleluya",
+      "duration": "158000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "23655",
+      "playcount": "144101",
+      "artist": {
+        "name": "Reik",
+        "mbid": "04cff564-a2e3-4560-8e7e-bc2539e7b46c",
+        "url": "https:\/\/www.last.fm\/music\/Reik"
+      },
+      "toptags": {
+        "tag": []
+      }
+    }
+  }
+}

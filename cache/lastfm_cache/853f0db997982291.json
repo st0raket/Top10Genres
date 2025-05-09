@@ -1,0 +1,56 @@
+{
+  "created_at": "2025-05-03T14:43:16.647236+00:00",
+  "elapsed": 0.21325,
+  "encoding": "utf-8",
+  "expires": "2025-05-04T14:43:16.647236+00:00",
+  "headers": {
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Content-Length": "2316",
+    "Content-Type": "application\/json",
+    "Date": "Sat, 03 May 2025 14:43:16 GMT",
+    "Server": "openresty\/1.13.6.2",
+    "Via": "1.1 google"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*\/*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests\/2.31.0"
+    },
+    "method": "GET",
+    "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Junior+H&format=json&method=track.getInfo&track=El+Tsurito"
+  },
+  "status_code": 200,
+  "url": "https:\/\/ws.audioscrobbler.com\/2.0\/?api_key=REDACTED&artist=Junior+H&format=json&method=track.getInfo&track=El+Tsurito",
+  "_decoded_content": {
+    "track": {
+      "name": "El Tsurito",
+      "url": "https:\/\/www.last.fm\/music\/Junior+H\/_\/El+Tsurito",
+      "duration": "0",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "44878",
+      "playcount": "633956",
+      "artist": {
+        "name": "Junior H",
+        "url": "https:\/\/www.last.fm\/music\/Junior+H"
+      },
+      "toptags": {
+        "tag": []
+      },
+      "wiki": {
+        "published": "17 Sep 2023, 20:25",
+        "summary": "La canci\u00f3n \"El Tsurito\" de Junior H, Gabito Ballesteros y Peso Pluma profundiza el mundo del narcotr\u00e1fico y su relaci\u00f3n con el gobierno. Inicia con un grupo de hombres inhalando coca\u00edna. Se describen fuertemente armados y sin miedo a lo que pase. Al mismo momento llega la Marina que es a lo que hace referencia el verso \"parec\u00eda dulcer\u00eda, Marinela nos ca\u00eda\", Dulcer\u00eda por la empresa de dulces Marinela. Intercambian palabras diciendo que tienen armas como AKs <a href=\"http:\/\/www.last.fm\/music\/Junior+H\/_\/El+Tsurito\">Read more on Last.fm<\/a>.",
+        "content": "La canci\u00f3n \"El Tsurito\" de Junior H, Gabito Ballesteros y Peso Pluma profundiza el mundo del narcotr\u00e1fico y su relaci\u00f3n con el gobierno. Inicia con un grupo de hombres inhalando coca\u00edna. Se describen fuertemente armados y sin miedo a lo que pase. Al mismo momento llega la Marina que es a lo que hace referencia el verso \"parec\u00eda dulcer\u00eda, Marinela nos ca\u00eda\", Dulcer\u00eda por la empresa de dulces Marinela. Intercambian palabras diciendo que tienen armas como AKs, granadas y lanzagranadas para defenderse, y que mejor se resuelva con dinero, ya que les sobra. El sargento responde diciendo que as\u00ed le gusta, que sepan que son de los mismos, haciendo referencia a que tambi\u00e9n est\u00e1n coludidos. El sargento termina diciendo que si los deja ir se tienen que \"arreglar\" dando a entender que habr\u00e1 dinero de por medio. Al final de la canci\u00f3n uno de los hombres pide hablar con el encargado o que se los va a llevar el diablo, por lo que se entiende que habr\u00e1 un enfrentamiento. En resumen, las letras describen las duras realidades de este mundo, incluyendo lidiar con la corrupci\u00f3n en las autoridades y la constante amenaza de violencia. Seguido de la alianza que tienen los c\u00e1rteles con jefes del gobierno. <a href=\"http:\/\/www.last.fm\/music\/Junior+H\/_\/El+Tsurito\">Read more on Last.fm<\/a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      }
+    }
+  }
+}
